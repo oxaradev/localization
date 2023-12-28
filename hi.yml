@@ -31,8 +31,7 @@ network:
 
   nsfw:
     title: NSFW पहचाना गया
-    description: I have detected {{predictions}} NSFW (Not Safe For Work) content in your message. Please be aware that this is against our </rules:924659340898619395> and will result in immediate blacklist.
-    आपके संदेश में {{predictions}} NSFW (काम के लिए सुरक्षित नहीं) सामग्री की पहचान की गई है। कृपया ध्यान दें कि यह हमारे </rules:924659340898619395> के खिलाफ है और तुरंत ब्लैकलिस्ट में परिणाम होगा।
+    description: आपके संदेश में {{predictions}} NSFW (काम के लिए सुरक्षित नहीं) सामग्री की पहचान की गई है। कृपया ध्यान दें कि यह हमारे </rules:924659340898619395> के खिलाफ है और तुरंत ब्लैकलिस्ट में परिणाम होगा।
     footer: कृपया ध्यान दें कि AI पूरी तरह से सही नहीं है और गलतियों का संभावना है। हम किसी भी असुविधा के लिए खेद करते हैं।
 
   onboarding:
@@ -69,7 +68,7 @@ blacklist:
     unknownError: ब्लैक्लिस्ट करने में नाकामयाब **{{server}}**. अधिक जानकारी के लिए डेवलपर्स से जांच करें।
   list:
     user: |
-      **यूजर ID:** {{userId}
+      **यूजर ID:** {{userId}}
       **माडरैटर:** {{moderator}}
       **कारण:** {{reason}}
       **एक्स्पाइरी:** {{expires}}
@@ -120,7 +119,7 @@ msgInfo:
 
       **आमंत्रण करने के लिए लिंक:**
       __{{invite}}__
-  
+
   user:
     description: |
       ## {{username}}
@@ -144,67 +143,67 @@ invite: |
   - **सहायता के लिए सर्वर:** {{{support}}}
 
 connection:
-  notFound: <:no:977600033740431410> Invalid connection. Verify the channel ID or select from displayed options.
-  channelNotFound: <:no:977600033740431410> Unable to find connected channel. To talk again choose a new channel.
-  alreadyConnected: <:no:977600033740431410> Channel {{{channel}}} is already connected to a hub.
-  switchChannel: "{{{emoji}}} Select a channel to switch to using the select menu below:"
-  switchCalled: "{{{emoji}}} Channel switch called, use the command again to view new connection."
-  switchSuccess: "{{{emoji}}} Channel switched. You are now connected from **{{{channel}}}**."
-  inviteRemoved: "{{{emoji}}} Server Invite removed for this hub."
-  inviteInvalid: <:no:977600033740431410> Invalid invite. Please make sure you have entered a valid invite link.
-  inviteAdded: "{{{emoji}}} Invite Added. Others can now join this server by using `Apps > Message Info/Report` command."
-  emColorInvalid: <:no:977600033740431410> Invalid color. Please make sure you have entered a valid hex color code.
-  emColorChange: "{{{emoji}}} Embed color successfully {{{action}}}"
+  notFound: <:no:977600033740431410> इन्वैलिड कनेक्शन। कृपया चैनल आईडी की पुष्टि करें या प्रदर्शित विकल्पों में से चयन करें।
+  channelNotFound: <:no:977600033740431410> कनेक्टेड चैनल नहीं मिला। फिर से बात करने के लिए एक नया चैनल चुनें।
+  alreadyConnected: <:no:977600033740431410> चैनल {{{channel}}} पहले से ही हब से कनेक्ट है।
+  switchChannel: "{{{emoji}}} स्विच करने के लिए नीचे सेलेक्ट मेनू का उपयोग करके एक चैनल का चयन करें:"
+  switchCalled: "{{{emoji}}} चैनल स्विच कॉल किया गया, नए कनेक्शन को देखने के लिए फिर से कमांड का उपयोग करें।"
+  switchSuccess: "{{{emoji}}} चैनल स्विच किया गया। अब आप **{{{channel}}}** से कनेक्ट हैं।"
+  inviteRemoved: "{{{emoji}}} इस हब के लिए सर्वर इनवाइट हटा दी गई है।"
+  inviteInvalid: <:no:977600033740431410> इन्वैलिड इनवाइट. कृपया सुनिश्चित करें कि आपने एक वैध इनवाइट लिंक दर्ज किया है।
+  inviteAdded: "{{{emoji}}} इनवाइट जोड़ दी गई है। अब दूसरे लोग इस सर्वर में 'Apps > Message Info/Report' कमांड का उपयोग करके जुड़ सकते हैं।"
+  emColorInvalid: <:no:977600033740431410> इन्वैलिड रंग। कृपया सुनिश्चित करें कि आपने एक वैध हेक्स रंग कोड दर्ज किया है।
+  emColorChange: "{{{emoji}}} एम्बेड रंग सफलतापूर्वक {{{action}}}"
 
   embed:
-    title: Connection Details
-    description: Select an option below to manage your connection.
+    title: कनेक्शन डिटेल्स
+    description: अपने कनेक्शन को प्रबंधित करने के लिए नीचे से एक विकल्प का चयन करें।
     fields:
-      hub: Hub
-      channel: Channel
-      invite: Invite
-      connected: Connected
-      emColor: Embed Color
-      compact: Compact Mode
-      profanity: Profanity Filter
-    footer: Use the button & dropdown below to manage your connection.
+      hub: हब
+      channel: चैनल
+      invite: इन्वाइट
+      connected: कनेक्टेड
+      emColor: एम्बेड रंग
+      compact: कॉम्पैक्ट मोड
+      profanity: अश्लीलता फ़िल्टर
+    footer: अपने कनेक्शन को प्रबंधित करने के लिए नीचे दिए गए बटन और ड्रॉपडाउन का उपयोग करें।
   selects:
-    placeholder: 🛠️ Select an option below to manage your connection.
+    placeholder: 🛠️ नीचे से अपने कनेक्शन को प्रबंधित करने के लिए एक विकल्प का चयन करें।
 
 hub:
-  notFound: <:no:977600033740431410> Unable to find hub. Please make sure you have entered the correct hub name.
-  notFound_mod: <:no:977600033740431410> Unable to find hub. Please make sure you have entered the correct hub name & that you are the owner or a moderator of the hub.
-  alreadyJoined: <:no:977600033740431410> You have already joined **{{hub}}** from {{{channel}}}!
-  invalidChannel: <:no:977600033740431410> Invalid channel. Only text and thread channels are supported!
-  invalidImgurUrl: <:no:977600033740431410> Invalid image URL for icon or banner. Please make sure you have entered a valid Imgur image URL that is not a gallery or album.
+  notFound: <:no:977600033740431410> हब नहीं मिल सका। कृपया सुनिश्चित करें कि आपने सही हब नाम दर्ज किया है।
+  notFound_mod: <:no:977600033740431410> हब नहीं मिल सका। कृपया सुनिश्चित करें कि आपने सही हब नाम दर्ज किया है और आप हब के मालिक या मॉडरेटर हैं।
+  alreadyJoined: <:no:977600033740431410> आपने पहले ही **{{hub}}** से {{{channel}}} से जुड़ लिया है!
+  invalidChannel: <:no:977600033740431410> इन्वैलिड चैनल। केवल पाठ और थ्रेड चैनल्स का समर्थन किया जाता है!
+  invalidImgurUrl: <:no:977600033740431410> आइकन या बैनर का इन्वैलिड URL दिया गया है। कृपया सुनिश्चित करें कि आपने एक वैध Imgur छवि URL दर्ज किया है जो एक गैलरी या एल्बम नहीं है।
   join:
-    success: Successfully joined hub **{{hub}}** from {{{channel}}}! Use `/connection` to manage your connection. And `/hub leave` to leave the hub.
+    success: सफलतापूर्वक **{{hub}}** से {{{channel}}} से जुड़ लिया गया है! अपने कनेक्शन को प्रबंधित करने के लिए `/connection` का उपयोग करें। और हब छोड़ने के लिए `/hub leave` का उपयोग करें।
 
   servers:
-    total: "Current connected servers: {{from}}-{{to}} / **{{total}}**"
-    noConnections: <:no:977600033740431410> No server has joined this hub yet. Use `/hub join` to join this hub.
-    notConnected: <:no:977600033740431410> That server isn't a part of **{{hub}}**.
+    total: "वर्तमान जुड़े हुए सर्वर: {{from}}-{{to}} / **{{total}}**"
+    noConnections: <:no:977600033740431410> अब तक कोई सर्वर इस हब से जुड़ा नहीं है। `/hub join` का उपयोग करके इस हब से जुड़ें।
+    notConnected: <:no:977600033740431410> वह सर्वर **{{hub}}** का हिस्सा नहीं है।
     connectionInfo: |
-      Channel: #{{{channelName}}} `({{channelId}})`
-      Joined At: {{{joinedAt}}}
-      Invite: {{{invite}}}
-      Connected: {{connected}}
+      चैनल: #{{{channelName}}} `({{channelId}})`
+      जुड़ा गया: {{{joinedAt}}}
+      इनवाइट: {{{invite}}}
+      कनेक्टेड: {{connected}}
 
   create:
     modal:
-      title: Create Hub
+      title: हब बनाएं
       name:
-        label: Hub Name
-        placeholder: Enter a name for your hub.
+        label: हब का नाम
+        placeholder: अपने हब के लिए एक नाम दर्ज करें।
       description:
-        label: Description
-        placeholder: Enter a description for your hub.
+        label: विवरण
+        placeholder: अपने हब के लिए विवरण दर्ज करें।
       icon:
-        label: Icon URL
-        placeholder: Enter an Imgur image URL.
+        label: आइकन URL
+        placeholder: एक Imgur छवि URL दर्ज करें।
       banner:
-        label: Banner URL
-        placeholder: Enter an Imgur image URL.
+        label: बैनर URL
+        placeholder: एक Imgur छवि URL दर्ज करें।
 
     maxHubs: <:no:977600033740431410> You have reached the maximum number of hubs (3) you can create. Please delete a hub before creating another one.
     invalidName: <:no:977600033740431410> Invalid hub name. It must not contain `discord`, `clyde` or \`\`\` . Please choose another name.
@@ -222,21 +221,23 @@ hub:
       - **Add moderators:** `/hub moderator add`
 
       Learn more about hubs in our [guide](https://discord-interchat.github.io/docs). Join the [support server]({{{support_invite}}}) for help.
+
   delete:
-    confirm: Are you sure you wish to delete **{{hub}}**? This action is irreversible. All connected servers, invites and message data will be removed from this hub.
-    ownerOnly: <:no:977600033740431410> Only the owner of this hub can delete it.
-    success: "{{{emoji}}} Hub **{{hub}}** has been deleted."
-    cancelled: "{{{emoji}}} Hub deletion has been cancelled."
+    confirm: क्या आप निश्चित हैं कि आप **{{hub}}** को हटाना चाहते हैं? यह क्रिया अपरिणामी है। इस हब से सभी जुड़े हुए सर्वर, इनवाइट्स और संदेश डेटा हटा दिया जाएगा।
+    ownerOnly: <:no:977600033740431410> इस हब का मालिक ही इसे हटा सकता है।
+    success: "{{{emoji}}} हब **{{hub}}** हटा दिया गया है।"
+    cancelled: "{{{emoji}}} हब हटाने का कार्रवाई रद्द कर दी गई है।"
+
   browse:
     joinConfirm: |
-      Are you sure you wish to join {{hub}} from {{{channel}}}?
+      क्या आप निश्चित हैं कि आप {{hub}} से {{{channel}}} जुड़ना चाहते हैं?
           
-      **Note:** You can always change this later using `/connection`.
-    joinFooter: Want to use a different channel? Use the dropdown below.
-    noHubs: There are no hubs listed here at the moment. Please try again later!
+      **नोट:** आप कभी भी इसे `/connection` का उपयोग करके बाद में बदल सकते हैं।
+    joinFooter: क्या आप किसी अन्य चैनल का उपयोग करना चाहेंगे? नीचे ड्रॉपडाउन का उपयोग करें।
+    noHubs: वर्तमान में यहां कोई हब्स सूचीबद्ध नहीं हैं। कृपया बाद में पुनः प्रयास करें!
     rating:
-      invalid: Invalid rating. You must enter a number between 1 and 5.
-      success: "Rating submitted! Thank you for your feedback."
+      invalid: अमान्य रेटिंग। आपको 1 और 5 के बीच एक संख्या दर्ज करनी चाहिए।
+      success: "रेटिंग सबमिट की गई! आपके प्रतिसाद के लिए धन्यवाद।"
 
   invite:
     create:
@@ -251,6 +252,7 @@ hub:
         - **Uses**: ∞
 
         __Learn more about hubs in our [guide](https://discord-interchat.github.io/docs).__.
+
     revoke:
       invalidCode: <:no:977600033740431410> Invalid invite code. Please make sure you have entered a valid invite code.
       success: "{{{emoji}}} Invite {{inviteCode}} revoked."
