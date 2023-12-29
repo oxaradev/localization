@@ -150,9 +150,9 @@ connection:
   switchCalled: "{{{emoji}}} चैनल स्विच कॉल किया गया, नए कनेक्शन को देखने के लिए फिर से कमांड का उपयोग करें।"
   switchSuccess: "{{{emoji}}} चैनल स्विच किया गया। अब आप **{{{channel}}}** से कनेक्ट हैं।"
   inviteRemoved: "{{{emoji}}} इस हब के लिए सर्वर इनवाइट हटा दी गई है।"
-  inviteInvalid: <:no:977600033740431410> इन्वैलिड इनवाइट. कृपया सुनिश्चित करें कि आपने एक वैध इनवाइट लिंक दर्ज किया है।
+  inviteInvalid: <:no:977600033740431410> इन्वैलिड इनवाइट. कृपया सुनिश्चित करें कि आपने एक वैलिड इनवाइट लिंक दर्ज किया है।
   inviteAdded: "{{{emoji}}} इनवाइट जोड़ दी गई है। अब दूसरे लोग इस सर्वर में 'Apps > Message Info/Report' कमांड का उपयोग करके जुड़ सकते हैं।"
-  emColorInvalid: <:no:977600033740431410> इन्वैलिड रंग। कृपया सुनिश्चित करें कि आपने एक वैध हेक्स रंग कोड दर्ज किया है।
+  emColorInvalid: <:no:977600033740431410> इन्वैलिड रंग। कृपया सुनिश्चित करें कि आपने एक वैलिड हेक्स रंग कोड दर्ज किया है।
   emColorChange: "{{{emoji}}} एम्बेड रंग सफलतापूर्वक {{{action}}}"
 
   embed:
@@ -175,7 +175,7 @@ hub:
   notFound_mod: <:no:977600033740431410> हब नहीं मिल सका। कृपया सुनिश्चित करें कि आपने सही हब नाम दर्ज किया है और आप हब के मालिक या मॉडरेटर हैं।
   alreadyJoined: <:no:977600033740431410> आपने पहले ही **{{hub}}** से {{{channel}}} से जुड़ लिया है!
   invalidChannel: <:no:977600033740431410> इन्वैलिड चैनल। केवल पाठ और थ्रेड चैनल्स का समर्थन किया जाता है!
-  invalidImgurUrl: <:no:977600033740431410> आइकन या बैनर का इन्वैलिड URL दिया गया है। कृपया सुनिश्चित करें कि आपने एक वैध Imgur छवि URL दर्ज किया है जो एक गैलरी या एल्बम नहीं है।
+  invalidImgurUrl: <:no:977600033740431410> आइकन या बैनर का इन्वैलिड URL दिया गया है। कृपया सुनिश्चित करें कि आपने एक वैलिड Imgur छवि URL दर्ज किया है जो एक गैलरी या एल्बम नहीं है।
   join:
     success: सफलतापूर्वक **{{hub}}** से {{{channel}}} से जुड़ लिया गया है! अपने कनेक्शन को प्रबंधित करने के लिए `/connection` का उपयोग करें। और हब छोड़ने के लिए `/hub leave` का उपयोग करें।
 
@@ -242,147 +242,151 @@ hub:
   invite:
     create:
       success: |
-        ### Invite Created!
+        ### इनवाइट बनाई गई!
 
-        Your invite has been successfully created. Others can now join this hub by using the `/hub join` command.
+        आपकी इनवाइट सफलतापूर्वक बनाई गई है। अब दूसरे लोग इस हब में शामिल हो सकते हैं `/hub join` कमांड का उपयोग करके।
 
-        - **Join using:** `/hub join invite:{{inviteCode}}`
-        - **View invites:** `/hub invite list`
-        - **Expiry :** {{{expiry}}}
-        - **Uses**: ∞
+        - **इस्तेमाल करें:** `/hub join invite:{{inviteCode}}`
+        - **इनवाइट देखें:** `/hub invite list`
+        - **समाप्ति :** {{{expiry}}}
+        - **उपयोग:** ∞
 
-        __Learn more about hubs in our [guide](https://discord-interchat.github.io/docs).__.
+        __हमारी [गाइड](https://discord-interchat.github.io/docs) में हब्स के बारे में और अधिक जानें।__
 
     revoke:
-      invalidCode: <:no:977600033740431410> Invalid invite code. Please make sure you have entered a valid invite code.
-      success: "{{{emoji}}} Invite {{inviteCode}} revoked."
+      invalidCode: <:no:977600033740431410> इन्वैलिड इनवाइट कोड। कृपया सुनिश्चित करें कि आपने एक वैलिड इनवाइट कोड दर्ज किया है।
+      success: "{{{emoji}}} इनवाइट {{inviteCode}} रद्द कर दी गई है।"
     list:
-      title: "**Invite Codes:**"
-      noInvites: <:no:977600033740431410> This hub has no invites yet. Use `/hub invite create` to create one.
-      notPrivate: <:no:977600033740431410> Only private hubs can have invites. Use `/hub manage` to make this hub private.
+      title: "**इनवाइट कोडज़:**"
+      noInvites: <:no:977600033740431410> इस हब के पास अभी तक कोई इनवाइट नहीं है। `/hub invite create` का उपयोग करके एक बनाएं।
+      notPrivate: <:no:977600033740431410> केवल प्राइवेट हब्स के पास इनवाइट हो सकते हैं। इस हब को प्राइवेट बनाने के लिए `/hub manage` का उपयोग करें।
 
   joined:
-    noJoinedHubs: <:no:977600033740431410> This server has not joined any hubs yet. Use `/hub browse` to view a list of hubs.
-    joinedHubs: This server is a part of **{{total}}** hub(s). Use `/hub leave` to leave a hub.
+    noJoinedHubs: <:no:977600033740431410> यह सर्वर अभी तक किसी हब से जुड़ा नहीं है। `/hub browse` का उपयोग करके हब की सूची देखें।
+    joinedHubs: यह सर्वर **{{total}}** हबों का हिस्सा है। `/hub leave` का उपयोग करके हब छोड़ें।
 
   leave:
-    noHub: <:no:977600033740431410> That channel is invalid or has not joined any hubs.
-    confirm: Are you sure you wish to leave **{{hub}}** from {{{channel}}}? No more messages will be sent to this server from this hub.
-    confirmFooter: Confirm using the button below within 10 seconds.
-    success: "{{{emoji}}} Left the hub from {{{channel}}}. No more messages will be sent to this server from this hub. You can rejoin using `/hub join`."
+    noHub: <:no:977600033740431410> वह चैनल अमान्य है या इसने किसी हब से जुड़ा नहीं है।
+    confirm: क्या आप निश्चित हैं कि आप **{{hub}}** को {{{channel}}} से छोड़ना चाहते हैं? इस हब से इस सर्वर को और संदेश नहीं भेजे जाएंगे।
+    confirmFooter: 10 सेकंड के भीतर नीचे दिए गए बटन का उपयोग करके पुष्टि करें।
+    success: "{{{emoji}}} {{{channel}}} से हब छोड़ गया है। इस हब से इस सर्वर को और संदेश नहीं भेजे जाएंगे। आप `/hub join` का उपयोग करके पुनः जुड़ सकते हैं।"
 
   moderator:
-    noModerators: <:no:977600033740431410> This hub has no moderators yet. Use `/hub moderator add` to add one.
+    noModerators: <:no:977600033740431410> इस हब के पास अब तक कोई मॉडरेटर नहीं है। `/hub moderator add` का उपयोग करके एक जोड़ें।
     add:
-      success: "{{{emoji}}} **{{{user}}}** has been added as a moderator of position **{{position}}**."
-      alreadyModerator: <:no:977600033740431410> **{{{user}}}** is already a moderator.
+      success: "{{{emoji}}} **{{{user}}}** को स्थिति **{{position}}** का मॉडरेटर जोड़ा गया है।"
+      alreadyModerator: <:no:977600033740431410> **{{{user}}}** पहले से ही मॉडरेटर है।
     remove:
-      success: "{{{emoji}}} **{{{user}}}** has been removed as a moderator."
-      notModerator: <:no:977600033740431410> **{{{user}}}** is not a moderator.
-      notOwner: <:no:977600033740431410> Only the owner of this hub can a manager.
+      success: "{{{emoji}}} **{{{user}}}** को मॉडरेटर से हटा दिया गया है।"
+      notModerator: <:no:977600033740431410> **{{{user}}}** मॉडरेटर नहीं है।
+      notOwner: <:no:977600033740431410> इस हब का मालिक ही मैनेजर को हटा सकता है।
     update:
-      success: "{{{emoji}}} **{{{user}}}**'s position has been updated to **{{position}}**."
-      notModerator: <:no:977600033740431410> **{{{user}}}** is not a moderator.
-      notAllowed: <:no:977600033740431410> Only hub managers can update a moderator's position.
-      notOwner: <:no:977600033740431410> Only the owner of this hub can update a manager's position.
+      success: "{{{emoji}}} **{{{user}}}** की स्थिति को अपडेट किया गया है, अब वह **{{position}}** है।"
+      notModerator: <:no:977600033740431410> *{{{user}}}** मॉडरेटर नहीं है।
+      notAllowed: <:no:977600033740431410> केवल हब मैनेजर्स मॉडरेटर की स्थिति को अपडेट कर सकते हैं।
+      notOwner: <:no:977600033740431410> इस हब का मालिक ही मैनेजर की स्थिति को अपडेट कर सकता है।
+
   manage:
-    enterImgurUrl: Enter a valid Imgur image URL that is not a gallery or album.
+    enterImgurUrl: एक वैलिड Imgur छवि URL दर्ज करें जो एक गैलरी या एल्बम नहीं है।
     icon:
-      changed: Hub icon successfully changed.
+      changed: हब आइकन सफलतापूर्वक बदल गया है।
       modal:
-        title: Change Icon
-        label: Icon URL
+        title: आइकन बदलें
+        label: आइकन URL
       selects:
-        label: Change Icon
-        description: Change the icon of this hub.
+        label: आइकन बदलें
+        description: इस हब का आइकन बदलें।
     description:
-      changed: Hub description successfully changed.
+      changed: हब विवरण सफलतापूर्वक बदल गया है।
       modal:
-        title: Change Description
-        label: Description
-        placeholder: Enter a description for this hub.
+        title: विवरण बदलें
+        label: विवरण
+        placeholder: इस हब के लिए एक विवरण दर्ज करें।
       selects:
-        label: Change Description
-        description: Change the description of this hub.
+        label: विवरण बदलें
+        description: इस हब का विवरण बदलें।
     banner:
-      changed: Hub banner successfully changed.
-      removed: Hub banner successfully removed.
+      changed: हब बैनर सफलतापूर्वक बदल गया है।
+      removed: हब बैनर सफलतापूर्वक हटा दिया गया है।
       modal:
-        title: Change Banner
-        label: Banner URL
+        title: बैनर बदलें
+        label: बैनर URL
       selects:
-        label: Change Banner
-        description: Change the banner of this hub.
+        label: बैनर बदलें
+        description: इस हब का बैनर बदलें।
     visibility:
-      success: "{{{emoji}}} Hub visibility successfully changed to **{{{visibility}}}**."
+      success: "{{{emoji}}} हब की दृश्यता सफलतापूर्वक **{{{visibility}}}** में बदल गई है।"
       selects:
-        label: Change Visibility
-        description: Make this hub public or private.
+        label: दृश्यता बदलें
+        description: इस हब को पब्लिक या प्राइवेट बनाएं।
 
 report:
   modal:
-    title: Report Details
+    title: रिपोर्ट विवरण
     other:
-      label: Report Details
-      placeholder: A detailed description of the report.
+      label: रिपोर्ट विवरण
+      placeholder: रिपोर्ट का विस्तृत विवरण।
     userOrServer:
-      label: User/Server ID
-      placeholder: The IDs of the user/server you are reporting.
+      label: यूजर/सर्वर आईडी
+      placeholder: आप जिसे या जो संबंधित कर रहे हैं, उसकी आईडी।
     bug:
       input1:
-        label: Bug Details
-        placeholder: Eg. Frequent interaction failures for /help command...
+        label: बग विवरण
+        placeholder: "उदाहरण: /help कमांड के लिए बार-बार इंटरएक्शन फेलियर..."
       input2:
-        label: Detailed Description (Optional)
-        placeholder: Steps you took. Eg. 1. Run /help 2. Wait for 5 seconds...
+        label: विस्तृत विवरण (वैकल्पिक)
+        placeholder: "आपने कौन-कौन से कदम उठाए। उदाहरण: 1. /help चलाएं 2. 5 सेकंड्स के लिए प्रतीक्षा करें..."
+
   invalidUser: |
-    <:no:977600033740431410> I couldn't find a user with that ID.
+    <:no:977600033740431410> मैं उस आईडी के साथ कोई उपयोगकर्ता नहीं ढूंढ पाया हूँ। 
 
-    **To find a user's ID within the network:**
-    {{{dot}}} Right click on a message sent from the user in question select `Apps > Message Info`. Please double-check the ID and try again.
+    **नेटवर्क के भीतर एक उपयोगकर्ता की आईडी खोजने के लिए:**
+    {{{dot}}} संबंधित उपयोगकर्ता द्वारा भेजे गए संदेश पर दायाँ क्लिक करें, `Apps > Message Info` का चयन करें। कृपया आईडी की पुनरावृत्ति करें और पुनः प्रयास करें।
+
   invalidServer: |
-    <:no:977600033740431410> I couldn't find a server with that ID.
+    <:no:977600033740431410> मैं उस आईडी के साथ कोई सर्वर नहीं ढूंढ पाया हूँ। 
 
-    **To find a server ID within the network:**
-    {{{dot}}} Right click on a message sent by the server in question and select `Apps > Message Info/Report`. Please double-check the ID and try again.
+    **नेटवर्क के भीतर सर्वर की आईडी खोजने के लिए:**
+    {{{dot}}} संबंधित सर्वर द्वारा भेजे गए संदेश पर दायाँ क्लिक करें और `Apps > Message Info/Report` का चयन करें। कृपया आईडी की पुनरावृत्ति करें और पुनः प्रयास करें।
 
-  submitted: Report submitted. Join the **[support server]({{{support_invite}}})** to get updates on your report.
+  submitted: रिपोर्ट सबमिट की गई है। अपडेट प्राप्त करने के लिए **[समर्थन सर्वर]({{{support_invite}}})** जुड़ें।
+
   bug:
-    title: Bug Report
-    affected: Affected Components
-    description: Please choose what component of the bot you are facing issues with.
-    submitted: "{{{emoji}}} Report submitted successfully. Join the </support server:924659341049626636> to get more details. Thank you!"
+    title: बग रिपोर्ट
+    affected: प्रभावित कम्पोनन्ट
+    description: कृपया चयन करें कि आप बॉट के कौनसे कम्पोनन्ट के साथ समस्या का सामना कर रहे हैं।
+    submitted: "{{{emoji}}} रिपोर्ट सफलतापूर्वक सबमिट की गई है। और जानकारी प्राप्त करने के लिए </support server:924659341049626636> जुड़ें। धन्यवाद!"
 
 language:
-  set: Language set! I will now respond to you in **{{{lang}}}**.
+  set: भाषा सेट की गई! अब मैं **{{{lang}}}** में आपके सवालों का उत्तर दूँगा।
 
 errors:
-  messageNotSentOrExpired: <:no:977600033740431410> This message was not sent in a hub, has expired, or you lack permissions to perform this action.
-  notYourAction: <:no:977600033740431410> Sorry, you can't perform this action. Please run the command yourself.
-  notMessageAuthor: <:no:977600033740431410> You are not the author of this message.
+  messageNotSentOrExpired: <:no:977600033740431410> यह संदेश हब में नहीं भेजा गया था, समय सीमा समाप्त हो गई है, या आपके पास इस क्रिया को पूरा करने के लिए अनुमति नहीं है।
+  notYourAction: <:no:977600033740431410> क्षमा करें, आप इस क्रिया को पूरा नहीं कर सकते। कृपया खुद ही कमांड चलाएं।
+  notMessageAuthor: <:no:977600033740431410> आप इस संदेश के लेखक नहीं हैं।
   commandError: |
-    <:no:977600033740431410> An error occurred while executing this command. It has been logged to our system. If this issue persists, please join our [support server]({{{support_invite}}}) and report it!
+    <:no:977600033740431410> इस कमांड को निष्पादित करते समय एक त्रुटि हुई है। इसे हमारे सिस्टम में लॉग किया गया है। यदि यह समस्या बनी रहती है, तो कृपया हमारे [समर्थन सर्वर]({{{support_invite}}}) में शामिल हों और इसे सूचित करें!
     ```js
     {{{error}}}
     ```
-  mustVote: Please [vote](https://top.gg/bot/769921109209907241/vote) for Interchat to use this command, your support is very much appreciated!
-  inviteLinks: <:no:977600033740431410> Do not advertise or promote servers in the network. Set an invite in `/connection` instead!
-  invalidLangCode: <:no:977600033740431410> Invalid language code. Please make sure you have entered a correct [language code](https://cloud.google.com/translate/docs/languages).
-  unknownServer: <:no:977600033740431410> Unknown server. Please make sure you have entered the correct server ID.
-  unknownNetworkMessage: <:no:977600033740431410> Unknown Message. If it has been sent in the past minute, please wait few more seconds and try again.
-  userNotFound: <:no:977600033740431410> User not found. Try inputting their ID instead.
-  blacklisted: <:no:977600033740431410> You or this server is blacklisted from using InterChat.
-  userBlacklisted: <:no:977600033740431410> You are blacklisted from **{{hub}}**.
-  serverBlacklisted: <:no:977600033740431410> This server is blacklisted from **{{hub}}**.
-  serverNotBlacklisted: <:no:977600033740431410> The inputted server is not blacklisted.
-  userNotBlacklisted: <:no:977600033740431410> The inputted user is not blacklisted.
-  missingPermissions: "<:no:977600033740431410> You are missing the following permissions to perform this action: **{{{permissions}}}**"
-  botMissingPermissions: "<:no:977600033740431410> Please grant me the following permissions to continue: **{{{permissions}}}**"
-  unknown: <:no:977600033740431410> An unknown error occurred. Please try again later or contact us by joining our [support server]({{{support_invite}}}).
-  notUsable: <:no:977600033740431410> This is no longer usable.
-  cooldown: <:no:977600033740431410> You are on cooldown. Please wait **{{{time}}}** before attempting again.
+  mustVote: कृपया [वोट करें](https://top.gg/bot/769921109209907241/vote) इंटरचैट के इस कमांड का उपयोग करने के लिए, आपका समर्थन बहुत मूल्यवान है!
+  inviteLinks: <:no:977600033740431410> नेटवर्क में सर्वरों को प्रचारित या प्रमोट करें नहीं। इसके बजाय `/connection` में एक आमंत्रण सेट करें!
+  invalidLangCode: <:no:977600033740431410> अवैध भाषा कोड। कृपया सुनिश्चित करें कि आपने सही [भाषा कोड](https://cloud.google.com/translate/docs/languages) दर्ज किया है।
+  unknownServer: <:no:977600033740431410> अज्ञात सर्वर। कृपया सुनिश्चित करें कि आपने सही सर्वर आईडी दर्ज की है।
+  unknownNetworkMessage: <:no:977600033740431410> अज्ञात संदेश। यदि इसे पिछले मिनट में भेजा गया है, तो कृपया और कुछ सेकंड प्रतीक्षा करें और पुनः प्रयास करें।
+  userNotFound: <:no:977600033740431410> यूजर नहीं मिला। कृपया उनकी आईडी दर्ज करने का प्रयास करें।
+  blacklisted: <:no:977600033740431410> आप या यह सर्वर इंटरचैट का उपयोग करने के लिए ब्लैकलिस्ट किया गया है।
+  userBlacklisted: <:no:977600033740431410> आपको **{{hub}}** से ब्लैकलिस्ट किया गया है।
+  serverBlacklisted: <:no:977600033740431410> इस सर्वर को **{{hub}}** से ब्लैकलिस्ट किया गया है।
+  serverNotBlacklisted: <:no:977600033740431410> दर्ज किया गया सर्वर ब्लैकलिस्ट नहीं है।
+  userNotBlacklisted: <:no:977600033740431410> दर्ज किया गया उपयोगकर्ता ब्लैकलिस्ट नहीं है।
+  missingPermissions: "<:no:977600033740431410> आपको इस क्रिया को पूरा करने के लिए निम्नलिखित अनुमतियाँ छूट रही हैं: **{{{permissions}}}**"
+  botMissingPermissions: "<:no:977600033740431410> कृपया आगे बढ़ने के लिए मुझे निम्नलिखित अनुमतियाँ प्रदान करें: **{{{permissions}}}**"
+  unknown: "<:no:977600033740431410> एक अज्ञात त्रुटि हुई है। कृपया बाद में पुन: प्रयास करें या हमसे संपर्क करें, हमारे [समर्थन सर्वर]({{{support_invite}}}) में शामिल होकर।"
+  notUsable: <:no:977600033740431410> यह अब और उपयोगी नहीं है।
+  cooldown: <:no:977600033740431410> आप कूलडाउन पर हैं। कृपया **{{{time}}}** प्रतीक्षा करें प्रयास करने से पहले।
 
 misc:
-  noReason: No reason provided.
-  noDesc: No Description.
+  noReason: कोई कारण नहीं दिया गया है।
+  noDesc: कोई विवरण नहीं है।
   version: InterChat v{{version}}
