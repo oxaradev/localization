@@ -273,7 +273,7 @@ hub:
     remove:
       success: "{{{emoji}}} **{{{user}}}** has been removed as a moderator."
       notModerator: <:no:977600033740431410> **{{{user}}}** is not a moderator.
-      notOwner: <:no:977600033740431410> Only the owner of this hub can a manager.
+      notOwner: <:no:977600033740431410> Only the owner of this hub can remove a manager.
     update:
       success: "{{{emoji}}} **{{{user}}}**'s position has been updated to **{{position}}**."
       notModerator: <:no:977600033740431410> **{{{user}}}** is not a moderator.
