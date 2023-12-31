@@ -205,22 +205,22 @@ hub:
         label: बैनर URL
         placeholder: एक Imgur छवि URL दर्ज करें।
 
-    maxHubs: <:no:977600033740431410> You have reached the maximum number of hubs (3) you can create. Please delete a hub before creating another one.
-    invalidName: <:no:977600033740431410> Invalid hub name. It must not contain `discord`, `clyde` or \`\`\` . Please choose another name.
-    nameTaken: <:no:977600033740431410> This hub name is already taken. Please choose another name.
+    maxHubs: <:no:977600033740431410> आप हब बनाने की अधिकतम संख्या (3) तक पहुँच गए हैं। कृपया एक नया बनाने से पहले कोई एक हब हटाएं।
+    invalidName: <:no:977600033740431410> हब का नाम इन्वैलिड है। इसमें `discord`, `clyde` या \`\`\` शामिल नहीं होना चाहिए। कृपया कोई और नाम चुनें।
+    nameTaken: <:no:977600033740431410> यह हब नाम पहले से लिया गया है। कृपया कोई और नाम चुनें।
     success: |
-      ### Hub Created!
+      ### हब सफलतापूर्ण बना दिया गया है!
 
-      Congratulations! Your private hub, **{{name}}**, has been successfully created.
-      To join, create an invite using `/hub invite create` and share the generated code. Then join using `/hub join`.
+      बधाई हो! आपका प्राइवेट हब, **{{name}}**, सफलतापूर्वक बना दिया गया है।
+      इसमें शामिल होने के लिए, `/hub invite create` का उपयोग करके एक आमंत्रण बनाएं और उत्पन्न कोड को साझा करें। फिर `/hub join` का उपयोग करके शामिल हों।
 
-      - **Generate invite:** `/hub invite create`
-      - **Go public:** `/hub manage`
-      - **Join hub:** `/hub join`
-      - **Edit hub:** `/hub manage`
-      - **Add moderators:** `/hub moderator add`
+      - **आमंत्रण बनाएं:** `/hub invite create`
+      - **पब्लिक हों:** `/hub manage`
+      - **हब में शामिल हों:** `/hub join`
+      - **हब एडिट करें:** `/hub manage`
+      - **मॉडरेटर्स जोड़ें:** `/hub moderator add`
 
-      Learn more about hubs in our [guide](https://discord-interchat.github.io/docs). Join the [support server]({{{support_invite}}}) for help.
+      आप हमारे [गाइड](https://discord-interchat.github.io/docs) में हब्स के बारे में जानकारी पा सकते हैं और सहायता के लिए [समर्थन सर्वर]({{{support_invite}}}) में शामिल हों सकते हैं।
 
   delete:
     confirm: क्या आप निश्चित हैं कि आप **{{hub}}** को हटाना चाहते हैं? यह क्रिया अपरिणामी है। इस हब से सभी जुड़े हुए सर्वर, इनवाइट्स और संदेश डेटा हटा दिया जाएगा।
