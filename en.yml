@@ -43,7 +43,6 @@ network:
       footer: InterChat Network | Version {{version}}
     inProgress: "There has already been an attempting to join a hub from {{{channel}}}. Please cancel it or wait for it to complete."
 
-
 blacklist:
   button:
     user: Blacklist User
@@ -68,21 +67,21 @@ blacklist:
     unknownError: Failed to blacklist **{{server}}**. Enquire with the developers for more information.
   list:
     user: |
-      **UserID:** {{userId}
+      **UserID:** {{userId}}
       **Moderator:** {{moderator}}
-      **Reason:** {{reason}}
+      **Reason:** {{{reason}}}
       **Expires:** {{expires}}
     server: |
       **ServerId:** {{serverId}}
       **Moderator:** {{moderator}}
-      **Reason:** {{reason}}
+      **Reason:** {{{reason}}}
       **Expires:** {{{expires}}}
 msgInfo:
   buttons:
     message: Message Info
-    report: Report Message
     server: Server Info
     user: User Info
+    report: Report
   message:
     description: |
       ## {{{emoji}}} Message Info
@@ -91,20 +90,20 @@ msgInfo:
       __{{{author}}}__
 
       **Sent From:**
-      __{{server}}__
+      __{{{server}}}__
 
       **Message ID:**
       __{{messageId}}__
 
       **Sent In (Hub):**
-      __{{hub}}__
+      __{{{hub}}}__
 
       **Message Created:**
-      <t:{{createdAt}}:R>
+      <t:{{{createdAt}}}:R>
   server:
     description: |
-      ## {{server}}
-      {{description}}
+      ## {{{server}}}
+      {{{description}}}
 
       **Owner:** 
       __{{{owner}}}__
@@ -116,11 +115,11 @@ msgInfo:
       __{{memberCount}}__
 
       **Invite:**
-      __{{invite}}__
+      __{{{invite}}}__
   user:
     description: |
-      ## {{username}}
-      __{{user}}__
+      ## {{{username}}}
+      __{{{user}}}__
 
       **ID:**
       __{{id}}__
@@ -129,10 +128,14 @@ msgInfo:
       <t:{{createdAt}}:d> (<t:{{createdAt}}:R>)
 
       **Display Name:**
-      __{{globalName}}__
+      __{{{globalName}}}__
 
       **Hubs Owned:**
       __{{hubsOwned}}__
+
+  report:
+    notEnabled: <:no:977600033740431410> Reporting is not enabled for this hub.
+    success: "{{{emoji}}} Report submitted successfully. Thank you!"
 
 invite: |
   Thank you for choosing to invite InterChat. Simply click the button below to invite me!
@@ -174,7 +177,7 @@ hub:
   invalidImgurUrl: <:no:977600033740431410> Invalid image URL for icon or banner. Please make sure you have entered a valid Imgur image URL that is not a gallery or album.
   join:
     success: Successfully joined hub **{{hub}}** from {{{channel}}}! Use `/connection` to manage your connection. And `/hub leave` to leave the hub.
-    
+
   servers:
     total: "Current connected servers: {{from}}-{{to}} / **{{total}}**"
     noConnections: <:no:977600033740431410> No server has joined this hub yet. Use `/hub join` to join this hub.
@@ -265,8 +268,7 @@ hub:
     success: "{{{emoji}}} Left the hub from {{{channel}}}. No more messages will be sent to this server from this hub. You can rejoin using `/hub join`."
 
   moderator:
-    noModerators:
-      <:no:977600033740431410> This hub has no moderators yet. Use `/hub moderator add` to add one.
+    noModerators: <:no:977600033740431410> This hub has no moderators yet. Use `/hub moderator add` to add one.
     add:
       success: "{{{emoji}}} **{{{user}}}** has been added as a moderator of position **{{position}}**."
       alreadyModerator: <:no:977600033740431410> **{{{user}}}** is already a moderator.
@@ -312,6 +314,36 @@ hub:
       selects:
         label: Change Visibility
         description: Make this hub public or private.
+    logs:
+      title: "Configure Logs"
+      reset: "{{{emoji}}} Successfully reset the logs configuration for `{{{type}}}` logs."
+      roleSuccess: "{{{emoji}}} Logs of type `{{{type}}}` will now mention {{{role}}}!"
+      channelSuccess: "{{{emoji}}} Logs of type `{{{type}}}` will be sent to  {{{channel}}} from now!"
+      channelSelect: "#️⃣ Select the type of log to configure."
+      roleSelect: "🏓 Select the role to mention when a log is triggered."
+      reportChannelFirst: <:no:977600033740431410> Please set a log channel first.
+
+      config:
+        title: Configure `{{{type}}}` Logs
+        description: |
+          {{{arrow}}} Select a log channel and/or role to be pinged from the dropdown below.
+          {{{arrow}}} You can also disable logging by using the button below.
+        fields:
+          channel: Channel
+          role: Role Mention
+
+      reports:
+        label: Reports
+        description: Receive reports from users.
+      modLogs:
+        label: Mod Logs
+        description: Moderation actions performed by moderators.
+      profanity:
+        label: Profanity Filter
+        description: Log messages that caught by the profanity filter.
+      joinLeave:
+        label: Join/Leave
+        description: Log when a server joins or leaves this hub.
 
 report:
   modal:
