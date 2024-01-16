@@ -70,7 +70,7 @@ const getArrayValue = (array: string | string[]) =>
 	Array.isArray(array) ? array[1] : array;
 
 const writeYamlFileSync = (filePath: string, content: Record<string, any>) => {
-	const yamlContent = yaml.dump(content);
+	const yamlContent = yaml.dump(content, { lineWidth: Number.MAX_SAFE_INTEGER });
 	writeFileSync(filePath, yamlContent, 'utf8');
 };
 
