@@ -21,38 +21,26 @@ vote: |-
 
    Vi værdsætter dybt din urokkelige støtte. Tak skal du have! 🙏
 network:
-  deleteSuccess: >-
-    {{{emoji}}} meddelelse af {{{user}}} er blevet slettet fra __ **
-    {{deleted}}/{{total}} ** __ servere.
-  editSuccess: >-
-    {{{emoji}}} meddelelse af {{{user}}} er redigeret i __ **
-    {{edited}}/{{total}} ** __ servere.
+  accountTooNew: '<: Nej: 977600033740431410> {{{user}}} Din konto er for ny til at sende beskeder i Interchat. Prøv igen senere.'
+  deleteSuccess: '{{{emoji}}} meddelelse af {{{user}}} er blevet slettet fra __ ** {{deleted}}/{{total}} ** __ servere.'
+  editSuccess: '{{{emoji}}} meddelelse af {{{user}}} er redigeret i __ ** {{edited}}/{{total}} ** __ servere.'
   welcome: |-
     {{{user}}} Velkommen til ** {{hub}} **! <a: bølge: 1185520281134055446> 
 
      Meddelelser, der er sendt {{{channel}}}, deles med andre servere, **, der muliggør ubesværet kommunikation **. Du kan dele billeder, gifs, svare, reagere og interagere med beskeder, som du normalt ville. Husk bare at undgå at dele personlig info (check </regler: 924659340898619395> for mere). Klar til at hoppe ind? Send din første besked og deltag i samtalen!
   nsfw:
     title: NSFW detekteret
-    description: >-
-      Jeg har opdaget {{predictions}} NSFW (ikke sikkert til arbejde) indhold i
-      din besked. Vær opmærksom på, at dette er imod vores </regler:
-      924659340898619395> og vil resultere i øjeblikkelig sortliste.
-    footer: >-
-      Vær opmærksom på, at AI ikke er perfekt og kan begå fejl. Vi beklager
-      ulejligheden.
+    description: 'Jeg har opdaget {{predictions}} NSFW (ikke sikkert til arbejde) indhold i din besked. Vær opmærksom på, at dette er imod vores </regler: 924659340898619395> og vil resultere i øjeblikkelig sortliste.'
+    footer: Vær opmærksom på, at AI ikke er perfekt og kan begå fejl. Vi beklager ulejligheden.
   onboarding:
     embed:
       title: 👋 Hej der, velkommen til {{hubName}}!
-      description: >-
-        For at holde tingene organiserede anbefales det at bruge en separat
-        kanal til bare til dette knudepunkt. Men rolig, du kan altid ændre dette
-        senere. 
+      description: |-
+        For at holde tingene organiserede anbefales det at bruge en separat kanal til bare til dette knudepunkt. Men rolig, du kan altid ændre dette senere. 
 
          ** Hvordan det fungerer: ** Interchat -netværket er som en magisk bro, der forbinder kanaler på forskellige servere, der er med os i dette hub. Lær mere på vores [guide] (https://discord-interchat.github.io/docs).
       footer: Interchat Network | Version {{version}}
-    inProgress: >-
-      Der har allerede været et forsøg på at deltage i et knudepunkt fra
-      {{{channel}}}. Annuller det, eller vent på, at det skal afsluttes.
+    inProgress: Der har allerede været et forsøg på at deltage i et knudepunkt fra {{{channel}}}. Annuller det, eller vent på, at det skal afsluttes.
 blacklist:
   button:
     user: Bruger Bruger
@@ -63,9 +51,7 @@ blacklist:
       placeholder: Årsag til sortlistning
     duration:
       label: Varighed
-      placeholder: >-
-        Varighed af sortliste. F.eks.: 1d, 1w, 1m, 1y. Lad være tomt til
-        permanent.
+      placeholder: 'Varighed af sortliste. F.eks.: 1d, 1w, 1m, 1y. Lad være tomt til permanent.'
   user:
     success: '{{{emoji}}} ** {{username}} ** er blevet sortlistet med succes!'
     removed: '{{{emoji}}} ** {{username}} ** er blevet fjernet fra sortlisten!'
@@ -76,9 +62,7 @@ blacklist:
     success: '{{{emoji}}} ** {{server}} ** er blevet sortlistet!'
     removed: '{{{emoji}}} ** {{server}} ** er blevet fjernet fra sortlisten!'
     alreadyBlacklisted: '<: Nej: 977600033740431410> Denne server er allerede sortlistet.'
-    unknownError: >-
-      Kunne ikke sortliste ** {{server}} **. Spørg med udviklerne for mere
-      information.
+    unknownError: Kunne ikke sortliste ** {{server}} **. Spørg med udviklerne for mere information.
   list:
     user: |-
       ** userid: ** {{userId}} 
@@ -147,40 +131,23 @@ msgInfo:
        ** Hubs ejet: ** 
        __ {{hubsOwned}} __
   report:
-    notEnabled: >-
-      <: Nej: 977600033740431410> Rapportering er ikke aktiveret til dette
-      knudepunkt.
+    notEnabled: '<: Nej: 977600033740431410> Rapportering er ikke aktiveret til dette knudepunkt.'
     success: '{{{emoji}}} rapport indsendt med succes. Tak skal du have!'
-invite: >-
-  Tak fordi du valgte at invitere Interchat. Klik blot på knappen nedenfor for
-  at invitere mig! 
+invite: |-
+  Tak fordi du valgte at invitere Interchat. Klik blot på knappen nedenfor for at invitere mig! 
 
    - ** Support Server: ** {{{support}}}
 connection:
-  notFound: >-
-    <: Nej: 977600033740431410> Ugyldig forbindelse. Bekræft kanal -ID eller
-    vælg fra viste indstillinger.
-  channelNotFound: >-
-    <: Nej: 977600033740431410> Kan ikke finde tilsluttet kanal. For at tale
-    igen skal du vælge en ny kanal.
-  alreadyConnected: >-
-    <: Nej: 977600033740431410> kanal {{{channel}}} er allerede forbundet til et
-    knudepunkt.
+  notFound: '<: Nej: 977600033740431410> Ugyldig forbindelse. Bekræft kanal -ID eller vælg fra viste indstillinger.'
+  channelNotFound: '<: Nej: 977600033740431410> Kan ikke finde tilsluttet kanal. For at tale igen skal du vælge en ny kanal.'
+  alreadyConnected: '<: Nej: 977600033740431410> kanal {{{channel}}} er allerede forbundet til et knudepunkt.'
   switchChannel: '{{{emoji}}} Vælg en kanal for at skifte til brug af valgmenuen nedenfor:'
-  switchCalled: >-
-    {{{emoji}}} kanalafbryder kaldet, brug kommandoen igen til at se ny
-    forbindelse.
+  switchCalled: '{{{emoji}}} kanalafbryder kaldet, brug kommandoen igen til at se ny forbindelse.'
   switchSuccess: '{{{emoji}}} kanal skiftet. Du er nu forbundet fra ** {{{channel}}} **.'
   inviteRemoved: '{{{emoji}}} serverinvitation fjernet til dette hub.'
-  inviteInvalid: >-
-    <: Nej: 977600033740431410> Ugyldig invitation. Sørg for, at du har
-    indtastet et gyldigt invitationslink.
-  inviteAdded: >-
-    {{{emoji}}} Invitation tilføjet. Andre kan nu deltage i denne server ved at
-    bruge `apps> meddelelsesinfo/rapport 'kommando.
-  emColorInvalid: >-
-    <: Nej: 977600033740431410> Ugyldig farve. Sørg for, at du har indtastet en
-    gyldig hex -farvekode.
+  inviteInvalid: '<: Nej: 977600033740431410> Ugyldig invitation. Sørg for, at du har indtastet et gyldigt invitationslink.'
+  inviteAdded: '{{{emoji}}} Invitation tilføjet. Andre kan nu deltage i denne server ved at bruge `apps> meddelelsesinfo/rapport ''kommando.'
+  emColorInvalid: '<: Nej: 977600033740431410> Ugyldig farve. Sørg for, at du har indtastet en gyldig hex -farvekode.'
   emColorChange: '{{{emoji}}} indlejret farve med succes {{{action}}}'
   embed:
     title: Forbindelsesoplysninger
@@ -197,31 +164,16 @@ connection:
   selects:
     placeholder: 🛠 Vælg en mulighed nedenfor for at administrere din forbindelse.
 hub:
-  notFound: >-
-    <: Nej: 977600033740431410> Kan ikke finde hub. Sørg for, at du har
-    indtastet det rigtige knudepunkt.
-  notFound_mod: >-
-    <: Nej: 977600033740431410> Kan ikke finde hub. Sørg for, at du har
-    indtastet det rigtige knudepunkt, og at du er ejer eller moderator af huben.
-  alreadyJoined: >-
-    <: Nej: 977600033740431410> Du er allerede tilsluttet ** {{hub}} ** fra
-    {{{channel}}}!
-  invalidChannel: >-
-    <: Nej: 977600033740431410> Ugyldig kanal. Kun tekst- og trådkanaler
-    understøttes!
-  invalidImgurUrl: >-
-    <: Nej: 977600033740431410> Ugyldig billed -URL til ikon eller banner. Sørg
-    for, at du har indtastet en gyldig IMGUR -billed -URL, der ikke er et
-    galleri eller album.
+  notFound: '<: Nej: 977600033740431410> Kan ikke finde hub. Sørg for, at du har indtastet det rigtige knudepunkt.'
+  notFound_mod: '<: Nej: 977600033740431410> Kan ikke finde hub. Sørg for, at du har indtastet det rigtige knudepunkt, og at du er ejer eller moderator af huben.'
+  alreadyJoined: '<: Nej: 977600033740431410> Du er allerede tilsluttet ** {{hub}} ** fra {{{channel}}}!'
+  invalidChannel: '<: Nej: 977600033740431410> Ugyldig kanal. Kun tekst- og trådkanaler understøttes!'
+  invalidImgurUrl: '<: Nej: 977600033740431410> Ugyldig billed -URL til ikon eller banner. Sørg for, at du har indtastet en gyldig IMGUR -billed -URL, der ikke er et galleri eller album.'
   join:
-    success: >-
-      Med succes med hub ** {{hub}} ** fra {{{channel}}}! Brug `/forbindelse
-      'til at styre din forbindelse. Og `/hub orlov 'for at forlade navet.
+    success: Med succes med hub ** {{hub}} ** fra {{{channel}}}! Brug `/forbindelse 'til at styre din forbindelse. Og `/hub orlov 'for at forlade navet.
   servers:
     total: 'Aktuelle tilsluttede servere: {{from}}-{{to}} / ** {{total}} **'
-    noConnections: >-
-      <: Nej: 977600033740431410> Ingen server har tilsluttet sig dette
-      knudepunkt endnu. Brug `/hub tilsluttet 'til at deltage i dette hub.
+    noConnections: '<: Nej: 977600033740431410> Ingen server har tilsluttet sig dette knudepunkt endnu. Brug `/hub tilsluttet ''til at deltage i dette hub.'
     notConnected: '<: Nej: 977600033740431410> Denne server er ikke en del af ** {{hub}} **.'
     connectionInfo: |-
       Kanal: #{{{channelName}}} `({{channelId}})` 
@@ -243,15 +195,9 @@ hub:
       banner:
         label: Banner URL
         placeholder: Indtast en IMGUR -billed -URL.
-    maxHubs: >-
-      <: Nej: 977600033740431410> Du har nået det maksimale antal knudepunkter
-      (3), du kan oprette. Slet et knudepunkt, før du opretter en anden.
-    invalidName: >-
-      <: Nej: 977600033740431410> Ugyldigt hub -navn. Det må ikke indeholde
-      'uoverensstemmelser', 'Clyde' eller \ `\` \ `. Vælg et andet navn.
-    nameTaken: >-
-      <: Nej: 977600033740431410> Dette hub -navn er allerede taget. Vælg et
-      andet navn.
+    maxHubs: '<: Nej: 977600033740431410> Du har nået det maksimale antal knudepunkter (3), du kan oprette. Slet et knudepunkt, før du opretter en anden.'
+    invalidName: '<: Nej: 977600033740431410> Ugyldigt hub -navn. Det må ikke indeholde ''uoverensstemmelser'', ''Clyde'' eller \ `\` \ `. Vælg et andet navn.'
+    nameTaken: '<: Nej: 977600033740431410> Dette hub -navn er allerede taget. Vælg et andet navn.'
     success: |-
       ### Hub oprettet! 
 
@@ -264,12 +210,9 @@ hub:
        - ** Rediger hub: ** `/hub administrere` 
        - ** Tilføj moderatorer: ** `/Hub Moderator Tilføj ' 
 
-       Lær mere om hubs i vores [guide] (https://discord-interchat.github.io/docs). Deltag i [Support Server] ({{{support_invite}}}) for hjælp.
+       Lær mere om hubs i vores [guide] (https://discord-interchat.github.io/docs). Deltag i [Support Server] ({{{docs_link}}}) for hjælp.
   delete:
-    confirm: >-
-      Er du sikker på, at du ønsker at slette ** {{hub}} **? Denne handling er
-      irreversibel. Alle tilsluttede servere, invitationer og meddelelsesdata
-      fjernes fra dette knudepunkt.
+    confirm: Er du sikker på, at du ønsker at slette ** {{hub}} **? Denne handling er irreversibel. Alle tilsluttede servere, invitationer og meddelelsesdata fjernes fra dette knudepunkt.
     ownerOnly: '<: Nej: 977600033740431410> Kun ejeren af dette hub kan slette det.'
     success: '{{{emoji}}} hub ** {{hub}} ** er blevet slettet.'
     cancelled: '{{{emoji}}} hub -sletning er blevet annulleret.'
@@ -297,63 +240,34 @@ hub:
 
          __Lær mere om hubs i vores [guide] (https://discord-interchat.github.io/docs) .__.
     revoke:
-      invalidCode: >-
-        <: Nej: 977600033740431410> Ugyldig invitationskode. Sørg for, at du har
-        indtastet en gyldig invitationskode.
+      invalidCode: '<: Nej: 977600033740431410> Ugyldig invitationskode. Sørg for, at du har indtastet en gyldig invitationskode.'
       success: '{{{emoji}}} inviter {{inviteCode}} tilbagekaldt.'
     list:
       title: '** Inviter koder: **'
-      noInvites: >-
-        <: Nej: 977600033740431410> Dette knudepunkt har endnu ingen
-        invitationer. Brug `/hub invitation create` til at oprette en.
-      notPrivate: >-
-        <: Nej: 977600033740431410> Kun private hubs kan have invitationer. Brug
-        `/hub administrere for at gøre dette knudepunkt privat.
+      noInvites: '<: Nej: 977600033740431410> Dette knudepunkt har endnu ingen invitationer. Brug `/hub invitation create` til at oprette en.'
+      notPrivate: '<: Nej: 977600033740431410> Kun private hubs kan have invitationer. Brug `/hub administrere for at gøre dette knudepunkt privat.'
   joined:
-    noJoinedHubs: >-
-      <: Nej: 977600033740431410> Denne server er endnu ikke tilsluttet nogen
-      hubs. Brug `/hub -browse 'til at se en liste over hubs.
-    joinedHubs: >-
-      Denne server er en del af ** {{total}} ** hub (er). Brug `/hub orlov 'til
-      at forlade et knudepunkt.
+    noJoinedHubs: '<: Nej: 977600033740431410> Denne server er endnu ikke tilsluttet nogen hubs. Brug `/hub -browse ''til at se en liste over hubs.'
+    joinedHubs: Denne server er en del af ** {{total}} ** hub (er). Brug `/hub orlov 'til at forlade et knudepunkt.
   leave:
-    noHub: >-
-      <: Nej: 977600033740431410> Denne kanal er ugyldig eller ikke har
-      tilsluttet sig nogen knudepunkter.
-    confirm: >-
-      Er du sikker på, at du ønsker at forlade ** {{hub}} ** fra {{{channel}}}?
-      Der vil ikke blive sendt flere meddelelser til denne server fra dette hub.
+    noHub: '<: Nej: 977600033740431410> Denne kanal er ugyldig eller ikke har tilsluttet sig nogen knudepunkter.'
+    confirm: Er du sikker på, at du ønsker at forlade ** {{hub}} ** fra {{{channel}}}? Der vil ikke blive sendt flere meddelelser til denne server fra dette hub.
     confirmFooter: Bekræft ved hjælp af knappen nedenfor inden for 10 sekunder.
-    success: >-
-      {{{emoji}}} forlod knudepunktet fra {{{channel}}}. Der vil ikke blive
-      sendt flere meddelelser til denne server fra dette hub. Du kan gå sammen
-      med ved hjælp af `/hub join '.
+    success: '{{{emoji}}} forlod knudepunktet fra {{{channel}}}. Der vil ikke blive sendt flere meddelelser til denne server fra dette hub. Du kan gå sammen med ved hjælp af `/hub join ''.'
   moderator:
-    noModerators: >-
-      <: Nej: 977600033740431410> Dette hub har endnu ingen moderatorer. Brug
-      `/hub moderator tilføj 'til at tilføje en.
+    noModerators: '<: Nej: 977600033740431410> Dette hub har endnu ingen moderatorer. Brug `/hub moderator tilføj ''til at tilføje en.'
     add:
-      success: >-
-        {{{emoji}}} ** {{{user}}} ** er tilføjet som moderator af position **
-        {{position}} **.
+      success: '{{{emoji}}} ** {{{user}}} ** er tilføjet som moderator af position ** {{position}} **.'
       alreadyModerator: '<: Nej: 977600033740431410> ** {{{user}}} ** er allerede moderator.'
     remove:
       success: '{{{emoji}}} ** {{{user}}} ** er blevet fjernet som moderator.'
       notModerator: '<: Nej: 977600033740431410> ** {{{user}}} ** er ikke en moderator.'
-      notOwner: >-
-        <: Nej: 977600033740431410> Kun ejeren af dette hub kan fjerne en
-        manager.
+      notOwner: '<: Nej: 977600033740431410> Kun ejeren af dette hub kan fjerne en manager.'
     update:
-      success: >-
-        {{{emoji}}} ** {{{user}}} ** 's position er blevet opdateret til **
-        {{position}} **.
+      success: '{{{emoji}}} ** {{{user}}} ** ''s position er blevet opdateret til ** {{position}} **.'
       notModerator: '<: Nej: 977600033740431410> ** {{{user}}} ** er ikke en moderator.'
-      notAllowed: >-
-        <: Nej: 977600033740431410> Kun hubledere kan opdatere en moderators
-        position.
-      notOwner: >-
-        <: Nej: 977600033740431410> Kun ejeren af dette hub kan opdatere en
-        manager's position.
+      notAllowed: '<: Nej: 977600033740431410> Kun hubledere kan opdatere en moderators position.'
+      notOwner: '<: Nej: 977600033740431410> Kun ejeren af dette hub kan opdatere en manager''s position.'
   manage:
     enterImgurUrl: Indtast en gyldig IMGUR -billed -URL, der ikke er et galleri eller album.
     icon:
@@ -389,21 +303,16 @@ hub:
         description: Gør denne hub offentlig eller privat.
     logs:
       title: Konfigurer logfiler
-      reset: >-
-        {{{emoji}}} nulstilling af logfiler -konfigurationen for `{{{type}}}`
-        logfiler.
+      reset: '{{{emoji}}} nulstilling af logfiler -konfigurationen for `{{{type}}}` logfiler.'
       roleSuccess: '{{{emoji}}} logfiler af type `{{{type}}}` vil nu nævne {{{role}}}!'
-      channelSuccess: >-
-        {{{emoji}}} logfiler af type `{{{type}}}` vil blive sendt til
-        {{{channel}}} fra nu!
+      channelSuccess: '{{{emoji}}} logfiler af type `{{{type}}}` vil blive sendt til {{{channel}}} fra nu!'
       channelSelect: '#⃣ Vælg den type log, der skal konfigureres.'
       roleSelect: 🏓 Vælg den rolle, der skal nævnes, når en log udløses.
       reportChannelFirst: '<: Nej: 977600033740431410> Indstil venligst en logkanal først.'
       config:
         title: Konfigurer `{{{type}}}` logfiler
-        description: >-
-          {{{arrow}}} Vælg en logkanal og/eller rolle, der skal pinges fra
-          dropdown nedenfor. 
+        description: |-
+          {{{arrow}}} Vælg en logkanal og/eller rolle, der skal pinges fra dropdown nedenfor. 
            {{{arrow}}} Du kan også deaktivere logning ved hjælp af nedenstående knapp.
         fields:
           channel: Kanal
@@ -446,74 +355,41 @@ report:
 
      ** For at finde et server -ID inden for netværket: ** 
      {{{dot}}} Højreklik på en meddelelse, der er sendt af den pågældende server, og vælg `apps> Meddelelsesinfo/-rapport '. Kontroller ID'et med dobbeltkontrol og prøv igen.
-  submitted: >-
-    Rapport indsendt. Deltag i ** [Support Server] ({{{support_invite}}}) ** for
-    at få opdateringer i din rapport.
+  submitted: Rapport indsendt. Deltag i ** [Support Server] ({{{support_invite}}}) ** for at få opdateringer i din rapport.
   bug:
     title: Fejlrapport
     affected: Påvirkede komponenter
     description: Vælg hvilken komponent i den bot, du står over for problemer med.
-    submitted: >-
-      {{{emoji}}} rapport indsendt med succes. Deltag i </support -serveren:
-      924659341049626636> for at få flere detaljer. Tak skal du have!
+    submitted: '{{{emoji}}} rapport indsendt med succes. Deltag i </support -serveren: 924659341049626636> for at få flere detaljer. Tak skal du have!'
 language:
   set: Sprog sæt! Jeg vil nu svare på dig i ** {{{lang}}} **.
 errors:
-  messageNotSentOrExpired: >-
-    <: Nej: 977600033740431410> Denne meddelelse blev ikke sendt i et hub, er
-    udløbet, eller du mangler tilladelser til at udføre denne handling.
-  notYourAction: >-
-    <: Nej: 977600033740431410> Undskyld, du kan ikke udføre denne handling. Kør
-    venligst kommandoen selv.
+  messageNotSentOrExpired: '<: Nej: 977600033740431410> Denne meddelelse blev ikke sendt i et hub, er udløbet, eller du mangler tilladelser til at udføre denne handling.'
+  notYourAction: '<: Nej: 977600033740431410> Undskyld, du kan ikke udføre denne handling. Kør venligst kommandoen selv.'
   notMessageAuthor: '<: Nej: 977600033740431410> Du er ikke forfatteren af denne meddelelse.'
-  commandError: >-
-    <: Nej: 977600033740431410> Der opstod en fejl under udførelsen af denne
-    kommando. Det er blevet logget til vores system. Hvis dette problem
-    vedvarer, skal du deltage i vores [supportserver] ({{{support_invite}}}) og
-    rapportere det! 
+  commandError: |-
+    <: Nej: 977600033740431410> Der opstod en fejl under udførelsen af denne kommando. Det er blevet logget til vores system. Hvis dette problem vedvarer, skal du deltage i vores [supportserver] ({{{support_invite}}}) og rapportere det! 
      `` JS 
      {{{error}}} 
      `` `
-  mustVote: >-
-    Venligst [stemmer] (https://top.gg/bot/769921109209907241/vote) For
-    Interchat til at bruge denne kommando er din støtte meget værdsat!
-  inviteLinks: >-
-    <: Nej: 977600033740431410> Annoncer eller promover ikke servere i
-    netværket. Indstil en invitation i '/forbindelse' i stedet!
-  invalidLangCode: >-
-    <: Nej: 977600033740431410> Ugyldig sprogkode. Sørg for, at du har indtastet
-    en korrekt [sprogkode] (https://cloud.google.com/translate/docs/languages).
-  unknownServer: >-
-    <: Nej: 977600033740431410> Ukendt server. Sørg for, at du har indtastet det
-    korrekte server -ID.
-  unknownNetworkMessage: >-
-    <: Nej: 977600033740431410> Ukendt meddelelse. Hvis det er blevet sendt i
-    det sidste minut, skal du vente et par sekunder og prøve igen.
-  userNotFound: >-
-    <: Nej: 977600033740431410> Bruger ikke fundet. Prøv i stedet at indtaste
-    deres ID.
-  blacklisted: >-
-    <: Nej: 977600033740431410> Du eller denne server er sortlistet fra at bruge
-    Interchat.
+  mustVote: Venligst [stemmer] (https://top.gg/bot/769921109209907241/vote) For Interchat til at bruge denne kommando er din støtte meget værdsat!
+  inviteLinks: '<: Nej: 977600033740431410> Annoncer eller promover ikke servere i netværket. Indstil en invitation i ''/forbindelse'' i stedet!'
+  invalidLangCode: '<: Nej: 977600033740431410> Ugyldig sprogkode. Sørg for, at du har indtastet en korrekt [sprogkode] (https://cloud.google.com/translate/docs/languages).'
+  unknownServer: '<: Nej: 977600033740431410> Ukendt server. Sørg for, at du har indtastet det korrekte server -ID.'
+  unknownNetworkMessage: '<: Nej: 977600033740431410> Ukendt meddelelse. Hvis det er blevet sendt i det sidste minut, skal du vente et par sekunder og prøve igen.'
+  userNotFound: '<: Nej: 977600033740431410> Bruger ikke fundet. Prøv i stedet at indtaste deres ID.'
+  blacklisted: '<: Nej: 977600033740431410> Du eller denne server er sortlistet fra at bruge Interchat.'
   userBlacklisted: '<: Nej: 977600033740431410> Du er sortlistet fra ** {{hub}} **.'
   serverBlacklisted: '<: Nej: 977600033740431410> Denne server er sortlistet fra ** {{hub}} **.'
   serverNotBlacklisted: '<: Nej: 977600033740431410> Den inputted Server er ikke sortlistet.'
   userNotBlacklisted: '<: Nej: 977600033740431410> Den inputted -bruger er ikke sortlistet.'
-  missingPermissions: >-
-    <: Nej: 977600033740431410> Du mangler følgende tilladelser til at udføre
-    denne handling: ** {{{permissions}}} **
-  botMissingPermissions: >-
-    <: Nej: 977600033740431410> Giv mig følgende tilladelser til at fortsætte:
-    ** {{{permissions}}} **
-  unknown: >-
-    <: Nej: 977600033740431410> Der opstod en ukendt fejl. Prøv igen senere,
-    eller kontakt os ved at deltage i vores [supportserver]
-    ({{{support_invite}}}).
+  missingPermissions: '<: Nej: 977600033740431410> Du mangler følgende tilladelser til at udføre denne handling: ** {{{permissions}}} **'
+  botMissingPermissions: '<: Nej: 977600033740431410> Giv mig følgende tilladelser til at fortsætte: ** {{{permissions}}} **'
+  unknown: '<: Nej: 977600033740431410> Der opstod en ukendt fejl. Prøv igen senere, eller kontakt os ved at deltage i vores [supportserver] ({{{support_invite}}}).'
   notUsable: '<: Nej: 977600033740431410> Dette er ikke længere brugbart.'
-  cooldown: >-
-    <: Nej: 977600033740431410> Du er på cooldown. Vent venligst ** {{{time}}}
-    **, før du prøver igen.
+  cooldown: '<: Nej: 977600033740431410> Du er på cooldown. Vent venligst ** {{{time}}} **, før du prøver igen.'
 misc:
   noReason: Ingen grund til rådighed.
   noDesc: Ingen beskrivelse.
   version: Interchat v {{version}}
+  loading: '{{{emoji}}} Vent venligst, mens jeg behandler din anmodning ...'

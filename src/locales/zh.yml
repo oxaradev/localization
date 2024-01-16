@@ -21,6 +21,7 @@ vote: |-
 
    我们非常感谢您坚定不移的支持。 谢谢你！ 🙏
 network:
+  accountTooNew: <：否：977600033740431410> {{{user}}}}您的帐户太新了，无法在Interchat中发送消息。 请稍后再试。
   deleteSuccess: '{{{emoji}}}} {{{user}}}的消息已从__ ** ** {{deleted}}/{{total}} ** __ __服务器中删除。'
   editSuccess: '{{{emoji}}}} {{{user}}}的消息已在__ ** ** {{edited}}}/{{total}}*__服务器中编辑。'
   welcome: |-
@@ -29,9 +30,7 @@ network:
      以{{{channel}}}的方式发送的消息将与其他服务器共享，**启用轻松的通信**。 您可以像往常一样共享图像，gif，回复，反应和与消息交互。 只需记住要避免共享个人信息（检查</规则：924659340898619395>以获取更多信息）。 准备跳进了吗？ 发送您的第一条消息并加入对话！
   nsfw:
     title: 检测到NSFW
-    description: >-
-      我已经检测到{{predictions}} nsfw（对于工作不安全）您的消息中的内容。
-      请注意，这违反了我们的</规则：924659340898619395>，并将立即呈现黑名单。
+    description: 我已经检测到{{predictions}} nsfw（对于工作不安全）您的消息中的内容。 请注意，这违反了我们的</规则：924659340898619395>，并将立即呈现黑名单。
     footer: 请注意，AI并不完美，可能会犯错。 我们对造成的任何不便表示歉意。
   onboarding:
     embed:
@@ -211,7 +210,7 @@ hub:
         -  **编辑中心：**`/hub manage` 
         -  **添加主持人：**`/hub主持人add' 
 
-       在我们的[指南]（https://discord-interchat.github.io/docs）中了解有关中心的更多信息。 加入[support Server]（{{{support_invite}}}）以获取帮助。
+       在我们的[指南]（https://discord-interchat.github.io/docs）中了解有关中心的更多信息。 加入[support Server]（{{{docs_link}}}）以获取帮助。
   delete:
     confirm: 您确定要删除** {{hub}} **吗？ 此动作是不可逆转的。 所有连接的服务器，邀请和消息数据将从此集线器中删除。
     ownerOnly: <：否：977600033740431410>只有此枢纽的所有者才能将其删除。
@@ -254,9 +253,7 @@ hub:
     noHub: <：否：977600033740431410>该通道无效或尚未加入任何集线器。
     confirm: 您确定要离开** {{hub}} **从{{{channel}}}}离开吗？ 该集线器将不再将消息发送到此服务器。
     confirmFooter: 在10秒内使用以下按钮确认。
-    success: >-
-      {{{emoji}}}}从{{{channel}}}}留下了集线器。 该集线器将不再将消息发送到此服务器。 您可以使用`/hub
-      join'重新加入。
+    success: '{{{emoji}}}}从{{{channel}}}}留下了集线器。 该集线器将不再将消息发送到此服务器。 您可以使用`/hub join''重新加入。'
   moderator:
     noModerators: <：否：977600033740431410>该枢纽还没有主持人。 使用`/hub主持人添加“添加”。
     add:
@@ -370,17 +367,14 @@ errors:
   messageNotSentOrExpired: <：否：977600033740431410>此消息未在集线器中发送，已过期，或者您缺乏执行此操作的权限。
   notYourAction: <：否：977600033740431410>对不起，您无法执行此操作。 请自己运行命令。
   notMessageAuthor: <：否：977600033740431410>您不是此消息的作者。
-  commandError: >-
-    <：否：977600033740431410>执行此命令时发生了错误。 它已记录到我们的系统。 如果此问题持续存在，请加入我们的[support
-    Server]（{{{support_invite}}}）并报告它！ 
+  commandError: |-
+    <：否：977600033740431410>执行此命令时发生了错误。 它已记录到我们的系统。 如果此问题持续存在，请加入我们的[support Server]（{{{support_invite}}}）并报告它！ 
      ``JS 
      {{{error}}} 
      ````````
   mustVote: 请[投票]（https://top.gg/bot/769921109209907241/vote）对于Interchat使用此命令，非常感谢您的支持！
   inviteLinks: <：否：977600033740431410>不要在网络中宣传或推广服务器。 改用``/connection''设置邀请！
-  invalidLangCode: >-
-    <：否：977600033740431410>无效的语言代码。
-    请确保您输入了正确的[语言代码]（https://cloud.google.com/translate/docs/languages）。
+  invalidLangCode: <：否：977600033740431410>无效的语言代码。 请确保您输入了正确的[语言代码]（https://cloud.google.com/translate/docs/languages）。
   unknownServer: <：否：977600033740431410>未知服务器。 请确保您输入了正确的服务器ID。
   unknownNetworkMessage: <：否：977600033740431410>未知消息。 如果在过去一分钟内发送，请再等几秒钟，然后重试。
   userNotFound: <：否：977600033740431410>找不到用户。 尝试输入其ID。
@@ -391,12 +385,11 @@ errors:
   userNotBlacklisted: <：否：977600033740431410>未列入输入的用户。
   missingPermissions: <：否：977600033740431410>您缺少执行此操作的以下权限：** {{{permissions}}} **
   botMissingPermissions: <：否：977600033740431410>请授予我以下权限继续：** {{{permissions}}}} **
-  unknown: >-
-    <：否：977600033740431410>发生了一个未知错误。 请稍后再试一次，或通过加入我们的[support
-    Server]（{{{support_invite}}}）与我们联系。
+  unknown: <：否：977600033740431410>发生了一个未知错误。 请稍后再试一次，或通过加入我们的[support Server]（{{{support_invite}}}）与我们联系。
   notUsable: <：否：977600033740431410>这不再可用。
   cooldown: <：否：977600033740431410>您正在冷却。 请等待** {{{time}}}} **再次尝试。
 misc:
   noReason: 没有理由。
   noDesc: 没有说明。
   version: Interchat V {{version}}
+  loading: '{{{emoji}}}}请在我处理您的请求时等待...'

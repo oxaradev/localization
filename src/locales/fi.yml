@@ -21,38 +21,26 @@ vote: |-
 
    Arvostamme syvästi horjumatonta tukeasi. Kiitos! 🙏
 network:
-  deleteSuccess: >-
-    {{{emoji}}} viesti {{{user}}} on poistettu osoitteesta __ **
-    {{deleted}}/{{total}} ** __ palvelimet.
-  editSuccess: >-
-    {{{emoji}}} viesti {{{user}}} on muokattu kohdassa __ **
-    {{edited}}/{{total}} ** __ palvelimet.
-  welcome: >-
-    {{{user}}} Tervetuloa kohtaan ** {{hub}} **! <A: Aalto:
-    1185520281134055446> 
+  accountTooNew: '<: Ei: 977600033740431410> {{{user}}} Tilisi on liian uusi lähettää viestejä interchaissa. Yritä uudelleen myöhemmin.'
+  deleteSuccess: '{{{emoji}}} viesti {{{user}}} on poistettu osoitteesta __ ** {{deleted}}/{{total}} ** __ palvelimet.'
+  editSuccess: '{{{emoji}}} viesti {{{user}}} on muokattu kohdassa __ ** {{edited}}/{{total}} ** __ palvelimet.'
+  welcome: |-
+    {{{user}}} Tervetuloa kohtaan ** {{hub}} **! <A: Aalto: 1185520281134055446> 
 
      {{{channel}}} lähetetyt viestit jaetaan muiden palvelimien kanssa, ** POINTLELINEN KILMOITTAMINEN **. Voit jakaa kuvia, GIF: ää, vastata, reagoida ja olla vuorovaikutuksessa viestien kanssa kuten normaalisti. Muista vain välttää henkilökohtaisten tietojen jakamista (tarkista </säännöt: 924659340898619395> lisää). Oletko valmis hyppäämään sisään? Lähetä ensimmäinen viestisi ja liity keskusteluun!
   nsfw:
     title: NSFW havaittu
-    description: >-
-      Olen havainnut {{predictions}} nsfw (ei turvallinen työhön) sisältö
-      viestissäsi. Huomaa, että tämä on </sääntöjämme vastaan:
-      924659340898619395> ja johtaa välittömään mustaan listaan.
-    footer: >-
-      Huomaa, että AI ei ole täydellinen ja voi tehdä virheitä. Pahoittelemme
-      aiheutuneita haittoja.
+    description: 'Olen havainnut {{predictions}} nsfw (ei turvallinen työhön) sisältö viestissäsi. Huomaa, että tämä on </sääntöjämme vastaan: 924659340898619395> ja johtaa välittömään mustaan listaan.'
+    footer: Huomaa, että AI ei ole täydellinen ja voi tehdä virheitä. Pahoittelemme aiheutuneita haittoja.
   onboarding:
     embed:
       title: 👋 Hei siellä, tervetuloa {{hubName}}!
-      description: >-
-        Asioiden pitämiseksi on suositeltavaa käyttää erillistä kanavaa vain
-        tähän napaan. Mutta älä huoli, voit aina muuttaa tätä myöhemmin. 
+      description: |-
+        Asioiden pitämiseksi on suositeltavaa käyttää erillistä kanavaa vain tähän napaan. Mutta älä huoli, voit aina muuttaa tätä myöhemmin. 
 
          ** Kuinka se toimii: ** Chachat -verkko on kuin taikuussilta, joka linkittää kanavia eri palvelimiin, jotka ovat kanssamme tässä keskittimessä. Lisätietoja [oppaasta] (https://discord-interchat.github.io/docs).
       footer: InterChaT -verkko | Version {{version}}
-    inProgress: >-
-      {{{channel}}} on jo yritetty liittyä keskittimeen. Peruuta se tai odota,
-      että se valmistuu.
+    inProgress: '{{{channel}}} on jo yritetty liittyä keskittimeen. Peruuta se tai odota, että se valmistuu.'
 blacklist:
   button:
     user: Mustan listan käyttäjä
@@ -74,9 +62,7 @@ blacklist:
     success: '{{{emoji}}} ** {{server}} ** on onnistuneesti musta lista!'
     removed: '{{{emoji}}} ** {{server}} ** on poistettu mustasta listasta!'
     alreadyBlacklisted: '<: No: 977600033740431410> Tämä palvelin on jo mustalla listalla.'
-    unknownError: >-
-      Blacklist ** {{server}} ** epäonnistui. Kysy lisätietoja kehittäjien
-      kanssa.
+    unknownError: Blacklist ** {{server}} ** epäonnistui. Kysy lisätietoja kehittäjien kanssa.
   list:
     user: |-
       ** UserID: ** {{userId}} 
@@ -147,36 +133,21 @@ msgInfo:
   report:
     notEnabled: '<: No: 977600033740431410> Raportointi ei ole käytössä tälle napalle.'
     success: '{{{emoji}}} raportti toimitettu onnistuneesti. Kiitos!'
-invite: >-
-  Kiitos, että päätit kutsua InterChatin. Napsauta vain alla olevaa painiketta
-  kutsuaksesi minut! 
+invite: |-
+  Kiitos, että päätit kutsua InterChatin. Napsauta vain alla olevaa painiketta kutsuaksesi minut! 
 
    - ** Tukipalvelin: ** {{{support}}}
 connection:
-  notFound: >-
-    <: No: 977600033740431410> Virheellinen yhteys. Vahvista kanavan tunnus tai
-    valitse näytetyistä vaihtoehdoista.
-  channelNotFound: >-
-    <: NO: 977600033740431410> kytkettyä kanavaa ei löydy. Puhutaan uudelleen
-    Valitse uusi kanava.
+  notFound: '<: No: 977600033740431410> Virheellinen yhteys. Vahvista kanavan tunnus tai valitse näytetyistä vaihtoehdoista.'
+  channelNotFound: '<: NO: 977600033740431410> kytkettyä kanavaa ei löydy. Puhutaan uudelleen Valitse uusi kanava.'
   alreadyConnected: '<: NO: 977600033740431410> Kanava {{{channel}}} on jo kytketty keskittimeen.'
   switchChannel: '{{{emoji}}} Valitse kanava vaihdaksesi alla olevan valinnan avulla:'
-  switchCalled: >-
-    {{{emoji}}} kanavakytkin nimeltään, käytä komentoa uudelleen nähdäksesi
-    uuden yhteyden.
-  switchSuccess: >-
-    {{{emoji}}} kanava kytketty. Olet nyt kytketty osoitteesta ** {{{channel}}}
-    **.
+  switchCalled: '{{{emoji}}} kanavakytkin nimeltään, käytä komentoa uudelleen nähdäksesi uuden yhteyden.'
+  switchSuccess: '{{{emoji}}} kanava kytketty. Olet nyt kytketty osoitteesta ** {{{channel}}} **.'
   inviteRemoved: '{{{emoji}}} palvelin Kutsu poistettu tälle napalle.'
-  inviteInvalid: >-
-    <: No: 977600033740431410> Virheellinen kutsu. Varmista, että olet
-    kirjoittanut kelvollisen kutsun linkin.
-  inviteAdded: >-
-    {{{emoji}}} kutsu lisätty. Toiset voivat nyt liittyä tähän palvelimeen
-    käyttämällä  -komento.
-  emColorInvalid: >-
-    <: No: 977600033740431410> Virheellinen väri. Varmista, että olet
-    kirjoittanut kelvollisen kuusiokuorikoodin.
+  inviteInvalid: '<: No: 977600033740431410> Virheellinen kutsu. Varmista, että olet kirjoittanut kelvollisen kutsun linkin.'
+  inviteAdded: '{{{emoji}}} kutsu lisätty. Toiset voivat nyt liittyä tähän palvelimeen käyttämällä  -komento.'
+  emColorInvalid: '<: No: 977600033740431410> Virheellinen väri. Varmista, että olet kirjoittanut kelvollisen kuusiokuorikoodin.'
   emColorChange: '{{{emoji}}} upota väri onnistuneesti {{{action}}}'
   embed:
     title: Yhteystiedot
@@ -193,29 +164,16 @@ connection:
   selects:
     placeholder: 🛠️ Valitse Alla oleva vaihtoehto hallitaksesi yhteyttä.
 hub:
-  notFound: >-
-    <: NO: 977600033740431410> Hub. Varmista, että olet syöttänyt oikean navan
-    nimen.
-  notFound_mod: >-
-    <: NO: 977600033740431410> Hub. Varmista, että olet syöttänyt oikean navan
-    nimen ja että olet keskuksen omistaja tai moderaattori.
+  notFound: '<: NO: 977600033740431410> Hub. Varmista, että olet syöttänyt oikean navan nimen.'
+  notFound_mod: '<: NO: 977600033740431410> Hub. Varmista, että olet syöttänyt oikean navan nimen ja että olet keskuksen omistaja tai moderaattori.'
   alreadyJoined: '<: No: 977600033740431410> Olet jo liittynyt ** {{hub}} ** {{{channel}}}!'
-  invalidChannel: >-
-    <: No: 977600033740431410> Virheellinen kanava. Vain teksti- ja kierteitä
-    koskevia kanavia tuetaan!
-  invalidImgurUrl: >-
-    <: Ei: 977600033740431410> Virheellinen kuva -URL -osoite kuvakkeelle tai
-    bannerille. Varmista, että olet kirjoittanut kelvollisen Imgur -kuvan URL
-    -osoitteen, joka ei ole galleria tai albumi.
+  invalidChannel: '<: No: 977600033740431410> Virheellinen kanava. Vain teksti- ja kierteitä koskevia kanavia tuetaan!'
+  invalidImgurUrl: '<: Ei: 977600033740431410> Virheellinen kuva -URL -osoite kuvakkeelle tai bannerille. Varmista, että olet kirjoittanut kelvollisen Imgur -kuvan URL -osoitteen, joka ei ole galleria tai albumi.'
   join:
-    success: >-
-      Onnistuneesti liittynyt Hub ** {{hub}} ** {{{channel}}}! Hallitse yhteyden
-      hallintaa `/yhteys". Ja `/napa jättää 'poistua napista.
+    success: Onnistuneesti liittynyt Hub ** {{hub}} ** {{{channel}}}! Hallitse yhteyden hallintaa `/yhteys". Ja `/napa jättää 'poistua napista.
   servers:
     total: 'Nykyiset kytketyt palvelimet: {{from}}-{{to}} / ** {{total}} **'
-    noConnections: >-
-      <: NO: 977600033740431410> Yksikään palvelin ei ole vielä liittynyt tähän
-      keskittimeen. Liity tähän keskittimeen `/napa -liitosta.
+    noConnections: '<: NO: 977600033740431410> Yksikään palvelin ei ole vielä liittynyt tähän keskittimeen. Liity tähän keskittimeen `/napa -liitosta.'
     notConnected: '<: No: 977600033740431410>, että palvelin ei ole osa ** {{hub}} **.'
     connectionInfo: |-
       Kanava: #{{{channelName}}} `({{channelId}})` ` 
@@ -237,15 +195,9 @@ hub:
       banner:
         label: Bandi -URL -osoite
         placeholder: Kirjoita imgur -kuvan URL -osoite.
-    maxHubs: >-
-      <: No: 977600033740431410> Olet saavuttanut enimmäismäärän keskuksia (3),
-      jonka voit luoda. Poista napa ennen toisen luomista.
-    invalidName: >-
-      <: No: 977600033740431410> Virheellinen navan nimi. Se ei saa sisältää
-      `discord`,` clyde` tai \ `\` \ `. Valitse toinen nimi.
-    nameTaken: >-
-      <: No: 977600033740431410> Tämä navan nimi on jo otettu. Valitse toinen
-      nimi.
+    maxHubs: '<: No: 977600033740431410> Olet saavuttanut enimmäismäärän keskuksia (3), jonka voit luoda. Poista napa ennen toisen luomista.'
+    invalidName: '<: No: 977600033740431410> Virheellinen navan nimi. Se ei saa sisältää `discord`,` clyde` tai \ `\` \ `. Valitse toinen nimi.'
+    nameTaken: '<: No: 977600033740431410> Tämä navan nimi on jo otettu. Valitse toinen nimi.'
     success: |-
       ### Hub luotu! 
 
@@ -258,15 +210,10 @@ hub:
        - ** Muokkaa napa: ** `/Hub Hallitse` 
        - ** Lisää moderaattorit: ** `/Hub -moderaattori add` 
 
-       Lisätietoja keskittimistä [oppaassa] (https://discord-interchat.github.io/docs). Liity [tukipalvelin] ({{{support_invite}}}) apua.
+       Lisätietoja keskittimistä [oppaassa] (https://discord-interchat.github.io/docs). Liity [tukipalvelin] ({{{docs_link}}}) apua.
   delete:
-    confirm: >-
-      Oletko varma, että haluat poistaa ** {{hub}} **? Tämä toiminta on
-      peruuttamaton. Kaikki kytketyt palvelimet, kutsut ja viestitiedot
-      poistetaan tästä napasta.
-    ownerOnly: >-
-      <: No: 977600033740431410> Vain tämän keskittimen omistaja voi poistaa
-      sen.
+    confirm: Oletko varma, että haluat poistaa ** {{hub}} **? Tämä toiminta on peruuttamaton. Kaikki kytketyt palvelimet, kutsut ja viestitiedot poistetaan tästä napasta.
+    ownerOnly: '<: No: 977600033740431410> Vain tämän keskittimen omistaja voi poistaa sen.'
     success: '{{{emoji}}} napa ** {{hub}} ** on poistettu.'
     cancelled: '{{{emoji}}} navan deleetio on peruutettu.'
   browse:
@@ -293,67 +240,36 @@ hub:
 
          __Vauta lisää keskittymistä [oppaassa] (https://discord-interchat.github.io/docs) .__.
     revoke:
-      invalidCode: >-
-        <: NO: 977600033740431410> Virheellinen kutsukäyttö. Varmista, että olet
-        syöttänyt kelvollisen kutsukeskin.
+      invalidCode: '<: NO: 977600033740431410> Virheellinen kutsukäyttö. Varmista, että olet syöttänyt kelvollisen kutsukeskin.'
       success: '{{{emoji}}} kutsu {{inviteCode}} peruutettu.'
     list:
       title: '** Kutsu koodit: **'
-      noInvites: >-
-        <: Ei: 977600033740431410> Tällä napalla ei ole vielä kutsuja. Luo
-        luomiseen `/Hub Kutsu luota.
-      notPrivate: >-
-        <: NO: 977600033740431410> Vain yksityisillä keskuksilla voi olla
-        kutsuja. Käytä `/Hub Hallitse 'tehdäksesi tämän navan yksityiseksi.
+      noInvites: '<: Ei: 977600033740431410> Tällä napalla ei ole vielä kutsuja. Luo luomiseen `/Hub Kutsu luota.'
+      notPrivate: '<: NO: 977600033740431410> Vain yksityisillä keskuksilla voi olla kutsuja. Käytä `/Hub Hallitse ''tehdäksesi tämän navan yksityiseksi.'
   joined:
-    noJoinedHubs: >-
-      <: No: 977600033740431410> Tämä palvelin ei ole vielä liittynyt mihinkään
-      napaisiin. Käytä `/napa Selaa 'nähdäksesi luettelon keskittimistä.
-    joinedHubs: >-
-      Tämä palvelin on osa ** {{total}} ** Hub (s). Käytä `/napalomallista
-      'jättääksesi navan.
+    noJoinedHubs: '<: No: 977600033740431410> Tämä palvelin ei ole vielä liittynyt mihinkään napaisiin. Käytä `/napa Selaa ''nähdäksesi luettelon keskittimistä.'
+    joinedHubs: Tämä palvelin on osa ** {{total}} ** Hub (s). Käytä `/napalomallista 'jättääksesi navan.
   leave:
-    noHub: >-
-      <: Ei: 977600033740431410> Tämä kanava on virheellinen tai ei ole liitetty
-      mihinkään keskuksiin.
-    confirm: >-
-      Oletko varma, että haluat jättää ** {{hub}} ** {{{channel}}}? Tälle
-      palvelimelle ei lähetetä enää viestejä tästä keskuksesta.
+    noHub: '<: Ei: 977600033740431410> Tämä kanava on virheellinen tai ei ole liitetty mihinkään keskuksiin.'
+    confirm: Oletko varma, että haluat jättää ** {{hub}} ** {{{channel}}}? Tälle palvelimelle ei lähetetä enää viestejä tästä keskuksesta.
     confirmFooter: Vahvista käyttämällä alla olevaa painiketta 10 sekunnissa.
-    success: >-
-      {{{emoji}}} jätti navan {{{channel}}}. Tälle palvelimelle ei lähetetä enää
-      viestejä tästä keskuksesta. Voit liittyä uudelleen käyttämällä `/napa
-      -liitosta.
+    success: '{{{emoji}}} jätti navan {{{channel}}}. Tälle palvelimelle ei lähetetä enää viestejä tästä keskuksesta. Voit liittyä uudelleen käyttämällä `/napa -liitosta.'
   moderator:
-    noModerators: >-
-      <: No: 977600033740431410> Tässä keskittimessä ei ole vielä
-      moderaattoreita. Lisää `/Hub -moderaattori lisää" lisätäksesi yhden.
+    noModerators: '<: No: 977600033740431410> Tässä keskittimessä ei ole vielä moderaattoreita. Lisää `/Hub -moderaattori lisää" lisätäksesi yhden.'
     add:
-      success: >-
-        {{{emoji}}} ** {{{user}}} ** on lisätty sijainnin moderaattoriksi **
-        {{position}} **.
+      success: '{{{emoji}}} ** {{{user}}} ** on lisätty sijainnin moderaattoriksi ** {{position}} **.'
       alreadyModerator: '<: No: 977600033740431410> ** {{{user}}} ** on jo moderaattori.'
     remove:
       success: '{{{emoji}}} ** {{{user}}} ** on poistettu moderaattorina.'
       notModerator: '<: No: 977600033740431410> ** {{{user}}} ** ei ole moderaattori.'
-      notOwner: >-
-        <: No: 977600033740431410> Vain tämän keskuksen omistaja voi poistaa
-        johtajan.
+      notOwner: '<: No: 977600033740431410> Vain tämän keskuksen omistaja voi poistaa johtajan.'
     update:
-      success: >-
-        {{{emoji}}} ** {{{user}}} ** sijainti on päivitetty arvoon **
-        {{position}} **.
+      success: '{{{emoji}}} ** {{{user}}} ** sijainti on päivitetty arvoon ** {{position}} **.'
       notModerator: '<: No: 977600033740431410> ** {{{user}}} ** ei ole moderaattori.'
-      notAllowed: >-
-        <: NO: 977600033740431410> Vain navanhoitajat voivat päivittää
-        moderaattorin sijainnin.
-      notOwner: >-
-        <: No: 977600033740431410> Vain tämän keskittimen omistaja voi päivittää
-        johtajan sijainnin.
+      notAllowed: '<: NO: 977600033740431410> Vain navanhoitajat voivat päivittää moderaattorin sijainnin.'
+      notOwner: '<: No: 977600033740431410> Vain tämän keskittimen omistaja voi päivittää johtajan sijainnin.'
   manage:
-    enterImgurUrl: >-
-      Kirjoita kelvollinen Imgur -kuvan URL -osoite, joka ei ole galleria tai
-      albumi.
+    enterImgurUrl: Kirjoita kelvollinen Imgur -kuvan URL -osoite, joka ei ole galleria tai albumi.
     icon:
       changed: Hub -kuvake muuttui onnistuneesti.
       modal:
@@ -387,9 +303,7 @@ hub:
         description: Tee tästä keskittimestä julkiseksi tai yksityiseksi.
     logs:
       title: Määritä lokit
-      reset: >-
-        {{{emoji}}} nollataan lokien kokoonpanot onnistuneesti `{{{type}}}`
-        loki.
+      reset: '{{{emoji}}} nollataan lokien kokoonpanot onnistuneesti `{{{type}}}` loki.'
       roleSuccess: '{{{emoji}}} Tyyppilokit `{{{type}}}` mainitsee nyt {{{role}}}!'
       channelSuccess: '{{{emoji}}} Tyyppit `{{{type}}}` lähetetään {{{channel}}}!'
       channelSelect: '#️⃣ Valitse määritettävä lokityyppi.'
@@ -397,9 +311,8 @@ hub:
       reportChannelFirst: '<: No: 977600033740431410> Aseta ensin lokikanava.'
       config:
         title: Määritä `{{{type}}}` lokit
-        description: >-
-          {{{arrow}}} Valitse lokikanava ja/tai rooli, joka on pingoitava alla
-          olevasta avattavasta. 
+        description: |-
+          {{{arrow}}} Valitse lokikanava ja/tai rooli, joka on pingoitava alla olevasta avattavasta. 
            {{{arrow}}} Voit myös poistaa kirjautumisen käytöstä alla olevan painikkeen avulla.
         fields:
           channel: Kanava
@@ -437,79 +350,46 @@ report:
 
      ** Löydä käyttäjän tunnuksen verkosta: ** 
      {{{dot}}} Napsauta hiiren kakkospainikkeella kyseiseltä käyttäjalta lähetettyä viestiä Valitse . Tarkista henkilöllisyystodistus ja yritä uudelleen.
-  invalidServer: >-
-    <: Ei: 977600033740431410> En löytänyt palvelinta, jolla on kyseinen
-    tunnus. 
+  invalidServer: |-
+    <: Ei: 977600033740431410> En löytänyt palvelinta, jolla on kyseinen tunnus. 
 
      ** Palvelimen tunnuksen löytäminen verkosta: ** 
      {{{dot}}} Napsauta hiiren kakkospainikkeella kyseisen palvelimen lähettämää viestiä ja valitse . Tarkista henkilöllisyystodistus ja yritä uudelleen.
-  submitted: >-
-    Toimitettu raportti. Liity ** [Support Server] ({{{support_invite}}}) **
-    saadaksesi päivityksiä raportista.
+  submitted: Toimitettu raportti. Liity ** [Support Server] ({{{support_invite}}}) ** saadaksesi päivityksiä raportista.
   bug:
     title: Virhe raportti
     affected: Vaikuttavat komponentit
     description: Valitse, minkä komponentin botista sinulla on ongelmia.
-    submitted: >-
-      {{{emoji}}} raportti toimitettu onnistuneesti. Liity </tukipalvelimeen:
-      924659341049626636> saadaksesi lisätietoja. Kiitos!
+    submitted: '{{{emoji}}} raportti toimitettu onnistuneesti. Liity </tukipalvelimeen: 924659341049626636> saadaksesi lisätietoja. Kiitos!'
 language:
   set: Kielen! Vastaan nyt sinulle ** {{{lang}}} **.
 errors:
-  messageNotSentOrExpired: >-
-    <: No: 977600033740431410> Tätä viestiä ei lähetetty napalle, se on
-    vanhentunut tai sinulla ei ole käyttöoikeuksia tämän toiminnan
-    suorittamiseen.
-  notYourAction: >-
-    <: No: 977600033740431410> Anteeksi, et voi suorittaa tätä toimintoa.
-    Suorita komento itse.
+  messageNotSentOrExpired: '<: No: 977600033740431410> Tätä viestiä ei lähetetty napalle, se on vanhentunut tai sinulla ei ole käyttöoikeuksia tämän toiminnan suorittamiseen.'
+  notYourAction: '<: No: 977600033740431410> Anteeksi, et voi suorittaa tätä toimintoa. Suorita komento itse.'
   notMessageAuthor: '<: No: 977600033740431410> Et ole tämän viestin kirjoittaja.'
-  commandError: >-
-    <: No: 977600033740431410> Tämän komennon suorittamisen aikana tapahtui
-    virhe. Se on kirjautunut järjestelmään. Jos tämä ongelma jatkuu, liity
-    [tukipalvelin] ({{{support_invite}}}) ja ilmoita siitä! 
+  commandError: |-
+    <: No: 977600033740431410> Tämän komennon suorittamisen aikana tapahtui virhe. Se on kirjautunut järjestelmään. Jos tämä ongelma jatkuu, liity [tukipalvelin] ({{{support_invite}}}) ja ilmoita siitä! 
      `` `JS 
      {{{error}}} 
      `` `
-  mustVote: >-
-    Ole hyvä ja äänestää] (https://top.gg/bot/769921109209907241/vote)
-    InterChatille tämän komennon käyttämiseksi, tuestasi on erittäin arvostettu!
-  inviteLinks: >-
-    <: Ei: 977600033740431410> Älä mainosta tai mainosta palvelimia verkossa.
-    Aseta kutsu  sen sijaan!
-  invalidLangCode: >-
-    <: No: 977600033740431410> Virheellinen kielikoodi. Varmista, että olet
-    kirjoittanut oikean [kielikoodin]
-    (https://cloud.google.com/translate/docs/languages).
-  unknownServer: >-
-    <: No: 977600033740431410> Tuntematon palvelin. Varmista, että olet
-    syöttänyt oikean palvelimen tunnuksen.
-  unknownNetworkMessage: >-
-    <: No: 977600033740431410> Tuntematon viesti. Jos se on lähetetty viimeisen
-    minuutin aikana, odota vielä muutama sekunti ja yritä uudelleen.
-  userNotFound: >-
-    <: NO: 977600033740431410> Käyttäjää ei löydy. Yritä syöttää heidän
-    tunnuksensa sen sijaan.
-  blacklisted: >-
-    <: NO: 977600033740431410> Sinä tai tämä palvelin on mustalla listalla
-    käyttämästä InterChatia.
+  mustVote: Ole hyvä ja äänestää] (https://top.gg/bot/769921109209907241/vote) InterChatille tämän komennon käyttämiseksi, tuestasi on erittäin arvostettu!
+  inviteLinks: '<: Ei: 977600033740431410> Älä mainosta tai mainosta palvelimia verkossa. Aseta kutsu  sen sijaan!'
+  invalidLangCode: '<: No: 977600033740431410> Virheellinen kielikoodi. Varmista, että olet kirjoittanut oikean [kielikoodin] (https://cloud.google.com/translate/docs/languages).'
+  unknownServer: '<: No: 977600033740431410> Tuntematon palvelin. Varmista, että olet syöttänyt oikean palvelimen tunnuksen.'
+  unknownNetworkMessage: '<: No: 977600033740431410> Tuntematon viesti. Jos se on lähetetty viimeisen minuutin aikana, odota vielä muutama sekunti ja yritä uudelleen.'
+  userNotFound: '<: NO: 977600033740431410> Käyttäjää ei löydy. Yritä syöttää heidän tunnuksensa sen sijaan.'
+  blacklisted: '<: NO: 977600033740431410> Sinä tai tämä palvelin on mustalla listalla käyttämästä InterChatia.'
   userBlacklisted: '<: No: 977600033740431410> Sinulla on musta lista ** {{hub}} **.'
   serverBlacklisted: '<: No: 977600033740431410> Tämä palvelin on musta listalla ** {{hub}} **.'
   serverNotBlacklisted: '<: NO: 977600033740431410> Syöttöpalvelin ei ole mustalla listalla.'
   userNotBlacklisted: '<: No: 977600033740431410> Syötettyä käyttäjää ei ole mustalla listalla.'
   missingPermissions: < -
-  botMissingPermissions: >-
-    <: No: 977600033740431410> Antakaa minulle seuraavat luvat jatkaa: **
-    {{{permissions}}} **
-  unknown: >-
-    <: NO: 977600033740431410> Tapahtui tuntematon virhe. Yritä myöhemmin
-    uudelleen tai ota meihin yhteyttä liittymällä [tukipalvelin]
-    ({{{support_invite}}}).
+  botMissingPermissions: '<: No: 977600033740431410> Antakaa minulle seuraavat luvat jatkaa: ** {{{permissions}}} **'
+  unknown: '<: NO: 977600033740431410> Tapahtui tuntematon virhe. Yritä myöhemmin uudelleen tai ota meihin yhteyttä liittymällä [tukipalvelin] ({{{support_invite}}}).'
   notUsable: '<: No: 977600033740431410> Tämä ei ole enää käyttökelpoinen.'
-  cooldown: >-
-    <: No: 977600033740431410> Olet jäähdytys. Odota ** {{{time}}} ** ennen
-    yritystä uudelleen.
+  cooldown: '<: No: 977600033740431410> Olet jäähdytys. Odota ** {{{time}}} ** ennen yritystä uudelleen.'
 misc:
   noReason: Ei mitään syytä.
   noDesc: Ei kuvausta.
   version: InterChat V {{version}}
+  loading: '{{{emoji}}} Odota, kun käsittelen pyyntösi ...'

@@ -21,38 +21,26 @@ vote: |-
 
    Mes labai vertiname jūsų nenutrūkstamą palaikymą. Ačiū! 🙏
 network:
-  deleteSuccess: >-
-    {{{emoji}}} {{{user}}}} pranešimas buvo ištrintas iš __ **
-    {{deleted}}/{{total}} ** __ serveriai.
-  editSuccess: >-
-    {{{emoji}}} {{{user}}}} pranešimas buvo redaguotas __ **
-    {{edited}}/{{total}} ** __ serveriuose.
+  accountTooNew: '<: Nr.: 977600033740431410> {{{user}}} Jūsų paskyra yra per daug nauja, kad galėtumėte siųsti pranešimus „Interchat“. Pabandykite dar kartą vėliau.'
+  deleteSuccess: '{{{emoji}}} {{{user}}}} pranešimas buvo ištrintas iš __ ** {{deleted}}/{{total}} ** __ serveriai.'
+  editSuccess: '{{{emoji}}} {{{user}}}} pranešimas buvo redaguotas __ ** {{edited}}/{{total}} ** __ serveriuose.'
   welcome: |-
     {{{user}}} Sveiki atvykę į ** {{hub}} **! <A: banga: 1185520281134055446> 
 
      Pranešimai, išsiųsti {{{channel}}}, bus dalijami su kitais serveriais, ** įgalinant lengvą ryšį **. Galite bendrinti vaizdus, GIF, atsakyti, reaguoti ir bendrauti su pranešimais taip, kaip įprastai. Tiesiog nepamirškite vengti dalytis asmenine informacija (patikrinkite </taisyklės: 924659340898619395> Norėdami sužinoti daugiau). Pasiruošę šokti? Atsiųskite savo pirmąjį pranešimą ir prisijunkite prie pokalbio!
   nsfw:
     title: NSFW aptiko
-    description: >-
-      Aš aptikau {{predictions}} nsfw (ne saugus darbui) jūsų pranešime.
-      Atminkite, kad tai prieštarauja mūsų </taisyklėms: 924659340898619395> ir
-      sukels tiesioginį juodąjį sąrašą.
-    footer: >-
-      Atminkite, kad AI nėra tobula ir gali padaryti klaidų. Atsiprašome už bet
-      kokius sukeltus nepatogumus.
+    description: 'Aš aptikau {{predictions}} nsfw (ne saugus darbui) jūsų pranešime. Atminkite, kad tai prieštarauja mūsų </taisyklėms: 924659340898619395> ir sukels tiesioginį juodąjį sąrašą.'
+    footer: Atminkite, kad AI nėra tobula ir gali padaryti klaidų. Atsiprašome už bet kokius sukeltus nepatogumus.
   onboarding:
     embed:
       title: 👋 Ei, sveiki atvykę į {{hubName}}!
-      description: >-
-        Norint, kad viskas būtų tvarkoma, rekomenduojama naudoti atskirą kanalą
-        tik šiam stebulei. Bet nesijaudinkite, visada galite tai pakeisti
-        vėliau. 
+      description: |-
+        Norint, kad viskas būtų tvarkoma, rekomenduojama naudoti atskirą kanalą tik šiam stebulei. Bet nesijaudinkite, visada galite tai pakeisti vėliau. 
 
          ** Kaip tai veikia: ** „Interchat“ tinklas yra tarsi stebuklingas tiltas, susiejantis kanalus skirtinguose serveriuose, kurie yra su mumis šiame centre. Sužinokite daugiau mūsų [gide] (https://discord-interchat.github.io/docs).
       footer: Interchat Network | Version {{version}}
-    inProgress: >-
-      Jau buvo bandoma prisijungti prie stebulės iš {{{channel}}}. Prašome
-      atšaukti arba palaukite, kol jis bus baigtas.
+    inProgress: Jau buvo bandoma prisijungti prie stebulės iš {{{channel}}}. Prašome atšaukti arba palaukite, kol jis bus baigtas.
 blacklist:
   button:
     user: Juodojo sąrašo vartotojas
@@ -63,24 +51,18 @@ blacklist:
       placeholder: Juodojo sąrašo priežastis
     duration:
       label: Trukmė
-      placeholder: >-
-        Juodojo sąrašo trukmė. Pvz.: 1d, 1W, 1m, 1y. Palikite tuščią
-        nuolatiniam.
+      placeholder: 'Juodojo sąrašo trukmė. Pvz.: 1d, 1W, 1m, 1y. Palikite tuščią nuolatiniam.'
   user:
     success: '{{{emoji}}} ** {{username}} ** buvo sėkmingai įtrauktas į juodąjį sąrašą!'
     removed: '{{{emoji}}} ** {{username}} ** buvo pašalintas iš juodojo sąrašo!'
-    alreadyBlacklisted: >-
-      <: Nr.: 977600033740431410> Šis vartotojas jau yra įtrauktas į juodąjį
-      sąrašą.
+    alreadyBlacklisted: '<: Nr.: 977600033740431410> Šis vartotojas jau yra įtrauktas į juodąjį sąrašą.'
     easterEggs:
       blacklistBot: Jūs negalite man juodojo sąrašo WTF.
   server:
     success: '{{{emoji}}} ** {{server}} ** buvo sėkmingai įtrauktas į juodąjį sąrašą!'
     removed: '{{{emoji}}} ** {{server}} ** buvo pašalintas iš juodojo sąrašo!'
     alreadyBlacklisted: '<: Ne: 977600033740431410> Šis serveris jau yra juodasis sąrašas.'
-    unknownError: >-
-      Nepavyko į juodąjį sąrašą ** {{server}} **. Norėdami gauti daugiau
-      informacijos, pasiteiraukite su kūrėjais.
+    unknownError: Nepavyko į juodąjį sąrašą ** {{server}} **. Norėdami gauti daugiau informacijos, pasiteiraukite su kūrėjais.
   list:
     user: |-
       ** userId: ** {{userId}} 
@@ -151,40 +133,21 @@ msgInfo:
   report:
     notEnabled: '<: Nr.: 977600033740431410> Šiam stebulei neįgalinta ataskaitų teikimas.'
     success: '{{{emoji}}} ataskaita, sėkmingai pateikta. Ačiū!'
-invite: >-
-  Dėkojame, kad pasirinkote pakviesti „Interchat“. Tiesiog spustelėkite žemiau
-  esantį mygtuką, kad pakviestumėte mane! 
+invite: |-
+  Dėkojame, kad pasirinkote pakviesti „Interchat“. Tiesiog spustelėkite žemiau esantį mygtuką, kad pakviestumėte mane! 
 
    - ** Palaikymo serveris: ** {{{support}}}
 connection:
-  notFound: >-
-    <: Ne: 977600033740431410> Netinkamas ryšys. Patikrinkite kanalo ID arba
-    pasirinkite iš rodomų parinkčių.
-  channelNotFound: >-
-    <: Ne: 977600033740431410> Nepavyko rasti prijungto kanalo. Norėdami vėl
-    kalbėti, pasirinkite naują kanalą.
-  alreadyConnected: >-
-    <: Nr.: 977600033740431410> kanalas {{{channel}}} jau yra prijungtas prie
-    stebulės.
-  switchChannel: >-
-    {{{emoji}}} pasirinkite kanalą, kad galėtumėte pereiti prie žemiau pateikto
-    meniu Pasirinkti pasirinkimo:
-  switchCalled: >-
-    {{{emoji}}} kanalo jungiklis vadinamas, vėl naudokite komandą, kad
-    peržiūrėtumėte naują ryšį.
-  switchSuccess: >-
-    {{{emoji}}} kanalas perjungtas. Dabar esate prisijungę nuo ** {{{channel}}}
-    **.
+  notFound: '<: Ne: 977600033740431410> Netinkamas ryšys. Patikrinkite kanalo ID arba pasirinkite iš rodomų parinkčių.'
+  channelNotFound: '<: Ne: 977600033740431410> Nepavyko rasti prijungto kanalo. Norėdami vėl kalbėti, pasirinkite naują kanalą.'
+  alreadyConnected: '<: Nr.: 977600033740431410> kanalas {{{channel}}} jau yra prijungtas prie stebulės.'
+  switchChannel: '{{{emoji}}} pasirinkite kanalą, kad galėtumėte pereiti prie žemiau pateikto meniu Pasirinkti pasirinkimo:'
+  switchCalled: '{{{emoji}}} kanalo jungiklis vadinamas, vėl naudokite komandą, kad peržiūrėtumėte naują ryšį.'
+  switchSuccess: '{{{emoji}}} kanalas perjungtas. Dabar esate prisijungę nuo ** {{{channel}}} **.'
   inviteRemoved: '{{{emoji}}} serverio kvietimas pašalinti šį centrą.'
-  inviteInvalid: >-
-    <: Nr.: 977600033740431410> Netinkamas kvietimas. Įsitikinkite, kad įvedėte
-    galiojančią kvietimų nuorodą.
-  inviteAdded: >-
-    {{{emoji}}} pakviesti pridėtą. Kiti dabar gali prisijungti prie šio serverio
-    naudodamiesi „Apps> pranešimo informacijos/ataskaitos“ komanda.
-  emColorInvalid: >-
-    <: Ne: 977600033740431410> Netinkama spalva. Įsitikinkite, kad įvedėte
-    galiojantį „Hex“ spalvų kodą.
+  inviteInvalid: '<: Nr.: 977600033740431410> Netinkamas kvietimas. Įsitikinkite, kad įvedėte galiojančią kvietimų nuorodą.'
+  inviteAdded: '{{{emoji}}} pakviesti pridėtą. Kiti dabar gali prisijungti prie šio serverio naudodamiesi „Apps> pranešimo informacijos/ataskaitos“ komanda.'
+  emColorInvalid: '<: Ne: 977600033740431410> Netinkama spalva. Įsitikinkite, kad įvedėte galiojantį „Hex“ spalvų kodą.'
   emColorChange: '{{ay'
   embed:
     title: Informacija apie ryšį
@@ -197,38 +160,20 @@ connection:
       emColor: Įterptinė spalva
       compact: Kompaktiškas režimas
       profanity: Nešvankybės filtras
-    footer: >-
-      Norėdami valdyti ryšį, naudokite žemiau esantį mygtuką ir išskleidžiamąjį
-      išskleidimą.
+    footer: Norėdami valdyti ryšį, naudokite žemiau esantį mygtuką ir išskleidžiamąjį išskleidimą.
   selects:
     placeholder: 🛠️ Pasirinkite parinktį žemiau, kad galėtumėte valdyti savo ryšį.
 hub:
-  notFound: >-
-    <: Ne: 977600033740431410> Nepavyko rasti centro. Įsitikinkite, kad įvedėte
-    teisingą centro pavadinimą.
-  notFound_mod: >-
-    <: Ne: 977600033740431410> Nepavyko rasti centro. Įsitikinkite, kad įvedėte
-    teisingą centro pavadinimą ir ar esate „Hub“ savininkas ar moderatorius.
-  alreadyJoined: >-
-    <: Ne: 977600033740431410> Jūs jau prisijungėte prie ** {{hub}} ** iš
-    {{{channel}}}!
-  invalidChannel: >-
-    <: Nr.: 977600033740431410> Neteisingas kanalas. Palaikomi tik teksto ir
-    siūlų kanalai!
-  invalidImgurUrl: >-
-    <: Ne: 977600033740431410> Netinkamas piktogramos ar reklamjuostės vaizdo
-    URL. Įsitikinkite, kad įvedėte galiojantį „Imgur“ vaizdo URL, kuris nėra
-    galerija ar albumas.
+  notFound: '<: Ne: 977600033740431410> Nepavyko rasti centro. Įsitikinkite, kad įvedėte teisingą centro pavadinimą.'
+  notFound_mod: '<: Ne: 977600033740431410> Nepavyko rasti centro. Įsitikinkite, kad įvedėte teisingą centro pavadinimą ir ar esate „Hub“ savininkas ar moderatorius.'
+  alreadyJoined: '<: Ne: 977600033740431410> Jūs jau prisijungėte prie ** {{hub}} ** iš {{{channel}}}!'
+  invalidChannel: '<: Nr.: 977600033740431410> Neteisingas kanalas. Palaikomi tik teksto ir siūlų kanalai!'
+  invalidImgurUrl: '<: Ne: 977600033740431410> Netinkamas piktogramos ar reklamjuostės vaizdo URL. Įsitikinkite, kad įvedėte galiojantį „Imgur“ vaizdo URL, kuris nėra galerija ar albumas.'
   join:
-    success: >-
-      Sėkmingai sujungtas hub ** {{hub}} ** iš {{{channel}}}! Norėdami valdyti
-      ryšį, naudokite „/Connection“. Ir „/stebulės palieka“, kad paliktumėte
-      stebulę.
+    success: Sėkmingai sujungtas hub ** {{hub}} ** iš {{{channel}}}! Norėdami valdyti ryšį, naudokite „/Connection“. Ir „/stebulės palieka“, kad paliktumėte stebulę.
   servers:
     total: 'Dabartiniai prijungti serveriai: {{from}}-{{to}} / ** {{total}} **'
-    noConnections: >-
-      <: Nr.: 977600033740431410> dar serveris dar neprisijungė prie šio centro.
-      Norėdami prisijungti prie šio centro, naudokite „/stebulės prisijungimą“.
+    noConnections: '<: Nr.: 977600033740431410> dar serveris dar neprisijungė prie šio centro. Norėdami prisijungti prie šio centro, naudokite „/stebulės prisijungimą“.'
     notConnected: '<: Ne: 977600033740431410> tas serveris nėra ** {{hub}} ** dalis.'
     connectionInfo: |-
       Kanalas: #{{{channelName}}}} `({{channelId}})` ` 
@@ -250,15 +195,9 @@ hub:
       banner:
         label: Reklamjuostės URL
         placeholder: Įveskite „Imgur“ vaizdo URL.
-    maxHubs: >-
-      <: Nr.: 977600033740431410> Jūs pasiekėte maksimalų centrų skaičių (3),
-      kuriuos galite sukurti. Prieš sukurdami kitą, ištrinkite centrą.
-    invalidName: >-
-      <: Ne: 977600033740431410> Netinkamas stebulės pavadinimas. Jame neturi
-      būti „nesantaikos“, „clyde“ arba \ `\` \ `. Pasirinkite kitą vardą.
-    nameTaken: >-
-      <: Nr.: 977600033740431410> Šis stebulės pavadinimas jau imamas.
-      Pasirinkite kitą vardą.
+    maxHubs: '<: Nr.: 977600033740431410> Jūs pasiekėte maksimalų centrų skaičių (3), kuriuos galite sukurti. Prieš sukurdami kitą, ištrinkite centrą.'
+    invalidName: '<: Ne: 977600033740431410> Netinkamas stebulės pavadinimas. Jame neturi būti „nesantaikos“, „clyde“ arba \ `\` \ `. Pasirinkite kitą vardą.'
+    nameTaken: '<: Nr.: 977600033740431410> Šis stebulės pavadinimas jau imamas. Pasirinkite kitą vardą.'
     success: |-
       ### HUB sukurtas! 
 
@@ -271,12 +210,9 @@ hub:
        - ** Redaguoti stebulę: ** `/HUB valdymas" 
        - ** Pridėti moderatorius: ** `/HUB moderatoriaus pridėjimas“ 
 
-       Sužinokite daugiau apie mūsų [gido] centrus (https://discord-interchat.github.io/docs). Prisijunkite prie [palaikymo serverio] ({{{support_invite}}}) pagalbos.
+       Sužinokite daugiau apie mūsų [gido] centrus (https://discord-interchat.github.io/docs). Prisijunkite prie [palaikymo serverio] ({{{docs_link}}}) pagalbos.
   delete:
-    confirm: >-
-      Ar tikrai norite ištrinti ** {{hub}} **? Šis veiksmas yra negrįžtamas.
-      Visi prijungti serveriai, kvietimai ir pranešimų duomenys bus pašalinti iš
-      šio centro.
+    confirm: Ar tikrai norite ištrinti ** {{hub}} **? Šis veiksmas yra negrįžtamas. Visi prijungti serveriai, kvietimai ir pranešimų duomenys bus pašalinti iš šio centro.
     ownerOnly: '<: Ne: 977600033740431410> Tik šio centro savininkas gali jį ištrinti.'
     success: '{{{emoji}}} hub ** {{hub}} ** buvo ištrintas.'
     cancelled: '{{{emoji}}} HUB ištrynimas buvo atšauktas.'
@@ -285,9 +221,7 @@ hub:
       Ar tikrai norite prisijungti prie {{hub}} iš {{{channel}}}? 
           
        ** Pastaba: ** Visada galite tai pakeisti vėliau naudodami „/connection“.
-    joinFooter: >-
-      Norite naudoti kitą kanalą? Naudokite išskleidžiamąjį išskleidžiamąjį
-      žemiau.
+    joinFooter: Norite naudoti kitą kanalą? Naudokite išskleidžiamąjį išskleidžiamąjį žemiau.
     noHubs: Šiuo metu čia čia nėra išvardyti. Pabandykite dar kartą vėliau!
     rating:
       invalid: Neteisingas įvertinimas. Turite įvesti skaičių nuo 1 iki 5.
@@ -306,64 +240,34 @@ hub:
 
          __Learn Daugiau apie mūsų [gido] centrus (https://discord-interchat.github.io/docs) .__.
     revoke:
-      invalidCode: >-
-        <: Nr.: 977600033740431410> Netinkamas kvietimo kodas. Įsitikinkite, kad
-        įvedėte galiojantį kvietimo kodą.
+      invalidCode: '<: Nr.: 977600033740431410> Netinkamas kvietimo kodas. Įsitikinkite, kad įvedėte galiojantį kvietimo kodą.'
       success: '{{{emoji}}} pakviesti {{inviteCode}} atšauktas.'
     list:
       title: '** pakviesti kodus: **'
-      noInvites: >-
-        <: Ne: 977600033740431410> Šis centras dar neturi kvietimų. Norėdami
-        sukurti, naudokite „/stebulės pakvieskite sukurti“.
-      notPrivate: >-
-        <: Nr.: 977600033740431410> Kvietimai gali turėti tik privačius centrus.
-        Norėdami padaryti šį centrą privatų, naudokite „/stebulės valdymą“.
+      noInvites: '<: Ne: 977600033740431410> Šis centras dar neturi kvietimų. Norėdami sukurti, naudokite „/stebulės pakvieskite sukurti“.'
+      notPrivate: '<: Nr.: 977600033740431410> Kvietimai gali turėti tik privačius centrus. Norėdami padaryti šį centrą privatų, naudokite „/stebulės valdymą“.'
   joined:
-    noJoinedHubs: >-
-      <: Ne: 977600033740431410> Šis serveris dar neprisijungė prie jokių
-      stebulių. Norėdami peržiūrėti „Hub“ sąrašą, naudokite „/stebulės
-      naršyklę“.
-    joinedHubs: >-
-      Šis serveris yra ** {{total}} ** cent (-ų) dalis. Norėdami palikti
-      stebulę, naudokite „/stebulės atostogas“.
+    noJoinedHubs: '<: Ne: 977600033740431410> Šis serveris dar neprisijungė prie jokių stebulių. Norėdami peržiūrėti „Hub“ sąrašą, naudokite „/stebulės naršyklę“.'
+    joinedHubs: Šis serveris yra ** {{total}} ** cent (-ų) dalis. Norėdami palikti stebulę, naudokite „/stebulės atostogas“.
   leave:
-    noHub: >-
-      <: Nr.: 977600033740431410> Tas kanalas negalioja arba neprisijungė prie
-      jokių stebulių.
-    confirm: >-
-      Ar tikrai norite palikti ** {{hub}} ** iš {{{channel}}}? Šiam serveriui iš
-      šio centro nebebus siunčiamos daugiau pranešimų.
+    noHub: '<: Nr.: 977600033740431410> Tas kanalas negalioja arba neprisijungė prie jokių stebulių.'
+    confirm: Ar tikrai norite palikti ** {{hub}} ** iš {{{channel}}}? Šiam serveriui iš šio centro nebebus siunčiamos daugiau pranešimų.
     confirmFooter: Patvirtinkite žemiau esantį mygtuką per 10 sekundžių.
-    success: >-
-      {{{emoji}}} paliko stebulę iš {{{channel}}}. Šiam serveriui iš šio centro
-      nebebus siunčiamos daugiau pranešimų. Galite vėl prisijungti naudodami
-      „/stebulės prisijungimą“.
+    success: '{{{emoji}}} paliko stebulę iš {{{channel}}}. Šiam serveriui iš šio centro nebebus siunčiamos daugiau pranešimų. Galite vėl prisijungti naudodami „/stebulės prisijungimą“.'
   moderator:
-    noModerators: >-
-      <: Nr.: 977600033740431410> Šis centras dar neturi moderatorių. Norėdami
-      pridėti, naudokite „/stebulės moderatorių pridėti“.
+    noModerators: '<: Nr.: 977600033740431410> Šis centras dar neturi moderatorių. Norėdami pridėti, naudokite „/stebulės moderatorių pridėti“.'
     add:
-      success: >-
-        {{{emoji}}} ** {{{user}}} ** buvo pridėtas kaip padėties moderatorius **
-        {{position}} **.
+      success: '{{{emoji}}} ** {{{user}}} ** buvo pridėtas kaip padėties moderatorius ** {{position}} **.'
       alreadyModerator: '<: Nr.: 977600033740431410> ** {{{user}}} ** jau yra moderatorius.'
     remove:
       success: '{{{emoji}}} ** {{{user}}} ** buvo pašalintas kaip moderatorius.'
       notModerator: '<: Nr.: 977600033740431410> ** {{{user}}} ** nėra moderatorius.'
-      notOwner: >-
-        <: Nr.: 977600033740431410> Tik šio centro savininkas gali pašalinti
-        valdytoją.
+      notOwner: '<: Nr.: 977600033740431410> Tik šio centro savininkas gali pašalinti valdytoją.'
     update:
-      success: >-
-        {{{emoji}}} ** {{{user}}} ** pozicija buvo atnaujinta į ** {{position}}
-        **.
+      success: '{{{emoji}}} ** {{{user}}} ** pozicija buvo atnaujinta į ** {{position}} **.'
       notModerator: '<: Nr.: 977600033740431410> ** {{{user}}} ** nėra moderatorius.'
-      notAllowed: >-
-        <: Nr.: 977600033740431410> Tik HUB valdytojai gali atnaujinti
-        moderatoriaus poziciją.
-      notOwner: >-
-        <: Ne: 977600033740431410> Tik šio centro savininkas gali atnaujinti
-        vadovo poziciją.
+      notAllowed: '<: Nr.: 977600033740431410> Tik HUB valdytojai gali atnaujinti moderatoriaus poziciją.'
+      notOwner: '<: Ne: 977600033740431410> Tik šio centro savininkas gali atnaujinti vadovo poziciją.'
   manage:
     enterImgurUrl: Įveskite galiojantį „Imgur“ vaizdo URL, kuris nėra galerija ar albumas.
     icon:
@@ -399,9 +303,7 @@ hub:
         description: Padarykite šį centrą viešą ar privatų.
     logs:
       title: Konfigūruokite žurnalus
-      reset: >-
-        {{{emoji}}} sėkmingai iš naujo nustatykite „{{{type}}}}} žurnalų
-        konfigūraciją.
+      reset: '{{{emoji}}} sėkmingai iš naujo nustatykite „{{{type}}}}} žurnalų konfigūraciją.'
       roleSuccess: '{{{emoji}}} {{{type}}}}} žurnalai dabar paminė {{{role}}}!'
       channelSuccess: '{{{emoji}}} {{{type}}}}} žurnalai bus išsiųsti į {{{channel}}} nuo šiol!'
       channelSelect: '#️⃣ Pasirinkite žurnalo tipą, kurį norite sukonfigūruoti.'
@@ -409,9 +311,8 @@ hub:
       reportChannelFirst: '<: Ne: 977600033740431410> Pirmiausia nustatykite žurnalo kanalą.'
       config:
         title: Konfigūruokite `{{{type}}}` žurnalai
-        description: >-
-          {{{arrow}}} Pasirinkite žurnalo kanalą ir (arba) vaidmenį, kurį reikia
-          paimti iš išskleidžiamojo krašto. 
+        description: |-
+          {{{arrow}}} Pasirinkite žurnalo kanalą ir (arba) vaidmenį, kurį reikia paimti iš išskleidžiamojo krašto. 
            {{{arrow}}} taip pat galite išjungti registraciją naudodami žemiau esantį mygtuką.
         fields:
           channel: Kanalas
@@ -443,9 +344,7 @@ report:
         placeholder: Pvz. Dažni sąveikos nesėkmės /pagalba komandai ...
       input2:
         label: Išsamus aprašymas (neprivaloma)
-        placeholder: >-
-          Žingsniai, kuriuos atlikote. Pvz. 1. Vykdykite /Pagalba 2. Palaukite 5
-          sekundes ...
+        placeholder: Žingsniai, kuriuos atlikote. Pvz. 1. Vykdykite /Pagalba 2. Palaukite 5 sekundes ...
   invalidUser: |-
     <: Ne: 977600033740431410> Aš neradau vartotojo su tuo ID. 
 
@@ -456,77 +355,41 @@ report:
 
      ** Norėdami rasti serverio ID tinkle: ** 
      {{{dot}}} dešiniuoju pelės mygtuku spustelėkite aptariamą serverio atsiųstą pranešimą ir pasirinkite „Apps> pranešimo informacija/ataskaita“. Dar kartą patikrinkite ID ir bandykite dar kartą.
-  submitted: >-
-    Pateikta ataskaita. Prisijunkite prie ** [palaikymo serverio]
-    ({{{support_invite}}}) **, kad gautumėte atnaujinimus savo ataskaitoje.
+  submitted: Pateikta ataskaita. Prisijunkite prie ** [palaikymo serverio] ({{{support_invite}}}) **, kad gautumėte atnaujinimus savo ataskaitoje.
   bug:
     title: Klaidų ataskaita
     affected: Paveikti komponentai
     description: Pasirinkite, kokį roboto komponentą susiduriate su problemomis.
-    submitted: >-
-      {{{emoji}}} ataskaita, sėkmingai pateikta. Prisijunkite prie </palaikymo
-      serverio: 924659341049626636> Norėdami gauti daugiau informacijos. Ačiū!
+    submitted: '{{{emoji}}} ataskaita, sėkmingai pateikta. Prisijunkite prie </palaikymo serverio: 924659341049626636> Norėdami gauti daugiau informacijos. Ačiū!'
 language:
   set: Kalbos rinkinys! Dabar atsakysiu į jus ** {{{lang}}} **.
 errors:
-  messageNotSentOrExpired: >-
-    <: Ne: 977600033740431410> Šis pranešimas nebuvo išsiųstas centre, pasibaigė
-    arba jums trūksta leidimų atlikti šį veiksmą.
-  notYourAction: >-
-    <: Ne: 977600033740431410> Atsiprašome, jūs negalite atlikti šio veiksmo.
-    Prašau patys paleisti komandą.
+  messageNotSentOrExpired: '<: Ne: 977600033740431410> Šis pranešimas nebuvo išsiųstas centre, pasibaigė arba jums trūksta leidimų atlikti šį veiksmą.'
+  notYourAction: '<: Ne: 977600033740431410> Atsiprašome, jūs negalite atlikti šio veiksmo. Prašau patys paleisti komandą.'
   notMessageAuthor: '<: Ne: 977600033740431410> Jūs nesate šios žinutės autorius.'
-  commandError: >-
-    <: Ne: 977600033740431410> Vykdant šią komandą įvyko klaida. Jis buvo
-    prisijungęs prie mūsų sistemos. Jei ši problema išlieka, prisijunkite prie
-    mūsų [palaikymo serverio] ({{{support_invite}}}) ir praneškite apie tai! 
+  commandError: |-
+    <: Ne: 977600033740431410> Vykdant šią komandą įvyko klaida. Jis buvo prisijungęs prie mūsų sistemos. Jei ši problema išlieka, prisijunkite prie mūsų [palaikymo serverio] ({{{support_invite}}}) ir praneškite apie tai! 
      `` `JS 
      {{{error}}} 
      `` `
-  mustVote: >-
-    Prašau [balsuoti] (https://top.gg/bot/769921109209907241/Vote), kad
-    „Interchat“ galėtų naudotis šia komanda, jūsų palaikymas yra labai
-    vertinamas!
-  inviteLinks: >-
-    <: Nr.: 977600033740431410> NENORITE ir reklamuokite serverių tinkle. Vietoj
-    to nustatykite kvietimą į „/Connection“!
-  invalidLangCode: >-
-    <: Ne: 977600033740431410> Netinkamas kalbos kodas. Įsitikinkite, kad
-    įvedėte teisingą [kalbos kodą]
-    (https://cloud.google.com/translate/docs/languages).
-  unknownServer: >-
-    <: Ne: 977600033740431410> Nežinomas serveris. Įsitikinkite, kad įvedėte
-    teisingą serverio ID.
-  unknownNetworkMessage: >-
-    <: Ne: 977600033740431410> Nežinomas pranešimas. Jei jis buvo išsiųstas per
-    pastarąją minutę, palaukite dar kelias sekundes ir bandykite dar kartą.
+  mustVote: Prašau [balsuoti] (https://top.gg/bot/769921109209907241/Vote), kad „Interchat“ galėtų naudotis šia komanda, jūsų palaikymas yra labai vertinamas!
+  inviteLinks: '<: Nr.: 977600033740431410> NENORITE ir reklamuokite serverių tinkle. Vietoj to nustatykite kvietimą į „/Connection“!'
+  invalidLangCode: '<: Ne: 977600033740431410> Netinkamas kalbos kodas. Įsitikinkite, kad įvedėte teisingą [kalbos kodą] (https://cloud.google.com/translate/docs/languages).'
+  unknownServer: '<: Ne: 977600033740431410> Nežinomas serveris. Įsitikinkite, kad įvedėte teisingą serverio ID.'
+  unknownNetworkMessage: '<: Ne: 977600033740431410> Nežinomas pranešimas. Jei jis buvo išsiųstas per pastarąją minutę, palaukite dar kelias sekundes ir bandykite dar kartą.'
   userNotFound: '<: Nr.: 977600033740431410> Vartotojas nerastas. Pabandykite įvesti jų ID.'
-  blacklisted: >-
-    <: Nr.: 977600033740431410> Jūs arba šis serveris yra įtrauktas į juodąjį
-    sąrašą nuo „Interchat“ naudojimo.
+  blacklisted: '<: Nr.: 977600033740431410> Jūs arba šis serveris yra įtrauktas į juodąjį sąrašą nuo „Interchat“ naudojimo.'
   userBlacklisted: '<: Ne: 977600033740431410> Esate juodasis sąrašas iš ** {{hub}} **.'
-  serverBlacklisted: >-
-    <: Ne: 977600033740431410> Šis serveris yra juodasis sąrašas iš ** {{hub}}
-    **.
+  serverBlacklisted: '<: Ne: 977600033740431410> Šis serveris yra juodasis sąrašas iš ** {{hub}} **.'
   serverNotBlacklisted: '<: Ne: 977600033740431410> Įvestas serveris nėra įtrauktas į juodąjį sąrašą.'
-  userNotBlacklisted: >-
-    <: Ne: 977600033740431410> Įvestas vartotojas nėra įtrauktas į juodąjį
-    sąrašą.
-  missingPermissions: >-
-    <: ne: 977600033740431410> jums trūksta šių leidimų, kad atliktumėte šį
-    veiksmą: ** {{{permissions}}} ** **
-  botMissingPermissions: >-
-    <: Nr.: 977600033740431410> Prašau suteikti man šiuos leidimus tęsti: **
-    {{{permissions}}} **
-  unknown: >-
-    <: Ne: 977600033740431410> Įvyko nežinoma klaida. Bandykite dar kartą vėliau
-    arba susisiekite su mumis prisijungdami prie mūsų [palaikymo serverio]
-    ({{{support_invite}}}).
+  userNotBlacklisted: '<: Ne: 977600033740431410> Įvestas vartotojas nėra įtrauktas į juodąjį sąrašą.'
+  missingPermissions: '<: ne: 977600033740431410> jums trūksta šių leidimų, kad atliktumėte šį veiksmą: ** {{{permissions}}} ** **'
+  botMissingPermissions: '<: Nr.: 977600033740431410> Prašau suteikti man šiuos leidimus tęsti: ** {{{permissions}}} **'
+  unknown: '<: Ne: 977600033740431410> Įvyko nežinoma klaida. Bandykite dar kartą vėliau arba susisiekite su mumis prisijungdami prie mūsų [palaikymo serverio] ({{{support_invite}}}).'
   notUsable: '<: Ne: 977600033740431410> Tai nebegalima naudoti.'
-  cooldown: >-
-    <: Ne: 977600033740431410> Jūs esate šaldytuve. Prieš bandydami dar kartą,
-    palaukite ** {{{time}}} **.
+  cooldown: '<: Ne: 977600033740431410> Jūs esate šaldytuve. Prieš bandydami dar kartą, palaukite ** {{{time}}} **.'
 misc:
   noReason: Jokios priežasties nepateikta.
   noDesc: Nėra aprašymo.
   version: Interchat v {{version}}
+  loading: '{{{emoji}}} palaukite, kol apdorosiu jūsų užklausą ...'

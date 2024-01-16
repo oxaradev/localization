@@ -21,38 +21,26 @@ vote: |-
 
    Değişmez desteğinizi derinden takdir ediyoruz. Teşekkür ederim! 🙏
 network:
-  deleteSuccess: >-
-    {{{emoji}}}}} {{{user}}} tarafından mesaj __ ** {{deleted}}/{{total}}} ** __
-    sunucularından silindi.
-  editSuccess: >-
-    {{{emoji}}}} {{{user}}} tarafından mesaj __ ** {{edited}}/{{total}} ** __
-    sunucularında düzenlendi.
+  accountTooNew: '<: Hayır: 977600033740431410> {{{user}}} Hesabınız arayla mesaj gönderilemeyecek kadar yeni. Lütfen daha sonra tekrar deneyiniz.'
+  deleteSuccess: '{{{emoji}}}}} {{{user}}} tarafından mesaj __ ** {{deleted}}/{{total}}} ** __ sunucularından silindi.'
+  editSuccess: '{{{emoji}}}} {{{user}}} tarafından mesaj __ ** {{edited}}/{{total}} ** __ sunucularında düzenlendi.'
   welcome: |-
     {{{user}}} ** {{hub}} ** 'te hoş geldiniz! <A: Dalga: 11855202811340555446> 
 
      {{{channel}}} 'da gönderilen mesajlar diğer sunucularla paylaşılır ve zahmetsiz iletişimi etkinleştirir **. Resimleri, GIF'leri paylaşabilir, yanıtlayabilir, tepki verebilir ve mesajlarla normalde olduğu gibi etkileşime geçebilirsiniz. Kişisel bilgileri paylaşmaktan kaçınmayı unutmayın (daha fazla bilgi için </kurallar: 924659340898619395>). Atlamaya hazır mısınız? İlk mesajınızı gönderin ve sohbete katılın!
   nsfw:
     title: NSFW tespit edildi
-    description: >-
-      Mesajınızda {{predictions}} nsfw (iş için güvenli değil) içeriği tespit
-      ettim. Lütfen bunun </kurallarımıza karşı olduğunu unutmayın:
-      924659340898619395> ve hemen kara listeye neden olacaktır.
-    footer: >-
-      Lütfen AI'nın mükemmel olmadığını ve hata yapabileceğini unutmayın. Sebep
-      olduğumuz herhangi bir rahatsızlık için özür dileriz.
+    description: 'Mesajınızda {{predictions}} nsfw (iş için güvenli değil) içeriği tespit ettim. Lütfen bunun </kurallarımıza karşı olduğunu unutmayın: 924659340898619395> ve hemen kara listeye neden olacaktır.'
+    footer: Lütfen AI'nın mükemmel olmadığını ve hata yapabileceğini unutmayın. Sebep olduğumuz herhangi bir rahatsızlık için özür dileriz.
   onboarding:
     embed:
       title: 👋 Hey, {{hubName}} 'a hoş geldiniz!
-      description: >-
-        İşleri organize etmek için, sadece bu merkez için ayrı bir kanal
-        kullanmanız önerilir. Ama endişelenme, bunu her zaman daha sonra
-        değiştirebilirsiniz. 
+      description: |-
+        İşleri organize etmek için, sadece bu merkez için ayrı bir kanal kullanmanız önerilir. Ama endişelenme, bunu her zaman daha sonra değiştirebilirsiniz. 
 
          ** Nasıl Çalışır: ** İnterchat ağı, bu merkezde bizimle birlikte olan farklı sunuculara kanalları bağlayan sihirli bir köprü gibidir. [Rehber] 'de daha fazla bilgi edinin (https://discord-interchat.github.io/docs).
       footer: Çarşamba Ağı | Version {{version}}
-    inProgress: >-
-      Zaten {{{channel}}} 'dan bir hub'a katılmaya çalışıyor. Lütfen iptal edin
-      veya tamamlamasını bekleyin.
+    inProgress: Zaten {{{channel}}} 'dan bir hub'a katılmaya çalışıyor. Lütfen iptal edin veya tamamlamasını bekleyin.
 blacklist:
   button:
     user: Blacklist kullanıcısı
@@ -74,9 +62,7 @@ blacklist:
     success: '{{{emoji}}} ** {{server}} ** başarıyla kara listeye alındı!'
     removed: '{{{emoji}}} ** {{server}} ** kara listeden kaldırıldı!'
     alreadyBlacklisted: '<: Hayır: 977600033740431410> Bu sunucu zaten kara listeye alınmıştır.'
-    unknownError: >-
-      Kara liste başarısız oldu ** {{server}} **. Daha fazla bilgi için
-      geliştiricilerle birlikte bilgi alın.
+    unknownError: Kara liste başarısız oldu ** {{server}} **. Daha fazla bilgi için geliştiricilerle birlikte bilgi alın.
   list:
     user: |-
       ** USERID: ** {{userId}} 
@@ -147,38 +133,21 @@ msgInfo:
   report:
     notEnabled: '<: Hayır: 977600033740431410> Bu merkez için raporlama etkinleştirilmez.'
     success: '{{{emoji}}} rapor başarıyla gönderildi. Teşekkür ederim!'
-invite: >-
-  İnterchat'i davet etmeyi seçtiğiniz için teşekkür ederiz. Beni davet etmek
-  için aşağıdaki düğmeyi tıklamanız yeterlidir! 
+invite: |-
+  İnterchat'i davet etmeyi seçtiğiniz için teşekkür ederiz. Beni davet etmek için aşağıdaki düğmeyi tıklamanız yeterlidir! 
 
    - ** Destek sunucusu: ** {{{support}}}
 connection:
-  notFound: >-
-    <: Hayır: 977600033740431410> Geçersiz bağlantı. Kanal kimliğini doğrulayın
-    veya görüntülenen seçenekler arasından seçim yapın.
-  channelNotFound: >-
-    <: Hayır: 977600033740431410> Bağlı kanalı bulamıyor. Tekrar konuşmak için
-    yeni bir kanal seçin.
+  notFound: '<: Hayır: 977600033740431410> Geçersiz bağlantı. Kanal kimliğini doğrulayın veya görüntülenen seçenekler arasından seçim yapın.'
+  channelNotFound: '<: Hayır: 977600033740431410> Bağlı kanalı bulamıyor. Tekrar konuşmak için yeni bir kanal seçin.'
   alreadyConnected: '<: Hayır: 977600033740431410> kanal {{{channel}}} zaten bir hub''a bağlı.'
-  switchChannel: >-
-    {{{emoji}}} Aşağıdaki seçen menüyü kullanmak için geçiş yapmak için bir
-    kanal seçin:
-  switchCalled: >-
-    {{{emoji}}} kanal anahtarı çağrılır, yeni bağlantıyı görüntülemek için
-    komutu tekrar kullanın.
-  switchSuccess: >-
-    {{{emoji}}} kanal anahtarlandı. Şimdi ** {{{channel}}} ** 'dan
-    bağlanıyorsunuz.
+  switchChannel: '{{{emoji}}} Aşağıdaki seçen menüyü kullanmak için geçiş yapmak için bir kanal seçin:'
+  switchCalled: '{{{emoji}}} kanal anahtarı çağrılır, yeni bağlantıyı görüntülemek için komutu tekrar kullanın.'
+  switchSuccess: '{{{emoji}}} kanal anahtarlandı. Şimdi ** {{{channel}}} ** ''dan bağlanıyorsunuz.'
   inviteRemoved: '{{{emoji}}} Sunucu Daveti Bu hub için kaldırıldı.'
-  inviteInvalid: >-
-    <: Hayır: 977600033740431410> Geçersiz Davet. Lütfen geçerli bir davet
-    bağlantısı girdiğinizden emin olun.
-  inviteAdded: >-
-    {{{emoji}}} davet eklendi. Diğerleri artık `` Apps> Mesaj Bilgisi/Report ''
-    komutunu kullanarak bu sunucuya katılabilir.
-  emColorInvalid: >-
-    <: No: 977600033740431410> Geçersiz renk. Lütfen geçerli bir onaltılık renk
-    kodu girdiğinizden emin olun.
+  inviteInvalid: '<: Hayır: 977600033740431410> Geçersiz Davet. Lütfen geçerli bir davet bağlantısı girdiğinizden emin olun.'
+  inviteAdded: '{{{emoji}}} davet eklendi. Diğerleri artık `` Apps> Mesaj Bilgisi/Report '''' komutunu kullanarak bu sunucuya katılabilir.'
+  emColorInvalid: '<: No: 977600033740431410> Geçersiz renk. Lütfen geçerli bir onaltılık renk kodu girdiğinizden emin olun.'
   emColorChange: '{{{emoji}}} Rengi başarılı bir şekilde gömme {{{action}}}'
   embed:
     title: Bağlantı Ayrıntıları
@@ -195,34 +164,17 @@ connection:
   selects:
     placeholder: 🛠️ Bağlantınızı yönetmek için aşağıdaki bir seçenek seçin.
 hub:
-  notFound: >-
-    <: Hayır: 977600033740431410> Hub bulamıyor. Lütfen doğru hub adını
-    girdiğinizden emin olun.
-  notFound_mod: >-
-    <: Hayır: 977600033740431410> Hub bulamıyor. Lütfen doğru hub adını
-    girdiğinizden ve hub'ın sahibi veya moderatörü olduğunuzdan emin olun.
-  alreadyJoined: >-
-    <: Hayır: 977600033740431410> {{hub}}} 'den zaten ** {{{channel}} **
-    katıldınız!
-  invalidChannel: >-
-    <: Hayır: 977600033740431410> Geçersiz kanal. Yalnızca metin ve iş parçacığı
-    kanalları desteklenir!
-  invalidImgurUrl: >-
-    <: Hayır: 977600033740431410> simge veya afiş için geçersiz görüntü URL'si.
-    Lütfen bir galeri veya albüm olmayan geçerli bir imgur görüntü URL'sine
-    girdiğinizden emin olun.
+  notFound: '<: Hayır: 977600033740431410> Hub bulamıyor. Lütfen doğru hub adını girdiğinizden emin olun.'
+  notFound_mod: '<: Hayır: 977600033740431410> Hub bulamıyor. Lütfen doğru hub adını girdiğinizden ve hub''ın sahibi veya moderatörü olduğunuzdan emin olun.'
+  alreadyJoined: '<: Hayır: 977600033740431410> {{hub}}} ''den zaten ** {{{channel}} ** katıldınız!'
+  invalidChannel: '<: Hayır: 977600033740431410> Geçersiz kanal. Yalnızca metin ve iş parçacığı kanalları desteklenir!'
+  invalidImgurUrl: '<: Hayır: 977600033740431410> simge veya afiş için geçersiz görüntü URL''si. Lütfen bir galeri veya albüm olmayan geçerli bir imgur görüntü URL''sine girdiğinizden emin olun.'
   join:
-    success: >-
-      {{hub}}} 'den Hub ** {{{channel}} ** başarıyla katıldı! Bağlantınızı
-      yönetmek için `/bağlantı 'kullanın. Ve `/hub ayrılmak için ayrılır '.
+    success: '{{hub}}} ''den Hub ** {{{channel}} ** başarıyla katıldı! Bağlantınızı yönetmek için `/bağlantı ''kullanın. Ve `/hub ayrılmak için ayrılır ''.'
   servers:
     total: 'Geçerli bağlı sunucular: {{from}}-{{to}} / ** {{total}} **'
-    noConnections: >-
-      <: Hayır: 977600033740431410> Henüz bu merkeze hiçbir sunucu katılmadı. Bu
-      merkeze katılmak için `/hub jome` kullanın.
-    notConnected: >-
-      <: Hayır: 977600033740431410> Bu sunucu ** {{hub}} ** 'nın bir parçası
-      değil.
+    noConnections: '<: Hayır: 977600033740431410> Henüz bu merkeze hiçbir sunucu katılmadı. Bu merkeze katılmak için `/hub jome` kullanın.'
+    notConnected: '<: Hayır: 977600033740431410> Bu sunucu ** {{hub}} ** ''nın bir parçası değil.'
     connectionInfo: |-
       Kanal: #{{{channelName}}} `({{channelId}})` 
        Katıldı: {{{joinedAt}}} 
@@ -243,15 +195,9 @@ hub:
       banner:
         label: Afiş url
         placeholder: Bir imgur görüntü URL'si girin.
-    maxHubs: >-
-      <: Hayır: 977600033740431410> Oluşturabileceğiniz maksimum hub sayısına
-      (3) ulaştınız. Lütfen başka bir tane oluşturmadan önce bir hub'ı silin.
-    invalidName: >-
-      <: Hayır: 977600033740431410> Geçersiz Hub Adı. `Discord`,` clyde` veya \
-      `\ \` içermemelidir. Lütfen başka bir isim seçin.
-    nameTaken: >-
-      <: Hayır: 977600033740431410> Bu hub adı zaten alınmıştır. Lütfen başka
-      bir isim seçin.
+    maxHubs: '<: Hayır: 977600033740431410> Oluşturabileceğiniz maksimum hub sayısına (3) ulaştınız. Lütfen başka bir tane oluşturmadan önce bir hub''ı silin.'
+    invalidName: '<: Hayır: 977600033740431410> Geçersiz Hub Adı. `Discord`,` clyde` veya \ `\ \` içermemelidir. Lütfen başka bir isim seçin.'
+    nameTaken: '<: Hayır: 977600033740431410> Bu hub adı zaten alınmıştır. Lütfen başka bir isim seçin.'
     success: |-
       ### Hub Oluşturuldu! 
 
@@ -264,12 +210,9 @@ hub:
        - ** Hub'ı düzenle: ** `/hub yönet 
        - ** Moderatör ekle: ** `/Hub Moderatör Ekle 
 
-       [Rehber] 'de Hub'lar hakkında daha fazla bilgi edinin (https://discord-interchat.github.io/docs). Yardım için [Destek sunucusu] ({{{support_invite}}}}}}} 'na katılın.
+       [Rehber] 'de Hub'lar hakkında daha fazla bilgi edinin (https://discord-interchat.github.io/docs). Yardım için [Destek sunucusu] ({{{docs_link}}}}}}} 'na katılın.
   delete:
-    confirm: >-
-      ** {{hub}} ** silmek istediğinizden emin misiniz? Bu eylem geri
-      döndürülemez. Tüm bağlı sunucular, davetler ve mesaj verileri bu merkezden
-      kaldırılır.
+    confirm: '** {{hub}} ** silmek istediğinizden emin misiniz? Bu eylem geri döndürülemez. Tüm bağlı sunucular, davetler ve mesaj verileri bu merkezden kaldırılır.'
     ownerOnly: '<: Hayır: 977600033740431410> Yalnızca bu merkezin sahibi silebilir.'
     success: '{{{emoji}}} hub ** {{hub}} ** silindi.'
     cancelled: '{{{emoji}}} Hub silme iptal edildi.'
@@ -297,63 +240,34 @@ hub:
 
          __ [kılavuzumuzdaki hub'lar hakkında daha fazla bilgi edinin (https://discord-interchat.github.io/docs).
     revoke:
-      invalidCode: >-
-        <: Hayır: 977600033740431410> Geçersiz Davet Kodu. Lütfen geçerli bir
-        davet kodu girdiğinizden emin olun.
+      invalidCode: '<: Hayır: 977600033740431410> Geçersiz Davet Kodu. Lütfen geçerli bir davet kodu girdiğinizden emin olun.'
       success: '{{{emoji}}} Invite {{inviteCode}} iptal edildi.'
     list:
       title: '** Kodları davet edin: **'
-      noInvites: >-
-        <: Hayır: 977600033740431410> Bu merkezin henüz davet edilmesi yok. Bir
-        tane oluşturmak için `/hub davetini oluşturun 'kullanın.
-      notPrivate: >-
-        <: Hayır: 977600033740431410> Yalnızca özel merkezler davet edebilir. Bu
-        hub'ı özel hale getirmek için `/hub yönet 'kullanın.
+      noInvites: '<: Hayır: 977600033740431410> Bu merkezin henüz davet edilmesi yok. Bir tane oluşturmak için `/hub davetini oluşturun ''kullanın.'
+      notPrivate: '<: Hayır: 977600033740431410> Yalnızca özel merkezler davet edebilir. Bu hub''ı özel hale getirmek için `/hub yönet ''kullanın.'
   joined:
-    noJoinedHubs: >-
-      <: Hayır: 977600033740431410> Bu sunucu henüz herhangi bir hub'a
-      katılmadı. Bir hub listesini görüntülemek için `/Hub Gözatını 'kullanın.
-    joinedHubs: >-
-      Bu sunucu ** {{total}} ** hub (lar) ın bir parçasıdır. Hub bırakmak için
-      `/hub bırak 'kullanın.
+    noJoinedHubs: '<: Hayır: 977600033740431410> Bu sunucu henüz herhangi bir hub''a katılmadı. Bir hub listesini görüntülemek için `/Hub Gözatını ''kullanın.'
+    joinedHubs: Bu sunucu ** {{total}} ** hub (lar) ın bir parçasıdır. Hub bırakmak için `/hub bırak 'kullanın.
   leave:
-    noHub: >-
-      <: Hayır: 977600033740431410> Bu kanal geçersiz veya herhangi bir hub'a
-      katılmadı.
-    confirm: >-
-      {{hub}}} 'dan ** {{{channel}} ** bırakmak istediğinizden emin misiniz? Bu
-      hub'dan bu sunucuya artık mesaj gönderilmeyecek.
+    noHub: '<: Hayır: 977600033740431410> Bu kanal geçersiz veya herhangi bir hub''a katılmadı.'
+    confirm: '{{hub}}} ''dan ** {{{channel}} ** bırakmak istediğinizden emin misiniz? Bu hub''dan bu sunucuya artık mesaj gönderilmeyecek.'
     confirmFooter: Aşağıdaki düğmeyi 10 saniye içinde kullanmayı onaylayın.
-    success: >-
-      {{{emoji}}} hub'ı {{{channel}}} 'dan terk etti. Bu hub'dan bu sunucuya
-      artık mesaj gönderilmeyecek. `/Hub JOIN 'kullanarak yeniden
-      katılabilirsiniz.
+    success: '{{{emoji}}} hub''ı {{{channel}}} ''dan terk etti. Bu hub''dan bu sunucuya artık mesaj gönderilmeyecek. `/Hub JOIN ''kullanarak yeniden katılabilirsiniz.'
   moderator:
-    noModerators: >-
-      <: Hayır: 977600033740431410> Bu merkezin henüz moderatörleri yok. Bir
-      tane eklemek için `/hub moderatörü ekle 'kullanın.
+    noModerators: '<: Hayır: 977600033740431410> Bu merkezin henüz moderatörleri yok. Bir tane eklemek için `/hub moderatörü ekle ''kullanın.'
     add:
-      success: >-
-        {{{emoji}}} ** {{{user}}} ** konumun bir moderatörü olarak eklendi **
-        {{position}} **.
+      success: '{{{emoji}}} ** {{{user}}} ** konumun bir moderatörü olarak eklendi ** {{position}} **.'
       alreadyModerator: '<: Hayır: 977600033740431410> ** {{{user}}} ** zaten bir moderatör.'
     remove:
       success: '{{{emoji}}} ** {{{user}}} ** moderatör olarak kaldırıldı.'
       notModerator: '<: Hayır: 977600033740431410> ** {{{user}}} ** bir moderatör değildir.'
-      notOwner: >-
-        <: Hayır: 977600033740431410> Yalnızca bu merkezin sahibi bir yöneticiyi
-        kaldırabilir.
+      notOwner: '<: Hayır: 977600033740431410> Yalnızca bu merkezin sahibi bir yöneticiyi kaldırabilir.'
     update:
-      success: >-
-        {{{emoji}}} ** {{{user}}} ** 'nın konumu ** {{position}} ** olarak
-        güncellendi.
+      success: '{{{emoji}}} ** {{{user}}} ** ''nın konumu ** {{position}} ** olarak güncellendi.'
       notModerator: '<: Hayır: 977600033740431410> ** {{{user}}} ** bir moderatör değildir.'
-      notAllowed: >-
-        <: Hayır: 977600033740431410> Yalnızca HUB yöneticileri bir moderatörün
-        konumunu güncelleyebilir.
-      notOwner: >-
-        <: Hayır: 977600033740431410> Yalnızca bu merkezin sahibi bir
-        yöneticinin konumunu güncelleyebilir.
+      notAllowed: '<: Hayır: 977600033740431410> Yalnızca HUB yöneticileri bir moderatörün konumunu güncelleyebilir.'
+      notOwner: '<: Hayır: 977600033740431410> Yalnızca bu merkezin sahibi bir yöneticinin konumunu güncelleyebilir.'
   manage:
     enterImgurUrl: Galeri veya albüm olmayan geçerli bir imgur görüntü URL'si girin.
     icon:
@@ -383,29 +297,22 @@ hub:
         label: Banner'ı Değiştir
         description: Bu merkezin afişini değiştirin.
     visibility:
-      success: >-
-        {{{emoji}}} Hub görünürlüğü başarıyla ** {{{visibility}}} ** olarak
-        değiştirildi.
+      success: '{{{emoji}}} Hub görünürlüğü başarıyla ** {{{visibility}}} ** olarak değiştirildi.'
       selects:
         label: Görünürlük Değiştir
         description: Bu merkezi kamuya açık veya özel yapın.
     logs:
       title: Günlükleri yapılandırın
-      reset: >-
-        {{{emoji}}} `{{{type}}}` logs için günlük yapılandırmasını başarıyla
-        sıfırlayın.
+      reset: '{{{emoji}}} `{{{type}}}` logs için günlük yapılandırmasını başarıyla sıfırlayın.'
       roleSuccess: '{{{emoji}}} `{{{type}}}` `türünün günlükleri artık {{{role}}}!'
-      channelSuccess: >-
-        {{{emoji}}} `{{{type}}}` `türünün günlükleri {{{channel}}} 'e
-        gönderilecek!
+      channelSuccess: '{{{emoji}}} `{{{type}}}` `türünün günlükleri {{{channel}}} ''e gönderilecek!'
       channelSelect: '#Yan yapılandırılacak günlük türünü seçin.'
       roleSelect: 🏓 Bir kütük tetiklendiğinde bahsedilecek rolü seçin.
       reportChannelFirst: '<: Hayır: 977600033740431410> Lütfen önce bir günlük kanalı ayarlayın.'
       config:
         title: '`{{{type}}}` günlükleri yapılandırın'
-        description: >-
-          {{{arrow}}} Aşağıdaki açılır listeden pinglenecek bir günlük kanalı
-          ve/veya rol seçin. 
+        description: |-
+          {{{arrow}}} Aşağıdaki açılır listeden pinglenecek bir günlük kanalı ve/veya rol seçin. 
            {{{arrow}}} Aşağıdaki düğmeyi kullanarak günlüğü de devre dışı bırakabilirsiniz.
         fields:
           channel: Kanal
@@ -421,9 +328,7 @@ hub:
         description: Küfür filtresi tarafından yakalanan günlük mesajları.
       joinLeave:
         label: Katıl/Git
-        description: >-
-          Bir sunucu bu merkeze katıldığında veya terk ettiğinde günlüğe
-          kaydedin.
+        description: Bir sunucu bu merkeze katıldığında veya terk ettiğinde günlüğe kaydedin.
 report:
   modal:
     title: Rapor Ayrıntıları
@@ -450,75 +355,41 @@ report:
 
      ** Ağ içinde bir sunucu kimliği bulmak için: ** 
      {{{dot}}} Söz konusu sunucu tarafından gönderilen bir mesajı sağ tıklayın ve `` Uygulamalar> Mesaj Bilgisi/Report '' seçin. Lütfen kimliği iki kez kontrol edin ve tekrar deneyin.
-  submitted: >-
-    Rapor gönderildi. Raporunuzda güncellemeler almak için ** [Destek Sunucusu]
-    ({{{support_invite}}}}}) ** katılın.
+  submitted: Rapor gönderildi. Raporunuzda güncellemeler almak için ** [Destek Sunucusu] ({{{support_invite}}}}}) ** katılın.
   bug:
     title: Hata raporu
     affected: Etkilenen bileşenler
     description: Lütfen botun hangi bileşenleriyle karşılaştığınızı seçin.
-    submitted: >-
-      {{{emoji}}} rapor başarıyla gönderildi. Daha fazla ayrıntı almak için
-      </destek sunucusuna katılın: 924659341049626636>. Teşekkür ederim!
+    submitted: '{{{emoji}}} rapor başarıyla gönderildi. Daha fazla ayrıntı almak için </destek sunucusuna katılın: 924659341049626636>. Teşekkür ederim!'
 language:
   set: Dil seti! Şimdi size ** {{{lang}}} ** adresinde cevap vereceğim.
 errors:
-  messageNotSentOrExpired: >-
-    <: Hayır: 977600033740431410> Bu mesaj bir hub'a gönderilmedi, süresi doldu
-    veya bu eylemi gerçekleştirmek için izinlerden yoksun.
-  notYourAction: >-
-    <: Hayır: 977600033740431410> Üzgünüm, bu eylemi gerçekleştiremezsiniz.
-    Lütfen komutu kendiniz çalıştırın.
+  messageNotSentOrExpired: '<: Hayır: 977600033740431410> Bu mesaj bir hub''a gönderilmedi, süresi doldu veya bu eylemi gerçekleştirmek için izinlerden yoksun.'
+  notYourAction: '<: Hayır: 977600033740431410> Üzgünüm, bu eylemi gerçekleştiremezsiniz. Lütfen komutu kendiniz çalıştırın.'
   notMessageAuthor: '<: Hayır: 977600033740431410> Bu mesajın yazarı değilsiniz.'
-  commandError: >-
-    <: Hayır: 977600033740431410> Bu komut yürütülürken bir hata oluştu.
-    Sistemimize kaydedildi. Bu sorun devam ederse, lütfen [destek sunucumuza]
-    ({{{support_invite}}}) katılın ve bildirin! 
+  commandError: |-
+    <: Hayır: 977600033740431410> Bu komut yürütülürken bir hata oluştu. Sistemimize kaydedildi. Bu sorun devam ederse, lütfen [destek sunucumuza] ({{{support_invite}}}) katılın ve bildirin! 
      `` JS 
      {{{error}}} 
      ``
-  mustVote: >-
-    Lütfen [oy] (https://top.gg/bot/769921109209907241/vote) Bu komutu
-    kullanması için interchat için desteğiniz çok takdir ediliyor!
-  inviteLinks: >-
-    <: Hayır: 977600033740431410> Ağdaki sunucuların reklamını yapmayın veya
-    tanıtmayın. Bunun yerine `/bağlantı '' da bir davet koyun!
-  invalidLangCode: >-
-    <: Hayır: 977600033740431410> Geçersiz dil kodu. Lütfen doğru bir [dil kodu]
-    (https://cloud.google.com/translate/docs/languages) girdiğinizden emin olun.
-  unknownServer: >-
-    <: Hayır: 977600033740431410> Bilinmeyen sunucu. Lütfen doğru sunucu
-    kimliğini girdiğinizden emin olun.
-  unknownNetworkMessage: >-
-    <: Hayır: 977600033740431410> Bilinmeyen mesaj. Geçtiğimiz dakikada
-    gönderildiyse, lütfen birkaç saniye daha bekleyin ve tekrar deneyin.
-  userNotFound: >-
-    <: Hayır: 977600033740431410> Kullanıcı bulunamadı. Bunun yerine
-    kimliklerini girmeyi deneyin.
-  blacklisted: >-
-    <: Hayır: 977600033740431410> Siz veya bu sunucu, interchat kullanılarak
-    kara listeye alınmıştır.
+  mustVote: Lütfen [oy] (https://top.gg/bot/769921109209907241/vote) Bu komutu kullanması için interchat için desteğiniz çok takdir ediliyor!
+  inviteLinks: '<: Hayır: 977600033740431410> Ağdaki sunucuların reklamını yapmayın veya tanıtmayın. Bunun yerine `/bağlantı '''' da bir davet koyun!'
+  invalidLangCode: '<: Hayır: 977600033740431410> Geçersiz dil kodu. Lütfen doğru bir [dil kodu] (https://cloud.google.com/translate/docs/languages) girdiğinizden emin olun.'
+  unknownServer: '<: Hayır: 977600033740431410> Bilinmeyen sunucu. Lütfen doğru sunucu kimliğini girdiğinizden emin olun.'
+  unknownNetworkMessage: '<: Hayır: 977600033740431410> Bilinmeyen mesaj. Geçtiğimiz dakikada gönderildiyse, lütfen birkaç saniye daha bekleyin ve tekrar deneyin.'
+  userNotFound: '<: Hayır: 977600033740431410> Kullanıcı bulunamadı. Bunun yerine kimliklerini girmeyi deneyin.'
+  blacklisted: '<: Hayır: 977600033740431410> Siz veya bu sunucu, interchat kullanılarak kara listeye alınmıştır.'
   userBlacklisted: '<: Hayır: 977600033740431410> ** {{hub}} ** ''den kara listeye alınmışsınız.'
-  serverBlacklisted: >-
-    <: No: 977600033740431410> Bu sunucu ** {{hub}} ** 'den kara listeye
-    alınmıştır.
+  serverBlacklisted: '<: No: 977600033740431410> Bu sunucu ** {{hub}} ** ''den kara listeye alınmıştır.'
   serverNotBlacklisted: '<: Hayır: 977600033740431410> Girilen sunucu kara listeye alınmadı.'
   userNotBlacklisted: '<: Hayır: 977600033740431410> Girilen kullanıcı kara listeye alınmadı.'
-  missingPermissions: >-
-    <: Hayır: 977600033740431410> Bu eylemi gerçekleştirmek için aşağıdaki
-    izinleri kaçırıyorsunuz: ** {{{permissions}}} **
-  botMissingPermissions: >-
-    <: Hayır: 977600033740431410> Lütfen bana devam etmek için aşağıdaki
-    izinleri verin: ** {{{permissions}}} **
-  unknown: >-
-    <: Hayır: 977600033740431410> Bilinmeyen bir hata oluştu. Lütfen daha sonra
-    tekrar deneyin veya [destek sunucumuza] ({{{support_invite}}}) katılarak
-    bizimle iletişime geçin.
+  missingPermissions: '<: Hayır: 977600033740431410> Bu eylemi gerçekleştirmek için aşağıdaki izinleri kaçırıyorsunuz: ** {{{permissions}}} **'
+  botMissingPermissions: '<: Hayır: 977600033740431410> Lütfen bana devam etmek için aşağıdaki izinleri verin: ** {{{permissions}}} **'
+  unknown: '<: Hayır: 977600033740431410> Bilinmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyin veya [destek sunucumuza] ({{{support_invite}}}) katılarak bizimle iletişime geçin.'
   notUsable: '<: Hayır: 977600033740431410> Bu artık kullanılamıyor.'
-  cooldown: >-
-    <: Hayır: 977600033740431410> bekleme süredirdesiniz. Lütfen tekrar
-    denemeden önce ** {{{time}}} ** bekleyin.
+  cooldown: '<: Hayır: 977600033740431410> bekleme süredirdesiniz. Lütfen tekrar denemeden önce ** {{{time}}} ** bekleyin.'
 misc:
   noReason: Sebep yoktu.
   noDesc: Açıklama yok.
   version: İnterchat v {{version}}
+  loading: '{{{emoji}}} Lütfen isteğinizi işlerken lütfen bekleyin ...'

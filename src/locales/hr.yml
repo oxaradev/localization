@@ -21,37 +21,26 @@ vote: |-
 
    Duboko cijenimo vašu nepokolebljivu podršku. Hvala vam! 🙏
 network:
-  deleteSuccess: >-
-    {{{emoji}}} Poruka {{{user}}} izbrisana je iz __ ** {{deleted}}/{{total}} **
-    __ poslužitelja.
-  editSuccess: >-
-    {{{emoji}}} poruka {{{user}}} uređena je u __ ** {{edited}}/{{total}} ** __
-    poslužitelji.
+  accountTooNew: '<: ne: 977600033740431410> {{{user}}} Vaš je račun previše nov da bi poslao poruke u Interchat. Molimo pokušajte ponovo kasnije.'
+  deleteSuccess: '{{{emoji}}} Poruka {{{user}}} izbrisana je iz __ ** {{deleted}}/{{total}} ** __ poslužitelja.'
+  editSuccess: '{{{emoji}}} poruka {{{user}}} uređena je u __ ** {{edited}}/{{total}} ** __ poslužitelji.'
   welcome: |-
     {{{user}}} Dobrodošli u ** {{hub}} **! <A: Val: 118552028113405546> 
 
      Poruke poslane u {{{channel}}} dijelit će se s drugim poslužiteljima, ** Omogućivanje komunikacije bez napora **. Možete dijeliti slike, GIF -ove, odgovoriti, reagirati i komunicirati s porukama kao što bi to inače učinili. Ne zaboravite izbjegavati dijeljenje osobnih podataka (provjerite </pravila: 924659340898619395> za više). Spremni za skok? Pošaljite svoju prvu poruku i pridružite se razgovoru!
   nsfw:
     title: Otkriven je NSFW
-    description: >-
-      Otkrio sam {{predictions}} nsfw (nije siguran za rad) sadržaj u vašoj
-      poruci. Imajte na umu da je to protiv naših </pravila: 924659340898619395>
-      i rezultirat će neposrednom crnom listom.
-    footer: >-
-      Imajte na umu da AI nije savršen i može pogriješiti. Ispričavamo se zbog
-      uzrokovanih neugodnosti.
+    description: 'Otkrio sam {{predictions}} nsfw (nije siguran za rad) sadržaj u vašoj poruci. Imajte na umu da je to protiv naših </pravila: 924659340898619395> i rezultirat će neposrednom crnom listom.'
+    footer: Imajte na umu da AI nije savršen i može pogriješiti. Ispričavamo se zbog uzrokovanih neugodnosti.
   onboarding:
     embed:
       title: 👋 Hej, dobrodošli na {{hubName}}!
-      description: >-
-        Da bi se stvari organizirale, preporučuje se koristiti zasebni kanal za
-        ovo središte. Ali ne brinite, to uvijek možete promijeniti kasnije. 
+      description: |-
+        Da bi se stvari organizirale, preporučuje se koristiti zasebni kanal za ovo središte. Ali ne brinite, to uvijek možete promijeniti kasnije. 
 
          ** Kako to funkcionira: ** Interchat mreža je poput čarobnog mosta koji povezuje kanale na različitim poslužiteljima koji su s nama u ovom središtu. Saznajte više na našem [vodiču] (https://discord-interchat.github.io/docs).
       footer: Interchat Network | Version {{version}}
-    inProgress: >-
-      Već se pokušao pridružiti čvorištu od {{{channel}}}. Otkažite ga ili
-      pričekajte da se završi.
+    inProgress: Već se pokušao pridružiti čvorištu od {{{channel}}}. Otkažite ga ili pričekajte da se završi.
 blacklist:
   button:
     user: Korisnik crne liste
@@ -73,9 +62,7 @@ blacklist:
     success: '{{{emoji}}} ** {{server}} ** uspješno je crna lista!'
     removed: '{{{emoji}}} ** {{server}} ** uklonjen je s crne liste!'
     alreadyBlacklisted: '<: NO: 977600033740431410> Ovaj je poslužitelj već na crnoj listi.'
-    unknownError: >-
-      Nije uspjelo na crnoj listi ** {{server}} **. Raspitajte se s programerima
-      za više informacija.
+    unknownError: Nije uspjelo na crnoj listi ** {{server}} **. Raspitajte se s programerima za više informacija.
   list:
     user: |-
       ** userId: ** {{userId}} 
@@ -146,34 +133,21 @@ msgInfo:
   report:
     notEnabled: '<: NO: 977600033740431410> Izvještavanje nije omogućeno za ovo središte.'
     success: '{{{emoji}}} Izvještaj je uspješno podnio. Hvala vam!'
-invite: >-
-  Hvala vam što ste odlučili pozvati Interchat. Jednostavno kliknite gumb u
-  nastavku da biste me pozvali! 
+invite: |-
+  Hvala vam što ste odlučili pozvati Interchat. Jednostavno kliknite gumb u nastavku da biste me pozvali! 
 
    - ** Podrška poslužitelj: ** {{{support}}}
 connection:
-  notFound: >-
-    <: NO: 977600033740431410> Nevažeća veza. Provjerite ID kanala ili odaberite
-    iz prikazanih opcija.
-  channelNotFound: >-
-    <: NO: 977600033740431410> Nije moguće pronaći povezani kanal. Da biste
-    ponovo razgovarali odaberite novi kanal.
+  notFound: '<: NO: 977600033740431410> Nevažeća veza. Provjerite ID kanala ili odaberite iz prikazanih opcija.'
+  channelNotFound: '<: NO: 977600033740431410> Nije moguće pronaći povezani kanal. Da biste ponovo razgovarali odaberite novi kanal.'
   alreadyConnected: '<: NO: 977600033740431410> kanal {{{channel}}} već je povezan s glavčinom.'
   switchChannel: '{{{emoji}}} Odaberite kanal za prelazak na odabir izbornika u nastavku:'
-  switchCalled: >-
-    {{{emoji}}} Switch Switch Pozvan, Pomoću naredbe ponovo pogledajte novu
-    vezu.
+  switchCalled: '{{{emoji}}} Switch Switch Pozvan, Pomoću naredbe ponovo pogledajte novu vezu.'
   switchSuccess: '{{{emoji}}} Kanal je prebačen. Sada ste povezani s ** {{{channel}}} **.'
   inviteRemoved: '{{{emoji}}} Poziv za pozvati uklonjeni za ovo središte.'
-  inviteInvalid: >-
-    <: br: 977600033740431410> Nevažeći poziv. Molimo vas da ste unijeli valjanu
-    pozivnicu.
-  inviteAdded: >-
-    {{{emoji}}} Poziv dodan. Ostali se sada mogu pridružiti ovom poslužitelju
-    pomoću naredbe `Aplikacije> Informacije o porukama/izvještaj`.
-  emColorInvalid: >-
-    <: NO: 977600033740431410> Nevažeća boja. Molimo vas da ste unijeli valjani
-    šesterokutni kôd u boji.
+  inviteInvalid: '<: br: 977600033740431410> Nevažeći poziv. Molimo vas da ste unijeli valjanu pozivnicu.'
+  inviteAdded: '{{{emoji}}} Poziv dodan. Ostali se sada mogu pridružiti ovom poslužitelju pomoću naredbe `Aplikacije> Informacije o porukama/izvještaj`.'
+  emColorInvalid: '<: NO: 977600033740431410> Nevažeća boja. Molimo vas da ste unijeli valjani šesterokutni kôd u boji.'
   emColorChange: '{{{emoji}}} ugraditi boju uspješno {{{action}}}'
   embed:
     title: Pojedinosti o vezi
@@ -190,31 +164,16 @@ connection:
   selects:
     placeholder: 🛠️ Odaberite opciju u nastavku za upravljanje vezom.
 hub:
-  notFound: >-
-    <: NO: 977600033740431410> Nije moguće pronaći Hub. Molimo vas da ste
-    unijeli ispravno ime Hub -a.
-  notFound_mod: >-
-    <: NO: 977600033740431410> Nije moguće pronaći Hub. Molimo vas da ste
-    unijeli ispravno ime Hub -a i da ste vlasnik ili moderator središta.
-  alreadyJoined: >-
-    <: ne: 977600033740431410> Već ste se pridružili ** {{hub}} ** iz
-    {{{channel}}}!
-  invalidChannel: >-
-    <: NO: 977600033740431410> Nevažeći kanal. Podržani su samo kanali teksta i
-    niti!
-  invalidImgurUrl: >-
-    <: NO: 977600033740431410> Nevažeći URL slike za ikonu ili natpis. Obavezno
-    unijeli valjani URL IMGUR slike koji nije galerija ili album.
+  notFound: '<: NO: 977600033740431410> Nije moguće pronaći Hub. Molimo vas da ste unijeli ispravno ime Hub -a.'
+  notFound_mod: '<: NO: 977600033740431410> Nije moguće pronaći Hub. Molimo vas da ste unijeli ispravno ime Hub -a i da ste vlasnik ili moderator središta.'
+  alreadyJoined: '<: ne: 977600033740431410> Već ste se pridružili ** {{hub}} ** iz {{{channel}}}!'
+  invalidChannel: '<: NO: 977600033740431410> Nevažeći kanal. Podržani su samo kanali teksta i niti!'
+  invalidImgurUrl: '<: NO: 977600033740431410> Nevažeći URL slike za ikonu ili natpis. Obavezno unijeli valjani URL IMGUR slike koji nije galerija ili album.'
   join:
-    success: >-
-      Uspješno pridruženi Hub ** {{hub}} ** iz {{{channel}}}! Upotrijebite
-      `/Connection` za upravljanje vezom. I `/Hub ostavi` da napusti središte.
+    success: Uspješno pridruženi Hub ** {{hub}} ** iz {{{channel}}}! Upotrijebite `/Connection` za upravljanje vezom. I `/Hub ostavi` da napusti središte.
   servers:
     total: 'Trenutni spojeni poslužitelji: {{from}}-{{to}} / ** {{total}} **'
-    noConnections: >-
-      <: NO: 977600033740431410> Nijedan poslužitelj se još nije pridružio ovom
-      središtu. Upotrijebite `/Hub pridruži se` da biste se pridružili ovom
-      središtu.
+    noConnections: '<: NO: 977600033740431410> Nijedan poslužitelj se još nije pridružio ovom središtu. Upotrijebite `/Hub pridruži se` da biste se pridružili ovom središtu.'
     notConnected: '<: ne: 977600033740431410> Taj poslužitelj nije dio ** {{hub}} **.'
     connectionInfo: |-
       Kanal: #{{{channelName}}} `({{channelId}})` 
@@ -236,15 +195,9 @@ hub:
       banner:
         label: URL URL -a
         placeholder: Unesite URL IMGUR slike.
-    maxHubs: >-
-      <: NO: 977600033740431410> Dosegli ste maksimalni broj čvorišta (3) koje
-      možete stvoriti. Izbrišite središte prije nego što stvorite još jedan.
-    invalidName: >-
-      <: NO: 977600033740431410> Nevažeće naziv središta. Ne smije sadržavati
-      `nesklad`,` clyde` ili \ `\` \ `. Molimo odaberite drugo ime.
-    nameTaken: >-
-      <: NO: 977600033740431410> Ovo ime Hub već je uzeto. Molimo odaberite
-      drugo ime.
+    maxHubs: '<: NO: 977600033740431410> Dosegli ste maksimalni broj čvorišta (3) koje možete stvoriti. Izbrišite središte prije nego što stvorite još jedan.'
+    invalidName: '<: NO: 977600033740431410> Nevažeće naziv središta. Ne smije sadržavati `nesklad`,` clyde` ili \ `\` \ `. Molimo odaberite drugo ime.'
+    nameTaken: '<: NO: 977600033740431410> Ovo ime Hub već je uzeto. Molimo odaberite drugo ime.'
     success: |-
       ### Hub stvoren! 
 
@@ -257,12 +210,9 @@ hub:
        - ** Uredi Hub: ** `/Hub Upravljanje` 
        - ** Dodajte moderatore: ** `/Hub Moderator Add` 
 
-       Saznajte više o čvorištima u našem [vodiču] (https://discord-interchat.github.io/docs). Za pomoć pridružite se [poslužitelj za podršku] ({{{support_invite}}}).
+       Saznajte više o čvorištima u našem [vodiču] (https://discord-interchat.github.io/docs). Za pomoć pridružite se [poslužitelj za podršku] ({{{docs_link}}}).
   delete:
-    confirm: >-
-      Jeste li sigurni da želite izbrisati ** {{hub}} **? Ova je radnja
-      nepovratna. Svi povezani poslužitelji, pozivnice i podaci poruka bit će
-      uklonjeni iz ovog središta.
+    confirm: Jeste li sigurni da želite izbrisati ** {{hub}} **? Ova je radnja nepovratna. Svi povezani poslužitelji, pozivnice i podaci poruka bit će uklonjeni iz ovog središta.
     ownerOnly: '<: br: 977600033740431410> Samo ga vlasnik ovog središta može izbrisati.'
     success: '{{{emoji}}} Hub ** {{hub}} ** je izbrisan.'
     cancelled: '{{{emoji}}} Otkazano je brisanje glavčine.'
@@ -290,64 +240,34 @@ hub:
 
          __LERNU više o čvorištima u našem [vodiču] (https://discord-interchat.github.io/docs) .__.
     revoke:
-      invalidCode: >-
-        <: br: 977600033740431410> Nevažeći pozivni kod. Obavezno unijeli
-        valjani pozivni kôd.
+      invalidCode: '<: br: 977600033740431410> Nevažeći pozivni kod. Obavezno unijeli valjani pozivni kôd.'
       success: '{{{emoji}}} Poziv {{inviteCode}} oduzet.'
     list:
       title: '** Pozovite kodove: **'
-      noInvites: >-
-        <: NO: 977600033740431410> Ovo središte još nema pozivnice. Upotrijebite
-        `/Hub Poziv za stvaranje" da biste ga stvorili.
-      notPrivate: >-
-        <: NO: 977600033740431410> Samo privatni čvorišta mogu imati pozivnice.
-        Upotrijebite `/Hub Manage` da biste ovo središte učinili privatnim.
+      noInvites: '<: NO: 977600033740431410> Ovo središte još nema pozivnice. Upotrijebite `/Hub Poziv za stvaranje" da biste ga stvorili.'
+      notPrivate: '<: NO: 977600033740431410> Samo privatni čvorišta mogu imati pozivnice. Upotrijebite `/Hub Manage` da biste ovo središte učinili privatnim.'
   joined:
-    noJoinedHubs: >-
-      <: NO: 977600033740431410> Ovaj se poslužitelj još nije pridružio nijednom
-      čvorištu. Upotrijebite `/Hub Pregledajte` da biste pogledali popis
-      čvorišta.
-    joinedHubs: >-
-      Ovaj je poslužitelj dio ** {{total}} ** Hub (s). Upotrijebite `/Hub Leave`
-      da biste ostavili središte.
+    noJoinedHubs: '<: NO: 977600033740431410> Ovaj se poslužitelj još nije pridružio nijednom čvorištu. Upotrijebite `/Hub Pregledajte` da biste pogledali popis čvorišta.'
+    joinedHubs: Ovaj je poslužitelj dio ** {{total}} ** Hub (s). Upotrijebite `/Hub Leave` da biste ostavili središte.
   leave:
-    noHub: >-
-      <: NO: 977600033740431410> Taj kanal nije valjan ili se nije pridružio
-      nijednom čvorištu.
-    confirm: >-
-      Jeste li sigurni da želite napustiti ** {{hub}} ** iz {{{channel}}}? Više
-      poruka neće biti poslano ovom poslužitelju s ovog središta.
+    noHub: '<: NO: 977600033740431410> Taj kanal nije valjan ili se nije pridružio nijednom čvorištu.'
+    confirm: Jeste li sigurni da želite napustiti ** {{hub}} ** iz {{{channel}}}? Više poruka neće biti poslano ovom poslužitelju s ovog središta.
     confirmFooter: Potvrdite pomoću gumba ispod u roku od 10 sekundi.
-    success: >-
-      {{{emoji}}} napustio je čvorište iz {{{channel}}}. Više poruka neće biti
-      poslano ovom poslužitelju s ovog središta. Možete se ponovno pridružiti
-      pomoću `/Hub Pridruživanje`.
+    success: '{{{emoji}}} napustio je čvorište iz {{{channel}}}. Više poruka neće biti poslano ovom poslužitelju s ovog središta. Možete se ponovno pridružiti pomoću `/Hub Pridruživanje`.'
   moderator:
-    noModerators: >-
-      <: NO: 977600033740431410> Ovo središte još nema moderatora. Upotrijebite
-      `/Hub moderator Dodaj` da biste dodali jedan.
+    noModerators: '<: NO: 977600033740431410> Ovo središte još nema moderatora. Upotrijebite `/Hub moderator Dodaj` da biste dodali jedan.'
     add:
-      success: >-
-        {{{emoji}}} ** {{{user}}} ** dodan je kao moderator položaja **
-        {{position}} **.
+      success: '{{{emoji}}} ** {{{user}}} ** dodan je kao moderator položaja ** {{position}} **.'
       alreadyModerator: '<: ne: 977600033740431410> ** {{{user}}} ** je već moderator.'
     remove:
       success: '{{{emoji}}} ** {{{user}}} ** uklonjen je kao moderator.'
       notModerator: '<: ne: 977600033740431410> ** {{{user}}} ** nije moderator.'
-      notOwner: >-
-        <: NO: 977600033740431410> Samo vlasnik ovog središta može ukloniti
-        upravitelja.
+      notOwner: '<: NO: 977600033740431410> Samo vlasnik ovog središta može ukloniti upravitelja.'
     update:
-      success: >-
-        {{{emoji}}} ** {{{user}}} ** pozicija je ažurirana na ** {{position}}
-        **.
+      success: '{{{emoji}}} ** {{{user}}} ** pozicija je ažurirana na ** {{position}} **.'
       notModerator: '<: ne: 977600033740431410> ** {{{user}}} ** nije moderator.'
-      notAllowed: >-
-        <: NO: 977600033740431410> Samo rukovoditelji čvorišta mogu ažurirati
-        položaj moderatora.
-      notOwner: >-
-        <: NO: 977600033740431410> Samo vlasnik ovog središta može ažurirati
-        poziciju upravitelja.
+      notAllowed: '<: NO: 977600033740431410> Samo rukovoditelji čvorišta mogu ažurirati položaj moderatora.'
+      notOwner: '<: NO: 977600033740431410> Samo vlasnik ovog središta može ažurirati poziciju upravitelja.'
   manage:
     enterImgurUrl: Unesite valjani URL IMGUR slike koji nije galerija ili album.
     icon:
@@ -377,29 +297,22 @@ hub:
         label: Promijenite natpis
         description: Promijenite transparent ovog središta.
     visibility:
-      success: >-
-        {{{emoji}}} Vidljivost središta uspješno promijenjena u **
-        {{{visibility}}} **.
+      success: '{{{emoji}}} Vidljivost središta uspješno promijenjena u ** {{{visibility}}} **.'
       selects:
         label: Promijenite vidljivost
         description: Učinite ovo središte javnim ili privatnim.
     logs:
       title: Konfigurirajte zapisnike
-      reset: >-
-        {{{emoji}}} uspješno resetira konfiguraciju dnevnika za `{{{type}}}`
-        `zapisnici.
+      reset: '{{{emoji}}} uspješno resetira konfiguraciju dnevnika za `{{{type}}}` `zapisnici.'
       roleSuccess: '{{{emoji}}} dnevnici tipa `{{{type}}}` sada će spomenuti {{{role}}}!'
-      channelSuccess: >-
-        {{{emoji}}} dnevnici tipa `{{{type}}}` bit će poslane na {{{channel}}}
-        od sada!
+      channelSuccess: '{{{emoji}}} dnevnici tipa `{{{type}}}` bit će poslane na {{{channel}}} od sada!'
       channelSelect: '#️⃣ Odaberite vrstu dnevnika za konfiguriranje.'
       roleSelect: 🏓 Odaberite ulogu koju treba spomenuti kada se pokrene dnevnik.
       reportChannelFirst: '<: NO: 977600033740431410> Prvo postavite kanal dnevnika.'
       config:
         title: Konfigurirajte `{{{type}}}` zapisnici
-        description: >-
-          {{{arrow}}} Odaberite kanal zapisnika i/ili ulogu koji treba pingirati
-          s padajućeg pada. 
+        description: |-
+          {{{arrow}}} Odaberite kanal zapisnika i/ili ulogu koji treba pingirati s padajućeg pada. 
            {{{arrow}}} Također možete onemogućiti prijavu pomoću gumba u nastavku.
         fields:
           channel: Kanal
@@ -431,9 +344,7 @@ report:
         placeholder: Npr. Česti kvarovi interakcije za /pomoć za pomoć ...
       input2:
         label: Detaljan opis (neobavezno)
-        placeholder: >-
-          Koraci koje ste poduzeli. Npr. 1. Run /Pomoć 2. Pričekajte 5 sekundi
-          ...
+        placeholder: Koraci koje ste poduzeli. Npr. 1. Run /Pomoć 2. Pričekajte 5 sekundi ...
   invalidUser: |-
     <: br: 977600033740431410> Nisam mogao pronaći korisnika s tim ID -om. 
 
@@ -444,74 +355,41 @@ report:
 
      ** Da biste pronašli ID poslužitelja unutar mreže: ** 
      {{{dot}}} Desnom tipkom miša kliknite poruku koju je poslao dotični poslužitelj i odaberite `Aplikacije> Informacije o poruci/izvještaj`. Molimo dvaput provjerite ID i pokušajte ponovo.
-  submitted: >-
-    Izvješće podneseno. Pridružite se ** [Podrška poslužitelju]
-    ({{{support_invite}}}) ** da biste dobili ažuriranja u svom izvješću.
+  submitted: Izvješće podneseno. Pridružite se ** [Podrška poslužitelju] ({{{support_invite}}}) ** da biste dobili ažuriranja u svom izvješću.
   bug:
     title: Izvještaj o pogrešci
     affected: Pogođene komponente
     description: Odaberite s kojom komponentom bota suočite se s problemima.
-    submitted: >-
-      {{{emoji}}} Izvještaj je uspješno podnio. Pridružite se </podrška
-      poslužitelju: 924659341049626636> da biste dobili više detalja. Hvala vam!
+    submitted: '{{{emoji}}} Izvještaj je uspješno podnio. Pridružite se </podrška poslužitelju: 924659341049626636> da biste dobili više detalja. Hvala vam!'
 language:
   set: Jezični set! Sada ću vam odgovoriti u ** {{{lang}}} **.
 errors:
-  messageNotSentOrExpired: >-
-    <: NO: 977600033740431410> Ova poruka nije poslana u središte, istekla je
-    ili vam nedostaje dozvola za obavljanje ove akcije.
-  notYourAction: >-
-    <: br: 977600033740431410> Oprostite, ne možete izvesti ovu akciju. Molim
-    vas, pokrenite naredbu sami.
+  messageNotSentOrExpired: '<: NO: 977600033740431410> Ova poruka nije poslana u središte, istekla je ili vam nedostaje dozvola za obavljanje ove akcije.'
+  notYourAction: '<: br: 977600033740431410> Oprostite, ne možete izvesti ovu akciju. Molim vas, pokrenite naredbu sami.'
   notMessageAuthor: '<: br: 977600033740431410> Niste autor ove poruke.'
-  commandError: >-
-    <: NO: 977600033740431410> Došlo je do pogreške tijekom izvršavanja ove
-    naredbe. Zabilježen je u naš sustav. Ako se ovaj problem i dalje pojavljuje,
-    pridružite se našem [poslužitelju za podršku] ({{{support_invite}}}) i
-    prijavite ga! 
+  commandError: |-
+    <: NO: 977600033740431410> Došlo je do pogreške tijekom izvršavanja ove naredbe. Zabilježen je u naš sustav. Ako se ovaj problem i dalje pojavljuje, pridružite se našem [poslužitelju za podršku] ({{{support_invite}}}) i prijavite ga! 
      `` `js 
      {{{error}}} 
      `` `` ``
-  mustVote: >-
-    Molimo [glasajte] (https://top.gg/bot/76921109209907241/vote) za Interchat
-    da koristi ovu naredbu, vaša je podrška vrlo cijenjena!
-  inviteLinks: >-
-    <: NO: 977600033740431410> Ne oglašavajte se ili promovirajte poslužitelje u
-    mreži. Umjesto toga postavite pozivnicu u `/Connection`!
-  invalidLangCode: >-
-    <: NO: 977600033740431410> Nevažeći jezik jezika. Obavezno unijeli ispravan
-    [jezični kod] (https://cloud.google.com/translate/docs/languages).
-  unknownServer: >-
-    <: NO: 977600033740431410> Nepoznati poslužitelj. Obavezno unijeli ispravan
-    ID poslužitelja.
-  unknownNetworkMessage: >-
-    <: br: 977600033740431410> Nepoznata poruka. Ako je poslano u proteklih
-    minuta, pričekajte još nekoliko sekundi i pokušajte ponovo.
-  userNotFound: >-
-    <: NO: 977600033740431410> Korisnik nije pronađen. Pokušajte umjesto toga
-    unijeti njihov ID.
-  blacklisted: >-
-    <: NO: 977600033740431410> Vi ili ovaj poslužitelj je na crnoj listi
-    korištenja Interchat.
+  mustVote: Molimo [glasajte] (https://top.gg/bot/76921109209907241/vote) za Interchat da koristi ovu naredbu, vaša je podrška vrlo cijenjena!
+  inviteLinks: '<: NO: 977600033740431410> Ne oglašavajte se ili promovirajte poslužitelje u mreži. Umjesto toga postavite pozivnicu u `/Connection`!'
+  invalidLangCode: '<: NO: 977600033740431410> Nevažeći jezik jezika. Obavezno unijeli ispravan [jezični kod] (https://cloud.google.com/translate/docs/languages).'
+  unknownServer: '<: NO: 977600033740431410> Nepoznati poslužitelj. Obavezno unijeli ispravan ID poslužitelja.'
+  unknownNetworkMessage: '<: br: 977600033740431410> Nepoznata poruka. Ako je poslano u proteklih minuta, pričekajte još nekoliko sekundi i pokušajte ponovo.'
+  userNotFound: '<: NO: 977600033740431410> Korisnik nije pronađen. Pokušajte umjesto toga unijeti njihov ID.'
+  blacklisted: '<: NO: 977600033740431410> Vi ili ovaj poslužitelj je na crnoj listi korištenja Interchat.'
   userBlacklisted: '<: ne: 977600033740431410> Na crnoj listi ste iz ** {{hub}} **.'
   serverBlacklisted: '<: ne: 977600033740431410> Ovaj je poslužitelj crne liste iz ** {{hub}} **.'
   serverNotBlacklisted: '<: NO: 977600033740431410> Uneseni poslužitelj nije na crnoj listi.'
   userNotBlacklisted: '<: NO: 977600033740431410> Uneseni korisnik nije na crnoj listi.'
-  missingPermissions: >-
-    <: ne: 977600033740431410> Nedostaju vam sljedeća dopuštenja za izvedbu ove
-    radnje: ** {{{permissions}}} **
-  botMissingPermissions: >-
-    <: ne: 977600033740431410> Molimo odobljujte mi sljedeće dopuštenja za
-    nastavak: ** {{{permissions}} **
-  unknown: >-
-    <: NO: 977600033740431410> Došlo je do nepoznate pogreške. Pokušajte ponovo
-    kasnije ili nas kontaktirajte spajanjem našeg [Podrška poslužitelja]
-    ({{{support_invite}}}).
+  missingPermissions: '<: ne: 977600033740431410> Nedostaju vam sljedeća dopuštenja za izvedbu ove radnje: ** {{{permissions}}} **'
+  botMissingPermissions: '<: ne: 977600033740431410> Molimo odobljujte mi sljedeće dopuštenja za nastavak: ** {{{permissions}} **'
+  unknown: '<: NO: 977600033740431410> Došlo je do nepoznate pogreške. Pokušajte ponovo kasnije ili nas kontaktirajte spajanjem našeg [Podrška poslužitelja] ({{{support_invite}}}).'
   notUsable: '<: NO: 977600033740431410> Ovo više nije upotrebljivo.'
-  cooldown: >-
-    <: NO: 977600033740431410> Na hladnjaku ste. Molimo pričekajte ** {{{time}}}
-    ** prije nego što pokušate ponovo.
+  cooldown: '<: NO: 977600033740431410> Na hladnjaku ste. Molimo pričekajte ** {{{time}}} ** prije nego što pokušate ponovo.'
 misc:
   noReason: Nijedan razlog.
   noDesc: Bez opisa.
   version: Interchat v {{version}}
+  loading: '{{{emoji}}} Pričekaj dok obrađujem vaš zahtjev ...'

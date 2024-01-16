@@ -21,39 +21,26 @@ vote: |-
 
    Apreciem profund sprijinul tău neclintit. Mulțumesc! 🙏
 network:
-  deleteSuccess: >-
-    {{{emoji}}} Mesajul de {{{user}}} a fost șters din __ **
-    {{deleted}}/{{total}} ** __ servere.
-  editSuccess: >-
-    {{{emoji}}} Mesajul de {{{user}}} a fost editat în __ **
-    {{edited}}/{{total}} ** __ servere.
+  accountTooNew: '<: nr: 977600033740431410> {{{user}}} Contul dvs. este prea nou pentru a trimite mesaje în interchat. Vă rugăm să încercați din nou mai târziu.'
+  deleteSuccess: '{{{emoji}}} Mesajul de {{{user}}} a fost șters din __ ** {{deleted}}/{{total}} ** __ servere.'
+  editSuccess: '{{{emoji}}} Mesajul de {{{user}}} a fost editat în __ ** {{edited}}/{{total}} ** __ servere.'
   welcome: |-
     {{{user}}} Bine ați venit la ** {{hub}} **! <A: WAVE: 1185520281134055446> 
 
      Mesajele trimise în {{{channel}}} vor fi partajate cu alte servere, ** Activarea comunicării fără efort **. Puteți partaja imagini, GIF -uri, răspundeți, reacționați și interacționați cu mesajele așa cum ați face în mod normal. Amintiți -vă doar să evitați împărtășirea informațiilor personale (verificați </reguli: 924659340898619395> pentru mai multe). Gata să sari înăuntru? Trimiteți primul dvs. mesaj și alăturați -vă conversației!
   nsfw:
     title: NSFW detectat
-    description: >-
-      Am detectat conținutul {{predictions}} nsfw (nu este sigur pentru muncă)
-      în mesajul dvs. Vă rugăm să fiți conștienți de faptul că acest lucru este
-      împotriva </reguli: 924659340898619395> și va duce la o listă neagră
-      imediată.
-    footer: >-
-      Vă rugăm să fiți conștienți de faptul că AI nu este perfect și poate face
-      greșeli. Ne cerem scuze pentru neplăcerile cauzate.
+    description: 'Am detectat conținutul {{predictions}} nsfw (nu este sigur pentru muncă) în mesajul dvs. Vă rugăm să fiți conștienți de faptul că acest lucru este împotriva </reguli: 924659340898619395> și va duce la o listă neagră imediată.'
+    footer: Vă rugăm să fiți conștienți de faptul că AI nu este perfect și poate face greșeli. Ne cerem scuze pentru neplăcerile cauzate.
   onboarding:
     embed:
       title: 👋 Hei acolo, bine ai venit la {{hubName}}!
-      description: >-
-        Pentru a menține lucrurile organizate, este recomandat să folosiți un
-        canal separat doar pentru acest hub. Dar nu vă faceți griji, puteți
-        schimba întotdeauna acest lucru mai târziu. 
+      description: |-
+        Pentru a menține lucrurile organizate, este recomandat să folosiți un canal separat doar pentru acest hub. Dar nu vă faceți griji, puteți schimba întotdeauna acest lucru mai târziu. 
 
          ** Cum funcționează: ** Rețeaua Interchat este ca un pod magic care leagă canalele pe diferite servere care sunt cu noi în acest hub. Aflați mai multe la [Ghidul nostru] (https://discod-interchat.github.io/docs).
       footer: Rețea interchat | Version {{version}}
-    inProgress: >-
-      A existat deja o încercare de a se alătura unui hub de la {{{channel}}}.
-      Vă rugăm să îl anulați sau să așteptați să se finalizeze.
+    inProgress: A existat deja o încercare de a se alătura unui hub de la {{{channel}}}. Vă rugăm să îl anulați sau să așteptați să se finalizeze.
 blacklist:
   button:
     user: Utilizator al listei negre
@@ -64,9 +51,7 @@ blacklist:
       placeholder: Motiv pentru lista neagră
     duration:
       label: Durată
-      placeholder: >-
-        Durata listei negre. De exemplu: 1d, 1W, 1m, 1y. Lăsați gol pentru
-        permanent.
+      placeholder: 'Durata listei negre. De exemplu: 1d, 1W, 1m, 1y. Lăsați gol pentru permanent.'
   user:
     success: '{{{emoji}}} ** {{username}} ** a fost cu succes negru!'
     removed: '{{{emoji}}} ** {{username}} ** a fost eliminat din lista neagră!'
@@ -77,9 +62,7 @@ blacklist:
     success: '{{{emoji}}} ** {{server}} ** a fost cu succes negru!'
     removed: '{{{emoji}}} ** {{server}} ** a fost eliminat din lista neagră!'
     alreadyBlacklisted: '<: nr: 977600033740431410> Acest server este deja listat negru.'
-    unknownError: >-
-      Nu a reușit să fie negru ** {{server}} **. Întrebați cu dezvoltatorii
-      pentru mai multe informații.
+    unknownError: Nu a reușit să fie negru ** {{server}} **. Întrebați cu dezvoltatorii pentru mai multe informații.
   list:
     user: |-
       ** userId: ** {{userId}} 
@@ -150,38 +133,21 @@ msgInfo:
   report:
     notEnabled: '<: nr: 977600033740431410> Raportarea nu este activată pentru acest hub.'
     success: '{{{emoji}}} Raport prezentat cu succes. Mulțumesc!'
-invite: >-
-  Vă mulțumim că ați ales să invitați Interchat. Pur și simplu faceți clic pe
-  butonul de mai jos pentru a mă invita! 
+invite: |-
+  Vă mulțumim că ați ales să invitați Interchat. Pur și simplu faceți clic pe butonul de mai jos pentru a mă invita! 
 
    - ** Server de asistență: ** {{{support}}}
 connection:
-  notFound: >-
-    <: nr: 977600033740431410> Conexiune nevalide. Verificați ID -ul canalului
-    sau selectați dintre opțiunile afișate.
-  channelNotFound: >-
-    <: nr: 977600033740431410> Imposibil de găsit canal conectat. Pentru a vorbi
-    din nou, alegeți un nou canal.
-  alreadyConnected: >-
-    <: nr: 977600033740431410> Channel {{{channel}}} este deja conectat la un
-    hub.
-  switchChannel: >-
-    {{{emoji}}} Selectați un canal pentru a trece la utilizarea meniului SELECT
-    de mai jos:
-  switchCalled: >-
-    {{{emoji}}} Switch canal Apelat, utilizați din nou comanda pentru a
-    vizualiza o nouă conexiune.
+  notFound: '<: nr: 977600033740431410> Conexiune nevalide. Verificați ID -ul canalului sau selectați dintre opțiunile afișate.'
+  channelNotFound: '<: nr: 977600033740431410> Imposibil de găsit canal conectat. Pentru a vorbi din nou, alegeți un nou canal.'
+  alreadyConnected: '<: nr: 977600033740431410> Channel {{{channel}}} este deja conectat la un hub.'
+  switchChannel: '{{{emoji}}} Selectați un canal pentru a trece la utilizarea meniului SELECT de mai jos:'
+  switchCalled: '{{{emoji}}} Switch canal Apelat, utilizați din nou comanda pentru a vizualiza o nouă conexiune.'
   switchSuccess: '{{{emoji}}} canal comutată. Acum sunteți conectat de la ** {{{channel}}} **.'
   inviteRemoved: '{{{emoji}}} Invitați serverul eliminat pentru acest hub.'
-  inviteInvalid: >-
-    <: nr: 977600033740431410> Invitație nevalidă. Vă rugăm să vă asigurați că
-    ați introdus un link de invitație valid.
-  inviteAdded: >-
-    {{{emoji}}} invitați adăugat. Alții se pot alătura acum acestui server
-    folosind `Apps> Informații despre mesaje/Raport`.
-  emColorInvalid: >-
-    <: nr: 977600033740431410> Culoare nevalide. Vă rugăm să vă asigurați că ați
-    introdus un cod de culoare Hex valid.
+  inviteInvalid: '<: nr: 977600033740431410> Invitație nevalidă. Vă rugăm să vă asigurați că ați introdus un link de invitație valid.'
+  inviteAdded: '{{{emoji}}} invitați adăugat. Alții se pot alătura acum acestui server folosind `Apps> Informații despre mesaje/Raport`.'
+  emColorInvalid: '<: nr: 977600033740431410> Culoare nevalide. Vă rugăm să vă asigurați că ați introdus un cod de culoare Hex valid.'
   emColorChange: '{{{emoji}}} încorporează culoarea cu succes {{{action}}}'
   embed:
     title: Detalii despre conexiune
@@ -194,39 +160,20 @@ connection:
       emColor: Culoarea încorporată
       compact: Mod compact
       profanity: Filtru de Obscenități
-    footer: >-
-      Utilizați butonul și meniul derulant de mai jos pentru a vă gestiona
-      conexiunea.
+    footer: Utilizați butonul și meniul derulant de mai jos pentru a vă gestiona conexiunea.
   selects:
     placeholder: 🛠️ Selectați o opțiune de mai jos pentru a vă gestiona conexiunea.
 hub:
-  notFound: >-
-    <: nr: 977600033740431410> Imposibil de găsit hub. Vă rugăm să vă asigurați
-    că ați introdus numele hub -ului corect.
-  notFound_mod: >-
-    <: nr: 977600033740431410> Imposibil de găsit hub. Vă rugăm să vă asigurați
-    că ați introdus numele hub -ului corect și că sunteți proprietarul sau un
-    moderator al hub -ului.
-  alreadyJoined: >-
-    <: nr: 977600033740431410> v -ați alăturat deja ** {{hub}} ** din
-    {{{channel}}}!
-  invalidChannel: >-
-    <: nr: 977600033740431410> canal nevalid. Sunt acceptate doar canale de text
-    și fir!
-  invalidImgurUrl: >-
-    <: nr: 977600033740431410> URL de imagine nevalid pentru pictogramă sau
-    banner. Vă rugăm să vă asigurați că ați introdus o adresă URL de imagine
-    Imgur validă care nu este o galerie sau un album.
+  notFound: '<: nr: 977600033740431410> Imposibil de găsit hub. Vă rugăm să vă asigurați că ați introdus numele hub -ului corect.'
+  notFound_mod: '<: nr: 977600033740431410> Imposibil de găsit hub. Vă rugăm să vă asigurați că ați introdus numele hub -ului corect și că sunteți proprietarul sau un moderator al hub -ului.'
+  alreadyJoined: '<: nr: 977600033740431410> v -ați alăturat deja ** {{hub}} ** din {{{channel}}}!'
+  invalidChannel: '<: nr: 977600033740431410> canal nevalid. Sunt acceptate doar canale de text și fir!'
+  invalidImgurUrl: '<: nr: 977600033740431410> URL de imagine nevalid pentru pictogramă sau banner. Vă rugăm să vă asigurați că ați introdus o adresă URL de imagine Imgur validă care nu este o galerie sau un album.'
   join:
-    success: >-
-      S -a alăturat cu succes Hub ** {{hub}} ** din {{{channel}}}! Utilizați
-      `/conexiune` pentru a vă gestiona conexiunea. Și `/hub pleacă` pentru a
-      părăsi hub -ul.
+    success: S -a alăturat cu succes Hub ** {{hub}} ** din {{{channel}}}! Utilizați `/conexiune` pentru a vă gestiona conexiunea. Și `/hub pleacă` pentru a părăsi hub -ul.
   servers:
     total: 'Servere conectate curente: {{from}}-{{to}} / ** {{total}} **'
-    noConnections: >-
-      <: nr: 977600033740431410> Niciun server nu s -a alăturat acestui hub.
-      Utilizați `/hub Join` pentru a vă alătura acestui hub.
+    noConnections: '<: nr: 977600033740431410> Niciun server nu s -a alăturat acestui hub. Utilizați `/hub Join` pentru a vă alătura acestui hub.'
     notConnected: '<: nr: 977600033740431410> Acest server nu face parte din ** {{hub}} **.'
     connectionInfo: |-
       Channel: #{{{channelName}}} `({{channelId}})` 
@@ -248,15 +195,9 @@ hub:
       banner:
         label: URL -ul banner
         placeholder: Introduceți o adresă URL de imagine Imgur.
-    maxHubs: >-
-      <: nr: 977600033740431410> Ați ajuns la numărul maxim de hub -uri (3) pe
-      care le puteți crea. Vă rugăm să ștergeți un hub înainte de a crea altul.
-    invalidName: >-
-      <: nr: 977600033740431410> Nume hub nevalid. Nu trebuie să conțină
-      `discord`,` clyde` sau \ `\` \ `. Vă rugăm să alegeți un alt nume.
-    nameTaken: >-
-      <: nr: 977600033740431410> Acest nume de hub este deja luat. Vă rugăm să
-      alegeți un alt nume.
+    maxHubs: '<: nr: 977600033740431410> Ați ajuns la numărul maxim de hub -uri (3) pe care le puteți crea. Vă rugăm să ștergeți un hub înainte de a crea altul.'
+    invalidName: '<: nr: 977600033740431410> Nume hub nevalid. Nu trebuie să conțină `discord`,` clyde` sau \ `\` \ `. Vă rugăm să alegeți un alt nume.'
+    nameTaken: '<: nr: 977600033740431410> Acest nume de hub este deja luat. Vă rugăm să alegeți un alt nume.'
     success: |-
       ### Hub creat! 
 
@@ -269,12 +210,9 @@ hub:
        - ** Editează hub: ** `/hub gestionare` 
        - ** Adăugați moderatori: ** `/hub moderator add` 
 
-       Aflați mai multe despre hub-uri din [Ghidul nostru] (https://discod-interchat.github.io/docs). Alăturați -vă [serverului de asistență] ({{{support_invite}}}) pentru ajutor.
+       Aflați mai multe despre hub-uri din [Ghidul nostru] (https://discod-interchat.github.io/docs). Alăturați -vă [serverului de asistență] ({{{docs_link}}}) pentru ajutor.
   delete:
-    confirm: >-
-      Ești sigur că doriți să ștergeți ** {{hub}} **? Această acțiune este
-      ireversibilă. Toate serverele conectate, invitațiile și datele mesajelor
-      vor fi eliminate din acest hub.
+    confirm: Ești sigur că doriți să ștergeți ** {{hub}} **? Această acțiune este ireversibilă. Toate serverele conectate, invitațiile și datele mesajelor vor fi eliminate din acest hub.
     ownerOnly: '<: nr: 977600033740431410> Doar proprietarul acestui hub îl poate șterge.'
     success: '{{{emoji}}} hub ** {{hub}} ** a fost șters.'
     cancelled: '{{{emoji}}} ștergerea hub -ului a fost anulată.'
@@ -284,9 +222,7 @@ hub:
           
        ** Notă: ** Puteți schimba întotdeauna acest lucru mai târziu folosind `/conexiune`.
     joinFooter: Vrei să folosești un alt canal? Utilizați derularea de mai jos.
-    noHubs: >-
-      În acest moment nu există hub -uri enumerate aici. Vă rugăm să încercați
-      din nou mai târziu!
+    noHubs: În acest moment nu există hub -uri enumerate aici. Vă rugăm să încercați din nou mai târziu!
     rating:
       invalid: Rating nevalid. Trebuie să introduceți un număr între 1 și 5.
       success: Rating trimis! Multumim pentru feedback-ul dvs.
@@ -304,67 +240,36 @@ hub:
 
          __Learn Mai multe despre hub-uri din [Ghidul nostru] (https://discor-interchat.github.io/docs) .__.
     revoke:
-      invalidCode: >-
-        <: nr: 977600033740431410> Cod de invitație nevalid. Vă rugăm să vă
-        asigurați că ați introdus un cod de invitație valid.
+      invalidCode: '<: nr: 977600033740431410> Cod de invitație nevalid. Vă rugăm să vă asigurați că ați introdus un cod de invitație valid.'
       success: '{{{emoji}}} invitați {{inviteCode}} revocat.'
     list:
       title: '** Invitați coduri: **'
-      noInvites: >-
-        <: nr: 977600033740431410> Acest hub nu are încă invitații. Utilizați
-        `/hub Invite Create` pentru a crea unul.
-      notPrivate: >-
-        <: nr: 977600033740431410> Doar hub -urile private pot avea invitații.
-        Utilizați `/Hub Manage` pentru a face acest hub privat.
+      noInvites: '<: nr: 977600033740431410> Acest hub nu are încă invitații. Utilizați `/hub Invite Create` pentru a crea unul.'
+      notPrivate: '<: nr: 977600033740431410> Doar hub -urile private pot avea invitații. Utilizați `/Hub Manage` pentru a face acest hub privat.'
   joined:
-    noJoinedHubs: >-
-      <: nr: 977600033740431410> Acest server nu s -a alăturat încă niciun hub.
-      Utilizați `/hub Browse` pentru a vizualiza o listă de hub -uri.
-    joinedHubs: >-
-      Acest server este o parte din ** {{total}} ** hub (s). Folosiți `/hub
-      Leave` pentru a părăsi un hub.
+    noJoinedHubs: '<: nr: 977600033740431410> Acest server nu s -a alăturat încă niciun hub. Utilizați `/hub Browse` pentru a vizualiza o listă de hub -uri.'
+    joinedHubs: Acest server este o parte din ** {{total}} ** hub (s). Folosiți `/hub Leave` pentru a părăsi un hub.
   leave:
-    noHub: >-
-      <: nr: 977600033740431410> Acest canal este nevalid sau nu s -a alăturat
-      niciunui hub.
-    confirm: >-
-      Sunteți sigur că doriți să plecați ** {{hub}} ** din {{{channel}}}? Nu vor
-      mai fi trimise mesaje către acest server de la acest hub.
+    noHub: '<: nr: 977600033740431410> Acest canal este nevalid sau nu s -a alăturat niciunui hub.'
+    confirm: Sunteți sigur că doriți să plecați ** {{hub}} ** din {{{channel}}}? Nu vor mai fi trimise mesaje către acest server de la acest hub.
     confirmFooter: Confirmați utilizarea butonului de mai jos în 10 secunde.
-    success: >-
-      {{{emoji}}} a lăsat hub -ul din {{{channel}}}. Nu vor mai fi trimise
-      mesaje către acest server de la acest hub. Vă puteți reveni folosind `/hub
-      Join`.
+    success: '{{{emoji}}} a lăsat hub -ul din {{{channel}}}. Nu vor mai fi trimise mesaje către acest server de la acest hub. Vă puteți reveni folosind `/hub Join`.'
   moderator:
-    noModerators: >-
-      <: nr: 977600033740431410> Acest hub nu are încă moderatori. Utilizați
-      `/Hub Moderator Add` pentru a adăuga unul.
+    noModerators: '<: nr: 977600033740431410> Acest hub nu are încă moderatori. Utilizați `/Hub Moderator Add` pentru a adăuga unul.'
     add:
-      success: >-
-        {{{emoji}}} ** {{{user}}} ** a fost adăugat ca moderator al poziției **
-        {{position}} **.
+      success: '{{{emoji}}} ** {{{user}}} ** a fost adăugat ca moderator al poziției ** {{position}} **.'
       alreadyModerator: '<: nr: 977600033740431410> ** {{{user}}} ** este deja un moderator.'
     remove:
       success: '{{{emoji}}} ** {{{user}}} ** a fost eliminat ca moderator.'
       notModerator: '<: nr: 977600033740431410> ** {{{user}}} ** nu este un moderator.'
-      notOwner: >-
-        <: nr: 977600033740431410> Doar proprietarul acestui hub poate elimina
-        un manager.
+      notOwner: '<: nr: 977600033740431410> Doar proprietarul acestui hub poate elimina un manager.'
     update:
-      success: >-
-        {{{emoji}}} ** {{{user}}} ** Poziția a fost actualizată la **
-        {{position}} **.
+      success: '{{{emoji}}} ** {{{user}}} ** Poziția a fost actualizată la ** {{position}} **.'
       notModerator: '<: nr: 977600033740431410> ** {{{user}}} ** nu este un moderator.'
-      notAllowed: >-
-        <: nr: 977600033740431410> Doar managerii HUB pot actualiza poziția unui
-        moderator.
-      notOwner: >-
-        <: nr: 977600033740431410> Doar proprietarul acestui hub poate actualiza
-        poziția unui manager.
+      notAllowed: '<: nr: 977600033740431410> Doar managerii HUB pot actualiza poziția unui moderator.'
+      notOwner: '<: nr: 977600033740431410> Doar proprietarul acestui hub poate actualiza poziția unui manager.'
   manage:
-    enterImgurUrl: >-
-      Introduceți o adresă URL de imagine Imgur valabilă care nu este o galerie
-      sau un album.
+    enterImgurUrl: Introduceți o adresă URL de imagine Imgur valabilă care nu este o galerie sau un album.
     icon:
       changed: Pictograma Hub s -a schimbat cu succes.
       modal:
@@ -392,31 +297,22 @@ hub:
         label: Schimbați bannerul
         description: Schimbați bannerul acestui hub.
     visibility:
-      success: >-
-        {{{emoji}}} vizibilitatea hubului schimbat cu succes în **
-        {{{visibility}}} **.
+      success: '{{{emoji}}} vizibilitatea hubului schimbat cu succes în ** {{{visibility}}} **.'
       selects:
         label: Schimbați vizibilitatea
         description: Faceți acest hub public sau privat.
     logs:
       title: Configurați jurnalele
-      reset: >-
-        {{{emoji}}} Resetați cu succes configurația jurnalelor pentru
-        `{{{type}}}` jurnale.
+      reset: '{{{emoji}}} Resetați cu succes configurația jurnalelor pentru `{{{type}}}` jurnale.'
       roleSuccess: '{{{emoji}}} jurnalele de tip `{{{type}}}` vor menționa acum {{{role}}}!'
-      channelSuccess: >-
-        {{{emoji}}} jurnalele de tip `{{{type}}}` vor fi trimise la
-        {{{channel}}} de acum!
+      channelSuccess: '{{{emoji}}} jurnalele de tip `{{{type}}}` vor fi trimise la {{{channel}}} de acum!'
       channelSelect: '#️⃣ Selectați tipul de jurnal de configurat.'
       roleSelect: 🏓 Selectați rolul de menționat când un jurnal este declanșat.
-      reportChannelFirst: >-
-        <: nr: 977600033740431410> Vă rugăm să setați mai întâi un canal de
-        jurnal.
+      reportChannelFirst: '<: nr: 977600033740431410> Vă rugăm să setați mai întâi un canal de jurnal.'
       config:
         title: Configurați `{{{type}}}` jurnal
-        description: >-
-          {{{arrow}}} Selectați un canal de jurnal și/sau un rol care trebuie să
-          fie pinged din meniul vertical de mai jos. 
+        description: |-
+          {{{arrow}}} Selectați un canal de jurnal și/sau un rol care trebuie să fie pinged din meniul vertical de mai jos. 
            {{{arrow}}} puteți dezactiva, de asemenea, logarea folosind butonul de mai jos.
         fields:
           channel: Canal
@@ -445,14 +341,10 @@ report:
     bug:
       input1:
         label: Detalii despre erori
-        placeholder: >-
-          De exemplu. Eșecuri de interacțiune frecvente pentru comanda /ajutor
-          ...
+        placeholder: De exemplu. Eșecuri de interacțiune frecvente pentru comanda /ajutor ...
       input2:
         label: Descriere detaliată (opțional)
-        placeholder: >-
-          Pași pe care i -ai făcut. De exemplu. 1. RUN /HELP 2. Așteptați 5
-          secunde ...
+        placeholder: Pași pe care i -ai făcut. De exemplu. 1. RUN /HELP 2. Așteptați 5 secunde ...
   invalidUser: |-
     <: nr: 977600033740431410> Nu am putut găsi un utilizator cu acel ID. 
 
@@ -463,75 +355,41 @@ report:
 
      ** Pentru a găsi un ID de server în rețea: ** 
      {{{dot}}} Faceți clic dreapta pe un mesaj trimis de serverul în cauză și selectați `Apps> Mesaj Info/Raport`. Vă rugăm să verificați dublu ID-ul și încercați din nou.
-  submitted: >-
-    Raport prezentat. Alăturați -vă ** [server de asistență]
-    ({{{support_invite}}}) ** pentru a obține actualizări în raportul dvs.
+  submitted: Raport prezentat. Alăturați -vă ** [server de asistență] ({{{support_invite}}}) ** pentru a obține actualizări în raportul dvs.
   bug:
     title: Raport de erori
     affected: Componente afectate
     description: Vă rugăm să alegeți cu ce componentă a botului vă confruntați cu probleme.
-    submitted: >-
-      {{{emoji}}} Raport prezentat cu succes. Alăturați -vă serverului </suport:
-      924659341049626636> pentru a obține mai multe detalii. Mulțumesc!
+    submitted: '{{{emoji}}} Raport prezentat cu succes. Alăturați -vă serverului </suport: 924659341049626636> pentru a obține mai multe detalii. Mulțumesc!'
 language:
   set: Set de limbă! Vă voi răspunde acum în ** {{{lang}}} **.
 errors:
-  messageNotSentOrExpired: >-
-    <: nr: 977600033740431410> Acest mesaj nu a fost trimis într -un hub, a
-    expirat sau nu aveți permisiuni pentru a efectua această acțiune.
-  notYourAction: >-
-    <: nr: 977600033740431410> Ne pare rău, nu puteți efectua această acțiune.
-    Vă rugăm să rulați singur comanda.
+  messageNotSentOrExpired: '<: nr: 977600033740431410> Acest mesaj nu a fost trimis într -un hub, a expirat sau nu aveți permisiuni pentru a efectua această acțiune.'
+  notYourAction: '<: nr: 977600033740431410> Ne pare rău, nu puteți efectua această acțiune. Vă rugăm să rulați singur comanda.'
   notMessageAuthor: '<: nr: 977600033740431410> Nu sunteți autorul acestui mesaj.'
-  commandError: >-
-    <: nr: 977600033740431410> A apărut o eroare în timpul executării acestei
-    comenzi. A fost înregistrat la sistemul nostru. Dacă această problemă
-    persistă, vă rugăm să vă alăturați [serverul de asistență]
-    ({{{support_invite}}}) și raportați -l! 
+  commandError: |-
+    <: nr: 977600033740431410> A apărut o eroare în timpul executării acestei comenzi. A fost înregistrat la sistemul nostru. Dacă această problemă persistă, vă rugăm să vă alăturați [serverul de asistență] ({{{support_invite}}}) și raportați -l! 
      `` `JS 
      {{{error}}} 
      `` `
-  mustVote: >-
-    Vă rugăm să [vot] (https://top.gg/bot/769921109209907241/vote) pentru
-    interchat să utilizeze această comandă, suportul dvs. este foarte apreciat!
-  inviteLinks: >-
-    <: nr: 977600033740431410> Nu faceți publicitate și nu promovați serverele
-    din rețea. Setați o invitație în `/conexiune` în schimb!
-  invalidLangCode: >-
-    <: nr: 977600033740431410> Cod limbaj nevalid. Vă rugăm să vă asigurați că
-    ați introdus un corect [cod de limbă]
-    (https://cloud.google.com/translate/docs/languages).
-  unknownServer: >-
-    <: nr: 977600033740431410> Server necunoscut. Vă rugăm să vă asigurați că
-    ați introdus ID -ul serverului corect.
-  unknownNetworkMessage: >-
-    <: nr: 977600033740431410> Mesaj necunoscut. Dacă a fost trimis în ultimul
-    minut, vă rugăm să așteptați câteva secunde și să încercați din nou.
-  userNotFound: >-
-    <: nr: 977600033740431410> Utilizator nu a fost găsit. Încercați să
-    introduceți ID -ul lor în schimb.
-  blacklisted: >-
-    <: nr: 977600033740431410> Dumneavoastră sau acest server este listat negru
-    să utilizeze Interchat.
+  mustVote: Vă rugăm să [vot] (https://top.gg/bot/769921109209907241/vote) pentru interchat să utilizeze această comandă, suportul dvs. este foarte apreciat!
+  inviteLinks: '<: nr: 977600033740431410> Nu faceți publicitate și nu promovați serverele din rețea. Setați o invitație în `/conexiune` în schimb!'
+  invalidLangCode: '<: nr: 977600033740431410> Cod limbaj nevalid. Vă rugăm să vă asigurați că ați introdus un corect [cod de limbă] (https://cloud.google.com/translate/docs/languages).'
+  unknownServer: '<: nr: 977600033740431410> Server necunoscut. Vă rugăm să vă asigurați că ați introdus ID -ul serverului corect.'
+  unknownNetworkMessage: '<: nr: 977600033740431410> Mesaj necunoscut. Dacă a fost trimis în ultimul minut, vă rugăm să așteptați câteva secunde și să încercați din nou.'
+  userNotFound: '<: nr: 977600033740431410> Utilizator nu a fost găsit. Încercați să introduceți ID -ul lor în schimb.'
+  blacklisted: '<: nr: 977600033740431410> Dumneavoastră sau acest server este listat negru să utilizeze Interchat.'
   userBlacklisted: '<: nr: 977600033740431410> Sunteți lista neagră din ** {{hub}} **.'
   serverBlacklisted: '<: nr: 977600033740431410> Acest server este listat negru din ** {{hub}} **.'
   serverNotBlacklisted: '<: nr: 977600033740431410> Serverul introdus nu este listat negru.'
   userNotBlacklisted: '<: nr: 977600033740431410> Utilizatorul introdus nu este listat negru.'
-  missingPermissions: >-
-    <: nr: 977600033740431410> Vă lipsește următoarele permisiuni pentru a
-    efectua această acțiune: ** {{{permissions}}} **
-  botMissingPermissions: >-
-    <: nr: 977600033740431410> Vă rugăm să -mi acordați următoarele permisiuni
-    pentru a continua: ** {{{permissions}}} **
-  unknown: >-
-    <: nr: 977600033740431410> a apărut o eroare necunoscută. Vă rugăm să
-    încercați din nou mai târziu sau să ne contactați prin alăturarea
-    [serverului nostru de asistență] ({{{support_invite}}}).
+  missingPermissions: '<: nr: 977600033740431410> Vă lipsește următoarele permisiuni pentru a efectua această acțiune: ** {{{permissions}}} **'
+  botMissingPermissions: '<: nr: 977600033740431410> Vă rugăm să -mi acordați următoarele permisiuni pentru a continua: ** {{{permissions}}} **'
+  unknown: '<: nr: 977600033740431410> a apărut o eroare necunoscută. Vă rugăm să încercați din nou mai târziu sau să ne contactați prin alăturarea [serverului nostru de asistență] ({{{support_invite}}}).'
   notUsable: '<: nr: 977600033740431410> Acest lucru nu mai este utilizabil.'
-  cooldown: >-
-    <: nr: 977600033740431410> Sunteți în recul. Vă rugăm să așteptați **
-    {{{time}}} ** înainte de a încerca din nou.
+  cooldown: '<: nr: 977600033740431410> Sunteți în recul. Vă rugăm să așteptați ** {{{time}}} ** înainte de a încerca din nou.'
 misc:
   noReason: Niciun motiv furnizat.
   noDesc: Fără descriere.
   version: Interchat v {{version}}
+  loading: '{{{emoji}}} Vă rugăm să așteptați în timp ce vă prelucrez cererea ...'
