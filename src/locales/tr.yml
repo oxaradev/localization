@@ -22,8 +22,8 @@ vote: |-
    Değişmez desteğinizi derinden takdir ediyoruz. Teşekkür ederim! 🙏
 network:
   accountTooNew: '<: Hayır: 977600033740431410> {{{user}}} Hesabınız arayla mesaj gönderilemeyecek kadar yeni. Lütfen daha sonra tekrar deneyiniz.'
-  deleteSuccess: '{{{emoji}}}}} {{{user}}} tarafından mesaj __ ** {{deleted}}/{{total}}} ** __ sunucularından silindi.'
-  editSuccess: '{{{emoji}}}} {{{user}}} tarafından mesaj __ ** {{edited}}/{{total}} ** __ sunucularında düzenlendi.'
+  deleteSuccess: '{{{emoji}}} {{{user}}} tarafından mesaj __ ** {{deleted}}/{{total}} ** __ sunucularından silindi.'
+  editSuccess: '{{{emoji}}} {{{user}}} tarafından mesaj __ ** {{edited}}/{{total}} ** __ sunucularında düzenlendi.'
   welcome: |-
     {{{user}}} ** {{hub}} ** 'te hoş geldiniz! <A: Dalga: 11855202811340555446> 
 
@@ -53,8 +53,8 @@ blacklist:
       label: Süre
       placeholder: 'Blacklist süresi. Örn: 1d, 1W, 1m, 1y. Kalıcı için boş bırakın.'
   user:
-    success: '{{{emoji}}}} ** {{username}} ** başarıyla listelendi!'
-    removed: '{{{emoji}}}} ** {{username}} ** kara listeden kaldırıldı!'
+    success: '{{{emoji}}} ** {{username}} ** başarıyla listelendi!'
+    removed: '{{{emoji}}} ** {{username}} ** kara listeden kaldırıldı!'
     alreadyBlacklisted: '<: Hayır: 977600033740431410> Bu kullanıcı zaten kara listeye alınmıştır.'
     easterEggs:
       blacklistBot: Bana wtf listeleyemezsin.
@@ -68,12 +68,12 @@ blacklist:
       ** USERID: ** {{userId}} 
        ** Moderatör: ** {{moderator}} 
        ** Sebep: ** {{{reason}}} 
-       ** Süresi doluyor: ** {{expires}}}
+       ** Süresi doluyor: ** {{expires}}
     server: |-
       ** Serverid: ** {{serverId}} 
        ** Moderatör: ** {{moderator}} 
        ** Sebep: ** {{{reason}}} 
-       ** süresi doluyor: ** {{{expires}}}}
+       ** süresi doluyor: ** {{{expires}}}
 msgInfo:
   buttons:
     message: Mesaj Bilgisi
@@ -166,11 +166,11 @@ connection:
 hub:
   notFound: '<: Hayır: 977600033740431410> Hub bulamıyor. Lütfen doğru hub adını girdiğinizden emin olun.'
   notFound_mod: '<: Hayır: 977600033740431410> Hub bulamıyor. Lütfen doğru hub adını girdiğinizden ve hub''ın sahibi veya moderatörü olduğunuzdan emin olun.'
-  alreadyJoined: '<: Hayır: 977600033740431410> {{hub}}} ''den zaten ** {{{channel}} ** katıldınız!'
+  alreadyJoined: '<: Hayır: 977600033740431410> {{hub}} ''den zaten ** {{{channel}}} ** katıldınız!'
   invalidChannel: '<: Hayır: 977600033740431410> Geçersiz kanal. Yalnızca metin ve iş parçacığı kanalları desteklenir!'
   invalidImgurUrl: '<: Hayır: 977600033740431410> simge veya afiş için geçersiz görüntü URL''si. Lütfen bir galeri veya albüm olmayan geçerli bir imgur görüntü URL''sine girdiğinizden emin olun.'
   join:
-    success: '{{hub}}} ''den Hub ** {{{channel}} ** başarıyla katıldı! Bağlantınızı yönetmek için `/bağlantı ''kullanın. Ve `/hub ayrılmak için ayrılır ''.'
+    success: '{{hub}} ''den Hub ** {{{channel}}} ** başarıyla katıldı! Bağlantınızı yönetmek için `/bağlantı ''kullanın. Ve `/hub ayrılmak için ayrılır ''.'
   servers:
     total: 'Geçerli bağlı sunucular: {{from}}-{{to}} / ** {{total}} **'
     noConnections: '<: Hayır: 977600033740431410> Henüz bu merkeze hiçbir sunucu katılmadı. Bu merkeze katılmak için `/hub jome` kullanın.'
@@ -210,7 +210,7 @@ hub:
        - ** Hub'ı düzenle: ** `/hub yönet 
        - ** Moderatör ekle: ** `/Hub Moderatör Ekle 
 
-       [Rehber] 'de Hub'lar hakkında daha fazla bilgi edinin (https://discord-interchat.github.io/docs). Yardım için [Destek sunucusu] ({{{docs_link}}}}}}} 'na katılın.
+       [Rehber] 'de Hub'lar hakkında daha fazla bilgi edinin (https://discord-interchat.github.io/docs). Yardım için [Destek sunucusu] ({{{docs_link}}} 'na katılın.
   delete:
     confirm: '** {{hub}} ** silmek istediğinizden emin misiniz? Bu eylem geri döndürülemez. Tüm bağlı sunucular, davetler ve mesaj verileri bu merkezden kaldırılır.'
     ownerOnly: '<: Hayır: 977600033740431410> Yalnızca bu merkezin sahibi silebilir.'
@@ -218,7 +218,7 @@ hub:
     cancelled: '{{{emoji}}} Hub silme iptal edildi.'
   browse:
     joinConfirm: |-
-      {{hub}}} 'dan {{{channel}} katılmak istediğinizden emin misiniz? 
+      {{hub}} 'dan {{{channel}}} katılmak istediğinizden emin misiniz? 
           
        ** Not: ** Bunu her zaman daha sonra `/bağlantı 'kullanarak değiştirebilirsiniz.
     joinFooter: Farklı bir kanal kullanmak ister misiniz? Aşağıdaki açılır menü kullanın.
@@ -235,7 +235,7 @@ hub:
 
          - ** Katılın: ** ` 
          - ** Davetleri Görüntüle: ** `/Hub Davet Listesi` 
-         - ** sona erme: ** {{inviteCode}}} 
+         - ** sona erme: ** {{inviteCode}} 
          - ** kullanır **: ∞ 
 
          __ [kılavuzumuzdaki hub'lar hakkında daha fazla bilgi edinin (https://discord-interchat.github.io/docs).
@@ -251,7 +251,7 @@ hub:
     joinedHubs: Bu sunucu ** {{total}} ** hub (lar) ın bir parçasıdır. Hub bırakmak için `/hub bırak 'kullanın.
   leave:
     noHub: '<: Hayır: 977600033740431410> Bu kanal geçersiz veya herhangi bir hub''a katılmadı.'
-    confirm: '{{hub}}} ''dan ** {{{channel}} ** bırakmak istediğinizden emin misiniz? Bu hub''dan bu sunucuya artık mesaj gönderilmeyecek.'
+    confirm: '{{hub}} ''dan ** {{{channel}}} ** bırakmak istediğinizden emin misiniz? Bu hub''dan bu sunucuya artık mesaj gönderilmeyecek.'
     confirmFooter: Aşağıdaki düğmeyi 10 saniye içinde kullanmayı onaylayın.
     success: '{{{emoji}}} hub''ı {{{channel}}} ''dan terk etti. Bu hub''dan bu sunucuya artık mesaj gönderilmeyecek. `/Hub JOIN ''kullanarak yeniden katılabilirsiniz.'
   moderator:
@@ -355,7 +355,7 @@ report:
 
      ** Ağ içinde bir sunucu kimliği bulmak için: ** 
      {{{dot}}} Söz konusu sunucu tarafından gönderilen bir mesajı sağ tıklayın ve `` Uygulamalar> Mesaj Bilgisi/Report '' seçin. Lütfen kimliği iki kez kontrol edin ve tekrar deneyin.
-  submitted: Rapor gönderildi. Raporunuzda güncellemeler almak için ** [Destek Sunucusu] ({{{support_invite}}}}}) ** katılın.
+  submitted: Rapor gönderildi. Raporunuzda güncellemeler almak için ** [Destek Sunucusu] ({{{support_invite}}}) ** katılın.
   bug:
     title: Hata raporu
     affected: Etkilenen bileşenler

@@ -59,7 +59,7 @@ blacklist:
     easterEggs:
       blacklistBot: Je kunt me niet op de zwarte lijst zetten WTF.
   server:
-    success: '{{{emoji}}}} ** {{server}} ** is met succes op de zwarte lijst gezet!'
+    success: '{{{emoji}}} ** {{server}} ** is met succes op de zwarte lijst gezet!'
     removed: '{{{emoji}}} ** {{server}} ** is verwijderd uit de zwarte lijst!'
     alreadyBlacklisted: '<: Nee: 977600033740431410> Deze server staat al op de zwarte lijst.'
     unknownError: Fail om op de zwarte lijst te komen ** {{server}} **. Informeer bij de ontwikkelaars voor meer informatie.
@@ -144,11 +144,11 @@ connection:
   switchChannel: '{{{emoji}}} Selecteer een kanaal om over te schakelen naar het onderstaande menu Selecteren:'
   switchCalled: '{{{emoji}}} kanaalschakelaar met de naam, gebruik de opdracht opnieuw om een nieuwe verbinding te bekijken.'
   switchSuccess: '{{{emoji}}} kanaal geschakeld. U bent nu verbonden van ** {{{channel}}} **.'
-  inviteRemoved: '{{{emoji}}}} Server -uitnodiging verwijderd voor deze hub.'
+  inviteRemoved: '{{{emoji}}} Server -uitnodiging verwijderd voor deze hub.'
   inviteInvalid: '<: nr: 977600033740431410> Ongeldige uitnodiging. Zorg ervoor dat u een geldige uitnodigingslink hebt ingevoerd.'
   inviteAdded: '{{{emoji}}} uitnodiging toegevoegd. Anderen kunnen nu lid worden van deze server met behulp van de opdracht `apps> berichtinfo/rapport`.'
   emColorInvalid: '<: nr: 977600033740431410> Ongeldige kleur. Zorg ervoor dat u een geldige hex -kleurcode hebt ingevoerd.'
-  emColorChange: '{{{emoji}}}} Insluiten kleur succesvol {{{action}}}'
+  emColorChange: '{{{emoji}}} Insluiten kleur succesvol {{{action}}}'
   embed:
     title: Verbindingsgegevens
     description: Selecteer hieronder een optie om uw verbinding te beheren.
@@ -176,7 +176,7 @@ hub:
     noConnections: '<: Nee: 977600033740431410> nog geen server is lid geworden van deze hub. Gebruik `/hub join` om deel te nemen aan deze hub.'
     notConnected: '<: nee: 977600033740431410> dat server geen deel uitmaakt van ** {{hub}} **.'
     connectionInfo: |-
-      Kanaal: #{{{channelName}}}} `({{channelId}})` ` 
+      Kanaal: #{{{channelName}}} `({{channelId}})` ` 
        Samen met: {{{joinedAt}}} 
        Uitnodiging: {{{invite}}} 
        Verbonden: {{connected}}
@@ -215,7 +215,7 @@ hub:
     confirm: Weet u zeker dat u ** {{hub}} ** wilt verwijderen? Deze actie is onomkeerbaar. Alle verbonden servers, uitnodigingen en berichtengegevens worden uit deze hub verwijderd.
     ownerOnly: '<: Nee: 977600033740431410> Alleen de eigenaar van deze hub kan deze verwijderen.'
     success: '{{{emoji}}} hub ** {{hub}} ** is verwijderd.'
-    cancelled: '{{{emoji}}}} Hub -verwijdering is geannuleerd.'
+    cancelled: '{{{emoji}}} Hub -verwijdering is geannuleerd.'
   browse:
     joinConfirm: |-
       Weet u zeker dat u zich wilt aansluiten bij {{hub}} van {{{channel}}}? 
@@ -260,7 +260,7 @@ hub:
       success: '{{{emoji}}} ** {{{user}}} ** is toegevoegd als een moderator van positie ** {{position}} **.'
       alreadyModerator: '<: nr: 977600033740431410> ** {{{user}}} ** is al een moderator.'
     remove:
-      success: '{{{emoji}}}} ** {{{user}}} ** is verwijderd als een moderator.'
+      success: '{{{emoji}}} ** {{{user}}} ** is verwijderd als een moderator.'
       notModerator: '<: nr: 977600033740431410> ** {{{user}}} ** is geen moderator.'
       notOwner: '<: Nee: 977600033740431410> Alleen de eigenaar van deze hub kan een manager verwijderen.'
     update:

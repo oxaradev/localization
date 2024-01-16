@@ -67,12 +67,12 @@ blacklist:
     user: |
       **यूजर ID:** {{userId}}
       **माडरैटर:** {{moderator}}
-      **कारण:** {{{reason}}
+      **कारण:** {{{reason}}}
       **एक्स्पाइरी:** {{expires}}
     server: |
       **सर्वर ID:** {{serverId}}
       **माडरैटर:** {{moderator}}
-      **कारण:** {{{reason}}
+      **कारण:** {{{reason}}}
       **एक्स्पाइरी:** {{{expires}}}
 msgInfo:
   buttons:
@@ -88,20 +88,20 @@ msgInfo:
       __{{{author}}}__   
 
       **सर्वर**
-      __{{{server}}__
+      __{{{server}}}__
 
       **मैसेज ID:**
       __{{messageId}}__
 
       **कॉन्से हब से  **
-      __{{{hub}}__
+      __{{{hub}}}__
 
       **बनाने का समय:**
-      <t:{{{createdAt}}:R>
+      <t:{{{createdAt}}}:R>
   server:
     description: |
-      ## {{{server}}
-      {{{description}}
+      ## {{{server}}}
+      {{{description}}}
 
       **मालिक:** 
       __{{{owner}}}__
@@ -113,11 +113,11 @@ msgInfo:
       __{{memberCount}}__
 
       **आमंत्रण करने के लिए लिंक:**
-      __{{{invite}}__
+      __{{{invite}}}__
   user:
     description: |
-      ## {{{username}}
-      __{{{user}}__
+      ## {{{username}}}
+      __{{{user}}}__
 
       **ID:**
       __{{id}}__
@@ -126,7 +126,7 @@ msgInfo:
       <t:{{createdAt}}:d> (<t:{{createdAt}}:R>)
 
       **Display Name:**
-      __{{{globalName}}__
+      __{{{globalName}}}__
 
       **Hubs Owned:**
       __{{hubsOwned}}__

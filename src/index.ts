@@ -504,11 +504,11 @@ const deepObject = (
 };
 
 const formatString = (original: string, destination: string) => {
-	const originalVars = original.match(/[{|"](.*?)[}|"]/gi);
+	const originalVars = original.match(/[{|"](.*?)[}|"]+/gi);
 
 	let i = 0;
 
-	return destination.replace(/[{|"](.*?)[}|"]/gi, () => {
+	return destination.replace(/[{|"](.*?)[}|"]+/gi, () => {
 		const result = originalVars?.[i] ?? '';
 		i++;
 		return result;

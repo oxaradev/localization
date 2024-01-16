@@ -30,7 +30,7 @@ network:
      Zprávy odeslané v {{{channel}}} budou sdíleny s jinými servery, ** Povolení komunikace bez námahy **. Můžete sdílet obrázky, GIF, odpověď, reagovat a komunikovat se zprávami, jak byste normálně. Nezapomeňte se vyhnout sdílení osobních informací (zkontrolujte </pravidla: 924659340898619395> pro více). Jste připraveni skočit? Zašlete svou první zprávu a připojte se k konverzaci!
   nsfw:
     title: Detekována NSFW
-    description: 'Detekoval jsem ve vaší zprávě obsah {{predictions}}}} nsfw (ne bezpečný pro práci). Uvědomte si, že je to proti našim </ludving: 924659340898619395> a bude mít za následek okamžité černé listiny.'
+    description: 'Detekoval jsem ve vaší zprávě obsah {{predictions}} nsfw (ne bezpečný pro práci). Uvědomte si, že je to proti našim </ludving: 924659340898619395> a bude mít za následek okamžité černé listiny.'
     footer: Uvědomte si, že AI není dokonalá a může dělat chyby. Omlouváme se za způsobené nepříjemnosti.
   onboarding:
     embed:
@@ -297,7 +297,7 @@ hub:
         label: Změnit banner
         description: Změňte banner tohoto rozbočovače.
     visibility:
-      success: '{{{emoji}}} viditelnost Hub se úspěšně změnila na ** {{{visibility}} **.'
+      success: '{{{emoji}}} viditelnost Hub se úspěšně změnila na ** {{{visibility}}} **.'
       selects:
         label: Změnit viditelnost
         description: Zveřejnit tento rozbočovač nebo soukromý.

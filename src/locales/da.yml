@@ -97,7 +97,7 @@ msgInfo:
        __ {{{hub}}} __ 
 
        ** Besked oprettet: ** 
-       <t: {{{createdAt}}: r>
+       <t: {{{createdAt}}}: r>
   server:
     description: |-
       ## {{{server}}} 

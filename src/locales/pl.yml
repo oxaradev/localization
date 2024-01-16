@@ -126,7 +126,7 @@ msgInfo:
        <t: {{createdAt}}: d> (<t: {{createdAt}}: r>) 
 
        **Wyświetlana nazwa:** 
-       __ {{{globalName}} __ __ 
+       __ {{{globalName}}} __ __ 
 
        ** Huby posiadane: ** 
        __ {{hubsOwned}} __

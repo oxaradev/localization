@@ -22,8 +22,8 @@ vote: |-
    Mes labai vertiname jūsų nenutrūkstamą palaikymą. Ačiū! 🙏
 network:
   accountTooNew: '<: Nr.: 977600033740431410> {{{user}}} Jūsų paskyra yra per daug nauja, kad galėtumėte siųsti pranešimus „Interchat“. Pabandykite dar kartą vėliau.'
-  deleteSuccess: '{{{emoji}}} {{{user}}}} pranešimas buvo ištrintas iš __ ** {{deleted}}/{{total}} ** __ serveriai.'
-  editSuccess: '{{{emoji}}} {{{user}}}} pranešimas buvo redaguotas __ ** {{edited}}/{{total}} ** __ serveriuose.'
+  deleteSuccess: '{{{emoji}}} {{{user}}} pranešimas buvo ištrintas iš __ ** {{deleted}}/{{total}} ** __ serveriai.'
+  editSuccess: '{{{emoji}}} {{{user}}} pranešimas buvo redaguotas __ ** {{edited}}/{{total}} ** __ serveriuose.'
   welcome: |-
     {{{user}}} Sveiki atvykę į ** {{hub}} **! <A: banga: 1185520281134055446> 
 
@@ -100,7 +100,7 @@ msgInfo:
        <t: {{{createdAt}}}: r>
   server:
     description: |-
-      ## {{{server}}}} 
+      ## {{{server}}} 
        {{{description}}} 
 
        ** Savininkas: ** 
@@ -176,8 +176,8 @@ hub:
     noConnections: '<: Nr.: 977600033740431410> dar serveris dar neprisijungė prie šio centro. Norėdami prisijungti prie šio centro, naudokite „/stebulės prisijungimą“.'
     notConnected: '<: Ne: 977600033740431410> tas serveris nėra ** {{hub}} ** dalis.'
     connectionInfo: |-
-      Kanalas: #{{{channelName}}}} `({{channelId}})` ` 
-       Sujungtas: {{{joinedAt}}}} 
+      Kanalas: #{{{channelName}}} `({{channelId}})` ` 
+       Sujungtas: {{{joinedAt}}} 
        Pakviesti: {{{invite}}} 
        Prijungtas: {{connected}}
   create:
@@ -233,7 +233,7 @@ hub:
 
          Jūsų kvietimas buvo sėkmingai sukurtas. Kiti dabar gali prisijungti prie šio centro naudodami komandą „/stebulės prisijungimas“. 
 
-         - ** Prisijunkite naudojant: ** `/Hub Prisijunkite kviečia: {{inviteCode}}}` 
+         - ** Prisijunkite naudojant: ** `/Hub Prisijunkite kviečia: {{inviteCode}}` 
          - ** Žiūrėti kvietimus: ** `/HUB kvietimų sąrašas“ 
          - ** galiojimo laikas: ** {{{expiry}}} 
          - ** naudoja **: ∞ 
@@ -303,9 +303,9 @@ hub:
         description: Padarykite šį centrą viešą ar privatų.
     logs:
       title: Konfigūruokite žurnalus
-      reset: '{{{emoji}}} sėkmingai iš naujo nustatykite „{{{type}}}}} žurnalų konfigūraciją.'
-      roleSuccess: '{{{emoji}}} {{{type}}}}} žurnalai dabar paminė {{{role}}}!'
-      channelSuccess: '{{{emoji}}} {{{type}}}}} žurnalai bus išsiųsti į {{{channel}}} nuo šiol!'
+      reset: '{{{emoji}}} sėkmingai iš naujo nustatykite „{{{type}}} žurnalų konfigūraciją.'
+      roleSuccess: '{{{emoji}}} {{{type}}} žurnalai dabar paminė {{{role}}}!'
+      channelSuccess: '{{{emoji}}} {{{type}}} žurnalai bus išsiųsti į {{{channel}}} nuo šiol!'
       channelSelect: '#️⃣ Pasirinkite žurnalo tipą, kurį norite sukonfigūruoti.'
       roleSelect: 🏓 Pasirinkite vaidmenį paminėti, kai suaktyvinamas žurnalas.
       reportChannelFirst: '<: Ne: 977600033740431410> Pirmiausia nustatykite žurnalo kanalą.'

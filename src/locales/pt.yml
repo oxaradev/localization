@@ -113,7 +113,7 @@ msgInfo:
        __{{createdAt}}__ 
 
        **Convidar:** 
-       __{{createdAt}}}__
+       __{{createdAt}}__
   user:
     description: |-
       ## {{{username}}} 
@@ -126,7 +126,7 @@ msgInfo:
        er 
 
        **Nome de exibição:** 
-       __ {{createdAt}}} __ 
+       __ {{createdAt}} __ 
 
        ** Hubs de propriedade: ** 
        __ {{createdAt}} __

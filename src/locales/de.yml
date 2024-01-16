@@ -231,9 +231,9 @@ hub:
       success: |-
         ### Einladung erstellt! 
 
-         Ihre Einladung wurde erfolgreich erstellt. Andere können sich jetzt mit dem Befehl {{inviteCode} an diesem Hub beitreten. 
+         Ihre Einladung wurde erfolgreich erstellt. Andere können sich jetzt mit dem Befehl {{inviteCode}} an diesem Hub beitreten. 
 
-         - ** Join mit: ** `/Hub Join Einladung: {{{expiry}}` 
+         - ** Join mit: ** `/Hub Join Einladung: {{{expiry}}}` 
          - ** Ansicht Einladungen: ** `/HUB einladen list`` 
          - ** Ablauf: ** }} 
          - ** verwendet **: ∞ 

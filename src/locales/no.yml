@@ -177,7 +177,7 @@ hub:
     notConnected: '<: Nei: 977600033740431410> Den serveren er ikke en del av ** {{hub}} **.'
     connectionInfo: |-
       Kanal: #{{{channelName}}} `({{channelId}})` 
-       Slått seg sammen på: {{{joinedAt}}}}}}}}} 
+       Slått seg sammen på: {{{joinedAt}}} 
        Inviter: {{{invite}}} 
        Tilkoblet: {{connected}}
   create:

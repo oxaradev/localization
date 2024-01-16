@@ -73,7 +73,7 @@ blacklist:
       ** ServerId: ** {{serverId}} 
        ** Moderatore: ** {{moderator}} 
        ** Motivo: ** {{{reason}}} 
-       ** scade: ** {{{expires}}
+       ** scade: ** {{{expires}}}
 msgInfo:
   buttons:
     message: Informazioni sul messaggio
@@ -136,7 +136,7 @@ msgInfo:
 invite: |-
   Grazie per aver scelto di invitare Interchat. Basta fare clic sul pulsante in basso per invitarmi! 
 
-   - ** Server di supporto: ** {{{support}}
+   - ** Server di supporto: ** {{{support}}}
 connection:
   notFound: '<: NO: 977600033740431410> Connessione non valida. Verificare l''ID canale o selezionare dalle opzioni visualizzate.'
   channelNotFound: '<: NO: 977600033740431410> Impossibile trovare il canale connesso. Per parlare di nuovo scegli un nuovo canale.'

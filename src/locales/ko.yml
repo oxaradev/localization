@@ -73,7 +73,7 @@ blacklist:
       ** serverID : ** {{serverId}} 
        ** 중재자 : ** {{moderator}} 
        ** 이유 : ** {{{reason}}} 
-       ** 만료 : ** {{{expires}}}}
+       ** 만료 : ** {{{expires}}}
 msgInfo:
   buttons:
     message: 메시지 정보
@@ -166,11 +166,11 @@ connection:
 hub:
   notFound: '<: 아니오 : 977600033740431410> 허브를 찾을 수 없습니다. 올바른 허브 이름을 입력했는지 확인하십시오.'
   notFound_mod: '<: 아니오 : 977600033740431410> 허브를 찾을 수 없습니다. 올바른 허브 이름을 입력하고 허브의 소유자 또는 중재자인지 확인하십시오.'
-  alreadyJoined: '<: 아니오 : 977600033740431410> {{hub}}}에서 이미 ** {{{channel}} **에 합류했습니다!'
+  alreadyJoined: '<: 아니오 : 977600033740431410> {{hub}}에서 이미 ** {{{channel}}} **에 합류했습니다!'
   invalidChannel: '<: 아니오 : 977600033740431410> 잘못된 채널. 텍스트 및 스레드 채널 만 지원됩니다!'
   invalidImgurUrl: '<: 아니오 : 977600033740431410> 아이콘 또는 배너의 잘못된 이미지 URL. 갤러리 나 앨범이 아닌 유효한 Imgur 이미지 URL을 입력했는지 확인하십시오.'
   join:
-    success: '{{hub}}}에서 Hub ** {{{channel}} **에 성공적으로 합류했습니다! `/connection ''을 사용하여 연결을 관리하십시오. 그리고`/허브가 허브를 떠나기 위해.'
+    success: '{{hub}}에서 Hub ** {{{channel}}} **에 성공적으로 합류했습니다! `/connection ''을 사용하여 연결을 관리하십시오. 그리고`/허브가 허브를 떠나기 위해.'
   servers:
     total: '현재 연결된 서버 : {{from}}-{{to}} / ** {{total}} **'
     noConnections: '<: 아니오 : 977600033740431410> 서버는 아직이 허브에 가입하지 않았습니다. `/hub join`을 사용 하여이 허브에 가입하십시오.'
@@ -218,7 +218,7 @@ hub:
     cancelled: '{{{emoji}}} 허브 삭제가 취소되었습니다.'
   browse:
     joinConfirm: |-
-      {{hub}}}에서 {{{channel}}에 가입 하시겠습니까? 
+      {{hub}}에서 {{{channel}}}에 가입 하시겠습니까? 
           
        ** 참고 : **`/connection '을 사용하여 나중에 항상 변경할 수 있습니다.
     joinFooter: 다른 채널을 사용하고 싶습니까? 아래의 드롭 다운을 사용하십시오.
@@ -235,7 +235,7 @@ hub:
 
          - ** 조인 
          - ** 초대보기 : **/허브 초대 목록 ' 
-         - ** 만료 : ** {{inviteCode}}} 
+         - ** 만료 : ** {{inviteCode}} 
          - ** 사용 ** : ∞ 
 
          __ [Guide] (https://discord-nterchat.github.io/docs)에서 허브에 대해 더 많이 설명하십시오.
@@ -251,9 +251,9 @@ hub:
     joinedHubs: 이 서버는 ** {{total}} ** 허브의 일부입니다. 허브를 떠나려면`/Hub Leave`를 사용하십시오.
   leave:
     noHub: '<: 아니오 : 977600033740431410> 해당 채널은 유효하지 않거나 허브에 가입하지 않았습니다.'
-    confirm: '{{hub}}}에서 ** {{{channel}} **를 떠나고 싶습니까? 이 허브에서 더 이상 메시지 가이 서버로 전송되지 않습니다.'
+    confirm: '{{hub}}에서 ** {{{channel}}} **를 떠나고 싶습니까? 이 허브에서 더 이상 메시지 가이 서버로 전송되지 않습니다.'
     confirmFooter: 10 초 이내에 아래 버튼을 사용하여 확인하십시오.
-    success: '{{{emoji}}}}은 {{{channel}}}에서 허브를 남겼습니다. 이 허브에서 더 이상 메시지 가이 서버로 전송되지 않습니다. `/hub join ''을 사용하여 다시 합류 할 수 있습니다.'
+    success: '{{{emoji}}}은 {{{channel}}}에서 허브를 남겼습니다. 이 허브에서 더 이상 메시지 가이 서버로 전송되지 않습니다. `/hub join ''을 사용하여 다시 합류 할 수 있습니다.'
   moderator:
     noModerators: '<: 아니오 : 977600033740431410>이 허브에는 아직 중재자가 없습니다. `/hub moderator add`를 사용하여 하나를 추가하십시오.'
     add:
@@ -297,7 +297,7 @@ hub:
         label: 배너를 변경하십시오
         description: 이 허브의 배너를 변경하십시오.
     visibility:
-      success: '{{{emoji}}} 허브 가시성은 ** {{{visibility}} **로 성공적으로 변경되었습니다.'
+      success: '{{{emoji}}} 허브 가시성은 ** {{{visibility}}} **로 성공적으로 변경되었습니다.'
       selects:
         label: 가시성 변경
         description: 이 허브를 공개 또는 개인으로 만드십시오.
@@ -355,7 +355,7 @@ report:
 
      ** 네트워크 내에서 서버 ID를 찾으려면 : ** 
      {{{dot}}} 해당 서버에서 보낸 메시지를 마우스 오른쪽 버튼으로 클릭하고`apps> 메시지 정보/보고서 '를 선택하십시오. ID를 다시 확인하고 다시 시도하십시오.
-  submitted: 제출 된 보고서. ** [support server] ({{{support_invite}}) **에 가입하여 보고서에서 업데이트를 받으십시오.
+  submitted: 제출 된 보고서. ** [support server] ({{{support_invite}}}) **에 가입하여 보고서에서 업데이트를 받으십시오.
   bug:
     title: 버그 보고서
     affected: 영향을받는 구성 요소

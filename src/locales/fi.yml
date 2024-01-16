@@ -177,7 +177,7 @@ hub:
     notConnected: '<: No: 977600033740431410>, että palvelin ei ole osa ** {{hub}} **.'
     connectionInfo: |-
       Kanava: #{{{channelName}}} `({{channelId}})` ` 
-       Liittynyt: {{{joinedAt}}}} 
+       Liittynyt: {{{joinedAt}}} 
        Kutsu: {{{invite}}} 
        Kytketty: {{connected}}
   create:

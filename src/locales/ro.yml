@@ -179,7 +179,7 @@ hub:
       Channel: #{{{channelName}}} `({{channelId}})` 
        A fost alăturat la 
        Invitați: {{{joinedAt}}} 
-       Conectat: {{{invite}}
+       Conectat: {{{invite}}}
   create:
     modal:
       title: Creați hub

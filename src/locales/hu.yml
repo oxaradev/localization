@@ -21,7 +21,7 @@ vote: |-
 
    Mélyen értékeljük a megrázkódtathatatlan támogatását. Köszönöm! 🙏
 network:
-  accountTooNew: '<: szám: 977600033740431410> {{{user}}}} A fiókja túl új ahhoz, hogy üzeneteket küldjön az InterChat -ban. Kérlek, próbáld újra később.'
+  accountTooNew: '<: szám: 977600033740431410> {{{user}}} A fiókja túl új ahhoz, hogy üzeneteket küldjön az InterChat -ban. Kérlek, próbáld újra később.'
   deleteSuccess: '{{{emoji}}} A {{{user}}} üzenetet törölték a __ ** {{deleted}}/{{total}} ** __ szerverekről.'
   editSuccess: '{{{emoji}}} A {{{user}}} üzenetet __ ** {{edited}}/{{total}} ** __ szerverek szerkesztik.'
   welcome: |-
@@ -30,7 +30,7 @@ network:
      A {{{channel}}} -ben elküldött üzeneteket megosztják más szerverekkel, ** Az erőfeszítés nélküli kommunikáció engedélyezése **. Megoszthat képeket, GIF -eket, válaszolhat, reagálhat és kölcsönhatásba léphet az üzenetekkel, ahogyan általában. Ne felejtse el elkerülni a személyes adatok megosztását (csekk </szabályok: 924659340898619395> További információk). Készen áll a beugrásra? Küldje el első üzenetét, és csatlakozzon a beszélgetéshez!
   nsfw:
     title: NSFW észlelt
-    description: 'Az üzenetben felismertem a {{predictions}}} NSFW (nem biztonságos a munkához) tartalmat. Felhívjuk figyelmét, hogy ez ellentétes a </szabályok: 924659340898619395>, és azonnali feketelistát eredményez.'
+    description: 'Az üzenetben felismertem a {{predictions}} NSFW (nem biztonságos a munkához) tartalmat. Felhívjuk figyelmét, hogy ez ellentétes a </szabályok: 924659340898619395>, és azonnali feketelistát eredményez.'
     footer: Kérjük, vegye figyelembe, hogy az AI nem tökéletes, és hibázhat. Elnézést kérünk a kellemetlenségért.
   onboarding:
     embed:

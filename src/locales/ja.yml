@@ -22,8 +22,8 @@ vote: |-
    揺るぎないサポートに深く感謝します。 ありがとう！ 🙏
 network:
   accountTooNew: <：いいえ：977600033740431410> {{{user}}}アカウントは、Interchatでメッセージを送信するには新しいものです。 後でもう一度やり直してください。
-  deleteSuccess: '{{{emoji}}} {{{user}}}}}メッセージは、__ ** {{deleted}}/{{total}} ** __サーバーから削除されました。'
-  editSuccess: '{{{emoji}}}} {{{user}}}}}}}}}}は、__ ** {{edited}}/{{total}} ** __サーバーで編集されています。'
+  deleteSuccess: '{{{emoji}}} {{{user}}}メッセージは、__ ** {{deleted}}/{{total}} ** __サーバーから削除されました。'
+  editSuccess: '{{{emoji}}} {{{user}}}は、__ ** {{edited}}/{{total}} ** __サーバーで編集されています。'
   welcome: |-
     {{{user}}} ** {{hub}} **へようこそ！ <a：wave：1185520281134055446> 
 
@@ -166,11 +166,11 @@ connection:
 hub:
   notFound: <：いいえ：977600033740431410>ハブを見つけることができません。 正しいハブ名を入力したことを確認してください。
   notFound_mod: <：いいえ：977600033740431410>ハブを見つけることができません。 正しいハブ名を入力したことを確認し、あなたがハブの所有者またはモデレーターであることを確認してください。
-  alreadyJoined: <：no：977600033740431410>すでに参加している** {{hub}} ** {{{channel}}}}！
+  alreadyJoined: <：no：977600033740431410>すでに参加している** {{hub}} ** {{{channel}}}！
   invalidChannel: <：いいえ：977600033740431410>無効なチャネル。 テキストとスレッドチャネルのみがサポートされています！
   invalidImgurUrl: <：いいえ：977600033740431410>アイコンまたはバナーの無効な画像URL。 ギャラリーやアルバムではない有効なimgur画像URLを入力したことを確認してください。
   join:
-    success: Hub ** {{hub}} ** {{{channel}}}}から成功しました！ `/connection`を使用して接続を管理します。 「/hub leave」ハブを離れます。
+    success: Hub ** {{hub}} ** {{{channel}}}から成功しました！ `/connection`を使用して接続を管理します。 「/hub leave」ハブを離れます。
   servers:
     total: 現在の接続サーバー：{{from}}  -  {{to}} / ** {{total}} **
     noConnections: <：いいえ：977600033740431410>このハブにまだ参加するサーバーはありません。 `/hub join`を使用して、このハブに参加します。
@@ -233,7 +233,7 @@ hub:
 
          あなたの招待は正常に作成されました。 他の人は、 `/hub join`コマンドを使用してこのハブに参加できます。 
 
-          -  **使用：** `/hub ingivite：{{inviteCode}}}` 
+          -  **使用：** `/hub ingivite：{{inviteCode}}` 
           -  **招待状：** `/hub招待リスト` 
           -  ** expiry：** {{{expiry}}} 
           -  **使用**：∞ 
@@ -251,9 +251,9 @@ hub:
     joinedHubs: このサーバーは、** {{total}} ** hub（s）の一部です。 `/hub leave`を使用して、ハブを残します。
   leave:
     noHub: <：いいえ：977600033740431410>そのチャネルが無効であるか、ハブに参加していないか。
-    confirm: '{{hub}}}から** {{{channel}} **を残したいですか？ このハブからこのサーバーにこれ以上のメッセージは送信されません。'
+    confirm: '{{hub}}から** {{{channel}}} **を残したいですか？ このハブからこのサーバーにこれ以上のメッセージは送信されません。'
     confirmFooter: 10秒以内に下のボタンを使用して確認します。
-    success: '{{{emoji}}}} {{{channel}}}からハブを残しました。 このハブからこのサーバーにこれ以上のメッセージは送信されません。 `/hub join`を使用して再生できます。'
+    success: '{{{emoji}}} {{{channel}}}からハブを残しました。 このハブからこのサーバーにこれ以上のメッセージは送信されません。 `/hub join`を使用して再生できます。'
   moderator:
     noModerators: <：いいえ：977600033740431410>このハブにはまだモデレーターがありません。 `/hub moderator add`を使用して追加します。
     add:
@@ -303,8 +303,8 @@ hub:
         description: このハブをパブリックまたはプライベートにします。
     logs:
       title: ログを構成します
-      reset: '{{{emoji}}}} `{{{type}}}}` logsのログ構成を正常にリセットします。'
-      roleSuccess: '{{{emoji}}} type `{{{type}}}のログは、{{{role}}}}}}を参照します！'
+      reset: '{{{emoji}}} `{{{type}}}` logsのログ構成を正常にリセットします。'
+      roleSuccess: '{{{emoji}}} type `{{{type}}}のログは、{{{role}}}を参照します！'
       channelSuccess: '{{{emoji}}} type `{{{type}}}のログは、今から{{{channel}}}に送信されます！'
       channelSelect: ＃÷configtedを構成するログのタイプを選択します。
       roleSelect: logログがトリガーされたときに言及する役割を選択します。
