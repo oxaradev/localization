@@ -9,7 +9,7 @@ rules: |-
    6. **Szanuj wrażliwe tematy:** Nie trywializuj samookaleczenie, samobójstwo, przemoc lub inne ofensywne tematy. 
    7. **Raport obawy:** Jeśli zaobserwujesz naruszenie tych zasad, zgłoś je odpowiednim moderatorowi lub personelowi wymiany w celu uzyskania dalszych działań. 
 
-   Jakieś pytania? Dołącz do naszego [serwer obsługi] ({{{support_invite}}}).
+   Jakieś pytania? Dołącz do naszego [serwer obsługi]({{{support_invite}}}).
 vote: |-
   ## 🗳️ Głosuj na InterChat i ciesz się ekskluzywnymi korzyściami 
    Twój wkład jest nieoceniony w podnoszeniu pozycji InterChata na TOP.G. Każdy głos ma znaczącą różnicę! 
@@ -38,7 +38,7 @@ network:
       description: |-
         Aby zachować uporządkowanie, zaleca się użycie osobnego kanału dla tego centrum. Ale nie martw się, zawsze możesz to zmienić później. 
 
-         **Jak to działa:** Sieć InterChat jest jak magiczny most, który łączy kanały na różnych serwerach, które są z nami w tym hubie. Dowiedz się więcej w naszym [przewodniu] ({{{docs_link}}}).
+         **Jak to działa:** Sieć InterChat jest jak magiczny most, który łączy kanały na różnych serwerach, które są z nami w tym hubie. Dowiedz się więcej w naszym [przewodniu]({{{docs_link}}}).
       footer: Sieć InterChat | Version {{version}}
     inProgress: Próbowano już dołączyć do piasty z {{{channel}}}. Anuluj lub poczekaj, aż go zakończy.
 blacklist:
@@ -210,7 +210,7 @@ hub:
        - **Edytuj Hub:** `/Hub Manage` 
        - **Dodaj moderatory:** `/Hub Moderator Add` 
 
-       Dowiedz się więcej o koncentratach w naszym [przewodniku] ({{{docs_link}}}). Dołącz do [Server Support] ({{{support_invite}}}), aby uzyskać pomoc.
+       Dowiedz się więcej o koncentratach w naszym [przewodniku]({{{docs_link}}}). Dołącz do [Server Support]({{{support_invite}}}), aby uzyskać pomoc.
   delete:
     confirm: Czy na pewno chcesz usunąć **{{hub}}**? Ta akcja jest nieodwracalna. Wszystkie podłączone serwery, zaproszenia i dane wiadomości zostaną usunięte z tego piasty.
     ownerOnly: '{{{emoji}}} Tylko właściciel tego piasty może go usunąć.'
@@ -238,7 +238,7 @@ hub:
          - **Extiry:** {{{expiry}}} 
          - **używa**: ∞ 
 
-         __Przyłóż więcej o piastach w naszym [przewodniku] ({{{docs_link}}}) .__.
+         __Przyłóż więcej o piastach w naszym [przewodniku]({{{docs_link}}}) .__.
     revoke:
       invalidCode: '{{{emoji}} Nieprawidłowy kod zaproszenia. Upewnij się, że wprowadziłeś prawidłowy kod zaproszenia.'
       success: '{{{emoji}}} zapraszaj {{inviteCode}} cofnięte.'
@@ -355,7 +355,7 @@ report:
 
      **Aby znaleźć identyfikator serwera w sieci:** 
      {{{dot}}} Kliknij prawym przyciskiem myszy wiadomość wysłaną przez omawiany serwer i wybierz „Apps> Informacje o wiadomości/raport”. Proszę dokładnie sprawdzić identyfikator i spróbuj ponownie.
-  submitted: Zgłoszony raport. Dołącz do **[Server wsparcia] ({{{support_invite}}})**, aby uzyskać aktualizacje w raporcie.
+  submitted: Zgłoszony raport. Dołącz do **[Server wsparcia]({{{support_invite}}})**, aby uzyskać aktualizacje w raporcie.
   bug:
     title: Zgłoszenie błędu
     affected: Dotknięte komponenty
@@ -368,13 +368,13 @@ errors:
   notYourAction: '{{{emoji}}} Przepraszam, nie możesz wykonać tej akcji. Proszę, uruchom polecenie sam.'
   notMessageAuthor: '{{{emoji}}} nie jesteś autorem tej wiadomości.'
   commandError: |-
-    {{{emoji}}} Wystąpił błąd podczas wykonywania tego polecenia. Został zalogowany do naszego systemu. Jeśli ten problem będzie się utrzymywał, dołącz do naszego [Server wsparcia] ({{{support_invite}}}) i zgłoś go! 
+    {{{emoji}}} Wystąpił błąd podczas wykonywania tego polecenia. Został zalogowany do naszego systemu. Jeśli ten problem będzie się utrzymywał, dołącz do naszego [Server wsparcia]({{{support_invite}}}) i zgłoś go! 
      `` JS 
      {{{error}}} 
      `` `
-  mustVote: Proszę [głosuj] (https://top.gg/bot/769921109209907241/vote), aby używać tego polecenia, twoje wsparcie jest bardzo mile widziane!
+  mustVote: Proszę [głosuj](https://top.gg/bot/769921109209907241/vote), aby używać tego polecenia, twoje wsparcie jest bardzo mile widziane!
   inviteLinks: '{{{emoji}}} nie reklamuj ani promuj serwerów w sieci. Zamiast tego ustaw zaproszenie w `/Connection`!'
-  invalidLangCode: '{{{emoji}}} nieprawidłowy kod językowy. Upewnij się, że wprowadziłeś prawidłowy [kod językowy] (https://cloud.google.com/translate/docs/languages).'
+  invalidLangCode: '{{{emoji}}} nieprawidłowy kod językowy. Upewnij się, że wprowadziłeś prawidłowy [kod językowy](https://cloud.google.com/translate/docs/languages).'
   unknownServer: '{{{emoji}}} nieznany serwer. Upewnij się, że wprowadziłeś prawidłowy identyfikator serwera.'
   unknownNetworkMessage: '{{{emoji}}} nieznana wiadomość. Jeśli został wysłany w ostatniej chwili, poczekaj jeszcze kilka sekund i spróbuj ponownie.'
   userNotFound: '{{{emoji}}} nie znaleziono użytkownika. Zamiast tego spróbuj wprowadzić ich identyfikator.'
@@ -385,7 +385,7 @@ errors:
   userNotBlacklisted: '{{{emoji}}} Użytkownik wprowadzony nie jest na czarnej liście.'
   missingPermissions: '{{{emoji}}} brakuje Ci następujących uprawnień, aby wykonać to działanie: **{{{permissions}}}**'
   botMissingPermissions: '{{{emoji}}} daj mi następujące uprawnienia, aby kontynuować: **{{{permissions}}}**'
-  unknown: '{{{emoji}}} wystąpił nieznany błąd. Spróbuj ponownie później lub skontaktuj się z nami, dołączając do naszego [serwer wsparcia] ({{{support_invite}}}).'
+  unknown: '{{{emoji}}} wystąpił nieznany błąd. Spróbuj ponownie później lub skontaktuj się z nami, dołączając do naszego [serwer wsparcia]({{{support_invite}}}).'
   notUsable: '{{{emoji}}} To nie jest już użyteczne.'
   cooldown: '{{{emoji}}} jesteś na odnowie. Poczekaj **{{{time}}}** Przed próbą ponownie.'
 misc:

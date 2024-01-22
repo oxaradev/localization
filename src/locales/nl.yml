@@ -9,7 +9,7 @@ rules: |-
    6. **Respecteer gevoelige onderwerpen:** Trivialiseer geen zelfbeschadiging, zelfmoord, geweld of andere aanstootgevende onderwerpen. 
    7. **Meld zorgen:** Als u een schending van deze regels waarneemt, meld dit dan aan de juiste Hub Moderator of InterChat -medewerkers voor verdere actie. 
 
-   Nog vragen? Word lid van onze [Support Server] ({{{support_invite}}}).
+   Nog vragen? Word lid van onze [Support Server]({{{support_invite}}}).
 vote: |-
   ## 🗳️ Stem op InterChat en geniet van exclusieve voordelen 
    Uw bijdrage is van onschatbare waarde bij het verhogen van de positie van InterChat bovenaan. GG. Elke stemming maakt een aanzienlijk verschil! 
@@ -38,7 +38,7 @@ network:
       description: |-
         Om dingen georganiseerd te houden, wordt het aanbevolen om een apart kanaal te gebruiken voor alleen deze hub. Maar maak je geen zorgen, je kunt dit altijd later veranderen. 
 
-         **Hoe het werkt:** Het InterChat -netwerk is als een magische brug die kanalen verbindt op verschillende servers die bij ons in deze hub zijn. Meer informatie op onze [gids] ({{{docs_link}}}).
+         **Hoe het werkt:** Het InterChat -netwerk is als een magische brug die kanalen verbindt op verschillende servers die bij ons in deze hub zijn. Meer informatie op onze [gids]({{{docs_link}}}).
       footer: InterChat Network | Version {{version}}
     inProgress: Er is al een poging geweest om deel te nemen aan een hub van {{{channel}}}. Annuleer het of wacht tot het is voltooid.
 blacklist:
@@ -210,7 +210,7 @@ hub:
        - **Hub bewerken:** `/hub management` 
        - **Moderators toevoegen:** `/HUB Moderator Add` 
 
-       Meer informatie over hubs in onze [gids] ({{{docs_link}}}). Word lid van de [Support Server] ({{{support_invite}}}) voor hulp.
+       Meer informatie over hubs in onze [gids]({{{docs_link}}}). Word lid van de [Support Server]({{{support_invite}}}) voor hulp.
   delete:
     confirm: Weet u zeker dat u **{{hub}}** wilt verwijderen? Deze actie is onomkeerbaar. Alle verbonden servers, uitnodigingen en berichtengegevens worden uit deze hub verwijderd.
     ownerOnly: '{{{emoji}}} Alleen de eigenaar van deze hub kan deze verwijderen.'
@@ -238,7 +238,7 @@ hub:
          - **EXPIRY:** {{{expiry}}} 
          - **gebruikt**: ∞ 
 
-         __Learn Meer over hubs in onze [gids] ({{{docs_link}}}) .__.
+         __Learn Meer over hubs in onze [gids]({{{docs_link}}}) .__.
     revoke:
       invalidCode: '{{{emoji}} Ongeldige uitnodigingcode. Zorg ervoor dat u een geldige uitnodigingscode hebt ingevoerd.'
       success: '{{{emoji}}} uitnodiging {{inviteCode}} ingetrokken.'
@@ -355,7 +355,7 @@ report:
 
      **Om een server -ID in het netwerk te vinden:** 
      {{{dot}}} Klik met de rechtermuisknop op een bericht dat door de betreffende server is verzonden en selecteer `Apps> Berichtinfo/rapport`. Controleer de ID dubbel en probeer het opnieuw.
-  submitted: Ingediend rapport. Word lid van de **[Support Server] ({{{support_invite}}})** Om updates over uw rapport te krijgen.
+  submitted: Ingediend rapport. Word lid van de **[Support Server]({{{support_invite}}})** Om updates over uw rapport te krijgen.
   bug:
     title: Bug report
     affected: Aangetaste componenten
@@ -368,11 +368,11 @@ errors:
   notYourAction: '{{{emoji}}} Sorry, u kunt deze actie niet uitvoeren. Voer het commando zelf uit.'
   notMessageAuthor: '{{{emoji}}} U bent niet de auteur van dit bericht.'
   commandError: |-
-    {{{emoji}}} Er is een fout opgetreden tijdens het uitvoeren van deze opdracht. Het is vastgelegd op ons systeem. Als dit probleem aanhoudt, voegt u zich aan bij onze [Support Server] ({{{support_invite}}}) en rapporteer dit! 
+    {{{emoji}}} Er is een fout opgetreden tijdens het uitvoeren van deze opdracht. Het is vastgelegd op ons systeem. Als dit probleem aanhoudt, voegt u zich aan bij onze [Support Server]({{{support_invite}}}) en rapporteer dit! 
      `` `JS 
      {{{error}}} 
      `` `
-  mustVote: GELIEVE [stem] (https://top.gg/bot/769921109209907241/vote) Voor interchat om deze opdracht te gebruiken, wordt uw steun zeer op prijs gesteld!
+  mustVote: GELIEVE [stem](https://top.gg/bot/769921109209907241/vote) Voor interchat om deze opdracht te gebruiken, wordt uw steun zeer op prijs gesteld!
   inviteLinks: '{{{emoji}}} adverteren of promoten geen servers in het netwerk. Stel in plaats daarvan een uitnodiging in `/connection` in!'
   invalidLangCode: '{{{emoji}}} Ongeldige taalcode. Zorg ervoor dat u een correcte [taalcode] hebt ingevoerd (https://cloud.google.com/translate/docs/languages).'
   unknownServer: '{{{emoji}}} Onbekende server. Zorg ervoor dat u de juiste server -ID hebt ingevoerd.'
@@ -385,7 +385,7 @@ errors:
   userNotBlacklisted: '{{{emoji}}} De ingevoerde gebruiker staat niet op de zwarte lijst.'
   missingPermissions: '{{{emoji}}} U mist de volgende machtigingen om deze actie uit te voeren: **{{{permissions}}}**'
   botMissingPermissions: '{{{emoji}}} Geef me de volgende machtigingen om door te gaan: **{{{permissions}}}**'
-  unknown: '{{{emoji}}} Er is een onbekende fout opgetreden. Probeer het later opnieuw of neem contact met ons op door lid te worden van onze [Support Server] ({{{support_invite}}}).'
+  unknown: '{{{emoji}}} Er is een onbekende fout opgetreden. Probeer het later opnieuw of neem contact met ons op door lid te worden van onze [Support Server]({{{support_invite}}}).'
   notUsable: '{{{emoji}}} Dit is niet langer bruikbaar.'
   cooldown: '{{{emoji}}} U bent op cooldown. Wacht alstublieft **{{{time}}}** voordat u opnieuw probeert.'
 misc:

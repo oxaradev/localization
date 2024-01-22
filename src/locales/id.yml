@@ -38,7 +38,7 @@ network:
       description: |-
         Untuk menjaga hal -hal tetap terorganisir, disarankan untuk menggunakan saluran terpisah hanya untuk hub ini. Tapi jangan khawatir, Anda selalu bisa mengubah ini nanti. 
 
-         **Cara kerjanya:** Jaringan InterChat seperti jembatan ajaib yang menghubungkan saluran di berbagai server yang bersama kami di hub ini. Pelajari lebih lanjut di [panduan] kami] ({{{docs_link}}}).
+         **Cara kerjanya:** Jaringan InterChat seperti jembatan ajaib yang menghubungkan saluran di berbagai server yang bersama kami di hub ini. Pelajari lebih lanjut di [panduan] kami]({{{docs_link}}}).
       footer: Jaringan InterChat | Version {{version}}
     inProgress: Sudah ada upaya untuk bergabung dengan hub dari {{{channel}}}. Harap batal atau tunggu sampai selesai.
 blacklist:
@@ -210,7 +210,7 @@ hub:
        - **EDIT HUB:** `/hub kelola` 
        - **Tambahkan moderator:** `/hub moderator add` 
 
-       Pelajari lebih lanjut tentang hub di [panduan] kami ({{{docs_link}}}). Bergabunglah dengan [server dukungan] ({{{support_invite}}}) untuk bantuan.
+       Pelajari lebih lanjut tentang hub di [panduan] kami ({{{docs_link}}}). Bergabunglah dengan [server dukungan]({{{support_invite}}}) untuk bantuan.
   delete:
     confirm: Anda yakin ingin menghapus **{{hub}}**? Tindakan ini tidak dapat diubah. Semua server, undangan, dan data pesan yang terhubung akan dihapus dari hub ini.
     ownerOnly: '{{{emoji}}} Hanya pemilik hub ini yang dapat menghapusnya.'
@@ -355,7 +355,7 @@ report:
 
      **Untuk menemukan ID server dalam jaringan:** 
      {{{dot}}} Klik kanan pada pesan yang dikirim oleh server yang dimaksud dan pilih `Apps> Info Pesan/Laporan`. Harap periksa kembali ID dan coba lagi.
-  submitted: Laporan diajukan. Bergabunglah dengan **[Support Server] ({{{support_invite}}})** Untuk mendapatkan pembaruan pada laporan Anda.
+  submitted: Laporan diajukan. Bergabunglah dengan **[Support Server]({{{support_invite}}})** Untuk mendapatkan pembaruan pada laporan Anda.
   bug:
     title: Laporan Bug
     affected: Komponen yang terkena dampak
@@ -372,7 +372,7 @@ errors:
      `` `JS 
      {{{error}}} 
      `` `
-  mustVote: Silakan [VOTE] (https://top.gg/bot/769921109209907241/vote) untuk InterChat menggunakan perintah ini, dukungan Anda sangat dihargai!
+  mustVote: Silakan [VOTE](https://top.gg/bot/769921109209907241/vote) untuk InterChat menggunakan perintah ini, dukungan Anda sangat dihargai!
   inviteLinks: '{{{emoji}}} Jangan mengiklankan atau mempromosikan server di jaringan. Tetapkan undangan di `/koneksi` sebagai gantinya!'
   invalidLangCode: '{{{emoji}}} kode bahasa tidak valid. Pastikan Anda telah memasukkan [kode bahasa] yang benar (https://cloud.google.com/translate/docs/languages).'
   unknownServer: '{{{emoji}}} server yang tidak dikenal. Pastikan Anda telah memasukkan ID server yang benar.'

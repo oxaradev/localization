@@ -9,7 +9,7 @@ rules: |-
    6. **Respekt sensitive emner:** Ikke bagatelliserer selvskading, selvmord, vold eller andre støtende emner. 
    7. **Rapporter bekymringer:** Hvis du observerer et brudd på disse reglene, kan du rapportere det til passende HUB -moderator eller interchat -ansatte for videre handling. 
 
-   Noen spørsmål? Bli med på [Support Server] ({{{support_invite}}}).
+   Noen spørsmål? Bli med på [Support Server]({{{support_invite}}}).
 vote: |-
   ## 🗳 Stem på InterChat og nyt eksklusive fordeler 
    Ditt bidrag er uvurderlig i å heve InterChats posisjon på toppen.GG. Hver eneste avstemning gjør en betydelig forskjell! 
@@ -38,7 +38,7 @@ network:
       description: |-
         For å holde ting organisert, anbefales det å bruke en egen kanal for bare dette knutepunktet. Men ikke bekymre deg, du kan alltid endre dette senere. 
 
-         **Hvordan det fungerer:** InterChat -nettverket er som en magisk bro som kobler kanaler på forskjellige servere som er med oss i dette knutepunktet. Lær mer på vår [guide] ({{{docs_link}}}).
+         **Hvordan det fungerer:** InterChat -nettverket er som en magisk bro som kobler kanaler på forskjellige servere som er med oss i dette knutepunktet. Lær mer på vår [guide]({{{docs_link}}}).
       footer: InterChat Network | Version {{version}}
     inProgress: Det har allerede vært et forsøk på å bli med på et knutepunkt fra {{{channel}}}. Avbryt den eller vent til den skal fullføres.
 blacklist:
@@ -210,7 +210,7 @@ hub:
        - **Rediger HUB:** `/HUB Administrer` 
        - **Legg til moderatorer:** `/HUB Moderator Add` 
 
-       Lær mer om knutepunkter i vår [guide] ({{{docs_link}}}). Bli med på [Support Server] ({{{support_invite}}}) for hjelp.
+       Lær mer om knutepunkter i vår [guide]({{{docs_link}}}). Bli med på [Support Server]({{{support_invite}}}) for hjelp.
   delete:
     confirm: Er du sikker på at du ønsker å slette **{{hub}}**? Denne handlingen er irreversibel. Alle tilkoblede servere, invitasjoner og meldingsdata vil bli fjernet fra dette knutepunktet.
     ownerOnly: '{{{emoji}}} Bare eieren av dette knutepunktet kan slette det.'
@@ -238,7 +238,7 @@ hub:
          - **utløp:** {{{expiry}}} 
          - **bruker**: ∞ 
 
-         __Laarn mer om knutepunkter i vår [guide] ({{{docs_link}}}) .__.
+         __Laarn mer om knutepunkter i vår [guide]({{{docs_link}}}) .__.
     revoke:
       invalidCode: '{{{emoji}} ugyldig invitasjonskode. Forsikre deg om at du har lagt inn en gyldig invitasjonskode.'
       success: '{{{emoji}}} invitere {{inviteCode}} tilbakekalt.'
@@ -355,7 +355,7 @@ report:
 
      **For å finne en server -ID i nettverket:** 
      {{{dot}}} Høyreklikk på en melding sendt av den aktuelle serveren og velg `Apps> Message Info/Report`. Vennligst dobbeltsjekk IDen og prøv igjen.
-  submitted: Rapport sendt. Bli med på **[supportserver] ({{{support_invite}}})** for å få oppdateringer om rapporten.
+  submitted: Rapport sendt. Bli med på **[supportserver]({{{support_invite}}})** for å få oppdateringer om rapporten.
   bug:
     title: Feilrapport
     affected: Berørte komponenter
@@ -368,13 +368,13 @@ errors:
   notYourAction: '{{{emoji}}} Beklager, du kan ikke utføre denne handlingen. Vennligst kjør kommandoen selv.'
   notMessageAuthor: '{{{emoji}}} Du er ikke forfatteren av denne meldingen.'
   commandError: |-
-    {{{emoji}}} Det oppstod en feil under utførelsen av denne kommandoen. Det er logget til systemet vårt. Hvis dette problemet vedvarer, kan du bli med på [Support Server] ({{{support_invite}}}) og rapportere det! 
+    {{{emoji}}} Det oppstod en feil under utførelsen av denne kommandoen. Det er logget til systemet vårt. Hvis dette problemet vedvarer, kan du bli med på [Support Server]({{{support_invite}}}) og rapportere det! 
      `` JS 
      {{{error}}} 
      `` `
-  mustVote: Vennligst [stemme] (https://top.gg/bot/769921109209907241/vote) For at InterChat skal bruke denne kommandoen, er din støtte veldig verdsatt!
+  mustVote: Vennligst [stemme](https://top.gg/bot/769921109209907241/vote) For at InterChat skal bruke denne kommandoen, er din støtte veldig verdsatt!
   inviteLinks: '{{{emoji}}} Ikke annonser eller markedsfører servere i nettverket. Sett en invitasjon i `/Connection` i stedet!'
-  invalidLangCode: '{{{emoji}}} ugyldig språkkode. Forsikre deg om at du har lagt inn en riktig [språkkode] (https://cloud.google.com/translate/docs/languages).'
+  invalidLangCode: '{{{emoji}}} ugyldig språkkode. Forsikre deg om at du har lagt inn en riktig [språkkode](https://cloud.google.com/translate/docs/languages).'
   unknownServer: '{{{emoji}}} ukjent server. Forsikre deg om at du har lagt inn riktig server -ID.'
   unknownNetworkMessage: '{{{emoji}}} ukjent melding. Hvis det har blitt sendt i løpet av det siste minutt, kan du vente noen få sekunder til og prøv igjen.'
   userNotFound: '{{{emoji}}} bruker ikke funnet. Prøv å legge inn ID -en i stedet.'
@@ -385,7 +385,7 @@ errors:
   userNotBlacklisted: '{{{emoji}}} Den inngitte brukeren er ikke svartelistet.'
   missingPermissions: '{{{emoji}}} du mangler følgende tillatelser til å utføre denne handlingen: **{{{permissions}}}**'
   botMissingPermissions: '{{{emoji}}} Vennligst gi meg følgende tillatelser til å fortsette: **{{{permissions}}}**'
-  unknown: '{{{emoji}}} Det oppstod en ukjent feil. Prøv igjen senere eller kontakt oss ved å bli med på [supportserveren] ({{{support_invite}}}).'
+  unknown: '{{{emoji}}} Det oppstod en ukjent feil. Prøv igjen senere eller kontakt oss ved å bli med på [supportserveren]({{{support_invite}}}).'
   notUsable: '{{{emoji}}} Dette er ikke lenger brukbart.'
   cooldown: '{{{emoji}}} du er på cooldown. Vent **{{{time}}}** før du prøver igjen.'
 misc:

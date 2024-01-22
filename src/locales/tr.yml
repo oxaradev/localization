@@ -9,7 +9,7 @@ rules: |-
    6. **Hassas konulara saygı gösterin:** Kendine zarar, intihar, şiddet veya diğer saldırı konularını önemsizleştirmeyin. 
    7. **Rapor Endişeleri:** Bu kuralların ihlali gözlemliyorsanız, daha fazla eylem için uygun Hub Moderatörüne veya Motor Personeline bildirin. 
 
-   Sorusu olan? [Destek sunucumuz] ({{{support_invite}}}) katılın.
+   Sorusu olan? [Destek sunucumuz]({{{support_invite}}}) katılın.
 vote: |-
   ## 🗳️ İnterchat için oy verin ve özel avantajların tadını çıkarın 
    Katılımınız, InterChat'in TOP.GG. Her oy önemli bir fark yaratıyor! 
@@ -355,7 +355,7 @@ report:
 
      **Ağ içinde bir sunucu kimliği bulmak için:** 
      {{{dot}}} Söz konusu sunucu tarafından gönderilen bir mesajı sağ tıklayın ve `` Uygulamalar> Mesaj Bilgisi/Report '' seçin. Lütfen kimliği iki kez kontrol edin ve tekrar deneyin.
-  submitted: Rapor gönderildi. Raporunuzda güncellemeler almak için **[Destek Sunucusu] ({{{support_invite}}})** katılın.
+  submitted: Rapor gönderildi. Raporunuzda güncellemeler almak için **[Destek Sunucusu]({{{support_invite}}})** katılın.
   bug:
     title: Hata raporu
     affected: Etkilenen bileşenler
@@ -368,13 +368,13 @@ errors:
   notYourAction: '{{{emoji}}} Üzgünüm, bu eylemi gerçekleştiremezsiniz. Lütfen komutu kendiniz çalıştırın.'
   notMessageAuthor: '{{{emoji}}} Bu mesajın yazarı değilsiniz.'
   commandError: |-
-    {{{emoji}}} Bu komut yürütülürken bir hata oluştu. Sistemimize kaydedildi. Bu sorun devam ederse, lütfen [destek sunucumuza] ({{{support_invite}}}) katılın ve bildirin! 
+    {{{emoji}}} Bu komut yürütülürken bir hata oluştu. Sistemimize kaydedildi. Bu sorun devam ederse, lütfen [destek sunucumuza]({{{support_invite}}}) katılın ve bildirin! 
      `` JS 
      {{{error}}} 
      ``
-  mustVote: Lütfen [oy] (https://top.gg/bot/769921109209907241/vote) Bu komutu kullanması için interchat için desteğiniz çok takdir ediliyor!
+  mustVote: Lütfen [oy](https://top.gg/bot/769921109209907241/vote) Bu komutu kullanması için interchat için desteğiniz çok takdir ediliyor!
   inviteLinks: '{{{emoji}}} Ağdaki sunucuların reklamını yapmayın veya tanıtmayın. Bunun yerine `/bağlantı '''' da bir davet koyun!'
-  invalidLangCode: '{{{emoji}}} geçersiz dil kodu. Lütfen doğru bir [dil kodu] (https://cloud.google.com/translate/docs/languages) girdiğinizden emin olun.'
+  invalidLangCode: '{{{emoji}}} geçersiz dil kodu. Lütfen doğru bir [dil kodu](https://cloud.google.com/translate/docs/languages) girdiğinizden emin olun.'
   unknownServer: '{{{emoji}}} bilinmeyen sunucu. Lütfen doğru sunucu kimliğini girdiğinizden emin olun.'
   unknownNetworkMessage: '{{{emoji}}} bilinmeyen mesaj. Geçtiğimiz dakikada gönderildiyse, lütfen birkaç saniye daha bekleyin ve tekrar deneyin.'
   userNotFound: '{{{emoji}}} kullanıcı bulunamadı. Bunun yerine kimliklerini girmeyi deneyin.'
@@ -385,7 +385,7 @@ errors:
   userNotBlacklisted: '{{{emoji}}} Girilen kullanıcı kara listeye alınmamıştır.'
   missingPermissions: '{{{emoji}}} Bu eylemi gerçekleştirmek için aşağıdaki izinleri kaçırıyorsunuz: **{{{permissions}}}**'
   botMissingPermissions: '{{{emoji}}} Lütfen bana devam etmek için aşağıdaki izinleri verin: **{{{permissions}}}**'
-  unknown: '{{{emoji}}} Bilinmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyin veya [destek sunucumuza] ({{{support_invite}}}) katılarak bizimle iletişime geçin.'
+  unknown: '{{{emoji}}} Bilinmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyin veya [destek sunucumuza]({{{support_invite}}}) katılarak bizimle iletişime geçin.'
   notUsable: '{{{emoji}}} Bu artık kullanılamıyor.'
   cooldown: '{{{emoji}}} bekleme süredirdesiniz. Lütfen tekrar denemeden önce **{{{time}}}** bekleyin.'
 misc:

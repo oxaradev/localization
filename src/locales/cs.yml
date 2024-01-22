@@ -9,7 +9,7 @@ rules: |-
    6. **Respekt citlivá témata:** Neurivializujte sebepoškození, sebevraždu, násilí nebo jiná útočná témata. 
    7. **Zpráva obavy:** Pokud dodržujete porušení těchto pravidel, nahláste jej příslušného moderátora centra nebo zaměstnancům InterChat pro další kroky. 
 
-   Nějaké otázky? Připojte se k našemu [podpůrnému serveru] ({{{support_invite}}}).
+   Nějaké otázky? Připojte se k našemu [podpůrnému serveru]({{{support_invite}}}).
 vote: |-
   ## 🗳 Hlasujte pro InterChat a užijte si exkluzivní výhody 
    Váš příspěvek je neocenitelný při zvyšování pozice InterChatu nahoře.gg. Každý hlas je významný rozdíl! 
@@ -38,7 +38,7 @@ network:
       description: |-
         Aby se věci udržely organizované, doporučuje se použít samostatný kanál pro tento rozbočovač. Ale nebojte se, můžete to vždy změnit později. 
 
-         **Jak to funguje:** Síť InterChat je jako magický most, který propojuje kanály na různých serverech, které jsou s námi v tomto rozbočovači. Další informace naleznete na našem [průvodci] ({{{docs_link}}}).
+         **Jak to funguje:** Síť InterChat je jako magický most, který propojuje kanály na různých serverech, které jsou s námi v tomto rozbočovači. Další informace naleznete na našem [průvodci]({{{docs_link}}}).
       footer: InterChat síť | Version {{version}}
     inProgress: Již se pokusilo připojit se k rozbočovači z {{{channel}}}. Zrušte to prosím nebo počkejte, až to dokončí.
 blacklist:
@@ -210,7 +210,7 @@ hub:
        - **Upravit hub:** `/Hub Manage` 
        - **Přidat moderátory:** `/hub moderátor add` 
 
-       Další informace o Hubs v našem [průvodci] ({{{docs_link}}}). Připojte se k nápovědě [{{{support_invite}}}).
+       Další informace o Hubs v našem [průvodci]({{{docs_link}}}). Připojte se k nápovědě [{{{support_invite}}}).
   delete:
     confirm: Určitě si přejete smazat **{{hub}}**? Tato akce je nevratná. Z tohoto centra budou odstraněny všechny připojené servery, pozvánky a data zpráv.
     ownerOnly: '{{{emoji}}} Může jej odstranit pouze majitel tohoto rozbočovače.'
@@ -238,7 +238,7 @@ hub:
          - **vypršení:** {{{expiry}}} 
          - **Použití**: ∞ 
 
-         __Lerorn více o náboji v našem [průvodci] ({{{docs_link}}}) .__.
+         __Lerorn více o náboji v našem [průvodci]({{{docs_link}}}) .__.
     revoke:
       invalidCode: '{{{emoji}} Neplatný kód pozvání. Ujistěte se, že jste zadali platný kód pozvání.'
       success: '{{{emoji}}} invite {{inviteCode}} zrušeno.'
@@ -355,7 +355,7 @@ report:
 
      **najít ID serveru v síti:** 
      {{{dot}}} Klikněte pravým tlačítkem na zprávu odeslanou dotyčnou serverem a vyberte `Apps> Info/Report". Zkuste prosím zkontrolujte ID a zkuste to znovu.
-  submitted: Zpráva předložená. Připojte se k **[podpůrný server] ({{{support_invite}}})** Chcete -li získat aktualizaci vaší zprávy.
+  submitted: Zpráva předložená. Připojte se k **[podpůrný server]({{{support_invite}}})** Chcete -li získat aktualizaci vaší zprávy.
   bug:
     title: Zpráva o chybách
     affected: Ovlivněné komponenty
@@ -368,13 +368,13 @@ errors:
   notYourAction: '{{{emoji}}} Omlouvám se, tuto akci nemůžete provést. Spusťte prosím příkaz sami.'
   notMessageAuthor: '{{{emoji}}} Nejste autorem této zprávy.'
   commandError: |-
-    {{{emoji}}} Při provádění tohoto příkazu došlo k chybě. Byl zaznamenán do našeho systému. Pokud tento problém přetrvává, připojte se k našemu [podpůrnému serveru] ({{{support_invite}}}) a nahláste to! 
+    {{{emoji}}} Při provádění tohoto příkazu došlo k chybě. Byl zaznamenán do našeho systému. Pokud tento problém přetrvává, připojte se k našemu [podpůrnému serveru]({{{support_invite}}}) a nahláste to! 
      `` `JS 
      {{{error}}} 
      `` `
-  mustVote: Prosím [Hlasujte] (https://top.gg/bot/769921109209907241/vote) Pro InterChat k použití tohoto příkazu je vaše podpora velmi oceněna!
+  mustVote: Prosím [Hlasujte](https://top.gg/bot/769921109209907241/vote) Pro InterChat k použití tohoto příkazu je vaše podpora velmi oceněna!
   inviteLinks: '{{{emoji}}} Neinzerujte ani nepodporujte servery v síti. Místo toho nastavte pozvání v `/connection`!'
-  invalidLangCode: '{{{emoji}}} Neplatný jazykový kód. Ujistěte se, že jste zadali správný [jazykový kód] (https://cloud.google.com/translate/docs/languages).'
+  invalidLangCode: '{{{emoji}}} Neplatný jazykový kód. Ujistěte se, že jste zadali správný [jazykový kód](https://cloud.google.com/translate/docs/languages).'
   unknownServer: '{{{emoji}}} Neznámý server. Ujistěte se, že jste zadali správné ID serveru.'
   unknownNetworkMessage: '{{{emoji}}} Neznámá zpráva. Pokud byla odeslána za minulou minutu, počkejte prosím ještě několik sekund a zkuste to znovu.'
   userNotFound: '{{{emoji}}} Uživatel nebyl nalezen. Zkuste místo toho zadat své ID.'
@@ -385,7 +385,7 @@ errors:
   userNotBlacklisted: '{{{emoji}}} Vstupný uživatel není na černé listině.'
   missingPermissions: '{{{emoji}}} Chybí vám následující oprávnění k provedení této akce: **{{{permissions}}}**'
   botMissingPermissions: '{{{emoji}}} Poskytněte mi prosím následující oprávnění k pokračování: **{{{permissions}}}**'
-  unknown: '{{{emoji}}} došlo k neznámé chybě. Zkuste to znovu později nebo nás kontaktujte připojením k našemu [podpůrnému serveru] ({{{support_invite}}}).'
+  unknown: '{{{emoji}}} došlo k neznámé chybě. Zkuste to znovu později nebo nás kontaktujte připojením k našemu [podpůrnému serveru]({{{support_invite}}}).'
   notUsable: '{{{emoji}}} Toto již není použitelné.'
   cooldown: '{{{emoji}}} Jste na cooldown. Počkejte prosím **{{{time}}}** před pokusem.'
 misc:

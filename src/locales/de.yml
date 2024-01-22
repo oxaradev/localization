@@ -38,7 +38,7 @@ network:
       description: |-
         Um die Dinge organisiert zu halten, wird empfohlen, einen separaten Kanal für diesen Hub zu verwenden. Aber keine Sorge, Sie können dies immer später ändern. 
 
-         **Wie es funktioniert:** Das Austauschnetzwerk ist wie eine magische Brücke, die Kanäle auf verschiedenen Servern verknüpft, die in diesem Hub bei uns sind. Erfahren Sie mehr unter unserem [Handbuch] ({{{docs_link}}}).
+         **Wie es funktioniert:** Das Austauschnetzwerk ist wie eine magische Brücke, die Kanäle auf verschiedenen Servern verknüpft, die in diesem Hub bei uns sind. Erfahren Sie mehr unter unserem [Handbuch]({{{docs_link}}}).
       footer: Austausch -Netzwerk | Version {{version}}
     inProgress: Es gab bereits einen Versuch, sich einem Hub von {{{channel}}} anzuschließen. Bitte stornieren Sie es oder warten Sie, bis es abgeschlossen ist.
 blacklist:
@@ -210,7 +210,7 @@ hub:
        - **Hub bearbeiten:** `/Hub Manager" 
        - **Moderatoren hinzufügen:** `/Hub Moderator add` add` 
 
-       Erfahren Sie mehr über Hubs in unserem [Handbuch] ({{{docs_link}}}). Schließen Sie sich für Hilfe mit dem [Support Server] ({{{support_invite}}}) bei.
+       Erfahren Sie mehr über Hubs in unserem [Handbuch]({{{docs_link}}}). Schließen Sie sich für Hilfe mit dem [Support Server]({{{support_invite}}}) bei.
   delete:
     confirm: Sind Sie sicher, dass Sie **{{hub}}** löschen möchten? Diese Aktion ist irreversibel. Alle angeschlossenen Server, Einladungen und Nachrichtendaten werden aus diesem Hub entfernt.
     ownerOnly: '{{{emoji}}} Nur der Besitzer dieses Hubs kann es löschen.'
@@ -238,7 +238,7 @@ hub:
          - **Ablauf:** {{{docs_link}}} 
          - **verwendet**: ∞ 
 
-         __Learn mehr über Hubs in unserem [Handbuch] () .__.
+         __Learn mehr über Hubs in unserem [Handbuch]() .__.
     revoke:
       invalidCode: '{{{emoji}} Ungültiger Einladungscode. Bitte stellen Sie sicher, dass Sie einen gültigen Einladungscode eingegeben haben.'
       success: '{{{emoji}}} invite {{inviteCode}} Revoked.'
@@ -355,7 +355,7 @@ report:
 
      **Um eine Server -ID im Netzwerk zu finden:** 
      oder Bitte überprüfen Sie die ID und versuchen Sie es erneut.
-  submitted: Bericht eingereicht. Schließen Sie sich dem **[Support Server] ({{{support_invite}}})** bei, um Aktualisierungen in Ihrem Bericht zu erhalten.
+  submitted: Bericht eingereicht. Schließen Sie sich dem **[Support Server]({{{support_invite}}})** bei, um Aktualisierungen in Ihrem Bericht zu erhalten.
   bug:
     title: Fehlerbericht
     affected: Betroffene Komponenten
@@ -368,11 +368,11 @@ errors:
   notYourAction: '{{{emoji}}} sorry, Sie können diese Aktion nicht ausführen. Bitte führen Sie den Befehl selbst aus.'
   notMessageAuthor: '{{{emoji}}} Sie sind nicht der Autor dieser Nachricht.'
   commandError: |-
-    {{{emoji}}} Es ist ein Fehler beim Ausführen dieses Befehls aufgetreten. Es wurde an unserem System angemeldet. Wenn dieses Problem bestehen bleibt, nehmen Sie bitte an unserem [Support Server] ({{{support_invite}}}) teil und melden Sie es! 
+    {{{emoji}}} Es ist ein Fehler beim Ausführen dieses Befehls aufgetreten. Es wurde an unserem System angemeldet. Wenn dieses Problem bestehen bleibt, nehmen Sie bitte an unserem [Support Server]({{{support_invite}}}) teil und melden Sie es! 
      `` `js 
      {{{error}}} 
      `` `
-  mustVote: Bitte [Abstimmung] (https://top.gg/bot/769921109209907241/vote) für den Austausch, um diesen Befehl zu verwenden. Ihre Unterstützung wird sehr geschätzt!
+  mustVote: Bitte [Abstimmung](https://top.gg/bot/769921109209907241/vote) für den Austausch, um diesen Befehl zu verwenden. Ihre Unterstützung wird sehr geschätzt!
   inviteLinks: '{{{emoji}}} werben oder bewerben Sie Server im Netzwerk nicht. Stellen Sie stattdessen eine Einladung in  ein!'
   invalidLangCode: '{{{emoji}}} Ungültiger Sprachcode. Bitte stellen Sie sicher, dass Sie einen korrekten [Sprachcode] eingegeben haben (https://cloud.google.com/translate/docs/glanguages).'
   unknownServer: '{{{emoji}}} Unbekannter Server. Bitte stellen Sie sicher, dass Sie die richtige Server -ID eingegeben haben.'
@@ -385,7 +385,7 @@ errors:
   userNotBlacklisted: '{{{emoji}}} Der eingegebene Benutzer ist nicht auf die schwarze Liste.'
   missingPermissions: '{oder'
   botMissingPermissions: '{{{emoji}}} Bitte geben Sie mir die folgenden Berechtigungen, um fortzufahren: **{{{permissions}}}**'
-  unknown: '{{{emoji}}} Es ist ein unbekannter Fehler aufgetreten. Bitte versuchen Sie es später noch einmal oder kontaktieren Sie uns, indem Sie sich unserem [Support Server] ({{{support_invite}}}) anschließen.'
+  unknown: '{{{emoji}}} Es ist ein unbekannter Fehler aufgetreten. Bitte versuchen Sie es später noch einmal oder kontaktieren Sie uns, indem Sie sich unserem [Support Server]({{{support_invite}}}) anschließen.'
   notUsable: '{{{emoji}}} Dies ist nicht mehr verwendbar.'
   cooldown: '{{{emoji}}} Sie sind in Abklingzeit. Bitte warten Sie **{{{time}}}**, bevor Sie erneut versuchen.'
 misc:

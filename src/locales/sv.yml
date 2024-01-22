@@ -9,7 +9,7 @@ rules: |-
    6. **Respektera känsliga ämnen:** Trivialiserar inte självskada, självmord, våld eller andra offensiva ämnen. 
    7. **Rapportera problem:** Om du observerar ett brott mot dessa regler, rapportera det till lämplig navmodator eller interchat -personal för ytterligare åtgärder. 
 
-   Några frågor? Gå med i vår [supportserver] ({{{support_invite}}}).
+   Några frågor? Gå med i vår [supportserver]({{{support_invite}}}).
 vote: |-
   ## 🗳 Rösta för interchat och njut av exklusiva förmåner 
    Ditt bidrag är ovärderligt för att höja InterChats position på topp.g. Varje röst gör en betydande skillnad! 
@@ -38,7 +38,7 @@ network:
       description: |-
         För att hålla saker organiserade rekommenderas det att använda en separat kanal för bara för detta nav. Men oroa dig inte, du kan alltid ändra detta senare. 
 
-         **Hur det fungerar:** InterChat -nätverket är som en magisk bro som länkar kanaler på olika servrar som är med oss i detta nav. Lär dig mer på vår [guide] ({{{docs_link}}}).
+         **Hur det fungerar:** InterChat -nätverket är som en magisk bro som länkar kanaler på olika servrar som är med oss i detta nav. Lär dig mer på vår [guide]({{{docs_link}}}).
       footer: InterChat Network | Version {{version}}
     inProgress: Det har redan varit ett försök att gå med i ett nav från {{{channel}}}. Avbryt den eller vänta på att den ska slutföras.
 blacklist:
@@ -210,7 +210,7 @@ hub:
        - **Redigera nav:** `/nav manage` 
        - **Lägg till moderatorer:** `/nav moderator add` 
 
-       Lär dig mer om nav i vår [guide] ({{{docs_link}}}). Gå med i [supportservern] ({{{support_invite}}}) för hjälp.
+       Lär dig mer om nav i vår [guide]({{{docs_link}}}). Gå med i [supportservern]({{{support_invite}}}) för hjälp.
   delete:
     confirm: Är du säker på att du vill ta bort **{{hub}}**? Denna åtgärd är irreversibel. Alla anslutna servrar, inbjudningar och meddelandedata kommer att tas bort från detta nav.
     ownerOnly: '{{{emoji}}} Endast ägaren till detta nav kan ta bort det.'
@@ -238,7 +238,7 @@ hub:
          - **Expiry:** {{{expiry}}} 
          - **använder**: ∞ 
 
-         __Learn mer om nav i vår [guide] ({{{docs_link}}}) .__.
+         __Learn mer om nav i vår [guide]({{{docs_link}}}) .__.
     revoke:
       invalidCode: '{{{emoji}} Ogiltig inbjudningskod. Se till att du har angett en giltig inbjudningskod.'
       success: '{{{emoji}}} bjuda in {{inviteCode}} återkallad.'
@@ -355,7 +355,7 @@ report:
 
      **För att hitta ett server -ID i nätverket:** 
      {{{dot}}} Högerklicka på ett meddelande som skickas av servern i fråga och välj `Apps> Meddelande Info/Report '. Kontrollera ID: n och försök igen.
-  submitted: Rapport inlämnad. Gå med **[Support Server] ({{{support_invite}}})** för att få uppdateringar om din rapport.
+  submitted: Rapport inlämnad. Gå med **[Support Server]({{{support_invite}}})** för att få uppdateringar om din rapport.
   bug:
     title: Buggrapport
     affected: Påverkade komponenter
@@ -368,13 +368,13 @@ errors:
   notYourAction: '{{{emoji}}} Tyvärr kan du inte utföra den här åtgärden. Vänligen kör kommandot själv.'
   notMessageAuthor: '{{{emoji}}} Du är inte författaren till detta meddelande.'
   commandError: |-
-    {{{emoji}}} Ett fel inträffade vid körning av detta kommando. Det har loggats in på vårt system. Om det här problemet kvarstår, gå med i vår [supportserver] ({{{support_invite}}}) och rapportera det! 
+    {{{emoji}}} Ett fel inträffade vid körning av detta kommando. Det har loggats in på vårt system. Om det här problemet kvarstår, gå med i vår [supportserver]({{{support_invite}}}) och rapportera det! 
      `` `JS 
      {{{error}}} 
      `` `
-  mustVote: Vänligen [rösta] (https://top.gg/bot/769921109209907241/vote) för att interchat ska använda detta kommando är ditt stöd mycket uppskattat!
+  mustVote: Vänligen [rösta](https://top.gg/bot/769921109209907241/vote) för att interchat ska använda detta kommando är ditt stöd mycket uppskattat!
   inviteLinks: '{{{emoji}}} Annonserar eller marknadsför inte servrar i nätverket. Ställ in en inbjudan i `/Connection` istället!'
-  invalidLangCode: '{{{emoji}}} Ogiltig språkkod. Se till att du har angett en korrekt [språkkod] (https://cloud.google.com/translate/docs/languages).'
+  invalidLangCode: '{{{emoji}}} Ogiltig språkkod. Se till att du har angett en korrekt [språkkod](https://cloud.google.com/translate/docs/languages).'
   unknownServer: '{{{emoji}}} okänd server. Se till att du har angett rätt server -ID.'
   unknownNetworkMessage: '{{{emoji}}} okänt meddelande. Om det har skickats i den senaste minuten, vänta några sekunder till och försök igen.'
   userNotFound: '{{{emoji}}} Användare hittades inte. Försök att mata in deras ID istället.'
@@ -385,7 +385,7 @@ errors:
   userNotBlacklisted: '{{{emoji}}} Den inmatade användaren är inte svartlistad.'
   missingPermissions: '{{{emoji}}} Du saknar följande behörigheter för att utföra denna åtgärd: **{{{permissions}}}**'
   botMissingPermissions: '{{{emoji}}} snälla ge mig följande behörigheter för att fortsätta: **{{{permissions}}}**'
-  unknown: '{{{emoji}}} Ett okänt fel inträffade. Försök igen senare eller kontakta oss genom att gå med på vår [supportserver] ({{{support_invite}}}).'
+  unknown: '{{{emoji}}} Ett okänt fel inträffade. Försök igen senare eller kontakta oss genom att gå med på vår [supportserver]({{{support_invite}}}).'
   notUsable: '{{{emoji}}} Detta är inte längre användbart.'
   cooldown: '{{{emoji}}} Du är på nedkylning. Vänta **{{{time}}}** innan du försöker igen.'
 misc:
