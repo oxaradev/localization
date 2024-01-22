@@ -9,7 +9,7 @@ rules: |-
    6. **Respectați subiecte sensibile:** Nu banalizați auto-vătămarea, sinuciderea, violența sau alte subiecte ofensive. 
    7. **Raportați îngrijorări:** Dacă observați o încălcare a acestor reguli, raportați -o către moderatorul Hub sau personalul InterChat pentru acțiuni suplimentare. 
 
-   Alte intrebari? Alăturați -vă [serverul de asistență] ({{{support_invite}}}).
+   Alte intrebari? Alăturați -vă [serverul de asistență]({{{support_invite}}}).
 vote: |-
   ## 🗳️ Votează pentru interchat și bucură -te de avantaje exclusive 
    Contribuția dvs. este de neprețuit în ridicarea poziției interchatului pe top.gg. Fiecare vot face o diferență semnificativă! 
@@ -38,7 +38,7 @@ network:
       description: |-
         Pentru a menține lucrurile organizate, este recomandat să folosiți un canal separat doar pentru acest hub. Dar nu vă faceți griji, puteți schimba întotdeauna acest lucru mai târziu. 
 
-         **Cum funcționează:** Rețeaua InterChat este ca un pod magic care leagă canalele pe diferite servere care sunt cu noi în acest hub. Aflați mai multe la [Ghidul nostru] ({{{docs_link}}}).
+         **Cum funcționează:** Rețeaua InterChat este ca un pod magic care leagă canalele pe diferite servere care sunt cu noi în acest hub. Aflați mai multe la [Ghidul nostru]({{{docs_link}}}).
       footer: Rețea interchat | Version {{version}}
     inProgress: A existat deja o încercare de a se alătura unui hub de la {{{channel}}}. Vă rugăm să îl anulați sau să așteptați să se finalizeze.
 blacklist:
@@ -210,7 +210,7 @@ hub:
        - **Editează hub:** `/hub gestionare` 
        - **Adăugați moderatori:** `/hub moderator add` 
 
-       Aflați mai multe despre hub -uri în [ghidul nostru] ({{{docs_link}}}). Alăturați -vă [serverului de asistență] ({{{support_invite}}}) pentru ajutor.
+       Aflați mai multe despre hub -uri în [ghidul nostru]({{{docs_link}}}). Alăturați -vă [serverului de asistență]({{{support_invite}}}) pentru ajutor.
   delete:
     confirm: Ești sigur că doriți să ștergeți **{{hub}}**? Această acțiune este ireversibilă. Toate serverele conectate, invitațiile și datele mesajelor vor fi eliminate din acest hub.
     ownerOnly: '{{{emoji}}} numai proprietarul acestui hub îl poate șterge.'
@@ -238,7 +238,7 @@ hub:
          - **expiry:** {{{expiry}}} 
          - **folosește**: ∞ 
 
-         __Learn Mai multe despre hub -uri din [ghidul nostru] ({{{docs_link}}}) .__.
+         __Learn Mai multe despre hub -uri din [ghidul nostru]({{{docs_link}}}) .__.
     revoke:
       invalidCode: '{{{emoji}} cod de invitație nevalid. Vă rugăm să vă asigurați că ați introdus un cod de invitație valid.'
       success: '{{{emoji}}} invitați {{inviteCode}} revocat.'
@@ -355,7 +355,7 @@ report:
 
      **Pentru a găsi un ID de server în rețea:** 
      {{{dot}}} Faceți clic dreapta pe un mesaj trimis de serverul în cauză și selectați `Apps> Mesaj Info/Raport`. Vă rugăm să verificați dublu ID-ul și încercați din nou.
-  submitted: Raport prezentat. Alăturați -vă **[server de asistență] ({{{support_invite}}})** pentru a obține actualizări în raportul dvs.
+  submitted: Raport prezentat. Alăturați -vă **[server de asistență]({{{support_invite}}})** pentru a obține actualizări în raportul dvs.
   bug:
     title: Raport de erori
     affected: Componente afectate
@@ -368,13 +368,13 @@ errors:
   notYourAction: '{{{emoji}}} Ne pare rău, nu puteți efectua această acțiune. Vă rugăm să rulați singur comanda.'
   notMessageAuthor: '{{{emoji}}} Nu sunteți autorul acestui mesaj.'
   commandError: |-
-    {{{emoji}}} a apărut o eroare în timpul executării acestei comenzi. A fost înregistrat la sistemul nostru. Dacă această problemă persistă, vă rugăm să vă alăturați [serverul de asistență] ({{{support_invite}}}) și raportați -l! 
+    {{{emoji}}} a apărut o eroare în timpul executării acestei comenzi. A fost înregistrat la sistemul nostru. Dacă această problemă persistă, vă rugăm să vă alăturați [serverul de asistență]({{{support_invite}}}) și raportați -l! 
      `` `JS 
      {{{error}}} 
      `` `
-  mustVote: Vă rugăm să [vot] (https://top.gg/bot/769921109209907241/vote) pentru interchat să utilizeze această comandă, suportul dvs. este foarte apreciat!
+  mustVote: Vă rugăm să [vot](https://top.gg/bot/769921109209907241/vote) pentru interchat să utilizeze această comandă, suportul dvs. este foarte apreciat!
   inviteLinks: '{{{emoji}}} nu faceți publicitate și nu promovați serverele în rețea. Setați o invitație în `/conexiune` în schimb!'
-  invalidLangCode: '{{{emoji}}} cod limbaj nevalid. Vă rugăm să vă asigurați că ați introdus un corect [cod de limbă] (https://cloud.google.com/translate/docs/languages).'
+  invalidLangCode: '{{{emoji}}} cod limbaj nevalid. Vă rugăm să vă asigurați că ați introdus un corect [cod de limbă](https://cloud.google.com/translate/docs/languages).'
   unknownServer: '{{{emoji}}} server necunoscut. Vă rugăm să vă asigurați că ați introdus ID -ul serverului corect.'
   unknownNetworkMessage: '{{{emoji}}} Mesaj necunoscut. Dacă a fost trimis în ultimul minut, vă rugăm să așteptați câteva secunde și să încercați din nou.'
   userNotFound: '{{{emoji}}} nu a fost găsit. Încercați să introduceți ID -ul lor în schimb.'
@@ -385,7 +385,7 @@ errors:
   userNotBlacklisted: '{{{emoji}}} Utilizatorul introdus nu este listat negru.'
   missingPermissions: '{{{emoji}}} îți lipsește următoarele permisiuni pentru a efectua această acțiune: **{{{permissions}}}**'
   botMissingPermissions: '{{{emoji}}} vă rugăm să -mi acordați următoarele permisiuni pentru a continua: **{{{permissions}}}**'
-  unknown: '{{{emoji}}} a apărut o eroare necunoscută. Vă rugăm să încercați din nou mai târziu sau să ne contactați prin alăturarea [serverului nostru de asistență] ({{{support_invite}}}).'
+  unknown: '{{{emoji}}} a apărut o eroare necunoscută. Vă rugăm să încercați din nou mai târziu sau să ne contactați prin alăturarea [serverului nostru de asistență]({{{support_invite}}}).'
   notUsable: '{{{emoji}}} Acest lucru nu mai este utilizabil.'
   cooldown: '{{{emoji}}} Sunteți în recul. Vă rugăm să așteptați **{{{time}}}** înainte de a încerca din nou.'
 misc:

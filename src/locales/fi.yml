@@ -9,7 +9,7 @@ rules: |-
    6. **Kunnioita arkaluontoisia aiheita:** Älä trivialisoi itsensä vahingoittumista, itsemurhia, väkivaltaa tai muita loukkaavia aiheita. 
    7. **Raportin huolenaihe:** Jos noudatat näiden sääntöjen rikkomista, ilmoita siitä asianmukaiselle Hub -moderaattorille tai väliaikaiselle henkilöstölle lisätoimia varten. 
 
-   Kysymyksiä? Liity [tukipalvelimemme] ({{{support_invite}}}).
+   Kysymyksiä? Liity [tukipalvelimemme]({{{support_invite}}}).
 vote: |-
   ## 🗳️ Äänestä Chachat ja nauti yksinoikeudella 
    Panoksesi on korvaamaton nostamalla InterChatin sijaintia Top.gg. Jokaisella äänellä on merkittävä ero! 
@@ -38,7 +38,7 @@ network:
       description: |-
         Asioiden pitämiseksi on suositeltavaa käyttää erillistä kanavaa vain tähän napaan. Mutta älä huoli, voit aina muuttaa tätä myöhemmin. 
 
-         **Kuinka se toimii:** Chachat -verkko on kuin taikuussilta, joka linkittää kanavia eri palvelimiin, jotka ovat kanssamme tässä keskittimessä. Lisätietoja [oppaasta] ({{{docs_link}}}).
+         **Kuinka se toimii:** Chachat -verkko on kuin taikuussilta, joka linkittää kanavia eri palvelimiin, jotka ovat kanssamme tässä keskittimessä. Lisätietoja [oppaasta]({{{docs_link}}}).
       footer: InterChaT -verkko | Version {{version}}
     inProgress: '{{{channel}}} on jo yritetty liittyä keskittimeen. Peruuta se tai odota, että se valmistuu.'
 blacklist:
@@ -210,7 +210,7 @@ hub:
        - **Muokkaa napa:** `/Hub Hallitse` 
        - **Lisää moderaattorit:** `/Hub -moderaattori add` 
 
-       Lisätietoja keskittimistä [oppaassa] ({{{docs_link}}}). Liity [tukipalvelin] ({{{support_invite}}}) apua.
+       Lisätietoja keskittimistä [oppaassa]({{{docs_link}}}). Liity [tukipalvelin]({{{support_invite}}}) apua.
   delete:
     confirm: Oletko varma, että haluat poistaa **{{hub}}**? Tämä toiminta on peruuttamaton. Kaikki kytketyt palvelimet, kutsut ja viestitiedot poistetaan tästä napasta.
     ownerOnly: '{{{emoji}}} Vain tämän navan omistaja voi poistaa sen.'
@@ -238,7 +238,7 @@ hub:
          - **vanheneminen:** {{{expiry}}} 
          - **käyttää**: ∞ 
 
-         __Sudo lisää napaista [oppaassa] ({{{docs_link}}}) .__.
+         __Sudo lisää napaista [oppaassa]({{{docs_link}}}) .__.
     revoke:
       invalidCode: '{{{emoji}} virheellinen kutsukoodi. Varmista, että olet syöttänyt kelvollisen kutsukeskin.'
       success: '{{{emoji}}} kutsu {{inviteCode}} peruutettu.'
@@ -355,7 +355,7 @@ report:
 
      **Palvelimen tunnuksen löytäminen verkosta:** 
      {{{dot}}} Napsauta hiiren kakkospainikkeella kyseisen palvelimen lähettämää viestiä ja valitse . Tarkista henkilöllisyystodistus ja yritä uudelleen.
-  submitted: Toimitettu raportti. Liity **[Support Server] ({{{support_invite}}})** saadaksesi päivityksiä raportista.
+  submitted: Toimitettu raportti. Liity **[Support Server]({{{support_invite}}})** saadaksesi päivityksiä raportista.
   bug:
     title: Virhe raportti
     affected: Vaikuttavat komponentit
@@ -368,13 +368,13 @@ errors:
   notYourAction: '{{{emoji}}} Anteeksi, et voi suorittaa tätä toimintoa. Suorita komento itse.'
   notMessageAuthor: '{{{emoji}}} et ole tämän viestin kirjoittaja.'
   commandError: |-
-    {{{emoji}}} Tämän komennon suorittamisen aikana tapahtui virhe. Se on kirjautunut järjestelmään. Jos tämä ongelma jatkuu, liity [tukipalvelin] ({{{support_invite}}}) ja ilmoita siitä! 
+    {{{emoji}}} Tämän komennon suorittamisen aikana tapahtui virhe. Se on kirjautunut järjestelmään. Jos tämä ongelma jatkuu, liity [tukipalvelin]({{{support_invite}}}) ja ilmoita siitä! 
      `` `JS 
      {{{error}}} 
      `` `
   mustVote: Ole hyvä ja äänestää] (https://top.gg/bot/769921109209907241/vote) InterChatille tämän komennon käyttämiseksi, tuestasi on erittäin arvostettu!
   inviteLinks: '{{{emoji}}} Älä mainosta tai mainosta palvelimia verkossa. Aseta kutsu  sen sijaan!'
-  invalidLangCode: '{{{emoji}}} virheellinen kielikoodi. Varmista, että olet kirjoittanut oikean [kielikoodin] (https://cloud.google.com/translate/docs/languages).'
+  invalidLangCode: '{{{emoji}}} virheellinen kielikoodi. Varmista, että olet kirjoittanut oikean [kielikoodin](https://cloud.google.com/translate/docs/languages).'
   unknownServer: '{{{emoji}}} tuntematon palvelin. Varmista, että olet syöttänyt oikean palvelimen tunnuksen.'
   unknownNetworkMessage: '{{{emoji}}} tuntematon viesti. Jos se on lähetetty viimeisen minuutin aikana, odota vielä muutama sekunti ja yritä uudelleen.'
   userNotFound: '{{{emoji}}} käyttäjää ei löydy. Yritä syöttää heidän tunnuksensa sen sijaan.'
@@ -385,7 +385,7 @@ errors:
   userNotBlacklisted: '{{{emoji}}} syötettyä käyttäjää ei ole mustalla listalla.'
   missingPermissions: '{{{emoji}}} puuttuu seuraavat käyttöoikeudet tämän toiminnon suorittamiseen: **{{{permissions}}}**'
   botMissingPermissions: '{{{emoji}}} Anna minulle seuraavat luvat jatkaa: **{{{permissions}}}**'
-  unknown: '{{{emoji}}} Tapahtui tuntematon virhe. Yritä myöhemmin uudelleen tai ota meihin yhteyttä liittymällä [tukipalvelin] ({{{support_invite}}}).'
+  unknown: '{{{emoji}}} Tapahtui tuntematon virhe. Yritä myöhemmin uudelleen tai ota meihin yhteyttä liittymällä [tukipalvelin]({{{support_invite}}}).'
   notUsable: '{{{emoji}}} Tämä ei ole enää käyttökelpoinen.'
   cooldown: '{{{emoji}}} olet jäähdytys. Odota **{{{time}}}** ennen yritystä uudelleen.'
 misc:

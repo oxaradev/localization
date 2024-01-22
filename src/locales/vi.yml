@@ -210,7 +210,7 @@ hub:
        - **Chỉnh sửa Hub:** `/Hub Manage` 
        - **Thêm người điều hành:** `/Hub Moderator add` 
 
-       Tìm hiểu thêm về các trung tâm trong [Hướng dẫn] của chúng tôi ({{{docs_link}}}). Tham gia [Máy chủ hỗ trợ] ({{{support_invite}}}) để được trợ giúp.
+       Tìm hiểu thêm về các trung tâm trong [Hướng dẫn] của chúng tôi ({{{docs_link}}}). Tham gia [Máy chủ hỗ trợ]({{{support_invite}}}) để được trợ giúp.
   delete:
     confirm: Bạn có chắc bạn muốn xóa **{{hub}}**? Hành động này là không thể đảo ngược. Tất cả các máy chủ được kết nối, mời và dữ liệu tin nhắn sẽ bị xóa khỏi trung tâm này.
     ownerOnly: '{{{emoji}}} Chỉ chủ sở hữu của trung tâm này mới có thể xóa nó.'
@@ -355,7 +355,7 @@ report:
 
      **Để tìm ID máy chủ trong mạng:** 
      {{{dot}}} Nhấp chuột phải vào một tin nhắn được gửi bởi máy chủ trong câu hỏi và chọn `Ứng dụng> Thông tin/báo cáo thông tin '. Vui lòng kiểm tra lại ID và thử lại.
-  submitted: Báo cáo đã gửi. Tham gia **[Máy chủ hỗ trợ] ({{{support_invite}}})** để cập nhật các bản cập nhật trên báo cáo của bạn.
+  submitted: Báo cáo đã gửi. Tham gia **[Máy chủ hỗ trợ]({{{support_invite}}})** để cập nhật các bản cập nhật trên báo cáo của bạn.
   bug:
     title: Báo cáo lỗi
     affected: Các thành phần bị ảnh hưởng
@@ -372,7 +372,7 @@ errors:
      `` `JS 
      {{{error}}} 
      `` `
-  mustVote: Xin vui lòng [bỏ phiếu] (https://top.gg/bot/769921109209907241/vote) để giao thoa sử dụng lệnh này, sự hỗ trợ của bạn được đánh giá rất cao!
+  mustVote: Xin vui lòng [bỏ phiếu](https://top.gg/bot/769921109209907241/vote) để giao thoa sử dụng lệnh này, sự hỗ trợ của bạn được đánh giá rất cao!
   inviteLinks: '{{{emoji}}} Không quảng cáo hoặc quảng bá máy chủ trong mạng. Thay vào đó, hãy đặt một lời mời trong `/Connection`!'
   invalidLangCode: '{{{emoji}}} Mã ngôn ngữ không hợp lệ. Vui lòng đảm bảo rằng bạn đã nhập một [mã ngôn ngữ] chính xác (https://cloud.google.com/translate/docs/l lý ngôn).'
   unknownServer: '{{{emoji}}} Máy chủ không xác định. Vui lòng đảm bảo rằng bạn đã nhập ID máy chủ chính xác.'

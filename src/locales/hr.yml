@@ -9,7 +9,7 @@ rules: |-
    6. **Poštujte osjetljive teme:** Ne trivijalizirajte samopovređivanje, samoubojstvo, nasilje ili druge ofenzivne teme. 
    7. **Izvještaj o pitanjima:** Ako poštujete kršenje ovih pravila, prijavite ga odgovarajućem moderatoru Hub -a ili osoblju InterChat -a za daljnje djelovanje. 
 
-   Ima li pitanja? Pridružite se našem [Podrška poslužitelju] ({{{support_invite}}}).
+   Ima li pitanja? Pridružite se našem [Podrška poslužitelju]({{{support_invite}}}).
 vote: |-
   ## 🗳️ glasajte za InterChat i uživajte u ekskluzivnim perketima 
    Vaš doprinos je neprocjenjiv u povišenju položaja InterChata na vrhu.GG. Svaki glas čini značajnu razliku! 
@@ -38,7 +38,7 @@ network:
       description: |-
         Da bi se stvari organizirale, preporučuje se koristiti zasebni kanal za ovo središte. Ali ne brinite, to uvijek možete promijeniti kasnije. 
 
-         **Kako to funkcionira:** InterChat mreža je poput čarobnog mosta koji povezuje kanale na različitim poslužiteljima koji su s nama u ovom središtu. Saznajte više na našem [vodiču] ({{{docs_link}}}).
+         **Kako to funkcionira:** InterChat mreža je poput čarobnog mosta koji povezuje kanale na različitim poslužiteljima koji su s nama u ovom središtu. Saznajte više na našem [vodiču]({{{docs_link}}}).
       footer: InterChat Network | Version {{version}}
     inProgress: Već se pokušao pridružiti čvorištu od {{{channel}}}. Otkažite ga ili pričekajte da se završi.
 blacklist:
@@ -210,7 +210,7 @@ hub:
        - **Uredi Hub:** `/Hub Upravljanje` 
        - **Dodajte moderatore:** `/Hub Moderator Add` 
 
-       Saznajte više o čvorištima u našem [vodiču] ({{{docs_link}}}). Za pomoć pridružite se [poslužitelj za podršku] ({{{support_invite}}}).
+       Saznajte više o čvorištima u našem [vodiču]({{{docs_link}}}). Za pomoć pridružite se [poslužitelj za podršku]({{{support_invite}}}).
   delete:
     confirm: Jeste li sigurni da želite izbrisati **{{hub}}**? Ova je radnja nepovratna. Svi povezani poslužitelji, pozivnice i podaci poruka bit će uklonjeni iz ovog središta.
     ownerOnly: '{{{emoji}}} samo ga vlasnik ovog središta može izbrisati.'
@@ -238,7 +238,7 @@ hub:
          - **ISKLJUČENO:** {{{expiry}}} 
          - **koristi**: ∞ 
 
-         __LERN više o čvorištima u našem [vodiču] ({{{docs_link}}}) .__.
+         __LERN više o čvorištima u našem [vodiču]({{{docs_link}}}) .__.
     revoke:
       invalidCode: '{{{emoji}} nevažeći pozivni kôd. Obavezno unijeli valjani pozivni kôd.'
       success: '{{{emoji}}} Poziv {{inviteCode}} oduzet.'
@@ -355,7 +355,7 @@ report:
 
      **Da biste pronašli ID poslužitelja unutar mreže:** 
      {{{dot}}} Desnom tipkom miša kliknite poruku koju je poslao dotični poslužitelj i odaberite `Aplikacije> Informacije o poruci/izvještaj`. Molimo dvaput provjerite ID i pokušajte ponovo.
-  submitted: Izvješće podneseno. Pridružite se **[Podrška poslužitelju] ({{{support_invite}}})** da biste dobili ažuriranja u svom izvješću.
+  submitted: Izvješće podneseno. Pridružite se **[Podrška poslužitelju]({{{support_invite}}})** da biste dobili ažuriranja u svom izvješću.
   bug:
     title: Izvješće o greškama
     affected: Pogođene komponente
@@ -368,13 +368,13 @@ errors:
   notYourAction: '{{{emoji}}} oprosti, ne možete izvesti ovu radnju. Molim vas, pokrenite naredbu sami.'
   notMessageAuthor: '{{{emoji}}} Niste autor ove poruke.'
   commandError: |-
-    {{{emoji}}} Došlo je do pogreške tijekom izvršavanja ove naredbe. Zabilježen je u naš sustav. Ako se ovaj problem i dalje pojavljuje, pridružite se našem [poslužitelju za podršku] ({{{support_invite}}}) i prijavite ga! 
+    {{{emoji}}} Došlo je do pogreške tijekom izvršavanja ove naredbe. Zabilježen je u naš sustav. Ako se ovaj problem i dalje pojavljuje, pridružite se našem [poslužitelju za podršku]({{{support_invite}}}) i prijavite ga! 
      `` `js 
      {{{error}}} 
      `` `` ``
-  mustVote: Molimo [glasajte] (https://top.gg/bot/76921109209907241/vote) za InterChat za korištenje ove naredbe, vaša je podrška vrlo cijenjena!
+  mustVote: Molimo [glasajte](https://top.gg/bot/76921109209907241/vote) za InterChat za korištenje ove naredbe, vaša je podrška vrlo cijenjena!
   inviteLinks: '{{{emoji}}} Ne oglašavajte ili promovirate poslužitelje u mreži. Umjesto toga postavite pozivnicu u `/Connection`!'
-  invalidLangCode: '{{{emoji}}} Nevažeći jezik jezika. Obavezno unijeli ispravan [jezični kod] (https://cloud.google.com/translate/docs/languages).'
+  invalidLangCode: '{{{emoji}}} Nevažeći jezik jezika. Obavezno unijeli ispravan [jezični kod](https://cloud.google.com/translate/docs/languages).'
   unknownServer: '{{{emoji}}} nepoznati poslužitelj. Obavezno unijeli ispravan ID poslužitelja.'
   unknownNetworkMessage: '{{{emoji}}} nepoznata poruka. Ako je poslano u proteklih minuta, pričekajte još nekoliko sekundi i pokušajte ponovo.'
   userNotFound: '{{{emoji}}} korisnik nije pronađen. Pokušajte umjesto toga unijeti njihov ID.'
@@ -385,7 +385,7 @@ errors:
   userNotBlacklisted: '{{{emoji}}} Uneseni korisnik nije crna lista.'
   missingPermissions: '{{{emoji}}} nedostaju vam sljedeća dopuštenja za izvedbu ove radnje: **{{{permissions}}}**'
   botMissingPermissions: '{{{emoji}}} Molimo odobri mi sljedeće dozvole za nastavak: **{{{permissions}}}**'
-  unknown: '{{{emoji}}} Došlo je do nepoznate pogreške. Pokušajte ponovo kasnije ili nas kontaktirajte spajanjem našeg [Podrška poslužitelja] ({{{support_invite}}}).'
+  unknown: '{{{emoji}}} Došlo je do nepoznate pogreške. Pokušajte ponovo kasnije ili nas kontaktirajte spajanjem našeg [Podrška poslužitelja]({{{support_invite}}}).'
   notUsable: '{{{emoji}}} Ovo više nije upotrebljivo.'
   cooldown: '{{{emoji}}} na hladnjaku. Molimo pričekajte **{{{time}}}** prije nego što pokušate ponovo.'
 misc:

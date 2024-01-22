@@ -9,7 +9,7 @@ rules: |-
    6. **Respeto temas sensibles:** No trivialice la autolesión, el suicidio, la violencia u otros temas ofensivos. 
    7. **Informe de informe:** Si observa una violación de estas reglas, repórtelo al moderador del centro apropiado o al personal de InterChat para nuevas acciones. 
 
-   ¿Alguna pregunta? Únase a nuestro [servidor de soporte] ({{{support_invite}}}).
+   ¿Alguna pregunta? Únase a nuestro [servidor de soporte]({{{support_invite}}}).
 vote: |-
   ## 🗳️ Vote por InterChat y disfruta de ventajas exclusivas 
    Su contribución es invaluable para elevar la posición de InterChat en la parte superior. ¡Todos y cada uno de los votos marcan una diferencia significativa! 
@@ -38,7 +38,7 @@ network:
       description: |-
         Para mantener las cosas organizadas, se recomienda usar un canal separado solo para este centro. Pero no se preocupe, siempre puede cambiar esto más tarde. 
 
-         **Cómo funciona:** La red InterChat es como un puente mágico que vincula los canales en diferentes servidores que están con nosotros en este centro. Obtenga más información en nuestra [Guía] ({{{docs_link}}}).
+         **Cómo funciona:** La red InterChat es como un puente mágico que vincula los canales en diferentes servidores que están con nosotros en este centro. Obtenga más información en nuestra [Guía]({{{docs_link}}}).
       footer: Red InterChat | Version {{version}}
     inProgress: Ya ha habido un intento de unirse a un centro de {{{channel}}}. Por favor, cancelé o espere a que se complete.
 blacklist:
@@ -210,7 +210,7 @@ hub:
        - **Editar Hub:** `/Hub Management` 
        - **Agregar moderadores:** `/Hub Moderator Add` 
 
-       Obtenga más información sobre los centros en nuestra [Guía] ({{{docs_link}}}). Une el [servidor de soporte] ({{{support_invite}}}) para obtener ayuda.
+       Obtenga más información sobre los centros en nuestra [Guía]({{{docs_link}}}). Une el [servidor de soporte]({{{support_invite}}}) para obtener ayuda.
   delete:
     confirm: ¿Estás seguro de que desea eliminar **{{hub}}**? Esta acción es irreversible. Todos los servidores conectados, invitaciones y datos de mensajes se eliminarán de este centro.
     ownerOnly: '{{{emoji}}} Solo el propietario de este centro puede eliminarlo.'
@@ -238,7 +238,7 @@ hub:
          - **expiración:** {{{expiry}}} 
          - **usa**: ∞ 
 
-         __Learn más sobre los centros en nuestra [Guía] ({{{docs_link}}}) .__.
+         __Learn más sobre los centros en nuestra [Guía]({{{docs_link}}}) .__.
     revoke:
       invalidCode: '{{{emoji}} Código de invitación no válido. Asegúrese de haber ingresado un código de invitación válido.'
       success: '{{{emoji}}} invitar {{inviteCode}} revocado.'
@@ -355,7 +355,7 @@ report:
 
      **Para encontrar una ID de servidor dentro de la red:** 
      {{{dot}}} Haga clic derecho en un mensaje enviado por el servidor en cuestión y seleccione `aplicaciones> Información/informe de mensajes`. Compruebe dos veces la identificación y vuelva a intentarlo.
-  submitted: Informe enviado. Únase al **[Servidor de soporte] ({{{support_invite}}})** para obtener actualizaciones en su informe.
+  submitted: Informe enviado. Únase al **[Servidor de soporte]({{{support_invite}}})** para obtener actualizaciones en su informe.
   bug:
     title: Informe de error
     affected: Componentes afectados
@@ -368,11 +368,11 @@ errors:
   notYourAction: '{{{emoji}}} Lo siento, no puedes realizar esta acción. Por favor ejecute el comando usted mismo.'
   notMessageAuthor: '{{{emoji}}} No eres el autor de este mensaje.'
   commandError: |-
-    {{{emoji}}} Se produjo un error al ejecutar este comando. Se ha registrado a nuestro sistema. Si este problema persiste, únase a nuestro [servidor de soporte] ({{{support_invite}}}) y repórtelo. 
+    {{{emoji}}} Se produjo un error al ejecutar este comando. Se ha registrado a nuestro sistema. Si este problema persiste, únase a nuestro [servidor de soporte]({{{support_invite}}}) y repórtelo. 
      `` `JS 
      {{{error}}} 
      `` `` ``
-  mustVote: Por favor [vote] (https://top.gg/bot/769921109209907241/vote) para que InterChat use este comando, ¡su apoyo es muy apreciado!
+  mustVote: Por favor [vote](https://top.gg/bot/769921109209907241/vote) para que InterChat use este comando, ¡su apoyo es muy apreciado!
   inviteLinks: '{{{emoji}}} No anuncie ni promueva servidores en la red. ¡Establezca una invitación en `/Connection` en su lugar!'
   invalidLangCode: '{{{emoji}}} Código de lenguaje no válido. Asegúrese de haber ingresado un [código de idioma] correcto (https://cloud.google.com/translate/docs/languages).'
   unknownServer: '{{{emoji}}} servidor desconocido. Asegúrese de haber ingresado la ID correcta del servidor.'
@@ -385,7 +385,7 @@ errors:
   userNotBlacklisted: '{{{emoji}}} El usuario ingresado no está en la lista negra.'
   missingPermissions: '{{{emoji}}} le falta los siguientes permisos para realizar esta acción: **{{{permissions}}}**'
   botMissingPermissions: '{{{emoji}}} Por favor, otorgame los siguientes permisos para continuar: **{{{permissions}}}**'
-  unknown: '{{{emoji}}} ocurrió un error desconocido. Vuelva a intentarlo más tarde o contáctenos uniéndose a nuestro [servidor de soporte] ({{{support_invite}}}).'
+  unknown: '{{{emoji}}} ocurrió un error desconocido. Vuelva a intentarlo más tarde o contáctenos uniéndose a nuestro [servidor de soporte]({{{support_invite}}}).'
   notUsable: '{{{emoji}}} Esto ya no se puede usar.'
   cooldown: '{{{emoji}}} Estás en el tiempo de reutilización. Espere **{{{time}}}** antes de intentarlo nuevamente.'
 misc:

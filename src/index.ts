@@ -530,6 +530,8 @@ const formatString = (original: string, destination: string) => {
 		);
 	});
 
+	result = result.replaceAll(/\[(.*?)\]\s+\((.*?)\)/g, '[$1]($2)');
+
 	return result;
 };
 
