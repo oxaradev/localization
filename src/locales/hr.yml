@@ -1,13 +1,13 @@
 rules: |-
   ### 📜 Pravila mreže InterChat 
 
-   1. ** Koristite zdrav razum: ** Budite pažljivi prema drugima i njihovim pogledima. Nema SLURS -a, ekstremnog pogrdnog jezika ili bilo kakvih radnji koje mogu poremetiti udobnost chata. 
-   2. ** Nema neželjene pošte ili poplave: ** Izbjegavajte ponovljene, besmislene ili pretjerano dugotrajne poruke. 
-   3. ** Držite privatne stvari privatnim: ** Izbjegavajte dijeljenje osobnih podataka u cijeloj mreži. 
-   4. ** Nema uznemiravanja: ** Trolling, uvrede ili maltretiranje bilo koje vrste se ne toleriraju. 
-   5. ** Ne NSFW/NSFL sadržaj: ** Objavljivanje eksplicitnog sadržaja NSFW/NSFL rezultirat će neposrednom crnom listom. 
-   6. ** Poštujte osjetljive teme: ** Ne trivijalizirajte samopovređivanje, samoubojstvo, nasilje ili druge ofenzivne teme. 
-   7. ** Izvještaj o pitanjima: ** Ako poštujete kršenje ovih pravila, prijavite ga odgovarajućem moderatoru Hub -a ili osoblju InterChat -a za daljnje djelovanje. 
+   1. **Koristite zdrav razum:** Budite pažljivi prema drugima i njihovim pogledima. Nema SLURS -a, ekstremnog pogrdnog jezika ili bilo kakvih radnji koje mogu poremetiti udobnost chata. 
+   2. **Nema neželjene pošte ili poplave:** Izbjegavajte ponovljene, besmislene ili pretjerano dugotrajne poruke. 
+   3. **Držite privatne stvari privatnim:** Izbjegavajte dijeljenje osobnih podataka u cijeloj mreži. 
+   4. **Nema uznemiravanja:** Trolling, uvrede ili maltretiranje bilo koje vrste se ne toleriraju. 
+   5. **Ne NSFW/NSFL sadržaj:** Objavljivanje eksplicitnog sadržaja NSFW/NSFL rezultirat će neposrednom crnom listom. 
+   6. **Poštujte osjetljive teme:** Ne trivijalizirajte samopovređivanje, samoubojstvo, nasilje ili druge ofenzivne teme. 
+   7. **Izvještaj o pitanjima:** Ako poštujete kršenje ovih pravila, prijavite ga odgovarajućem moderatoru Hub -a ili osoblju InterChat -a za daljnje djelovanje. 
 
    Ima li pitanja? Pridružite se našem [Podrška poslužitelju] ({{{support_invite}}}).
 vote: |-
@@ -22,12 +22,12 @@ vote: |-
    Duboko cijenimo vašu nepokolebljivu podršku. Hvala vam! 🙏
 network:
   accountTooNew: '{{{emoji}}} {{{user}}} Vaš je račun previše nov za slanje poruka koristeći InterChat. Molimo pokušajte ponovo kasnije.'
-  deleteSuccess: '{{{emoji}}} poruka {{{user}}} izbrisana je iz __ ** {{deleted}}/{{total}} ** __ poslužitelja.'
-  editSuccess: '{{{emoji}}} poruka {{{user}}} uređena je u __ ** {{edited}}/{{total}} ** __ poslužitelji.'
+  deleteSuccess: '{{{emoji}}} poruka {{{user}}} izbrisana je iz __**{{deleted}}/{{total}}**__ poslužitelja.'
+  editSuccess: '{{{emoji}}} poruka {{{user}}} uređena je u __**{{edited}}/{{total}}**__ poslužitelji.'
   welcome: |-
-    {{{user}}} Dobrodošli u ** {{hub}} **! {{{emoji}}} 
+    {{{user}}} Dobrodošli u **{{hub}}**! {{{emoji}}} 
 
-     Poruke poslane u {{{channel}}} dijelit će se s drugim poslužiteljima, ** Omogućivanje komunikacije bez napora **. Možete dijeliti slike, GIF -ove, odgovoriti, reagirati i komunicirati s porukama kao što bi to inače učinili. Ne zaboravite izbjegavati dijeljenje osobnih podataka (provjerite {{{rules_command}}} za više). Spremni za skok? Pošaljite svoju prvu poruku i pridružite se razgovoru!
+     Poruke poslane u {{{channel}}} dijelit će se s drugim poslužiteljima, **Omogućivanje komunikacije bez napora**. Možete dijeliti slike, GIF -ove, odgovoriti, reagirati i komunicirati s porukama kao što bi to inače učinili. Ne zaboravite izbjegavati dijeljenje osobnih podataka (provjerite {{{rules_command}}} za više). Spremni za skok? Pošaljite svoju prvu poruku i pridružite se razgovoru!
   nsfw:
     title: Otkriven je NSFW
     description: Otkrio sam {{predictions}} nsfw (nije siguran za rad) sadržaj u vašoj poruci. Imajte na umu da je to protiv našeg {{{rules_command}}} i rezultirat će neposrednom crnom listom.
@@ -38,7 +38,7 @@ network:
       description: |-
         Da bi se stvari organizirale, preporučuje se koristiti zasebni kanal za ovo središte. Ali ne brinite, to uvijek možete promijeniti kasnije. 
 
-         ** Kako to funkcionira: ** InterChat mreža je poput čarobnog mosta koji povezuje kanale na različitim poslužiteljima koji su s nama u ovom središtu. Saznajte više na našem [vodiču] ({{{docs_link}}}).
+         **Kako to funkcionira:** InterChat mreža je poput čarobnog mosta koji povezuje kanale na različitim poslužiteljima koji su s nama u ovom središtu. Saznajte više na našem [vodiču] ({{{docs_link}}}).
       footer: InterChat Network | Version {{version}}
     inProgress: Već se pokušao pridružiti čvorištu od {{{channel}}}. Otkažite ga ili pričekajte da se završi.
 blacklist:
@@ -53,27 +53,27 @@ blacklist:
       label: Trajanje
       placeholder: Trajanje crne liste. Npr. 1d, 1w, 1m, 1y. Ostavite prazno za trajno.
   user:
-    success: '{{{emoji}}} ** {{username}} ** uspješno je crna popisa!'
-    removed: '{{{emoji}}} ** {{username}} ** uklonjen je s crne liste!'
+    success: '{{{emoji}}} **{{username}}** uspješno je crna popisa!'
+    removed: '{{{emoji}}} **{{username}}** uklonjen je s crne liste!'
     alreadyBlacklisted: '{{{emoji}}} Ovaj je korisnik već crnu listu.'
     easterEggs:
       blacklistBot: Ne možeš me crnu listu wtf.
   server:
-    success: '{{{emoji}}} ** {{server}} ** uspješno je crna lista!'
-    removed: '{{{emoji}}} ** {{server}} ** uklonjen je s crne liste!'
+    success: '{{{emoji}}} **{{server}}** uspješno je crna lista!'
+    removed: '{{{emoji}}} **{{server}}** uklonjen je s crne liste!'
     alreadyBlacklisted: '{{{emoji}}} Ovaj je poslužitelj već crnu listu.'
-    unknownError: Nije uspjelo na crnoj listi ** {{server}} **. Raspitajte se s programerima za više informacija.
+    unknownError: Nije uspjelo na crnoj listi **{{server}}**. Raspitajte se s programerima za više informacija.
   list:
     user: |-
-      ** userId: ** {{userId}} 
-       ** moderator: ** {{moderator}} 
-       ** Razlog: ** {{{reason}}} 
-       ** Istječe: ** {{expires}}
+      **userId:** {{userId}} 
+       **moderator:** {{moderator}} 
+       **Razlog:** {{{reason}}} 
+       **Istječe:** {{expires}}
     server: |-
-      ** serverId: ** {{serverId}} 
-       ** moderator: ** {{moderator}} 
-       ** Razlog: ** {{{reason}}} 
-       ** Istječe: ** {{{expires}}}
+      **serverId:** {{serverId}} 
+       **moderator:** {{moderator}} 
+       **Razlog:** {{{reason}}} 
+       **Istječe:** {{{expires}}}
 msgInfo:
   buttons:
     message: Podaci o poruci
@@ -88,15 +88,15 @@ msgInfo:
        __{{{author}}}__ 
 
        **Poslano iz:** 
-       __ {{{server}}} __ 
+       __{{{server}}}__ 
 
-       ** ID poruke: ** 
-       __ {{messageId}} __ 
+       **ID poruke:** 
+       __{{messageId}}__ 
 
-       ** Poslano (Hub): ** 
+       **Poslano (Hub):** 
        __{{{hub}}}__ 
 
-       ** Stvorena poruka: ** 
+       **Stvorena poruka:** 
        {{{createdAt}}}
   server:
     description: |-
@@ -106,11 +106,11 @@ msgInfo:
        **Vlasnik:** 
        __{{{owner}}}__ 
 
-       ** stvoreno: ** 
-       __ {{{createdAtFull}}} ({{{createdAt}}}) __ 
+       **stvoreno:** 
+       __{{{createdAtFull}}} ({{{createdAt}}})__ 
 
-       ** Broj članova: ** 
-       __ {{memberCount}} __ 
+       **Broj članova:** 
+       __{{memberCount}}__ 
 
        **Pozvati:** 
        __{{{invite}}}__
@@ -122,28 +122,28 @@ msgInfo:
        **ISKAZNICA:** 
        __{{id}}__ 
 
-       ** stvoreno: ** 
+       **stvoreno:** 
        {{{createdAtFull}}} ({{{createdAt}}}) 
 
-       ** Naziv prikaza: ** 
-       __ {{{globalName}}} __ 
+       **Naziv prikaza:** 
+       __{{{globalName}}}__ 
 
-       ** U vlasništvu glavčine: ** 
-       __ {{hubsOwned}} __
+       **U vlasništvu glavčine:** 
+       __{{hubsOwned}}__
   report:
     notEnabled: '{{{emoji}}} Izvještavanje nije omogućeno za ovo središte.'
     success: '{{{emoji}}} Izvještaj je uspješno podnio. Hvala vam!'
 invite: |-
   Hvala vam što ste odlučili pozvati InterChat. Jednostavno kliknite gumb u nastavku da biste me pozvali! 
 
-   - ** Podrška poslužitelj: ** {{{support}}}
+   - **Podrška poslužitelj:** {{{support}}}
 connection:
   notFound: '{{{emoji}}} nevažeća veza. Provjerite ID kanala ili odaberite iz prikazanih opcija.'
   channelNotFound: '{{{emoji}}} Nije moguće pronaći povezani kanal. Da biste ponovo razgovarali odaberite novi kanal.'
   alreadyConnected: '{{{emoji}}} kanal {{{channel}}} već je povezan s glavčinom.'
   switchChannel: '{{{emoji}}} Odaberite kanal za prelazak na pomoću izbornika Select u nastavku:'
   switchCalled: '{{{emoji}}} prekidač kanala Pozvan, Pomoću naredbe ponovo pogledajte novu vezu.'
-  switchSuccess: '{{{emoji}}} Kanal je prebačen. Sada ste povezani s ** {{{channel}}} **.'
+  switchSuccess: '{{{emoji}}} Kanal je prebačen. Sada ste povezani s **{{{channel}}}**.'
   inviteRemoved: '{{{emoji}}} Poziv za pozvati uklonjeni za ovo središte.'
   inviteInvalid: '{{{emoji}}} nevažeći poziv. Molimo vas da ste unijeli valjanu pozivnicu.'
   inviteAdded: '{{{emoji}}} Poziv dodan. Ostali se sada mogu pridružiti ovom poslužitelju pomoću naredbe `Aplikacije> Informacije o porukama/izvještaj`.'
@@ -166,15 +166,15 @@ connection:
 hub:
   notFound: '{{{emoji}}} Nije moguće pronaći Hub. Molimo vas da ste unijeli ispravno ime Hub -a.'
   notFound_mod: '{{{emoji}}} Nije moguće pronaći Hub. Molimo vas da ste unijeli ispravno ime Hub -a i da ste vlasnik ili moderator središta.'
-  alreadyJoined: '{{{emoji}}} već ste se pridružili ** {{hub}} ** iz {{{channel}}}!'
+  alreadyJoined: '{{{emoji}}} već ste se pridružili **{{hub}}** iz {{{channel}}}!'
   invalidChannel: '{{{emoji}}} nevažeći kanal. Podržani su samo kanali teksta i niti!'
   invalidImgurUrl: '{{{emoji}}} nevažeća url slike za ikonu ili natpis. Obavezno unijeli valjani URL IMGUR slike koji nije galerija ili album.'
   join:
-    success: Uspješno pridruženi Hub ** {{hub}} ** iz {{{channel}}}! Upotrijebite `/Connection` za upravljanje vezom. I `/Hub ostavi` da napusti središte.
+    success: Uspješno pridruženi Hub **{{hub}}** iz {{{channel}}}! Upotrijebite `/Connection` za upravljanje vezom. I `/Hub ostavi` da napusti središte.
   servers:
-    total: 'Trenutni spojeni poslužitelji: {{from}}-{{to}} / ** {{total}} **'
+    total: 'Trenutni spojeni poslužitelji: {{from}}-{{to}} / **{{total}}**'
     noConnections: '{{{emoji}}} Nijedan poslužitelj još nije pridružio ovom čvorištu. Upotrijebite `/Hub pridruži se` da biste se pridružili ovom središtu.'
-    notConnected: '{{{emoji}}} da poslužitelj nije dio ** {{hub}} **.'
+    notConnected: '{{{emoji}}} da poslužitelj nije dio **{{hub}}**.'
     connectionInfo: |-
       Kanal: #{{{channelName}}} `({{channelId}})` 
        Pridruženo na: {{{joinedAt}}} 
@@ -201,26 +201,26 @@ hub:
     success: |-
       ### Hub stvoren! 
 
-       Čestitamo! Vaš privatni čvorište, ** {{name}} **, uspješno je stvoren. 
+       Čestitamo! Vaš privatni čvorište, **{{name}}**, uspješno je stvoren. 
        Da biste se pridružili, stvorite pozivnicu pomoću `/Hub pozivnice Create` i podijelite generirani kôd. Zatim se pridružite pomoću `/Hub Pridruživanje`. 
 
-       - ** Generirajte pozivnicu: ** `/Hub Poziv za stvaranje` 
-       - ** Idite u javnost: ** `/Hub Upravljanje` 
-       - ** Pridružite se Hub: ** `/Hub Pridruži se` 
-       - ** Uredi Hub: ** `/Hub Upravljanje` 
-       - ** Dodajte moderatore: ** `/Hub Moderator Add` 
+       - **Generirajte pozivnicu:** `/Hub Poziv za stvaranje` 
+       - **Idite u javnost:** `/Hub Upravljanje` 
+       - **Pridružite se Hub:** `/Hub Pridruži se` 
+       - **Uredi Hub:** `/Hub Upravljanje` 
+       - **Dodajte moderatore:** `/Hub Moderator Add` 
 
        Saznajte više o čvorištima u našem [vodiču] ({{{docs_link}}}). Za pomoć pridružite se [poslužitelj za podršku] ({{{support_invite}}}).
   delete:
-    confirm: Jeste li sigurni da želite izbrisati ** {{hub}} **? Ova je radnja nepovratna. Svi povezani poslužitelji, pozivnice i podaci poruka bit će uklonjeni iz ovog središta.
+    confirm: Jeste li sigurni da želite izbrisati **{{hub}}**? Ova je radnja nepovratna. Svi povezani poslužitelji, pozivnice i podaci poruka bit će uklonjeni iz ovog središta.
     ownerOnly: '{{{emoji}}} samo ga vlasnik ovog središta može izbrisati.'
-    success: '{{{emoji}}} Hub ** {{hub}} ** je izbrisan.'
+    success: '{{{emoji}}} Hub **{{hub}}** je izbrisan.'
     cancelled: '{{{emoji}}} Otkazano je delecija središta.'
   browse:
     joinConfirm: |-
       Jeste li sigurni da se želite pridružiti {{hub}} iz {{{channel}}}? 
           
-       ** Napomena: ** To uvijek možete kasnije promijeniti pomoću `/Connection`.
+       **Napomena:** To uvijek možete kasnije promijeniti pomoću `/Connection`.
     joinFooter: Želite koristiti drugi kanal? Upotrijebite padajući pad u nastavku.
     noHubs: '{{{emoji}}} Trenutno ovdje nisu navedeni čvorišta. Molimo pokušajte ponovo kasnije!'
     rating:
@@ -233,39 +233,39 @@ hub:
 
          Vaša je poziva uspješno stvorena. Drugi se sada mogu pridružiti ovom čvorištu pomoću naredbe `/Hub Join`. 
 
-         - ** Pridružite se koristeći: ** `/Hub Pridruživanje poziva: {{inviteCode}}` 
-         - ** View Poziva: ** `/Hub Pozivni popis` 
-         - ** ISKLJUČENO: ** {{{expiry}}} 
-         - ** koristi **: ∞ 
+         - **Pridružite se koristeći:** `/Hub Pridruživanje poziva: {{inviteCode}}` 
+         - **View Poziva:** `/Hub Pozivni popis` 
+         - **ISKLJUČENO:** {{{expiry}}} 
+         - **koristi**: ∞ 
 
          __LERN više o čvorištima u našem [vodiču] ({{{docs_link}}}) .__.
     revoke:
       invalidCode: '{{{emoji}} nevažeći pozivni kôd. Obavezno unijeli valjani pozivni kôd.'
       success: '{{{emoji}}} Poziv {{inviteCode}} oduzet.'
     list:
-      title: '** Pozovite kodove: **'
+      title: '**Pozovite kodove:**'
       noInvites: '{{{emoji}}} Ovo središte još nema pozivnice. Upotrijebite `/Hub Poziv za stvaranje" da biste ga stvorili.'
       notPrivate: '{{{emoji}}} samo privatni čvorišta mogu imati pozivnice. Upotrijebite `/Hub Manage` da biste ovo središte učinili privatnim.'
   joined:
     noJoinedHubs: '{{{emoji}}} Ovaj poslužitelj još nije spojio nijedno središte. Upotrijebite `/Hub Pregledajte` da biste pogledali popis čvorišta.'
-    joinedHubs: Ovaj je poslužitelj dio ** {{total}} ** Hub (s). Upotrijebite `/Hub Leave` da biste ostavili središte.
+    joinedHubs: Ovaj je poslužitelj dio **{{total}}** Hub (s). Upotrijebite `/Hub Leave` da biste ostavili središte.
   leave:
     noHub: '{{{emoji}}} da je kanal nevažeći ili nije spojio nijedno čvorište.'
-    confirm: Jeste li sigurni da želite napustiti ** {{hub}} ** iz {{{channel}}}? Više poruka neće biti poslano ovom poslužitelju s ovog središta.
+    confirm: Jeste li sigurni da želite napustiti **{{hub}}** iz {{{channel}}}? Više poruka neće biti poslano ovom poslužitelju s ovog središta.
     confirmFooter: Potvrdite pomoću gumba ispod u roku od 10 sekundi.
     success: '{{{emoji}}} napustio je čvorište iz {{{channel}}}. Više poruka neće biti poslano ovom poslužitelju s ovog središta. Možete se ponovno pridružiti pomoću `/Hub Pridruživanje`.'
   moderator:
     noModerators: '{{{emoji}}} Ovo središte još nema moderatora. Upotrijebite `/Hub moderator Dodaj` da biste dodali jedan.'
     add:
-      success: '{{{emoji}}} ** {{{user}}} ** dodan je kao moderator položaja ** {{position}} **.'
-      alreadyModerator: '{{{emoji}}} ** {{{user}}} ** je već moderator.'
+      success: '{{{emoji}}} **{{{user}}}** dodan je kao moderator položaja **{{position}}**.'
+      alreadyModerator: '{{{emoji}}} **{{{user}}}** je već moderator.'
     remove:
-      success: '{{{emoji}}} ** {{{user}}} ** uklonjen je kao moderator.'
-      notModerator: '{{{emoji}}} ** {{{user}}} ** nije moderator.'
+      success: '{{{emoji}}} **{{{user}}}** uklonjen je kao moderator.'
+      notModerator: '{{{emoji}}} **{{{user}}}** nije moderator.'
       notOwner: '{{{emoji}}} Samo vlasnik ovog čvorišta može ukloniti upravitelja.'
     update:
-      success: '{{{emoji}}} ** {{{user}}} ** pozicija je ažurirana na ** {{position}} **.'
-      notModerator: '{{{emoji}}} ** {{{user}}} ** nije moderator.'
+      success: '{{{emoji}}} **{{{user}}}** pozicija je ažurirana na **{{position}}**.'
+      notModerator: '{{{emoji}}} **{{{user}}}** nije moderator.'
       notAllowed: '{{{emoji}}} Samo upravitelji čvorišta mogu ažurirati položaj moderatora.'
       notOwner: '{{{emoji}}} Samo vlasnik ovog čvorišta može ažurirati položaj upravitelja.'
   manage:
@@ -297,7 +297,7 @@ hub:
         label: Promijenite natpis
         description: Promijenite transparent ovog središta.
     visibility:
-      success: '{{{emoji}}} Vidljivost središta uspješno promijenjena u ** {{{visibility}}} **.'
+      success: '{{{emoji}}} Vidljivost središta uspješno promijenjena u **{{{visibility}}}**.'
       selects:
         label: Promijenite vidljivost
         description: Učinite ovo središte javnim ili privatnim.
@@ -348,21 +348,21 @@ report:
   invalidUser: |-
     {{{emoji}}} Nisam mogao pronaći korisnika s tim ID -om. 
 
-     ** Da biste pronašli ID korisnika unutar mreže: ** 
+     **Da biste pronašli ID korisnika unutar mreže:** 
      {{{dot}}} Desnom tipkom miša kliknite poruku poslanu od korisnika u pitanju odaberite `Aplikacije> Informacije o poruci`. Molimo dvaput provjerite ID i pokušajte ponovo.
   invalidServer: |-
     {{{emoji}}} Nisam mogao pronaći poslužitelj s tim ID -om. 
 
-     ** Da biste pronašli ID poslužitelja unutar mreže: ** 
+     **Da biste pronašli ID poslužitelja unutar mreže:** 
      {{{dot}}} Desnom tipkom miša kliknite poruku koju je poslao dotični poslužitelj i odaberite `Aplikacije> Informacije o poruci/izvještaj`. Molimo dvaput provjerite ID i pokušajte ponovo.
-  submitted: Izvješće podneseno. Pridružite se ** [Podrška poslužitelju] ({{{support_invite}}}) ** da biste dobili ažuriranja u svom izvješću.
+  submitted: Izvješće podneseno. Pridružite se **[Podrška poslužitelju] ({{{support_invite}}})** da biste dobili ažuriranja u svom izvješću.
   bug:
     title: Izvješće o greškama
     affected: Pogođene komponente
     description: Odaberite s kojom komponentom bota suočite se s problemima.
     submitted: '{{{emoji}}} Izvještaj je uspješno podnio. Pridružite se {{{support_command}}} da biste dobili više detalja. Hvala vam!'
 language:
-  set: Jezični set! Sada ću vam odgovoriti u ** {{{lang}}} **.
+  set: Jezični set! Sada ću vam odgovoriti u **{{{lang}}}**.
 errors:
   messageNotSentOrExpired: '{{{emoji}}} Ova poruka nije poslana u središtu, istekla je ili vam nedostaje dopuštenja za obavljanje ove radnje.'
   notYourAction: '{{{emoji}}} oprosti, ne možete izvesti ovu radnju. Molim vas, pokrenite naredbu sami.'
@@ -379,15 +379,15 @@ errors:
   unknownNetworkMessage: '{{{emoji}}} nepoznata poruka. Ako je poslano u proteklih minuta, pričekajte još nekoliko sekundi i pokušajte ponovo.'
   userNotFound: '{{{emoji}}} korisnik nije pronađen. Pokušajte umjesto toga unijeti njihov ID.'
   blacklisted: '{{{emoji}}} vi ili ovaj poslužitelj je na crnoj listi od korištenja InterChat.'
-  userBlacklisted: '{{{emoji}}} Na crnoj listi ste iz ** {{hub}} **.'
-  serverBlacklisted: '{{{emoji}}} Ovaj je poslužitelj crne liste od ** {{hub}} **.'
+  userBlacklisted: '{{{emoji}}} Na crnoj listi ste iz **{{hub}}**.'
+  serverBlacklisted: '{{{emoji}}} Ovaj je poslužitelj crne liste od **{{hub}}**.'
   serverNotBlacklisted: '{{{emoji}}} Uneseni poslužitelj nije crna lista.'
   userNotBlacklisted: '{{{emoji}}} Uneseni korisnik nije crna lista.'
-  missingPermissions: '{{{emoji}}} nedostaju vam sljedeća dopuštenja za izvedbu ove radnje: ** {{{permissions}}} **'
-  botMissingPermissions: '{{{emoji}}} Molimo odobri mi sljedeće dozvole za nastavak: ** {{{permissions}}} **'
+  missingPermissions: '{{{emoji}}} nedostaju vam sljedeća dopuštenja za izvedbu ove radnje: **{{{permissions}}}**'
+  botMissingPermissions: '{{{emoji}}} Molimo odobri mi sljedeće dozvole za nastavak: **{{{permissions}}}**'
   unknown: '{{{emoji}}} Došlo je do nepoznate pogreške. Pokušajte ponovo kasnije ili nas kontaktirajte spajanjem našeg [Podrška poslužitelja] ({{{support_invite}}}).'
   notUsable: '{{{emoji}}} Ovo više nije upotrebljivo.'
-  cooldown: '{{{emoji}}} na hladnjaku. Molimo pričekajte ** {{{time}}} ** prije nego što pokušate ponovo.'
+  cooldown: '{{{emoji}}} na hladnjaku. Molimo pričekajte **{{{time}}}** prije nego što pokušate ponovo.'
 misc:
   noReason: Nijedan razlog.
   noDesc: Bez opisa.
