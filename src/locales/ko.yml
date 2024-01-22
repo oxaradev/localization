@@ -1,13 +1,13 @@
 rules: |-
   ### ch chat 네트워크 규칙 
 
-   1. ** 상식 사용 : ** 다른 사람과 그들의 견해를 배려하십시오. 비방, 극단적 인 멸시 언어 또는 채팅의 안락함을 방해 할 수있는 행동이 없습니다. 
-   2. ** 스팸 또는 홍수 없음 : ** 반복, 무의미하거나 지나치게 긴 메시지를 피하십시오. 
-   3. ** 비공개 문제를 비공개로 유지하십시오. ** 네트워크 전체에서 개인 정보를 공유하지 마십시오. 
-   4. ** 괴롭힘 없음 : ** 어떤 종류의 트롤링, 모욕 또는 괴롭힘은 용납되지 않습니다. 
-   5. ** NSFW/NSFL 컨텐츠 없음 : ** 명시 적 NSFW/NSFL 컨텐츠 게시로 인해 즉각적인 블랙리스트가 발생합니다. 
-   6. ** 민감한 주제를 존중하십시오 : ** 사소한 자해, 자살, 폭력 또는 기타 불쾌한 주제를 사소하지 마십시오. 
-   7. ** 보고서 문제 : **이 규칙 위반을 관찰하는 경우 추가 조치를 위해 적절한 허브 중재자 또는 chat 직원에게보고하십시오. 
+   1. **상식 사용 :** 다른 사람과 그들의 견해를 배려하십시오. 비방, 극단적 인 멸시 언어 또는 채팅의 안락함을 방해 할 수있는 행동이 없습니다. 
+   2. **스팸 또는 홍수 없음 :** 반복, 무의미하거나 지나치게 긴 메시지를 피하십시오. 
+   3. **비공개 문제를 비공개로 유지하십시오.** 네트워크 전체에서 개인 정보를 공유하지 마십시오. 
+   4. **괴롭힘 없음 :** 어떤 종류의 트롤링, 모욕 또는 괴롭힘은 용납되지 않습니다. 
+   5. **NSFW/NSFL 컨텐츠 없음 :** 명시 적 NSFW/NSFL 컨텐츠 게시로 인해 즉각적인 블랙리스트가 발생합니다. 
+   6. **민감한 주제를 존중하십시오 :** 사소한 자해, 자살, 폭력 또는 기타 불쾌한 주제를 사소하지 마십시오. 
+   7. **보고서 문제 :**이 규칙 위반을 관찰하는 경우 추가 조치를 위해 적절한 허브 중재자 또는 chat 직원에게보고하십시오. 
 
    질문이 있습니까? [support server] ({{{support_invite}}})에 가입하십시오.
 vote: |-
@@ -22,12 +22,12 @@ vote: |-
    우리는 당신의 흔들리지 않는 지원에 깊이 감사드립니다. 감사합니다! 🙏
 network:
   accountTooNew: '{{{emoji}}} {{{user}}} interchat을 사용하여 메시지를 보내기에는 너무 새롭습니다. 나중에 다시 시도 해주십시오.'
-  deleteSuccess: '{{{emoji}}} {{{user}}}의 메시지는 __ ** {{deleted}}/{{total}} ** __ 서버에서 삭제되었습니다.'
-  editSuccess: '{{{emoji}}} {{{user}}}의 메시지는 __ ** {{edited}}/{{total}} ** __ 서버에서 편집되었습니다.'
+  deleteSuccess: '{{{emoji}}} {{{user}}}의 메시지는 __**{{deleted}}/{{total}}**__ 서버에서 삭제되었습니다.'
+  editSuccess: '{{{emoji}}} {{{user}}}의 메시지는 __**{{edited}}/{{total}}**__ 서버에서 편집되었습니다.'
   welcome: |-
-    {{{user}}} ** {{hub}} **에 오신 것을 환영합니다! {{{emoji}}} 
+    {{{user}}} **{{hub}}**에 오신 것을 환영합니다! {{{emoji}}} 
 
-     {{{channel}}}에서 전송 된 메시지는 다른 서버와 공유되며 ** 손쉬운 커뮤니케이션 **를 활성화합니다. 평소와 같이 이미지, GIF, 답장, 반응 및 상호 작용을 공유 할 수 있습니다. 개인 정보를 공유하지 않도록하십시오 (확인 {{{rules_command}}}가 더 자세히 설명하십시오). 뛰어들 준비가 되셨습니까? 첫 번째 메시지를 보내서 대화에 참여하십시오!
+     {{{channel}}}에서 전송 된 메시지는 다른 서버와 공유되며 **손쉬운 커뮤니케이션**를 활성화합니다. 평소와 같이 이미지, GIF, 답장, 반응 및 상호 작용을 공유 할 수 있습니다. 개인 정보를 공유하지 않도록하십시오 (확인 {{{rules_command}}}가 더 자세히 설명하십시오). 뛰어들 준비가 되셨습니까? 첫 번째 메시지를 보내서 대화에 참여하십시오!
   nsfw:
     title: NSFW가 감지되었습니다
     description: 귀하의 메시지에서 {{predictions}} nsfw (작업에 안전하지 않음) 콘텐츠를 감지했습니다. 이것이 우리의 {{{rules_command}}}에 위배되며 즉각적인 블랙리스트를 초래할 것입니다.
@@ -38,7 +38,7 @@ network:
       description: |-
         물건을 정리하려면이 허브에만 별도의 채널을 사용하는 것이 좋습니다. 그러나 걱정하지 마십시오. 나중에 항상 변경할 수 있습니다. 
 
-         ** 작동 방식 : ** InterChat 네트워크는이 허브에있는 다른 서버의 채널을 연결하는 Magic Bridge와 같습니다. [안내서] ({{{docs_link}}})에서 자세히 알아보십시오.
+         **작동 방식 :** InterChat 네트워크는이 허브에있는 다른 서버의 채널을 연결하는 Magic Bridge와 같습니다. [안내서] ({{{docs_link}}})에서 자세히 알아보십시오.
       footer: 인터 체트 네트워크 | Version {{version}}
     inProgress: '{{{channel}}}에서 이미 허브에 합류하려는 시도가 이미있었습니다. 취소하거나 완료 될 때까지 기다리십시오.'
 blacklist:
@@ -53,27 +53,27 @@ blacklist:
       label: 지속
       placeholder: '블랙리스트의 지속 시간. 예 : 1d, 1w, 1m, 1y. 영구적으로 비워 두십시오.'
   user:
-    success: '{{{emoji}}} ** {{username}} **가 성공적으로 블랙리스트되었습니다!'
-    removed: '{{{emoji}}} ** {{username}} ** 블랙리스트에서 제거되었습니다!'
+    success: '{{{emoji}}} **{{username}}**가 성공적으로 블랙리스트되었습니다!'
+    removed: '{{{emoji}}} **{{username}}** 블랙리스트에서 제거되었습니다!'
     alreadyBlacklisted: '{{{emoji}}}이 사용자는 이미 블랙리스트에 있습니다.'
     easterEggs:
       blacklistBot: 당신은 나를 블랙리스트 할 수 없습니다.
   server:
-    success: '{{{emoji}}} ** {{server}} **가 성공적으로 블랙리스트되었습니다!'
-    removed: '{{{emoji}}} ** {{server}} ** 블랙리스트에서 제거되었습니다!'
+    success: '{{{emoji}}} **{{server}}**가 성공적으로 블랙리스트되었습니다!'
+    removed: '{{{emoji}}} **{{server}}** 블랙리스트에서 제거되었습니다!'
     alreadyBlacklisted: '{{{emoji}}}이 서버는 이미 블랙리스트에 있습니다.'
-    unknownError: 블랙리스트에 실패 ** {{server}} **. 자세한 내용은 개발자에게 문의하십시오.
+    unknownError: 블랙리스트에 실패 **{{server}}**. 자세한 내용은 개발자에게 문의하십시오.
   list:
     user: |-
-      ** userId : ** {{userId}} 
-       ** 중재자 : ** {{moderator}} 
-       ** 이유 : ** {{{reason}}} 
-       ** 만료 : ** {{expires}}
+      **userId :** {{userId}} 
+       **중재자 :** {{moderator}} 
+       **이유 :** {{{reason}}} 
+       **만료 :** {{expires}}
     server: |-
-      ** serverID : ** {{serverId}} 
-       ** 중재자 : ** {{moderator}} 
-       ** 이유 : ** {{{reason}}} 
-       ** 만료 : ** {{{expires}}}
+      **serverID :** {{serverId}} 
+       **중재자 :** {{moderator}} 
+       **이유 :** {{{reason}}} 
+       **만료 :** {{{expires}}}
 msgInfo:
   buttons:
     message: 메시지 정보
@@ -90,13 +90,13 @@ msgInfo:
        **부터 보내진:** 
        __{{{server}}}__ 
 
-       ** 메시지 ID : ** 
-       __ {{messageId}} __ 
+       **메시지 ID :** 
+       __{{messageId}}__ 
 
-       ** 보낸 (허브) : ** 
+       **보낸 (허브) :** 
        __{{{hub}}}__ 
 
-       ** 작성된 메시지 : ** 
+       **작성된 메시지 :** 
        {{{createdAt}}}
   server:
     description: |-
@@ -107,10 +107,10 @@ msgInfo:
        __{{{owner}}}__ 
 
        **만들어진:** 
-       __ {{{createdAtFull}}} ({{{createdAt}}}) __ 
+       __{{{createdAtFull}}} ({{{createdAt}}})__ 
 
-       ** 회원 수 : ** 
-       __ {{memberCount}} __ 
+       **회원 수 :** 
+       __{{memberCount}}__ 
 
        **초대하다:** 
        __{{{invite}}}__
@@ -126,24 +126,24 @@ msgInfo:
        {{{createdAtFull}}} ({{{createdAt}}}) 
 
        **이름 표시하기:** 
-       __ {{{globalName}}} __ 
+       __{{{globalName}}}__ 
 
-       ** 허브 소유 : ** 
-       __ {{hubsOwned}} __
+       **허브 소유 :** 
+       __{{hubsOwned}}__
   report:
     notEnabled: 이 허브에 대해 {{{emoji}}}보고가 활성화되지 않았습니다.
     success: '{{{emoji}}} 보고서가 성공적으로 제출되었습니다. 감사합니다!'
 invite: |-
   InterChat 초대를 선택해 주셔서 감사합니다. 아래 버튼을 클릭하여 나를 초대하십시오! 
 
-   - ** 지원 서버 : ** {{{support}}}
+   - **지원 서버 :** {{{support}}}
 connection:
   notFound: '{{{emoji}}} 잘못된 연결. 채널 ID를 확인하거나 표시된 옵션에서 선택하십시오.'
   channelNotFound: '{{{emoji}}} 연결된 채널을 찾을 수 없습니다. 다시 이야기하려면 새 채널을 선택하십시오.'
   alreadyConnected: '{{{emoji}}} 채널 {{{channel}}}은 이미 허브에 연결되어 있습니다.'
   switchChannel: '{{{emoji}}} 아래 선택 메뉴를 사용하여 전환 할 채널을 선택하십시오.'
   switchCalled: '{{{emoji}}} 채널 스위치 호출 된 채널 스위치는 명령을 다시 사용하여 새 연결을보십시오.'
-  switchSuccess: '{{{emoji}}} 채널이 전환되었습니다. 이제 ** {{{channel}}} **에서 연결되었습니다.'
+  switchSuccess: '{{{emoji}}} 채널이 전환되었습니다. 이제 **{{{channel}}}**에서 연결되었습니다.'
   inviteRemoved: '{{{emoji}}} 서버 초대장은이 허브에 제거되었습니다.'
   inviteInvalid: '{{{emoji}}} 잘못된 초대. 유효한 초대 링크를 입력했는지 확인하십시오.'
   inviteAdded: '{{{emoji}}} 초대 추가. 다른 사람들은 이제`apps> message info/report` 명령을 사용 하여이 서버에 가입 할 수 있습니다.'
@@ -166,15 +166,15 @@ connection:
 hub:
   notFound: '{{{emoji}}} 허브를 찾을 수 없습니다. 올바른 허브 이름을 입력했는지 확인하십시오.'
   notFound_mod: '{{{emoji}}} 허브를 찾을 수 없습니다. 올바른 허브 이름을 입력하고 허브의 소유자 또는 중재자인지 확인하십시오.'
-  alreadyJoined: '{{{emoji}}} 이미 {{hub}}에서 이미 ** {{{channel}}} **에 합류했습니다!'
+  alreadyJoined: '{{{emoji}}} 이미 {{hub}}에서 이미 **{{{channel}}}**에 합류했습니다!'
   invalidChannel: '{{{emoji}}} 잘못된 채널. 텍스트 및 스레드 채널 만 지원됩니다!'
   invalidImgurUrl: '{{{emoji}}} 아이콘 또는 배너의 잘못된 이미지 URL. 갤러리 나 앨범이 아닌 유효한 Imgur 이미지 URL을 입력했는지 확인하십시오.'
   join:
-    success: '{{hub}}에서 Hub ** {{{channel}}} **에 성공적으로 합류했습니다! `/connection ''을 사용하여 연결을 관리하십시오. 그리고`/허브가 허브를 떠나기 위해.'
+    success: '{{hub}}에서 Hub **{{{channel}}}**에 성공적으로 합류했습니다! `/connection ''을 사용하여 연결을 관리하십시오. 그리고`/허브가 허브를 떠나기 위해.'
   servers:
-    total: '현재 연결된 서버 : {{from}}-{{to}} / ** {{total}} **'
+    total: '현재 연결된 서버 : {{from}}-{{to}} / **{{total}}**'
     noConnections: '{{{emoji}}} 서버는 아직이 허브에 가입하지 않았습니다. `/hub join`을 사용 하여이 허브에 가입하십시오.'
-    notConnected: '{{{emoji}}} 그 서버는 ** {{hub}} **의 일부가 아닙니다.'
+    notConnected: '{{{emoji}}} 그 서버는 **{{hub}}**의 일부가 아닙니다.'
     connectionInfo: |-
       채널 : #{{{channelName}}}`({{channelId}})` 
        가입 : {{{joinedAt}}} 
@@ -201,26 +201,26 @@ hub:
     success: |-
       ### 허브가 만들어졌습니다! 
 
-       축하해요! 개인 허브 ** {{name}} **가 성공적으로 만들어졌습니다. 
+       축하해요! 개인 허브 **{{name}}**가 성공적으로 만들어졌습니다. 
        가입하려면`/hub 초대장 작성 '을 사용하여 초대장을 만들고 생성 된 코드를 공유하십시오. 그런 다음`/hub join '을 사용하여 조인하십시오. 
 
-       - ** 초대 생성 : **`/Hub Invite Create` 
-       - ** 공개 : **`/Hub Manage` 
-       - ** 가입 허브 : **`/허브 조인` 
-       - ** 허브 편집 : **`/Hub Manage` 
-       - ** 중재자 추가 : **`/허브 중재자 Add` 
+       - **초대 생성 :**`/Hub Invite Create` 
+       - **공개 :**`/Hub Manage` 
+       - **가입 허브 :**`/허브 조인` 
+       - **허브 편집 :**`/Hub Manage` 
+       - **중재자 추가 :**`/허브 중재자 Add` 
 
        허브에 대한 자세한 내용은 [안내서] ({{{docs_link}}})에서 자세히 알아보십시오. 도움을 받으려면 [support server] ({{{support_invite}}})에 가입하십시오.
   delete:
-    confirm: '** {{hub}} ** 삭제 하시겠습니까? 이 조치는 돌이킬 수 없습니다. 모든 연결된 서버, 초대 및 메시지 데이터 가이 허브에서 제거됩니다.'
+    confirm: '**{{hub}}** 삭제 하시겠습니까? 이 조치는 돌이킬 수 없습니다. 모든 연결된 서버, 초대 및 메시지 데이터 가이 허브에서 제거됩니다.'
     ownerOnly: '{{{emoji}}}이 허브의 소유자만이이를 삭제할 수 있습니다.'
-    success: '{{{emoji}}} hub ** {{hub}} **가 삭제되었습니다.'
+    success: '{{{emoji}}} hub **{{hub}}**가 삭제되었습니다.'
     cancelled: '{{{emoji}}} 허브 삭제가 취소되었습니다.'
   browse:
     joinConfirm: |-
       {{hub}}에서 {{{channel}}}에 가입 하시겠습니까? 
           
-       ** 참고 : **`/connection '을 사용하여 나중에 항상 변경할 수 있습니다.
+       **참고 :**`/connection '을 사용하여 나중에 항상 변경할 수 있습니다.
     joinFooter: 다른 채널을 사용하고 싶습니까? 아래의 드롭 다운을 사용하십시오.
     noHubs: '{{{emoji}}} 현재 여기에 나열된 허브가 없습니다. 나중에 다시 시도 해주십시오!'
     rating:
@@ -234,38 +234,38 @@ hub:
          귀하의 초대가 성공적으로 만들어졌습니다. 다른 사람들은 이제`/hub join '명령을 사용 하여이 허브에 가입 할 수 있습니다. 
 
          - ** 조인 
-         - ** 초대보기 : **/허브 초대 목록 ' 
-         - ** 만료 : ** {{inviteCode}} 
-         - ** 사용 ** : ∞ 
+         - **초대보기 :**/허브 초대 목록 ' 
+         - **만료 :** {{inviteCode}} 
+         - **사용** : ∞ 
 
          __ [안내서] ({{{expiry}}})에서 허브에 대해 자세히 설명하십시오.
     revoke:
       invalidCode: '{{{emoji}} 잘못된 초대 코드. 유효한 초대 코드를 입력했는지 확인하십시오.'
       success: '{{{emoji}}} 초대 {{inviteCode}}이 취소되었습니다.'
     list:
-      title: '** 코드 초대 : **'
+      title: '**코드 초대 :**'
       noInvites: '{{{emoji}}}이 허브에는 아직 초대가 없습니다. `/hub 초대장을 사용하여 만들기 위해 생성을 사용하십시오.'
       notPrivate: '{{{emoji}}} 개인 허브 만 초대 할 수 있습니다. `/hub manage`를 사용 하여이 허브를 비공개로 만듭니다.'
   joined:
     noJoinedHubs: '{{{emoji}}}이 서버는 아직 허브에 가입하지 않았습니다. 허브 목록을 보려면`/허브 브라우즈`을 사용하십시오.'
-    joinedHubs: 이 서버는 ** {{total}} ** 허브의 일부입니다. 허브를 떠나려면`/Hub Leave`를 사용하십시오.
+    joinedHubs: 이 서버는 **{{total}}** 허브의 일부입니다. 허브를 떠나려면`/Hub Leave`를 사용하십시오.
   leave:
     noHub: '{{{emoji}}} 해당 채널이 유효하지 않거나 허브에 가입하지 않았습니다.'
-    confirm: '{{hub}}에서 ** {{{channel}}} **를 떠나고 싶습니까? 이 허브에서 더 이상 메시지 가이 서버로 전송되지 않습니다.'
+    confirm: '{{hub}}에서 **{{{channel}}}**를 떠나고 싶습니까? 이 허브에서 더 이상 메시지 가이 서버로 전송되지 않습니다.'
     confirmFooter: 10 초 이내에 아래 버튼을 사용하여 확인하십시오.
     success: '{{{emoji}}}은 {{{channel}}}에서 허브를 남겼습니다. 이 허브에서 더 이상 메시지 가이 서버로 전송되지 않습니다. `/hub join ''을 사용하여 다시 합류 할 수 있습니다.'
   moderator:
     noModerators: '{{{emoji}}}이 허브에는 아직 중재자가 없습니다. `/hub moderator add`를 사용하여 하나를 추가하십시오.'
     add:
-      success: '{{{emoji}}} ** {{{user}}} ** 위치 ** {{position}} **의 중재자로 추가되었습니다.'
-      alreadyModerator: '{{{emoji}}} ** {{{user}}} **는 이미 중재자입니다.'
+      success: '{{{emoji}}} **{{{user}}}** 위치 **{{position}}**의 중재자로 추가되었습니다.'
+      alreadyModerator: '{{{emoji}}} **{{{user}}}**는 이미 중재자입니다.'
     remove:
-      success: '{{{emoji}}} ** {{{user}}} **는 중재자로 제거되었습니다.'
-      notModerator: '{{{emoji}}} ** {{{user}}} **는 중재자가 아닙니다.'
+      success: '{{{emoji}}} **{{{user}}}**는 중재자로 제거되었습니다.'
+      notModerator: '{{{emoji}}} **{{{user}}}**는 중재자가 아닙니다.'
       notOwner: '{{{emoji}}}이 허브의 소유자만이 관리자를 제거 할 수 있습니다.'
     update:
-      success: '{{{emoji}}} ** {{{user}}} **의 위치는 ** {{position}} **로 업데이트되었습니다.'
-      notModerator: '{{{emoji}}} ** {{{user}}} **는 중재자가 아닙니다.'
+      success: '{{{emoji}}} **{{{user}}}**의 위치는 **{{position}}**로 업데이트되었습니다.'
+      notModerator: '{{{emoji}}} **{{{user}}}**는 중재자가 아닙니다.'
       notAllowed: '{{{emoji}}} 허브 관리자 만 중재자의 위치를 업데이트 할 수 있습니다.'
       notOwner: '{{{emoji}}}이 허브의 소유자만이 관리자의 위치를 업데이트 할 수 있습니다.'
   manage:
@@ -297,7 +297,7 @@ hub:
         label: 배너를 변경하십시오
         description: 이 허브의 배너를 변경하십시오.
     visibility:
-      success: '{{{emoji}}} 허브 가시성은 ** {{{visibility}}} **로 성공적으로 변경되었습니다.'
+      success: '{{{emoji}}} 허브 가시성은 **{{{visibility}}}**로 성공적으로 변경되었습니다.'
       selects:
         label: 가시성 변경
         description: 이 허브를 공개 또는 개인으로 만드십시오.
@@ -348,21 +348,21 @@ report:
   invalidUser: |-
     {{{emoji}}} 해당 ID가있는 사용자를 찾을 수 없었습니다. 
 
-     ** 네트워크 내에서 사용자의 ID를 찾으려면 : ** 
+     **네트워크 내에서 사용자의 ID를 찾으려면 :** 
      {{{dot}}} 해당 사용자에게 보내진 메시지를 마우스 오른쪽 버튼으로 클릭하십시오.`apps> 메시지 정보 '를 선택하십시오. ID를 다시 확인하고 다시 시도하십시오.
   invalidServer: |-
     {{{emoji}}} 해당 ID가있는 서버를 찾을 수 없었습니다. 
 
-     ** 네트워크 내에서 서버 ID를 찾으려면 : ** 
+     **네트워크 내에서 서버 ID를 찾으려면 :** 
      {{{dot}}} 해당 서버에서 보낸 메시지를 마우스 오른쪽 버튼으로 클릭하고`apps> 메시지 정보/보고서 '를 선택하십시오. ID를 다시 확인하고 다시 시도하십시오.
-  submitted: 제출 된 보고서. ** [support server] ({{{support_invite}}}) **에 가입하여 보고서에서 업데이트를 받으십시오.
+  submitted: 제출 된 보고서. **[support server] ({{{support_invite}}})**에 가입하여 보고서에서 업데이트를 받으십시오.
   bug:
     title: 버그 보고서
     affected: 영향을받는 구성 요소
     description: 문제에 직면 한 봇의 구성 요소를 선택하십시오.
     submitted: '{{{emoji}}} 보고서가 성공적으로 제출되었습니다. 자세한 내용은 {{{support_command}}}에 가입하십시오. 감사합니다!'
 language:
-  set: 언어 세트! 나는 이제 ** {{{lang}}} **에서 당신에게 응답 할 것입니다.
+  set: 언어 세트! 나는 이제 **{{{lang}}}**에서 당신에게 응답 할 것입니다.
 errors:
   messageNotSentOrExpired: '{{{emoji}}}이 메시지는 허브로 전송되지 않았거나 만료 되었거나이 작업을 수행 할 권한이 부족합니다.'
   notYourAction: '{{{emoji}}} 죄송합니다.이 작업을 수행 할 수 없습니다. 직접 명령을 실행하십시오.'
@@ -379,15 +379,15 @@ errors:
   unknownNetworkMessage: '{{{emoji}}} 알 수없는 메시지. 지난 순간에 전송 된 경우 몇 초 더 기다렸다가 다시 시도하십시오.'
   userNotFound: '{{{emoji}}} 사용자를 찾을 수 없습니다. 대신 ID를 입력 해보십시오.'
   blacklisted: '{{{emoji}}} 귀하 또는이 서버는 InterChat을 사용하여 블랙리스트로 표시됩니다.'
-  userBlacklisted: '{{{emoji}}} 당신은 ** {{hub}} **에서 블랙리스트에 있습니다.'
-  serverBlacklisted: '{{{emoji}}}이 서버는 ** {{hub}} **에서 블랙리스트에 올랐습니다.'
+  userBlacklisted: '{{{emoji}}} 당신은 **{{hub}}**에서 블랙리스트에 있습니다.'
+  serverBlacklisted: '{{{emoji}}}이 서버는 **{{hub}}**에서 블랙리스트에 올랐습니다.'
   serverNotBlacklisted: '{{{emoji}}} 입력 된 서버는 블랙리스트가 아닙니다.'
   userNotBlacklisted: '{{{emoji}}} 입력 된 사용자는 블랙리스트가 아닙니다.'
-  missingPermissions: '{{{emoji}}}이 조치를 수행 할 다음 권한이 없습니다. ** {{{permissions}}} **'
-  botMissingPermissions: '{{{emoji}}} 계속할 수있는 다음 권한을 부여하십시오 : ** {{{permissions}}} **'
+  missingPermissions: '{{{emoji}}}이 조치를 수행 할 다음 권한이 없습니다. **{{{permissions}}}**'
+  botMissingPermissions: '{{{emoji}}} 계속할 수있는 다음 권한을 부여하십시오 : **{{{permissions}}}**'
   unknown: '{{{emoji}}} 알 수없는 오류가 발생했습니다. 나중에 다시 시도하거나 [support server] ({{{support_invite}}})에 가입하여 저희에게 연락하십시오.'
   notUsable: '{{{emoji}}} 더 이상 사용할 수 없습니다.'
-  cooldown: '{{{emoji}}} 당신은 재사용 대기 시간에 있습니다. 다시 시도하기 전에 ** {{{time}}} **를 기다리십시오.'
+  cooldown: '{{{emoji}}} 당신은 재사용 대기 시간에 있습니다. 다시 시도하기 전에 **{{{time}}}**를 기다리십시오.'
 misc:
   noReason: 제공된 이유가 없습니다.
   noDesc: 설명이 없습니다.

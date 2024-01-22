@@ -510,11 +510,27 @@ const formatString = (original: string, destination: string) => {
 
 	let i = 0;
 
-	return destination.replace(/[{|"](.*?)[}|"]+/gi, () => {
+	let result = destination.replaceAll(/[{|"](.*?)[}|"]+/gi, () => {
 		const result = originalVars?.[i] ?? '';
 		i++;
 		return result;
 	});
+
+	const pairs = ['**', '__'];
+
+	pairs.forEach((p) => {
+		const scapedPair = p
+			.split('')
+			.map((sp) => `\\${sp}`)
+			.join('');
+
+		result = result.replaceAll(
+			new RegExp(`${scapedPair}(.*?)${scapedPair}`, 'gi'),
+			(_, b) => `${p}${b.trim()}${p}`,
+		);
+	});
+
+	return result;
 };
 
 main().catch(() => null);
