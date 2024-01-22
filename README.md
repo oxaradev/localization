@@ -58,8 +58,6 @@ We appreciate contributions! If you'd like to add support for a new language or 
 
 <p align="center"><image src="https://i.imgur.com/jjLpmXX.png" alt="Discord-InterChat Translation Service - Made by tnfAngel and LautyDev" width="800px"></p>
 
-- NOTE: It is possible that in some cases unwanted spaces may be created in the translations, this cannot be avoided because this is how the Google Translator works, these spaces can be removed by hand anyway and the program will not touch them. (Working on a fix)
-
 ## Contact
 
 If you have any questions or suggestions, feel free to open an issue or join our official [discord server](https://interchat.fun/support).
