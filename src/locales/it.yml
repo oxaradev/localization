@@ -7,30 +7,30 @@ rules: |-
    4. ** Nessun molestia: ** Trolling, insulti o molestie di qualsiasi tipo non sono tollerati. 
    5. ** Nessun contenuto NSFW/NSFL: ** La pubblicazione del contenuto NSFW/NSFL esplicito comporterà una lista nera immediata. 
    6. ** Rispetta gli argomenti sensibili: ** Non banalizzare l'autolesionismo, il suicidio, la violenza o altri argomenti offensivi. 
-   7. ** Segnala preoccupazione: ** Se si osserva una violazione di queste regole, segnalarlo al moderatore dell'hub appropriato o al personale di Interchat per ulteriori azioni. 
+   7. ** Segnala preoccupazione: ** Se si osserva una violazione di queste regole, segnalarlo al moderatore dell'hub appropriato o al personale di InterChat per ulteriori azioni. 
 
    Qualsiasi domanda? Unisciti al nostro [Support Server] ({{{support_invite}}}).
 vote: |-
   ## 🗳️ Vota per l'interchat e goditi i vantaggi esclusivi 
-   Il tuo contributo è prezioso per elevare la posizione di Interchat in cima.gg. Ogni voto fa una differenza significativa! 
+   Il tuo contributo è prezioso per elevare la posizione di InterChat in cima.gg. Ogni voto fa una differenza significativa! 
 
-   Come modo di esprimere gratitudine per il tuo supporto, siamo entusiasti di offrirti vantaggi esclusivi. Distribuendo il tuo voto per Interchat, sbloccherai: 
+   Come modo di esprimere gratitudine per il tuo supporto, siamo entusiasti di offrirti vantaggi esclusivi. Distribuendo il tuo voto per InterChat, sbloccherai: 
 
    - Modifica messaggi all'interno degli hub 
    - Traduzione dei messaggi (e molto altro in arrivo!) 
 
    Apprezziamo profondamente il tuo sostegno incrollabile. Grazie! 🙏
 network:
-  accountTooNew: '<: No: 977600033740431410> {{{user}}} Il tuo account è troppo nuovo per inviare messaggi nell''Interchat. Per favore riprova più tardi.'
+  accountTooNew: '{{{emoji}}} {{{user}}} Il tuo account è troppo nuovo per inviare messaggi utilizzando InterChat. Per favore riprova più tardi.'
   deleteSuccess: '{{{emoji}}} Messaggio di {{{user}}} è stato eliminato da __ ** {{deleted}}/{{total}} ** __ server.'
   editSuccess: '{{{emoji}}} Messaggio di {{{user}}} è stato modificato in __ ** {{edited}}/{{total}} ** __ server.'
   welcome: |-
-    {{{user}}} benvenuto a ** {{hub}} **! <A: Wave: 1185520281134055446> 
+    {{{user}}} benvenuto a ** {{hub}} **! {{{emoji}}} 
 
-     I messaggi inviati in {{{channel}}} saranno condivisi con altri server, ** abilitando la comunicazione senza sforzo **. Puoi condividere immagini, GIF, rispondere, reagire e interagire con i messaggi come faresti normalmente. Ricorda solo di evitare di condividere informazioni personali (controlla </regole: 924659340898619395> per ulteriori informazioni). Pronto a saltare? Invia il tuo primo messaggio e unisciti alla conversazione!
+     I messaggi inviati in {{{channel}}} saranno condivisi con altri server, ** abilitando la comunicazione senza sforzo **. Puoi condividere immagini, GIF, rispondere, reagire e interagire con i messaggi come faresti normalmente. Ricorda solo di evitare di condividere informazioni personali (controlla {{{rules_command}}} per ulteriori informazioni). Pronto a saltare? Invia il tuo primo messaggio e unisciti alla conversazione!
   nsfw:
     title: NSFW rilevato
-    description: 'Ho rilevato {{predictions}} nsfw (non sicuro per lavoro) contenuto nel tuo messaggio. Si prega di essere consapevoli del fatto che questo è contro le nostre </ Regole: 924659340898619395> e comporterà una lista nera immediata.'
+    description: Ho rilevato {{predictions}} nsfw (non sicuro per lavoro) contenuto nel tuo messaggio. Si prega di essere consapevoli che questo è contro il nostro {{{rules_command}}} e si tradurrà in una blacklist immediata.
     footer: Si prega di essere consapevoli che l'IA non è perfetta e può commettere errori. Ci scusiamo per qualsiasi inconveniente causato.
   onboarding:
     embed:
@@ -38,7 +38,7 @@ network:
       description: |-
         Per organizzare le cose, si consiglia di utilizzare un canale separato solo per questo hub. Ma non preoccuparti, puoi sempre cambiarlo in seguito. 
 
-         ** Come funziona: ** La rete Interchat è come un ponte magico che collega i canali su diversi server che sono con noi in questo hub. Ulteriori informazioni sulla nostra [Guida] (https://discord-interchat.github.io/docs).
+         ** Come funziona: ** La rete InterChat è come un ponte magico che collega i canali su diversi server che sono con noi in questo hub. Ulteriori informazioni sulla nostra [guida] ({{{docs_link}}}).
       footer: Rete interchat | Version {{version}}
     inProgress: C'è già stato un tentativo di unirsi a un hub da {{{channel}}}. Si prega di annullarlo o attendere che sia completato.
 blacklist:
@@ -55,13 +55,13 @@ blacklist:
   user:
     success: '{{{emoji}}} ** {{username}} ** è stato correttamente blacklist!'
     removed: '{{{emoji}}} ** {{username}} ** è stato rimosso dalla blacklist!'
-    alreadyBlacklisted: '<: NO: 977600033740431410> Questo utente è già nella lista nera.'
+    alreadyBlacklisted: '{{{emoji}}} Questo utente è già nella lista nera.'
     easterEggs:
       blacklistBot: Non puoi blacklist me wtf.
   server:
     success: '{{{emoji}}} ** {{server}} ** è stato correttamente nella lista nera!'
     removed: '{{{emoji}}} ** {{server}} ** è stato rimosso dalla lista nera!'
-    alreadyBlacklisted: '<: NO: 977600033740431410> Questo server è già nella lista nera.'
+    alreadyBlacklisted: '{{{emoji}}} Questo server è già nella lista nera.'
     unknownError: Impossibile a blacklist ** {{server}} **. Informati con gli sviluppatori per ulteriori informazioni.
   list:
     user: |-
@@ -97,7 +97,7 @@ msgInfo:
        __{{{hub}}}__ 
 
        ** Messaggio creato: ** 
-       <t: {{{createdAt}}}: r>
+       {{{createdAt}}}
   server:
     description: |-
       ## {{{server}}} 
@@ -107,7 +107,7 @@ msgInfo:
        __{{{owner}}}__ 
 
        **Creato:** 
-       __ <t: {{createdAt}}: d> (<t: {{createdAt}}: r>) __ 
+       __ {{{createdAtFull}}} ({{{createdAt}}}) __ 
 
        **Conte membro:** 
        __{{memberCount}}__ 
@@ -123,7 +123,7 @@ msgInfo:
        __{{id}}__ 
 
        **Creato:** 
-       <t: {{createdAt}}: d> (<t: {{createdAt}}: r>) 
+       {{{createdAtFull}}} ({{{createdAt}}}) 
 
        **Nome da visualizzare:** 
        __ {{{globalName}}} __ 
@@ -131,23 +131,23 @@ msgInfo:
        ** Hub di proprietà: ** 
        __ {{hubsOwned}} __
   report:
-    notEnabled: '<: NO: 977600033740431410> La segnalazione non è abilitata per questo hub.'
+    notEnabled: '{{{emoji}}} Reporting non è abilitato per questo hub.'
     success: '{{{emoji}}} Rapporto inviato correttamente. Grazie!'
 invite: |-
-  Grazie per aver scelto di invitare Interchat. Basta fare clic sul pulsante in basso per invitarmi! 
+  Grazie per aver scelto di invitare InterChat. Basta fare clic sul pulsante in basso per invitarmi! 
 
    - ** Server di supporto: ** {{{support}}}
 connection:
-  notFound: '<: NO: 977600033740431410> Connessione non valida. Verificare l''ID canale o selezionare dalle opzioni visualizzate.'
-  channelNotFound: '<: NO: 977600033740431410> Impossibile trovare il canale connesso. Per parlare di nuovo scegli un nuovo canale.'
-  alreadyConnected: '<: No: 977600033740431410> canale {{{channel}}} è già collegato a un hub.'
-  switchChannel: '{{{emoji}}} Seleziona un canale per passare all''utilizzo del menu Seleziona sotto:'
+  notFound: '{{{emoji}}} connessione non valida. Verificare l''ID canale o selezionare dalle opzioni visualizzate.'
+  channelNotFound: '{{{emoji}}} Impossibile trovare il canale connesso. Per parlare di nuovo scegli un nuovo canale.'
+  alreadyConnected: '{{{emoji}}} canale {{{channel}}} è già collegato a un hub.'
+  switchChannel: '{{{emoji}}} Seleziona un canale per passare all''utilizzo del menu Seleziona in basso:'
   switchCalled: '{{{emoji}}} switch canale chiamato, usa nuovamente il comando per visualizzare la nuova connessione.'
   switchSuccess: '{{{emoji}}} Canale commutato. Ora sei connesso da ** {{{channel}}} **.'
   inviteRemoved: '{{{emoji}}} Invito server rimosso per questo hub.'
-  inviteInvalid: '<: NO: 977600033740431410> Invito non valido. Assicurati di aver inserito un link di invito valido.'
+  inviteInvalid: '{{{emoji}}} invito non valido. Assicurati di aver inserito un link di invito valido.'
   inviteAdded: '{{{emoji}}} invito aggiunto. Altri possono ora unirsi a questo server utilizzando il comando `apps> Message Info/Report".'
-  emColorInvalid: '<: NO: 977600033740431410> Colore non valido. Assicurati di aver inserito un codice di colore esagonale valido.'
+  emColorInvalid: '{{{emoji}}} colore non valido. Assicurati di aver inserito un codice di colore esagonale valido.'
   emColorChange: '{{{emoji}}} incorporare il colore correttamente {{{action}}}'
   embed:
     title: Dettagli di connessione
@@ -164,17 +164,17 @@ connection:
   selects:
     placeholder: 🛠️ Seleziona un'opzione di seguito per gestire la connessione.
 hub:
-  notFound: '<: NO: 977600033740431410> Impossibile trovare un hub. Assicurati di aver inserito il nome dell''hub corretto.'
-  notFound_mod: '<: NO: 977600033740431410> Impossibile trovare un hub. Assicurati di aver inserito il nome dell''hub corretto e che tu sia il proprietario o un moderatore dell''hub.'
-  alreadyJoined: '<: No: 977600033740431410> Ti sei già unito ** {{hub}} ** da {{{channel}}}!'
-  invalidChannel: '<: NO: 977600033740431410> Canale non valido. Sono supportati solo i canali di testo e thread!'
-  invalidImgurUrl: '<: NO: 977600033740431410> URL di immagine non valida per icona o banner. Assicurati di aver inserito un URL di immagine imgur valida che non è una galleria o un album.'
+  notFound: '{{{emoji}}} impossibile trovare hub. Assicurati di aver inserito il nome dell''hub corretto.'
+  notFound_mod: '{{{emoji}}} impossibile trovare hub. Assicurati di aver inserito il nome dell''hub corretto e che tu sia il proprietario o un moderatore dell''hub.'
+  alreadyJoined: '{{{emoji}}} hai già unito ** {{hub}} ** da {{{channel}}}!'
+  invalidChannel: '{{{emoji}}} canale non valido. Sono supportati solo i canali di testo e thread!'
+  invalidImgurUrl: '{{{emoji}}} URL di immagine non valida per icona o banner. Assicurati di aver inserito un URL di immagine imgur valida che non è una galleria o un album.'
   join:
     success: Ulchamente unito Hub ** {{hub}} ** da {{{channel}}}! Usa `/connection` per gestire la connessione. E `/hub lasciando 'per lasciare l'hub.
   servers:
     total: 'Server connessi correnti: {{from}}-{{to}} / ** {{total}} **'
-    noConnections: '<: NO: 977600033740431410> Nessun server ha ancora unito a questo hub. Usa `/hub join` per unirti a questo hub.'
-    notConnected: '<: No: 977600033740431410> quel server non fa parte di ** {{hub}} **.'
+    noConnections: '{{{emoji}}} nessun server ha ancora unito a questo hub. Usa `/hub join` per unirti a questo hub.'
+    notConnected: '{{{emoji}}} quel server non fa parte di ** {{hub}} **.'
     connectionInfo: |-
       Canale: #{{{channelName}}} `({{channelId}})` 
        Accesso a: {{{joinedAt}}} 
@@ -184,7 +184,7 @@ hub:
     modal:
       title: Crea hub
       name:
-        label: Nome dell'hub
+        label: Nome hub
         placeholder: Inserisci un nome per il tuo hub.
       description:
         label: Descrizione
@@ -195,9 +195,9 @@ hub:
       banner:
         label: Banner URL
         placeholder: Immettere un URL di immagine imgur.
-    maxHubs: '<: NO: 977600033740431410> Hai raggiunto il numero massimo di hub (3) È possibile creare. Si prega di eliminare un hub prima di crearne un altro.'
-    invalidName: '<: NO: 977600033740431410> Nome hub non valido. Non deve contenere `Discord`,` Clyde` o \ `\` \ `. Scegli un altro nome.'
-    nameTaken: '<: NO: 977600033740431410> Questo nome dell''hub è già preso. Scegli un altro nome.'
+    maxHubs: '{{{emoji}}} hai raggiunto il numero massimo di hub (3) È possibile creare. Si prega di eliminare un hub prima di crearne un altro.'
+    invalidName: '{{{emoji}}} Nome hub non valido. Non deve contenere `Discord`,` Clyde` o \ `\` \ `. Scegli un altro nome.'
+    nameTaken: '{{{emoji}}} Questo nome dell''hub è già preso. Scegli un altro nome.'
     success: |-
       ### hub creato! 
 
@@ -210,10 +210,10 @@ hub:
        - ** Modifica hub: ** `/hub gest` 
        - ** Aggiungi moderatori: ** `/Moderatore hub Aggiungi` 
 
-       Ulteriori informazioni sugli hub nella nostra [guida] (https://discord-interchat.github.io/docs). Unisciti al [Support Server] ({{{docs_link}}}) per l'aiuto.
+       Ulteriori informazioni su Hubs nella nostra [guida] ({{{docs_link}}}). Unisciti al [Support Server] ({{{support_invite}}}) per l'aiuto.
   delete:
     confirm: Sei sicuro di voler eliminare ** {{hub}} **? Questa azione è irreversibile. Tutti i server, gli inviti e i dati dei messaggi connessi verranno rimossi da questo hub.
-    ownerOnly: '<: No: 977600033740431410> Solo il proprietario di questo hub può eliminarlo.'
+    ownerOnly: '{{{emoji}}} Solo il proprietario di questo hub può eliminarlo.'
     success: '{{{emoji}}} hub ** {{hub}} ** è stato eliminato.'
     cancelled: '{{{emoji}}} La cancellazione dell''hub è stata annullata.'
   browse:
@@ -222,7 +222,7 @@ hub:
           
        ** Nota: ** Puoi sempre modificarlo in seguito usando `/Connection`.
     joinFooter: Vuoi usare un canale diverso? Usa il discesa di seguito.
-    noHubs: Al momento non ci sono hub elencati qui. Per favore riprova più tardi!
+    noHubs: '{{{emoji}}} non ci sono hub elencati qui al momento. Per favore riprova più tardi!'
     rating:
       invalid: Valutazione non valida. È necessario inserire un numero tra 1 e 5.
       success: Valutazione presentata! Grazie per il tuo feedback.
@@ -238,36 +238,36 @@ hub:
          - ** ESCIRY: ** {{{expiry}}} 
          - ** usa **: ∞ 
 
-         __Learn Altro sugli hub nella nostra [Guida] (https://discord-interchat.github.io/docs) .__.
+         __Learn Altro sugli hub nella nostra [guida] ({{{docs_link}}}) .__.
     revoke:
-      invalidCode: '<: NO: 977600033740431410> Codice di invito non valido. Assicurati di aver inserito un codice di invito valido.'
+      invalidCode: '{{{emoji}} codice invito non valido. Assicurati di aver inserito un codice di invito valido.'
       success: '{{{emoji}}} invito {{inviteCode}} revocata.'
     list:
       title: '** Codici di invito: **'
-      noInvites: '<: No: 977600033740431410> Questo hub non ha ancora inviti. Usa `/hub invita create` per crearne uno.'
-      notPrivate: '<: NO: 977600033740431410> Solo gli hub privati possono avere inviti. Usa `/hub gest` per rendere privato questo hub.'
+      noInvites: '{{{emoji}}} Questo hub non ha ancora inviti. Usa `/hub invita create` per crearne uno.'
+      notPrivate: '{{{emoji}}} Solo gli hub privati possono avere inviti. Usa `/hub gest` per rendere privato questo hub.'
   joined:
-    noJoinedHubs: '<: NO: 977600033740431410> Questo server non ha ancora unito a nessun hub. Usa `/hub Browse` per visualizzare un elenco di hub.'
+    noJoinedHubs: '{{{emoji}}} Questo server non ha ancora unito a nessun hub. Usa `/hub Browse` per visualizzare un elenco di hub.'
     joinedHubs: Questo server fa parte di ** {{total}} ** hub (s). Usa `/hub Leave` per lasciare un hub.
   leave:
-    noHub: '<: NO: 977600033740431410> Quel canale non è valido o non si è unito a nessun hub.'
+    noHub: '{{{emoji}}} quel canale non è valido o non si è unito a nessun hub.'
     confirm: Sei sicuro di voler lasciare ** {{hub}} ** da {{{channel}}}? Non verranno inviati più messaggi a questo server da questo hub.
     confirmFooter: Conferma l'uso del pulsante sottostante entro 10 secondi.
     success: '{{{emoji}}} ha lasciato l''hub da {{{channel}}}. Non verranno inviati più messaggi a questo server da questo hub. Puoi ricongiungerti usando `/hub uning`.'
   moderator:
-    noModerators: '<: NO: 977600033740431410> Questo hub non ha ancora moderatori. Utilizzare il moderatore `/hub aggiungi` per aggiungerne uno.'
+    noModerators: '{{{emoji}}} Questo hub non ha ancora moderatori. Utilizzare il moderatore `/hub aggiungi` per aggiungerne uno.'
     add:
       success: '{{{emoji}}} ** {{{user}}} ** è stato aggiunto come moderatore della posizione ** {{position}} **.'
-      alreadyModerator: '<: No: 977600033740431410> ** {{{user}}} ** è già un moderatore.'
+      alreadyModerator: '{{{emoji}}} ** {{{user}}} ** è già un moderatore.'
     remove:
       success: '{{{emoji}}} ** {{{user}}} ** è stato rimosso come moderatore.'
-      notModerator: '<: No: 977600033740431410> ** {{{user}}} ** non è un moderatore.'
-      notOwner: '<: NO: 977600033740431410> Solo il proprietario di questo hub può rimuovere un gestore.'
+      notModerator: '{{{emoji}}} ** {{{user}}} ** non è un moderatore.'
+      notOwner: '{{{emoji}}} Solo il proprietario di questo hub può rimuovere un gestore.'
     update:
       success: '{{{emoji}}} ** {{{user}}} ** La posizione è stata aggiornata a ** {{position}} **.'
-      notModerator: '<: No: 977600033740431410> ** {{{user}}} ** non è un moderatore.'
-      notAllowed: '<: NO: 977600033740431410> Solo i gestori di hub possono aggiornare la posizione di un moderatore.'
-      notOwner: '<: NO: 977600033740431410> Solo il proprietario di questo hub può aggiornare la posizione di un gestore.'
+      notModerator: '{{{emoji}}} ** {{{user}}} ** non è un moderatore.'
+      notAllowed: '{{{emoji}}} Solo i gestori di hub possono aggiornare la posizione di un moderatore.'
+      notOwner: '{{{emoji}}} Solo il proprietario di questo hub può aggiornare la posizione di un manager.'
   manage:
     enterImgurUrl: Immettere un URL di immagine imgur valida che non è una galleria o un album.
     icon:
@@ -304,11 +304,11 @@ hub:
     logs:
       title: Configurare i registri
       reset: '{{{emoji}}} Ripristina correttamente la configurazione dei registri per `{{{type}}}` logs.'
-      roleSuccess: '{{{emoji}}} logs of type `{{{type}}}` ora menzionerà {{{role}}}!'
+      roleSuccess: '{{{emoji}}} logs di tipo `{{{type}}}` ora menzionerà {{{role}}}!'
       channelSuccess: '{{{emoji}}} logs of type `{{{type}}}` verranno inviati a {{{channel}}} da ora!'
       channelSelect: '#️⃣ Selezionare il tipo di registro da configurare.'
       roleSelect: 🏓 Selezionare il ruolo da menzionare quando viene attivato un registro.
-      reportChannelFirst: '<: NO: 977600033740431410> Imposta prima un canale di registro.'
+      reportChannelFirst: '{{{emoji}}} Per favore imposta prima un canale di registro.'
       config:
         title: Configure `{{{type}}}` logs
         description: |-
@@ -346,12 +346,12 @@ report:
         label: Descrizione dettagliata (opzionale)
         placeholder: Passi che hai fatto. Per esempio. 1. Esegui /Aiuto 2. Aspetta 5 secondi ...
   invalidUser: |-
-    <: No: 977600033740431410> Non sono riuscito a trovare un utente con quell'ID. 
+    {{{emoji}}} Non sono riuscito a trovare un utente con quell'ID. 
 
      ** Per trovare l'ID di un utente all'interno della rete: ** 
      {{{dot}}} Fare clic con il pulsante destro del mouse su un messaggio inviato dall'utente nella domanda Seleziona `Apps> Informazioni sul messaggio`. Si prega di ricontrollare l'ID e riprovare.
   invalidServer: |-
-    <: No: 977600033740431410> Non sono riuscito a trovare un server con quell'ID. 
+    {{{emoji}}} Non sono riuscito a trovare un server con quell'ID. 
 
      ** Per trovare un ID server all'interno della rete: ** 
      {{{dot}}} Fare clic con il pulsante destro del mouse su un messaggio inviato dal server in questione e selezionare `Apps> Informazioni/report del messaggio". Si prega di ricontrollare l'ID e riprovare.
@@ -360,36 +360,36 @@ report:
     title: Riportare un errore
     affected: Componenti interessati
     description: Scegli con quale componente del bot stai affrontando problemi.
-    submitted: '{{{emoji}}} Rapporto inviato correttamente. Unisciti al </Support Server: 92465934104962636> per ottenere maggiori dettagli. Grazie!'
+    submitted: '{{{emoji}}} Rapporto inviato correttamente. Unisciti al {{{support_command}}} per ottenere maggiori dettagli. Grazie!'
 language:
   set: Set di lingue! Ora ti risponderò in ** {{{lang}}} **.
 errors:
-  messageNotSentOrExpired: '<: NO: 977600033740431410> Questo messaggio non è stato inviato in un hub, è scaduto o non si è autorizzati per eseguire questa azione.'
-  notYourAction: '<: No: 977600033740431410> Scusa, non puoi eseguire questa azione. Per favore, esegui il comando da solo.'
-  notMessageAuthor: '<: NO: 977600033740431410> Non sei l''autore di questo messaggio.'
+  messageNotSentOrExpired: '{{{emoji}}} Questo messaggio non è stato inviato in un hub, è scaduto o ti manca le autorizzazioni per eseguire questa azione.'
+  notYourAction: '{{{emoji}}} scusa, non puoi eseguire questa azione. Per favore, esegui il comando da solo.'
+  notMessageAuthor: '{{{emoji}}} non sei l''autore di questo messaggio.'
   commandError: |-
-    <: NO: 977600033740431410> Si è verificato un errore durante l'esecuzione di questo comando. È stato registrato al nostro sistema. Se questo problema persiste, unisciti al nostro [Support Server] ({{{support_invite}}}) e segnalalo! 
+    {{{emoji}}} si è verificato un errore durante l'esecuzione di questo comando. È stato registrato al nostro sistema. Se questo problema persiste, unisciti al nostro [Support Server] ({{{support_invite}}}) e segnalalo! 
      `` `js 
      {{{error}}} 
      `` `
-  mustVote: Si prega di [vota] (https://top.gg/bot/769921109209907241/vote) per Interchat per utilizzare questo comando, il tuo supporto è molto apprezzato!
-  inviteLinks: '<: NO: 977600033740431410> Non pubblicizzare o promuovere i server nella rete. Imposta invece un invito in `/connection`!'
-  invalidLangCode: '<: NO: 977600033740431410> Codice di lingua non valido. Assicurati di aver inserito un [codice linguistico] corretto (https://cloud.google.com/translate/docs/languages).'
-  unknownServer: '<: NO: 977600033740431410> Server sconosciuto. Assicurati di aver inserito l''ID server corretto.'
-  unknownNetworkMessage: '<: NO: 977600033740431410> Messaggio sconosciuto. Se è stato inviato nell''ultimo minuto, aspetta qualche secondo e riprova.'
-  userNotFound: '<: NO: 977600033740431410> Utente non trovato. Prova invece a inserire il loro ID.'
-  blacklisted: '<: NO: 977600033740431410> tu o questo server viene inserito nella lista nera dell''utilizzo di Interchat.'
-  userBlacklisted: '<: NO: 977600033740431410> sei nella lista nera da ** {{hub}} **.'
-  serverBlacklisted: '<: NO: 977600033740431410> Questo server è nella lista nera da ** {{hub}} **.'
-  serverNotBlacklisted: '<: NO: 977600033740431410> Il server input non è nella lista nera.'
-  userNotBlacklisted: '<: NO: 977600033740431410> L''utente inserito non è nella lista nera.'
-  missingPermissions: '<: No: 977600033740431410> Ti mancano le seguenti autorizzazioni per eseguire questa azione: ** {{{permissions}}} **'
-  botMissingPermissions: '<: No: 977600033740431410> Per favore concedimi le seguenti autorizzazioni per continuare: ** {{{permissions}}} **'
-  unknown: '<: NO: 977600033740431410> Si è verificato un errore sconosciuto. Riprova più tardi o contattaci unendo al nostro [Support Server] ({{{support_invite}}}).'
-  notUsable: '<: NO: 977600033740431410> Questo non è più utilizzabile.'
-  cooldown: '<: NO: 977600033740431410> Siete in tempo di recupero. Si prega di aspettare ** {{{time}}} ** prima di tentare di nuovo.'
+  mustVote: Si prega di [vota] (https://top.gg/bot/769921109209907241/vote) per InterChat per utilizzare questo comando, il tuo supporto è molto apprezzato!
+  inviteLinks: '{{{emoji}}} non pubblicizzare o promuovere i server nella rete. Imposta invece un invito in `/connection`!'
+  invalidLangCode: '{{{emoji}}} codice linguistico non valido. Assicurati di aver inserito un [codice linguistico] corretto (https://cloud.google.com/translate/docs/languages).'
+  unknownServer: '{{{emoji}}} Server sconosciuto. Assicurati di aver inserito l''ID server corretto.'
+  unknownNetworkMessage: '{{{emoji}}} messaggio sconosciuto. Se è stato inviato nell''ultimo minuto, aspetta qualche secondo e riprova.'
+  userNotFound: '{{{emoji}}} Utente non trovato. Prova invece a inserire il loro ID.'
+  blacklisted: '{{{emoji}}} tu o questo server sei inserito nell''uso di InterChat.'
+  userBlacklisted: '{{{emoji}}} sei blacklist da ** {{hub}} **.'
+  serverBlacklisted: '{{{emoji}}} Questo server è blacklist da ** {{hub}} **.'
+  serverNotBlacklisted: '{{{emoji}}} Il server input non è nella lista nera.'
+  userNotBlacklisted: '{{{emoji}}} L''utente input non è nella lista nera.'
+  missingPermissions: '{{{emoji}}} ti mancano le seguenti autorizzazioni per eseguire questa azione: ** {{{permissions}}} **'
+  botMissingPermissions: '{{{emoji}}} Per favore concedimi le seguenti autorizzazioni per continuare: ** {{{permissions}}} **'
+  unknown: '{{{emoji}}} si è verificato un errore sconosciuto. Riprova più tardi o contattaci unendo al nostro [Support Server] ({{{support_invite}}}).'
+  notUsable: '{{{emoji}}} Questo non è più utilizzabile.'
+  cooldown: '{{{emoji}}} sei in cooldown. Si prega di aspettare ** {{{time}}} ** prima di tentare di nuovo.'
 misc:
   noReason: Nessun motivo fornito.
   noDesc: Nessuna descrizione.
-  version: Interchat v {{version}}
+  version: InterChat v{{version}}
   loading: '{{{emoji}}} per favore aspetta mentre elaboro la tua richiesta ...'

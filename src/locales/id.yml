@@ -1,5 +1,5 @@
 rules: |-
-  ### 📜 Aturan Jaringan Interchat 
+  ### 📜 Aturan Jaringan InterChat 
 
    1. ** Gunakan akal sehat: ** Jadilah perhatian orang lain dan pandangan mereka. Tidak ada penghinaan, bahasa menghina yang ekstrem atau tindakan apa pun yang dapat mengganggu kenyamanan obrolan. 
    2. ** Tidak ada spam atau banjir: ** Hindari pesan berulang, tidak masuk akal, atau terlalu panjang. 
@@ -7,30 +7,30 @@ rules: |-
    4. ** Tidak ada pelecehan: ** trolling, penghinaan, atau pelecehan dalam bentuk apa pun tidak ditoleransi. 
    5. ** Tidak ada konten NSFW/NSFL: ** memposting konten NSFW/NSFL yang eksplisit akan menghasilkan daftar hitam langsung. 
    6. ** Hormati topik sensitif: ** Jangan meremehkan melukai diri sendiri, bunuh diri, kekerasan, atau topik ofensif lainnya. 
-   7. ** Laporkan masalah: ** Jika Anda mengamati pelanggaran aturan ini, laporkan ke moderator hub yang sesuai atau staf Interchat untuk tindakan lebih lanjut. 
+   7. ** Laporkan masalah: ** Jika Anda mengamati pelanggaran aturan ini, laporkan ke moderator hub yang sesuai atau staf InterChat untuk tindakan lebih lanjut. 
 
    Ada pertanyaan? Bergabunglah dengan [server dukungan] kami ({{{support_invite}}}).
 vote: |-
-  ## 🗳️ Vote untuk Interchat dan nikmati tunjangan eksklusif 
-   Kontribusi Anda sangat berharga dalam meningkatkan posisi Interchat di Top.gg. Setiap suara membuat perbedaan yang signifikan! 
+  ## 🗳️ Vote untuk InterChat dan nikmati tunjangan eksklusif 
+   Kontribusi Anda sangat berharga dalam meningkatkan posisi InterChat di Top.gg. Setiap suara membuat perbedaan yang signifikan! 
 
-   Sebagai cara kami mengucapkan terima kasih atas dukungan Anda, kami sangat senang menawarkan kepada Anda keunggulan eksklusif. Dengan memberikan suara Anda untuk Interchat, Anda akan membuka kunci: 
+   Sebagai cara kami mengucapkan terima kasih atas dukungan Anda, kami sangat senang menawarkan kepada Anda keunggulan eksklusif. Dengan memberikan suara Anda untuk InterChat, Anda akan membuka kunci: 
 
    - Edit pesan di dalam hub 
    - Menerjemahkan pesan (dan banyak lagi di jalan!) 
 
    Kami sangat menghargai dukungan Anda yang tak tergoyahkan. Terima kasih! 🙏
 network:
-  accountTooNew: '<: no: 977600033740431410> {{{user}}} akun Anda terlalu baru untuk mengirim pesan di interchat. Silakan coba lagi nanti.'
+  accountTooNew: '{{{emoji}}} {{{user}}} Akun Anda terlalu baru untuk mengirim pesan menggunakan interchat. Silakan coba lagi nanti.'
   deleteSuccess: '{{{emoji}}} pesan oleh {{{user}}} telah dihapus dari __ ** {{deleted}}/{{total}} ** __ server.'
   editSuccess: '{{{emoji}}} pesan oleh {{{user}}} telah diedit dalam __ ** {{edited}}/{{total}} ** __ Server.'
   welcome: |-
-    {{{user}}} Selamat datang di ** {{hub}} **! <A: Gelombang: 1185520281134055446> 
+    {{{user}}} Selamat datang di ** {{hub}} **! {{{emoji}}} 
 
-     Pesan yang dikirim {{{channel}}} akan dibagikan dengan server lain, ** Mengaktifkan komunikasi yang mudah **. Anda dapat berbagi gambar, GIF, membalas, bereaksi, dan berinteraksi dengan pesan seperti biasanya. Ingatlah untuk menghindari berbagi info pribadi (periksa </aturan: 924659340898619395> untuk lebih lanjut). Siap masuk? Kirim pesan pertama Anda dan bergabunglah dengan percakapan!
+     Pesan yang dikirim {{{channel}}} akan dibagikan dengan server lain, ** Mengaktifkan komunikasi yang mudah **. Anda dapat berbagi gambar, GIF, membalas, bereaksi, dan berinteraksi dengan pesan seperti biasanya. Ingatlah untuk menghindari berbagi info pribadi (periksa {{{rules_command}}} untuk lebih lanjut). Siap masuk? Kirim pesan pertama Anda dan bergabunglah dengan percakapan!
   nsfw:
     title: NSFW terdeteksi
-    description: 'Saya telah mendeteksi {{predictions}} nsfw (tidak aman untuk bekerja) konten dalam pesan Anda. Perlu diketahui bahwa ini bertentangan dengan </aturan: 924659340898619395> dan akan menghasilkan daftar hitam langsung.'
+    description: Saya telah mendeteksi {{predictions}} nsfw (tidak aman untuk bekerja) konten dalam pesan Anda. Perlu diketahui bahwa ini bertentangan dengan {{{rules_command}}} kami dan akan menghasilkan daftar hitam langsung.
     footer: Perlu diketahui bahwa AI tidak sempurna dan dapat membuat kesalahan. Kami mohon maaf atas ketidaknyamanan yang ditimbulkan.
   onboarding:
     embed:
@@ -38,8 +38,8 @@ network:
       description: |-
         Untuk menjaga hal -hal tetap terorganisir, disarankan untuk menggunakan saluran terpisah hanya untuk hub ini. Tapi jangan khawatir, Anda selalu bisa mengubah ini nanti. 
 
-         ** Cara kerjanya: ** Jaringan Interchat seperti jembatan ajaib yang menghubungkan saluran di berbagai server yang bersama kami di hub ini. Pelajari lebih lanjut di [panduan] kami (https://discord-interchat.github.io/docs).
-      footer: Jaringan Interchat | Version {{version}}
+         ** Cara kerjanya: ** Jaringan InterChat seperti jembatan ajaib yang menghubungkan saluran di berbagai server yang bersama kami di hub ini. Pelajari lebih lanjut di [panduan] kami] ({{{docs_link}}}).
+      footer: Jaringan InterChat | Version {{version}}
     inProgress: Sudah ada upaya untuk bergabung dengan hub dari {{{channel}}}. Harap batal atau tunggu sampai selesai.
 blacklist:
   button:
@@ -55,13 +55,13 @@ blacklist:
   user:
     success: '{{{emoji}}} ** {{username}} ** telah berhasil dihitamkan!'
     removed: '{{{emoji}}} ** {{username}} ** telah dihapus dari blacklist!'
-    alreadyBlacklisted: '<: No: 977600033740431410> Pengguna ini sudah masuk daftar hitam.'
+    alreadyBlacklisted: '{{{emoji}}} Pengguna ini sudah masuk daftar hitam.'
     easterEggs:
       blacklistBot: Anda tidak bisa membuat saya hitam wtf.
   server:
     success: '{{{emoji}}} ** {{server}} ** telah berhasil dihitamkan!'
     removed: '{{{emoji}}} ** {{server}} ** telah dihapus dari blacklist!'
-    alreadyBlacklisted: '<: No: 977600033740431410> Server ini sudah masuk daftar hitam.'
+    alreadyBlacklisted: '{{{emoji}}} server ini sudah masuk daftar hitam.'
     unknownError: Gagal BlackList ** {{server}} **. Tanyakan kepada pengembang untuk informasi lebih lanjut.
   list:
     user: |-
@@ -97,7 +97,7 @@ msgInfo:
        __{{{hub}}}__ 
 
        ** Pesan dibuat: ** 
-       <t: {{{createdAt}}}: r>
+       {{{createdAt}}}
   server:
     description: |-
       ## {{{server}}} 
@@ -107,7 +107,7 @@ msgInfo:
        __{{{owner}}}__ 
 
        ** dibuat: ** 
-       __ <t: {{createdAt}}: d> (<t: {{createdAt}}: r>) __ 
+       __ {{{createdAtFull}}} ({{{createdAt}}}) __ 
 
        **Jumlah anggota:** 
        __{{memberCount}}__ 
@@ -123,7 +123,7 @@ msgInfo:
        __{{id}}__ 
 
        ** dibuat: ** 
-       <t: {{createdAt}}: d> (<t: {{createdAt}}: r>) 
+       {{{createdAtFull}}} ({{{createdAt}}}) 
 
        **Nama tampilan:** 
        __ {{{globalName}}} __ 
@@ -131,23 +131,23 @@ msgInfo:
        ** Hub yang dimiliki: ** 
        __ {{hubsOwned}} __
   report:
-    notEnabled: '<: No: 977600033740431410> Pelaporan tidak diaktifkan untuk hub ini.'
+    notEnabled: '{{{emoji}}} pelaporan tidak diaktifkan untuk hub ini.'
     success: '{{{emoji}}} Laporan disampaikan dengan sukses. Terima kasih!'
 invite: |-
-  Terima kasih telah memilih untuk mengundang Interchat. Cukup klik tombol di bawah ini untuk mengundang saya! 
+  Terima kasih telah memilih untuk mengundang InterChat. Cukup klik tombol di bawah ini untuk mengundang saya! 
 
    - ** Support Server: ** {{{support}}}
 connection:
-  notFound: '<: No: 977600033740431410> Koneksi tidak valid. Verifikasi ID saluran atau pilih dari opsi yang ditampilkan.'
-  channelNotFound: '<: No: 977600033740431410> Tidak dapat menemukan saluran yang terhubung. Untuk berbicara lagi memilih saluran baru.'
-  alreadyConnected: '<: no: 977600033740431410> saluran {{{channel}}} sudah terhubung ke hub.'
+  notFound: '{{{emoji}}} koneksi tidak valid. Verifikasi ID saluran atau pilih dari opsi yang ditampilkan.'
+  channelNotFound: '{{{emoji}}} Tidak dapat menemukan saluran yang terhubung. Untuk berbicara lagi memilih saluran baru.'
+  alreadyConnected: '{{{emoji}}} saluran {{{channel}}} sudah terhubung ke hub.'
   switchChannel: '{{{emoji}}} Pilih saluran untuk beralih ke menggunakan menu pilih di bawah ini:'
   switchCalled: '{{{emoji}}} sakelar saluran dipanggil, gunakan perintah lagi untuk melihat koneksi baru.'
   switchSuccess: '{{{emoji}}} saluran dialihkan. Anda sekarang terhubung dari ** {{{channel}}} **.'
   inviteRemoved: '{{{emoji}}} undangan server dihapus untuk hub ini.'
-  inviteInvalid: '<: No: 977600033740431410> Undangan tidak valid. Pastikan Anda telah memasukkan tautan undangan yang valid.'
+  inviteInvalid: '{{{emoji}}} undangan tidak valid. Pastikan Anda telah memasukkan tautan undangan yang valid.'
   inviteAdded: '{{{emoji}}} Undang ditambahkan. Orang lain sekarang dapat bergabung dengan server ini dengan menggunakan perintah `Apps> Pesan/Laporan`.'
-  emColorInvalid: '<: no: 977600033740431410> warna tidak valid. Pastikan Anda telah memasukkan kode warna hex yang valid.'
+  emColorInvalid: '{{{emoji}}} warna tidak valid. Pastikan Anda telah memasukkan kode warna hex yang valid.'
   emColorChange: '{{{emoji}}} embed berhasil {{{action}}}'
   embed:
     title: Detail Koneksi
@@ -164,17 +164,17 @@ connection:
   selects:
     placeholder: 🛠️ Pilih opsi di bawah ini untuk mengelola koneksi Anda.
 hub:
-  notFound: '<: No: 977600033740431410> Tidak dapat menemukan hub. Pastikan Anda telah memasukkan nama hub yang benar.'
-  notFound_mod: '<: No: 977600033740431410> Tidak dapat menemukan hub. Pastikan Anda telah memasukkan nama hub yang benar & bahwa Anda adalah pemilik atau moderator hub.'
-  alreadyJoined: '<: Tidak: 977600033740431410> Anda telah bergabung ** {{hub}} ** dari {{{channel}}}!'
-  invalidChannel: '<: No: 977600033740431410> saluran tidak valid. Hanya saluran teks dan utas yang didukung!'
-  invalidImgurUrl: '<: No: 977600033740431410> URL gambar tidak valid untuk ikon atau spanduk. Pastikan Anda telah memasukkan URL gambar imgur yang valid yang bukan galeri atau album.'
+  notFound: '{{{emoji}}} Tidak dapat menemukan hub. Pastikan Anda telah memasukkan nama hub yang benar.'
+  notFound_mod: '{{{emoji}}} Tidak dapat menemukan hub. Pastikan Anda telah memasukkan nama hub yang benar & bahwa Anda adalah pemilik atau moderator hub.'
+  alreadyJoined: '{{{emoji}}} Anda sudah bergabung ** {{hub}} ** dari {{{channel}}}!'
+  invalidChannel: '{{{emoji}}} saluran tidak valid. Hanya saluran teks dan utas yang didukung!'
+  invalidImgurUrl: '{{{emoji}}} URL gambar tidak valid untuk ikon atau spanduk. Pastikan Anda telah memasukkan URL gambar imgur yang valid yang bukan galeri atau album.'
   join:
     success: Berhasil bergabung dengan hub ** {{hub}} ** dari {{{channel}}}! Gunakan `/koneksi` untuk mengelola koneksi Anda. Dan `/hub berangkat` untuk meninggalkan hub.
   servers:
     total: 'Server Terhubung Saat Ini: {{from}}-{{to}} / ** {{total}} **'
-    noConnections: '<: No: 977600033740431410> Belum ada server yang bergabung dengan hub ini. Gunakan `/hub join` untuk bergabung dengan hub ini.'
-    notConnected: '<: No: 977600033740431410> server itu bukan bagian dari ** {{hub}} **.'
+    noConnections: '{{{emoji}}} Belum ada server yang bergabung dengan hub ini. Gunakan `/hub join` untuk bergabung dengan hub ini.'
+    notConnected: '{{{emoji}}} server itu bukan bagian dari ** {{hub}} **.'
     connectionInfo: |-
       Saluran: #{{{channelName}}} `({{channelId}})` 
        Bergabung di: {{{joinedAt}}} 
@@ -195,9 +195,9 @@ hub:
       banner:
         label: URL spanduk
         placeholder: Masukkan URL gambar imgur.
-    maxHubs: '<: No: 977600033740431410> Anda telah mencapai jumlah hub maksimum (3) yang dapat Anda buat. Harap hapus hub sebelum membuat yang lain.'
-    invalidName: '<: No: 977600033740431410> Nama hub yang tidak valid. Itu tidak boleh berisi `perselisihan`,` clyde` atau \ `\` \ `. Pilih nama lain.'
-    nameTaken: '<: No: 977600033740431410> Nama hub ini sudah diambil. Pilih nama lain.'
+    maxHubs: '{{{emoji}}} Anda telah mencapai jumlah maksimum hub (3) yang dapat Anda buat. Harap hapus hub sebelum membuat yang lain.'
+    invalidName: '{{{emoji}}} Nama hub tidak valid. Itu tidak boleh berisi `perselisihan`,` clyde` atau \ `\` \ `. Pilih nama lain.'
+    nameTaken: '{{{emoji}}} Nama hub ini sudah diambil. Pilih nama lain.'
     success: |-
       ### hub dibuat! 
 
@@ -210,10 +210,10 @@ hub:
        - ** EDIT HUB: ** `/hub kelola` 
        - ** Tambahkan moderator: ** `/hub moderator add` 
 
-       Pelajari lebih lanjut tentang hub di [panduan] kami (https://discord-interchat.github.io/docs). Bergabunglah dengan [server dukungan] ({{{docs_link}}}) untuk bantuan.
+       Pelajari lebih lanjut tentang hub di [panduan] kami ({{{docs_link}}}). Bergabunglah dengan [server dukungan] ({{{support_invite}}}) untuk bantuan.
   delete:
     confirm: Anda yakin ingin menghapus ** {{hub}} **? Tindakan ini tidak dapat diubah. Semua server, undangan, dan data pesan yang terhubung akan dihapus dari hub ini.
-    ownerOnly: '<: No: 977600033740431410> Hanya pemilik hub ini yang dapat menghapusnya.'
+    ownerOnly: '{{{emoji}}} Hanya pemilik hub ini yang dapat menghapusnya.'
     success: '{{{emoji}}} hub ** {{hub}} ** telah dihapus.'
     cancelled: '{{{emoji}}} penghapusan hub telah dibatalkan.'
   browse:
@@ -222,7 +222,7 @@ hub:
           
        ** Catatan: ** Anda selalu dapat mengubah ini nanti menggunakan `/koneksi`.
     joinFooter: Ingin menggunakan saluran yang berbeda? Gunakan dropdown di bawah ini.
-    noHubs: Tidak ada hub yang terdaftar di sini saat ini. Silakan coba lagi nanti!
+    noHubs: '{{{emoji}}} Tidak ada hub yang terdaftar di sini saat ini. Silakan coba lagi nanti!'
     rating:
       invalid: Peringkat tidak valid. Anda harus memasukkan angka antara 1 dan 5.
       success: Peringkat Dikirim! Terima kasih atas tanggapan Anda.
@@ -238,36 +238,36 @@ hub:
          - ** EXPIRY: ** {{{expiry}}} 
          - ** Penggunaan **: ∞ 
 
-         __LEARN LEBIH BANYAK TENTANG HUB DI [Panduan] kami (https://discord-interchat.github.io/docs) .__.
+         __Learn lebih lanjut tentang hub di [panduan] kami ({{{docs_link}}}) .__.
     revoke:
-      invalidCode: '<: No: 977600033740431410> kode undangan tidak valid. Pastikan Anda telah memasukkan kode undangan yang valid.'
+      invalidCode: '{{{emoji}} Kode undangan tidak valid. Pastikan Anda telah memasukkan kode undangan yang valid.'
       success: '{{{emoji}}} Undang {{inviteCode}} dicabut.'
     list:
       title: '** Undang Kode: **'
-      noInvites: '<: No: 977600033740431410> Hub ini belum mengundang. Gunakan `/hub undangan create` untuk membuat satu.'
-      notPrivate: '<: No: 977600033740431410> Hanya hub pribadi yang dapat mengundang. Gunakan `/hub kelola` untuk membuat hub ini pribadi.'
+      noInvites: '{{{emoji}}} Hub ini belum mengundang. Gunakan `/hub undangan create` untuk membuat satu.'
+      notPrivate: '{{{emoji}}} Hanya hub pribadi yang dapat mengundang. Gunakan `/hub kelola` untuk membuat hub ini pribadi.'
   joined:
-    noJoinedHubs: '<: No: 977600033740431410> Server ini belum bergabung dengan hub apa pun. Gunakan `/hub browse` untuk melihat daftar hub.'
+    noJoinedHubs: '{{{emoji}}} Server ini belum bergabung dengan hub apa pun. Gunakan `/hub browse` untuk melihat daftar hub.'
     joinedHubs: Server ini adalah bagian dari ** {{total}} ** hub (s). Gunakan `/hub cuti` untuk meninggalkan hub.
   leave:
-    noHub: '<: No: 977600033740431410> Saluran itu tidak valid atau belum bergabung dengan hub apa pun.'
+    noHub: '{{{emoji}}} Saluran itu tidak valid atau belum bergabung dengan hub apa pun.'
     confirm: Anda yakin ingin meninggalkan ** {{hub}} ** dari {{{channel}}}? Tidak ada lagi pesan yang akan dikirim ke server ini dari hub ini.
     confirmFooter: Konfirmasikan menggunakan tombol di bawah ini dalam waktu 10 detik.
     success: '{{{emoji}}} meninggalkan hub dari {{{channel}}}. Tidak ada lagi pesan yang akan dikirim ke server ini dari hub ini. Anda dapat bergabung kembali dengan menggunakan `/hub join`.'
   moderator:
-    noModerators: '<: No: 977600033740431410> Hub ini belum memiliki moderator. Gunakan `/hub moderator add` untuk menambahkan satu.'
+    noModerators: '{{{emoji}}} Hub ini belum memiliki moderator. Gunakan `/hub moderator add` untuk menambahkan satu.'
     add:
       success: '{{{emoji}}} ** {{{user}}} ** telah ditambahkan sebagai moderator posisi ** {{position}} **.'
-      alreadyModerator: '<: No: 977600033740431410> ** {{{user}}} ** sudah menjadi moderator.'
+      alreadyModerator: '{{{emoji}}} ** {{{user}}} ** sudah menjadi moderator.'
     remove:
       success: '{{{emoji}}} ** {{{user}}} ** telah dihapus sebagai moderator.'
-      notModerator: '<: No: 977600033740431410> ** {{{user}}} ** bukan moderator.'
-      notOwner: '<: No: 977600033740431410> Hanya pemilik hub ini yang dapat menghapus manajer.'
+      notModerator: '{{{emoji}}} ** {{{user}}} ** bukan moderator.'
+      notOwner: '{{{emoji}}} Hanya pemilik hub ini yang dapat menghapus manajer.'
     update:
       success: '{{{emoji}}} ** {{{user}}} ** posisi telah diperbarui ke ** {{position}} **.'
-      notModerator: '<: No: 977600033740431410> ** {{{user}}} ** bukan moderator.'
-      notAllowed: '<: No: 977600033740431410> Hanya manajer hub yang dapat memperbarui posisi moderator.'
-      notOwner: '<: No: 977600033740431410> Hanya pemilik hub ini yang dapat memperbarui posisi manajer.'
+      notModerator: '{{{emoji}}} ** {{{user}}} ** bukan moderator.'
+      notAllowed: '{{{emoji}}} Hanya manajer hub yang dapat memperbarui posisi moderator.'
+      notOwner: '{{{emoji}}} Hanya pemilik hub ini yang dapat memperbarui posisi manajer.'
   manage:
     enterImgurUrl: Masukkan URL gambar imgur yang valid yang bukan galeri atau album.
     icon:
@@ -308,7 +308,7 @@ hub:
       channelSuccess: '{{{emoji}}} log tipe `{{{type}}}` akan dikirim ke {{{channel}}} dari sekarang!'
       channelSelect: '#️⃣ Pilih jenis log yang akan dikonfigurasi.'
       roleSelect: 🏓 Pilih peran yang disebutkan saat log dipicu.
-      reportChannelFirst: '<: No: 977600033740431410> Harap atur saluran log terlebih dahulu.'
+      reportChannelFirst: '{{{emoji}}} Harap atur saluran log terlebih dahulu.'
       config:
         title: Konfigurasikan `{{{type}}}` logs
         description: |-
@@ -346,12 +346,12 @@ report:
         label: Deskripsi terperinci (opsional)
         placeholder: Langkah yang Anda ambil. Misalnya. 1. Jalankan /Bantuan 2. Tunggu selama 5 detik ...
   invalidUser: |-
-    <: Tidak: 977600033740431410> Saya tidak dapat menemukan pengguna dengan ID itu. 
+    {{{emoji}}} Saya tidak dapat menemukan pengguna dengan ID itu. 
 
      ** Untuk menemukan ID pengguna dalam jaringan: ** 
      {{{dot}}} klik kanan pada pesan yang dikirim dari pengguna yang dimaksud pilih `apps> info pesan`. Harap periksa kembali ID dan coba lagi.
   invalidServer: |-
-    <: Tidak: 977600033740431410> Saya tidak dapat menemukan server dengan ID itu. 
+    {{{emoji}}} Saya tidak dapat menemukan server dengan ID itu. 
 
      ** Untuk menemukan ID server dalam jaringan: ** 
      {{{dot}}} Klik kanan pada pesan yang dikirim oleh server yang dimaksud dan pilih `Apps> Info Pesan/Laporan`. Harap periksa kembali ID dan coba lagi.
@@ -360,36 +360,36 @@ report:
     title: Laporan Bug
     affected: Komponen yang terkena dampak
     description: Pilih komponen bot apa yang Anda hadapi.
-    submitted: '{{{emoji}}} Laporan disampaikan dengan sukses. Bergabunglah dengan </Dukungan Server: 924659341049626636> untuk mendapatkan lebih banyak detail. Terima kasih!'
+    submitted: '{{{emoji}}} Laporan disampaikan dengan sukses. Bergabunglah dengan {{{support_command}}} untuk mendapatkan detail lebih lanjut. Terima kasih!'
 language:
   set: Set Bahasa! Sekarang saya akan menanggapi Anda di ** {{{lang}}} **.
 errors:
-  messageNotSentOrExpired: '<: No: 977600033740431410> Pesan ini tidak dikirim di hub, telah kedaluwarsa, atau Anda kekurangan izin untuk melakukan tindakan ini.'
-  notYourAction: '<: Tidak: 977600033740431410> Maaf, Anda tidak dapat melakukan tindakan ini. Harap jalankan sendiri perintahnya.'
-  notMessageAuthor: '<: No: 977600033740431410> Anda bukan penulis pesan ini.'
+  messageNotSentOrExpired: '{{{emoji}}} Pesan ini tidak dikirim dalam hub, telah kedaluwarsa, atau Anda tidak memiliki izin untuk melakukan tindakan ini.'
+  notYourAction: '{{{emoji}}} Maaf, Anda tidak dapat melakukan tindakan ini. Harap jalankan sendiri perintahnya.'
+  notMessageAuthor: '{{{emoji}}} Anda bukan penulis pesan ini.'
   commandError: |-
-    <: No: 977600033740431410> Terjadi kesalahan saat menjalankan perintah ini. Itu telah dicatat ke sistem kami. Jika masalah ini berlanjut, silakan bergabung dengan [server dukungan] kami ({{{support_invite}}}) dan laporkan! 
+    {{{emoji}}} Terjadi kesalahan saat menjalankan perintah ini. Itu telah dicatat ke sistem kami. Jika masalah ini berlanjut, silakan bergabung dengan [server dukungan] kami ({{{support_invite}}}) dan laporkan! 
      `` `JS 
      {{{error}}} 
      `` `
-  mustVote: Silakan [VOTE] (https://top.gg/bot/769921109209907241/vote) untuk Interchat menggunakan perintah ini, dukungan Anda sangat dihargai!
-  inviteLinks: '<: No: 977600033740431410> Jangan beriklan atau mempromosikan server di jaringan. Tetapkan undangan di `/koneksi` sebagai gantinya!'
-  invalidLangCode: '<: No: 977600033740431410> Kode bahasa yang tidak valid. Pastikan Anda telah memasukkan [kode bahasa] yang benar (https://cloud.google.com/translate/docs/languages).'
-  unknownServer: '<: No: 977600033740431410> server yang tidak dikenal. Pastikan Anda telah memasukkan ID server yang benar.'
-  unknownNetworkMessage: '<: No: 977600033740431410> pesan yang tidak diketahui. Jika telah dikirim dalam menit terakhir, harap tunggu beberapa detik lagi dan coba lagi.'
-  userNotFound: '<: No: 977600033740431410> pengguna tidak ditemukan. Coba masukkan ID mereka sebagai gantinya.'
-  blacklisted: '<: No: 977600033740431410> Anda atau server ini masuk daftar hitam menggunakan Interchat.'
-  userBlacklisted: '<: Tidak: 977600033740431410> Anda masuk daftar hitam dari ** {{hub}} **.'
-  serverBlacklisted: '<: no: 977600033740431410> server ini masuk daftar hitam dari ** {{hub}} **.'
-  serverNotBlacklisted: '<: No: 977600033740431410> Server yang dimasukkan tidak masuk daftar hitam.'
-  userNotBlacklisted: '<: No: 977600033740431410> Pengguna yang dimasukkan tidak masuk daftar hitam.'
-  missingPermissions: '<: no: 977600033740431410> Anda kehilangan izin berikut untuk melakukan tindakan ini: ** {{{permissions}}} **'
-  botMissingPermissions: '<: No: 977600033740431410> Harap beri saya izin berikut untuk melanjutkan: ** {{{permissions}}} **'
-  unknown: '<: No: 977600033740431410> Terjadi kesalahan yang tidak diketahui. Silakan coba lagi nanti atau hubungi kami dengan bergabung dengan [Server Dukungan] kami ({{{support_invite}}}).'
-  notUsable: '<: No: 977600033740431410> Ini tidak lagi dapat digunakan.'
-  cooldown: '<: No: 977600033740431410> Anda berada di cooldown. Harap tunggu ** {{{time}}} ** Sebelum mencoba lagi.'
+  mustVote: Silakan [VOTE] (https://top.gg/bot/769921109209907241/vote) untuk InterChat menggunakan perintah ini, dukungan Anda sangat dihargai!
+  inviteLinks: '{{{emoji}}} Jangan mengiklankan atau mempromosikan server di jaringan. Tetapkan undangan di `/koneksi` sebagai gantinya!'
+  invalidLangCode: '{{{emoji}}} kode bahasa tidak valid. Pastikan Anda telah memasukkan [kode bahasa] yang benar (https://cloud.google.com/translate/docs/languages).'
+  unknownServer: '{{{emoji}}} server yang tidak dikenal. Pastikan Anda telah memasukkan ID server yang benar.'
+  unknownNetworkMessage: '{{{emoji}}} pesan yang tidak diketahui. Jika telah dikirim dalam menit terakhir, harap tunggu beberapa detik lagi dan coba lagi.'
+  userNotFound: '{{{emoji}}} pengguna tidak ditemukan. Coba masukkan ID mereka sebagai gantinya.'
+  blacklisted: '{{{emoji}}} Anda atau server ini masuk daftar hitam menggunakan interchat.'
+  userBlacklisted: '{{{emoji}}} Anda masuk daftar hitam dari ** {{hub}} **.'
+  serverBlacklisted: '{{{emoji}}} server ini masuk daftar hitam dari ** {{hub}} **.'
+  serverNotBlacklisted: '{{{emoji}}} Server yang dimasukkan tidak masuk daftar hitam.'
+  userNotBlacklisted: '{{{emoji}}} Pengguna yang dimasukkan tidak masuk daftar hitam.'
+  missingPermissions: '{{{emoji}}} Anda kehilangan izin berikut untuk melakukan tindakan ini: ** {{{permissions}}} **'
+  botMissingPermissions: '{{{emoji}}} tolong beri saya izin berikut untuk melanjutkan: ** {{{permissions}}} **'
+  unknown: '{{{emoji}}} Terjadi kesalahan yang tidak diketahui. Silakan coba lagi nanti atau hubungi kami dengan bergabung dengan [Server Dukungan] kami ({{{support_invite}}}).'
+  notUsable: '{{{emoji}}} Ini tidak lagi dapat digunakan.'
+  cooldown: '{{{emoji}}} Anda berada di cooldown. Harap tunggu ** {{{time}}} ** Sebelum mencoba lagi.'
 misc:
-  noReason: Tidak ada alasan yang diberikan.
+  noReason: Tidak ada alasan yang disediakan.
   noDesc: Tidak ada deskripsi.
-  version: Interchat v {{version}}
+  version: InterChat v{{version}}
   loading: '{{{emoji}}} Harap tunggu sementara saya memproses permintaan Anda ...'
