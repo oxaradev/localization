@@ -240,7 +240,7 @@ hub:
 
          __Learn Mai multe despre hub -uri din [ghidul nostru]({{{docs_link}}}) .__.
     revoke:
-      invalidCode: '{{{emoji}} cod de invitație nevalid. Vă rugăm să vă asigurați că ați introdus un cod de invitație valid.'
+      invalidCode: '{{{emoji}}} cod de invitație nevalid. Vă rugăm să vă asigurați că ați introdus un cod de invitație valid.'
       success: '{{{emoji}}} invitați {{inviteCode}} revocat.'
     list:
       title: '**Invitați coduri:**'

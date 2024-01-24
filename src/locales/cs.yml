@@ -240,7 +240,7 @@ hub:
 
          __Lerorn více o náboji v našem [průvodci]({{{docs_link}}}) .__.
     revoke:
-      invalidCode: '{{{emoji}} Neplatný kód pozvání. Ujistěte se, že jste zadali platný kód pozvání.'
+      invalidCode: '{{{emoji}}} Neplatný kód pozvání. Ujistěte se, že jste zadali platný kód pozvání.'
       success: '{{{emoji}}} invite {{inviteCode}} zrušeno.'
     list:
       title: '**Pozvat kódy:**'

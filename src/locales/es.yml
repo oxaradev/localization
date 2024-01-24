@@ -240,7 +240,7 @@ hub:
 
          __Learn más sobre los centros en nuestra [Guía]({{{docs_link}}}) .__.
     revoke:
-      invalidCode: '{{{emoji}} Código de invitación no válido. Asegúrese de haber ingresado un código de invitación válido.'
+      invalidCode: '{{{emoji}}} Código de invitación no válido. Asegúrese de haber ingresado un código de invitación válido.'
       success: '{{{emoji}}} Invitación {{inviteCode}} revocada.'
     list:
       title: '**Invitar códigos:**'

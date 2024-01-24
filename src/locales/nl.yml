@@ -240,7 +240,7 @@ hub:
 
          __Learn Meer over hubs in onze [gids]({{{docs_link}}}) .__.
     revoke:
-      invalidCode: '{{{emoji}} Ongeldige uitnodigingcode. Zorg ervoor dat u een geldige uitnodigingscode hebt ingevoerd.'
+      invalidCode: '{{{emoji}}} Ongeldige uitnodigingcode. Zorg ervoor dat u een geldige uitnodigingscode hebt ingevoerd.'
       success: '{{{emoji}}} uitnodiging {{inviteCode}} ingetrokken.'
     list:
       title: '**Codes uitnodigen:**'

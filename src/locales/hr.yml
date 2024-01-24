@@ -240,7 +240,7 @@ hub:
 
          __LERN više o čvorištima u našem [vodiču]({{{docs_link}}}) .__.
     revoke:
-      invalidCode: '{{{emoji}} nevažeći pozivni kôd. Obavezno unijeli valjani pozivni kôd.'
+      invalidCode: '{{{emoji}}} nevažeći pozivni kôd. Obavezno unijeli valjani pozivni kôd.'
       success: '{{{emoji}}} Poziv {{inviteCode}} oduzet.'
     list:
       title: '**Pozovite kodove:**'

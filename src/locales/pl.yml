@@ -240,7 +240,7 @@ hub:
 
          __Przyłóż więcej o piastach w naszym [przewodniku]({{{docs_link}}}) .__.
     revoke:
-      invalidCode: '{{{emoji}} Nieprawidłowy kod zaproszenia. Upewnij się, że wprowadziłeś prawidłowy kod zaproszenia.'
+      invalidCode: '{{{emoji}}} Nieprawidłowy kod zaproszenia. Upewnij się, że wprowadziłeś prawidłowy kod zaproszenia.'
       success: '{{{emoji}}} zapraszaj {{inviteCode}} cofnięte.'
     list:
       title: '**Zaproś kody:**'

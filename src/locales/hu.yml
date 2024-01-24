@@ -240,7 +240,7 @@ hub:
 
          __ Tanuljon többet a [útmutató]({{{docs_link}}}) csomópontokról.
     revoke:
-      invalidCode: '{{{emoji}} Érvénytelen meghívó kód. Kérjük, győződjön meg arról, hogy megadott egy érvényes meghívó kódot.'
+      invalidCode: '{{{emoji}}} Érvénytelen meghívó kód. Kérjük, győződjön meg arról, hogy megadott egy érvényes meghívó kódot.'
       success: '{{{emoji}}} invite {{inviteCode}} visszavont.'
     list:
       title: '**Meghívó kódok:**'

@@ -240,7 +240,7 @@ hub:
 
          __Sudo lisää napaista [oppaassa]({{{docs_link}}}) .__.
     revoke:
-      invalidCode: '{{{emoji}} virheellinen kutsukoodi. Varmista, että olet syöttänyt kelvollisen kutsukeskin.'
+      invalidCode: '{{{emoji}}} virheellinen kutsukoodi. Varmista, että olet syöttänyt kelvollisen kutsukeskin.'
       success: '{{{emoji}}} kutsu {{inviteCode}} peruutettu.'
     list:
       title: '**Kutsu koodit:**'

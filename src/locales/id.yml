@@ -240,7 +240,7 @@ hub:
 
          __Learn lebih lanjut tentang hub di [panduan] kami ({{{docs_link}}}) .__.
     revoke:
-      invalidCode: '{{{emoji}} Kode undangan tidak valid. Pastikan Anda telah memasukkan kode undangan yang valid.'
+      invalidCode: '{{{emoji}}} Kode undangan tidak valid. Pastikan Anda telah memasukkan kode undangan yang valid.'
       success: '{{{emoji}}} Undang {{inviteCode}} dicabut.'
     list:
       title: '**Undang Kode:**'

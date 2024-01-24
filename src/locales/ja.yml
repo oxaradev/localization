@@ -240,7 +240,7 @@ hub:
 
          __[ガイド]（{{{docs_link}}}）のハブについて詳しく説明します。__。
     revoke:
-      invalidCode: '{{{emoji}}無効な招待コード。 有効な招待コードを入力したことを確認してください。'
+      invalidCode: '{{{emoji}}}無効な招待コード。 有効な招待コードを入力したことを確認してください。'
       success: '{{{emoji}}} invite {{inviteCode}}が取り消されました。'
     list:
       title: '**コードを招待する：**'

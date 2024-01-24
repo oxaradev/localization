@@ -240,7 +240,7 @@ hub:
 
          __Learn Daugiau apie mūsų [gido] centrus ({{{docs_link}}}) .__.
     revoke:
-      invalidCode: '{{{emoji}} neteisingas kvietimo kodas. Įsitikinkite, kad įvedėte galiojantį kvietimo kodą.'
+      invalidCode: '{{{emoji}}} neteisingas kvietimo kodas. Įsitikinkite, kad įvedėte galiojantį kvietimo kodą.'
       success: '{{{emoji}}} pakviesti {{inviteCode}} atšauktas.'
     list:
       title: '**pakviesti kodus:**'

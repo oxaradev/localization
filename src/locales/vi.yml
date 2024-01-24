@@ -240,7 +240,7 @@ hub:
 
          __Learn Thêm về các trung tâm trong [Hướng dẫn] của chúng tôi ({{{docs_link}}}) .__.
     revoke:
-      invalidCode: '{{{emoji}} Mã mời không hợp lệ. Vui lòng đảm bảo rằng bạn đã nhập mã mời hợp lệ.'
+      invalidCode: '{{{emoji}}} Mã mời không hợp lệ. Vui lòng đảm bảo rằng bạn đã nhập mã mời hợp lệ.'
       success: '{{{emoji}}} Mời {{inviteCode}} bị thu hồi.'
     list:
       title: '**Mã mời:**'

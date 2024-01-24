@@ -240,7 +240,7 @@ hub:
 
          __Laarn mer om knutepunkter i vår [guide]({{{docs_link}}}) .__.
     revoke:
-      invalidCode: '{{{emoji}} ugyldig invitasjonskode. Forsikre deg om at du har lagt inn en gyldig invitasjonskode.'
+      invalidCode: '{{{emoji}}} ugyldig invitasjonskode. Forsikre deg om at du har lagt inn en gyldig invitasjonskode.'
       success: '{{{emoji}}} invitere {{inviteCode}} tilbakekalt.'
     list:
       title: '**Inviter koder:**'

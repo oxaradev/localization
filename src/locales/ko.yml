@@ -240,7 +240,7 @@ hub:
 
         허브에 대한 자세한 내용은 [가이드]({{{docs_link}}}).__에서 확인하세요.
     revoke:
-      invalidCode: '{{{emoji}} 잘못된 초대 코드입니다. 올바른 초대 코드를 입력했는지 확인하세요.'
+      invalidCode: '{{{emoji}}} 잘못된 초대 코드입니다. 올바른 초대 코드를 입력했는지 확인하세요.'
       success: '{{{emoji}}} 초대 {{inviteCode}} 취소되었습니다.'
     list:
       title: '**초대 코드:**'

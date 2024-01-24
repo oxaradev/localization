@@ -240,7 +240,7 @@ hub:
 
         __Learn more about hubs in our [guide]({{{docs_link}}}).__.
     revoke:
-      invalidCode: '{{{emoji}} Invalid invite code. Please make sure you have entered a valid invite code.'
+      invalidCode: '{{{emoji}}} Invalid invite code. Please make sure you have entered a valid invite code.'
       success: '{{{emoji}}} Invite {{inviteCode}} revoked.'
     list:
       title: '**Invite Codes:**'

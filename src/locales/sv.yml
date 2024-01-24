@@ -240,7 +240,7 @@ hub:
 
          __Learn mer om nav i vår [guide]({{{docs_link}}}) .__.
     revoke:
-      invalidCode: '{{{emoji}} Ogiltig inbjudningskod. Se till att du har angett en giltig inbjudningskod.'
+      invalidCode: '{{{emoji}}} Ogiltig inbjudningskod. Se till att du har angett en giltig inbjudningskod.'
       success: '{{{emoji}}} bjuda in {{inviteCode}} återkallad.'
     list:
       title: '**Bjud in koder:**'

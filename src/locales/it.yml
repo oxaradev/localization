@@ -240,7 +240,7 @@ hub:
 
          __Learn Altro sugli hub nella nostra [guida]({{{docs_link}}}) .__.
     revoke:
-      invalidCode: '{{{emoji}} codice invito non valido. Assicurati di aver inserito un codice di invito valido.'
+      invalidCode: '{{{emoji}}} codice invito non valido. Assicurati di aver inserito un codice di invito valido.'
       success: '{{{emoji}}} invito {{inviteCode}} revocata.'
     list:
       title: '**Codici di invito:**'

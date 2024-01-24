@@ -240,7 +240,7 @@ hub:
 
         Hub'lar hakkında daha fazla bilgi için [kılavuz]({{{docs_link}}}).__.
     revoke:
-      invalidCode: '{{{emoji}} Geçersiz davet kodu. Lütfen geçerli bir davet kodu girdiğinizden emin olun.'
+      invalidCode: '{{{emoji}}} Geçersiz davet kodu. Lütfen geçerli bir davet kodu girdiğinizden emin olun.'
       success: '{{{emoji}}} Davet {{inviteCode}} iptal edildi.'
     list:
       title: '**Davet Kodları:**'
