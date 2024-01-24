@@ -240,7 +240,7 @@ hub:
 
          __在我们的[指南]（{{{docs_link}}}）中了解有关集线器的更多信息。
     revoke:
-      invalidCode: '{{{emoji}}无效的邀请代码。 请确保您输入了有效的邀请代码。'
+      invalidCode: '{{{emoji}}}无效的邀请代码。 请确保您输入了有效的邀请代码。'
       success: '{{{emoji}}}邀请{{inviteCode}}撤销。'
     list:
       title: '**邀请代码：**'
