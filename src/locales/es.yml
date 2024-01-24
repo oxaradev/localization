@@ -39,7 +39,7 @@ network:
         Para mantener las cosas organizadas, se recomienda usar un canal separado solo para este centro. Pero no se preocupe, siempre puede cambiar esto más tarde. 
 
          **Cómo funciona:** La red InterChat es como un puente mágico que vincula los canales en diferentes servidores que están con nosotros en este centro. Obtenga más información en nuestra [Guía]({{{docs_link}}}).
-      footer: Red InterChat | Versión {{version}}
+      footer: Red InterChat | Version {{version}}
     inProgress: Ya ha habido un intento de unirse a un centro de {{{channel}}}. Por favor, cancelelo o espere a que se complete.
 blacklist:
   button:
