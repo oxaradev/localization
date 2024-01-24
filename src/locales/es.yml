@@ -1,13 +1,13 @@
 rules: |-
   ### 📜 Reglas del InterChat 
 
-   1. **Use el sentido común:** Sea considerado con los demás y sus puntos de vista. Sin insultos, lenguaje despectivo extremo o cualquier acción que pueda interrumpir la comodidad del chat. 
-   2. **Sin spam ni flood:** Evite mensajes repetidos, sin sentido o demasiado largos. 
+   1. **Usa el sentido común:** Sea considerado con los demás y sus puntos de vista. Sin insultos, lenguaje despectivo extremo o cualquier acción que pueda interrumpir la comodidad del chat. 
+   2. **Sin spam ni flood:** Evite enviar mensajes repetidos, sin sentido o demasiado largos. 
    3. **Mantenga los asuntos privados, privados:** Evite compartir información personal en toda la red. 
-   4. **Sin acoso:** Los trolleos, los insultos o el acoso de ningún tipo no son tolerados. 
-   5. **Sin contenido NSFW/+18:** La publicación de contenido explícito NSFW/+18 dará como resultado una lista negra inmediata. 
+   4. **Sin acoso:** Los trolleos, insultos o el acoso de cualquier tipo no son tolerados. 
+   5. **Sin contenido NSFW/+18:** La publicación de contenido explícito, NSFW/+18 dará como resultado una lista negra inmediata. 
    6. **Respeta los temas sensibles:** No trivialice la autolesión, el suicidio, la violencia u otros temas ofensivos. 
-   7. **Reporte al moderador:** Si observa una violación de estas reglas, repórtalo al moderador del centro apropiado o al personal de InterChat para nuevas acciones. 
+   7. **Reporte los problemas:** Si observa una violación de estas reglas, repórtalo al moderador del centro apropiado o al personal de InterChat para nuevas acciones. 
 
    ¿Alguna pregunta? Únete a nuestro [servidor de soporte]({{{support_invite}}}).
 vote: |-
@@ -22,8 +22,8 @@ vote: |-
    Apreciamos profundamente su inquebrantable apoyo. ¡Gracias! 🙏
 network:
   accountTooNew: '{{{emoji}}} {{{user}}} Su cuenta es demasiado nueva para enviar mensajes usando InterChat. Por favor, inténtelo de nuevo más tarde.'
-  deleteSuccess: '{{{emoji}}} Mensaje por {{{user}}} se ha eliminado de __**{{deleted}}/{{total}}**__ servidores.'
-  editSuccess: '{{{emoji}}} mensaje por {{{user}}} se ha editado en __**{{edited}}/{{total}}**__ servidores.'
+  deleteSuccess: '{{{emoji}}} El mensaje de {{{user}}} se ha eliminado de __**{{deleted}} de {{total}}**__ servidores.'
+  editSuccess: '{{{emoji}}} El mensaje de {{{user}}} se ha editado en __**{{edited}} de {{total}}**__ servidores.'
   welcome: |-
     {{{user}}} Bienvenido a **{{hub}}**! {{{emoji}}} 
 
@@ -39,28 +39,28 @@ network:
         Para mantener las cosas organizadas, se recomienda usar un canal separado solo para este centro. Pero no se preocupe, siempre puede cambiar esto más tarde. 
 
          **Cómo funciona:** La red InterChat es como un puente mágico que vincula los canales en diferentes servidores que están con nosotros en este centro. Obtenga más información en nuestra [Guía]({{{docs_link}}}).
-      footer: Red InterChat | Version {{version}}
-    inProgress: Ya ha habido un intento de unirse a un centro de {{{channel}}}. Por favor, cancelé o espere a que se complete.
+      footer: Red InterChat | Versión {{version}}
+    inProgress: Ya ha habido un intento de unirse a un centro de {{{channel}}}. Por favor, cancelelo o espere a que se complete.
 blacklist:
   button:
     user: Usuario de la lista negra
-    server: Servidor de lista negra
+    server: Servidor de la lista negra
   modal:
     reason:
       label: Razón
       placeholder: Razón de la lista negra
     duration:
       label: Duración
-      placeholder: 'Duración de la lista negra. Por ejemplo: 1d, 1w, 1m, 1y. Deje en blanco para permanente.'
+      placeholder: 'Duración de la lista negra. Por ejemplo: 1d, 1w, 1m, 1y. Deje en blanco para que sea permanente.'
   user:
-    success: '{{{emoji}}} **{{username}}** ¡ha sido añadido con éxito en la lista negra!'
-    removed: '{{{emoji}}} **{{username}}** ¡se ha eliminado de la lista negra!'
+    success: '{{{emoji}}} ¡**{{username}}** ha sido añadido con éxito a la lista negra!'
+    removed: '{{{emoji}}} ¡**{{username}}** se ha eliminado con éxito de la lista negra!'
     alreadyBlacklisted: '{{{emoji}}} Este usuario ya está en la lista negra.'
     easterEggs:
       blacklistBot: No puedes incluirme en la lista negra wtf.
   server:
-    success: '{{{emoji}}} **{{server}}** ¡se ha incluido en la lista negra con éxito!'
-    removed: '{{{emoji}}} **{{server}}** ¡se ha eliminado de la lista negra!'
+    success: '{{{emoji}}} ¡**{{server}}** se ha añadido con éxito a la lista negra!'
+    removed: '{{{emoji}}} ¡**{{server}}** se ha eliminado con éxito de la lista negra!'
     alreadyBlacklisted: '{{{emoji}}} Este servidor ya está en la lista negra.'
     unknownError: Error al agregar a la lista negra a **{{server}}**. Consulte a los desarrolladores para obtener más información.
   list:
@@ -70,16 +70,16 @@ blacklist:
        **Razón:** {{{reason}}} 
        **Expira:** {{expires}}
     server: |-
-      **ID de servidor:** {{serverId}} 
+      **ID del servidor:** {{serverId}} 
        **Moderador:** {{moderator}} 
        **Razón:** {{{reason}}} 
        **Expira:** {{{expires}}}
 msgInfo:
   buttons:
-    message: Información de mensaje
+    message: Información del mensaje
     server: Información del servidor
-    user: Información de usuario
-    report: Informe
+    user: Información del usuario
+    report: Reportar
   message:
     description: |-
       ## {{{emoji}}} Información del mensaje 
@@ -131,10 +131,10 @@ msgInfo:
        **Centros en propiedad:** 
        __{{hubsOwned}}__
   report:
-    notEnabled: '{{{emoji}}} El informe no está habilitado para este centro.'
-    success: '{{{emoji}}} Informe enviado correctamente. ¡Gracias!'
+    notEnabled: '{{{emoji}}} Este centro no tiene habilitado la acción de reportar.'
+    success: '{{{emoji}}} Reporte enviado correctamente. ¡Gracias!'
 invite: |-
-  Gracias por elegir invitar a InterChat. ¡Simplemente haga clic en el botón de abajo para invitarme! 
+  Gracias por elegir invitar a InterChat. ¡Haga clic en el botón de abajo para invitarme! 
 
    - **Servidor de soporte:** {{{support}}}
 connection:
@@ -145,19 +145,19 @@ connection:
   switchCalled: '{{{emoji}}} Interruptor de canal llamado, use el comando nuevamente para ver una nueva conexión.'
   switchSuccess: '{{{emoji}}} El canal ha sido conmutado. Ahora está conectado desde **{{{channel}}}**.'
   inviteRemoved: '{{{emoji}}} Invitación del servidor eliminada para este centro.'
-  inviteInvalid: '{{{emoji}}} La invitación es invalida. Asegúrese de haber ingresado un enlace de invitación válido.'
+  inviteInvalid: '{{{emoji}}} La invitación es inválida. Asegúrese de haber ingresado un enlace de invitación válido.'
   inviteAdded: '{{{emoji}}} Se ha agregado la invitación. Otros ahora pueden unirse a este servidor utilizando el comando `APPS> Información del mensaje/Informe ''.'
   emColorInvalid: '{{{emoji}}} Color no válido. Asegúrese de haber ingresado un código de color hexadecimal válido.'
   emColorChange: '{{{emoji}}} Se estableció el color exitosamente: {{{action}}}'
   embed:
-    title: Detalles de conexión
+    title: Detalles de la conexión
     description: Seleccione una opción a continuación para administrar su conexión.
     fields:
       hub: Centro
       channel: Canal
       invite: Invitar
       connected: Conectada
-      emColor: Color incrustado
+      emColor: Color del embed
       compact: Modo compacto
       profanity: Filtro de blasfemias
     footer: Use el botón y el menú desplegable a continuación para administrar su conexión.
@@ -196,7 +196,7 @@ hub:
         label: URL de banner
         placeholder: Ingrese una URL de imagen Imgur.
     maxHubs: '{{{emoji}}} Has alcanzado el número máximo de centros (3) que puedes crear. Elimine un centro antes de crear otro.'
-    invalidName: '{{{emoji}}} Nombre de la concentración no válida. No debe contener `discord`,`clyde` o \`\`\`. Elija otro nombre.'
+    invalidName: '{{{emoji}}} Nombre de la concentración no válida. No debe contener `discord`,`clyde` o `/`. Elija otro nombre.'
     nameTaken: '{{{emoji}}} Este nombre del centro ya está tomado. Elija otro nombre.'
     success: |-
       ### Hub creado! 
@@ -241,7 +241,7 @@ hub:
          __Learn más sobre los centros en nuestra [Guía]({{{docs_link}}}) .__.
     revoke:
       invalidCode: '{{{emoji}} Código de invitación no válido. Asegúrese de haber ingresado un código de invitación válido.'
-      success: '{{{emoji}}} invitar {{inviteCode}} revocado.'
+      success: '{{{emoji}}} Invitación {{inviteCode}} revocada.'
     list:
       title: '**Invitar códigos:**'
       noInvites: '{{{emoji}}} Este centro aún no tiene invitaciones. Use `/Hub Invite Create` para crear uno.'
@@ -331,10 +331,10 @@ hub:
         description: Registre cuando un servidor se une o deja este centro.
 report:
   modal:
-    title: Detalles del informe
+    title: Detalles del reporte
     other:
-      label: Detalles del informe
-      placeholder: Una descripción detallada del informe.
+      label: Detalles del reporte
+      placeholder: Una descripción detallada del reporte.
     userOrServer:
       label: ID de usuario/servidor
       placeholder: Los ID del usuario/servidor que está informando.
@@ -362,7 +362,7 @@ report:
     description: Elija qué componente del bot con el que enfrenta problemas.
     submitted: '{{{emoji}}} Informe enviado correctamente. Únase al {{{support_command}}} para obtener más detalles. ¡Gracias!'
 language:
-  set: ¡Juego de idiomas! Ahora te responderé en **{{{lang}}}**.
+  set: ¡Sé de idiomas! Ahora te responderé en **{{{lang}}}**.
 errors:
   messageNotSentOrExpired: '{{{emoji}}} Este mensaje no se envió en un centro, ha expirado o le falta permisos para realizar esta acción.'
   notYourAction: '{{{emoji}}} Lo siento, no puedes realizar esta acción. Por favor ejecute el comando usted mismo.'
@@ -389,7 +389,7 @@ errors:
   notUsable: '{{{emoji}}} Esto ya no se puede usar.'
   cooldown: '{{{emoji}}} Estás en el tiempo de reutilización. Espere **{{{time}}}** antes de intentarlo nuevamente.'
 misc:
-  noReason: No se proporciona ninguna razón.
+  noReason: No se proporcionó ninguna razón.
   noDesc: Sin descripción.
   version: InterChat v{{version}}
   loading: '{{{emoji}}} Por favor, espere mientras proceso su solicitud ...'
