@@ -9,7 +9,7 @@ rules: |-
    6. **Respekt citlivá témata:** Neurivializujte sebepoškození, sebevraždu, násilí nebo jiná útočná témata. 
    7. **Zpráva obavy:** Pokud dodržujete porušení těchto pravidel, nahláste jej příslušného moderátora centra nebo zaměstnancům InterChat pro další kroky. 
 
-   Nějaké otázky? Připojte se k našemu [podpůrnému serveru]({{{support_invite}}}).
+   Nějaké otázky? Připojte se k našemu [podpůrnému serveru]({support_invite}).
 vote: |-
   ## 🗳 Hlasujte pro InterChat a užijte si exkluzivní výhody 
    Váš příspěvek je neocenitelný při zvyšování pozice InterChatu nahoře.gg. Každý hlas je významný rozdíl! 
@@ -21,26 +21,26 @@ vote: |-
 
    Hluboko vážíme vaší neochvějné podpory. Děkuji! 🙏
 network:
-  accountTooNew: '{{{emoji}}} {{{user}}} Váš účet je příliš nový na odesílání zpráv pomocí InterChat. Prosím zkuste to znovu později.'
-  deleteSuccess: '{{{emoji}}} zpráva od {{{user}}} byla odstraněna z __**{{deleted}}/{{total}}**__ servery.'
-  editSuccess: '{{{emoji}}} zpráva od {{{user}}} byla upravena v __**{{edited}}/{{total}}**__ servery.'
+  accountTooNew: '{emoji} {user} Váš účet je příliš nový na odesílání zpráv pomocí InterChat. Prosím zkuste to znovu později.'
+  deleteSuccess: '{emoji} zpráva od {user} byla odstraněna z __**{deleted}/{total}**__ servery.'
+  editSuccess: '{emoji} zpráva od {user} byla upravena v __**{edited}/{total}**__ servery.'
   welcome: |-
-    {{{user}}} Vítejte na **{{hub}}**! {{{emoji}}} 
+    {user} Vítejte na **{hub}**! {emoji} 
 
-     Zprávy odeslané v {{{channel}}} budou sdíleny s jinými servery, **Povolení komunikace bez námahy**. Můžete sdílet obrázky, GIF, odpověď, reagovat a komunikovat se zprávami, jak byste normálně. Just remember to avoid sharing personal info (check {{{rules_command}}} for more). Jste připraveni skočit? Zašlete svou první zprávu a připojte se k konverzaci!
+     Zprávy odeslané v {channel} budou sdíleny s jinými servery, **Povolení komunikace bez námahy**. Můžete sdílet obrázky, GIF, odpověď, reagovat a komunikovat se zprávami, jak byste normálně. Just remember to avoid sharing personal info (check {rules_command} for more). Jste připraveni skočit? Zašlete svou první zprávu a připojte se k konverzaci!
   nsfw:
     title: Detekováno NSFW
-    description: Detekoval jsem ve vaší zprávě obsah {{predictions}} nsfw (ne bezpečný pro práci). Please be aware that this is against our {{{rules_command}}} and will result in immediate blacklist.
+    description: Detekoval jsem ve vaší zprávě obsah {predictions} nsfw (ne bezpečný pro práci). Please be aware that this is against our {rules_command} and will result in immediate blacklist.
     footer: Uvědomte si, že AI není dokonalá a může dělat chyby. Omlouváme se za způsobené nepříjemnosti.
   onboarding:
     embed:
-      title: 👋 Hej, vítejte na {{hubName}}!
+      title: 👋 Hej, vítejte na {hubName}!
       description: |-
         Aby se věci udržely organizované, doporučuje se použít samostatný kanál pro tento rozbočovač. Ale nebojte se, můžete to vždy změnit později. 
 
-         **Jak to funguje:** Síť InterChat je jako magický most, který propojuje kanály na různých serverech, které jsou s námi v tomto rozbočovači. Další informace naleznete na našem [průvodci]({{{docs_link}}}).
-      footer: InterChat síť | Version {{version}}
-    inProgress: Již se pokusilo připojit se k rozbočovači z {{{channel}}}. Zrušte to prosím nebo počkejte, až to dokončí.
+         **Jak to funguje:** Síť InterChat je jako magický most, který propojuje kanály na různých serverech, které jsou s námi v tomto rozbočovači. Další informace naleznete na našem [průvodci]({docs_link}).
+      footer: InterChat síť | Version {version}
+    inProgress: Již se pokusilo připojit se k rozbočovači z {channel}. Zrušte to prosím nebo počkejte, až to dokončí.
 blacklist:
   button:
     user: Uživatel černé listiny
@@ -53,27 +53,27 @@ blacklist:
       label: Doba trvání
       placeholder: 'Trvání černé listiny. Např.: 1d, 1w, 1m, 1y. Nechte je prázdné pro trvalé.'
   user:
-    success: '{{{emoji}}} **{{username}}** bylo úspěšně černošské!'
-    removed: '{{{emoji}}} **{{username}}** byl z černé listiny odstraněn!'
-    alreadyBlacklisted: '{{{emoji}}} Tento uživatel je již na černé listině.'
+    success: '{emoji} **{username}** bylo úspěšně černošské!'
+    removed: '{emoji} **{username}** byl z černé listiny odstraněn!'
+    alreadyBlacklisted: '{emoji} Tento uživatel je již na černé listině.'
     easterEggs:
       blacklistBot: Nemůžeš mi blacklist wtf.
   server:
-    success: '{{{emoji}}} **{{server}}** byl úspěšně černošský!'
-    removed: '{{{emoji}}} **{{server}}** byl odstraněn z černé listiny!'
-    alreadyBlacklisted: '{{{emoji}}} Tento server je již na černé listině.'
-    unknownError: Nepodařilo se na černou listinu **{{server}}**. Zeptejte se s vývojáři o více informací.
+    success: '{emoji} **{server}** byl úspěšně černošský!'
+    removed: '{emoji} **{server}** byl odstraněn z černé listiny!'
+    alreadyBlacklisted: '{emoji} Tento server je již na černé listině.'
+    unknownError: Nepodařilo se na černou listinu **{server}**. Zeptejte se s vývojáři o více informací.
   list:
     user: |-
-      **UserId:** {{userId}} 
-       **Moderátor:** {{moderator}} 
-       **Důvod:** {{{reason}}} 
-       **vyprší:** {{expires}}
+      **UserId:** {userId} 
+       **Moderátor:** {moderator} 
+       **Důvod:** {reason} 
+       **vyprší:** {expires}
     server: |-
-      **ServerId:** {{serverId}} 
-       **Moderátor:** {{moderator}} 
-       **Důvod:** {{{reason}}} 
-       **vyprší:** {{{expires}}}
+      **ServerId:** {serverId} 
+       **Moderátor:** {moderator} 
+       **Důvod:** {reason} 
+       **vyprší:** {expires}
 msgInfo:
   buttons:
     message: Informace o zprávě
@@ -82,73 +82,73 @@ msgInfo:
     report: Zpráva
   message:
     description: |-
-      ## {{{emoji}}} Informace o zprávě 
+      ## {emoji} Informace o zprávě 
 
        **Zasláno od:** 
-       __{{{author}}}__ 
+       __{author}__ 
 
        **Odesláno z:** 
-       __{{{server}}}__ 
+       __{server}__ 
 
        **ID zprávy:** 
-       __{{messageId}}__ 
+       __{messageId}__ 
 
        **Odesláno (Hub):** 
-       __{{{hub}}}__ 
+       __{hub}__ 
 
        **Vytvořená zpráva:** 
-       {{{createdAt}}}
+       {createdAt}
   server:
     description: |-
-      ## {{{server}}} 
-       {{{description}}} 
+      ## {server} 
+       {description} 
 
        **Majitel:** 
-       __{{{owner}}}__ 
+       __{owner}__ 
 
        **Vytvořeno:** 
-       __{{{createdAtFull}}} ({{{createdAt}}})__ 
+       __{createdAtFull} ({createdAt})__ 
 
        **Počet členů:** 
-       __{{memberCount}}__ 
+       __{memberCount}__ 
 
        **Pozvat:** 
-       __{{{invite}}}__
+       __{invite}__
   user:
     description: |-
-      ## {{{username}}} 
-       __{{{user}}}__ 
+      ## {username} 
+       __{user}__ 
 
        **ID:** 
-       __{{id}}__ 
+       __{id}__ 
 
        **Vytvořeno:** 
-       {{{createdAtFull}}} ({{{createdAt}}}) 
+       {createdAtFull} ({createdAt}) 
 
        **Zobrazit název:** 
-       __{{{globalName}}}__ 
+       __{globalName}__ 
 
        **Vlastníky Hubs:** 
-       __{{hubsOwned}}__
+       __{hubsOwned}__
   report:
-    notEnabled: '{{{emoji}}} Reporting není povoleno pro tento rozbočovač.'
-    success: '{{{emoji}}} zpráva předložená úspěšně. Děkuji!'
+    notEnabled: '{emoji} Reporting není povoleno pro tento rozbočovač.'
+    success: '{emoji} zpráva předložená úspěšně. Děkuji!'
 invite: |-
   Děkujeme, že jste se rozhodli pozvat InterChat. Jednoduše klikněte na tlačítko níže a pozvěte mě! 
 
-   - **Support Server:** {{{support}}}
+   - **Support Server:** {support}
 connection:
-  notFound: '{{{emoji}}} Neplatné připojení. Ověřte ID kanálu nebo vyberte z zobrazených možností.'
-  channelNotFound: '{{{emoji}}} Nelze najít připojený kanál. Chcete -li znovu promluvit, vyberte nový kanál.'
-  alreadyConnected: '{{{emoji}}} kanál {{{channel}}} je již připojen k rozbočovači.'
-  switchChannel: '{{{emoji}}} Vyberte kanál, který chcete přepnout na použití nabídky Select Níže:'
-  switchCalled: '{{{emoji}}} Spínač kanálu Volaný, použijte příkaz znovu k zobrazení nového připojení.'
-  switchSuccess: '{{{emoji}}} kanál přepnul. Nyní jste připojeni z **{{{channel}}}**.'
-  inviteRemoved: '{{{emoji}}} server Pozvěte pro tento rozbočovač odstraněný.'
-  inviteInvalid: '{{{emoji}}} Invalidní pozvání. Ujistěte se, že jste zadali platný odkaz na pozvání.'
-  inviteAdded: '{{{emoji}}} Pozvěte přidání. Ostatní se nyní mohou připojit k tomuto serveru pomocí příkazu „Apps> Info/Report“.'
-  emColorInvalid: '{{{emoji}}} Neplatná barva. Ujistěte se, že jste zadali platný hexový barevný kód.'
-  emColorChange: '{{{emoji}}} úspěšně vložte barvu {{{action}}}'
+  notFound: '{emoji} Neplatné připojení. Ověřte ID kanálu nebo vyberte z zobrazených možností.'
+  channelNotFound: '{emoji} Nelze najít připojený kanál. Chcete -li znovu promluvit, vyberte nový kanál.'
+  alreadyConnected: '{emoji} kanál {channel} je již připojen k rozbočovači.'
+  switchChannel: '{emoji} Vyberte kanál, který chcete přepnout na použití nabídky Select Níže:'
+  switchCalled: '{emoji} Spínač kanálu Volaný, použijte příkaz znovu k zobrazení nového připojení.'
+  switchSuccess: '{emoji} kanál přepnul. Nyní jste připojeni z **{channel}**.'
+  inviteRemoved: '{emoji} server Pozvěte pro tento rozbočovač odstraněný.'
+  inviteInvalid: '{emoji} Invalidní pozvání. Ujistěte se, že jste zadali platný odkaz na pozvání.'
+  inviteAdded: '{emoji} Pozvěte přidání. Ostatní se nyní mohou připojit k tomuto serveru pomocí příkazu „Apps> Info/Report“.'
+  emColorInvalid: '{emoji} Neplatná barva. Ujistěte se, že jste zadali platný hexový barevný kód.'
+  emColorChange: '{emoji} úspěšně vložte barvu {action}'
   embed:
     title: Podrobnosti o připojení
     description: Chcete -li spravovat připojení, vyberte níže.
@@ -164,22 +164,22 @@ connection:
   selects:
     placeholder: 🛠 Níže vyberte možnost spravovat vaše připojení.
 hub:
-  notFound: '{{{emoji}}} Nelze najít Hub. Ujistěte se, že jste zadali správný název rozbočovače.'
-  notFound_mod: '{{{emoji}}} Nelze najít Hub. Ujistěte se, že jste zadali správný název rozbočovače a že jste vlastníkem nebo moderátorem rozbočovače.'
-  alreadyJoined: '{{{emoji}}} již jste se připojili **{{hub}}** z {{{channel}}}!'
-  invalidChannel: '{{{emoji}}} Neplatný kanál. Jsou podporovány pouze textové a vlákové kanály!'
-  invalidImgurUrl: '{{{emoji}}} Neplatná adresa URL pro ikonu nebo banner. Ujistěte se, že jste zadali platnou adresu URL IMGUR, která není galerií nebo albem.'
+  notFound: '{emoji} Nelze najít Hub. Ujistěte se, že jste zadali správný název rozbočovače.'
+  notFound_mod: '{emoji} Nelze najít Hub. Ujistěte se, že jste zadali správný název rozbočovače a že jste vlastníkem nebo moderátorem rozbočovače.'
+  alreadyJoined: '{emoji} již jste se připojili **{hub}** z {channel}!'
+  invalidChannel: '{emoji} Neplatný kanál. Jsou podporovány pouze textové a vlákové kanály!'
+  invalidImgurUrl: '{emoji} Neplatná adresa URL pro ikonu nebo banner. Ujistěte se, že jste zadali platnou adresu URL IMGUR, která není galerií nebo albem.'
   join:
-    success: Úspěšně se připojil k Hub **{{hub}}** z {{{channel}}}! K správě připojení použijte `/connection`. A `/rozbočovač odejít opustit rozbočovač.
+    success: Úspěšně se připojil k Hub **{hub}** z {channel}! K správě připojení použijte `/connection`. A `/rozbočovač odejít opustit rozbočovač.
   servers:
-    total: 'Aktuální připojené servery: {{from}}-{{to}} / **{{total}}**'
-    noConnections: '{{{emoji}}} Žádný server se k tomuto rozbočovači dosud nepřipojil. Pomocí `/hub join` pro připojení k tomuto rozbočovači.'
-    notConnected: '{{{emoji}}} Tento server není součástí **{{hub}}**.'
+    total: 'Aktuální připojené servery: {from}-{to} / **{total}**'
+    noConnections: '{emoji} Žádný server se k tomuto rozbočovači dosud nepřipojil. Pomocí `/hub join` pro připojení k tomuto rozbočovači.'
+    notConnected: '{emoji} Tento server není součástí **{hub}**.'
     connectionInfo: |-
-      Channel: #{{{channelName}}} `({{channelId}})` 
-       Připojil se na: {{{joinedAt}}} 
-       Invite: {{{invite}}} 
-       Připojeno: {{connected}}
+      Channel: #{channelName} `({channelId})` 
+       Připojil se na: {joinedAt} 
+       Invite: {invite} 
+       Připojeno: {connected}
   create:
     modal:
       title: Vytvořte rozbočovač
@@ -195,13 +195,13 @@ hub:
       banner:
         label: URL banneru
         placeholder: Zadejte adresu URL IMGUR.
-    maxHubs: '{{{emoji}}} Dosáhli jste maximálního počtu nábojů (3), které můžete vytvořit. Před vytvořením jiného smažte rozbočovač.'
-    invalidName: '{{{emoji}}} Neplatný název náboje. Nesmí obsahovat `Discord`,` Clyde` nebo \ `` \ `. Vyberte prosím jiné jméno.'
-    nameTaken: '{{{emoji}}} Tento název rozbočovače je již odebrán. Vyberte prosím jiné jméno.'
+    maxHubs: '{emoji} Dosáhli jste maximálního počtu nábojů (3), které můžete vytvořit. Před vytvořením jiného smažte rozbočovač.'
+    invalidName: '{emoji} Neplatný název náboje. Nesmí obsahovat `Discord`,` Clyde` nebo \ `` \ `. Vyberte prosím jiné jméno.'
+    nameTaken: '{emoji} Tento název rozbočovače je již odebrán. Vyberte prosím jiné jméno.'
     success: |-
       ### Hub vytvořen! 
 
-       Gratulujeme! Váš soukromý hub, **{{name}}**, byl úspěšně vytvořen. 
+       Gratulujeme! Váš soukromý hub, **{name}**, byl úspěšně vytvořen. 
        Chcete -li se připojit, vytvořte pozvání pomocí `/hub Invite Create` a sdílejte generovaný kód. Poté se připojte pomocí `/hub join`. 
 
        - **Generate Invite:** `/Hub Invite Create` 
@@ -210,19 +210,19 @@ hub:
        - **Upravit hub:** `/Hub Manage` 
        - **Přidat moderátory:** `/hub moderátor add` 
 
-       Další informace o Hubs v našem [průvodci]({{{docs_link}}}). Připojte se k nápovědě [{{{support_invite}}}).
+       Další informace o Hubs v našem [průvodci]({docs_link}). Připojte se k nápovědě [{support_invite}).
   delete:
-    confirm: Určitě si přejete smazat **{{hub}}**? Tato akce je nevratná. Z tohoto centra budou odstraněny všechny připojené servery, pozvánky a data zpráv.
-    ownerOnly: '{{{emoji}}} Může jej odstranit pouze majitel tohoto rozbočovače.'
-    success: '{{{emoji}}} Hub **{{hub}}** byl odstraněn.'
-    cancelled: '{{{emoji}}} Delece Hub byla zrušena.'
+    confirm: Určitě si přejete smazat **{hub}**? Tato akce je nevratná. Z tohoto centra budou odstraněny všechny připojené servery, pozvánky a data zpráv.
+    ownerOnly: '{emoji} Může jej odstranit pouze majitel tohoto rozbočovače.'
+    success: '{emoji} Hub **{hub}** byl odstraněn.'
+    cancelled: '{emoji} Delece Hub byla zrušena.'
   browse:
     joinConfirm: |-
-      Určitě se chcete připojit k {{hub}} z {{{channel}}}? 
+      Určitě se chcete připojit k {hub} z {channel}? 
           
        **Poznámka:** Vždy to můžete změnit později pomocí `/connection`.
     joinFooter: Chcete použít jiný kanál? Použijte rozbalovací nabídku níže.
-    noHubs: '{{{emoji}}} Momentálně zde nejsou uvedeny žádné rozbočovače. Prosím zkuste to znovu později!'
+    noHubs: '{emoji} Momentálně zde nejsou uvedeny žádné rozbočovače. Prosím zkuste to znovu později!'
     rating:
       invalid: Neplatné hodnocení. Musíte zadat číslo mezi 1 a 5.
       success: Hodnocení předloženo! Děkujeme vám za vaši reakci.
@@ -233,41 +233,41 @@ hub:
 
          Vaše pozvánka byla úspěšně vytvořena. Ostatní se nyní mohou připojit k tomuto rozbočovači pomocí příkazu `/hub join`. 
 
-         - **Připojte se k použití:** `/hub Připojte se: {{inviteCode}}` 
+         - **Připojte se k použití:** `/hub Připojte se: {inviteCode}` 
          - **Zobrazit pozvánky:** `/Hub Invite List` 
-         - **vypršení:** {{{expiry}}} 
+         - **vypršení:** {expiry} 
          - **Použití**: ∞ 
 
-         __Lerorn více o náboji v našem [průvodci]({{{docs_link}}}) .__.
+         __Lerorn více o náboji v našem [průvodci]({docs_link}) .__.
     revoke:
-      invalidCode: '{{{emoji}}} Neplatný kód pozvání. Ujistěte se, že jste zadali platný kód pozvání.'
-      success: '{{{emoji}}} invite {{inviteCode}} zrušeno.'
+      invalidCode: '{emoji} Neplatný kód pozvání. Ujistěte se, že jste zadali platný kód pozvání.'
+      success: '{emoji} invite {inviteCode} zrušeno.'
     list:
       title: '**Pozvat kódy:**'
-      noInvites: '{{{emoji}}} Tento rozbočovač zatím nemá žádné pozvánky. Použijte `/hub Invite Create` k vytvoření jednoho.'
-      notPrivate: '{{{emoji}}} Pozvánky mohou mít pouze soukromé rozbočovače. Použijte `/Hub Manage`, aby se tento rozbočovač stalo soukromým.'
+      noInvites: '{emoji} Tento rozbočovač zatím nemá žádné pozvánky. Použijte `/hub Invite Create` k vytvoření jednoho.'
+      notPrivate: '{emoji} Pozvánky mohou mít pouze soukromé rozbočovače. Použijte `/Hub Manage`, aby se tento rozbočovač stalo soukromým.'
   joined:
-    noJoinedHubs: '{{{emoji}}} Tento server se dosud nepřipojil k žádným náboji. Použijte `/hub Browse` k zobrazení seznamu rozbočovačů.'
-    joinedHubs: Tento server je součástí **{{total}}** Hub (s). Použijte `/rozbočovač Leave`, abyste opustili rozbočovač.
+    noJoinedHubs: '{emoji} Tento server se dosud nepřipojil k žádným náboji. Použijte `/hub Browse` k zobrazení seznamu rozbočovačů.'
+    joinedHubs: Tento server je součástí **{total}** Hub (s). Použijte `/rozbočovač Leave`, abyste opustili rozbočovač.
   leave:
-    noHub: '{{{emoji}}} Tento kanál je neplatný nebo se nepřipojil k žádným náboji.'
-    confirm: Určitě si přejete opustit **{{hub}}** z {{{channel}}}? Z tohoto rozbočovače nebudou na tento server odeslány žádné zprávy.
+    noHub: '{emoji} Tento kanál je neplatný nebo se nepřipojil k žádným náboji.'
+    confirm: Určitě si přejete opustit **{hub}** z {channel}? Z tohoto rozbočovače nebudou na tento server odeslány žádné zprávy.
     confirmFooter: Potvrďte pomocí tlačítka níže do 10 sekund.
-    success: '{{{emoji}}} opustil Hub z {{{channel}}}. Z tohoto rozbočovače nebudou na tento server odeslány žádné zprávy. Můžete se znovu připojit pomocí `/hub join`.'
+    success: '{emoji} opustil Hub z {channel}. Z tohoto rozbočovače nebudou na tento server odeslány žádné zprávy. Můžete se znovu připojit pomocí `/hub join`.'
   moderator:
-    noModerators: '{{{emoji}}} Tento rozbočovač zatím nemá moderátory. Použijte moderátor `/hub add` pro přidání.'
+    noModerators: '{emoji} Tento rozbočovač zatím nemá moderátory. Použijte moderátor `/hub add` pro přidání.'
     add:
-      success: '{{{emoji}}} **{{{user}}}** byl přidán jako moderátor pozice **{{position}}**.'
-      alreadyModerator: '{{{emoji}}} **{{{user}}}** je již moderátor.'
+      success: '{emoji} **{user}** byl přidán jako moderátor pozice **{position}**.'
+      alreadyModerator: '{emoji} **{user}** je již moderátor.'
     remove:
-      success: '{{{emoji}}} **{{{user}}}** byl odstraněn jako moderátor.'
-      notModerator: '{{{emoji}}} **{{{user}}}** není moderátor.'
-      notOwner: '{{{emoji}}} pouze majitel tohoto rozbočovače může odstranit správce.'
+      success: '{emoji} **{user}** byl odstraněn jako moderátor.'
+      notModerator: '{emoji} **{user}** není moderátor.'
+      notOwner: '{emoji} pouze majitel tohoto rozbočovače může odstranit správce.'
     update:
-      success: '{{{emoji}}} **{{{user}}}** poloha byla aktualizována na **{{position}}**.'
-      notModerator: '{{{emoji}}} **{{{user}}}** není moderátor.'
-      notAllowed: '{{{emoji}}} pouze manažeři náboru mohou aktualizovat pozici moderátora.'
-      notOwner: '{{{emoji}}} pouze majitel tohoto rozbočovače může aktualizovat pozici správce.'
+      success: '{emoji} **{user}** poloha byla aktualizována na **{position}**.'
+      notModerator: '{emoji} **{user}** není moderátor.'
+      notAllowed: '{emoji} pouze manažeři náboru mohou aktualizovat pozici moderátora.'
+      notOwner: '{emoji} pouze majitel tohoto rozbočovače může aktualizovat pozici správce.'
   manage:
     enterImgurUrl: Zadejte platnou adresu Imgur Image URL, která není galerií nebo albem.
     icon:
@@ -297,23 +297,23 @@ hub:
         label: Změnit banner
         description: Změňte banner tohoto rozbočovače.
     visibility:
-      success: '{{{emoji}}} viditelnost Hub se úspěšně změnila na **{{{visibility}}}**.'
+      success: '{emoji} viditelnost Hub se úspěšně změnila na **{visibility}**.'
       selects:
         label: Změnit viditelnost
         description: Zveřejnit tento rozbočovač nebo soukromý.
     logs:
       title: Konfigurace protokolů
-      reset: '{{{emoji}}} Úspěšně resetujte konfiguraci protokolů pro `{{{type}}}` protokoly.'
-      roleSuccess: '{{{emoji}}} protokoly typu `{{{type}}}` nyní zmíní {{{role}}}!'
-      channelSuccess: '{{{emoji}}} protokoly typu `{{{type}}}` bude odesláno na {{{channel}}} od nynějška!'
+      reset: '{emoji} Úspěšně resetujte konfiguraci protokolů pro `{type}` protokoly.'
+      roleSuccess: '{emoji} protokoly typu `{type}` nyní zmíní {role}!'
+      channelSuccess: '{emoji} protokoly typu `{type}` bude odesláno na {channel} od nynějška!'
       channelSelect: '#⃣ Vyberte typ protokolu pro konfiguraci.'
       roleSelect: 🏓 Vyberte roli, kterou chcete zmínit, když je spuštěn protokol.
-      reportChannelFirst: '{{{emoji}}} Nejprve nastavte kanál protokolu.'
+      reportChannelFirst: '{emoji} Nejprve nastavte kanál protokolu.'
       config:
-        title: Konfigurovat `{{{type}}}` protokoly
+        title: Konfigurovat `{type}` protokoly
         description: |-
-          {{{arrow}}} Vyberte protokolový kanál a/nebo roli, kterou je třeba z rozbalovacího seznamu níže. 
-           {{{arrow}}} Můžete také zakázat protokolování pomocí tlačítka níže.
+          {arrow} Vyberte protokolový kanál a/nebo roli, kterou je třeba z rozbalovacího seznamu níže. 
+           {arrow} Můžete také zakázat protokolování pomocí tlačítka níže.
         fields:
           channel: Kanál
           role: Zmínka o roli
@@ -346,50 +346,50 @@ report:
         label: Podrobný popis (volitelné)
         placeholder: Kroky, které jste podnikli. Např. 1. Spuštění /nápověda 2. Počkejte 5 sekund ...
   invalidUser: |-
-    {{{emoji}}} Nemohl jsem s tímto ID najít uživatele. 
+    {emoji} Nemohl jsem s tímto ID najít uživatele. 
 
      **najít ID uživatele v síti:** 
-     {{{dot}}} Klikněte pravým tlačítkem na zprávu odeslanou od dotyčného uživatele Vyberte `Apps> Informace o zprávě`. Zkuste prosím zkontrolujte ID a zkuste to znovu.
+     {dot} Klikněte pravým tlačítkem na zprávu odeslanou od dotyčného uživatele Vyberte `Apps> Informace o zprávě`. Zkuste prosím zkontrolujte ID a zkuste to znovu.
   invalidServer: |-
-    {{{emoji}}} Nemohl jsem s tímto ID najít server. 
+    {emoji} Nemohl jsem s tímto ID najít server. 
 
      **najít ID serveru v síti:** 
-     {{{dot}}} Klikněte pravým tlačítkem na zprávu odeslanou dotyčnou serverem a vyberte `Apps> Info/Report". Zkuste prosím zkontrolujte ID a zkuste to znovu.
-  submitted: Zpráva předložená. Připojte se k **[podpůrný server]({{{support_invite}}})** Chcete -li získat aktualizaci vaší zprávy.
+     {dot} Klikněte pravým tlačítkem na zprávu odeslanou dotyčnou serverem a vyberte `Apps> Info/Report". Zkuste prosím zkontrolujte ID a zkuste to znovu.
+  submitted: Zpráva předložená. Připojte se k **[podpůrný server]({support_invite})** Chcete -li získat aktualizaci vaší zprávy.
   bug:
     title: Zpráva o chybách
     affected: Ovlivněné komponenty
     description: Vyberte prosím, s jakou součástí bota čelíte problémy.
-    submitted: '{{{emoji}}} zpráva předložená úspěšně. Připojte se k {{{support_command}}}, abyste získali více podrobností. Děkuji!'
+    submitted: '{emoji} zpráva předložená úspěšně. Připojte se k {support_command}, abyste získali více podrobností. Děkuji!'
 language:
-  set: Jazyková sada! Nyní na vás odpovím v **{{{lang}}}**.
+  set: Jazyková sada! Nyní na vás odpovím v **{lang}**.
 errors:
-  messageNotSentOrExpired: '{{{emoji}}} Tato zpráva nebyla odeslána v rozbočovači, vypršela, nebo vám chybí oprávnění k provedení této akce.'
-  notYourAction: '{{{emoji}}} Omlouvám se, tuto akci nemůžete provést. Spusťte prosím příkaz sami.'
-  notMessageAuthor: '{{{emoji}}} Nejste autorem této zprávy.'
+  messageNotSentOrExpired: '{emoji} Tato zpráva nebyla odeslána v rozbočovači, vypršela, nebo vám chybí oprávnění k provedení této akce.'
+  notYourAction: '{emoji} Omlouvám se, tuto akci nemůžete provést. Spusťte prosím příkaz sami.'
+  notMessageAuthor: '{emoji} Nejste autorem této zprávy.'
   commandError: |-
-    {{{emoji}}} Při provádění tohoto příkazu došlo k chybě. Byl zaznamenán do našeho systému. Pokud tento problém přetrvává, připojte se k našemu [podpůrnému serveru]({{{support_invite}}}) a nahláste to! 
-     `` `JS 
-     {{{error}}} 
-     `` `
+    {emoji} Při provádění tohoto příkazu došlo k chybě. Byl zaznamenán do našeho systému. Pokud tento problém přetrvává, připojte se k našemu [podpůrnému serveru]({support_invite}) a nahláste to! 
+     ```JS 
+     {error} 
+     ```
   mustVote: Prosím [Hlasujte](https://top.gg/bot/769921109209907241/vote) Pro InterChat k použití tohoto příkazu je vaše podpora velmi oceněna!
-  inviteLinks: '{{{emoji}}} Neinzerujte ani nepodporujte servery v síti. Místo toho nastavte pozvání v `/connection`!'
-  invalidLangCode: '{{{emoji}}} Neplatný jazykový kód. Ujistěte se, že jste zadali správný [jazykový kód](https://cloud.google.com/translate/docs/languages).'
-  unknownServer: '{{{emoji}}} Neznámý server. Ujistěte se, že jste zadali správné ID serveru.'
-  unknownNetworkMessage: '{{{emoji}}} Neznámá zpráva. Pokud byla odeslána za minulou minutu, počkejte prosím ještě několik sekund a zkuste to znovu.'
-  userNotFound: '{{{emoji}}} Uživatel nebyl nalezen. Zkuste místo toho zadat své ID.'
-  blacklisted: '{{{emoji}}} Vy nebo tento server jste na černé listině z používání InterChat.'
-  userBlacklisted: '{{{emoji}}} Jste na černé listině z **{{hub}}**.'
-  serverBlacklisted: '{{{emoji}}} Tento server je černošský z **{{hub}}**.'
-  serverNotBlacklisted: '{{{emoji}}} Vstupný server není na černé listině.'
-  userNotBlacklisted: '{{{emoji}}} Vstupný uživatel není na černé listině.'
-  missingPermissions: '{{{emoji}}} Chybí vám následující oprávnění k provedení této akce: **{{{permissions}}}**'
-  botMissingPermissions: '{{{emoji}}} Poskytněte mi prosím následující oprávnění k pokračování: **{{{permissions}}}**'
-  unknown: '{{{emoji}}} došlo k neznámé chybě. Zkuste to znovu později nebo nás kontaktujte připojením k našemu [podpůrnému serveru]({{{support_invite}}}).'
-  notUsable: '{{{emoji}}} Toto již není použitelné.'
-  cooldown: '{{{emoji}}} Jste na cooldown. Počkejte prosím **{{{time}}}** před pokusem.'
+  inviteLinks: '{emoji} Neinzerujte ani nepodporujte servery v síti. Místo toho nastavte pozvání v `/connection`!'
+  invalidLangCode: '{emoji} Neplatný jazykový kód. Ujistěte se, že jste zadali správný [jazykový kód](https://cloud.google.com/translate/docs/languages).'
+  unknownServer: '{emoji} Neznámý server. Ujistěte se, že jste zadali správné ID serveru.'
+  unknownNetworkMessage: '{emoji} Neznámá zpráva. Pokud byla odeslána za minulou minutu, počkejte prosím ještě několik sekund a zkuste to znovu.'
+  userNotFound: '{emoji} Uživatel nebyl nalezen. Zkuste místo toho zadat své ID.'
+  blacklisted: '{emoji} Vy nebo tento server jste na černé listině z používání InterChat.'
+  userBlacklisted: '{emoji} Jste na černé listině z **{hub}**.'
+  serverBlacklisted: '{emoji} Tento server je černošský z **{hub}**.'
+  serverNotBlacklisted: '{emoji} Vstupný server není na černé listině.'
+  userNotBlacklisted: '{emoji} Vstupný uživatel není na černé listině.'
+  missingPermissions: '{emoji} Chybí vám následující oprávnění k provedení této akce: **{permissions}**'
+  botMissingPermissions: '{emoji} Poskytněte mi prosím následující oprávnění k pokračování: **{permissions}**'
+  unknown: '{emoji} došlo k neznámé chybě. Zkuste to znovu později nebo nás kontaktujte připojením k našemu [podpůrnému serveru]({support_invite}).'
+  notUsable: '{emoji} Toto již není použitelné.'
+  cooldown: '{emoji} Jste na cooldown. Počkejte prosím **{time}** před pokusem.'
 misc:
   noReason: Žádný důvod.
   noDesc: Bez popisu.
-  version: InterChat v{{version}}
-  loading: '{{{emoji}}} Počkejte prosím, až zpracovávám váš požadavek ...'
+  version: InterChat v{version}
+  loading: '{emoji} Počkejte prosím, až zpracovávám váš požadavek ...'
