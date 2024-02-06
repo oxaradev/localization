@@ -335,9 +335,6 @@ report:
     other:
       label: Report Details
       placeholder: A detailed description of the report.
-    userOrServer:
-      label: User/Server ID
-      placeholder: The IDs of the user/server you are reporting.
     bug:
       input1:
         label: Bug Details
@@ -345,22 +342,11 @@ report:
       input2:
         label: Detailed Description (Optional)
         placeholder: Steps you took. Eg. 1. Run /help 2. Wait for 5 seconds...
-  invalidUser: |
-    {emoji} I couldn't find a user with that ID.
-
-    **To find a user's ID within the network:**
-    {dot} Right click on a message sent from the user in question select `Apps > Message Info`. Please double-check the ID and try again.
-  invalidServer: |
-    {emoji} I couldn't find a server with that ID.
-
-    **To find a server ID within the network:**
-    {dot} Right click on a message sent by the server in question and select `Apps > Message Info/Report`. Please double-check the ID and try again.
-  submitted: Report submitted. Join the **[support server]({support_invite})** to get updates on your report.
+  submitted: '{emoji} Report submitted successfully. Join the {support_command} to get more details. Thank you!'
   bug:
     title: Bug Report
     affected: Affected Components
     description: Please choose what component of the bot you are facing issues with.
-    submitted: '{emoji} Report submitted successfully. Join the {support_command} to get more details. Thank you!'
 language:
   set: Language set! I will now respond to you in **{lang}**.
 errors:
@@ -393,3 +379,5 @@ misc:
   noDesc: No Description.
   version: InterChat v{version}
   loading: '{emoji} Please wait while I process your request...'
+  # FIXME: remove this after the next release
+  reportOptionMoved: '{emoji} This option has moved! To report a message to hub moderators, use the updated `Apps > Message Info/Report` command. For direct reporting to InterChat staff, just hop into the [support server]({support_invite}) and create a ticket with proof.'
