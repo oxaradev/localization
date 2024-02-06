@@ -335,9 +335,6 @@ report:
     other:
       label: Báo cáo chi tiết
       placeholder: Một mô tả chi tiết của báo cáo.
-    userOrServer:
-      label: ID người dùng/máy chủ
-      placeholder: ID của người dùng/máy chủ bạn đang báo cáo.
     bug:
       input1:
         label: Chi tiết lỗi
@@ -345,22 +342,11 @@ report:
       input2:
         label: Mô tả chi tiết (tùy chọn)
         placeholder: Các bước bạn đã thực hiện. Ví dụ. 1. Chạy /Trợ giúp 2. Chờ 5 giây ...
-  invalidUser: |-
-    {emoji} Tôi không thể tìm thấy người dùng có ID đó. 
-
-     **Để tìm id người dùng trong mạng:** 
-     {dot} Nhấp chuột phải vào một tin nhắn được gửi từ người dùng trong câu hỏi Chọn `Ứng dụng> Thông tin tin nhắn`. Vui lòng kiểm tra lại ID và thử lại.
-  invalidServer: |-
-    {emoji} Tôi không thể tìm thấy một máy chủ có ID đó. 
-
-     **Để tìm ID máy chủ trong mạng:** 
-     {dot} Nhấp chuột phải vào một tin nhắn được gửi bởi máy chủ trong câu hỏi và chọn `Ứng dụng> Thông tin/báo cáo thông tin '. Vui lòng kiểm tra lại ID và thử lại.
-  submitted: Báo cáo đã gửi. Tham gia **[Máy chủ hỗ trợ]({support_invite})** để cập nhật các bản cập nhật trên báo cáo của bạn.
+  submitted: Báo cáo đã gửi. Tham gia **[Máy chủ hỗ trợ]({emoji})** để cập nhật các bản cập nhật trên báo cáo của bạn.
   bug:
     title: Báo cáo lỗi
     affected: Các thành phần bị ảnh hưởng
     description: Vui lòng chọn thành phần của bot bạn đang gặp phải.
-    submitted: '{emoji} Báo cáo đã gửi thành công. Tham gia {support_command} để có thêm chi tiết. Cảm ơn!'
 language:
   set: Bộ ngôn ngữ! Bây giờ tôi sẽ trả lời bạn trong **{lang}**.
 errors:
@@ -393,3 +379,4 @@ misc:
   noDesc: Không có mô tả.
   version: Giao thoa V {version}
   loading: '{emoji} Vui lòng đợi trong khi tôi xử lý yêu cầu của bạn ...'
+  reportOptionMoved: '{emoji} Tùy chọn này đã di chuyển! Để báo cáo tin nhắn cho người điều hành Hub, hãy sử dụng lệnh `apps> thông tin/báo cáo` đã cập nhật. Để báo cáo trực tiếp cho nhân viên xen kẽ, chỉ cần nhảy vào [máy chủ hỗ trợ]({support_invite}) và tạo một vé bằng chứng.'

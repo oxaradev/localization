@@ -335,9 +335,6 @@ report:
     other:
       label: Jelentés a részletekről
       placeholder: A jelentés részletes leírása.
-    userOrServer:
-      label: Felhasználói/szerver azonosító
-      placeholder: A beszámoló felhasználó/szerver azonosításai.
     bug:
       input1:
         label: Hiba részletei
@@ -345,22 +342,11 @@ report:
       input2:
         label: Részletes leírás (opcionális)
         placeholder: A megtett lépéseket. Például. 1. Futtasson /súgó 2. Várjon 5 másodpercig ...
-  invalidUser: |-
-    {emoji} Nem találtam egy felhasználót az azonosítóval. 
-
-     **A felhasználó azonosítójának megtalálása a hálózaton belül:** 
-     {dot} Kattintson a jobb egérgombbal a kérdéses felhasználótól küldött üzenetre. Válassza ki az `Apps> Üzenetinformációk 'lehetőséget. Kérjük, ellenőrizze duplán, ellenőrizze az azonosítót, és próbálja újra.
-  invalidServer: |-
-    {emoji} Nem találtam egy szerveret azzal az azonosítóval. 
-
-     **A kiszolgáló azonosítójának megtalálása a hálózaton belül:** 
-     {dot} Right Gattintson a kérdéses kiszolgáló által küldött üzenetre, és válassza az `Apps> Message Info/Jelentés 'lehetőséget. Kérjük, ellenőrizze duplán, ellenőrizze az azonosítót, és próbálja újra.
-  submitted: Jelentés benyújtva. Csatlakozzon a **[támogatási kiszolgáló]({support_invite})** **, hogy frissítéseket kapjon a jelentésről.
+  submitted: Jelentés benyújtva. Csatlakozzon a **[támogatási kiszolgáló]({emoji})** **, hogy frissítéseket kapjon a jelentésről.
   bug:
     title: Hibajelentés
     affected: Érintett alkatrészek
     description: Kérjük, válassza ki, hogy a bot melyik elemével szembesül a problémákkal.
-    submitted: '{emoji} jelentés sikeresen benyújtva. Csatlakozzon a {support_command} {további részletek megszerzéséhez. Köszönöm!'
 language:
   set: Nyelvkészlet! Most válaszolok rád **{lang}**.
 errors:
@@ -393,3 +379,4 @@ misc:
   noDesc: Nincs leírás.
   version: InterChat v{version}
   loading: '{emoji} Kérjük, várjon, amíg feldolgozom a kérését ...'
+  reportOptionMoved: '{emoji} Ez a lehetőség megmozdult! Az üzenet jelentéséhez a HUB moderátorok számára a Frissített `Apps> Üzenet info/Report` parancs használatával. Az Interchat munkatársainak való közvetlen jelentéstételhez csak ugorjon be a [támogatási kiszolgáló]({support_invite}), és hozzon létre egy jegyet igazolással.'

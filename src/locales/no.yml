@@ -335,9 +335,6 @@ report:
     other:
       label: Rapporter detaljer
       placeholder: En detaljert beskrivelse av rapporten.
-    userOrServer:
-      label: Bruker/server -ID
-      placeholder: IDene til brukeren/serveren du rapporterer.
     bug:
       input1:
         label: Feildetaljer
@@ -345,22 +342,11 @@ report:
       input2:
         label: Detaljert beskrivelse (valgfritt)
         placeholder: Skritt du tok. F.eks. 1. Kjør /hjelp 2. Vent i 5 sekunder ...
-  invalidUser: |-
-    {emoji} Jeg kunne ikke finne en bruker med den IDen. 
-
-     **For å finne en brukers ID i nettverket:** 
-     {dot} Høyreklikk på en melding sendt fra den aktuelle brukeren Velg `Apps> Meldingsinfo`. Vennligst dobbeltsjekk IDen og prøv igjen.
-  invalidServer: |-
-    {emoji} Jeg kunne ikke finne en server med den IDen. 
-
-     **For å finne en server -ID i nettverket:** 
-     {dot} Høyreklikk på en melding sendt av den aktuelle serveren og velg `Apps> Message Info/Report`. Vennligst dobbeltsjekk IDen og prøv igjen.
-  submitted: Rapport sendt. Bli med på **[supportserver]({support_invite})** for å få oppdateringer om rapporten.
+  submitted: Rapport sendt. Bli med på **[supportserver]({emoji})** for å få oppdateringer om rapporten.
   bug:
     title: Feilrapport
     affected: Berørte komponenter
     description: Velg hvilken komponent i bot du står overfor problemer med.
-    submitted: '{emoji} rapport sendt inn vellykket. Bli med på {support_command} for å få flere detaljer. Takk skal du ha!'
 language:
   set: Språklang! Jeg vil nå svare deg i **{lang}**.
 errors:
@@ -393,3 +379,4 @@ misc:
   noDesc: Ingen beskrivelse.
   version: InterChat v{version}
   loading: '{emoji} Vennligst vent mens jeg behandler forespørselen din ...'
+  reportOptionMoved: '{emoji} Dette alternativet har flyttet! For å rapportere en melding til Hub Moderators, bruk de oppdaterte `Apps> Melding Info/Report` -kommandoen. For direkte rapportering til Interchat -ansatte, bare hopp inn i [Support Server]({support_invite}) og lag en billett med bevis.'

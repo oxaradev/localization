@@ -335,9 +335,6 @@ report:
     other:
       label: Meld details
       placeholder: Een gedetailleerde beschrijving van het rapport.
-    userOrServer:
-      label: Gebruiker/server -ID
-      placeholder: De ID's van de gebruiker/server die u rapporteert.
     bug:
       input1:
         label: Bugdetails
@@ -345,22 +342,11 @@ report:
       input2:
         label: Gedetailleerde beschrijving (optioneel)
         placeholder: Stappen die u heeft genomen. Bijv. 1. Run /Help 2. Wacht 5 seconden ...
-  invalidUser: |-
-    {emoji} Ik kon een gebruiker niet vinden met die ID. 
-
-     **Om de ID van een gebruiker in het netwerk te vinden:** 
-     {dot} Klik met de rechtermuisknop op een bericht verzonden van de vraag van de gebruiker Selecteer `Apps> Berichtinfo`. Controleer de ID dubbel en probeer het opnieuw.
-  invalidServer: |-
-    {emoji} Ik kon geen server vinden met die ID. 
-
-     **Om een server -ID in het netwerk te vinden:** 
-     {dot} Klik met de rechtermuisknop op een bericht dat door de betreffende server is verzonden en selecteer `Apps> Berichtinfo/rapport`. Controleer de ID dubbel en probeer het opnieuw.
-  submitted: Ingediend rapport. Word lid van de **[Support Server]({support_invite})** Om updates over uw rapport te krijgen.
+  submitted: Ingediend rapport. Word lid van de **[Support Server]({emoji})** Om updates over uw rapport te krijgen.
   bug:
     title: Bug report
     affected: Aangetaste componenten
     description: Kies met welk onderdeel van de bot waarmee u problemen ondervindt.
-    submitted: '{emoji} rapport met succes ingediend. Word lid van de {support_command} voor meer informatie. Bedankt!'
 language:
   set: Taalset! Ik zal nu op u reageren in **{lang}**.
 errors:
@@ -393,3 +379,4 @@ misc:
   noDesc: Geen beschrijving.
   version: InterChat v{version}
   loading: '{emoji} Wacht terwijl ik uw verzoek verwerk ...'
+  reportOptionMoved: '{emoji} Deze optie is verplaatst! Om een bericht te melden aan Hub Moderators, gebruikt u de opdracht bijgewerkte `Apps> Message Info/Report`. Voor directe rapportage aan Interchat -personeel, spring je gewoon naar de [Support Server]({support_invite}) en maak je een ticket met bewijs.'

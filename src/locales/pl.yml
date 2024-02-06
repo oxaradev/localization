@@ -335,9 +335,6 @@ report:
     other:
       label: Szczegóły raportu
       placeholder: Szczegółowy opis raportu.
-    userOrServer:
-      label: Identyfikator użytkownika/serwera
-      placeholder: Identyfikatory zgłaszającego użytkownika/serwera.
     bug:
       input1:
         label: Szczegóły błędu
@@ -345,22 +342,11 @@ report:
       input2:
         label: Szczegółowy opis (opcjonalnie)
         placeholder: Kroki, które podjąłeś. Np. 1. Uruchom /pomoc 2. Poczekaj 5 sekund ...
-  invalidUser: |-
-    {emoji} nie mogłem znaleźć użytkownika z tym identyfikatorem. 
-
-     **Aby znaleźć identyfikator użytkownika w sieci:** 
-     {dot} Kliknij prawym przyciskiem myszy wiadomość wysłaną od danego użytkownika Wybierz `Apps> Informacje o wiadomości”. Proszę dokładnie sprawdzić identyfikator i spróbuj ponownie.
-  invalidServer: |-
-    {emoji} nie mogłem znaleźć serwera z tym identyfikatorem. 
-
-     **Aby znaleźć identyfikator serwera w sieci:** 
-     {dot} Kliknij prawym przyciskiem myszy wiadomość wysłaną przez omawiany serwer i wybierz „Apps> Informacje o wiadomości/raport”. Proszę dokładnie sprawdzić identyfikator i spróbuj ponownie.
-  submitted: Zgłoszony raport. Dołącz do **[Server wsparcia]({support_invite})**, aby uzyskać aktualizacje w raporcie.
+  submitted: Zgłoszony raport. Dołącz do **[Server wsparcia]({emoji})**, aby uzyskać aktualizacje w raporcie.
   bug:
     title: Zgłoszenie błędu
     affected: Dotknięte komponenty
     description: Wybierz, z jakim elementem bota, z którym masz problemy.
-    submitted: '{emoji} pomyślnie przesłany. Dołącz do {support_command}, aby uzyskać więcej szczegółów. Dziękuję!'
 language:
   set: Zestaw języka! Odpowiem teraz w **{lang}**.
 errors:
@@ -393,3 +379,4 @@ misc:
   noDesc: Bez opisu.
   version: InterChat v{version}
   loading: '{emoji} proszę poczekać, kiedy przetwarzam twoje żądanie ...'
+  reportOptionMoved: '{emoji} Ta opcja się poruszyła! Aby zgłosić wiadomość do moderatorów hub, użyj zaktualizowanej komendy „Apps> Informacje o wiadomości/raport”. Aby bezpośrednio zgłosić się do personelu Interchat, po prostu wskocz do [Server wsparcia]({support_invite}) i utwórz bilet z dowodem.'

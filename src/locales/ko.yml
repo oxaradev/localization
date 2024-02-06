@@ -335,9 +335,6 @@ report:
     other:
       label: 보고서 세부 정보
       placeholder: 보고서에 대한 자세한 설명입니다.
-    userOrServer:
-      label: 사용자/서버 ID
-      placeholder: 신고하려는 사용자/서버의 ID입니다.
     bug:
       input1:
         label: 버그 세부 정보
@@ -345,22 +342,11 @@ report:
       input2:
         label: 상세 설명(선택 사항)
         placeholder: 수행한 단계. 예. 1. 실행 / 도움말 2. 5초간 대기...
-  invalidUser: |
-    {emoji} 해당 ID를 가진 사용자를 찾을 수 없습니다.
-
-    **네트워크 내에서 사용자의 ID를 찾으려면 다음과 같이 하세요.
-    {dot} 해당 사용자가 보낸 쪽지를 마우스 오른쪽 버튼으로 클릭하고 `앱 > 쪽지 정보`를 선택합니다. 아이디를 다시 확인하고 다시 시도하세요.
-  invalidServer: |
-    {emoji} 해당 ID를 가진 서버를 찾을 수 없습니다.
-
-    **네트워크 내에서 서버 ID를 찾으려면 다음과 같이 하세요.
-    {dot} 해당 서버에서 보낸 쪽지를 마우스 오른쪽 버튼으로 클릭한 후 `앱 > 쪽지 정보/신고`를 선택하세요. ID를 다시 확인한 후 다시 시도하세요.
-  submitted: 보고서가 제출되었습니다. 지원 서버]({support_invite})**에 가입하여 신고에 대한 업데이트를 받으세요.
+  submitted: 보고서가 제출되었습니다. 지원 서버]({emoji})**에 가입하여 신고에 대한 업데이트를 받으세요.
   bug:
     title: 버그 신고
     affected: 영향을 받는 구성 요소
     description: 문제가 발생한 봇의 구성 요소를 선택해 주세요.
-    submitted: '{emoji} 보고서가 성공적으로 제출되었습니다. 자세한 내용을 확인하려면 {support_command}에 가입하세요. 감사합니다!'
 language:
   set: 언어 설정 완료! 이제 **{lang}**로 응답하겠습니다.
 errors:
@@ -393,3 +379,4 @@ misc:
   noDesc: 설명이 없습니다.
   version: InterChat v{version}
   loading: '{emoji} 요청을 처리하는 동안 잠시만 기다려주세요...'
+  reportOptionMoved: '{emoji}이 옵션이 이동했습니다! 허브 중재자에게 메시지를보고하려면 업데이트 된 ''앱> 메시지 정보/보고서''명령을 사용하십시오. 직원 간 직원에게 직접보고하려면 [support server]({support_invite})로 이동하여 증거가있는 티켓을 만듭니다.'

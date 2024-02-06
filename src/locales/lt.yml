@@ -335,9 +335,6 @@ report:
     other:
       label: Pranešti apie informaciją
       placeholder: Išsamus ataskaitos aprašymas.
-    userOrServer:
-      label: Vartotojo/serverio ID
-      placeholder: Jūsų pranešimo vartotojo/serverio ID.
     bug:
       input1:
         label: Informacija apie klaidą
@@ -345,22 +342,11 @@ report:
       input2:
         label: Išsamus aprašymas (neprivaloma)
         placeholder: Žingsniai, kuriuos atlikote. Pvz. 1. Vykdykite /Pagalba 2. Palaukite 5 sekundes ...
-  invalidUser: |-
-    {emoji} Aš neradau vartotojo su tuo ID. 
-
-     **Norėdami rasti vartotojo ID tinkle:** 
-     {dot} dešiniuoju pelės mygtuku spustelėkite pranešimą, išsiųstą iš nagrinėjamo vartotojo, pasirinkite „Apps> pranešimo informacija“. Dar kartą patikrinkite ID ir bandykite dar kartą.
-  invalidServer: |-
-    {emoji} Neradau serverio su tuo ID. 
-
-     **Norėdami rasti serverio ID tinkle:** 
-     {dot} dešiniuoju pelės mygtuku spustelėkite aptariamą serverio atsiųstą pranešimą ir pasirinkite „Apps> pranešimo informacija/ataskaita“. Dar kartą patikrinkite ID ir bandykite dar kartą.
-  submitted: Pateikta ataskaita. Prisijunkite prie **[palaikymo serverio]({support_invite})**, kad gautumėte atnaujinimus savo ataskaitoje.
+  submitted: Pateikta ataskaita. Prisijunkite prie **[palaikymo serverio]({emoji})**, kad gautumėte atnaujinimus savo ataskaitoje.
   bug:
     title: Klaidų ataskaita
     affected: Paveikti komponentai
     description: Pasirinkite, kokį roboto komponentą susiduriate su problemomis.
-    submitted: '{emoji} ataskaita, sėkmingai pateikta. Prisijunkite prie {support_command}, kad gautumėte daugiau informacijos. Ačiū!'
 language:
   set: Kalbos rinkinys! Dabar atsakysiu į jus **{lang}**.
 errors:
@@ -393,3 +379,4 @@ misc:
   noDesc: Nėra aprašymo.
   version: InterChat v{version}
   loading: '{emoji} palaukite, kol apdorosiu jūsų užklausą ...'
+  reportOptionMoved: '{emoji} Ši parinktis pajudėjo! Norėdami pranešti pranešimą „Hub“ moderatoriams, naudokite atnaujintą „Apps> pranešimo informacijos/ataskaitos“ komandą. Norėdami tiesiogiai pranešti „Incatch“ darbuotojams, tiesiog pereikite į [palaikymo serverį]({support_invite}) ir sukurkite bilietą su įrodymu.'

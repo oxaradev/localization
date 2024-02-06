@@ -335,9 +335,6 @@ report:
     other:
       label: Rapportoplysninger
       placeholder: En detaljeret beskrivelse af rapporten.
-    userOrServer:
-      label: Bruger/server -id
-      placeholder: ID'erne for den bruger/server, du rapporterer.
     bug:
       input1:
         label: Bugdetaljer
@@ -345,22 +342,11 @@ report:
       input2:
         label: Detaljeret beskrivelse (valgfrit)
         placeholder: Skridt, du tog. F.eks. 1. Kør /hjælp 2. Vent i 5 sekunder ...
-  invalidUser: |-
-    {emoji} Jeg kunne ikke finde en bruger med det id. 
-
-     **For at finde en brugers ID inden for netværket:** 
-     {dot} Højreklik på en meddelelse, der er sendt fra den pågældende bruger, vælg `apps> Meddelelsesinfo '. Kontroller ID'et med dobbeltkontrol og prøv igen.
-  invalidServer: |-
-    {emoji} Jeg kunne ikke finde en server med det ID. 
-
-     **For at finde et server -ID inden for netværket:** 
-     {dot} Højreklik på en meddelelse, der er sendt af den pågældende server, og vælg `apps> Meddelelsesinfo/-rapport '. Kontroller ID'et med dobbeltkontrol og prøv igen.
-  submitted: Rapport indsendt. Deltag i **[Support Server]({support_invite})** for at få opdateringer i din rapport.
+  submitted: Rapport indsendt. Deltag i **[Support Server]({emoji})** for at få opdateringer i din rapport.
   bug:
     title: Fejlrapport
     affected: Påvirkede komponenter
     description: Vælg hvilken komponent i den bot, du står over for problemer med.
-    submitted: '{emoji} rapport indsendt med succes. Deltag i {support_command} for at få flere detaljer. Tak skal du have!'
 language:
   set: Sprog sæt! Jeg vil nu svare på dig i **{lang}**.
 errors:
@@ -393,3 +379,4 @@ misc:
   noDesc: Ingen beskrivelse.
   version: InterChat v{version}
   loading: '{emoji} Vent venligst, mens jeg behandler din anmodning ...'
+  reportOptionMoved: '{emoji} Denne mulighed er flyttet! Hvis du vil rapportere en meddelelse til HUB -moderatorer, skal du bruge de opdaterede ''Apps> Meddelelsesinfo/Rapport'' -kommando. For direkte rapportering til Interchat -personale skal du bare hoppe ind i [supportserveren]({support_invite}) og oprette en billet med bevis.'

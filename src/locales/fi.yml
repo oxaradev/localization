@@ -335,9 +335,6 @@ report:
     other:
       label: Ilmoita yksityiskohdat
       placeholder: Yksityiskohtainen kuvaus raportista.
-    userOrServer:
-      label: Käyttäjän/palvelimen tunnus
-      placeholder: Raportoidasi käyttäjän/palvelimen tunnukset.
     bug:
       input1:
         label: Bug -yksityiskohdat
@@ -345,22 +342,11 @@ report:
       input2:
         label: Yksityiskohtainen kuvaus (valinnainen)
         placeholder: Vaiheet, jotka otit. Esim. 1. Suorita /apua 2. Odota 5 sekuntia ...
-  invalidUser: |-
-    {emoji} En löytänyt käyttäjää, jolla on henkilö. 
-
-     **Löydä käyttäjän tunnuksen verkosta:** 
-     {dot} Napsauta hiiren kakkospainikkeella kyseiseltä käyttäjalta lähetettyä viestiä Valitse . Tarkista henkilöllisyystodistus ja yritä uudelleen.
-  invalidServer: |-
-    {emoji} En löytänyt palvelinta tällä tunnuksella. 
-
-     **Palvelimen tunnuksen löytäminen verkosta:** 
-     {dot} Napsauta hiiren kakkospainikkeella kyseisen palvelimen lähettämää viestiä ja valitse . Tarkista henkilöllisyystodistus ja yritä uudelleen.
-  submitted: Toimitettu raportti. Liity **[Support Server]({support_invite})** saadaksesi päivityksiä raportista.
+  submitted: Toimitettu raportti. Liity **[Support Server]({emoji})** saadaksesi päivityksiä raportista.
   bug:
     title: Virhe raportti
     affected: Vaikuttavat komponentit
     description: Valitse, minkä komponentin botista sinulla on ongelmia.
-    submitted: '{emoji} raportti toimitettu onnistuneesti. Liity {support_command} saadaksesi lisätietoja. Kiitos!'
 language:
   set: Kielen! Vastaan nyt sinulle **{lang}**.
 errors:
@@ -393,3 +379,4 @@ misc:
   noDesc: Ei kuvausta.
   version: InterChat v{version}
   loading: '{emoji} Odota, kun käsittelen pyyntösi ...'
+  reportOptionMoved: '{emoji} Tämä vaihtoehto on siirtynyt! Ilmoitaksesi viestin Hub -moderaattoreille käyttämällä päivitettyä sovellusta> Viestitiedot/raport` -komentoa. Suora raportointi Chachat -henkilöstölle, hyppää vain [tukipalvelimeen]({support_invite}) ja luo lippu todisteella.'

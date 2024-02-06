@@ -335,9 +335,6 @@ report:
     other:
       label: Rapportera detaljer
       placeholder: En detaljerad beskrivning av rapporten.
-    userOrServer:
-      label: Användare/server -ID
-      placeholder: 'ID: erna för användaren/servern du rapporterar.'
     bug:
       input1:
         label: Felinformation
@@ -345,22 +342,11 @@ report:
       input2:
         label: Detaljerad beskrivning (valfritt)
         placeholder: Steg du tog. T.ex. 1. Kör /hjälp 2. Vänta i 5 sekunder ...
-  invalidUser: |-
-    {emoji} Jag kunde inte hitta en användare med det ID. 
-
-     **För att hitta en användares ID i nätverket:** 
-     {dot} Högerklicka på ett meddelande som skickas från användaren i fråga Välj `Apps> Meddelandeinfo '. Kontrollera ID: n och försök igen.
-  invalidServer: |-
-    {emoji} Jag kunde inte hitta en server med det ID. 
-
-     **För att hitta ett server -ID i nätverket:** 
-     {dot} Högerklicka på ett meddelande som skickas av servern i fråga och välj `Apps> Meddelande Info/Report '. Kontrollera ID: n och försök igen.
-  submitted: Rapport inlämnad. Gå med **[Support Server]({support_invite})** för att få uppdateringar om din rapport.
+  submitted: Rapport inlämnad. Gå med **[Support Server]({emoji})** för att få uppdateringar om din rapport.
   bug:
     title: Buggrapport
     affected: Påverkade komponenter
     description: Välj vilken del av botten du står inför problem med.
-    submitted: '{emoji} Rapport skickas framgångsrikt. Gå med i {support_command} för att få mer information. Tack!'
 language:
   set: Språkuppsättning! Jag kommer nu att svara på dig i **{lang}**.
 errors:
@@ -393,3 +379,4 @@ misc:
   noDesc: Ingen beskrivning.
   version: InterChat v{version}
   loading: '{emoji} Vänta medan jag behandlar din begäran ...'
+  reportOptionMoved: '{emoji} Det här alternativet har flyttat! För att rapportera ett meddelande till Hub Moderators använder kommandot uppdaterade `Apps> Messor Info/Report ''. För direkt rapportering till Interchat -personal, hopp bara in i [supportservern]({support_invite}) och skapa en biljett med bevis.'

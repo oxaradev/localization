@@ -335,9 +335,6 @@ report:
     other:
       label: 报告详细信息
       placeholder: 报告的详细说明。
-    userOrServer:
-      label: 用户/服务器ID
-      placeholder: 您正在报告的用户/服务器的ID。
     bug:
       input1:
         label: 错误详细信息
@@ -345,22 +342,11 @@ report:
       input2:
         label: 详细说明（可选）
         placeholder: 您采取的步骤。 例如。 1.运行 /帮助2.等待5秒...
-  invalidUser: |-
-    {emoji}我找不到具有该ID的用户。 
-
-     **在网络中找到用户ID：** 
-     {dot}右键单击从用户发送的消息，请选择“应用程序> Message Info”。 请仔细检查ID，然后重试。
-  invalidServer: |-
-    {emoji}我找不到具有该ID的服务器。 
-
-     **在网络中找到服务器ID：** 
-     {dot}右键单击有关服务器发送的消息，然后选择“应用程序>消息信息/报告”。 请仔细检查ID，然后重试。
-  submitted: 提交的报告。 加入**[支持服务器]（{support_invite}）**以获取报告上的更新。
+  submitted: 提交的报告。 加入**[支持服务器]（{emoji}）**以获取报告上的更新。
   bug:
     title: 错误报告
     affected: 受影响的组件
     description: 请选择您面临问题的机器人的哪个组件。
-    submitted: '{emoji}报告成功提交。 加入{support_command}以获取更多详细信息。 谢谢你！'
 language:
   set: 语言集！ 我现在将在**{lang}**中回复您。
 errors:
@@ -393,3 +379,4 @@ misc:
   noDesc: 没有说明。
   version: InterChat v{version}
   loading: '{emoji}请在我处理您的请求时等待...'
+  reportOptionMoved: '{emoji}此选项已移动！ 要向Hub主持人报告消息，请使用更新的“应用程序>消息信息/报告命令。 要直接向InterChat员工报告，只需跳入[support Server]（{support_invite}），然后使用证明票。'

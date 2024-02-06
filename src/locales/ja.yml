@@ -335,9 +335,6 @@ report:
     other:
       label: 詳細を報告します
       placeholder: レポートの詳細な説明。
-    userOrServer:
-      label: ユーザー/サーバーID
-      placeholder: レポートしているユーザー/サーバーのID。
     bug:
       input1:
         label: バグの詳細
@@ -345,22 +342,11 @@ report:
       input2:
         label: 詳細な説明（オプション）
         placeholder: あなたが取ったステップ。 例えば。 1.実行 /ヘルプ2. 5秒間待ちます...
-  invalidUser: |-
-    {emoji}そのIDを持つユーザーが見つかりませんでした。 
-
-     **ネットワーク内でユーザーIDを見つけるには：** 
-     {dot}問題のユーザーから送信されたメッセージを右クリックしてください。「アプリ>メッセージ情報」を選択します。 IDを再確認して、再試行してください。
-  invalidServer: |-
-    {emoji}そのIDを持つサーバーが見つかりませんでした。 
-
-     **ネットワーク内でサーバーIDを見つけるには：** 
-     {dot}問題のサーバーから送信されたメッセージを右クリックし、「アプリ>メッセージ情報/レポート」を選択します。 IDを再確認して、再試行してください。
-  submitted: 提出されたレポート。 **[support server]（{support_invite}）**に参加して、レポートの更新を取得します。
+  submitted: 提出されたレポート。 **[support server]（{emoji}）**に参加して、レポートの更新を取得します。
   bug:
     title: バグレポート
     affected: 影響を受けるコンポーネント
     description: 問題に直面しているボットのコンポーネントを選択してください。
-    submitted: '{emoji}レポートが正常に送信されました。 {support_command}に参加して、詳細を取得します。 ありがとう！'
 language:
   set: 言語セット！ 私は今、あなたに**{lang}**で返信します。
 errors:
@@ -393,3 +379,4 @@ misc:
   noDesc: 説明なし。
   version: InterChat v{version}
   loading: '{emoji}あなたのリクエストを処理している間お待ちください...'
+  reportOptionMoved: '{emoji}このオプションは移動しました！ HUBモデレーターにメッセージを報告するには、更新された `Apps> Message Info/Report`コマンドを使用します。 Interchatスタッフへの直接報告については、[サポートサーバー]（{support_invite}）にホップして、証明付きのチケットを作成します。'

@@ -335,9 +335,6 @@ report:
     other:
       label: Prijavite detalje
       placeholder: Detaljan opis izvještaja.
-    userOrServer:
-      label: ID korisnika/poslužitelja
-      placeholder: ID -ovi korisnika/poslužitelja koje prijavljujete.
     bug:
       input1:
         label: Pojedinosti o pogrešci
@@ -345,22 +342,11 @@ report:
       input2:
         label: Detaljan opis (neobavezno)
         placeholder: Koraci koje ste poduzeli. Npr. 1. Run /Pomoć 2. Pričekajte 5 sekundi ...
-  invalidUser: |-
-    {emoji} Nisam mogao pronaći korisnika s tim ID -om. 
-
-     **Da biste pronašli ID korisnika unutar mreže:** 
-     {dot} Desnom tipkom miša kliknite poruku poslanu od korisnika u pitanju odaberite `Aplikacije> Informacije o poruci`. Molimo dvaput provjerite ID i pokušajte ponovo.
-  invalidServer: |-
-    {emoji} Nisam mogao pronaći poslužitelj s tim ID -om. 
-
-     **Da biste pronašli ID poslužitelja unutar mreže:** 
-     {dot} Desnom tipkom miša kliknite poruku koju je poslao dotični poslužitelj i odaberite `Aplikacije> Informacije o poruci/izvještaj`. Molimo dvaput provjerite ID i pokušajte ponovo.
-  submitted: Izvješće podneseno. Pridružite se **[Podrška poslužitelju]({support_invite})** da biste dobili ažuriranja u svom izvješću.
+  submitted: Izvješće podneseno. Pridružite se **[Podrška poslužitelju]({emoji})** da biste dobili ažuriranja u svom izvješću.
   bug:
     title: Izvješće o greškama
     affected: Pogođene komponente
     description: Odaberite s kojom komponentom bota suočite se s problemima.
-    submitted: '{emoji} Izvještaj je uspješno podnio. Pridružite se {support_command} da biste dobili više detalja. Hvala vam!'
 language:
   set: Jezični set! Sada ću vam odgovoriti u **{lang}**.
 errors:
@@ -393,3 +379,4 @@ misc:
   noDesc: Bez opisa.
   version: InterChat v{version}
   loading: '{emoji} Pričekaj dok obrađujem vaš zahtjev ...'
+  reportOptionMoved: '{emoji} Ova se opcija pomaknula! Za prijavu poruke moderatorima Hub, upotrijebite naredbu ažurirane naredbe `Aplikacije> Informacije o porukama/izvještaj`. Za izravno izvještavanje o osobljem Interchat -a, samo uskočite u [poslužitelj za podršku]({support_invite}) i stvorite kartu s dokazom.'

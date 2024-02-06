@@ -335,9 +335,6 @@ report:
     other:
       label: Rapor Detayları
       placeholder: Raporun ayrıntılı bir açıklaması.
-    userOrServer:
-      label: Kullanıcı/Sunucu Kimliği
-      placeholder: Raporladığınız kullanıcı/sunucu kimlikleri.
     bug:
       input1:
         label: Hata Detayları
@@ -345,22 +342,11 @@ report:
       input2:
         label: Detaylı Açıklama (Opsiyonel)
         placeholder: Attığınız adımlar. Örn. 1. 2. /help komutunu çalıştırın. 5 saniye bekleyin...
-  invalidUser: |
-    {emoji} Bu kimliğe sahip bir kullanıcı bulamadım.
-
-    **Ağ içinde bir kullanıcının kimliğini bulmak için:**
-    {dot} Söz konusu kullanıcıdan gönderilen bir mesaja sağ tıklayın ve `Uygulamalar > Mesaj Bilgisi` öğesini seçin. Lütfen kimliği iki kez kontrol edin ve tekrar deneyin.
-  invalidServer: |
-    {emoji} Bu kimliğe sahip bir sunucu bulamadım.
-
-    **Ağ içinde bir sunucu kimliği bulmak için:**
-    {dot} Söz konusu sunucu tarafından gönderilen bir mesaja sağ tıklayın ve `Uygulamalar > Mesaj Bilgisi/Raporu`nu seçin. Lütfen kimliği iki kez kontrol edin ve tekrar deneyin.
-  submitted: Rapor gönderildi. Raporunuzla ilgili güncellemeleri almak için **[destek sunucusuna]({support_invite})** katılın.
+  submitted: Rapor gönderildi. Raporunuzla ilgili güncellemeleri almak için **[destek sunucusuna]({emoji})** katılın.
   bug:
     title: Hata Raporu
     affected: Etkilenen Bileşenler
     description: Lütfen botun hangi bileşeniyle ilgili sorun yaşadığınızı seçin.
-    submitted: '{emoji} Rapor başarıyla gönderildi. Daha fazla ayrıntı almak için {support_command}''a katılın. Teşekkürler!'
 language:
   set: Dil ayarlandı! Şimdi size **{lang}** dilinde yanıt vereceğim.
 errors:
@@ -393,3 +379,4 @@ misc:
   noDesc: Tanım yok.
   version: InterChat v{version}
   loading: '{emoji} Talebinizi işleme alırken lütfen bekleyin...'
+  reportOptionMoved: '{emoji} Bu seçenek taşındı! HUB moderatörlerine bir mesaj bildirmek için güncellenmiş `` uygulamaları> Mesaj Bilgisi/Report` komutunu kullanın. Aktarma personeline doğrudan raporlama için, [destek sunucusu]({support_invite}) içine atlayın ve kanıtla bir bilet oluşturun.'

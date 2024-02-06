@@ -335,9 +335,6 @@ report:
     other:
       label: Detalii raport
       placeholder: O descriere detaliată a raportului.
-    userOrServer:
-      label: ID de utilizator/server
-      placeholder: ID -urile utilizatorului/serverului pe care îl raportați.
     bug:
       input1:
         label: Detalii despre erori
@@ -345,22 +342,11 @@ report:
       input2:
         label: Descriere detaliată (opțional)
         placeholder: Pași pe care i -ai făcut. De exemplu. 1. RUN /HELP 2. Așteptați 5 secunde ...
-  invalidUser: |-
-    {emoji} Nu am găsit un utilizator cu acel ID. 
-
-     **Pentru a găsi un ID al utilizatorului în rețea:** 
-     {dot} Faceți clic dreapta pe un mesaj trimis de la utilizator în cauză Selectați `Apps> Info Mesaj. Vă rugăm să verificați dublu ID-ul și încercați din nou.
-  invalidServer: |-
-    {emoji} Nu am găsit un server cu acel ID. 
-
-     **Pentru a găsi un ID de server în rețea:** 
-     {dot} Faceți clic dreapta pe un mesaj trimis de serverul în cauză și selectați `Apps> Mesaj Info/Raport`. Vă rugăm să verificați dublu ID-ul și încercați din nou.
-  submitted: Raport prezentat. Alăturați -vă **[server de asistență]({support_invite})** pentru a obține actualizări în raportul dvs.
+  submitted: Raport prezentat. Alăturați -vă **[server de asistență]({emoji})** pentru a obține actualizări în raportul dvs.
   bug:
     title: Raport de erori
     affected: Componente afectate
     description: Vă rugăm să alegeți cu ce componentă a botului vă confruntați cu probleme.
-    submitted: '{emoji} Raport prezentat cu succes. Alăturați -vă {support_command} pentru a obține mai multe detalii. Mulțumesc!'
 language:
   set: Set de limbă! Vă voi răspunde acum în **{lang}**.
 errors:
@@ -393,3 +379,4 @@ misc:
   noDesc: Fără descriere.
   version: InterChat v{version}
   loading: '{emoji} Vă rugăm să așteptați în timp ce vă prelucrez cererea ...'
+  reportOptionMoved: '{emoji} Această opțiune s -a mutat! Pentru a raporta un mesaj către moderatorii HUB, utilizați comanda actualizată „Aplicații> Mesaj/Raport”. Pentru raportarea directă către personalul Interchat, trebuie doar să urcați în [server de asistență]({support_invite}) și creați un bilet cu dovadă.'

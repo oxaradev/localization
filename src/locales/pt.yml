@@ -335,9 +335,6 @@ report:
     other:
       label: Detalhes do relatório
       placeholder: Uma descrição pormenorizada do relatório.
-    userOrServer:
-      label: ID do utilizador/servidor
-      placeholder: Os IDs do utilizador/servidor que está a reportar.
     bug:
       input1:
         label: Detalhes do Bug
@@ -345,22 +342,11 @@ report:
       input2:
         label: Descrição pormenorizada (facultativa)
         placeholder: Passos que deu. Por exemplo, 1. Executar /help 2. Aguarde 5 segundos...
-  invalidUser: |
-    {Não consegui encontrar um utilizador com esse ID. Não consegui encontrar um utilizador com esse ID.
-
-    **Para encontrar o ID de um utilizador na rede
-    {Clique com o botão direito do rato numa mensagem enviada pelo utilizador em questão. Clique com o botão direito do rato numa mensagem enviada pelo utilizador em questão e seleccione `Apps > Informações da mensagem`. Verifique novamente o ID e tente de novo.
-  invalidServer: |
-    {Não consegui encontrar um servidor com esse ID. Não consegui encontrar um servidor com esse ID.
-
-    **Para encontrar um ID de servidor dentro da rede
-    {Clique com o botão direito do rato numa mensagem enviada pelo servidor em questão e seleccione Clique com o botão direito do rato numa mensagem enviada pelo servidor em questão e seleccione `Apps > Message Info/Report`. Verifique novamente o ID e tente de novo.
-  submitted: Relatório enviado. Junte-se ao **[servidor de suporte]({support_invite})** para receber actualizações sobre o seu relatório.
+  submitted: Relatório enviado. Junte-se ao **[servidor de suporte]({emoji})** para receber actualizações sobre o seu relatório.
   bug:
     title: Relatório de erros
     affected: Componentes afectados
     description: Por favor, escolha o componente do bot com o qual está a ter problemas.
-    submitted: '{emoji} para obteres mais detalhes. Obrigado!'
 language:
   set: Língua definida! Agora vou responder-lhe em **{lang}**.
 errors:
@@ -393,3 +379,4 @@ misc:
   noDesc: Não Descrição.
   version: InterChat v{version}
   loading: '{O que é que eu quero? Por favor, aguarda enquanto eu processo o teu pedido...'
+  reportOptionMoved: '{emoji} Esta opção foi movida! Para relatar uma mensagem aos moderadores do hub, use o comando `APPS> APPS> APPS APPS> REMPORTO. Para relatórios diretos para a equipe do InterChat, basta entrar no [Servidor de Suporte]({support_invite}) e criar um ticket com prova.'

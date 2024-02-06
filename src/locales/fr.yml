@@ -335,9 +335,6 @@ report:
     other:
       label: Détails du rapport
       placeholder: Une description détaillée du rapport.
-    userOrServer:
-      label: ID utilisateur/serveur
-      placeholder: Les identifiants de l'utilisateur/du serveur que vous signalez.
     bug:
       input1:
         label: Détails de l'insecte
@@ -345,22 +342,11 @@ report:
       input2:
         label: Description détaillée (facultatif)
         placeholder: Les étapes que vous avez franchies. Par exemple, 1. Exécutez /help 2. Attendez 5 secondes...
-  invalidUser: |
-    {emoji} Je n'ai pas trouvé d'utilisateur avec cet identifiant.
-
-    **Pour trouver l'identifiant d'un utilisateur au sein du réseau :**{dot}
-     Faites un clic droit sur un message envoyé par l'utilisateur en question et sélectionnez `Apps > Message Info`. Veuillez revérifier l'ID et réessayer.
-  invalidServer: |
-    {emoji} Je n'ai pas trouvé de serveur avec cet identifiant.
-
-    **Pour trouver l'identifiant d'un serveur dans le réseau :**{dot}
-     Faites un clic droit sur un message envoyé par le serveur en question et sélectionnez `Apps > Message Info/Report`. Veuillez revérifier l'ID et réessayer.
-  submitted: Rapport soumis. Rejoignez le **[serveur de support]({support_invite})** pour recevoir des mises à jour sur votre rapport.
+  submitted: Rapport soumis. Rejoignez le **[serveur de support]({emoji})** pour recevoir des mises à jour sur votre rapport.
   bug:
     title: Rapport de bug
     affected: Composants concernés
     description: Veuillez choisir le composant du robot qui vous pose problème.
-    submitted: '{emoji} Rapport soumis avec succès. Rejoignez la {support_command} pour obtenir plus de détails. Nous vous en remercions.'
 language:
   set: Langue définie ! Je vous répondrai désormais en **{lang}**.
 errors:
@@ -393,3 +379,4 @@ misc:
   noDesc: Non Description.
   version: InterChat v{version}
   loading: '{emoji} Veuillez patienter pendant que je traite votre demande...'
+  reportOptionMoved: '{emoji} Cette option a déplacé! Pour signaler un message aux modérateurs HUB, utilisez la commande `applications> Message Info / Report`. Pour les rapports directs à InterChat Staff, sautez simplement dans le [Server de support]({support_invite}) et créez un billet avec une preuve.'

@@ -335,9 +335,6 @@ report:
     other:
       label: Podrobnosti o zprávě
       placeholder: Podrobný popis zprávy.
-    userOrServer:
-      label: ID uživatele/serveru
-      placeholder: IDS uživatele/serveru, který hlásíte.
     bug:
       input1:
         label: Detaily chyby
@@ -345,22 +342,11 @@ report:
       input2:
         label: Podrobný popis (volitelné)
         placeholder: Kroky, které jste podnikli. Např. 1. Spuštění /nápověda 2. Počkejte 5 sekund ...
-  invalidUser: |-
-    {emoji} Nemohl jsem s tímto ID najít uživatele. 
-
-     **najít ID uživatele v síti:** 
-     {dot} Klikněte pravým tlačítkem na zprávu odeslanou od dotyčného uživatele Vyberte `Apps> Informace o zprávě`. Zkuste prosím zkontrolujte ID a zkuste to znovu.
-  invalidServer: |-
-    {emoji} Nemohl jsem s tímto ID najít server. 
-
-     **najít ID serveru v síti:** 
-     {dot} Klikněte pravým tlačítkem na zprávu odeslanou dotyčnou serverem a vyberte `Apps> Info/Report". Zkuste prosím zkontrolujte ID a zkuste to znovu.
-  submitted: Zpráva předložená. Připojte se k **[podpůrný server]({support_invite})** Chcete -li získat aktualizaci vaší zprávy.
+  submitted: Zpráva předložená. Připojte se k **[podpůrný server]({emoji})** Chcete -li získat aktualizaci vaší zprávy.
   bug:
     title: Zpráva o chybách
     affected: Ovlivněné komponenty
     description: Vyberte prosím, s jakou součástí bota čelíte problémy.
-    submitted: '{emoji} zpráva předložená úspěšně. Připojte se k {support_command}, abyste získali více podrobností. Děkuji!'
 language:
   set: Jazyková sada! Nyní na vás odpovím v **{lang}**.
 errors:
@@ -393,3 +379,4 @@ misc:
   noDesc: Bez popisu.
   version: InterChat v{version}
   loading: '{emoji} Počkejte prosím, až zpracovávám váš požadavek ...'
+  reportOptionMoved: '{emoji} Tato možnost se přesunula! Chcete -li nahlásit zprávu moderátorům Hub, použijte aktualizovaný příkaz „Apps> Message Info/Report“. Chcete -li přímé hlášení zaměstnanců Interchat, stačí naskočit do [podpůrného serveru]({support_invite}) a vytvořte lístek s důkazem.'

@@ -335,9 +335,6 @@ report:
     other:
       label: Dettagli del rapporto
       placeholder: Una descrizione dettagliata del rapporto.
-    userOrServer:
-      label: ID utente/server
-      placeholder: Gli ID dell'utente/server che stai segnalando.
     bug:
       input1:
         label: Dettagli degli insetti
@@ -345,22 +342,11 @@ report:
       input2:
         label: Descrizione dettagliata (opzionale)
         placeholder: Passi che hai fatto. Per esempio. 1. Esegui /Aiuto 2. Aspetta 5 secondi ...
-  invalidUser: |-
-    {emoji} Non sono riuscito a trovare un utente con quell'ID. 
-
-     **Per trovare l'ID di un utente all'interno della rete:** 
-     {dot} Fare clic con il pulsante destro del mouse su un messaggio inviato dall'utente nella domanda Seleziona `Apps> Informazioni sul messaggio`. Si prega di ricontrollare l'ID e riprovare.
-  invalidServer: |-
-    {emoji} Non sono riuscito a trovare un server con quell'ID. 
-
-     **Per trovare un ID server all'interno della rete:** 
-     {dot} Fare clic con il pulsante destro del mouse su un messaggio inviato dal server in questione e selezionare `Apps> Informazioni/report del messaggio". Si prega di ricontrollare l'ID e riprovare.
-  submitted: Rapporto inviato. Unisciti al **[Support Server]({support_invite})** per ottenere aggiornamenti sul tuo report.
+  submitted: Rapporto inviato. Unisciti al **[Support Server]({emoji})** per ottenere aggiornamenti sul tuo report.
   bug:
     title: Riportare un errore
     affected: Componenti interessati
     description: Scegli con quale componente del bot stai affrontando problemi.
-    submitted: '{emoji} Rapporto inviato correttamente. Unisciti al {support_command} per ottenere maggiori dettagli. Grazie!'
 language:
   set: Set di lingue! Ora ti risponderò in **{lang}**.
 errors:
@@ -393,3 +379,4 @@ misc:
   noDesc: Nessuna descrizione.
   version: InterChat v{version}
   loading: '{emoji} per favore aspetta mentre elaboro la tua richiesta ...'
+  reportOptionMoved: '{emoji} Questa opzione è stata spostata! Per segnalare un messaggio ai moderatori hub, utilizzare il comando `Apps> Informazioni/report{support_invite}) e creare un ticket con prova.'

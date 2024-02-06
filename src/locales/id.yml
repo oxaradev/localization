@@ -335,9 +335,6 @@ report:
     other:
       label: Detail Laporkan
       placeholder: Deskripsi terperinci dari laporan tersebut.
-    userOrServer:
-      label: ID Pengguna/Server
-      placeholder: ID dari pengguna/server yang Anda laporkan.
     bug:
       input1:
         label: Detail bug
@@ -345,22 +342,11 @@ report:
       input2:
         label: Deskripsi terperinci (opsional)
         placeholder: Langkah yang Anda ambil. Misalnya. 1. Jalankan /Bantuan 2. Tunggu selama 5 detik ...
-  invalidUser: |-
-    {emoji} Saya tidak dapat menemukan pengguna dengan ID itu. 
-
-     **Untuk menemukan ID pengguna dalam jaringan:** 
-     {dot} klik kanan pada pesan yang dikirim dari pengguna yang dimaksud pilih `apps> info pesan`. Harap periksa kembali ID dan coba lagi.
-  invalidServer: |-
-    {emoji} Saya tidak dapat menemukan server dengan ID itu. 
-
-     **Untuk menemukan ID server dalam jaringan:** 
-     {dot} Klik kanan pada pesan yang dikirim oleh server yang dimaksud dan pilih `Apps> Info Pesan/Laporan`. Harap periksa kembali ID dan coba lagi.
-  submitted: Laporan diajukan. Bergabunglah dengan **[Support Server]({support_invite})** Untuk mendapatkan pembaruan pada laporan Anda.
+  submitted: Laporan diajukan. Bergabunglah dengan **[Support Server]({emoji})** Untuk mendapatkan pembaruan pada laporan Anda.
   bug:
     title: Laporan Bug
     affected: Komponen yang terkena dampak
     description: Pilih komponen bot apa yang Anda hadapi.
-    submitted: '{emoji} Laporan disampaikan dengan sukses. Bergabunglah dengan {support_command} untuk mendapatkan detail lebih lanjut. Terima kasih!'
 language:
   set: Set Bahasa! Sekarang saya akan menanggapi Anda di **{lang}**.
 errors:
@@ -393,3 +379,4 @@ misc:
   noDesc: Tidak ada deskripsi.
   version: InterChat v{version}
   loading: '{emoji} Harap tunggu sementara saya memproses permintaan Anda ...'
+  reportOptionMoved: '{emoji} Opsi ini telah pindah! Untuk melaporkan pesan ke moderator hub, gunakan perintah `Apps> Info Pesan/Laporan yang diperbarui. Untuk pelaporan langsung ke staf Interchat, cukup lompat ke [server dukungan]({support_invite}) dan buat tiket dengan bukti.'

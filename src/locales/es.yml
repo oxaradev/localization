@@ -335,9 +335,6 @@ report:
     other:
       label: Detalles del reporte
       placeholder: Una descripción detallada del reporte.
-    userOrServer:
-      label: ID de usuario/servidor
-      placeholder: Los ID del usuario/servidor que está informando.
     bug:
       input1:
         label: Detalles del error
@@ -345,22 +342,11 @@ report:
       input2:
         label: Descripción detallada (opcional)
         placeholder: Pasos que tomaste. P.ej. 1. Corre /ayuda 2. espera 5 segundos ...
-  invalidUser: |-
-    {emoji} No pude encontrar un usuario con esa identificación. 
-
-     **Para encontrar la identificación de un usuario dentro de la red:** 
-     {dot} Haga clic derecho en un mensaje enviado desde el usuario en cuestión Seleccione `Aplicaciones> Información del mensaje`. Compruebe dos veces la identificación y vuelva a intentarlo.
-  invalidServer: |-
-    {emoji} No pude encontrar un servidor con esa identificación. 
-
-     **Para encontrar una ID de servidor dentro de la red:** 
-     {dot} Haga clic derecho en un mensaje enviado por el servidor en cuestión y seleccione `Aplicaciones> Información/informe de mensajes`. Compruebe dos veces la identificación y vuelva a intentarlo.
-  submitted: Informe enviado. Únase al **[Servidor de soporte]({support_invite})** para obtener actualizaciones en su informe.
+  submitted: Informe enviado. Únase al **[Servidor de soporte]({emoji})** para obtener actualizaciones en su informe.
   bug:
     title: Informe de error
     affected: Componentes afectados
     description: Elija qué componente del bot con el que enfrenta problemas.
-    submitted: '{emoji} Informe enviado correctamente. Únase al {support_command} para obtener más detalles. ¡Gracias!'
 language:
   set: ¡Sé de idiomas! Ahora te responderé en **{lang}**.
 errors:
@@ -393,3 +379,4 @@ misc:
   noDesc: Sin descripción.
   version: InterChat v{version}
   loading: '{emoji} Por favor, espere mientras proceso su solicitud ...'
+  reportOptionMoved: '{emoji} ¡Esta opción se ha movido! Para informar un mensaje a los moderadores HUB, use el comando actualizado ''APPS> Información del mensaje/Informe''. Para informar directamente al personal de Interchat, simplemente suba al [Servidor de soporte]({support_invite}) y cree un boleto con prueba.'

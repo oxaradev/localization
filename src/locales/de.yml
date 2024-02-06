@@ -335,9 +335,6 @@ report:
     other:
       label: Details melden
       placeholder: Eine detaillierte Beschreibung des Berichts.
-    userOrServer:
-      label: Benutzer/Server -ID
-      placeholder: Die IDs des Benutzer/Servers, den Sie melden.
     bug:
       input1:
         label: Fehlerdetails
@@ -345,22 +342,11 @@ report:
       input2:
         label: Detaillierte Beschreibung (optional)
         placeholder: Schritte, die Sie unternommen haben. Z.B. 1. Rennen /Hilfe 2. Warten Sie 5 Sekunden ...
-  invalidUser: |-
-    {emoji} Ich konnte keinen Benutzer mit dieser ID finden. 
-
-     **Um die ID eines Benutzers im Netzwerk zu finden:** 
-     {dot} Klicken Sie mit der rechten Maustaste auf eine Nachricht, die vom in Frage gestellten Benutzer gesendet wurde. Bitte überprüfen Sie die ID und versuchen Sie es erneut.
-  invalidServer: |-
-    {emoji} Ich konnte keinen Server mit dieser ID finden. 
-
-     **Um eine Server -ID im Netzwerk zu finden:** 
-     oder Bitte überprüfen Sie die ID und versuchen Sie es erneut.
-  submitted: Bericht eingereicht. Schließen Sie sich dem **[Support Server]({support_invite})** bei, um Aktualisierungen in Ihrem Bericht zu erhalten.
+  submitted: Bericht eingereicht. Schließen Sie sich dem **[Support Server]({emoji})** bei, um Aktualisierungen in Ihrem Bericht zu erhalten.
   bug:
     title: Fehlerbericht
     affected: Betroffene Komponenten
     description: Bitte wählen Sie aus, mit welcher Komponente des Bots Sie Probleme haben.
-    submitted: '{emoji} Bericht erfolgreich eingereicht. Schließen Sie sich dem {support_command} bei, um weitere Details zu erhalten. Danke schön!'
 language:
   set: Sprachsatz! Ich werde jetzt auf Sie in **{lang}** antworten.
 errors:
@@ -393,3 +379,4 @@ misc:
   noDesc: Keine Beschreibung.
   version: InterChat v{version}
   loading: '{emoji} Bitte warten Sie, während ich Ihre Anfrage bearbeite ...'
+  reportOptionMoved: '{emoji} Diese Option hat sich bewegt! Um eine Nachricht an Hub -Moderatoren zu melden, verwenden Sie den aktualisierten Befehl `Apps> Nachricht info/report`. Für die direkte Berichterstattung an den Austausch von Mitarbeitern steigen Sie einfach in den [Support Server]({support_invite}) und erstellen Sie ein Ticket mit Nachweis.'
