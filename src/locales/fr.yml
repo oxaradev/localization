@@ -34,12 +34,12 @@ network:
     footer: Veuillez noter que l'IA n'est pas parfaite et qu'elle peut faire des erreurs. Nous vous présentons nos excuses pour les désagréments causés.
   onboarding:
     embed:
-      title: 👋 Bonjour, bienvenue sur {hubName} !
+      title: '👋 Bonjour, bienvenue sur {hubName} !'
       description: |
         Pour garder les choses organisées, il est recommandé d'utiliser un canal séparé uniquement pour ce hub. Mais ne vous inquiétez pas, vous pouvez toujours changer cela plus tard.
 
         **Le réseau InterChat est comme un pont magique qui relie les canaux sur différents serveurs qui sont avec nous dans ce hub. Pour en savoir plus, consultez notre [guide]({docs_link}).
-      footer: InterChat Network | Version {version}
+      footer: Réseau InterChat | Version {version}
     inProgress: Il y a déjà eu une tentative de rejoindre un hub de {channel}. Veuillez l'annuler ou attendre qu'elle se termine.
 blacklist:
   button:
@@ -65,18 +65,18 @@ blacklist:
     unknownError: Échec de la mise sur liste noire de **{server}**. Renseignez-vous auprès des développeurs pour plus d'informations.
   list:
     user: |
-      **UserID:** {userId}
-      **Moderator:** {moderator}
-      **Reason:** {reason}
+      **Identifiant utilisateur:** {userId}
+      **Modérateur:** {moderator}
+      **Raison:** {reason}
       **Expires:** {expires}
     server: |
       **ServerId:** {serverId}
-      **Moderator:** {moderator}
-      **Reason:** {reason}
+      **Modérateur:** {moderator}
+      **Raison:** {reason}
       **Expires:** {expires}
 msgInfo:
   buttons:
-    message: Message Info
+    message: Informations sur le message
     server: Informations sur le serveur
     user: Informations sur l'utilisateur
     report: Rapport
@@ -103,16 +103,16 @@ msgInfo:
       ## {server}
       {description}
 
-      **Owner:**
+      **Propriétaire :**
       __{owner}__
 
-      **Created:**
+      **Créé :**
       __{createdAtFull} ({createdAt})__
 
-      **Member Count:**
+      **Nombre de Membres :**
       __{memberCount}__
 
-      **Invite:**
+      **Invitation :**
       __{invite}__
   user:
     description: |
@@ -153,7 +153,7 @@ connection:
     title: Détails de la connexion
     description: Sélectionnez une option ci-dessous pour gérer votre connexion.
     fields:
-      hub: Hub
+      hub: Centre central
       channel: Chaîne
       invite: Invitation
       connected: Connecté
@@ -162,7 +162,7 @@ connection:
       profanity: Filtre de grossièretés
     footer: Utilisez le bouton et le menu déroulant ci-dessous pour gérer votre connexion.
   selects:
-    placeholder: 🛠️ Sélectionnez une option ci-dessous pour gérer votre connexion.
+    placeholder: '🛠️ Sélectionnez une option ci-dessous pour gérer votre connexion.'
 hub:
   notFound: '{emoji} Impossible de trouver le hub. Veuillez vous assurer que vous avez saisi le nom correct du hub.'
   notFound_mod: '{emoji} Impossible de trouver le hub. Veuillez vous assurer que vous avez saisi le nom correct du hub et que vous êtes le propriétaire ou un modérateur du hub.'
@@ -187,7 +187,7 @@ hub:
         label: Nom du Hub
         placeholder: Saisissez un nom pour votre concentrateur.
       description:
-        label: Description
+        label: Libellé
         placeholder: Saisissez une description de votre concentrateur.
       icon:
         label: URL de l'icône
@@ -219,7 +219,7 @@ hub:
   browse:
     joinConfirm: |
       Etes-vous sûr de vouloir rejoindre {hub} à partir de {channel} ?}
-          
+
       **Note:** Vous pouvez toujours changer cela plus tard en utilisant `/connection`.
     joinFooter: Vous souhaitez utiliser un autre canal ? Utilisez le menu déroulant ci-dessous.
     noHubs: '{emoji} Il n''y a pas de hubs listés ici pour le moment. Veuillez réessayer plus tard !'
@@ -282,7 +282,7 @@ hub:
       changed: La description du hub a été modifiée avec succès.
       modal:
         title: Modifier la description
-        label: Description
+        label: Libellé
         placeholder: Saisissez une description pour ce concentrateur.
       selects:
         label: Modifier la description
@@ -307,7 +307,7 @@ hub:
       roleSuccess: '{emoji} Les journaux de type `{type}` mentionnent désormais {role} !'
       channelSuccess: '{emoji} Les logs de type `{type}` seront désormais envoyés à {channel} !'
       channelSelect: '#️⃣ Sélectionnez le type de journal à configurer.'
-      roleSelect: 🏓 Sélectionnez le rôle à mentionner lorsqu'un journal est déclenché.
+      roleSelect: '🏓 Sélectionnez le rôle à mentionner lorsqu''un journal est déclenché.'
       reportChannelFirst: '{emoji} Veuillez d''abord définir un canal de journalisation.'
       config:
         title: Configurer les journaux `{type}``.
@@ -342,7 +342,7 @@ report:
       input2:
         label: Description détaillée (facultatif)
         placeholder: Les étapes que vous avez franchies. Par exemple, 1. Exécutez /help 2. Attendez 5 secondes...
-  submitted: Rapport soumis. Rejoignez le **[serveur de support]({emoji})** pour recevoir des mises à jour sur votre rapport.
+  submitted: 'Rapport soumis. Rejoignez le **[serveur de support]({emoji})** pour recevoir des mises à jour sur votre rapport.'
   bug:
     title: Rapport de bug
     affected: Composants concernés
