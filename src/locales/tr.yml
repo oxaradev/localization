@@ -1,15 +1,15 @@
 rules: |
-  ### 📜 InterChat Ağ Kuralları
+  ### 📜 InterChat Kuralları
 
-  1. **Sağduyulu Olun:** Başkalarına ve onların görüşlerine karşı saygılı olun. Hakaret, aşırı aşağılayıcı dil veya sohbetin konforunu bozabilecek herhangi bir eylemde bulunmayın.
-  2. **Spam veya Flood Yapmayın:** Tekrarlanan, anlamsız veya aşırı uzun mesajlardan kaçının.
-  3. **Özel Konuları Özel Tutun:** Kişisel bilgileri ağ üzerinden paylaşmaktan kaçının.
-  4. **Taciz Yok:** Trolleme, hakaret veya her türlü tacize tolerans gösterilmez.
-  5. **NSFW/NSFL İçerik Yok:** Açık NSFW/NSFL içerik yayınlamak derhal kara listeye alınmanıza neden olacaktır.
+  1. **Sağduyunuzu Kullanın:** Başkalarına ve onların görüşlerine karşı düşünceli olun. Hakaretler, aşırı aşağılayıcı dil veya sohbetin rahatlığını bozabilecek herhangi bir eylem yok.
+  2. **İstenmeyen Posta veya Taşma Yok:** Tekrarlanan, anlamsız veya aşırı uzun mesajlardan kaçının.
+  3. **Özel Konuları Gizli Tutun:** Kişisel bilgileri ağ üzerinden paylaşmaktan kaçının.
+  4. **Taciz Olmaması:** Trolleme, hakaret veya tacizin hiçbir türüne müsamaha gösterilmez.
+  5. **NSFW/NSFL İçeriği Yok:** Müstehcen NSFW/NSFL içeriğinin yayınlanması anında kara listeye alınmasına neden olacaktır.
   6. **Hassas Konulara Saygı Gösterin:** Kendine zarar verme, intihar, şiddet veya diğer rahatsız edici konuları önemsizleştirmeyin.
-  7. **Endişeleri Bildirin:** Bu kuralların ihlal edildiğini gözlemlerseniz, daha fazla işlem için uygun hub moderatörüne veya InterChat personeline bildirin.
+  7. **Endişeleri Bildirin:** Bu kuralların ihlal edildiğini gözlemlerseniz, daha fazla işlem için bunu ilgili hub moderatörüne veya InterChat personeline bildirin.
 
-  Herhangi bir sorunuz var mı? Destek sunucumuza]({support_invite}) katılın.
+  Herhangi bir sorunuz var mı? [Destek sunucumuza katılın]({support_invite}).
 vote: |
   ## 🗳️ InterChat'e Oy Verin ve Özel Avantajların Keyfini Çıkarın
   InterChat'in Top.gg'deki konumunu yükseltmek için katkınız çok değerli. Her bir oy önemli bir fark yaratır!
@@ -25,9 +25,9 @@ network:
   deleteSuccess: '{emoji} {user} tarafından gönderilen mesaj __**{deleted}/{total}**__ sunucularından silindi.'
   editSuccess: '{emoji} {user} tarafından yazılan mesaj __**{edited}/{total}**__ sunucularında düzenlendi.'
   welcome: |
-    {user} Hoş geldiniz **{hub}**! {emoji}
+    {user} Hoşgeldiniz **{hub}**! {emoji}
 
-    {channel}'da gönderilen mesajlar diğer sunucularla paylaşılacak ve **zahmetsiz iletişimi mümkün kılacaktır**. Normalde yaptığınız gibi resimler, GIF'ler paylaşabilir, yanıtlayabilir, tepki verebilir ve mesajlarla etkileşime girebilirsiniz. Sadece kişisel bilgilerinizi paylaşmaktan kaçının (daha fazlası için {rules_command} adresini kontrol edin). Atlamaya hazır mısınız? İlk mesajınızı gönderin ve sohbete katılın!
+    Gönderilen iletiler {channel} diğer sunucularla paylaşılacak, **zahmetsiz iletişim sağlanacak**. Normalde yaptığınız gibi görüntüleri, GIF'leri paylaşabilir, yanıtlayabilir, tepki verebilir ve mesajlarla etkileşim kurabilirsiniz. Kişisel bilgileri paylaşmaktan kaçınmayı unutmayın (kontrol edin {rules_command} daha fazlası için). Atlamaya hazır mısınız? İlk mesajınızı gönderin ve sohbete katılın!
   nsfw:
     title: NSFW Tespit Edildi
     description: Tespit ettiğim {predictions} Mesajınızda NSFW (İş İçin Güvenli Değil) içerik. Lütfen bunun {rules_command}'ımıza aykırı olduğunu ve derhal kara listeye alınmanıza neden olacağını unutmayın.
@@ -39,7 +39,7 @@ network:
         İşleri düzenli tutmak için, sadece bu hub için ayrı bir kanal kullanmanız önerilir. Ancak endişelenmeyin, bunu daha sonra her zaman değiştirebilirsiniz.
 
         **Nasıl çalışır:** InterChat Ağı, bu merkezde bizimle birlikte olan farklı sunuculardaki kanalları birbirine bağlayan sihirli bir köprü gibidir. Daha fazla bilgi için [rehber]({docs_link}).
-      footer: InterChat Network | Version {version}
+      footer: InterChat Ağı | Sürüm {version}
     inProgress: Zaten {channel}'dan bir hub'a katılma girişimi oldu. Lütfen iptal edin veya tamamlanmasını bekleyin.
 blacklist:
   button:
