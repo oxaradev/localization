@@ -377,6 +377,6 @@ errors:
 misc:
   noReason: Žádný důvod.
   noDesc: Bez popisu.
-  version: InterChat v{version}
+  version: Interchat v{version}
   loading: '{emoji} Počkejte prosím, až zpracovávám váš požadavek ...'
   reportOptionMoved: '{emoji} Tato možnost se přesunula! Chcete -li nahlásit zprávu moderátorům Hub, použijte aktualizovaný příkaz „Apps> Message Info/Report“. Chcete -li přímé hlášení zaměstnanců Interchat, stačí naskočit do [podpůrného serveru]({support_invite}) a vytvořte lístek s důkazem.'
