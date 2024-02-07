@@ -12,7 +12,7 @@ rules: |
   Any questions? Join our [support server]({support_invite}).
 vote: |
   ## 🗳️ Vote for InterChat and Enjoy Exclusive Perks
-  Your contribution is invaluable in elevating InterChat's position on Top.gg. Each and every vote makes a significant difference! 
+  Your contribution is invaluable in elevating InterChat's position on Top.gg. Each and every vote makes a significant difference!
 
   As our way of expressing gratitude for your support, we are thrilled to offer you exclusive advantages. By casting your vote for InterChat, you'll unlock:
 
@@ -34,7 +34,7 @@ network:
     footer: Please be aware that AI is not perfect and may make mistakes. We apologize for any inconvenience caused.
   onboarding:
     embed:
-      title: 👋 Hey there, welcome to {hubName}!
+      title: '👋 Hey there, welcome to {hubName}!'
       description: |
         To keep things organized, it's recommended to use a separate channel for just for this hub. But don't worry, you can always change this later.
 
@@ -84,7 +84,7 @@ msgInfo:
     description: |
       ## {emoji} Message Info
 
-      **Sent By:** 
+      **Sent By:**
       __{author}__
 
       **Sent From:**
@@ -103,13 +103,13 @@ msgInfo:
       ## {server}
       {description}
 
-      **Owner:** 
+      **Owner:**
       __{owner}__
 
-      **Created:** 
+      **Created:**
       __{createdAtFull} ({createdAt})__
 
-      **Member Count:** 
+      **Member Count:**
       __{memberCount}__
 
       **Invite:**
@@ -162,7 +162,7 @@ connection:
       profanity: Profanity Filter
     footer: Use the button & dropdown below to manage your connection.
   selects:
-    placeholder: 🛠️ Select an option below to manage your connection.
+    placeholder: '🛠️ Select an option below to manage your connection.'
 hub:
   notFound: '{emoji} Unable to find hub. Please make sure you have entered the correct hub name.'
   notFound_mod: '{emoji} Unable to find hub. Please make sure you have entered the correct hub name & that you are the owner or a moderator of the hub.'
@@ -219,7 +219,7 @@ hub:
   browse:
     joinConfirm: |
       Are you sure you wish to join {hub} from {channel}?
-          
+
       **Note:** You can always change this later using `/connection`.
     joinFooter: Want to use a different channel? Use the dropdown below.
     noHubs: '{emoji} There are no hubs listed here at the moment. Please try again later!'
@@ -307,7 +307,7 @@ hub:
       roleSuccess: '{emoji} Logs of type `{type}` will now mention {role}!'
       channelSuccess: '{emoji} Logs of type `{type}` will be sent to  {channel} from now!'
       channelSelect: '#️⃣ Select the type of log to configure.'
-      roleSelect: 🏓 Select the role to mention when a log is triggered.
+      roleSelect: '🏓 Select the role to mention when a log is triggered.'
       reportChannelFirst: '{emoji} Please set a log channel first.'
       config:
         title: Configure `{type}` Logs
