@@ -321,7 +321,7 @@ hub:
         label: Αναφορές
         description: Λάβετε αναφορές από χρήστες.
       modLogs:
-        label: Mod Logs
+        label: Αρχεία καταγραφής Mod
         description: Ενέργειες μετριοπάθειας που εκτελούνται από τους συντονιστές.
       profanity:
         label: Βλακεία
