@@ -21,7 +21,7 @@ vote: |
 
   We deeply appreciate your unwavering support. Thank you! 🙏
 network:
-  accountTooNew: '{emoji} {user} Your account is too new to send messages using InterChat. Please try again later.'
+  accountTooNew: '{emoji} {user} حسابك جديد جداً لإرسال الرسائل باستخدام InterChat. الرجاء المحاولة مرة أخرى لاحقاً.'
   deleteSuccess: '{emoji} Message by {user} has been deleted from __**{deleted}/{total}**__ servers.'
   editSuccess: '{emoji} Message by {user} has been edited in __**{edited}/{total}**__ servers.'
   welcome: |
@@ -194,7 +194,7 @@ hub:
         placeholder: Enter an Imgur image URL.
       banner:
         label: Banner URL
-        placeholder: Enter an Imgur image URL.
+        placeholder: أدخل رابط صورة Imgur
     maxHubs: '{emoji} You have reached the maximum number of hubs (3) you can create. Please delete a hub before creating another one.'
     invalidName: '{emoji} Invalid hub name. It must not contain `discord`, `clyde` or \`\`\` . Please choose another name.'
     nameTaken: '{emoji} This hub name is already taken. Please choose another name.'
@@ -265,7 +265,7 @@ hub:
       notOwner: '{emoji} Only the owner of this hub can remove a manager.'
     update:
       success: '{emoji} **{user}**''s position has been updated to **{position}**.'
-      notModerator: '{emoji} **{user}** is not a moderator.'
+      notModerator: '{emoji} **{user}** ليس مشرف.'
       notAllowed: '{emoji} Only hub managers can update a moderator''s position.'
       notOwner: '{emoji} Only the owner of this hub can update a manager''s position.'
   manage:
@@ -274,27 +274,27 @@ hub:
       changed: Hub icon successfully changed.
       modal:
         title: Change Icon
-        label: Icon URL
+        label: رابط الأيقونة
       selects:
-        label: Change Icon
+        label: تغيير الأيقونة
         description: Change the icon of this hub.
     description:
       changed: Hub description successfully changed.
       modal:
         title: Change Description
-        label: Description
+        label: الوصف
         placeholder: Enter a description for this hub.
       selects:
-        label: Change Description
+        label: تغيير الوصف
         description: Change the description of this hub.
     banner:
       changed: Hub banner successfully changed.
       removed: Hub banner successfully removed.
       modal:
         title: Change Banner
-        label: Banner URL
+        label: عنوان الراية
       selects:
-        label: Change Banner
+        label: تغيير الراية
         description: Change the banner of this hub.
     visibility:
       success: '{emoji} Hub visibility successfully changed to **{visibility}**.'
@@ -315,7 +315,7 @@ hub:
           {arrow} Select a log channel and/or role to be pinged from the dropdown below.
           {arrow} You can also disable logging by using the button below.
         fields:
-          channel: Channel
+          channel: قناة
           role: Role Mention
       reports:
         label: Reports
@@ -324,7 +324,7 @@ hub:
         label: Mod Logs
         description: Moderation actions performed by moderators.
       profanity:
-        label: Profanity Filter
+        label: فلتر البروتينية
         description: Log messages that caught by the profanity filter.
       joinLeave:
         label: Join/Leave
@@ -333,7 +333,7 @@ report:
   modal:
     title: Report Details
     other:
-      label: Report Details
+      label: تفاصيل التقرير
       placeholder: A detailed description of the report.
     bug:
       input1:
