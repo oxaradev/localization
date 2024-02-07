@@ -1,44 +1,44 @@
-rules: |-
-  ### 📜 Regole di rete interchat 
+rules: |
+  ### 📜 Regole di rete interchat
 
-   1. **Usa il buon senso:** Sii premuroso degli altri e delle loro opinioni. Nessun insulto, linguaggio dispregiativo estremo o azioni che possano interrompere il comfort della chat. 
-   2. **Nessun spamming o inondazioni:** Evita messaggi ripetuti, privi di senso o eccessivamente lunghi. 
-   3. **Mantieni le questioni private private:** Evita di condividere informazioni personali attraverso la rete. 
-   4. **Nessun molestia:** Trolling, insulti o molestie di qualsiasi tipo non sono tollerati. 
-   5. **Nessun contenuto NSFW/NSFL:** La pubblicazione del contenuto NSFW/NSFL esplicito comporterà una lista nera immediata. 
-   6. **Rispetta gli argomenti sensibili:** Non banalizzare l'autolesionismo, il suicidio, la violenza o altri argomenti offensivi. 
-   7. **Segnala preoccupazione:** Se si osserva una violazione di queste regole, segnalarlo al moderatore dell'hub appropriato o al personale di InterChat per ulteriori azioni. 
+  1. **Usa il buon senso:** Sii premuroso degli altri e delle loro opinioni. Nessun insulto, linguaggio dispregiativo estremo o azioni che possano interrompere il comfort della chat.
+  2. **Nessun spamming o inondazioni:** Evita messaggi ripetuti, privi di senso o eccessivamente lunghi.
+  3. **Mantieni le questioni private private:** Evita di condividere informazioni personali attraverso la rete.
+  4. **Nessun molestia:** Trolling, insulti o molestie di qualsiasi tipo non sono tollerati.
+  5. **Nessun contenuto NSFW/NSFL:** La pubblicazione del contenuto NSFW/NSFL esplicito comporterà una lista nera immediata.
+  6. **Rispetta gli argomenti sensibili:** Non banalizzare l'autolesionismo, il suicidio, la violenza o altri argomenti offensivi.
+  7. **Segnala preoccupazione:** Se si osserva una violazione di queste regole, segnalarlo al moderatore dell'hub appropriato o al personale di InterChat per ulteriori azioni.
 
-   Qualsiasi domanda? Unisciti al nostro [Support Server]({support_invite}).
-vote: |-
-  ## 🗳️ Vota per l'interchat e goditi i vantaggi esclusivi 
-   Il tuo contributo è prezioso per elevare la posizione di InterChat in cima.gg. Ogni voto fa una differenza significativa! 
+  Qualsiasi domanda? Unisciti al nostro [Support Server]({support_invite}).
+vote: |
+  ## 🗳️ Vota per l'interchat e goditi i vantaggi esclusivi
+  Il tuo contributo è prezioso per elevare la posizione di InterChat in cima.gg. Ogni voto fa una differenza significativa!
 
-   Come modo di esprimere gratitudine per il tuo supporto, siamo entusiasti di offrirti vantaggi esclusivi. Distribuendo il tuo voto per InterChat, sbloccherai: 
+  Come modo di esprimere gratitudine per il tuo supporto, siamo entusiasti di offrirti vantaggi esclusivi. Distribuendo il tuo voto per InterChat, sbloccherai:
 
-   - Modifica messaggi all'interno degli hub 
-   - Traduzione dei messaggi (e molto altro in arrivo!) 
+  - Modifica messaggi all'interno degli hub
+  - Traduzione dei messaggi (e molto altro in arrivo!)
 
-   Apprezziamo profondamente il tuo sostegno incrollabile. Grazie! 🙏
+  Apprezziamo profondamente il tuo sostegno incrollabile. Grazie! 🙏
 network:
   accountTooNew: '{emoji} {user} Il tuo account è troppo nuovo per inviare messaggi utilizzando InterChat. Per favore riprova più tardi.'
   deleteSuccess: '{emoji} Messaggio di {user} è stato eliminato da __**{deleted}/{total}**__ server.'
   editSuccess: '{emoji} Messaggio di {user} è stato modificato in __**{edited}/{total}**__ server.'
-  welcome: |-
-    {user} benvenuto a **{hub}**! {emoji} 
+  welcome: |
+    {user} benvenuto a **{hub}**! {emoji}
 
-     I messaggi inviati in {channel} saranno condivisi con altri server, **abilitando la comunicazione senza sforzo**. Puoi condividere immagini, GIF, rispondere, reagire e interagire con i messaggi come faresti normalmente. Ricorda solo di evitare di condividere informazioni personali (controlla {rules_command} per ulteriori informazioni). Pronto a saltare? Invia il tuo primo messaggio e unisciti alla conversazione!
+    I messaggi inviati in {channel} saranno condivisi con altri server, **abilitando la comunicazione senza sforzo**. Puoi condividere immagini, GIF, rispondere, reagire e interagire con i messaggi come faresti normalmente. Ricorda solo di evitare di condividere informazioni personali (controlla {rules_command} per ulteriori informazioni). Pronto a saltare? Invia il tuo primo messaggio e unisciti alla conversazione!
   nsfw:
     title: NSFW rilevato
     description: Ho rilevato {predictions} nsfw (non sicuro per lavoro) contenuto nel tuo messaggio. Si prega di essere consapevoli che questo è contro il nostro {rules_command} e si tradurrà in una blacklist immediata.
     footer: Si prega di essere consapevoli che l'IA non è perfetta e può commettere errori. Ci scusiamo per qualsiasi inconveniente causato.
   onboarding:
     embed:
-      title: 👋 Ehi, benvenuti a {hubName}!
-      description: |-
-        Per organizzare le cose, si consiglia di utilizzare un canale separato solo per questo hub. Ma non preoccuparti, puoi sempre cambiarlo in seguito. 
+      title: '👋 Ehi, benvenuti a {hubName}!'
+      description: |
+        Per organizzare le cose, si consiglia di utilizzare un canale separato solo per questo hub. Ma non preoccuparti, puoi sempre cambiarlo in seguito.
 
-         **Come funziona:** La rete InterChat è come un ponte magico che collega i canali su diversi server che sono con noi in questo hub. Ulteriori informazioni sulla nostra [guida]({docs_link}).
+        **Come funziona:** La rete InterChat è come un ponte magico che collega i canali su diversi server che sono con noi in questo hub. Ulteriori informazioni sulla nostra [guida]({docs_link}).
       footer: Rete interchat | Version {version}
     inProgress: C'è già stato un tentativo di unirsi a un hub da {channel}. Si prega di annullarlo o attendere che sia completato.
 blacklist:
@@ -64,16 +64,16 @@ blacklist:
     alreadyBlacklisted: '{emoji} Questo server è già nella lista nera.'
     unknownError: Impossibile a blacklist **{server}**. Informati con gli sviluppatori per ulteriori informazioni.
   list:
-    user: |-
-      **userid:** {userId} 
-       **Moderatore:** {moderator} 
-       **Motivo:** {reason} 
-       **scade:** {expires}
-    server: |-
-      **ServerId:** {serverId} 
-       **Moderatore:** {moderator} 
-       **Motivo:** {reason} 
-       **scade:** {expires}
+    user: |
+      **userid:** {userId}
+      **Moderatore:** {moderator}
+      **Motivo:** {reason}
+      **scade:** {expires}
+    server: |
+      **ServerId:** {serverId}
+      **Moderatore:** {moderator}
+      **Motivo:** {reason}
+      **scade:** {expires}
 msgInfo:
   buttons:
     message: Informazioni sul messaggio
@@ -81,62 +81,62 @@ msgInfo:
     user: Informazioni dell'utente
     report: Rapporto
   message:
-    description: |-
-      ## {emoji} Informazioni del messaggio 
+    description: |
+      ## {emoji} Informazioni del messaggio
 
-       **Inviato da:** 
-       __{author}__ 
+      **Inviato da:**
+      __{author}__
 
-       **Inviato da:** 
-       __{server}__ 
+      **Inviato da:**
+      __{server}__
 
-       **ID messaggio:** 
-       __{messageId}__ 
+      **ID messaggio:**
+      __{messageId}__
 
-       **inviato in (hub):** 
-       __{hub}__ 
+      **inviato in (hub):**
+      __{hub}__
 
-       **Messaggio creato:** 
-       {createdAt}
+      **Messaggio creato:**
+      {createdAt}
   server:
-    description: |-
-      ## {server} 
-       {description} 
+    description: |
+      ## {server}
+      {description}
 
-       **Proprietario:** 
-       __{owner}__ 
+      **Proprietario:**
+      __{owner}__
 
-       **Creato:** 
-       __{createdAtFull} ({createdAt})__ 
+      **Creato:**
+      __{createdAtFull} ({createdAt})__
 
-       **Conte membro:** 
-       __{memberCount}__ 
+      **Conte membro:**
+      __{memberCount}__
 
-       **Invitare:** 
-       __{invite}__
+      **Invitare:**
+      __{invite}__
   user:
-    description: |-
-      ## {username} 
-       __{user}__ 
+    description: |
+      ## {username}
+      __{user}__
 
-       **ID:** 
-       __{id}__ 
+      **ID:**
+      __{id}__
 
-       **Creato:** 
-       {createdAtFull} ({createdAt}) 
+      **Creato:**
+      {createdAtFull} ({createdAt})
 
-       **Nome da visualizzare:** 
-       __{globalName}__ 
+      **Nome da visualizzare:**
+      __{globalName}__
 
-       **Hub di proprietà:** 
-       __{hubsOwned}__
+      **Hub di proprietà:**
+      __{hubsOwned}__
   report:
     notEnabled: '{emoji} Reporting non è abilitato per questo hub.'
     success: '{emoji} Rapporto inviato correttamente. Grazie!'
-invite: |-
-  Grazie per aver scelto di invitare InterChat. Basta fare clic sul pulsante in basso per invitarmi! 
+invite: |
+  Grazie per aver scelto di invitare InterChat. Basta fare clic sul pulsante in basso per invitarmi!
 
-   - **Server di supporto:** {support}
+  - **Server di supporto:** {support}
 connection:
   notFound: '{emoji} connessione non valida. Verificare l''ID canale o selezionare dalle opzioni visualizzate.'
   channelNotFound: '{emoji} Impossibile trovare il canale connesso. Per parlare di nuovo scegli un nuovo canale.'
@@ -162,7 +162,7 @@ connection:
       profanity: Filtro di volgarità
     footer: Utilizzare il pulsante e il calo di seguito per gestire la connessione.
   selects:
-    placeholder: 🛠️ Seleziona un'opzione di seguito per gestire la connessione.
+    placeholder: '🛠️ Seleziona un''opzione di seguito per gestire la connessione.'
 hub:
   notFound: '{emoji} impossibile trovare hub. Assicurati di aver inserito il nome dell''hub corretto.'
   notFound_mod: '{emoji} impossibile trovare hub. Assicurati di aver inserito il nome dell''hub corretto e che tu sia il proprietario o un moderatore dell''hub.'
@@ -175,11 +175,11 @@ hub:
     total: 'Server connessi correnti: {from}-{to} / **{total}**'
     noConnections: '{emoji} nessun server ha ancora unito a questo hub. Usa `/hub join` per unirti a questo hub.'
     notConnected: '{emoji} quel server non fa parte di **{hub}**.'
-    connectionInfo: |-
-      Canale: #{channelName} `({channelId})` 
-       Accesso a: {joinedAt} 
-       Invita: {invite} 
-       Connesso: {connected}
+    connectionInfo: |
+      Canale: #{channelName} `({channelId})`
+      Accesso a: {joinedAt}
+      Invita: {invite}
+      Connesso: {connected}
   create:
     modal:
       title: Crea hub
@@ -198,29 +198,29 @@ hub:
     maxHubs: '{emoji} hai raggiunto il numero massimo di hub (3) È possibile creare. Si prega di eliminare un hub prima di crearne un altro.'
     invalidName: '{emoji} Nome hub non valido. Non deve contenere `Discord`,` Clyde` o \ `\` \ `. Scegli un altro nome.'
     nameTaken: '{emoji} Questo nome dell''hub è già preso. Scegli un altro nome.'
-    success: |-
-      ### hub creato! 
+    success: |
+      ### hub creato!
 
-       Congratulazioni! Il tuo hub privato, **{name}**, è stato creato correttamente. 
-       Per partecipare, creare un invito utilizzando `/hub invito a creare` e condividere il codice generato. Quindi unisciti a `/hub join`. 
+      Congratulazioni! Il tuo hub privato, **{name}**, è stato creato correttamente.
+      Per partecipare, creare un invito utilizzando `/hub invito a creare` e condividere il codice generato. Quindi unisciti a `/hub join`.
 
-       - **Genera invito:** `/hub invito a creare` 
-       - **vai pubblico:** `/hub gest` 
-       - **JOIN HUB:** `/hub join` 
-       - **Modifica hub:** `/hub gest` 
-       - **Aggiungi moderatori:** `/Moderatore hub Aggiungi` 
+      - **Genera invito:** `/hub invito a creare`
+      - **vai pubblico:** `/hub gest`
+      - **JOIN HUB:** `/hub join`
+      - **Modifica hub:** `/hub gest`
+      - **Aggiungi moderatori:** `/Moderatore hub Aggiungi`
 
-       Ulteriori informazioni su Hubs nella nostra [guida]({docs_link}). Unisciti al [Support Server]({support_invite}) per l'aiuto.
+      Ulteriori informazioni su Hubs nella nostra [guida]({docs_link}). Unisciti al [Support Server]({support_invite}) per l'aiuto.
   delete:
     confirm: Sei sicuro di voler eliminare **{hub}**? Questa azione è irreversibile. Tutti i server, gli inviti e i dati dei messaggi connessi verranno rimossi da questo hub.
     ownerOnly: '{emoji} Solo il proprietario di questo hub può eliminarlo.'
     success: '{emoji} hub **{hub}** è stato eliminato.'
     cancelled: '{emoji} La cancellazione dell''hub è stata annullata.'
   browse:
-    joinConfirm: |-
-      Sei sicuro di voler unirti a {hub} da {channel}? 
-          
-       **Nota:** Puoi sempre modificarlo in seguito usando `/Connection`.
+    joinConfirm: |
+      Sei sicuro di voler unirti a {hub} da {channel}?
+
+      **Nota:** Puoi sempre modificarlo in seguito usando `/Connection`.
     joinFooter: Vuoi usare un canale diverso? Usa il discesa di seguito.
     noHubs: '{emoji} non ci sono hub elencati qui al momento. Per favore riprova più tardi!'
     rating:
@@ -228,17 +228,17 @@ hub:
       success: Valutazione presentata! Grazie per il tuo feedback.
   invite:
     create:
-      success: |-
-        ### invito creato! 
+      success: |
+        ### invito creato!
 
-         Il tuo invito è stato creato con successo. Altri ora possono unirsi a questo hub usando il comando `/hub join`. 
+        Il tuo invito è stato creato con successo. Altri ora possono unirsi a questo hub usando il comando `/hub join`.
 
-         - **join usando:** `/hub join invite: {inviteCode}` 
-         - **Visualizza inviti:** `/hub Elenco Invite` 
-         - **ESCIRY:** {expiry} 
-         - **usa**: ∞ 
+        - **join usando:** `/hub join invite: {inviteCode}`
+        - **Visualizza inviti:** `/hub Elenco Invite`
+        - **ESCIRY:** {expiry}
+        - **usa**: ∞
 
-         __Learn Altro sugli hub nella nostra [guida]({docs_link}) .__.
+        __Learn Altro sugli hub nella nostra [guida]({docs_link}) .__.
     revoke:
       invalidCode: '{emoji} codice invito non valido. Assicurati di aver inserito un codice di invito valido.'
       success: '{emoji} invito {inviteCode} revocata.'
@@ -307,13 +307,13 @@ hub:
       roleSuccess: '{emoji} logs di tipo `{type}` ora menzionerà {role}!'
       channelSuccess: '{emoji} logs of type `{type}` verranno inviati a {channel} da ora!'
       channelSelect: '#️⃣ Selezionare il tipo di registro da configurare.'
-      roleSelect: 🏓 Selezionare il ruolo da menzionare quando viene attivato un registro.
+      roleSelect: '🏓 Selezionare il ruolo da menzionare quando viene attivato un registro.'
       reportChannelFirst: '{emoji} Per favore imposta prima un canale di registro.'
       config:
         title: Configure `{type}` logs
-        description: |-
-          {arrow} Seleziona un canale di registro e/o un ruolo da pingor dal discesa di seguito. 
-           {arrow} È inoltre possibile disabilitare la registrazione utilizzando il pulsante di seguito.
+        description: |
+          {arrow} Seleziona un canale di registro e/o un ruolo da pingor dal discesa di seguito.
+          {arrow} È inoltre possibile disabilitare la registrazione utilizzando il pulsante di seguito.
         fields:
           channel: Canale
           role: Menzione del ruolo
@@ -342,7 +342,7 @@ report:
       input2:
         label: Descrizione dettagliata (opzionale)
         placeholder: Passi che hai fatto. Per esempio. 1. Esegui /Aiuto 2. Aspetta 5 secondi ...
-  submitted: Rapporto inviato. Unisciti al **[Support Server]({emoji})** per ottenere aggiornamenti sul tuo report.
+  submitted: 'Rapporto inviato. Unisciti al **[Support Server]({emoji})** per ottenere aggiornamenti sul tuo report.'
   bug:
     title: Riportare un errore
     affected: Componenti interessati
@@ -353,11 +353,11 @@ errors:
   messageNotSentOrExpired: '{emoji} Questo messaggio non è stato inviato in un hub, è scaduto o ti manca le autorizzazioni per eseguire questa azione.'
   notYourAction: '{emoji} scusa, non puoi eseguire questa azione. Per favore, esegui il comando da solo.'
   notMessageAuthor: '{emoji} non sei l''autore di questo messaggio.'
-  commandError: |-
-    {emoji} si è verificato un errore durante l'esecuzione di questo comando. È stato registrato al nostro sistema. Se questo problema persiste, unisciti al nostro [Support Server]({support_invite}) e segnalalo! 
-     ```js 
-     {error} 
-     ```
+  commandError: |
+    {emoji} si è verificato un errore durante l'esecuzione di questo comando. È stato registrato al nostro sistema. Se questo problema persiste, unisciti al nostro [Support Server]({support_invite}) e segnalalo!
+    ```js
+    {error}
+    ```
   mustVote: Si prega di [vota](https://top.gg/bot/769921109209907241/vote) per InterChat per utilizzare questo comando, il tuo supporto è molto apprezzato!
   inviteLinks: '{emoji} non pubblicizzare o promuovere i server nella rete. Imposta invece un invito in `/connection`!'
   invalidLangCode: '{emoji} codice linguistico non valido. Assicurati di aver inserito un [codice linguistico] corretto (https://cloud.google.com/translate/docs/languages).'
