@@ -1,44 +1,44 @@
-rules: |-
-  ### 📜 InterChat -nätverksregler 
+rules: |
+  ### 📜 InterChat -nätverksregler
 
-   1. **Använd sunt förnuft:** Ta hänsyn till andra och deras åsikter. Inga slurar, extremt nedsättande språk eller några åtgärder som kan störa chattens komfort. 
-   2. **Ingen spamming eller översvämningar:** Undvik upprepade, nonsensiska eller alltför långa meddelanden. 
-   3. **Håll privata frågor privata:** Undvik att dela personlig information över hela nätverket. 
-   4. **Ingen trakasserier:** Trollning, förolämpningar eller trakasserier av något slag tolereras inte. 
-   5. **Inget NSFW/NSFL -innehåll:** POSTING Explicit NSFW/NSFL -innehåll kommer att resultera i omedelbar svartlista. 
-   6. **Respektera känsliga ämnen:** Trivialiserar inte självskada, självmord, våld eller andra offensiva ämnen. 
-   7. **Rapportera problem:** Om du observerar ett brott mot dessa regler, rapportera det till lämplig navmodator eller interchat -personal för ytterligare åtgärder. 
+  1. **Använd sunt förnuft:** Ta hänsyn till andra och deras åsikter. Inga slurar, extremt nedsättande språk eller några åtgärder som kan störa chattens komfort.
+  2. **Ingen spamming eller översvämningar:** Undvik upprepade, nonsensiska eller alltför långa meddelanden.
+  3. **Håll privata frågor privata:** Undvik att dela personlig information över hela nätverket.
+  4. **Ingen trakasserier:** Trollning, förolämpningar eller trakasserier av något slag tolereras inte.
+  5. **Inget NSFW/NSFL -innehåll:** POSTING Explicit NSFW/NSFL -innehåll kommer att resultera i omedelbar svartlista.
+  6. **Respektera känsliga ämnen:** Trivialiserar inte självskada, självmord, våld eller andra offensiva ämnen.
+  7. **Rapportera problem:** Om du observerar ett brott mot dessa regler, rapportera det till lämplig navmodator eller interchat -personal för ytterligare åtgärder.
 
-   Några frågor? Gå med i vår [supportserver]({support_invite}).
-vote: |-
-  ## 🗳 Rösta för interchat och njut av exklusiva förmåner 
-   Ditt bidrag är ovärderligt för att höja InterChats position på topp.g. Varje röst gör en betydande skillnad! 
+  Några frågor? Gå med i vår [supportserver]({support_invite}).
+vote: |
+  ## 🗳 Rösta för interchat och njut av exklusiva förmåner
+  Ditt bidrag är ovärderligt för att höja InterChats position på topp.g. Varje röst gör en betydande skillnad!
 
-   Som vårt sätt att uttrycka tacksamhet för ditt stöd är vi glada över att erbjuda dig exklusiva fördelar. Genom att avge din röst för InterChat låser du upp: 
+  Som vårt sätt att uttrycka tacksamhet för ditt stöd är vi glada över att erbjuda dig exklusiva fördelar. Genom att avge din röst för InterChat låser du upp:
 
-   - Redigera meddelanden i naven 
-   - Översätt meddelanden (och mycket mer på vägen!) 
+  - Redigera meddelanden i naven
+  - Översätt meddelanden (och mycket mer på vägen!)
 
-   Vi uppskattar djupt ditt oöverträffade stöd. Tack! 🙏
+  Vi uppskattar djupt ditt oöverträffade stöd. Tack! 🙏
 network:
   accountTooNew: '{emoji} {user} Ditt konto är för nytt för att skicka meddelanden med interchat. Vänligen försök igen senare.'
   deleteSuccess: '{emoji} Meddelande av {user} har tagits bort från __**{deleted}/{total}**__ -servrar.'
   editSuccess: '{emoji} Meddelande av {user} har redigerats i __**{edited}/{total}**__ -servrar.'
-  welcome: |-
-    {user} Välkommen till **{hub}**! {emoji} 
+  welcome: |
+    {user} Välkommen till **{hub}**! {emoji}
 
-     Meddelanden som skickas in {channel} kommer att delas med andra servrar, **Aktivera enkel kommunikation**. Du kan dela bilder, gifs, svara, reagera och interagera med meddelanden som du normalt skulle göra. Kom bara ihåg att undvika att dela personlig information (kolla {rules_command} för mer). Redo att hoppa in? Skicka ditt första meddelande och gå med i konversationen!
+    Meddelanden som skickas in {channel} kommer att delas med andra servrar, **Aktivera enkel kommunikation**. Du kan dela bilder, gifs, svara, reagera och interagera med meddelanden som du normalt skulle göra. Kom bara ihåg att undvika att dela personlig information (kolla {rules_command} för mer). Redo att hoppa in? Skicka ditt första meddelande och gå med i konversationen!
   nsfw:
     title: NSFW upptäckt
     description: Jag har upptäckt {predictions} NSFW (inte säkert för arbete) i ditt meddelande. Tänk på att detta är emot vår {rules_command} och kommer att resultera i omedelbar svartlista.
     footer: Tänk på att AI inte är perfekt och kan göra misstag. Vi beklagar eventuella olägenheter.
   onboarding:
     embed:
-      title: 👋 Hej där, välkommen till {hubName}!
-      description: |-
-        För att hålla saker organiserade rekommenderas det att använda en separat kanal för bara för detta nav. Men oroa dig inte, du kan alltid ändra detta senare. 
+      title: '👋 Hej där, välkommen till {hubName}!'
+      description: |
+        För att hålla saker organiserade rekommenderas det att använda en separat kanal för bara för detta nav. Men oroa dig inte, du kan alltid ändra detta senare.
 
-         **Hur det fungerar:** InterChat -nätverket är som en magisk bro som länkar kanaler på olika servrar som är med oss i detta nav. Lär dig mer på vår [guide]({docs_link}).
+        **Hur det fungerar:** InterChat -nätverket är som en magisk bro som länkar kanaler på olika servrar som är med oss i detta nav. Lär dig mer på vår [guide]({docs_link}).
       footer: InterChat Network | Version {version}
     inProgress: Det har redan varit ett försök att gå med i ett nav från {channel}. Avbryt den eller vänta på att den ska slutföras.
 blacklist:
@@ -64,16 +64,16 @@ blacklist:
     alreadyBlacklisted: '{emoji} Den här servern är redan svartlistad.'
     unknownError: Det gick inte att svartlista **{server}**. Fråga med utvecklarna för mer information.
   list:
-    user: |-
-      **userid:** {userId} 
-       **Moderator:** {moderator} 
-       **Anledning:** {reason} 
-       **löper ut:** {expires}
-    server: |-
-      **ServerId:** {serverId} 
-       **Moderator:** {moderator} 
-       **Anledning:** {reason} 
-       **löper ut:** {expires}
+    user: |
+      **userid:** {userId}
+      **Moderator:** {moderator}
+      **Anledning:** {reason}
+      **löper ut:** {expires}
+    server: |
+      **ServerId:** {serverId}
+      **Moderator:** {moderator}
+      **Anledning:** {reason}
+      **löper ut:** {expires}
 msgInfo:
   buttons:
     message: Meddelandeinfo
@@ -81,62 +81,62 @@ msgInfo:
     user: användarinformation
     report: Rapportera
   message:
-    description: |-
-      ## {emoji} Meddelandeinfo 
+    description: |
+      ## {emoji} Meddelandeinfo
 
-       **Skickat av:** 
-       __{author}__ 
+      **Skickat av:**
+      __{author}__
 
-       **Skickat från:** 
-       __{server}__ 
+      **Skickat från:**
+      __{server}__
 
-       **Meddelande -ID:** 
-       __{messageId}__ 
+      **Meddelande -ID:**
+      __{messageId}__
 
-       **skickas in (nav):** 
-       __{hub}__ 
+      **skickas in (nav):**
+      __{hub}__
 
-       **Meddelande skapat:** 
-       {createdAt}
+      **Meddelande skapat:**
+      {createdAt}
   server:
-    description: |-
-      ## {server} 
-       {description} 
+    description: |
+      ## {server}
+      {description}
 
-       **Ägare:** 
-       __{owner}__ 
+      **Ägare:**
+      __{owner}__
 
-       **Skapad:** 
-       __{createdAtFull} ({createdAt})__ 
+      **Skapad:**
+      __{createdAtFull} ({createdAt})__
 
-       **Medlemsantal:** 
-       __{memberCount}__ 
+      **Medlemsantal:**
+      __{memberCount}__
 
-       **Bjuda:** 
-       __{invite}__
+      **Bjuda:**
+      __{invite}__
   user:
-    description: |-
-      ## {username} 
-       __{user}__ 
+    description: |
+      ## {username}
+      __{user}__
 
-       **ID:** 
-       __{id}__ 
+      **ID:**
+      __{id}__
 
-       **Skapad:** 
-       {createdAtFull} ({createdAt}) 
+      **Skapad:**
+      {createdAtFull} ({createdAt})
 
-       **Visa namn:** 
-       __{globalName}__ 
+      **Visa namn:**
+      __{globalName}__
 
-       **Hubs ägs:** 
-       __{hubsOwned}__
+      **Hubs ägs:**
+      __{hubsOwned}__
   report:
     notEnabled: '{emoji} Rapportering är inte aktiverad för detta nav.'
     success: '{emoji} Rapport skickas framgångsrikt. Tack!'
-invite: |-
-  Tack för att du valde att bjuda in interchat. Klicka bara på knappen nedan för att bjuda in mig! 
+invite: |
+  Tack för att du valde att bjuda in interchat. Klicka bara på knappen nedan för att bjuda in mig!
 
-   - **Supportserver:** {support}
+  - **Supportserver:** {support}
 connection:
   notFound: '{emoji} Ogiltig anslutning. Verifiera kanal -ID eller välj från visade alternativ.'
   channelNotFound: '{emoji} Det går inte att hitta ansluten kanal. För att prata igen väljer du en ny kanal.'
@@ -162,7 +162,7 @@ connection:
       profanity: Språkfilter
     footer: Använd knappen och rullgardinsmenyn nedan för att hantera din anslutning.
   selects:
-    placeholder: 🛠 Välj ett alternativ nedan för att hantera din anslutning.
+    placeholder: '🛠 Välj ett alternativ nedan för att hantera din anslutning.'
 hub:
   notFound: '{emoji} Det går inte att hitta nav. Se till att du har angett rätt navnamn.'
   notFound_mod: '{emoji} Det går inte att hitta nav. Se till att du har angett rätt navnamn och att du är ägaren eller en moderator för navet.'
@@ -175,11 +175,11 @@ hub:
     total: 'Nuvarande anslutna servrar: {from}-{to} / **{total}**'
     noConnections: '{emoji} Ingen server har anslutit sig till detta nav ännu. Använd `/Hub Join` för att gå med i detta nav.'
     notConnected: '{emoji} Den servern är inte en del av **{hub}**.'
-    connectionInfo: |-
-      Kanal: #{channelName} `({channelId})` 
-       Gick med på: {joinedAt} 
-       Bjuda in: {invite} 
-       Ansluten: {connected}
+    connectionInfo: |
+      Kanal: #{channelName} `({channelId})`
+      Gick med på: {joinedAt}
+      Bjuda in: {invite}
+      Ansluten: {connected}
   create:
     modal:
       title: Skapa nav
@@ -198,29 +198,29 @@ hub:
     maxHubs: '{emoji} Du har nått det maximala antalet nav (3) du kan skapa. Ta bort ett nav innan du skapar ett annat.'
     invalidName: '{emoji} Ogiltigt navnamn. Det får inte innehålla ,  eller \ `\` \ `. Välj ett annat namn.'
     nameTaken: '{emoji} Detta navnamn är redan taget. Välj ett annat namn.'
-    success: |-
-      ### Hub skapat! 
+    success: |
+      ### Hub skapat!
 
-       Grattis! Ditt privata nav, **{name}**, har skapats framgångsrikt. 
-       För att gå med, skapa en inbjudan med `/nav Invite Create` och dela den genererade koden. Gå sedan med med `/Hub Join '. 
+      Grattis! Ditt privata nav, **{name}**, har skapats framgångsrikt.
+      För att gå med, skapa en inbjudan med `/nav Invite Create` och dela den genererade koden. Gå sedan med med `/Hub Join '.
 
-       - **Generera inbjudan:** `/nav inbjudan create` 
-       - **GO PUBLIC:** `/HUB MANTERING` 
-       - **Gå med nav:** `/nav Join` 
-       - **Redigera nav:** `/nav manage` 
-       - **Lägg till moderatorer:** `/nav moderator add` 
+      - **Generera inbjudan:** `/nav inbjudan create`
+      - **GO PUBLIC:** `/HUB MANTERING`
+      - **Gå med nav:** `/nav Join`
+      - **Redigera nav:** `/nav manage`
+      - **Lägg till moderatorer:** `/nav moderator add`
 
-       Lär dig mer om nav i vår [guide]({docs_link}). Gå med i [supportservern]({support_invite}) för hjälp.
+      Lär dig mer om nav i vår [guide]({docs_link}). Gå med i [supportservern]({support_invite}) för hjälp.
   delete:
     confirm: Är du säker på att du vill ta bort **{hub}**? Denna åtgärd är irreversibel. Alla anslutna servrar, inbjudningar och meddelandedata kommer att tas bort från detta nav.
     ownerOnly: '{emoji} Endast ägaren till detta nav kan ta bort det.'
     success: '{emoji} nav **{hub}** har tagits bort.'
     cancelled: '{emoji} Hub -borttagning har avbrutits.'
   browse:
-    joinConfirm: |-
-      Är du säker på att du vill gå med {hub} från {channel}? 
-          
-       **Obs:** Du kan alltid ändra detta senare med `/anslutning".
+    joinConfirm: |
+      Är du säker på att du vill gå med {hub} från {channel}?
+
+      **Obs:** Du kan alltid ändra detta senare med `/anslutning".
     joinFooter: Vill du använda en annan kanal? Använd rullgardinsmenyn nedan.
     noHubs: '{emoji} Det finns inga nav som listas här just nu. Vänligen försök igen senare!'
     rating:
@@ -228,17 +228,17 @@ hub:
       success: Betyg skickat! Tack för din feedback.
   invite:
     create:
-      success: |-
-        ### Inbjudning skapad! 
+      success: |
+        ### Inbjudning skapad!
 
-         Din inbjudan har skapats framgångsrikt. Andra kan nu gå med i detta nav genom att använda kommandot `/Hub Join '. 
+        Din inbjudan har skapats framgångsrikt. Andra kan nu gå med i detta nav genom att använda kommandot `/Hub Join '.
 
-         - **Gå med med:** `/nav gå med inbjudan: {inviteCode}` 
-         - **Visa inbjudningar:** `/navinbjudan lista` 
-         - **Expiry:** {expiry} 
-         - **använder**: ∞ 
+        - **Gå med med:** `/nav gå med inbjudan: {inviteCode}`
+        - **Visa inbjudningar:** `/navinbjudan lista`
+        - **Expiry:** {expiry}
+        - **använder**: ∞
 
-         __Learn mer om nav i vår [guide]({docs_link}) .__.
+        __Learn mer om nav i vår [guide]({docs_link}) .__.
     revoke:
       invalidCode: '{emoji} Ogiltig inbjudningskod. Se till att du har angett en giltig inbjudningskod.'
       success: '{emoji} bjuda in {inviteCode} återkallad.'
@@ -307,13 +307,13 @@ hub:
       roleSuccess: '{emoji} Loggar av typ `{type}` kommer nu att nämna {role}!'
       channelSuccess: '{emoji} Loggar av typ `{type}` kommer att skickas till {channel} från nu!'
       channelSelect: '#⃣ Välj vilken typ av logg som ska konfigureras.'
-      roleSelect: 🏓 Välj den roll som ska nämnas när en logg utlöses.
+      roleSelect: '🏓 Välj den roll som ska nämnas när en logg utlöses.'
       reportChannelFirst: '{emoji} Ställ in en logskanal först.'
       config:
         title: Konfigurera `{type}` loggar
-        description: |-
-          {arrow} Välj en loggkanal och/eller roll som ska pingas från rullgardinsmenyn nedan. 
-           {arrow} Du kan också inaktivera loggning med hjälp av knappen nedan.
+        description: |
+          {arrow} Välj en loggkanal och/eller roll som ska pingas från rullgardinsmenyn nedan.
+          {arrow} Du kan också inaktivera loggning med hjälp av knappen nedan.
         fields:
           channel: Kanal
           role: Rollnumning
@@ -342,7 +342,7 @@ report:
       input2:
         label: Detaljerad beskrivning (valfritt)
         placeholder: Steg du tog. T.ex. 1. Kör /hjälp 2. Vänta i 5 sekunder ...
-  submitted: Rapport inlämnad. Gå med **[Support Server]({emoji})** för att få uppdateringar om din rapport.
+  submitted: 'Rapport inlämnad. Gå med **[Support Server]({emoji})** för att få uppdateringar om din rapport.'
   bug:
     title: Buggrapport
     affected: Påverkade komponenter
@@ -353,11 +353,11 @@ errors:
   messageNotSentOrExpired: '{emoji} Detta meddelande skickades inte i ett nav, har gått ut, eller så saknar du behörigheter för att utföra denna åtgärd.'
   notYourAction: '{emoji} Tyvärr kan du inte utföra den här åtgärden. Vänligen kör kommandot själv.'
   notMessageAuthor: '{emoji} Du är inte författaren till detta meddelande.'
-  commandError: |-
-    {emoji} Ett fel inträffade vid körning av detta kommando. Det har loggats in på vårt system. Om det här problemet kvarstår, gå med i vår [supportserver]({support_invite}) och rapportera det! 
-     ```JS 
-     {error} 
-     ```
+  commandError: |
+    {emoji} Ett fel inträffade vid körning av detta kommando. Det har loggats in på vårt system. Om det här problemet kvarstår, gå med i vår [supportserver]({support_invite}) och rapportera det!
+    ```JS
+    {error}
+    ```
   mustVote: Vänligen [rösta](https://top.gg/bot/769921109209907241/vote) för att interchat ska använda detta kommando är ditt stöd mycket uppskattat!
   inviteLinks: '{emoji} Annonserar eller marknadsför inte servrar i nätverket. Ställ in en inbjudan i `/Connection` istället!'
   invalidLangCode: '{emoji} Ogiltig språkkod. Se till att du har angett en korrekt [språkkod](https://cloud.google.com/translate/docs/languages).'
