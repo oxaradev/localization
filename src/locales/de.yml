@@ -1,44 +1,44 @@
-rules: |-
-  ### 📜 Austausch -Netzwerkregeln 
+rules: |
+  ### 📜 Austausch -Netzwerkregeln
 
-   1. **Verwenden Sie den gesunden Menschenverstand:** Rücksicht auf andere und ihre Ansichten. Keine Unschärfe, extreme abfällige Sprache oder Aktionen, die den Komfort des Chats stören können. 
-   2. **Kein Spamm oder Überschwemmung:** Vermeiden Sie wiederholte, unsinnige oder übermäßig lange Nachrichten. 
-   3. **Halten Sie private Angelegenheiten privat:** Vermeiden Sie es, persönliche Informationen im gesamten Netzwerk zu teilen. 
-   4. **Keine Belästigung:** Trolling, Beleidigungen oder Belästigungen jeglicher Art werden nicht toleriert. 
-   5. **Kein NSFW/NSFL -Inhalt:** Das Posten eines expliziten NSFW/NSFL -Inhalts führt zu einer sofortigen Blacklist. 
-   6. **Respektieren sensible Themen:** Trivialisieren Sie keine Selbstverletzung, Selbstmord, Gewalt oder andere offensive Themen. 
-   7. **Bedenken hinsichtlich:** Wenn Sie einen Verstoß gegen diese Regeln beobachten, melden Sie sie für weitere Maßnahmen dem entsprechenden Hub -Moderator oder dem Austauschpersonal. 
+  1. **Verwenden Sie den gesunden Menschenverstand:** Rücksicht auf andere und ihre Ansichten. Keine Unschärfe, extreme abfällige Sprache oder Aktionen, die den Komfort des Chats stören können.
+  2. **Kein Spamm oder Überschwemmung:** Vermeiden Sie wiederholte, unsinnige oder übermäßig lange Nachrichten.
+  3. **Halten Sie private Angelegenheiten privat:** Vermeiden Sie es, persönliche Informationen im gesamten Netzwerk zu teilen.
+  4. **Keine Belästigung:** Trolling, Beleidigungen oder Belästigungen jeglicher Art werden nicht toleriert.
+  5. **Kein NSFW/NSFL -Inhalt:** Das Posten eines expliziten NSFW/NSFL -Inhalts führt zu einer sofortigen Blacklist.
+  6. **Respektieren sensible Themen:** Trivialisieren Sie keine Selbstverletzung, Selbstmord, Gewalt oder andere offensive Themen.
+  7. **Bedenken hinsichtlich:** Wenn Sie einen Verstoß gegen diese Regeln beobachten, melden Sie sie für weitere Maßnahmen dem entsprechenden Hub -Moderator oder dem Austauschpersonal.
 
-   Irgendwelche Fragen? Schließen Sie sich unserem [Support Server] bei ({support_invite}).
-vote: |-
-  ## 🗳️ Stimmen Sie für den Austausch und genießen Sie exklusive Vorteile 
-   Ihr Beitrag ist von unschätzbarem Wert, wenn der Austausch von der Position oben an der Spitze erhöht wird. Jede Stimme macht einen erheblichen Unterschied! 
+  Irgendwelche Fragen? Schließen Sie sich unserem [Support Server] bei ({support_invite}).
+vote: |
+  ## 🗳️ Stimmen Sie für den Austausch und genießen Sie exklusive Vorteile
+  Ihr Beitrag ist von unschätzbarem Wert, wenn der Austausch von der Position oben an der Spitze erhöht wird. Jede Stimme macht einen erheblichen Unterschied!
 
-   Als wir uns für Ihre Unterstützung bedankt, sind wir begeistert, Ihnen exklusive Vorteile zu bieten. Indem Sie Ihre Stimme für den Austausch abgeben, werden Sie freigeschaltet: 
+  Als wir uns für Ihre Unterstützung bedankt, sind wir begeistert, Ihnen exklusive Vorteile zu bieten. Indem Sie Ihre Stimme für den Austausch abgeben, werden Sie freigeschaltet:
 
-   - Nachrichten in Hubs bearbeiten 
-   - Nachrichten übersetzen (und vieles mehr unterwegs!) 
+  - Nachrichten in Hubs bearbeiten
+  - Nachrichten übersetzen (und vieles mehr unterwegs!)
 
-   Wir schätzen Ihre unerschütterliche Unterstützung zutiefst. Danke schön! 🙏
+  Wir schätzen Ihre unerschütterliche Unterstützung zutiefst. Danke schön! 🙏
 network:
   accountTooNew: '{emoji} {user} Ihr Konto ist zu neu, um Nachrichten mit dem Austausch zu senden. Bitte versuchen Sie es später erneut.'
   deleteSuccess: '{emoji} Nachricht von {user} wurde aus __**{deleted}/{total}**__ -Server gelöscht.'
   editSuccess: '{emoji} Nachricht von {user} wurde in __**{edited}/{total}**__ -Server bearbeitet.'
-  welcome: |-
-    {user} Willkommen bei **{hub}**! {emoji} 
+  welcome: |
+    {user} Willkommen bei **{hub}**! {emoji}
 
-     Nachrichten, die in {channel} gesendet werden, werden mit anderen Servern gemeinsam genutzt, **Aktivieren müheloser Kommunikation**. Sie können Bilder, GIFs, antworten, reagieren und interagieren mit Nachrichten, wie Sie es normalerweise tun würden. Denken Sie nur daran, persönliche Informationen zu teilen (prüfen Sie, ob Sie {rules_command} für mehr). Bereit ein Springen? Senden Sie Ihre erste Nachricht und schließen Sie sich dem Gespräch an!
+    Nachrichten, die in {channel} gesendet werden, werden mit anderen Servern gemeinsam genutzt, **Aktivieren müheloser Kommunikation**. Sie können Bilder, GIFs, antworten, reagieren und interagieren mit Nachrichten, wie Sie es normalerweise tun würden. Denken Sie nur daran, persönliche Informationen zu teilen (prüfen Sie, ob Sie {rules_command} für mehr). Bereit ein Springen? Senden Sie Ihre erste Nachricht und schließen Sie sich dem Gespräch an!
   nsfw:
     title: NSFW erkannt
     description: Ich habe {predictions} NSFW (nicht sicher für die Arbeit) in Ihrer Nachricht festgestellt. Bitte beachten Sie, dass dies gegen unsere {rules_command} ist und zu einer sofortigen Blacklist führt.
     footer: Bitte beachten Sie, dass KI nicht perfekt ist und Fehler machen kann. Wir entschuldigen uns für etwaige Unannehmlichkeiten.
   onboarding:
     embed:
-      title: 👋 Hey there, willkommen bei {hubName}!
-      description: |-
-        Um die Dinge organisiert zu halten, wird empfohlen, einen separaten Kanal für diesen Hub zu verwenden. Aber keine Sorge, Sie können dies immer später ändern. 
+      title: '👋 Hey there, willkommen bei {hubName}!'
+      description: |
+        Um die Dinge organisiert zu halten, wird empfohlen, einen separaten Kanal für diesen Hub zu verwenden. Aber keine Sorge, Sie können dies immer später ändern.
 
-         **Wie es funktioniert:** Das Austauschnetzwerk ist wie eine magische Brücke, die Kanäle auf verschiedenen Servern verknüpft, die in diesem Hub bei uns sind. Erfahren Sie mehr unter unserem [Handbuch]({docs_link}).
+        **Wie es funktioniert:** Das Austauschnetzwerk ist wie eine magische Brücke, die Kanäle auf verschiedenen Servern verknüpft, die in diesem Hub bei uns sind. Erfahren Sie mehr unter unserem [Handbuch]({docs_link}).
       footer: Austausch -Netzwerk | Version {version}
     inProgress: Es gab bereits einen Versuch, sich einem Hub von {channel} anzuschließen. Bitte stornieren Sie es oder warten Sie, bis es abgeschlossen ist.
 blacklist:
@@ -64,16 +64,16 @@ blacklist:
     alreadyBlacklisted: '{emoji} Dieser Server ist bereits auf die schwarze Liste.'
     unknownError: Fehlgeschlagene Blacklist **{server}**. Fragen Sie bei den Entwicklern nach weiteren Informationen.
   list:
-    user: |-
-      **userId:** {userId} 
-       **Moderator:** {moderator} 
-       **Grund:** {reason} 
-       **läuft ab:** {expires}
-    server: |-
-      **serverid:** {serverId} 
-       **Moderator:** {moderator} 
-       **Grund:** {reason} 
-       **läuft ab:** {expires}
+    user: |
+      **userId:** {userId}
+      **Moderator:** {moderator}
+      **Grund:** {reason}
+      **läuft ab:** {expires}
+    server: |
+      **serverid:** {serverId}
+      **Moderator:** {moderator}
+      **Grund:** {reason}
+      **läuft ab:** {expires}
 msgInfo:
   buttons:
     message: Nachrichteninformationen
@@ -81,62 +81,62 @@ msgInfo:
     user: Benutzerinformation
     report: Bericht
   message:
-    description: |-
-      ## {emoji} Nachrichteninformationen 
+    description: |
+      ## {emoji} Nachrichteninformationen
 
-       **Gesendet von:** 
-       __{author}__ 
+      **Gesendet von:**
+      __{author}__
 
-       **Gesendet von:** 
-       __{server}__ 
+      **Gesendet von:**
+      __{server}__
 
-       **Nachrichten ID:** 
-       __{messageId}__ 
+      **Nachrichten ID:**
+      __{messageId}__
 
-       **gesendet (Hub):** 
-       __{hub}__ 
+      **gesendet (Hub):**
+      __{hub}__
 
-       **Message erstellt:** 
-       {createdAt}
+      **Message erstellt:**
+      {createdAt}
   server:
-    description: |-
-      ## {server} 
-       {description} 
+    description: |
+      ## {server}
+      {description}
 
-       **Eigentümer:** 
-       __{owner}__ 
+      **Eigentümer:**
+      __{owner}__
 
-       **Erstellt:** 
-       __ oder 
+      **Erstellt:**
+      __ oder
 
-       **Mitgliederzahl:** 
-       __{createdAtFull}__ 
+      **Mitgliederzahl:**
+      __{createdAtFull}__
 
-       **Einladen:** 
-       __{createdAt}__
+      **Einladen:**
+      __{createdAt}__
   user:
-    description: |-
-      ## {username} 
-       __{user}__ 
+    description: |
+      ## {username}
+      __{user}__
 
-       **AUSWEIS:** 
-       __{id}__ 
+      **AUSWEIS:**
+      __{id}__
 
-       **Erstellt:** 
-       {createdAtFull} ({createdAt}) 
+      **Erstellt:**
+      {createdAtFull} ({createdAt})
 
-       **Anzeigename:** 
-       __{globalName}__ 
+      **Anzeigename:**
+      __{globalName}__
 
-       **Hubs im Besitz:** 
-       __{hubsOwned}__
+      **Hubs im Besitz:**
+      __{hubsOwned}__
   report:
     notEnabled: '{emoji} Die Berichterstattung ist für diesen Hub nicht aktiviert.'
     success: '{emoji} Bericht erfolgreich eingereicht. Danke schön!'
-invite: |-
-  Vielen Dank, dass Sie sich dafür entschieden haben, den Austausch einzuladen. Klicken Sie einfach auf die Schaltfläche unten, um mich einzuladen! 
+invite: |
+  Vielen Dank, dass Sie sich dafür entschieden haben, den Austausch einzuladen. Klicken Sie einfach auf die Schaltfläche unten, um mich einzuladen!
 
-   - **Support Server:** {support}
+  - **Support Server:** {support}
 connection:
   notFound: '{emoji} Ungültige Verbindung. Überprüfen Sie die Kanal -ID oder wählen Sie aus den angezeigten Optionen.'
   channelNotFound: '{emoji} kann einen vernetzten Kanal nicht finden. Um erneut zu sprechen, wählen Sie einen neuen Kanal.'
@@ -162,7 +162,7 @@ connection:
       profanity: Profanitätsfilter
     footer: Verwenden Sie die unten stehende Schaltfläche und Dropdown, um Ihre Verbindung zu verwalten.
   selects:
-    placeholder: 🛠️ Wählen Sie unten eine Option aus, um Ihre Verbindung zu verwalten.
+    placeholder: '🛠️ Wählen Sie unten eine Option aus, um Ihre Verbindung zu verwalten.'
 hub:
   notFound: '{emoji} kann Hub nicht finden. Bitte stellen Sie sicher, dass Sie den richtigen Hub -Namen eingegeben haben.'
   notFound_mod: '{emoji} kann Hub nicht finden. Bitte stellen Sie sicher, dass Sie den richtigen Hub -Namen eingegeben haben und dass Sie der Eigentümer oder ein Moderator des Hubs sind.'
@@ -175,11 +175,11 @@ hub:
     total: 'Aktuelle verbundene Server: {from}-{to} / **{total}**'
     noConnections: '{emoji} Kein Server hat sich dieser Hub noch angeschlossen. Verwenden Sie `/Hub Join`, um diesem Hub beizutreten.'
     notConnected: '{emoji} Dieser Server ist kein Teil von **{hub}**.'
-    connectionInfo: |-
-      Kanal: #{channelName} `({channelId})` 
-       Verbinden bei: {joinedAt} 
-       Einladung: {invite} 
-       Verbunden: {connected}
+    connectionInfo: |
+      Kanal: #{channelName} `({channelId})`
+      Verbinden bei: {joinedAt}
+      Einladung: {invite}
+      Verbunden: {connected}
   create:
     modal:
       title: Hub erstellen
@@ -198,29 +198,29 @@ hub:
     maxHubs: '{emoji} Sie haben die maximale Anzahl von Hubs erreicht (3) Sie können erstellen. Bitte löschen Sie einen Hub, bevor Sie einen anderen erstellen.'
     invalidName: '{emoji} Ungültiger Hub -Name. Es darf nicht ,  oder  \ `\` `enthalten. Bitte wählen Sie einen anderen Namen.'
     nameTaken: '{emoji} Dieser Hub -Name ist bereits genommen. Bitte wählen Sie einen anderen Namen.'
-    success: |-
-      ### Hub erstellt! 
+    success: |
+      ### Hub erstellt!
 
-       Glückwunsch! Ihr privater Hub, **{name}**, wurde erfolgreich erstellt. 
-       Erstellen Sie eine Einladung mit `/Hub eingeladener Erstellung create` und teilen Sie den generierten Code. Dann beitreten Sie mit `/Hub Join`. 
+      Glückwunsch! Ihr privater Hub, **{name}**, wurde erfolgreich erstellt.
+      Erstellen Sie eine Einladung mit `/Hub eingeladener Erstellung create` und teilen Sie den generierten Code. Dann beitreten Sie mit `/Hub Join`.
 
-       - **Erstellen Sie Einladung:** `/Hub einladung create`` 
-       - **Gehen Sie öffentlich:** `/Hub Manage` 
-       - **Join Hub:** `/Hub Join`` 
-       - **Hub bearbeiten:** `/Hub Manager" 
-       - **Moderatoren hinzufügen:** `/Hub Moderator add` add` 
+      - **Erstellen Sie Einladung:** `/Hub einladung create``
+      - **Gehen Sie öffentlich:** `/Hub Manage`
+      - **Join Hub:** `/Hub Join``
+      - **Hub bearbeiten:** `/Hub Manager"
+      - **Moderatoren hinzufügen:** `/Hub Moderator add` add`
 
-       Erfahren Sie mehr über Hubs in unserem [Handbuch]({docs_link}). Schließen Sie sich für Hilfe mit dem [Support Server]({support_invite}) bei.
+      Erfahren Sie mehr über Hubs in unserem [Handbuch]({docs_link}). Schließen Sie sich für Hilfe mit dem [Support Server]({support_invite}) bei.
   delete:
     confirm: Sind Sie sicher, dass Sie **{hub}** löschen möchten? Diese Aktion ist irreversibel. Alle angeschlossenen Server, Einladungen und Nachrichtendaten werden aus diesem Hub entfernt.
     ownerOnly: '{emoji} Nur der Besitzer dieses Hubs kann es löschen.'
     success: '{emoji} Hub **{hub}** wurde gelöscht.'
     cancelled: '{emoji} Hub -Deletion wurde abgebrochen.'
   browse:
-    joinConfirm: |-
-      Sind Sie sicher, dass Sie {hub} von {channel} beitreten möchten? 
-          
-       **HINWEIS:** Sie können dies immer später mit `/connection` ändern.
+    joinConfirm: |
+      Sind Sie sicher, dass Sie {hub} von {channel} beitreten möchten?
+
+      **HINWEIS:** Sie können dies immer später mit `/connection` ändern.
     joinFooter: Möchten Sie einen anderen Kanal verwenden? Verwenden Sie den Dropdown unten.
     noHubs: '{emoji} Es sind momentan keine Hubs aufgeführt. Bitte versuchen Sie es später noch einmal!'
     rating:
@@ -228,17 +228,17 @@ hub:
       success: Bewertung eingereicht! Danke für Ihre Rückmeldung.
   invite:
     create:
-      success: |-
-        ### Einladung erstellt! 
+      success: |
+        ### Einladung erstellt!
 
-         Ihre Einladung wurde erfolgreich erstellt. Andere können sich jetzt mit dem Befehl {inviteCode} an diesem Hub beitreten. 
+        Ihre Einladung wurde erfolgreich erstellt. Andere können sich jetzt mit dem Befehl {inviteCode} an diesem Hub beitreten.
 
-         - **Join mit:** `/Hub Join Einladung: {expiry}` 
-         - **Ansicht Einladungen:** `/HUB einladen list`` 
-         - **Ablauf:** {docs_link} 
-         - **verwendet**: ∞ 
+        - **Join mit:** `/Hub Join Einladung: {expiry}`
+        - **Ansicht Einladungen:** `/HUB einladen list``
+        - **Ablauf:** {docs_link}
+        - **verwendet**: ∞
 
-         __Learn mehr über Hubs in unserem [Handbuch]() .__.
+        __Learn mehr über Hubs in unserem [Handbuch]() .__.
     revoke:
       invalidCode: '{emoji} Ungültiger Einladungscode. Bitte stellen Sie sicher, dass Sie einen gültigen Einladungscode eingegeben haben.'
       success: '{emoji} invite {inviteCode} Revoked.'
@@ -303,17 +303,17 @@ hub:
         description: Machen Sie diesen Hub öffentlich oder privat.
     logs:
       title: Protokolle konfigurieren
-      reset: oder
+      reset: 'oder'
       roleSuccess: '{emoji} Protokolle vom Typ `{type}` erwähnen nun {role}!'
       channelSuccess: '{emoji} Protokolle vom Typ `{type}` werden ab sofort an {channel} gesendet!'
       channelSelect: '#️⃣ Wählen Sie den zu konfigurierten Protokolltyp aus.'
-      roleSelect: 🏓 Wählen Sie die Rolle aus, wenn ein Protokoll ausgelöst wird.
+      roleSelect: '🏓 Wählen Sie die Rolle aus, wenn ein Protokoll ausgelöst wird.'
       reportChannelFirst: '{emoji} Bitte legen Sie zuerst einen Protokollkanal fest.'
       config:
         title: Konfigurieren Sie `{type}` Protokolle
-        description: |-
-          {arrow} Wählen Sie einen Protokollkanal und/oder eine Rolle aus der Dropdown unten. 
-           {arrow} Sie können die Protokollierung auch mit der folgenden Button deaktivieren.
+        description: |
+          {arrow} Wählen Sie einen Protokollkanal und/oder eine Rolle aus der Dropdown unten.
+          {arrow} Sie können die Protokollierung auch mit der folgenden Button deaktivieren.
         fields:
           channel: Kanal
           role: Rolle Erwähnung
@@ -342,7 +342,7 @@ report:
       input2:
         label: Detaillierte Beschreibung (optional)
         placeholder: Schritte, die Sie unternommen haben. Z.B. 1. Rennen /Hilfe 2. Warten Sie 5 Sekunden ...
-  submitted: Bericht eingereicht. Schließen Sie sich dem **[Support Server]({emoji})** bei, um Aktualisierungen in Ihrem Bericht zu erhalten.
+  submitted: 'Bericht eingereicht. Schließen Sie sich dem **[Support Server]({emoji})** bei, um Aktualisierungen in Ihrem Bericht zu erhalten.'
   bug:
     title: Fehlerbericht
     affected: Betroffene Komponenten
@@ -353,11 +353,11 @@ errors:
   messageNotSentOrExpired: '{emoji} Diese Nachricht wurde nicht in einem Hub gesendet, ist abgelaufen, oder es fehlt Ihnen die Berechtigungen, diese Aktion auszuführen.'
   notYourAction: '{emoji} sorry, Sie können diese Aktion nicht ausführen. Bitte führen Sie den Befehl selbst aus.'
   notMessageAuthor: '{emoji} Sie sind nicht der Autor dieser Nachricht.'
-  commandError: |-
-    {emoji} Es ist ein Fehler beim Ausführen dieses Befehls aufgetreten. Es wurde an unserem System angemeldet. Wenn dieses Problem bestehen bleibt, nehmen Sie bitte an unserem [Support Server]({support_invite}) teil und melden Sie es! 
-     ```js 
-     {error} 
-     ```
+  commandError: |
+    {emoji} Es ist ein Fehler beim Ausführen dieses Befehls aufgetreten. Es wurde an unserem System angemeldet. Wenn dieses Problem bestehen bleibt, nehmen Sie bitte an unserem [Support Server]({support_invite}) teil und melden Sie es!
+    ```js
+    {error}
+    ```
   mustVote: Bitte [Abstimmung](https://top.gg/bot/769921109209907241/vote) für den Austausch, um diesen Befehl zu verwenden. Ihre Unterstützung wird sehr geschätzt!
   inviteLinks: '{emoji} werben oder bewerben Sie Server im Netzwerk nicht. Stellen Sie stattdessen eine Einladung in  ein!'
   invalidLangCode: '{emoji} Ungültiger Sprachcode. Bitte stellen Sie sicher, dass Sie einen korrekten [Sprachcode] eingegeben haben (https://cloud.google.com/translate/docs/glanguages).'
