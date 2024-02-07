@@ -1,7 +1,7 @@
 rules: |
   #### 📜 Règles du réseau InterChat
 
-  1. **Utilisez votre bon sens:** Soyez attentif aux autres et à leurs opinions. Pas d'insultes, de langage extrêmement désobligeant ou d'actions susceptibles de perturber le confort du chat.
+  1. **Utilisez votre bon sens:** Soyez attentif aux autres et à leurs opinions. Pas d'insultes, de langage extrêmement désobligeant ou d'actions susceptibles de perturber le confort la discussion.
   2. **Pas de spamming ni de flooding:** Évitez les messages répétés, absurdes ou trop longs.
   3. **Évitez de partager des informations personnelles sur le réseau.
   4. **Pas de harcèlement:** Le trolling, les insultes ou le harcèlement de quelque nature que ce soit ne sont pas tolérés.
@@ -9,7 +9,7 @@ rules: |
   6. **Respecter les sujets sensibles:** Ne pas banaliser l'automutilation, le suicide, la violence ou d'autres sujets choquants.
   7. **Si vous observez une violation de ces règles, signalez-la au modérateur approprié du hub ou au personnel d'InterChat pour qu'il prenne les mesures qui s'imposent.
 
-  Vous avez des questions ? Rejoignez notre [serveur d'assistance]({support_invite}).
+  Vous avez des questions? Rejoignez notre [serveur d'assistance]({support_invite}).
 vote: |
   ## 🗳️ Votez pour InterChat et profitez d'avantages exclusifs
   Votre contribution est inestimable pour élever la position d'InterChat sur Top.gg. Chaque vote fait la différence !
@@ -39,7 +39,7 @@ network:
         Pour garder les choses organisées, il est recommandé d'utiliser un canal séparé uniquement pour ce hub. Mais ne vous inquiétez pas, vous pouvez toujours changer cela plus tard.
 
         **Le réseau InterChat est comme un pont magique qui relie les canaux sur différents serveurs qui sont avec nous dans ce hub. Pour en savoir plus, consultez notre [guide]({docs_link}).
-      footer: InterChat Network | Version {version}
+      footer: Réseau InterChat | Version {version}
     inProgress: Il y a déjà eu une tentative de rejoindre un hub de {channel}. Veuillez l'annuler ou attendre qu'elle se termine.
 blacklist:
   button:
@@ -65,18 +65,18 @@ blacklist:
     unknownError: Échec de la mise sur liste noire de **{server}**. Renseignez-vous auprès des développeurs pour plus d'informations.
   list:
     user: |
-      **UserID:** {userId}
-      **Moderator:** {moderator}
-      **Reason:** {reason}
-      **Expires:** {expires}
+      **Identifiant utilisateur :** {userId}
+      **Modérateur :** {moderator}
+      **Raison :** {reason}
+      **Expires :** {expires}
     server: |
       **ServerId:** {serverId}
-      **Moderator:** {moderator}
-      **Reason:** {reason}
+      **Modérateur:** {moderator}
+      **Raison:** {reason}
       **Expires:** {expires}
 msgInfo:
   buttons:
-    message: Message Info
+    message: Informations sur le message
     server: Informations sur le serveur
     user: Informations sur l'utilisateur
     report: Rapport
@@ -103,16 +103,16 @@ msgInfo:
       ## {server}
       {description}
 
-      **Owner:**
+      **Propriétaire :**
       __{owner}__
 
-      **Created:**
+      **Créé :**
       __{createdAtFull} ({createdAt})__
 
-      **Member Count:**
+      **Nombre de Membres :**
       __{memberCount}__
 
-      **Invite:**
+      **Invitation :**
       __{invite}__
   user:
     description: |
@@ -153,7 +153,7 @@ connection:
     title: Détails de la connexion
     description: Sélectionnez une option ci-dessous pour gérer votre connexion.
     fields:
-      hub: Hub
+      hub: Centre central
       channel: Chaîne
       invite: Invitation
       connected: Connecté
@@ -187,7 +187,7 @@ hub:
         label: Nom du Hub
         placeholder: Saisissez un nom pour votre concentrateur.
       description:
-        label: Description
+        label: Libellé
         placeholder: Saisissez une description de votre concentrateur.
       icon:
         label: URL de l'icône
@@ -282,7 +282,7 @@ hub:
       changed: La description du hub a été modifiée avec succès.
       modal:
         title: Modifier la description
-        label: Description
+        label: Libellé
         placeholder: Saisissez une description pour ce concentrateur.
       selects:
         label: Modifier la description
