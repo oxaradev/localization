@@ -44,7 +44,7 @@ network:
 blacklist:
   button:
     user: Blacklist -Benutzer
-    server: Blacklist Server
+    server: Server Blacklist
   modal:
     reason:
       label: Grund
@@ -190,7 +190,7 @@ hub:
         label: Beschreibung
         placeholder: Geben Sie eine Beschreibung für Ihren Hub ein.
       icon:
-        label: Icon URL
+        label: Icon-URL
         placeholder: Geben Sie eine Imgur -Bild -URL ein.
       banner:
         label: Banner -URL
@@ -274,7 +274,7 @@ hub:
       changed: Das Hub -Symbol hat sich erfolgreich verändert.
       modal:
         title: Icon ändern
-        label: Icon URL
+        label: Icon-URL
       selects:
         label: Icon ändern
         description: Ändern Sie das Symbol dieses Hubs.
@@ -377,6 +377,6 @@ errors:
 misc:
   noReason: Kein Grund dafür.
   noDesc: Keine Beschreibung.
-  version: InterChat v{version}
+  version: InterChat gegen{version}
   loading: '{emoji} Bitte warten Sie, während ich Ihre Anfrage bearbeite ...'
   reportOptionMoved: '{emoji} Diese Option hat sich bewegt! Um eine Nachricht an Hub -Moderatoren zu melden, verwenden Sie den aktualisierten Befehl `Apps> Nachricht info/report`. Für die direkte Berichterstattung an den Austausch von Mitarbeitern steigen Sie einfach in den [Support Server]({support_invite}) und erstellen Sie ein Ticket mit Nachweis.'
