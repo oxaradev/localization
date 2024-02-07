@@ -22,15 +22,15 @@ vote: |
   Nous apprécions grandement votre soutien indéfectible. Nous vous remercions ! 🙏
 network:
   accountTooNew: '{emoji} {user} Votre compte est trop récent pour envoyer des messages via InterChat. Veuillez réessayer plus tard.'
-  deleteSuccess: '{emoji} Le message de {user} a été supprimé des serveurs __**{deleted}/{total}**__.'
-  editSuccess: '{emoji} Le message de {user} a été édité dans __**{edited}/{total}**__ serveurs.'
+  deleteSuccess: '{emoji} Message de {user} a été supprimé de __**{deleted}/{total}**__ serveurs.'
+  editSuccess: 'Le message de {emoji} {user} a été édité dans __**{edited}/{total}**__ serveurs.'
   welcome: |
     {user} Bienvenue sur **{hub}** ! {emoji}
 
     Les messages envoyés dans {channel} seront partagés avec d'autres serveurs, **permettant une communication sans effort**. Vous pouvez partager des images, des GIF, répondre, réagir et interagir avec les messages comme vous le feriez normalement. N'oubliez pas d'éviter de partager des informations personnelles (consultez {rules_command} pour en savoir plus). Prêt à vous lancer ? Envoyez votre premier message et participez à la conversation !
   nsfw:
     title: NSFW détecté
-    description: J'ai détecté {predictions} un contenu NSFW (Not Safe For Work) dans votre message. Sachez que cela est contraire à nos {rules_command} et que cela entraînera une mise sur liste noire immédiate.
+    description: J'ai détecté dans votre message un contenu {predictions} NSFW (dangereux pour le travail). Sachez que ceci est contraire à nos {rules_command} et entraînera une mise sur liste noire immédiate.
     footer: Veuillez noter que l'IA n'est pas parfaite et qu'elle peut faire des erreurs. Nous vous présentons nos excuses pour les désagréments causés.
   onboarding:
     embed:
@@ -40,7 +40,7 @@ network:
 
         **Le réseau InterChat est comme un pont magique qui relie les canaux sur différents serveurs qui sont avec nous dans ce hub. Pour en savoir plus, consultez notre [guide]({docs_link}).
       footer: Réseau InterChat | Version {version}
-    inProgress: Il y a déjà eu une tentative de rejoindre un hub de {channel}. Veuillez l'annuler ou attendre qu'elle se termine.
+    inProgress: Il y a déjà eu une tentative de rejoindre un hub à partir de {channel}. Veuillez l’annuler ou attendre qu’elle se termine.
 blacklist:
   button:
     user: Liste noire d'utilisateurs
