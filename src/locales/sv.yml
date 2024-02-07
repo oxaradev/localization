@@ -39,7 +39,7 @@ network:
         För att hålla saker organiserade rekommenderas det att använda en separat kanal för bara för detta nav. Men oroa dig inte, du kan alltid ändra detta senare.
 
         **Hur det fungerar:** InterChat -nätverket är som en magisk bro som länkar kanaler på olika servrar som är med oss i detta nav. Lär dig mer på vår [guide]({docs_link}).
-      footer: InterChat Network | Version {version}
+      footer: InterChat Network <unk> Version {version}
     inProgress: Det har redan varit ett försök att gå med i ett nav från {channel}. Avbryt den eller vänta på att den ska slutföras.
 blacklist:
   button:
