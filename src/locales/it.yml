@@ -193,7 +193,7 @@ hub:
         label: Icona URL
         placeholder: Immettere un URL di immagine imgur.
       banner:
-        label: Banner URL
+        label: Url Banner
         placeholder: Immettere un URL di immagine imgur.
     maxHubs: '{emoji} hai raggiunto il numero massimo di hub (3) È possibile creare. Si prega di eliminare un hub prima di crearne un altro.'
     invalidName: '{emoji} Nome hub non valido. Non deve contenere `Discord`,` Clyde` o \ `\` \ `. Scegli un altro nome.'
@@ -292,7 +292,7 @@ hub:
       removed: Banner hub rimosso con successo.
       modal:
         title: Cambia banner
-        label: Banner URL
+        label: Url Banner
       selects:
         label: Cambia banner
         description: Cambia lo stendardo di questo hub.
