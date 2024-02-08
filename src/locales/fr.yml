@@ -153,7 +153,7 @@ connection:
     title: Détails de la connexion
     description: Sélectionnez une option ci-dessous pour gérer votre connexion.
     fields:
-      hub: InterChat Central
+      hub: Hub
       channel: Chaîne
       invite: Invitation
       connected: Connecté
