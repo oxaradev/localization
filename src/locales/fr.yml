@@ -23,7 +23,7 @@ vote: |
 network:
   accountTooNew: '{emoji} {user} Votre compte est trop récent pour envoyer des messages via InterChat. Veuillez réessayer plus tard.'
   deleteSuccess: '{emoji} Message de {user} a été supprimé de __**{deleted}/{total}**__ serveurs.'
-  editSuccess: '{emoji} Le message de {user} a été édité dans __**{edited}/{total}**__ serveurs.'
+  editSuccess: 'Le message de {emoji} {user} a été édité dans __**{edited}/{total}**__ serveurs.'
   welcome: |
     {user} Bienvenue sur **{hub}** ! {emoji}
 
@@ -31,7 +31,7 @@ network:
   nsfw:
     title: NSFW détecté
     description: J'ai détecté dans votre message un contenu {predictions} NSFW (dangereux pour le travail). Sachez que ceci est contraire à nos {rules_command} et entraînera une mise sur liste noire immédiate.
-    footer: "Veuillez noter que l'IA n'est pas parfaite et qu'elle peut faire des erreurs. Nous vous présentons nos excuses pour les désagréments causés."
+    footer: Veuillez noter que l'IA n'est pas parfaite et qu'elle peut faire des erreurs. Nous vous présentons nos excuses pour les désagréments causés.
   onboarding:
     embed:
       title: '👋 Bonjour, bienvenue sur {hubName} !'
@@ -153,7 +153,7 @@ connection:
     title: Détails de la connexion
     description: Sélectionnez une option ci-dessous pour gérer votre connexion.
     fields:
-      hub: Hub
+      hub: Centre central
       channel: Chaîne
       invite: Invitation
       connected: Connecté
