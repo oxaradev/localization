@@ -235,7 +235,7 @@ hub:
 
         - **Join using:** `/hub join invite:{inviteCode}`
         - **View invites:** `/hub invite list`
-        - **Expiry :** {expiry}
+        - **Expiry:** {expiry}
         - **Uses**: ∞
 
         __Learn more about hubs in our [guide]({docs_link}).__.
@@ -373,7 +373,7 @@ errors:
   botMissingPermissions: '{emoji} Please grant me the following permissions to continue: **{permissions}**'
   unknown: '{emoji} An unknown error occurred. Please try again later or contact us by joining our [support server]({support_invite}).'
   notUsable: '{emoji} This is no longer usable.'
-  cooldown: '{emoji} You are on cooldown. Please wait **{time}** before attempting again.'
+  cooldown: '{emoji} You are on cooldown. Please wait until **{time}** before attempting again.'
 misc:
   noReason: No reason provided.
   noDesc: No Description.
