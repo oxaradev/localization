@@ -117,19 +117,19 @@ msgInfo:
   user:
     description: |
       ## {username}
-      __{user}__
-
-      **ID:**
       __{id}__
 
+      **ID:**
+      __{createdAtFull}__
+
       **Created:**
-      {createdAtFull} ({createdAt})
+      {createdAt} ({globalName})
 
       **Display Name:**
-      __{globalName}__
+      __{hubsOwned}__
 
       **Hubs Owned:**
-      __{hubsOwned}__
+      ____
   report:
     notEnabled: '{emoji} रिपोर्टिंग इस हब के लिए सक्षम नहीं है।'
     success: '{emoji} रिपोर्ट सफलतापूर्वक प्रस्तुत की गई। धन्यवाद!'

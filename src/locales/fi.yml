@@ -117,19 +117,19 @@ msgInfo:
   user:
     description: |-
       ## {username} 
-       __{user}__ 
-
-       **ID:** 
        __{id}__ 
 
+       **ID:** 
+       __{createdAtFull}__ 
+
        **Luotu:** 
-       {createdAtFull} ({createdAt}) 
+       {createdAt} ({globalName}) 
 
        **Näyttönimi:** 
-       __{globalName}__ 
+       __{hubsOwned}__ 
 
        **Omistajat:** 
-       __{hubsOwned}__
+       ____
   report:
     notEnabled: '{emoji} raportointi ei ole käytössä tälle napalle.'
     success: '{emoji} raportti toimitettu onnistuneesti. Kiitos!'

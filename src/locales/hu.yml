@@ -117,19 +117,19 @@ msgInfo:
   user:
     description: |-
       ## {username} 
-       __{user}__ 
-
-       **ID:** 
        __{id}__ 
 
+       **ID:** 
+       __{createdAtFull}__ 
+
        **Létrehozott:** 
-       {createdAtFull} ({createdAt}) 
+       {createdAt} ({globalName}) 
 
        **Megjelenítendő név:** 
-       __{globalName}__ 
+       __{hubsOwned}__ 
 
        **Hubs tulajdonában van:** 
-       __{hubsOwned}__
+       ____
   report:
     notEnabled: '{emoji} A jelentést nem engedélyezve ehhez a hubhoz.'
     success: '{emoji} jelentés sikeresen benyújtva. Köszönöm!'

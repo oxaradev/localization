@@ -117,19 +117,19 @@ msgInfo:
   user:
     description: |-
       ## {username} 
-       __{user}__ 
-
-       **id:** 
        __{id}__ 
 
+       **id:** 
+       __{createdAtFull}__ 
+
        **สร้าง:** 
-       {createdAtFull} ({createdAt}) 
+       {createdAt} ({globalName}) 
 
        **ชื่อที่แสดง:** 
-       __{globalName}__ 
+       __{hubsOwned}__ 
 
        **เป็นเจ้าของฮับ:** 
-       __{hubsOwned}__
+       ____
   report:
     notEnabled: '{emoji} การรายงานไม่ได้เปิดใช้งานสำหรับฮับนี้'
     success: '{emoji} รายงานส่งสำเร็จ ขอบคุณ!'

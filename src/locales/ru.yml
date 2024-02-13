@@ -117,19 +117,19 @@ msgInfo:
   user:
     description: |
       ## {username}
-      __{user}__
-
-      **ID:**
       __{id}__
 
+      **ID:**
+      __{createdAtFull}__
+
       **Создано:**
-      {createdAtFull} ({createdAt})
+      {createdAt} ({globalName})
 
       **Отображаемое имя:**
-      __{globalName}__.
+      __{hubsOwned}__.
 
       **Hubs Owned:**
-      __{hubsOwned}__
+      ____
   report:
     notEnabled: '{emoji} Отчетность не включена для этого хаба.'
     success: '{emoji} Отчет успешно отправлен. Спасибо!'

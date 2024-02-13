@@ -117,19 +117,19 @@ msgInfo:
   user:
     description: |-
       ## {username} 
-       __{user}__ 
-
-       **NHẬN DẠNG:** 
        __{id}__ 
 
+       **NHẬN DẠNG:** 
+       __{createdAtFull}__ 
+
        **Tạo:** 
-       {createdAtFull} ({createdAt}) 
+       {createdAt} ({globalName}) 
 
        **Tên hiển thị:** 
-       __{globalName}__ 
+       __{hubsOwned}__ 
 
        **HUBS thuộc sở hữu:** 
-       __{hubsOwned}__
+       ____
   report:
     notEnabled: '{emoji} Báo cáo không được bật cho trung tâm này.'
     success: '{emoji} Báo cáo đã gửi thành công. Cảm ơn!'

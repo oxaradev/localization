@@ -117,19 +117,19 @@ msgInfo:
   user:
     description: |-
       ## {username} 
-       __{user}__ 
-
-       **ID:** 
        __{id}__ 
 
+       **ID:** 
+       __{createdAtFull}__ 
+
        **Vytvořeno:** 
-       {createdAtFull} ({createdAt}) 
+       {createdAt} ({globalName}) 
 
        **Zobrazit název:** 
-       __{globalName}__ 
+       __{hubsOwned}__ 
 
        **Vlastníky Hubs:** 
-       __{hubsOwned}__
+       ____
   report:
     notEnabled: '{emoji} Reporting není povoleno pro tento rozbočovač.'
     success: '{emoji} zpráva předložená úspěšně. Děkuji!'

@@ -117,19 +117,19 @@ msgInfo:
   user:
     description: |-
       ## {username} 
-       __{user}__ 
-
-       **ДОКУМЕНТ ЗА САМОЛИЧНОСТ:** 
        __{id}__ 
 
+       **ДОКУМЕНТ ЗА САМОЛИЧНОСТ:** 
+       __{createdAtFull}__ 
+
        **Създаден:** 
-       {createdAtFull} ({createdAt}) 
+       {createdAt} ({globalName}) 
 
        **Име на дисплея:** 
-       __{globalName}__ 
+       __{hubsOwned}__ 
 
        **Собственици на хъбове:** 
-       __{hubsOwned}__
+       ____
   report:
     notEnabled: '{emoji} Отчитането не е активирано за този хъб.'
     success: '{emoji} Докладът е изпратен успешно. Благодаря ти!'

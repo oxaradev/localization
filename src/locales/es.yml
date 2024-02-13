@@ -117,19 +117,19 @@ msgInfo:
   user:
     description: |-
       ## {username} 
-       __{user}__ 
-
-       **Identificador:** 
        __{id}__ 
 
+       **Identificador:** 
+       __{createdAtFull}__ 
+
        **Creado:** 
-       {createdAtFull} ({createdAt}) 
+       {createdAt} ({globalName}) 
 
        **Nombre:** 
-       __{globalName}__ 
+       __{hubsOwned}__ 
 
        **Centros en propiedad:** 
-       __{hubsOwned}__
+       ____
   report:
     notEnabled: '{emoji} Este centro no tiene habilitado la acción de reportar.'
     success: '{emoji} Reporte enviado correctamente. ¡Gracias!'

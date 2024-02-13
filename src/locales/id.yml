@@ -117,19 +117,19 @@ msgInfo:
   user:
     description: |-
       ## {username} 
-       __{user}__ 
-
-       **PENGENAL:** 
        __{id}__ 
 
+       **PENGENAL:** 
+       __{createdAtFull}__ 
+
        **dibuat:** 
-       {createdAtFull} ({createdAt}) 
+       {createdAt} ({globalName}) 
 
        **Nama tampilan:** 
-       __{globalName}__ 
+       __{hubsOwned}__ 
 
        **Hub yang dimiliki:** 
-       __{hubsOwned}__
+       ____
   report:
     notEnabled: '{emoji} pelaporan tidak diaktifkan untuk hub ini.'
     success: '{emoji} Laporan disampaikan dengan sukses. Terima kasih!'

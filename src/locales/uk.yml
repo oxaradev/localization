@@ -117,19 +117,19 @@ msgInfo:
   user:
     description: |-
       ## {username} 
-       __{user}__ 
-
-       **id:** 
        __{id}__ 
 
+       **id:** 
+       __{createdAtFull}__ 
+
        **Створено:** 
-       {createdAtFull} ({createdAt}) 
+       {createdAt} ({globalName}) 
 
        **Назва відображення:** 
-       __{globalName}__ 
+       __{hubsOwned}__ 
 
        **Володіють маточиками:** 
-       __{hubsOwned}__
+       ____
   report:
     notEnabled: '{emoji} звітування не ввімкнено для цього центру.'
     success: '{emoji} звіт, поданий успішно. Дякую тобі!'

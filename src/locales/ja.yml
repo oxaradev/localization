@@ -117,19 +117,19 @@ msgInfo:
   user:
     description: |-
       ## {username} 
-       __{user}__ 
-
-       **ID：** 
        __{id}__ 
 
+       **ID：** 
+       __{createdAtFull}__ 
+
        **作成した：** 
-       {createdAtFull}（{createdAt}） 
+       {createdAt}（{globalName}） 
 
        **表示名：** 
-       __{globalName}__ 
+       __{hubsOwned}__ 
 
        **所有者：** 
-       __{hubsOwned}__
+       ____
   report:
     notEnabled: '{emoji}このハブのレポートは有効になりません。'
     success: '{emoji}レポートが正常に送信されました。 ありがとう！'

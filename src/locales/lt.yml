@@ -117,19 +117,19 @@ msgInfo:
   user:
     description: |-
       ## {username} 
-       __{user}__ 
-
-       **ID:** 
        __{id}__ 
 
+       **ID:** 
+       __{createdAtFull}__ 
+
        **Sukurtas:** 
-       {createdAtFull} ({createdAt}) 
+       {createdAt} ({globalName}) 
 
        **Rodomas pavadinimas:** 
-       __{globalName}__ __ 
+       __{hubsOwned}__ __ 
 
        **Hubai priklauso:** 
-       __{hubsOwned}__
+       ____
   report:
     notEnabled: '{emoji} ataskaitų teikimas neįgalintas šiam stebulei.'
     success: '{emoji} ataskaita, sėkmingai pateikta. Ačiū!'

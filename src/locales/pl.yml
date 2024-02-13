@@ -117,19 +117,19 @@ msgInfo:
   user:
     description: |-
       ## {username} 
-       __{user}__ 
-
-       **ID:** 
        __{id}__ 
 
+       **ID:** 
+       __{createdAtFull}__ 
+
        **Utworzony:** 
-       {createdAtFull} ({createdAt}) 
+       {createdAt} ({globalName}) 
 
        **Wyświetlana nazwa:** 
-       __{globalName}__ __ 
+       __{hubsOwned}__ __ 
 
        **Huby posiadane:** 
-       __{hubsOwned}__
+       ____
   report:
     notEnabled: '{emoji} nie jest włączone dla tego hubu.'
     success: '{emoji} pomyślnie przesłany. Dziękuję!'

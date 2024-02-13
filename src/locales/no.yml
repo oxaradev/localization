@@ -117,19 +117,19 @@ msgInfo:
   user:
     description: |-
       ## {username} 
-       __{user}__ 
+       __{id}__ 
 
        **ID:** 
-       __{id}__ 
+       __{createdAtFull}__ 
 
        **Opprettet:** 
        ° 
 
        **visningsnavn:** 
-       __{createdAtFull}__ 
+       __{createdAt}__ 
 
        **Hubs eid:** 
-       __{createdAt}__
+       __{globalName}__
   report:
     notEnabled: '{emoji} Rapportering er ikke aktivert for dette navet.'
     success: '{emoji} rapport sendt inn vellykket. Takk skal du ha!'

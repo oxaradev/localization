@@ -117,19 +117,19 @@ msgInfo:
   user:
     description: |
       ## {username}
-      __{user}
+      __{id}
 
       **ID:**
-      __{id}__
+      __{createdAtFull}__
 
       **Oluşturuldu:**
-      {createdAtFull} ({createdAt})
+      {createdAt} ({globalName})
 
       **Görüntü Adı:**
-      __{globalName}
+      __{hubsOwned}
 
       **Sahip Olunan Hublar:**
-      __{hubsOwned}__
+      ____
   report:
     notEnabled: '{emoji} Bu hub için raporlama etkinleştirilmemiştir.'
     success: '{emoji} Rapor başarıyla gönderildi. Teşekkürler!'

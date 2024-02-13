@@ -117,19 +117,19 @@ msgInfo:
   user:
     description: |-
       ## {username} 
-       __{user}__ 
-
-       **ID:** 
        __{id}__ 
 
+       **ID:** 
+       __{createdAtFull}__ 
+
        **Skapad:** 
-       {createdAtFull} ({createdAt}) 
+       {createdAt} ({globalName}) 
 
        **Visa namn:** 
-       __{globalName}__ 
+       __{hubsOwned}__ 
 
        **Hubs ägs:** 
-       __{hubsOwned}__
+       ____
   report:
     notEnabled: '{emoji} Rapportering är inte aktiverad för detta nav.'
     success: '{emoji} Rapport skickas framgångsrikt. Tack!'

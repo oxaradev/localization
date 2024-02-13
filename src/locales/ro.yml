@@ -117,19 +117,19 @@ msgInfo:
   user:
     description: |-
       ## {username} 
-       __{user}__ 
-
-       **ID:** 
        __{id}__ 
 
+       **ID:** 
+       __{createdAtFull}__ 
+
        **Creată:** 
-       {createdAtFull} ({createdAt}) 
+       {createdAt} ({globalName}) 
 
        **Numele de afișare:** 
-       __{globalName}__ 
+       __{hubsOwned}__ 
 
        **Hub -uri deținute:** 
-       __{hubsOwned}__
+       ____
   report:
     notEnabled: '{emoji} Raportarea nu este activată pentru acest hub.'
     success: '{emoji} Raport prezentat cu succes. Mulțumesc!'

@@ -117,19 +117,19 @@ msgInfo:
   user:
     description: |-
       ## {username} 
-       __{user}__ 
-
-       **ID KAART:** 
        __{id}__ 
 
+       **ID KAART:** 
+       __{createdAtFull}__ 
+
        **gemaakt:** 
-       {createdAtFull} ({createdAt})) 
+       {createdAt} ({globalName})) 
 
        **Weergavenaam:** 
-       __{globalName}__ 
+       __{hubsOwned}__ 
 
        **hubs bezit:** 
-       __{hubsOwned}__
+       ____
   report:
     notEnabled: '{emoji} Reporting is niet ingeschakeld voor deze hub.'
     success: '{emoji} rapport met succes ingediend. Bedankt!'

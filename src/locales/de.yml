@@ -117,19 +117,19 @@ msgInfo:
   user:
     description: |-
       ## {username} 
-       __{user}__ 
-
-       **AUSWEIS:** 
        __{id}__ 
 
+       **AUSWEIS:** 
+       __{createdAtFull}__ 
+
        **Erstellt:** 
-       {createdAtFull} ({createdAt}) 
+       {createdAt} ({globalName}) 
 
        **Anzeigename:** 
-       __{globalName}__ 
+       __{hubsOwned}__ 
 
        **Hubs im Besitz:** 
-       __{hubsOwned}__
+       ____
   report:
     notEnabled: '{emoji} Die Berichterstattung ist für diesen Hub nicht aktiviert.'
     success: '{emoji} Bericht erfolgreich eingereicht. Danke schön!'

@@ -117,19 +117,19 @@ msgInfo:
   user:
     description: |-
       ＃＃ {username} 
-       __{user}__ 
-
-       **ID：** 
        __{id}__ 
 
+       **ID：** 
+       __{createdAtFull}__ 
+
        **创建：** 
-       {createdAtFull}（{createdAt}） 
+       {createdAt}（{globalName}） 
 
        **显示名称：** 
-       __{globalName}__ 
+       __{hubsOwned}__ 
 
        **Hubs拥有：** 
-       __{hubsOwned}__
+       ____
   report:
     notEnabled: '{emoji}该集线器未启用报告。'
     success: '{emoji}报告成功提交。 谢谢你！'

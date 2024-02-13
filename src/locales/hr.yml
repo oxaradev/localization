@@ -117,19 +117,19 @@ msgInfo:
   user:
     description: |-
       ## {username} 
-       __{user}__ 
-
-       **ISKAZNICA:** 
        __{id}__ 
 
+       **ISKAZNICA:** 
+       __{createdAtFull}__ 
+
        **stvoreno:** 
-       {createdAtFull} ({createdAt}) 
+       {createdAt} ({globalName}) 
 
        **Naziv prikaza:** 
-       __{globalName}__ 
+       __{hubsOwned}__ 
 
        **U vlasništvu glavčine:** 
-       __{hubsOwned}__
+       ____
   report:
     notEnabled: '{emoji} Izvještavanje nije omogućeno za ovo središte.'
     success: '{emoji} Izvještaj je uspješno podnio. Hvala vam!'

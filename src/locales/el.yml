@@ -117,19 +117,19 @@ msgInfo:
   user:
     description: |-
       ## {username} 
-       __{user}__ 
-
-       **ΤΑΥΤΟΤΗΤΑ:** 
        __{id}__ 
 
+       **ΤΑΥΤΟΤΗΤΑ:** 
+       __{createdAtFull}__ 
+
        **Δημιουργήθηκε:** 
-       {createdAtFull} ({createdAt}) 
+       {createdAt} ({globalName}) 
 
        **Όνομα οθόνης:** 
-       __{globalName}__ 
+       __{hubsOwned}__ 
 
        **Hubs ανήκει:** 
-       __{hubsOwned}__
+       ____
   report:
     notEnabled: '{emoji} Η αναφορά δεν είναι ενεργοποιημένη για αυτόν τον κόμβο.'
     success: '{emoji} αναφορά υποβλήθηκε με επιτυχία. Ευχαριστώ!'

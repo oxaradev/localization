@@ -117,19 +117,19 @@ msgInfo:
   user:
     description: |
       ## {username}
-      __{user}__
-
-      **ID:**
       __{id}__
 
+      **ID:**
+      __{createdAtFull}__
+
       **Created:**
-      {createdAtFull} ({createdAt})
+      {createdAt} ({globalName})
 
       **표시 이름:**
-      __{globalName}__
+      __{hubsOwned}__
 
       **소유 허브:**
-      __{hubsOwned}__
+      ____
   report:
     notEnabled: '{emoji} 이 허브에는 보고 기능이 활성화되어 있지 않습니다.'
     success: '{emoji} 보고서가 성공적으로 제출되었습니다. 감사합니다!'

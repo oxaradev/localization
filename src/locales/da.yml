@@ -117,19 +117,19 @@ msgInfo:
   user:
     description: |-
       ## {username} 
-       __{user}__ 
-
-       **ID:** 
        __{id}__ 
 
+       **ID:** 
+       __{createdAtFull}__ 
+
        **Oprettet:** 
-       {createdAtFull} ({createdAt}) 
+       {createdAt} ({globalName}) 
 
        **Visnavn:** 
-       __{globalName}__ 
+       __{hubsOwned}__ 
 
        **Hubs ejet:** 
-       __{hubsOwned}__
+       ____
   report:
     notEnabled: '{emoji} rapportering er ikke aktiveret til dette knudepunkt.'
     success: '{emoji} rapport indsendt med succes. Tak skal du have!'

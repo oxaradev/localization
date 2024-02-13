@@ -117,19 +117,19 @@ msgInfo:
   user:
     description: |-
       ## {username} 
-       __{user}__ 
-
-       **ID:** 
        __{id}__ 
 
+       **ID:** 
+       __{createdAtFull}__ 
+
        **Creato:** 
-       {createdAtFull} ({createdAt}) 
+       {createdAt} ({globalName}) 
 
        **Nome da visualizzare:** 
-       __{globalName}__ 
+       __{hubsOwned}__ 
 
        **Hub di proprietà:** 
-       __{hubsOwned}__
+       ____
   report:
     notEnabled: '{emoji} Reporting non è abilitato per questo hub.'
     success: '{emoji} Rapporto inviato correttamente. Grazie!'
