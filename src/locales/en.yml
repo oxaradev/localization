@@ -28,9 +28,8 @@ network:
     {emoji} {user} Welcome to the **{hub}** hub! Your message has been shared to **{totalServers}** other servers! 
 
     This channel, {channel} has been setup so you can chat with people from other servers! You can share images, GIFs, add reactions, edit messages, and more. Become more proficient at using InterChat by checking out our simple [guide](https://docs.interchat.fun/messaging )! 
-    
-    *Note: Never share any personal information and follow the {rules_command}. Remember, what you share here is your responsibility. Have a great time! 🚀*
 
+    *Note: Never share any personal information and follow the {rules_command}. Remember, what you share here is your responsibility. Have a great time! 🚀*
   nsfw:
     title: NSFW Detected
     description: I have detected {predictions} NSFW (Not Safe For Work) content in your message. Please be aware that this is against our {rules_command} and will result in immediate blacklist.

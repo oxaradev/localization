@@ -25,9 +25,9 @@ network:
   deleteSuccess: '{emoji} zpráva od {user} byla odstraněna z __**{deleted}/{total}**__ servery.'
   editSuccess: '{emoji} zpráva od {user} byla upravena v __**{edited}/{total}**__ servery.'
   welcome: |-
-    {user} Vítejte na **{hub}**! {emoji} 
+    {emoji} Vítejte na **{user}**! {hub} 
 
-     Zprávy odeslané v {channel} budou sdíleny s jinými servery, **Povolení komunikace bez námahy**. Můžete sdílet obrázky, GIF, odpověď, reagovat a komunikovat se zprávami, jak byste normálně. Just remember to avoid sharing personal info (check {rules_command} for more). Jste připraveni skočit? Zašlete svou první zprávu a připojte se k konverzaci!
+     Zprávy odeslané v {totalServers} budou sdíleny s jinými servery, **Povolení komunikace bez námahy**. Můžete sdílet obrázky, GIF, odpověď, reagovat a komunikovat se zprávami, jak byste normálně. Just remember to avoid sharing personal info (check {channel} for more). Jste připraveni skočit? Zašlete svou první zprávu a připojte se k konverzaci!
   nsfw:
     title: Detekováno NSFW
     description: Detekoval jsem ve vaší zprávě obsah {predictions} nsfw (ne bezpečný pro práci). Please be aware that this is against our {rules_command} and will result in immediate blacklist.

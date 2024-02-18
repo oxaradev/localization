@@ -25,9 +25,9 @@ network:
   deleteSuccess: '{emoji} Nachricht von {user} wurde aus __**{deleted}/{total}**__ -Server gelöscht.'
   editSuccess: '{emoji} Nachricht von {user} wurde in __**{edited}/{total}**__ -Server bearbeitet.'
   welcome: |-
-    {user} Willkommen bei **{hub}**! {emoji} 
+    {emoji} Willkommen bei **{user}**! {hub} 
 
-     Nachrichten, die in {channel} gesendet werden, werden mit anderen Servern gemeinsam genutzt, **Aktivieren müheloser Kommunikation**. Sie können Bilder, GIFs, antworten, reagieren und interagieren mit Nachrichten, wie Sie es normalerweise tun würden. Denken Sie nur daran, persönliche Informationen zu teilen (prüfen Sie, ob Sie {rules_command} für mehr). Bereit ein Springen? Senden Sie Ihre erste Nachricht und schließen Sie sich dem Gespräch an!
+     Nachrichten, die in {totalServers} gesendet werden, werden mit anderen Servern gemeinsam genutzt, **Aktivieren müheloser Kommunikation**. Sie können Bilder, GIFs, antworten, reagieren und interagieren mit Nachrichten, wie Sie es normalerweise tun würden. Denken Sie nur daran, persönliche Informationen zu teilen (prüfen Sie, ob Sie {channel} für mehr). Bereit ein Springen? Senden Sie Ihre erste Nachricht und schließen Sie sich dem Gespräch an!
   nsfw:
     title: NSFW erkannt
     description: Ich habe {predictions} NSFW (nicht sicher für die Arbeit) in Ihrer Nachricht festgestellt. Bitte beachten Sie, dass dies gegen unsere {rules_command} ist und zu einer sofortigen Blacklist führt.

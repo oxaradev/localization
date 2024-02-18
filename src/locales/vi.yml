@@ -25,9 +25,9 @@ network:
   deleteSuccess: '{emoji} tin nhắn bởi {user} đã bị xóa khỏi __**{deleted}/{total}**__ máy chủ.'
   editSuccess: '{emoji} tin nhắn bởi {user} đã được chỉnh sửa trong __**{edited}/{total}**__ máy chủ.'
   welcome: |-
-    {user} Chào mừng bạn đến **{hub}**! {emoji} 
+    {emoji} Chào mừng bạn đến **{user}**! {hub} 
 
-     Tin nhắn được gửi trong {channel} sẽ được chia sẻ với các máy chủ khác, **kích hoạt giao tiếp dễ dàng**. Bạn có thể chia sẻ hình ảnh, GIF, trả lời, phản ứng và tương tác với các tin nhắn như bình thường. Chỉ cần nhớ để tránh chia sẻ thông tin cá nhân (kiểm tra {rules_command} để biết thêm). Sẵn sàng để nhảy vào? Gửi tin nhắn đầu tiên của bạn và tham gia cuộc trò chuyện!
+     Tin nhắn được gửi trong {totalServers} sẽ được chia sẻ với các máy chủ khác, **kích hoạt giao tiếp dễ dàng**. Bạn có thể chia sẻ hình ảnh, GIF, trả lời, phản ứng và tương tác với các tin nhắn như bình thường. Chỉ cần nhớ để tránh chia sẻ thông tin cá nhân (kiểm tra {channel} để biết thêm). Sẵn sàng để nhảy vào? Gửi tin nhắn đầu tiên của bạn và tham gia cuộc trò chuyện!
   nsfw:
     title: NSFW được phát hiện
     description: Tôi đã phát hiện {predictions} NSFW (không an toàn cho công việc) trong tin nhắn của bạn. Xin lưu ý rằng điều này là chống lại {rules_command} của chúng tôi và sẽ dẫn đến danh sách đen ngay lập tức.

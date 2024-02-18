@@ -25,9 +25,9 @@ network:
   deleteSuccess: '{emoji} Bericht door {user} is verwijderd uit __**{deleted}/{total}**__ servers.'
   editSuccess: '{emoji} Bericht door {user} is bewerkt in __**{edited}/{total}**__ servers.'
   welcome: |-
-    {user} Welkom bij **{hub}**! {emoji} 
+    {emoji} Welkom bij **{user}**! {hub} 
 
-     Berichten verzonden in {channel} worden gedeeld met andere servers, **waardoor moeiteloos communicatie wordt ingeschakeld**. U kunt afbeeldingen, GIF's, antwoorden, reageren en reageren met berichten delen zoals u normaal zou doen. Vergeet niet om het delen van persoonlijke info te vermijden (check {rules_command} voor meer). Klaar om erin te springen? Stuur uw eerste bericht en deel lid van het gesprek!
+     Berichten verzonden in {totalServers} worden gedeeld met andere servers, **waardoor moeiteloos communicatie wordt ingeschakeld**. U kunt afbeeldingen, GIF's, antwoorden, reageren en reageren met berichten delen zoals u normaal zou doen. Vergeet niet om het delen van persoonlijke info te vermijden (check {channel} voor meer). Klaar om erin te springen? Stuur uw eerste bericht en deel lid van het gesprek!
   nsfw:
     title: NSFW gedetecteerd
     description: Ik heb {predictions} nsfw (niet veilig voor werk) in uw bericht gedetecteerd. Houd er rekening mee dat dit tegen onze {rules_command} is en zal resulteren in onmiddellijke zwarte lijst.

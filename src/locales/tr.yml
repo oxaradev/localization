@@ -25,9 +25,9 @@ network:
   deleteSuccess: '{emoji} {user} tarafından gönderilen mesaj __**{deleted}/{total}**__ sunucularından silindi.'
   editSuccess: '{emoji} {user} tarafından yazılan mesaj __**{edited}/{total}**__ sunucularında düzenlendi.'
   welcome: |
-    {user} Hoş geldiniz **{hub}**! {emoji}
+    {emoji} Hoş geldiniz **{user}**! {hub}
 
-    {channel}'da gönderilen mesajlar diğer sunucularla paylaşılacak ve **zahmetsiz iletişimi mümkün kılacaktır**. Normalde yaptığınız gibi resimler, GIF'ler paylaşabilir, yanıtlayabilir, tepki verebilir ve mesajlarla etkileşime girebilirsiniz. Sadece kişisel bilgilerinizi paylaşmaktan kaçının (daha fazlası için {rules_command} adresini kontrol edin). Atlamaya hazır mısınız? İlk mesajınızı gönderin ve sohbete katılın!
+    {totalServers}'da gönderilen mesajlar diğer sunucularla paylaşılacak ve **zahmetsiz iletişimi mümkün kılacaktır**. Normalde yaptığınız gibi resimler, GIF'ler paylaşabilir, yanıtlayabilir, tepki verebilir ve mesajlarla etkileşime girebilirsiniz. Sadece kişisel bilgilerinizi paylaşmaktan kaçının (daha fazlası için {channel} adresini kontrol edin). Atlamaya hazır mısınız? İlk mesajınızı gönderin ve sohbete katılın!
   nsfw:
     title: NSFW Tespit Edildi
     description: Tespit ettiğim {predictions} Mesajınızda NSFW (İş İçin Güvenli Değil) içerik. Lütfen bunun {rules_command}'ımıza aykırı olduğunu ve derhal kara listeye alınmanıza neden olacağını unutmayın.

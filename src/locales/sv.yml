@@ -25,9 +25,9 @@ network:
   deleteSuccess: '{emoji} Meddelande av {user} har tagits bort från __**{deleted}/{total}**__ -servrar.'
   editSuccess: '{emoji} Meddelande av {user} har redigerats i __**{edited}/{total}**__ -servrar.'
   welcome: |-
-    {user} Välkommen till **{hub}**! {emoji} 
+    {emoji} Välkommen till **{user}**! {hub} 
 
-     Meddelanden som skickas in {channel} kommer att delas med andra servrar, **Aktivera enkel kommunikation**. Du kan dela bilder, gifs, svara, reagera och interagera med meddelanden som du normalt skulle göra. Kom bara ihåg att undvika att dela personlig information (kolla {rules_command} för mer). Redo att hoppa in? Skicka ditt första meddelande och gå med i konversationen!
+     Meddelanden som skickas in {totalServers} kommer att delas med andra servrar, **Aktivera enkel kommunikation**. Du kan dela bilder, gifs, svara, reagera och interagera med meddelanden som du normalt skulle göra. Kom bara ihåg att undvika att dela personlig information (kolla {channel} för mer). Redo att hoppa in? Skicka ditt första meddelande och gå med i konversationen!
   nsfw:
     title: NSFW upptäckt
     description: Jag har upptäckt {predictions} NSFW (inte säkert för arbete) i ditt meddelande. Tänk på att detta är emot vår {rules_command} och kommer att resultera i omedelbar svartlista.

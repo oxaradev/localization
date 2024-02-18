@@ -25,9 +25,9 @@ network:
   deleteSuccess: '{emoji} A {user} üzenetet törölték a __**{deleted}/{total}**__ szerverekről.'
   editSuccess: '{emoji} A {user} üzenetet __**{edited}/{total}**__ szerverek szerkesztik.'
   welcome: |-
-    {user} Üdvözöljük a **{hub}**! {emoji} 
+    {emoji} Üdvözöljük a **{user}**! {hub} 
 
-     A {channel} -ben elküldött üzeneteket megosztják más szerverekkel, **Az erőfeszítés nélküli kommunikáció engedélyezése**. Megoszthat képeket, GIF -eket, válaszolhat, reagálhat és kölcsönhatásba léphet az üzenetekkel, ahogyan általában. Ne felejtse el, hogy kerülje a személyes adatok megosztását (ellenőrizze a {rules_command} -t). Készen áll a beugrásra? Küldje el első üzenetét, és csatlakozzon a beszélgetéshez!
+     A {totalServers} -ben elküldött üzeneteket megosztják más szerverekkel, **Az erőfeszítés nélküli kommunikáció engedélyezése**. Megoszthat képeket, GIF -eket, válaszolhat, reagálhat és kölcsönhatásba léphet az üzenetekkel, ahogyan általában. Ne felejtse el, hogy kerülje a személyes adatok megosztását (ellenőrizze a {channel} -t). Készen áll a beugrásra? Küldje el első üzenetét, és csatlakozzon a beszélgetéshez!
   nsfw:
     title: NSFW észlelt
     description: Az üzenetben felismertem a {predictions} NSFW (nem biztonságos a munkához) tartalmat. Felhívjuk figyelmét, hogy ez ellentétes a {rules_command}, és azonnali feketelistát eredményez.

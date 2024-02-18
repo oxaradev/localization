@@ -25,9 +25,9 @@ network:
   deleteSuccess: '{emoji} poruka {user} izbrisana je iz __**{deleted}/{total}**__ poslužitelja.'
   editSuccess: '{emoji} poruka {user} uređena je u __**{edited}/{total}**__ poslužitelji.'
   welcome: |-
-    {user} Dobrodošli u **{hub}**! {emoji} 
+    {emoji} Dobrodošli u **{user}**! {hub} 
 
-     Poruke poslane u {channel} dijelit će se s drugim poslužiteljima, **Omogućivanje komunikacije bez napora**. Možete dijeliti slike, GIF -ove, odgovoriti, reagirati i komunicirati s porukama kao što bi to inače učinili. Ne zaboravite izbjegavati dijeljenje osobnih podataka (provjerite {rules_command} za više). Spremni za skok? Pošaljite svoju prvu poruku i pridružite se razgovoru!
+     Poruke poslane u {totalServers} dijelit će se s drugim poslužiteljima, **Omogućivanje komunikacije bez napora**. Možete dijeliti slike, GIF -ove, odgovoriti, reagirati i komunicirati s porukama kao što bi to inače učinili. Ne zaboravite izbjegavati dijeljenje osobnih podataka (provjerite {channel} za više). Spremni za skok? Pošaljite svoju prvu poruku i pridružite se razgovoru!
   nsfw:
     title: Otkriven je NSFW
     description: Otkrio sam {predictions} nsfw (nije siguran za rad) sadržaj u vašoj poruci. Imajte na umu da je to protiv našeg {rules_command} i rezultirat će neposrednom crnom listom.

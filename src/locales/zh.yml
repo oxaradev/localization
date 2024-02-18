@@ -25,9 +25,9 @@ network:
   deleteSuccess: '{emoji} {user}的消息已从__**** {deleted}/{total} **__ __服务器中删除。'
   editSuccess: '{emoji} {user}的消息已在__**** {edited}/{total}*__服务器中编辑。'
   welcome: |-
-    {user}欢迎来到**{hub}**！ {emoji} 
+    {emoji}欢迎来到**{user}**！ {hub} 
 
-     以{channel}的方式发送的消息将与其他服务器共享，**启用轻松的通信**。 您可以像往常一样共享图像，gif，回复，反应和与消息交互。 只需记住要避免共享个人信息（检查{rules_command}以获取更多信息）。 准备跳进了吗？ 发送您的第一条消息并加入对话！
+     以{totalServers}的方式发送的消息将与其他服务器共享，**启用轻松的通信**。 您可以像往常一样共享图像，gif，回复，反应和与消息交互。 只需记住要避免共享个人信息（检查{channel}以获取更多信息）。 准备跳进了吗？ 发送您的第一条消息并加入对话！
   nsfw:
     title: 检测到NSFW
     description: 我已经检测到{predictions} nsfw（对于工作不安全）您的消息中的内容。 请注意，这与我们的{rules_command}相对，并将导致立即黑名单。

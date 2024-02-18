@@ -25,9 +25,9 @@ network:
   deleteSuccess: '{emoji} foi eliminada dos servidores __**{user}/{deleted}**__.'
   editSuccess: '{emoji} foi editada em __**{user}/{edited}**__ servidores.'
   welcome: |
-    {user} Bem-vindo ao **{hub}**! {emoji}
+    {emoji} Bem-vindo ao **{user}**! {hub}
 
-    As mensagens enviadas em {channel} serão partilhadas com outros servidores, **permitindo uma comunicação sem esforço**. Pode partilhar imagens, GIFs, responder, reagir e interagir com as mensagens como faria normalmente. Lembre-se apenas de evitar a partilha de informações pessoais (consulte {rules_command} para mais informações). Pronto para começar? Envie a sua primeira mensagem e junte-se à conversa!
+    As mensagens enviadas em {totalServers} serão partilhadas com outros servidores, **permitindo uma comunicação sem esforço**. Pode partilhar imagens, GIFs, responder, reagir e interagir com as mensagens como faria normalmente. Lembre-se apenas de evitar a partilha de informações pessoais (consulte {channel} para mais informações). Pronto para começar? Envie a sua primeira mensagem e junte-se à conversa!
   nsfw:
     title: NSFW detectado
     description: Detectei {predictions} conteúdo NSFW (Not Safe For Work) na tua mensagem. Tenha em atenção que isto é contra as nossas {rules_command} e resultará numa lista negra imediata.

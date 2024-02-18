@@ -25,9 +25,9 @@ network:
   deleteSuccess: '{emoji} przez {user} został usunięty z __**{deleted}/{total}**__ serwery.'
   editSuccess: '{emoji} komunikat {user} został edytowany w __**{edited}/{total}**__ serwery.'
   welcome: |-
-    {user} Witamy w **{hub}**! {emoji} 
+    {emoji} Witamy w **{user}**! {hub} 
 
-     Wiadomości wysłane w {channel} będą udostępniane innym serwerom, **umożliwiając komunikację bez wysiłku**. Możesz udostępniać obrazy, gify, odpowiadać, reagować i wchodzić w interakcje z wiadomościami, jak zwykle. Pamiętaj tylko, aby uniknąć udostępniania danych osobowych (sprawdź {rules_command}, aby uzyskać więcej). Gotowy do wskoczenia? Wyślij swoją pierwszą wiadomość i dołącz do rozmowy!
+     Wiadomości wysłane w {totalServers} będą udostępniane innym serwerom, **umożliwiając komunikację bez wysiłku**. Możesz udostępniać obrazy, gify, odpowiadać, reagować i wchodzić w interakcje z wiadomościami, jak zwykle. Pamiętaj tylko, aby uniknąć udostępniania danych osobowych (sprawdź {channel}, aby uzyskać więcej). Gotowy do wskoczenia? Wyślij swoją pierwszą wiadomość i dołącz do rozmowy!
   nsfw:
     title: Wykryto NSFW
     description: Wykryłem {predictions} nsfw (nie jest bezpieczny do pracy) w Twojej wiadomości. Należy pamiętać, że jest to sprzeczne z naszym {rules_command} i spowoduje natychmiastową czarną listę.

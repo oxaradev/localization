@@ -25,9 +25,9 @@ network:
   deleteSuccess: '{emoji} Le message de {user} a été supprimé des serveurs __**{deleted}/{total}**__.'
   editSuccess: '{emoji} Le message de {user} a été édité dans __**{edited}/{total}**__ serveurs.'
   welcome: |
-    {user} Bienvenue sur **{hub}** ! {emoji}
+    {emoji} Bienvenue sur **{user}** ! {hub}
 
-    Les messages envoyés dans {channel} seront partagés avec d'autres serveurs, **permettant une communication sans effort**. Vous pouvez partager des images, des GIF, répondre, réagir et interagir avec les messages comme vous le feriez normalement. N'oubliez pas d'éviter de partager des informations personnelles (consultez {rules_command} pour en savoir plus). Prêt à vous lancer ? Envoyez votre premier message et participez à la conversation !
+    Les messages envoyés dans {totalServers} seront partagés avec d'autres serveurs, **permettant une communication sans effort**. Vous pouvez partager des images, des GIF, répondre, réagir et interagir avec les messages comme vous le feriez normalement. N'oubliez pas d'éviter de partager des informations personnelles (consultez {channel} pour en savoir plus). Prêt à vous lancer ? Envoyez votre premier message et participez à la conversation !
   nsfw:
     title: NSFW détecté
     description: J'ai détecté {predictions} un contenu NSFW (Not Safe For Work) dans votre message. Sachez que cela est contraire à nos {rules_command} et que cela entraînera une mise sur liste noire immédiate.

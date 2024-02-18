@@ -25,9 +25,9 @@ network:
   deleteSuccess: '{emoji} Mesajul de {user} a fost șters din __**{deleted}/{total}**__ servere.'
   editSuccess: '{emoji} Mesajul de {user} a fost editat în __**{edited}/{total}**__ servere.'
   welcome: |-
-    {user} Bine ați venit la **{hub}**! {emoji} 
+    {emoji} Bine ați venit la **{user}**! {hub} 
 
-     Mesajele trimise în {channel} vor fi partajate cu alte servere, **Activarea comunicării fără efort**. Puteți partaja imagini, GIF -uri, răspundeți, reacționați și interacționați cu mesajele așa cum ați face în mod normal. Amintiți -vă doar să evitați schimbarea informațiilor personale (verificați {rules_command} pentru mai multe). Gata să sari înăuntru? Trimiteți primul dvs. mesaj și alăturați -vă conversației!
+     Mesajele trimise în {totalServers} vor fi partajate cu alte servere, **Activarea comunicării fără efort**. Puteți partaja imagini, GIF -uri, răspundeți, reacționați și interacționați cu mesajele așa cum ați face în mod normal. Amintiți -vă doar să evitați schimbarea informațiilor personale (verificați {channel} pentru mai multe). Gata să sari înăuntru? Trimiteți primul dvs. mesaj și alăturați -vă conversației!
   nsfw:
     title: NSFW detectat
     description: Am detectat conținutul {predictions} nsfw (nu este sigur pentru muncă) în mesajul dvs. Vă rugăm să fiți conștienți de faptul că acest lucru este împotriva {rules_command} și va duce la o listă neagră imediată.

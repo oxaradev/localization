@@ -25,9 +25,9 @@ network:
   deleteSuccess: '{emoji} {user} pranešimas buvo ištrintas iš __**{deleted}/{total}**__ serveriai.'
   editSuccess: '{emoji} {user} pranešimas buvo redaguotas __**{edited}/{total}**__ serveriuose.'
   welcome: |-
-    {user} Sveiki atvykę į **{hub}**! {emoji} 
+    {emoji} Sveiki atvykę į **{user}**! {hub} 
 
-     Pranešimai, išsiųsti {channel}, bus dalijami su kitais serveriais, **įgalinant lengvą ryšį**. Galite bendrinti vaizdus, GIF, atsakyti, reaguoti ir bendrauti su pranešimais taip, kaip įprastai. Tiesiog nepamirškite vengti dalytis asmenine informacija (patikrinkite {rules_command} daugiau). Pasiruošę šokti? Atsiųskite savo pirmąjį pranešimą ir prisijunkite prie pokalbio!
+     Pranešimai, išsiųsti {totalServers}, bus dalijami su kitais serveriais, **įgalinant lengvą ryšį**. Galite bendrinti vaizdus, GIF, atsakyti, reaguoti ir bendrauti su pranešimais taip, kaip įprastai. Tiesiog nepamirškite vengti dalytis asmenine informacija (patikrinkite {channel} daugiau). Pasiruošę šokti? Atsiųskite savo pirmąjį pranešimą ir prisijunkite prie pokalbio!
   nsfw:
     title: NSFW aptiko
     description: Aš aptikau {predictions} nsfw (ne saugus darbui) jūsų pranešime. Atminkite, kad tai prieštarauja mūsų {rules_command} ir sukels tiesioginį juodąjį sąrašą.

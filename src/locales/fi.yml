@@ -25,9 +25,9 @@ network:
   deleteSuccess: '{emoji} viesti {user} on poistettu osoitteesta __**{deleted}/{total}**__ palvelimet.'
   editSuccess: '{emoji} viesti {user} on muokattu kohdassa __**{edited}/{total}**__ palvelimet.'
   welcome: |-
-    {user} Tervetuloa kohtaan **{hub}**! {emoji} 
+    {emoji} Tervetuloa kohtaan **{user}**! {hub} 
 
-     {channel} lähetetyt viestit jaetaan muiden palvelimien kanssa, **POINTLELINEN KILMOITTAMINEN**. Voit jakaa kuvia, GIF: ää, vastata, reagoida ja olla vuorovaikutuksessa viestien kanssa kuten normaalisti. Muista vain välttää henkilökohtaisten tietojen jakamista (tarkista {rules_command} lisää). Oletko valmis hyppäämään sisään? Lähetä ensimmäinen viestisi ja liity keskusteluun!
+     {totalServers} lähetetyt viestit jaetaan muiden palvelimien kanssa, **POINTLELINEN KILMOITTAMINEN**. Voit jakaa kuvia, GIF: ää, vastata, reagoida ja olla vuorovaikutuksessa viestien kanssa kuten normaalisti. Muista vain välttää henkilökohtaisten tietojen jakamista (tarkista {channel} lisää). Oletko valmis hyppäämään sisään? Lähetä ensimmäinen viestisi ja liity keskusteluun!
   nsfw:
     title: NSFW havaittu
     description: Olen havainnut {predictions} nsfw (ei turvallinen työhön) sisältö viestissäsi. Huomaa, että tämä on {rules_command} vastaan ja johtaa välittömään mustaan listaan.

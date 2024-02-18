@@ -25,9 +25,9 @@ network:
   deleteSuccess: '{emoji} pesan oleh {user} telah dihapus dari __**{deleted}/{total}**__ server.'
   editSuccess: '{emoji} pesan oleh {user} telah diedit dalam __**{edited}/{total}**__ Server.'
   welcome: |-
-    {user} Selamat datang di **{hub}**! {emoji} 
+    {emoji} Selamat datang di **{user}**! {hub} 
 
-     Pesan yang dikirim {channel} akan dibagikan dengan server lain, **Mengaktifkan komunikasi yang mudah**. Anda dapat berbagi gambar, GIF, membalas, bereaksi, dan berinteraksi dengan pesan seperti biasanya. Ingatlah untuk menghindari berbagi info pribadi (periksa {rules_command} untuk lebih lanjut). Siap masuk? Kirim pesan pertama Anda dan bergabunglah dengan percakapan!
+     Pesan yang dikirim {totalServers} akan dibagikan dengan server lain, **Mengaktifkan komunikasi yang mudah**. Anda dapat berbagi gambar, GIF, membalas, bereaksi, dan berinteraksi dengan pesan seperti biasanya. Ingatlah untuk menghindari berbagi info pribadi (periksa {channel} untuk lebih lanjut). Siap masuk? Kirim pesan pertama Anda dan bergabunglah dengan percakapan!
   nsfw:
     title: NSFW terdeteksi
     description: Saya telah mendeteksi {predictions} nsfw (tidak aman untuk bekerja) konten dalam pesan Anda. Perlu diketahui bahwa ini bertentangan dengan {rules_command} kami dan akan menghasilkan daftar hitam langsung.
