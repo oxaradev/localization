@@ -10,16 +10,11 @@ rules: |-
    7. **Rapportera problem:** Om du observerar ett brott mot dessa regler, rapportera det till lämplig navmodator eller interchat -personal för ytterligare åtgärder. 
 
    Några frågor? Gå med i vår [supportserver]({support_invite}).
-vote: |-
-  ## 🗳 Rösta för interchat och njut av exklusiva förmåner 
-   Ditt bidrag är ovärderligt för att höja InterChats position på topp.g. Varje röst gör en betydande skillnad! 
-
-   Som vårt sätt att uttrycka tacksamhet för ditt stöd är vi glada över att erbjuda dig exklusiva fördelar. Genom att avge din röst för InterChat låser du upp: 
-
-   - Redigera meddelanden i naven 
-   - Översätt meddelanden (och mycket mer på vägen!) 
-
-   Vi uppskattar djupt ditt oöverträffade stöd. Tack! 🙏
+vote:
+  description: |-
+    ## Rösta för Interchat 
+     Genom att rösta stöder du oss genom att hjälpa Interchat att rankas högre på sökningar. Det tar bara ett par klick men hjälper oss enormt. Vi uppskattar djupt din röst, var och en räknas!
+  footer: Tack för att du hjälpte Interchat att växa!
 network:
   accountTooNew: '{emoji} {user} Ditt konto är för nytt för att skicka meddelanden med interchat. Vänligen försök igen senare.'
   deleteSuccess: '{emoji} Meddelande av {user} har tagits bort från __**{deleted}/{total}**__ -servrar.'

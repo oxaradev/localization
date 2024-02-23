@@ -10,16 +10,11 @@ rules: |
   7. **Denunciar problemas:** Se você observar uma violação dessas regras, denuncie-a ao moderador do hub apropriado ou à equipe do InterChat para que sejam tomadas providências.
 
   Alguma dúvida? Junte-se ao nosso [servidor de suporte]({support_invite}).
-vote: |
-  ## 🗳️ Vote no InterChat e desfrute de vantagens exclusivas
-  A sua contribuição é inestimável para elevar a posição do InterChat no Top.gg. Cada voto faz uma diferença significativa!
-
-  Como forma de agradecer o seu apoio, temos o prazer de lhe oferecer vantagens exclusivas. Ao votar no InterChat, irá desbloquear:
-
-  - Editar mensagens nos hubs
-  - Tradução de mensagens (e muito mais a caminho!)
-
-  Agradecemos profundamente o seu apoio inabalável. Obrigado! 🙏
+vote:
+  description: |-
+    ## Vote no InterChat 
+     Ao votar, você nos apoia ajudando o InterChat a ter uma classificação mais alta em pesquisas. É preciso apenas alguns cliques, mas nos ajuda tremendamente. Agradecemos profundamente seu voto, cada um conta!
+  footer: Obrigado por ajudar o InterChat a crescer!
 network:
   accountTooNew: '{emoji} {user} A sua conta é demasiado recente para enviar mensagens através do InterChat. Por favor, tente novamente mais tarde.'
   deleteSuccess: '{emoji} foi eliminada dos servidores __**{user}/{deleted}**__.'

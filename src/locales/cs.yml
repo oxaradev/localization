@@ -10,16 +10,11 @@ rules: |-
    7. **Zpráva obavy:** Pokud dodržujete porušení těchto pravidel, nahláste jej příslušného moderátora centra nebo zaměstnancům InterChat pro další kroky. 
 
    Nějaké otázky? Připojte se k našemu [podpůrnému serveru]({support_invite}).
-vote: |-
-  ## 🗳 Hlasujte pro InterChat a užijte si exkluzivní výhody 
-   Váš příspěvek je neocenitelný při zvyšování pozice InterChatu nahoře.gg. Každý hlas je významný rozdíl! 
-
-   Jako náš způsob, jak vyjádřit vděčnost za vaši podporu, jsme nadšeni, že vám můžeme nabídnout exkluzivní výhody. Obsazením hlasu pro InterChat odemknete: 
-
-   - Upravit zprávy v rozbočovačích 
-   - Překládání zpráv (a mnohem více na cestě!) 
-
-   Hluboko vážíme vaší neochvějné podpory. Děkuji! 🙏
+vote:
+  description: |-
+    ## Hlasujte pro Interchat 
+     Hlasováním nás podporujete tím, že pomáháte Interchat se při vyhledávání řadit vyšší. Trvá to jen pár kliknutí, ale pomáhá nám ohromně. Hluboko oceníme váš hlas, každý se počítá!
+  footer: Děkujeme, že jste pomohli Interchat růst!
 network:
   accountTooNew: '{emoji} {user} Váš účet je příliš nový na odesílání zpráv pomocí InterChat. Prosím zkuste to znovu později.'
   deleteSuccess: '{emoji} zpráva od {user} byla odstraněna z __**{deleted}/{total}**__ servery.'

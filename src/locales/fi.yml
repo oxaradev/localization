@@ -10,16 +10,11 @@ rules: |-
    7. **Raportin huolenaihe:** Jos noudatat näiden sääntöjen rikkomista, ilmoita siitä asianmukaiselle Hub -moderaattorille tai väliaikaiselle henkilöstölle lisätoimia varten. 
 
    Kysymyksiä? Liity [tukipalvelimemme]({support_invite}).
-vote: |-
-  ## 🗳️ Äänestä Chachat ja nauti yksinoikeudella 
-   Panoksesi on korvaamaton nostamalla InterChatin sijaintia Top.gg. Jokaisella äänellä on merkittävä ero! 
-
-   Tapaamme ilmaista kiitosta tuestasi, olemme innoissamme tarjoamalla sinulle yksinoikeuksia. Äänestämällä äänestystä InterChatille, avaat: 
-
-   - Muokkaa viestejä keskittimissä 
-   - Viestien kääntäminen (ja paljon enemmän matkalla!) 
-
-   Arvostamme syvästi horjumatonta tukeasi. Kiitos! 🙏
+vote:
+  description: |-
+    ## Äänestä Interchatista 
+     Äänestämällä sinua tukemaan meitä auttamalla hakujen interchat -sijoitusta korkeammalle hakuille. Se vie vain pari napsautusta, mutta auttaa meitä valtavasti. Arvostamme syvästi äänestystäsi, jokainen laskee!
+  footer: Kiitos, että autat Chacatin kasvua!
 network:
   accountTooNew: '{emoji} {user} Tilisi on liian uusi lähettää viestejä InterChatin avulla. Yritä uudelleen myöhemmin.'
   deleteSuccess: '{emoji} viesti {user} on poistettu osoitteesta __**{deleted}/{total}**__ palvelimet.'

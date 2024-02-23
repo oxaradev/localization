@@ -10,16 +10,11 @@ rules: |-
    7. **Raport obawy:** Jeśli zaobserwujesz naruszenie tych zasad, zgłoś je odpowiednim moderatorowi lub personelowi wymiany w celu uzyskania dalszych działań. 
 
    Jakieś pytania? Dołącz do naszego [serwer obsługi]({support_invite}).
-vote: |-
-  ## 🗳️ Głosuj na InterChat i ciesz się ekskluzywnymi korzyściami 
-   Twój wkład jest nieoceniony w podnoszeniu pozycji InterChata na TOP.G. Każdy głos ma znaczącą różnicę! 
-
-   Jako nasz sposób wyrażania wdzięczności za wasze wsparcie, cieszymy się, że możemy zaoferować wyłączne zalety. Rzucając swój głos na InterChat, odblokujesz: 
-
-   - Edytuj wiadomości w hubach 
-   - Tłumaczenie wiadomości (i wiele więcej w drodze!) 
-
-   Głęboko doceniamy twoje niezachwiane wsparcie. Dziękuję! 🙏
+vote:
+  description: |-
+    ## Głosuj na Interchat 
+     Głosując, popierasz nas, pomagając Matechat ranking wyżej w wyszukiwaniu. Zajmuje to tylko kilka kliknięć, ale bardzo nam pomaga. Głęboko doceniamy twój głos, każdy się liczy!
+  footer: Dziękujemy za pomoc w rozwoju Interchat!
 network:
   accountTooNew: '{emoji} {user} Twoje konto jest zbyt nowe, aby wysyłać wiadomości za pomocą InterChat. Spróbuj ponownie później.'
   deleteSuccess: '{emoji} przez {user} został usunięty z __**{deleted}/{total}**__ serwery.'

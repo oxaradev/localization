@@ -10,16 +10,11 @@ rules: |-
    7. **Izvještaj o pitanjima:** Ako poštujete kršenje ovih pravila, prijavite ga odgovarajućem moderatoru Hub -a ili osoblju InterChat -a za daljnje djelovanje. 
 
    Ima li pitanja? Pridružite se našem [Podrška poslužitelju]({support_invite}).
-vote: |-
-  ## 🗳️ glasajte za InterChat i uživajte u ekskluzivnim perketima 
-   Vaš doprinos je neprocjenjiv u povišenju položaja InterChata na vrhu.GG. Svaki glas čini značajnu razliku! 
-
-   Kao naš način izražavanja zahvalnosti za vašu podršku, oduševljeni smo vam što vam nudimo ekskluzivne prednosti. Izlažući svoj glas za InterChat, otključat ćete: 
-
-   - Uređivanje poruka unutar čvorišta 
-   - Prevođenje poruka (i još mnogo toga na putu!) 
-
-   Duboko cijenimo vašu nepokolebljivu podršku. Hvala vam! 🙏
+vote:
+  description: |-
+    ## Glasajte za Interchat 
+     Glasanjem podržavate nas pomažući da se Interchat rangira viši u pretraživanjima. Potrebno je samo nekoliko klikova, ali nam je strahovito pomaže. Duboko cijenimo vaš glas, svaki se računa!
+  footer: Hvala vam što ste pomogli Interchatu da raste!
 network:
   accountTooNew: '{emoji} {user} Vaš je račun previše nov za slanje poruka koristeći InterChat. Molimo pokušajte ponovo kasnije.'
   deleteSuccess: '{emoji} poruka {user} izbrisana je iz __**{deleted}/{total}**__ poslužitelja.'

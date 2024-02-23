@@ -10,16 +10,11 @@ rules: |-
    7. **Meld zorgen:** Als u een schending van deze regels waarneemt, meld dit dan aan de juiste Hub Moderator of InterChat -medewerkers voor verdere actie. 
 
    Nog vragen? Word lid van onze [Support Server]({support_invite}).
-vote: |-
-  ## 🗳️ Stem op InterChat en geniet van exclusieve voordelen 
-   Uw bijdrage is van onschatbare waarde bij het verhogen van de positie van InterChat bovenaan. GG. Elke stemming maakt een aanzienlijk verschil! 
-
-   Als onze manier om dankbaarheid voor uw steun te uiten, zijn we verheugd om u exclusieve voordelen te bieden. Door uw stem uit te brengen voor InterChat, ontgrendelt u: 
-
-   - Berichten bewerken in hubs 
-   - Berichten vertalen (en nog veel meer onderweg!) 
-
-   We waarderen uw niet -aflatende steun diep. Bedankt! 🙏
+vote:
+  description: |-
+    ## Stem op Interchat 
+     Door te stemmen steunt u ons door elkaar te helpen hoger te scoren op zoekopdrachten. Het duurt slechts een paar klikken, maar helpt ons enorm. We waarderen uw stem diep, elk telt!
+  footer: Bedankt voor het helpen van elkaar om te groeien!
 network:
   accountTooNew: '{emoji} {user} Uw account is te nieuw om berichten te verzenden met InterChat. Probeer het later opnieuw.'
   deleteSuccess: '{emoji} Bericht door {user} is verwijderd uit __**{deleted}/{total}**__ servers.'

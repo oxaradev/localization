@@ -10,16 +10,11 @@ rules: |-
    7. **Bedenken hinsichtlich:** Wenn Sie einen Verstoß gegen diese Regeln beobachten, melden Sie sie für weitere Maßnahmen dem entsprechenden Hub -Moderator oder dem Austauschpersonal. 
 
    Irgendwelche Fragen? Schließen Sie sich unserem [Support Server] bei ({support_invite}).
-vote: |-
-  ## 🗳️ Stimmen Sie für den Austausch und genießen Sie exklusive Vorteile 
-   Ihr Beitrag ist von unschätzbarem Wert, wenn der Austausch von der Position oben an der Spitze erhöht wird. Jede Stimme macht einen erheblichen Unterschied! 
-
-   Als wir uns für Ihre Unterstützung bedankt, sind wir begeistert, Ihnen exklusive Vorteile zu bieten. Indem Sie Ihre Stimme für den Austausch abgeben, werden Sie freigeschaltet: 
-
-   - Nachrichten in Hubs bearbeiten 
-   - Nachrichten übersetzen (und vieles mehr unterwegs!) 
-
-   Wir schätzen Ihre unerschütterliche Unterstützung zutiefst. Danke schön! 🙏
+vote:
+  description: |-
+    ## Abstimmung für den Austausch 
+     Indem Sie uns stimmen, unterstützen Sie uns, indem Sie den Austausch bei der Suche bei den Suchanfragen verbessern. Es dauert nur ein paar Klicks, hilft uns aber enorm. Wir schätzen Ihre Stimme zutiefst, von denen jeder zählt!
+  footer: Vielen Dank, dass Sie den Austausch beim Wachstum beim Wachstum geholfen haben!
 network:
   accountTooNew: '{emoji} {user} Ihr Konto ist zu neu, um Nachrichten mit dem Austausch zu senden. Bitte versuchen Sie es später erneut.'
   deleteSuccess: '{emoji} Nachricht von {user} wurde aus __**{deleted}/{total}**__ -Server gelöscht.'

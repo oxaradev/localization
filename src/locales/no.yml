@@ -10,16 +10,11 @@ rules: |-
    7. **Rapporter bekymringer:** Hvis du observerer et brudd på disse reglene, kan du rapportere det til passende HUB -moderator eller interchat -ansatte for videre handling. 
 
    Noen spørsmål? Bli med på [Support Server]({support_invite}).
-vote: |-
-  ## 🗳 Stem på InterChat og nyt eksklusive fordeler 
-   Ditt bidrag er uvurderlig i å heve InterChats posisjon på toppen.GG. Hver eneste avstemning gjør en betydelig forskjell! 
-
-   Som vår måte å uttrykke takknemlighet for din støtte, er vi glade for å tilby deg eksklusive fordeler. Ved å avgi din stemme for InterChat, vil du låse opp: 
-
-   - Rediger meldinger i Hubs 
-   - Oversette meldinger (og mye mer på vei!) 
-
-   Vi setter stor pris på din urokkelige støtte. Takk skal du ha! 🙏
+vote:
+  description: |-
+    ## Stem på Interchat 
+     Ved å stemme støtter du oss ved å hjelpe Interchat med å rangere høyere på søk. Det tar bare et par klikk, men hjelper oss enormt. Vi setter stor pris på din stemme, hver og en teller!
+  footer: Takk for at du hjalp Interchat med å vokse!
 network:
   accountTooNew: '{emoji} {user} Kontoen din er for ny til å sende meldinger ved hjelp av InterChat. Prøv igjen senere.'
   deleteSuccess: '{emoji} melding av {user} er blitt slettet fra __**{deleted}/{total}**__ servere.'

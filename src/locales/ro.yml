@@ -10,16 +10,11 @@ rules: |-
    7. **Raportați îngrijorări:** Dacă observați o încălcare a acestor reguli, raportați -o către moderatorul Hub sau personalul InterChat pentru acțiuni suplimentare. 
 
    Alte intrebari? Alăturați -vă [serverul de asistență]({support_invite}).
-vote: |-
-  ## 🗳️ Votează pentru interchat și bucură -te de avantaje exclusive 
-   Contribuția dvs. este de neprețuit în ridicarea poziției interchatului pe top.gg. Fiecare vot face o diferență semnificativă! 
-
-   Ca modul nostru de a exprima recunoștința pentru sprijinul dvs., suntem încântați să vă oferim avantaje exclusive. Prin votul dvs. pentru InterChat, veți debloca: 
-
-   - Editați mesaje în hub -uri 
-   - Traducerea mesajelor (și mult mai mult pe drum!) 
-
-   Apreciem profund sprijinul tău neclintit. Mulțumesc! 🙏
+vote:
+  description: |-
+    ## Votează pentru Interchat 
+     Votarea ne sprijiniți, ajutând Interchat să se ridice mai sus la căutări. Este nevoie de doar câteva clicuri, dar ne ajută extraordinar. Apreciem profund votul dvs., fiecare contează!
+  footer: Vă mulțumim că ați ajutat Interchat să crească!
 network:
   accountTooNew: '{emoji} {user} Contul tău este prea nou pentru a trimite mesaje folosind interchat. Vă rugăm să încercați din nou mai târziu.'
   deleteSuccess: '{emoji} Mesajul de {user} a fost șters din __**{deleted}/{total}**__ servere.'

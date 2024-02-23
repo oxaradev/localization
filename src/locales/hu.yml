@@ -10,16 +10,11 @@ rules: |-
    7. **Jelentéssel kapcsolatos aggodalmak:** Ha megfigyeli e szabályok megsértését, jelentse azt a megfelelő Hub moderátornak vagy az InterChat munkatársainak a további intézkedések érdekében. 
 
    Bármi kérdés? Csatlakozzon a [Support Server]({support_invite}).
-vote: |-
-  ## 🗳️ Szavazzon az InterChat -ra, és élvezze az exkluzív előnyöket 
-   Az Ön hozzájárulása felbecsülhetetlen értékű az InterChat pozíciójának emelésére a Top.gg. Minden szavazat jelentős különbséget tesz! 
-
-   Mivel a támogatásáért hálát fejezzük ki, örülünk, hogy kizárólagos előnyöket kínálunk Önnek. Az InterChat szavazásának leadásával feloldja: 
-
-   - Az üzenetek szerkesztése a hubokban 
-   - Az üzenetek fordítása (és még sok minden mást!) 
-
-   Mélyen értékeljük a megrázkódtathatatlan támogatását. Köszönöm! 🙏
+vote:
+  description: |-
+    ## Szavazás az InterChatért 
+     A szavazással támogat minket azzal, hogy elősegíti az Interchat magasabb rangsorolását a keresések során. Csak néhány kattintást igényel, de óriási segít. Mélyen értékeljük a szavazatát, mindegyik számít!
+  footer: Köszönjük, hogy segített az Interchat növekedésében!
 network:
   accountTooNew: '{emoji} {user} A fiókja túl új ahhoz, hogy üzeneteket küldjön az InterChat használatával. Kérlek, próbáld újra később.'
   deleteSuccess: '{emoji} A {user} üzenetet törölték a __**{deleted}/{total}**__ szerverekről.'

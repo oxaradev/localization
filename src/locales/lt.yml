@@ -10,16 +10,11 @@ rules: |-
    7.. 
 
    Turite klausimų? Prisijunkite prie mūsų [palaikymo serverio]({support_invite}).
-vote: |-
-  ## 🗳️ Balsuokite už interchatą ir mėgaukitės išskirtinėmis privilegijomis 
-   Jūsų indėlis yra neįkainojamas padidinant „InterChat“ padėtį viršuje.gg. Kiekvienas balsavimas daro didelę įtaką! 
-
-   Kaip mūsų dėkingumo už jūsų palaikymą būdas išreikšti jums džiaugiamės galėdami pasiūlyti jums išskirtinius pranašumus. Išsiverždami į „InterChat“, atrakinsite: 
-
-   - Redaguoti pranešimus centruose 
-   - Versti pranešimus (ir dar daugiau pakeliui!) 
-
-   Mes labai vertiname jūsų nenutrūkstamą palaikymą. Ačiū! 🙏
+vote:
+  description: |-
+    ## Balsuokite už „Interchat“ 
+     Balsuodami palaikote mus, padėdami „Interchat“ reitinguoti aukščiau paieškų. Tai užtrunka tik porą paspaudimų, tačiau labai padeda mums. Mes labai vertiname jūsų balsą, kiekvienas skaičiuojamas!
+  footer: Dėkojame, kad padėjote „Interchat“ augti!
 network:
   accountTooNew: '{emoji} {user} Jūsų paskyra yra per daug nauja, kad galėtumėte siųsti pranešimus naudojant „InterChat“. Pabandykite dar kartą vėliau.'
   deleteSuccess: '{emoji} {user} pranešimas buvo ištrintas iš __**{deleted}/{total}**__ serveriai.'

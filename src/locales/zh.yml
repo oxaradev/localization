@@ -10,16 +10,11 @@ rules: |-
    7. **报告问题：**如果您观察到违反这些规则，请向适当的枢纽主持人或InterChat工作人员报告以采取进一步的诉讼。 
 
    任何问题？ 加入我们的[支持服务器]（{support_invite}）。
-vote: |-
-  ##🗳️投票支持InterChat并享受独家的特权 
-   您的贡献在提升InterChat在Top.gg上的位置方面非常宝贵。 每票都有很大的不同！ 
-
-   作为对您的支持表示感谢的方式，我们很高兴为您提供独家优势。 通过对InterChat进行投票，您将解锁： 
-
-    - 在集线器中编辑消息 
-    - 翻译消息（还有更多信息！） 
-
-   我们非常感谢您坚定不移的支持。 谢谢你！ 🙏
+vote:
+  description: |-
+    ##投票给Interchat 
+     通过投票，您通过帮助Interchat在搜索上排名更高来支持我们。 它只需几下几下，但对我们有很大帮助。 我们非常感谢您的投票，每个人都重要！
+  footer: 感谢您帮助Interchat成长！
 network:
   accountTooNew: '{emoji} {user}您的帐户太新了，无法使用InterChat发送消息。 请稍后再试。'
   deleteSuccess: '{emoji} {user}的消息已从__**** {deleted}/{total} **__ __服务器中删除。'

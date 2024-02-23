@@ -10,16 +10,11 @@ rules: |-
    7. **Laporkan masalah:** Jika Anda mengamati pelanggaran aturan ini, laporkan ke moderator hub yang sesuai atau staf InterChat untuk tindakan lebih lanjut. 
 
    Ada pertanyaan? Bergabunglah dengan [server dukungan] kami ({support_invite}).
-vote: |-
-  ## 🗳️ Vote untuk InterChat dan nikmati tunjangan eksklusif 
-   Kontribusi Anda sangat berharga dalam meningkatkan posisi InterChat di Top.gg. Setiap suara membuat perbedaan yang signifikan! 
-
-   Sebagai cara kami mengucapkan terima kasih atas dukungan Anda, kami sangat senang menawarkan kepada Anda keunggulan eksklusif. Dengan memberikan suara Anda untuk InterChat, Anda akan membuka kunci: 
-
-   - Edit pesan di dalam hub 
-   - Menerjemahkan pesan (dan banyak lagi di jalan!) 
-
-   Kami sangat menghargai dukungan Anda yang tak tergoyahkan. Terima kasih! 🙏
+vote:
+  description: |-
+    ## Vote untuk Interchat 
+     Dengan memilih Anda mendukung kami dengan membantu Interchat peringkat yang lebih tinggi pada pencarian. Hanya membutuhkan beberapa klik tetapi sangat membantu kami. Kami sangat menghargai suara Anda, masing -masing penting!
+  footer: Terima kasih telah membantu Interchat tumbuh!
 network:
   accountTooNew: '{emoji} {user} Akun Anda terlalu baru untuk mengirim pesan menggunakan interchat. Silakan coba lagi nanti.'
   deleteSuccess: '{emoji} pesan oleh {user} telah dihapus dari __**{deleted}/{total}**__ server.'

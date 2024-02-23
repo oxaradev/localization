@@ -10,16 +10,11 @@ rules: |-
    7. **Báo cáo lo ngại:** Nếu bạn tuân thủ vi phạm các quy tắc này, hãy báo cáo cho người điều hành trung tâm thích hợp hoặc nhân viên trao đổi để có thêm hành động. 
 
    Bất kỳ câu hỏi? Tham gia [Máy chủ hỗ trợ] của chúng tôi ({support_invite}).
-vote: |-
-  ## Bình chọn cho Giao lộ và Thưởng thức các đặc quyền độc quyền 
-   Đóng góp của bạn là vô giá trong việc nâng cao vị trí của Giao lộ trên Top.GG. Mỗi và mọi phiếu bầu tạo nên một sự khác biệt đáng kể! 
-
-   Khi chúng tôi bày tỏ lòng biết ơn đối với sự hỗ trợ của bạn, chúng tôi rất vui mừng được cung cấp cho bạn những lợi thế độc quyền. Bằng cách bỏ phiếu bầu cho Giao lộ, bạn sẽ mở khóa: 
-
-   - Chỉnh sửa tin nhắn trong các trung tâm 
-   - Dịch tin nhắn (và nhiều hơn nữa trên đường đi!) 
-
-   Chúng tôi đánh giá cao sự hỗ trợ không ngừng của bạn. Cảm ơn! 🙏
+vote:
+  description: |-
+    ## Bình chọn cho Giao lộ 
+     Bằng cách bỏ phiếu, bạn hỗ trợ chúng tôi bằng cách giúp trao đổi xếp hạng cao hơn trên các tìm kiếm. Chỉ mất một vài cú nhấp chuột nhưng giúp chúng tôi rất nhiều. Chúng tôi đánh giá cao phiếu bầu của bạn, mỗi người đều tính!
+  footer: Cảm ơn bạn đã giúp trao đổi phát triển!
 network:
   accountTooNew: '{emoji} {user} Tài khoản của bạn quá mới để gửi tin nhắn bằng cách trao đổi. Vui lòng thử lại sau.'
   deleteSuccess: '{emoji} tin nhắn bởi {user} đã bị xóa khỏi __**{deleted}/{total}**__ máy chủ.'
