@@ -10,16 +10,11 @@ rules: |
   7. **Report Concerns:** If you observe a violation of these rules, report it to the appropriate hub moderator or InterChat staff for further action.
 
   Any questions? Join our [support server]({support_invite}).
-vote: |
-  ## 🗳️ Vote for InterChat and Enjoy Exclusive Perks
-  Your contribution is invaluable in elevating InterChat's position on Top.gg. Each and every vote makes a significant difference! 
-
-  As our way of expressing gratitude for your support, we are thrilled to offer you exclusive advantages. By casting your vote for InterChat, you'll unlock:
-
-  - Edit messages within hubs
-  - Translating messages (and much more on the way!)
-
-  We deeply appreciate your unwavering support. Thank you! 🙏
+vote: 
+  description: |
+    ## Vote for InterChat
+    By voting you support us by helping InterChat rank higher on searches. It takes only a couple of clicks but helps us tremendously. We deeply appreciate your vote, each one counts!
+  footer: Thank you for helping InterChat grow!
 network:
   accountTooNew: '{emoji} {user} Your account is too new to send messages using InterChat. Please try again later.'
   deleteSuccess: '{emoji} Message by {user} has been deleted from __**{deleted}/{total}**__ servers.'
