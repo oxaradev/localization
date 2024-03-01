@@ -10,24 +10,21 @@ rules: |
   7. **Report Concerns:** If you observe a violation of these rules, report it to the appropriate hub moderator or InterChat staff for further action.
 
   Any questions? Join our [support server]({support_invite}).
-vote: |
-  ## 🗳️ Vote for InterChat and Enjoy Exclusive Perks
-  Your contribution is invaluable in elevating InterChat's position on Top.gg. Each and every vote makes a significant difference!
-
-  As our way of expressing gratitude for your support, we are thrilled to offer you exclusive advantages. By casting your vote for InterChat, you'll unlock:
-
-  - Edit messages within hubs
-  - Translating messages (and much more on the way!)
-
-  We deeply appreciate your unwavering support. Thank you! 🙏
+vote:
+  description: |
+    ## Vote for InterChat
+    By voting you support us by helping InterChat rank higher on searches. It takes only a couple of clicks but helps us tremendously. We deeply appreciate your vote, each one counts!
+  footer: Thank you for helping InterChat grow!
 network:
   accountTooNew: '{emoji} {user} Your account is too new to send messages using InterChat. Please try again later.'
   deleteSuccess: '{emoji} Message by {user} has been deleted from __**{deleted}/{total}**__ servers.'
   editSuccess: '{emoji} Message by {user} has been edited in __**{edited}/{total}**__ servers.'
   welcome: |
-    {user} Welcome to **{hub}**! {emoji}
+    {emoji} {user} Welcome to the **{hub}** hub! Your message has been shared to **{totalServers}** other servers!
 
-    Messages sent in {channel} will be shared with other servers, **enabling effortless communication**. You can share images, GIFs, reply, react, and interact with messages as you normally would. Just remember to avoid sharing personal info (check {rules_command} for more). Ready to jump in? Send your first message and join the conversation!
+    This channel, {channel} has been setup so you can chat with people from other servers! You can share images, GIFs, add reactions, edit messages, and more. Become more proficient at using InterChat by checking out our simple [guide](https://docs.interchat.fun/messaging )!
+
+    *Note: Never share any personal information and follow the {rules_command}. Remember, what you share here is your responsibility. Have a great time! 🚀*
   nsfw:
     title: NSFW Detected
     description: I have detected {predictions} NSFW (Not Safe For Work) content in your message. Please be aware that this is against our {rules_command} and will result in immediate blacklist.
@@ -117,7 +114,6 @@ msgInfo:
   user:
     description: |
       ## {username}
-      __{user}__
 
       **ID:**
       __{id}__
@@ -235,7 +231,7 @@ hub:
 
         - **Join using:** `/hub join invite:{inviteCode}`
         - **View invites:** `/hub invite list`
-        - **Expiry :** {expiry}
+        - **Expiry:** {expiry}
         - **Uses**: ∞
 
         __Learn more about hubs in our [guide]({docs_link}).__.
@@ -373,7 +369,7 @@ errors:
   botMissingPermissions: '{emoji} Please grant me the following permissions to continue: **{permissions}**'
   unknown: '{emoji} An unknown error occurred. Please try again later or contact us by joining our [support server]({support_invite}).'
   notUsable: '{emoji} This is no longer usable.'
-  cooldown: '{emoji} You are on cooldown. Please wait **{time}** before attempting again.'
+  cooldown: '{emoji} You are on cooldown. Please wait until **{time}** before attempting again.'
 misc:
   noReason: No reason provided.
   noDesc: No Description.
