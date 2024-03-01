@@ -10,24 +10,19 @@ rules: |
   7. **Bedenken hinsichtlich:** Wenn Sie einen Verstoß gegen diese Regeln beobachten, melden Sie sie für weitere Maßnahmen dem entsprechenden Hub -Moderator oder dem Austauschpersonal.
 
   Irgendwelche Fragen? Schließen Sie sich unserem [Support Server] bei ({support_invite}).
-vote: |
-  ## 🗳️ Stimmen Sie für den Austausch und genießen Sie exklusive Vorteile
-  Ihr Beitrag ist von unschätzbarem Wert, wenn der Austausch von der Position oben an der Spitze erhöht wird. Jede Stimme macht einen erheblichen Unterschied!
-
-  Als wir uns für Ihre Unterstützung bedankt, sind wir begeistert, Ihnen exklusive Vorteile zu bieten. Indem Sie Ihre Stimme für den Austausch abgeben, werden Sie freigeschaltet:
-
-  - Nachrichten in Hubs bearbeiten
-  - Nachrichten übersetzen (und vieles mehr unterwegs!)
-
-  Wir schätzen Ihre unerschütterliche Unterstützung zutiefst. Danke schön! 🙏
+vote:
+  description: |
+    ## Abstimmung für den Austausch
+    Indem Sie uns stimmen, unterstützen Sie uns, indem Sie den Austausch bei der Suche bei den Suchanfragen verbessern. Es dauert nur ein paar Klicks, hilft uns aber enorm. Wir schätzen Ihre Stimme zutiefst, von denen jeder zählt!
+  footer: Vielen Dank, dass Sie den Austausch beim Wachstum beim Wachstum geholfen haben!
 network:
   accountTooNew: '{emoji} {user} Ihr Konto ist zu neu, um Nachrichten mit dem Austausch zu senden. Bitte versuchen Sie es später erneut.'
   deleteSuccess: '{emoji} Nachricht von {user} wurde aus __**{deleted}/{total}**__ -Server gelöscht.'
   editSuccess: '{emoji} Nachricht von {user} wurde in __**{edited}/{total}**__ -Server bearbeitet.'
   welcome: |
-    {user} Willkommen bei **{hub}**! {emoji}
+    {emoji} Willkommen bei **{user}**! {hub}
 
-    Nachrichten, die in {channel} gesendet werden, werden mit anderen Servern gemeinsam genutzt, **Aktivieren müheloser Kommunikation**. Sie können Bilder, GIFs, antworten, reagieren und interagieren mit Nachrichten, wie Sie es normalerweise tun würden. Denken Sie nur daran, persönliche Informationen zu teilen (prüfen Sie, ob Sie {rules_command} für mehr). Bereit ein Springen? Senden Sie Ihre erste Nachricht und schließen Sie sich dem Gespräch an!
+    Nachrichten, die in {totalServers} gesendet werden, werden mit anderen Servern gemeinsam genutzt, **Aktivieren müheloser Kommunikation**. Sie können Bilder, GIFs, antworten, reagieren und interagieren mit Nachrichten, wie Sie es normalerweise tun würden. Denken Sie nur daran, persönliche Informationen zu teilen (prüfen Sie, ob Sie {channel} für mehr). Bereit ein Springen? Senden Sie Ihre erste Nachricht und schließen Sie sich dem Gespräch an!
   nsfw:
     title: NSFW erkannt
     description: Ich habe {predictions} NSFW (nicht sicher für die Arbeit) in Ihrer Nachricht festgestellt. Bitte beachten Sie, dass dies gegen unsere {rules_command} ist und zu einer sofortigen Blacklist führt.
@@ -117,19 +112,19 @@ msgInfo:
   user:
     description: |
       ## {username}
-      __{user}__
-
-      **AUSWEIS:**
       __{id}__
 
+      **AUSWEIS:**
+      __{createdAtFull}__
+
       **Erstellt:**
-      {createdAtFull} ({createdAt})
+      {createdAt} ({globalName})
 
       **Anzeigename:**
-      __{globalName}__
+      __{hubsOwned}__
 
       **Hubs im Besitz:**
-      __{hubsOwned}__
+      ____
   report:
     notEnabled: '{emoji} Die Berichterstattung ist für diesen Hub nicht aktiviert.'
     success: '{emoji} Bericht erfolgreich eingereicht. Danke schön!'
