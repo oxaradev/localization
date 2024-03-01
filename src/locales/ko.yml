@@ -11,9 +11,9 @@ rules: |
 
   질문이 있으신가요? 지원 서버]({support_invite})에 참여하세요.
 vote:
-  description: |-
-    ## Interchat에 대한 투표 
-     투표함으로써 당신은 검색에서 인터 chat의 순위가 높아짐에 따라 우리를 지원합니다. 몇 번의 클릭 만 필요하지만 우리를 엄청나게 도와줍니다. 우리는 당신의 투표에 깊이 감사합니다.
+  description: |
+    ## Interchat에 대한 투표
+    투표함으로써 당신은 검색에서 인터 chat의 순위가 높아짐에 따라 우리를 지원합니다. 몇 번의 클릭 만 필요하지만 우리를 엄청나게 도와줍니다. 우리는 당신의 투표에 깊이 감사합니다.
   footer: Interchat의 성장을 도와 주셔서 감사합니다!
 network:
   accountTooNew: '{emoji} {user} 계정이 너무 새 계정이라 인터챗을 사용하여 메시지를 보낼 수 없습니다. 나중에 다시 시도해 주세요.'
@@ -157,7 +157,7 @@ connection:
       profanity: 욕설 필터
     footer: 아래 버튼 및 드롭다운을 사용하여 연결을 관리하세요.
   selects:
-    placeholder: 🛠️ 아래 옵션을 선택하여 연결을 관리하세요.
+    placeholder: '🛠️ 아래 옵션을 선택하여 연결을 관리하세요.'
 hub:
   notFound: '{emoji} 허브를 찾을 수 없습니다. 허브 이름을 올바르게 입력했는지 확인하세요.'
   notFound_mod: '{emoji} 허브를 찾을 수 없습니다. 올바른 허브 이름을 입력했는지, 허브의 소유자 또는 중재자인지 확인하세요.'
@@ -214,7 +214,7 @@ hub:
   browse:
     joinConfirm: |
       채널}}}에서 {hub}에 가입하시겠습니까?
-          
+
       **참고:** 나중에 `/연결`을 사용하여 언제든지 변경할 수 있습니다.
     joinFooter: 다른 채널을 사용하고 싶으신가요? 아래 드롭다운을 사용하세요.
     noHubs: '{emoji} 현재 여기에 나열된 허브가 없습니다. 나중에 다시 시도해 주세요!'
@@ -302,7 +302,7 @@ hub:
       roleSuccess: '{emoji} 이제 `{type}` 유형의 로그에 {role}이 언급됩니다!'
       channelSuccess: '{emoji} 이제부터 `{type}` 타입의 로그가 {channel}로 전송됩니다!'
       channelSelect: '#️⃣ 구성할 로그 유형을 선택합니다.'
-      roleSelect: 🏓 로그가 트리거될 때 언급할 역할을 선택합니다.
+      roleSelect: '🏓 로그가 트리거될 때 언급할 역할을 선택합니다.'
       reportChannelFirst: '{emoji} 먼저 로그 채널을 설정하세요.'
       config:
         title: 유형}}}` 로그 구성하기
@@ -337,7 +337,7 @@ report:
       input2:
         label: 상세 설명(선택 사항)
         placeholder: 수행한 단계. 예. 1. 실행 / 도움말 2. 5초간 대기...
-  submitted: 보고서가 제출되었습니다. 지원 서버]({emoji})**에 가입하여 신고에 대한 업데이트를 받으세요.
+  submitted: '보고서가 제출되었습니다. 지원 서버]({emoji})**에 가입하여 신고에 대한 업데이트를 받으세요.'
   bug:
     title: 버그 신고
     affected: 영향을 받는 구성 요소

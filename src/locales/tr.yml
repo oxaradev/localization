@@ -11,9 +11,9 @@ rules: |
 
   Herhangi bir sorunuz var mı? Destek sunucumuza]({support_invite}) katılın.
 vote:
-  description: |-
-    ## İnterchat için oy verin 
-     Oylama yaparak, aramalarda daha yüksek rütbeye yardımcı olarak bizi desteklersiniz. Sadece birkaç tıklama alır ama bize çok yardımcı olur. Oyunuzu derinden takdir ediyoruz, her biri önemlidir!
+  description: |
+    ## İnterchat için oy verin
+    Oylama yaparak, aramalarda daha yüksek rütbeye yardımcı olarak bizi desteklersiniz. Sadece birkaç tıklama alır ama bize çok yardımcı olur. Oyunuzu derinden takdir ediyoruz, her biri önemlidir!
   footer: İnterchat'in büyümesine yardımcı olduğunuz için teşekkür ederiz!
 network:
   accountTooNew: '{emoji} {user} Hesabınız InterChat kullanarak mesaj göndermek için çok yeni. Lütfen daha sonra tekrar deneyin.'
@@ -29,7 +29,7 @@ network:
     footer: Lütfen AI'nın mükemmel olmadığını ve hata yapabileceğini unutmayın. Verdiğimiz rahatsızlıktan dolayı özür dileriz.
   onboarding:
     embed:
-      title: 👋 Merhaba, {hubName}'e hoş geldiniz!
+      title: '👋 Merhaba, {hubName}''e hoş geldiniz!'
       description: |
         İşleri düzenli tutmak için, sadece bu hub için ayrı bir kanal kullanmanız önerilir. Ancak endişelenmeyin, bunu daha sonra her zaman değiştirebilirsiniz.
 
@@ -157,7 +157,7 @@ connection:
       profanity: Küfür Filtresi
     footer: Bağlantınızı yönetmek için aşağıdaki düğmeyi ve açılır menüyü kullanın.
   selects:
-    placeholder: 🛠️ Bağlantınızı yönetmek için aşağıdaki seçeneklerden birini seçin.
+    placeholder: '🛠️ Bağlantınızı yönetmek için aşağıdaki seçeneklerden birini seçin.'
 hub:
   notFound: '{emoji} Hub bulunamıyor. Lütfen doğru hub adını girdiğinizden emin olun.'
   notFound_mod: '{emoji} Hub bulunamıyor. Lütfen doğru hub adını girdiğinizden ve hub''ın sahibi veya moderatörü olduğunuzdan emin olun.'
@@ -214,7 +214,7 @@ hub:
   browse:
     joinConfirm: |
       {hub}'dan {channel}'a katılmak istediğinizden emin misiniz?
-          
+
       **Not:** Bunu daha sonra `/connection` kullanarak her zaman değiştirebilirsiniz.
     joinFooter: Farklı bir kanal mı kullanmak istiyorsunuz? Aşağıdaki açılır menüyü kullanın.
     noHubs: '{emoji} Şu anda burada listelenen hiçbir merkez yok. Lütfen daha sonra tekrar deneyin!'
@@ -302,7 +302,7 @@ hub:
       roleSuccess: '{emoji} {type}` türündeki günlükler artık {role}''den bahsedecek!}'
       channelSuccess: '{emoji} Şu andan itibaren `{type}` türündeki günlükler {channel} adresine gönderilecektir!'
       channelSelect: '#️⃣ Yapılandırılacak günlük türünü seçin.'
-      roleSelect: 🏓 Bir günlük tetiklendiğinde bahsedilecek rolü seçin.
+      roleSelect: '🏓 Bir günlük tetiklendiğinde bahsedilecek rolü seçin.'
       reportChannelFirst: '{emoji} Lütfen önce bir günlük kanalı ayarlayın.'
       config:
         title: '{type} Günlüklerini Yapılandırma'
@@ -337,7 +337,7 @@ report:
       input2:
         label: Detaylı Açıklama (Opsiyonel)
         placeholder: Attığınız adımlar. Örn. 1. 2. /help komutunu çalıştırın. 5 saniye bekleyin...
-  submitted: Rapor gönderildi. Raporunuzla ilgili güncellemeleri almak için **[destek sunucusuna]({emoji})** katılın.
+  submitted: 'Rapor gönderildi. Raporunuzla ilgili güncellemeleri almak için **[destek sunucusuna]({emoji})** katılın.'
   bug:
     title: Hata Raporu
     affected: Etkilenen Bileşenler
