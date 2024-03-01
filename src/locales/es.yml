@@ -10,24 +10,19 @@ rules: |
   7. **Reporte los problemas:** Si observa una violación de estas reglas, repórtalo al moderador del centro apropiado o al personal de InterChat para nuevas acciones.
 
   ¿Alguna pregunta? Únete a nuestro [servidor de soporte]({support_invite}).
-vote: |
-  ## 🗳️ Vota por InterChat y disfruta de ventajas exclusivas
-  Su contribución es invaluable para elevar la posición de InterChat en top.gg. ¡Todos y cada uno de los votos marcan una diferencia significativa!
-
-  Como nuestra forma de expresar su gratitud por su apoyo, estamos encantados de ofrecerle ventajas exclusivas. Al emitir su voto por InterChat, desbloqueará:
-
-  - Editar mensajes dentro de los centros
-  - Traducir mensajes (¡y mucho más en el camino!)
-
-  Apreciamos profundamente su inquebrantable apoyo. ¡Gracias! 🙏
+vote:
+  description: |
+    ## Vote por Interchat
+    Al votar, nos apoya ayudando a Interchat a clasificar más alto en las búsquedas. Solo toma un par de clics pero nos ayuda enormemente. ¡Apreciamos profundamente su voto, cada uno cuenta!
+  footer: '¡Gracias por ayudar a Interchat a crecer!'
 network:
   accountTooNew: '{emoji} {user} Su cuenta es demasiado nueva para enviar mensajes usando InterChat. Por favor, inténtelo de nuevo más tarde.'
   deleteSuccess: '{emoji} El mensaje de {user} se ha eliminado de __**{deleted} de {total}**__ servidores.'
   editSuccess: '{emoji} El mensaje de {user} se ha editado en __**{edited} de {total}**__ servidores.'
   welcome: |
-    {user} Bienvenido a **{hub}**! {emoji}
+    {emoji} Bienvenido a **{user}**! {hub}
 
-    Los mensajes enviados en {channel} se compartirán con otros servidores, **habilitando la comunicación sin esfuerzo**. Puede compartir imágenes, GIF, responder, reaccionar e interactuar con los mensajes como lo haría normalmente. Solo recuerde evitar compartir información personal (revise {rules_command} para más). ¿Listo para entrar? ¡Envía tu primer mensaje y únete a la conversación!
+    Los mensajes enviados en {totalServers} se compartirán con otros servidores, **habilitando la comunicación sin esfuerzo**. Puede compartir imágenes, GIF, responder, reaccionar e interactuar con los mensajes como lo haría normalmente. Solo recuerde evitar compartir información personal (revise {channel} para más). ¿Listo para entrar? ¡Envía tu primer mensaje y únete a la conversación!
   nsfw:
     title: NSFW detectado
     description: He detectado {predictions} contenido NSFW (no seguro para el trabajo) su mensaje. Tenga en cuenta que esto está en contra de nuestras {rules_command} y dará como resultado una lista negra inmediata.
@@ -117,19 +112,19 @@ msgInfo:
   user:
     description: |
       ## {username}
-      __{user}__
-
-      **Identificador:**
       __{id}__
 
+      **Identificador:**
+      __{createdAtFull}__
+
       **Creado:**
-      {createdAtFull} ({createdAt})
+      {createdAt} ({globalName})
 
       **Nombre:**
-      __{globalName}__
+      __{hubsOwned}__
 
       **Centros en propiedad:**
-      __{hubsOwned}__
+      ____
   report:
     notEnabled: '{emoji} Este centro no tiene habilitado la acción de reportar.'
     success: '{emoji} Reporte enviado correctamente. ¡Gracias!'
