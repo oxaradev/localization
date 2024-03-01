@@ -10,24 +10,19 @@ rules: |
   7. **Si vous observez une violation de ces règles, signalez-la au modérateur approprié du hub ou au personnel d'InterChat pour qu'il prenne les mesures qui s'imposent.
 
   Vous avez des questions ? Rejoignez notre [serveur d'assistance]({support_invite}).
-vote: |
-  ## 🗳️ Votez pour InterChat et profitez d'avantages exclusifs
-  Votre contribution est inestimable pour élever la position d'InterChat sur Top.gg. Chaque vote fait la différence !
-
-  Pour vous remercier de votre soutien, nous sommes ravis de vous offrir des avantages exclusifs. En votant pour InterChat, vous débloquerez :
-
-  - Modifier les messages dans les hubs
-  - Traduire les messages (et bien plus encore !)
-
-  Nous apprécions grandement votre soutien indéfectible. Nous vous remercions ! 🙏
+vote:
+  description: |
+    ## Votez pour Interchat
+    En voté, vous nous soutenez en aidant à interdire un rang plus haut sur les recherches. Il ne faut que quelques clics mais nous aide énormément. Nous apprécions profondément votre vote, chacun compte!
+  footer: Merci d'avoir aidé Interchat à grandir!
 network:
   accountTooNew: '{emoji} {user} Votre compte est trop récent pour envoyer des messages via InterChat. Veuillez réessayer plus tard.'
   deleteSuccess: '{emoji} Le message de {user} a été supprimé des serveurs __**{deleted}/{total}**__.'
   editSuccess: '{emoji} Le message de {user} a été édité dans __**{edited}/{total}**__ serveurs.'
   welcome: |
-    {user} Bienvenue sur **{hub}** ! {emoji}
+    {emoji} Bienvenue sur **{user}** ! {hub}
 
-    Les messages envoyés dans {channel} seront partagés avec d'autres serveurs, **permettant une communication sans effort**. Vous pouvez partager des images, des GIF, répondre, réagir et interagir avec les messages comme vous le feriez normalement. N'oubliez pas d'éviter de partager des informations personnelles (consultez {rules_command} pour en savoir plus). Prêt à vous lancer ? Envoyez votre premier message et participez à la conversation !
+    Les messages envoyés dans {totalServers} seront partagés avec d'autres serveurs, **permettant une communication sans effort**. Vous pouvez partager des images, des GIF, répondre, réagir et interagir avec les messages comme vous le feriez normalement. N'oubliez pas d'éviter de partager des informations personnelles (consultez {channel} pour en savoir plus). Prêt à vous lancer ? Envoyez votre premier message et participez à la conversation !
   nsfw:
     title: NSFW détecté
     description: J'ai détecté {predictions} un contenu NSFW (Not Safe For Work) dans votre message. Sachez que cela est contraire à nos {rules_command} et que cela entraînera une mise sur liste noire immédiate.
@@ -39,7 +34,7 @@ network:
         Pour garder les choses organisées, il est recommandé d'utiliser un canal séparé uniquement pour ce hub. Mais ne vous inquiétez pas, vous pouvez toujours changer cela plus tard.
 
         **Le réseau InterChat est comme un pont magique qui relie les canaux sur différents serveurs qui sont avec nous dans ce hub. Pour en savoir plus, consultez notre [guide]({docs_link}).
-      footer: Réseau InterChat | Version {version}
+      footer: InterChat Network | Version {version}
     inProgress: Il y a déjà eu une tentative de rejoindre un hub de {channel}. Veuillez l'annuler ou attendre qu'elle se termine.
 blacklist:
   button:
@@ -65,18 +60,18 @@ blacklist:
     unknownError: Échec de la mise sur liste noire de **{server}**. Renseignez-vous auprès des développeurs pour plus d'informations.
   list:
     user: |
-      **Identifiant utilisateur:** {userId}
-      **Modérateur:** {moderator}
-      **Raison:** {reason}
+      **UserID:** {userId}
+      **Moderator:** {moderator}
+      **Reason:** {reason}
       **Expires:** {expires}
     server: |
       **ServerId:** {serverId}
-      **Modérateur:** {moderator}
-      **Raison:** {reason}
+      **Moderator:** {moderator}
+      **Reason:** {reason}
       **Expires:** {expires}
 msgInfo:
   buttons:
-    message: Informations sur le message
+    message: Message Info
     server: Informations sur le serveur
     user: Informations sur l'utilisateur
     report: Rapport
@@ -103,33 +98,33 @@ msgInfo:
       ## {server}
       {description}
 
-      **Propriétaire :**
+      **Owner:**
       __{owner}__
 
-      **Créé :**
+      **Created:**
       __{createdAtFull} ({createdAt})__
 
-      **Nombre de Membres :**
+      **Member Count:**
       __{memberCount}__
 
-      **Invitation :**
+      **Invite:**
       __{invite}__
   user:
     description: |
       ## {username}
-      __{user}__
+      __{id}__
 
       **ID:**
-      __{id}
+      __{createdAtFull}
 
       **Created:**
-      {createdAtFull} ({createdAt})
+      {createdAt} ({globalName})
 
       **Display Name:**
-      __{globalName}__
+      __{hubsOwned}__
 
       **Hubs Owned:**
-      __{hubsOwned}__
+      ____
   report:
     notEnabled: '{emoji} Les rapports ne sont pas activés pour ce hub.'
     success: '{emoji} Rapport soumis avec succès. Nous vous remercions !'
@@ -153,7 +148,7 @@ connection:
     title: Détails de la connexion
     description: Sélectionnez une option ci-dessous pour gérer votre connexion.
     fields:
-      hub: Centre central
+      hub: Hub
       channel: Chaîne
       invite: Invitation
       connected: Connecté
@@ -187,7 +182,7 @@ hub:
         label: Nom du Hub
         placeholder: Saisissez un nom pour votre concentrateur.
       description:
-        label: Libellé
+        label: Description
         placeholder: Saisissez une description de votre concentrateur.
       icon:
         label: URL de l'icône
@@ -282,7 +277,7 @@ hub:
       changed: La description du hub a été modifiée avec succès.
       modal:
         title: Modifier la description
-        label: Libellé
+        label: Description
         placeholder: Saisissez une description pour ce concentrateur.
       selects:
         label: Modifier la description
