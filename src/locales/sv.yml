@@ -10,24 +10,19 @@ rules: |
   7. **Rapportera problem:** Om du observerar ett brott mot dessa regler, rapportera det till lämplig navmodator eller interchat -personal för ytterligare åtgärder.
 
   Några frågor? Gå med i vår [supportserver]({support_invite}).
-vote: |
-  ## 🗳 Rösta för interchat och njut av exklusiva förmåner
-  Ditt bidrag är ovärderligt för att höja InterChats position på topp.g. Varje röst gör en betydande skillnad!
-
-  Som vårt sätt att uttrycka tacksamhet för ditt stöd är vi glada över att erbjuda dig exklusiva fördelar. Genom att avge din röst för InterChat låser du upp:
-
-  - Redigera meddelanden i naven
-  - Översätt meddelanden (och mycket mer på vägen!)
-
-  Vi uppskattar djupt ditt oöverträffade stöd. Tack! 🙏
+vote:
+  description: |
+    ## Rösta för Interchat
+    Genom att rösta stöder du oss genom att hjälpa Interchat att rankas högre på sökningar. Det tar bara ett par klick men hjälper oss enormt. Vi uppskattar djupt din röst, var och en räknas!
+  footer: Tack för att du hjälpte Interchat att växa!
 network:
   accountTooNew: '{emoji} {user} Ditt konto är för nytt för att skicka meddelanden med interchat. Vänligen försök igen senare.'
   deleteSuccess: '{emoji} Meddelande av {user} har tagits bort från __**{deleted}/{total}**__ -servrar.'
   editSuccess: '{emoji} Meddelande av {user} har redigerats i __**{edited}/{total}**__ -servrar.'
   welcome: |
-    {user} Välkommen till **{hub}**! {emoji}
+    {emoji} Välkommen till **{user}**! {hub}
 
-    Meddelanden som skickas in {channel} kommer att delas med andra servrar, **Aktivera enkel kommunikation**. Du kan dela bilder, gifs, svara, reagera och interagera med meddelanden som du normalt skulle göra. Kom bara ihåg att undvika att dela personlig information (kolla {rules_command} för mer). Redo att hoppa in? Skicka ditt första meddelande och gå med i konversationen!
+    Meddelanden som skickas in {totalServers} kommer att delas med andra servrar, **Aktivera enkel kommunikation**. Du kan dela bilder, gifs, svara, reagera och interagera med meddelanden som du normalt skulle göra. Kom bara ihåg att undvika att dela personlig information (kolla {channel} för mer). Redo att hoppa in? Skicka ditt första meddelande och gå med i konversationen!
   nsfw:
     title: NSFW upptäckt
     description: Jag har upptäckt {predictions} NSFW (inte säkert för arbete) i ditt meddelande. Tänk på att detta är emot vår {rules_command} och kommer att resultera i omedelbar svartlista.
@@ -117,19 +112,19 @@ msgInfo:
   user:
     description: |
       ## {username}
-      __{user}__
-
-      **ID:**
       __{id}__
 
+      **ID:**
+      __{createdAtFull}__
+
       **Skapad:**
-      {createdAtFull} ({createdAt})
+      {createdAt} ({globalName})
 
       **Visa namn:**
-      __{globalName}__
+      __{hubsOwned}__
 
       **Hubs ägs:**
-      __{hubsOwned}__
+      ____
   report:
     notEnabled: '{emoji} Rapportering är inte aktiverad för detta nav.'
     success: '{emoji} Rapport skickas framgångsrikt. Tack!'
