@@ -106,8 +106,7 @@ const main = async () => {
 
 			try {
 				rootFileObject = yaml.load(rootFileContent);
-			}
-			catch (error: any) {
+			} catch (error: any) {
 				translatorError(
 					`[main] The content in the root file ${rootFilePath} is not a valid yml object: ${error.message}`,
 				);
@@ -151,8 +150,7 @@ const main = async () => {
 
 				try {
 					fileObject = yaml.load(fileContent);
-				}
-				catch (error: any) {
+				} catch (error: any) {
 					throw new Error(
 						`[${rootLangCodeFilename} => ${langCodeFilename}] Error loading YAML content in ${filePath}: ${error.message}`,
 					);
@@ -192,8 +190,7 @@ const main = async () => {
 				`${colors.green('All translated')} - Made by tnfAngel and LautyDev`,
 			);
 		}
-	}
-	catch (error: any) {
+	} catch (error: any) {
 		console.error(`An error occurred: ${error.message}`);
 		console.error(error.stack);
 	}
@@ -230,8 +227,7 @@ const translateString = async (
 		);
 
 		translationResult = formatString(text, rootText);
-	}
-	else {
+	} else {
 		debug(
 			`[${colors.blue(fromLangCodeFilename)} => ${colors.blue(
 				toLangCodeFilename,
@@ -276,8 +272,7 @@ const deepArray = (
 	for (const value of array) {
 		if (iteration === 0) {
 			rootObjPath.push(`[${iteration}]`);
-		}
-		else {
+		} else {
 			rootObjPath.splice(rootObjPath.length - 1, 1);
 			rootObjPath.push(`[${iteration}]`);
 		}
@@ -336,8 +331,7 @@ const translateObject = async <
 	for (const [key, value] of entries) {
 		if (iteration === 0) {
 			rootObjPath.push(`['${key}']`);
-		}
-		else {
+		} else {
 			rootObjPath.splice(rootObjPath.length - 1, 1);
 			rootObjPath.push(`['${key}']`);
 		}
@@ -382,8 +376,7 @@ const translateArray = async <TArray, RObject extends Record<string, any>>(
 	for (const value of array) {
 		if (iteration === 0) {
 			rootObjPath.push(`[${iteration}]`);
-		}
-		else {
+		} else {
 			rootObjPath.splice(rootObjPath.length - 1, 1);
 			rootObjPath.push(`[${iteration}]`);
 		}
@@ -486,8 +479,7 @@ const deepObject = (
 	for (const [key, value] of entries) {
 		if (iteration === 0) {
 			rootObjPath.push(`['${key}']`);
-		}
-		else {
+		} else {
 			rootObjPath.splice(rootObjPath.length - 1, 1);
 			rootObjPath.push(`['${key}']`);
 		}
