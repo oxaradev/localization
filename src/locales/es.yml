@@ -14,7 +14,7 @@ vote:
   description: |
     ## Vote por Interchat
     Al votar, nos apoya ayudando a Interchat a clasificar más alto en las búsquedas. Solo toma un par de clics pero nos ayuda enormemente. ¡Apreciamos profundamente su voto, cada uno cuenta!
-  footer: '¡Gracias por ayudar a Interchat a crecer!'
+  footer: ¡Gracias por ayudar a Interchat a crecer!
 network:
   accountTooNew: '{emoji} {user} Su cuenta es demasiado nueva para enviar mensajes usando InterChat. Por favor, inténtelo de nuevo más tarde.'
   deleteSuccess: '{emoji} El mensaje de {user} se ha eliminado de __**{deleted} de {total}**__ servidores.'
@@ -29,7 +29,7 @@ network:
     footer: Tenga en cuenta que la IA no es perfecta y puede cometer errores. Nos disculpamos por cualquier inconveniente causado.
   onboarding:
     embed:
-      title: '👋 ¡Hola, bienvenido a {hubName}!'
+      title: 👋 ¡Hola, bienvenido a {hubName}!
       description: |
         Para mantener las cosas organizadas, se recomienda usar un canal separado solo para este centro. Pero no se preocupe, siempre puede cambiar esto más tarde.
 
@@ -157,7 +157,7 @@ connection:
       profanity: Filtro de blasfemias
     footer: Use el botón y el menú desplegable a continuación para administrar su conexión.
   selects:
-    placeholder: '🛠️ Seleccione una opción a continuación para administrar su conexión.'
+    placeholder: 🛠️ Seleccione una opción a continuación para administrar su conexión.
 hub:
   notFound: '{emoji} No se puede encontrar HUB. Asegúrese de haber ingresado el nombre correcto del concentrador.'
   notFound_mod: '{emoji} No se puede encontrar HUB. Asegúrese de haber ingresado el nombre correcto del concentrador y de que usted sea el propietario o un moderador del Hub.'
@@ -165,7 +165,7 @@ hub:
   invalidChannel: '{emoji} El canal no es válido. ¡Solo se admiten los canales de texto y hilo!'
   invalidImgurUrl: '{emoji} URL de imagen no válida para icono o banner. Asegúrese de haber ingresado una URL de imagen de Imgur válida que no es una galería o álbum.'
   join:
-    success: '¡Te has unido al Hub **{hub}** de {channel}! Use `/Connection` para administrar su conexión. Y `/Hub Leave` para dejar el centro.'
+    success: ¡Te has unido al Hub **{hub}** de {channel}! Use `/Connection` para administrar su conexión. Y `/Hub Leave` para dejar el centro.
   servers:
     total: 'Servidores conectados actuales: {from}-{to} / **{total}**'
     noConnections: '{emoji} Ningún servidor se ha unido a este centro todavía. Use `/Hub Join` para unirse a este centro.'
@@ -207,7 +207,7 @@ hub:
 
       Obtenga más información sobre los centros en nuestra [Guía]({docs_link}). Une el [servidor de soporte]({support_invite}) para obtener ayuda.
   delete:
-    confirm: '¿Estás seguro de que desea eliminar **{hub}**? Esta acción es irreversible. Todos los servidores conectados, invitaciones y datos de mensajes se eliminarán de este centro.'
+    confirm: ¿Estás seguro de que desea eliminar **{hub}**? Esta acción es irreversible. Todos los servidores conectados, invitaciones y datos de mensajes se eliminarán de este centro.
     ownerOnly: '{emoji} Solo el propietario de este centro puede eliminarlo.'
     success: '{emoji} Hub **{hub}** ha sido eliminado.'
     cancelled: '{emoji} La eliminación de concentración ha sido cancelada.'
@@ -216,7 +216,7 @@ hub:
       ¿Estás seguro de que deseas unirte {hub} de {channel}?
 
       **Nota:** Siempre puede cambiar esto más tarde usando `/Connection`.
-    joinFooter: '¿Quieres usar un canal diferente? Use el menú desplegable a continuación.'
+    joinFooter: ¿Quieres usar un canal diferente? Use el menú desplegable a continuación.
     noHubs: '{emoji} No hay centros enumerados aquí en este momento. ¡Por favor, inténtelo de nuevo más tarde!'
     rating:
       invalid: Calificación no válida. Debe ingresar un número entre 1 y 5.
@@ -246,7 +246,7 @@ hub:
     joinedHubs: Este servidor es parte de **{total}** Hub(s). Use `/Hub Leave` para dejar un centro.
   leave:
     noHub: '{emoji} ese canal no es válido o no ha unido ningún centro.'
-    confirm: '¿Estás seguro de que deseas dejar **{hub}** de {channel}? No se enviarán más mensajes a este servidor desde este centro.'
+    confirm: ¿Estás seguro de que deseas dejar **{hub}** de {channel}? No se enviarán más mensajes a este servidor desde este centro.
     confirmFooter: Confirme usando el botón a continuación en 10 segundos.
     success: '{emoji} dejó el concentrador de {channel}. No se enviarán más mensajes a este servidor desde este centro. Puede reunirse usando `/Hub Join`.'
   moderator:
@@ -302,7 +302,7 @@ hub:
       roleSuccess: '{emoji} registros de tipo `{type}` ahora mencionará {role}!'
       channelSuccess: '{emoji} registros de tipo `{type}` se enviará a {channel} de ahora!'
       channelSelect: '#️⃣ Seleccione el tipo de registro para configurar.'
-      roleSelect: '🏓 Seleccione el papel a mencionar cuándo se activa un registro.'
+      roleSelect: 🏓 Seleccione el papel a mencionar cuándo se activa un registro.
       reportChannelFirst: '{emoji} Establezca primero un canal de registro.'
       config:
         title: Configurar `{type}` registra
@@ -337,13 +337,13 @@ report:
       input2:
         label: Descripción detallada (opcional)
         placeholder: Pasos que tomaste. P.ej. 1. Corre /ayuda 2. espera 5 segundos ...
-  submitted: 'Informe enviado. Únase al **[Servidor de soporte]({emoji})** para obtener actualizaciones en su informe.'
+  submitted: Informe enviado. Únase al **[Servidor de soporte]({emoji})** para obtener actualizaciones en su informe.
   bug:
     title: Informe de error
     affected: Componentes afectados
     description: Elija qué componente del bot con el que enfrenta problemas.
 language:
-  set: '¡Sé de idiomas! Ahora te responderé en **{lang}**.'
+  set: ¡Sé de idiomas! Ahora te responderé en **{lang}**.
 errors:
   messageNotSentOrExpired: '{emoji} Este mensaje no se envió en un centro, ha expirado o le falta permisos para realizar esta acción.'
   notYourAction: '{emoji} Lo siento, no puedes realizar esta acción. Por favor ejecute el comando usted mismo.'

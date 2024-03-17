@@ -29,7 +29,7 @@ network:
     footer: Houd er rekening mee dat AI niet perfect is en fouten kan maken. Onze excuses voor het ongemak.
   onboarding:
     embed:
-      title: '👋 Hé daar, welkom bij {hubName}!'
+      title: 👋 Hé daar, welkom bij {hubName}!
       description: |
         Om dingen georganiseerd te houden, wordt het aanbevolen om een apart kanaal te gebruiken voor alleen deze hub. Maar maak je geen zorgen, je kunt dit altijd later veranderen.
 
@@ -157,7 +157,7 @@ connection:
       profanity: Godsdienstfilter
     footer: Gebruik de knop en de vervolgkeuzelijst hieronder om uw verbinding te beheren.
   selects:
-    placeholder: '🛠️ Selecteer hieronder een optie om uw verbinding te beheren.'
+    placeholder: 🛠️ Selecteer hieronder een optie om uw verbinding te beheren.
 hub:
   notFound: '{emoji} kan hub niet vinden. Zorg ervoor dat u de juiste hubnaam hebt ingevoerd.'
   notFound_mod: '{emoji} kan hub niet vinden. Zorg ervoor dat u de juiste hubnaam hebt ingevoerd en dat u de eigenaar of een moderator van de hub bent.'
@@ -302,7 +302,7 @@ hub:
       roleSuccess: '{emoji} logs van type `{type}` zal nu {role} vermelden!'
       channelSuccess: '{emoji} logs van type `{type}` worden vanaf nu naar {channel} verzonden!'
       channelSelect: '#️⃣ Selecteer het type logboek om te configureren.'
-      roleSelect: '🏓 Selecteer de rol om te vermelden wanneer een logboek wordt geactiveerd.'
+      roleSelect: 🏓 Selecteer de rol om te vermelden wanneer een logboek wordt geactiveerd.
       reportChannelFirst: '{emoji} Stel eerst een logkanaal in.'
       config:
         title: Configureer `{type}` logs
@@ -337,7 +337,7 @@ report:
       input2:
         label: Gedetailleerde beschrijving (optioneel)
         placeholder: Stappen die u heeft genomen. Bijv. 1. Run /Help 2. Wacht 5 seconden ...
-  submitted: 'Ingediend rapport. Word lid van de **[Support Server]({emoji})** Om updates over uw rapport te krijgen.'
+  submitted: Ingediend rapport. Word lid van de **[Support Server]({emoji})** Om updates over uw rapport te krijgen.
   bug:
     title: Bug report
     affected: Aangetaste componenten

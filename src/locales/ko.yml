@@ -157,7 +157,7 @@ connection:
       profanity: 욕설 필터
     footer: 아래 버튼 및 드롭다운을 사용하여 연결을 관리하세요.
   selects:
-    placeholder: '🛠️ 아래 옵션을 선택하여 연결을 관리하세요.'
+    placeholder: 🛠️ 아래 옵션을 선택하여 연결을 관리하세요.
 hub:
   notFound: '{emoji} 허브를 찾을 수 없습니다. 허브 이름을 올바르게 입력했는지 확인하세요.'
   notFound_mod: '{emoji} 허브를 찾을 수 없습니다. 올바른 허브 이름을 입력했는지, 허브의 소유자 또는 중재자인지 확인하세요.'
@@ -302,7 +302,7 @@ hub:
       roleSuccess: '{emoji} 이제 `{type}` 유형의 로그에 {role}이 언급됩니다!'
       channelSuccess: '{emoji} 이제부터 `{type}` 타입의 로그가 {channel}로 전송됩니다!'
       channelSelect: '#️⃣ 구성할 로그 유형을 선택합니다.'
-      roleSelect: '🏓 로그가 트리거될 때 언급할 역할을 선택합니다.'
+      roleSelect: 🏓 로그가 트리거될 때 언급할 역할을 선택합니다.
       reportChannelFirst: '{emoji} 먼저 로그 채널을 설정하세요.'
       config:
         title: 유형}}}` 로그 구성하기
@@ -337,7 +337,7 @@ report:
       input2:
         label: 상세 설명(선택 사항)
         placeholder: 수행한 단계. 예. 1. 실행 / 도움말 2. 5초간 대기...
-  submitted: '보고서가 제출되었습니다. 지원 서버]({emoji})**에 가입하여 신고에 대한 업데이트를 받으세요.'
+  submitted: 보고서가 제출되었습니다. 지원 서버]({emoji})**에 가입하여 신고에 대한 업데이트를 받으세요.
   bug:
     title: 버그 신고
     affected: 영향을 받는 구성 요소
