@@ -29,7 +29,7 @@ network:
     footer: Bitte beachten Sie, dass KI nicht perfekt ist und Fehler machen kann. Wir entschuldigen uns für etwaige Unannehmlichkeiten.
   onboarding:
     embed:
-      title: 👋 Hey there, willkommen bei {hubName}!
+      title: '👋 Hey there, willkommen bei {hubName}!'
       description: |
         Um die Dinge organisiert zu halten, wird empfohlen, einen separaten Kanal für diesen Hub zu verwenden. Aber keine Sorge, Sie können dies immer später ändern.
 
@@ -157,7 +157,7 @@ connection:
       profanity: Profanitätsfilter
     footer: Verwenden Sie die unten stehende Schaltfläche und Dropdown, um Ihre Verbindung zu verwalten.
   selects:
-    placeholder: 🛠️ Wählen Sie unten eine Option aus, um Ihre Verbindung zu verwalten.
+    placeholder: '🛠️ Wählen Sie unten eine Option aus, um Ihre Verbindung zu verwalten.'
 hub:
   notFound: '{emoji} kann Hub nicht finden. Bitte stellen Sie sicher, dass Sie den richtigen Hub -Namen eingegeben haben.'
   notFound_mod: '{emoji} kann Hub nicht finden. Bitte stellen Sie sicher, dass Sie den richtigen Hub -Namen eingegeben haben und dass Sie der Eigentümer oder ein Moderator des Hubs sind.'
@@ -298,11 +298,11 @@ hub:
         description: Machen Sie diesen Hub öffentlich oder privat.
     logs:
       title: Protokolle konfigurieren
-      reset: oder
+      reset: 'oder'
       roleSuccess: '{emoji} Protokolle vom Typ `{type}` erwähnen nun {role}!'
       channelSuccess: '{emoji} Protokolle vom Typ `{type}` werden ab sofort an {channel} gesendet!'
       channelSelect: '#️⃣ Wählen Sie den zu konfigurierten Protokolltyp aus.'
-      roleSelect: 🏓 Wählen Sie die Rolle aus, wenn ein Protokoll ausgelöst wird.
+      roleSelect: '🏓 Wählen Sie die Rolle aus, wenn ein Protokoll ausgelöst wird.'
       reportChannelFirst: '{emoji} Bitte legen Sie zuerst einen Protokollkanal fest.'
       config:
         title: Konfigurieren Sie `{type}` Protokolle
@@ -337,7 +337,7 @@ report:
       input2:
         label: Detaillierte Beschreibung (optional)
         placeholder: Schritte, die Sie unternommen haben. Z.B. 1. Rennen /Hilfe 2. Warten Sie 5 Sekunden ...
-  submitted: Bericht eingereicht. Schließen Sie sich dem **[Support Server]({emoji})** bei, um Aktualisierungen in Ihrem Bericht zu erhalten.
+  submitted: 'Bericht eingereicht. Schließen Sie sich dem **[Support Server]({emoji})** bei, um Aktualisierungen in Ihrem Bericht zu erhalten.'
   bug:
     title: Fehlerbericht
     affected: Betroffene Komponenten
