@@ -29,7 +29,7 @@ network:
     footer: AIは完全ではなく、間違いを犯す可能性があることに注意してください。 ご不便をおかけして申し訳ございません。
   onboarding:
     embed:
-      title: 👋ねえ、{hubName}へようこそ！
+      title: '👋ねえ、{hubName}へようこそ！'
       description: |
         物事を整理するには、このハブのためだけに別のチャネルを使用することをお勧めします。 しかし、心配しないでください、あなたはいつでもこれを後で変更することができます。
 
@@ -46,7 +46,7 @@ blacklist:
       placeholder: ブラックリストの理由
     duration:
       label: 間隔
-      placeholder: ブラックリストの期間。 例：1d、1w、1m、1y。 永久に空白のままにしてください。
+      placeholder: 'ブラックリストの期間。 例：1d、1w、1m、1y。 永久に空白のままにしてください。'
   user:
     success: '{emoji} **{username}**は、正常にブラックリストに載っています！'
     removed: '{emoji} **{username}**はブラックリストから削除されました！'
@@ -167,7 +167,7 @@ hub:
   join:
     success: Hub **{hub}** {channel}から成功しました！ `/connection`を使用して接続を管理します。 「/hub leave」ハブを離れます。
   servers:
-    total: 現在の接続サーバー：{from}  -  {to} / **{total}**
+    total: '現在の接続サーバー：{from}  -  {to} / **{total}**'
     noConnections: '{emoji}このハブにまだ参加しているサーバーはありません。 `/hub join`を使用して、このハブに参加します。'
     notConnected: '{emoji}そのサーバーは**{hub}**の一部ではありません。'
     connectionInfo: |
@@ -301,7 +301,7 @@ hub:
       reset: '{emoji} `{type}` logsのログ構成を正常にリセットします。'
       roleSuccess: '{emoji} type `{type}のログは、{role}を参照します！'
       channelSuccess: '{emoji} type `{type}のログは、今から{channel}に送信されます！'
-      channelSelect: ＃÷configtedを構成するログのタイプを選択します。
+      channelSelect: '＃÷configtedを構成するログのタイプを選択します。'
       roleSelect: logログがトリガーされたときに言及する役割を選択します。
       reportChannelFirst: '{emoji}最初にログチャネルを設定してください。'
       config:
@@ -337,7 +337,7 @@ report:
       input2:
         label: 詳細な説明（オプション）
         placeholder: あなたが取ったステップ。 例えば。 1.実行 /ヘルプ2. 5秒間待ちます...
-  submitted: 提出されたレポート。 **[support server]（{emoji}）**に参加して、レポートの更新を取得します。
+  submitted: '提出されたレポート。 **[support server]（{emoji}）**に参加して、レポートの更新を取得します。'
   bug:
     title: バグレポート
     affected: 影響を受けるコンポーネント
