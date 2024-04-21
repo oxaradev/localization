@@ -29,7 +29,7 @@ network:
     footer: Należy pamiętać, że sztuczna inteligencja nie jest idealna i może popełniać błędy. Przepraszamy za wszelkie spowodowane niedogodności.
   onboarding:
     embed:
-      title: 👋 Hej, witaj w {hubName}!
+      title: '👋 Hej, witaj w {hubName}!'
       description: |
         Aby zachować uporządkowanie, zaleca się użycie osobnego kanału dla tego centrum. Ale nie martw się, zawsze możesz to zmienić później.
 
@@ -157,7 +157,7 @@ connection:
       profanity: Filtr wulgaryzmów
     footer: Użyj poniższego przycisku i rozwijania, aby zarządzać połączeniem.
   selects:
-    placeholder: 🛠️ Wybierz opcję poniżej, aby zarządzać połączeniem.
+    placeholder: '🛠️ Wybierz opcję poniżej, aby zarządzać połączeniem.'
 hub:
   notFound: '{emoji} nie można znaleźć piasty. Upewnij się, że wprowadziłeś odpowiednią nazwę piasty.'
   notFound_mod: '{emoji} nie można znaleźć piasty. Upewnij się, że wprowadziłeś odpowiednią nazwę piasty i że jesteś właścicielem lub moderatorem piasty.'
@@ -302,7 +302,7 @@ hub:
       roleSuccess: '{emoji} dzienniki typu `{type}` teraz wspomina {role}!'
       channelSuccess: '{emoji} dzienniki typu `{type} zostaną wysłane do {channel} od teraz!'
       channelSelect: '#️⃣ Wybierz typ dziennika do skonfigurowania.'
-      roleSelect: 🏓 Wybierz rolę, o której należy wspomnieć, gdy log jest uruchamiany.
+      roleSelect: '🏓 Wybierz rolę, o której należy wspomnieć, gdy log jest uruchamiany.'
       reportChannelFirst: '{emoji} najpierw ustaw kanał dziennika.'
       config:
         title: Skonfiguruj `{type}`
@@ -337,7 +337,7 @@ report:
       input2:
         label: Szczegółowy opis (opcjonalnie)
         placeholder: Kroki, które podjąłeś. Np. 1. Uruchom /pomoc 2. Poczekaj 5 sekund ...
-  submitted: Zgłoszony raport. Dołącz do **[Server wsparcia]({emoji})**, aby uzyskać aktualizacje w raporcie.
+  submitted: 'Zgłoszony raport. Dołącz do **[Server wsparcia]({emoji})**, aby uzyskać aktualizacje w raporcie.'
   bug:
     title: Zgłoszenie błędu
     affected: Dotknięte komponenty
