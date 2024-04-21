@@ -370,6 +370,7 @@ errors:
   notUsable: '{emoji} Tämä ei ole enää käyttökelpoinen.'
   cooldown: '{emoji} olet jäähdytys. Odota **{time}** ennen yritystä uudelleen.'
 misc:
+  webhookNoLongerExists: '{emoji} Tämän kanavan webhook ei enää ole. Jatka Chachatin käyttöä, ota uudelleen käyttöön Webhook vaihtamalla yhteys toiseen kanavaan käyttämällä `connection`.'
   noReason: Ei mitään syytä.
   noDesc: Ei kuvausta.
   version: InterChat v{version}

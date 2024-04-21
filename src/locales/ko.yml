@@ -370,6 +370,7 @@ errors:
   notUsable: '{emoji} 더 이상 사용할 수 없습니다.'
   cooldown: '{emoji} 재사용 대기 중입니다. 다시 시도하기 전에 **{time}**을 기다려 주세요.'
 misc:
+  webhookNoLongerExists: '{emoji}이 채널의 웹 후크는 더 이상 존재하지 않습니다. Interchat을 계속 사용하려면`/connection ''을 사용하여 다른 채널에 대한 연결을 변경하여 Webhook을 다시 활성화하십시오.'
   noReason: 이유 없음.
   noDesc: 설명이 없습니다.
   version: InterChat v{version}

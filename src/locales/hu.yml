@@ -370,6 +370,7 @@ errors:
   notUsable: '{emoji} Ez már nem használható.'
   cooldown: '{emoji} Cooldown -on vagy. Kérjük, várjon **{time}**, mielőtt újra megpróbálta.'
 misc:
+  webhookNoLongerExists: '{emoji} A csatorna webhookja már nem létezik. Az InterChat használatának folytatásához kérjük, adja meg újra a webhookot úgy, hogy a kapcsolatot egy másik csatornára változtatja a „/kapcsolat” használatával.'
   noReason: Nincs oka.
   noDesc: Nincs leírás.
   version: InterChat v{version}

@@ -370,6 +370,7 @@ errors:
   notUsable: '{emoji} Bu artık kullanılamaz.'
   cooldown: '{emoji} Bekleme süresindesiniz. Lütfen tekrar denemeden önce **{time}** bekleyin.'
 misc:
+  webhookNoLongerExists: '{emoji} Bu kanal için webhook artık mevcut değil. İnterchat''i kullanmaya devam etmek için, `/bağlantı ''kullanarak başka bir kanala bağlantıyı değiştirerek lütfen webhook''u yeniden etkinleştirin.'
   noReason: Sebep belirtilmedi.
   noDesc: Tanım yok.
   version: InterChat v{version}

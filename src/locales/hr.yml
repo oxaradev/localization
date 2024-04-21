@@ -370,6 +370,7 @@ errors:
   notUsable: '{emoji} Ovo više nije upotrebljivo.'
   cooldown: '{emoji} na hladnjaku. Molimo pričekajte **{time}** prije nego što pokušate ponovo.'
 misc:
+  webhookNoLongerExists: '{emoji} Webhook za ovaj kanal više ne postoji. Da biste nastavili koristiti Interchat, molimo vas da ponovno omogućite webhook promjenom veze na drugi kanal pomoću `/Connection`.'
   noReason: Nijedan razlog.
   noDesc: Bez opisa.
   version: InterChat v{version}

@@ -370,6 +370,7 @@ errors:
   notUsable: '{emoji} To nie jest już użyteczne.'
   cooldown: '{emoji} jesteś na odnowie. Poczekaj **{time}** Przed próbą ponownie.'
 misc:
+  webhookNoLongerExists: '{emoji} Webhook dla tego kanału już nie istnieje. Aby kontynuować korzystanie z Interchat, ponownie włącz HOOK Web, zmieniając połączenie na inny kanał za pomocą `/Connection`.'
   noReason: Brak powodu.
   noDesc: Bez opisu.
   version: InterChat v{version}

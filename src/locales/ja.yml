@@ -370,6 +370,7 @@ errors:
   notUsable: '{emoji}これは使用できなくなりました。'
   cooldown: '{emoji}あなたはクールダウンにいます。 **{time}**を待ってから、もう一度試してみてください。'
 misc:
+  webhookNoLongerExists: '{emoji}このチャンネルのwebhookは存在しなくなりました。 Interchatの使用を継続するには、「/connection」を使用して別のチャネルに接続を変更して、Webhookを再度有効にしてください。'
   noReason: 理由はありません。
   noDesc: 説明なし。
   version: InterChat v{version}

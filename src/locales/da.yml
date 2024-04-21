@@ -370,6 +370,7 @@ errors:
   notUsable: '{emoji} Dette er ikke længere anvendeligt.'
   cooldown: '{emoji} Du er på cooldown. Vent venligst **{time}**, før du prøver igen.'
 misc:
+  webhookNoLongerExists: '{emoji} Webhook til denne kanal findes ikke længere. For at fortsætte med at bruge Interchat skal du aktivere webhook igen ved at ændre forbindelsen til en anden kanal ved hjælp af `/forbindelse ''.'
   noReason: Ingen grund til rådighed.
   noDesc: Ingen beskrivelse.
   version: InterChat v{version}

@@ -370,6 +370,7 @@ errors:
   notUsable: '{emoji} Điều này không còn có thể sử dụng được.'
   cooldown: '{emoji} Bạn đang trên thời gian hồi chiêu. Vui lòng đợi **{time}** trước khi thử lại.'
 misc:
+  webhookNoLongerExists: '{emoji} Webhook cho kênh này không còn tồn tại. Để tiếp tục sử dụng Giao lộ, vui lòng kích hoạt lại webhook bằng cách thay đổi kết nối sang kênh khác bằng `/Connection`.'
   noReason: Không có lý do được cung cấp.
   noDesc: Không có mô tả.
   version: Giao thoa V {version}

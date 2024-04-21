@@ -370,6 +370,7 @@ errors:
   notUsable: '{emoji}这不再可用。'
   cooldown: '{emoji}您在冷却。 请等待**{time}**再次尝试。'
 misc:
+  webhookNoLongerExists: '{emoji}此通道的网络钩不再存在。 要继续使用InterChat，请使用“/Connection”更改连接到另一个频道，请重新启用Webhook。'
   noReason: 没有理由。
   noDesc: 没有说明。
   version: InterChat v{version}

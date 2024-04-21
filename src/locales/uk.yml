@@ -370,6 +370,7 @@ errors:
   notUsable: '{emoji} Це вже не можна використовувати.'
   cooldown: '{emoji} Ви перебуваєте на COLDOWN. Зачекайте **{time}**, перш ніж спробувати ще раз.'
 misc:
+  webhookNoLongerExists: '{emoji} Webhook для цього каналу більше не існує. Щоб продовжувати використовувати Interchat, будь ласка, повторно надайте веб-кук, змінивши з''єднання на інший канал, використовуючи `/connection`.'
   noReason: Немає причин.
   noDesc: Без опису.
   version: InterChat v{version}
