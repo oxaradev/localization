@@ -37,9 +37,11 @@ network:
       footer: InterChat Network | Версия {version}
     inProgress: Уже была предпринята попытка присоединиться к хабу из {channel}. Пожалуйста, отмените ее или подождите, пока она завершится.
 blacklist:
-  button:
-    user: Черный список пользователей
-    server: Сервер черного списка
+  fields:
+    user: '👤 Blacklist User'
+    userValue: Blacklist user **{user}** from this hub.
+    server: '🏠 Blacklist Server'
+    serverValue: Blacklist server **{server}** from this hub.
   modal:
     reason:
       label: Причина
