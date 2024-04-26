@@ -37,9 +37,11 @@ network:
       footer: インターチャットネットワーク| Version {version}
     inProgress: '{channel}からハブに参加しようとしています。 キャンセルするか、完了するのを待ちます。'
 blacklist:
-  button:
-    user: ブラックリストユーザー
-    server: ブラックリストサーバー
+  fields:
+    user: '👤 Blacklist User'
+    userValue: Blacklist user **{user}** from this hub.
+    server: '🏠 Blacklist Server'
+    serverValue: Blacklist server **{server}** from this hub.
   modal:
     reason:
       label: 理由
