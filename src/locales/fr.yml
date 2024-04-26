@@ -38,10 +38,10 @@ network:
     inProgress: Il y a déjà eu une tentative de rejoindre un hub de {channel}. Veuillez l'annuler ou attendre qu'elle se termine.
 blacklist:
   fields:
-    user: '👤 Blacklist User'
-    userValue: Blacklist user **{user}** from this hub.
-    server: '🏠 Blacklist Server'
-    serverValue: Blacklist server **{server}** from this hub.
+    user: '👤 Utilisateur de liste noire'
+    userValue: Utilisateur de liste noire **{user}** de ce centre.
+    server: '🏠 serveur de liste noire'
+    serverValue: BlackList Server **{server}** à partir de ce centre.
   modal:
     reason:
       label: Raison
