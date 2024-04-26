@@ -38,10 +38,10 @@ network:
     inProgress: Próbowano już dołączyć do piasty z {channel}. Anuluj lub poczekaj, aż go zakończy.
 blacklist:
   fields:
-    user: '👤 Blacklist User'
-    userValue: Blacklist user **{user}** from this hub.
-    server: '🏠 Blacklist Server'
-    serverValue: Blacklist server **{server}** from this hub.
+    user: '👤 Użytkownik czarnej listy'
+    userValue: Użytkownik czarnej listy **{user}** z tego hubu.
+    server: '🏠 Serwer czarnej listy'
+    serverValue: Blacklist Server **{server}** z tego hubu.
   modal:
     reason:
       label: Powód
