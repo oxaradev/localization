@@ -38,10 +38,10 @@ network:
     inProgress: Det har redan varit ett försök att gå med i ett nav från {channel}. Avbryt den eller vänta på att den ska slutföras.
 blacklist:
   fields:
-    user: '👤 Blacklist User'
-    userValue: Blacklist user **{user}** from this hub.
-    server: '🏠 Blacklist Server'
-    serverValue: Blacklist server **{server}** from this hub.
+    user: '👤 Blacklist -användare'
+    userValue: BlackList -användare **{user}** från detta nav.
+    server: '🏠 Blacklist -server'
+    serverValue: BlackList Server **{server}** från detta nav.
   modal:
     reason:
       label: Anledning
