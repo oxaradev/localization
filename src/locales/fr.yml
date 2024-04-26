@@ -37,11 +37,12 @@ network:
       footer: InterChat Network | Version {version}
     inProgress: Il y a déjà eu une tentative de rejoindre un hub de {channel}. Veuillez l'annuler ou attendre qu'elle se termine.
 blacklist:
-  fields:
-    user: '👤 Utilisateur de liste noire'
+  embed:
+    user: '👤 Utilisateur'
     userValue: Utilisateur de liste noire **{user}** de ce centre.
-    server: '🏠 serveur de liste noire'
+    server: '🏠 serveur'
     serverValue: BlackList Server **{server}** à partir de ce centre.
+    footer: L'utilisateur / serveur sera informé de la liste noire. Utiliser / liste de listes noires pour afficher toutes les listes noires.
   modal:
     reason:
       label: Raison
