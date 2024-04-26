@@ -38,10 +38,10 @@ network:
     inProgress: Zaten {channel}'dan bir hub'a katılma girişimi oldu. Lütfen iptal edin veya tamamlanmasını bekleyin.
 blacklist:
   fields:
-    user: '👤 Blacklist User'
-    userValue: Blacklist user **{user}** from this hub.
-    server: '🏠 Blacklist Server'
-    serverValue: Blacklist server **{server}** from this hub.
+    user: '👤 Kara liste kullanıcısı'
+    userValue: BlackList Kullanıcısı **{user}** Bu merkezden.
+    server: '🏠 BlackList Sunucusu'
+    serverValue: BlackList Sunucusu **{server}** Bu merkezden.
   modal:
     reason:
       label: Sebep
