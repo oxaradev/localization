@@ -37,9 +37,11 @@ network:
       footer: InterChat Network | Version {version}
     inProgress: Zaten {channel}'dan bir hub'a katılma girişimi oldu. Lütfen iptal edin veya tamamlanmasını bekleyin.
 blacklist:
-  button:
-    user: Kara Liste Kullanıcısı
-    server: Kara Liste Sunucusu
+  fields:
+    user: '👤 Blacklist User'
+    userValue: Blacklist user **{user}** from this hub.
+    server: '🏠 Blacklist Server'
+    serverValue: Blacklist server **{server}** from this hub.
   modal:
     reason:
       label: Sebep
