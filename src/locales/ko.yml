@@ -37,9 +37,11 @@ network:
       footer: 인터챗 네트워크 | Version {version}
     inProgress: 이미 {channel}에서 허브에 가입하려고 시도했습니다. 취소하거나 완료될 때까지 기다려 주세요.
 blacklist:
-  button:
-    user: 블랙리스트 사용자
-    server: 블랙리스트 서버
+  fields:
+    user: '👤 Blacklist User'
+    userValue: Blacklist user **{user}** from this hub.
+    server: '🏠 Blacklist Server'
+    serverValue: Blacklist server **{server}** from this hub.
   modal:
     reason:
       label: 이유
