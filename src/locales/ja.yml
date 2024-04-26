@@ -38,10 +38,10 @@ network:
     inProgress: '{channel}からハブに参加しようとしています。 キャンセルするか、完了するのを待ちます。'
 blacklist:
   fields:
-    user: '👤 Blacklist User'
-    userValue: Blacklist user **{user}** from this hub.
-    server: '🏠 Blacklist Server'
-    serverValue: Blacklist server **{server}** from this hub.
+    user: '👤ブラックリストユーザー'
+    userValue: ブラックリストユーザー**{user}**このハブから。
+    server: '🏠ブラックリストサーバー'
+    serverValue: ブラックリストサーバー**{server}**このハブから。
   modal:
     reason:
       label: 理由
