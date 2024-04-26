@@ -38,10 +38,10 @@ network:
     inProgress: Уже була спроба приєднатися до центру з {channel}. Будь ласка, скасуйте його або чекайте, коли він завершиться.
 blacklist:
   fields:
-    user: '👤 Blacklist User'
-    userValue: Blacklist user **{user}** from this hub.
-    server: '🏠 Blacklist Server'
-    serverValue: Blacklist server **{server}** from this hub.
+    user: '👤 Користувач чорного списку'
+    userValue: Користувач BlackList **{user}** З цього центру.
+    server: '🏠 Сервер чорного списку'
+    serverValue: Сервер чорного списку **{server}** З цього центру.
   modal:
     reason:
       label: Розум
