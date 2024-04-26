@@ -37,11 +37,12 @@ network:
       footer: Austausch -Netzwerk | Version {version}
     inProgress: Es gab bereits einen Versuch, sich einem Hub von {channel} anzuschließen. Bitte stornieren Sie es oder warten Sie, bis es abgeschlossen ist.
 blacklist:
-  fields:
-    user: '👤 Blacklist -Benutzer'
+  embed:
+    user: '👤 Benutzer'
     userValue: BlackList -Benutzer **{user}** Aus dieser Hub.
-    server: '🏠 Blacklist Server'
+    server: '🏠 Server'
     serverValue: BlackList Server **{server}** Aus diesem Hub.
+    footer: Benutzer/Server wird über die Blacklist informiert. Verwenden Sie /Blacklist -Liste, um alle Blacklisten anzuzeigen.
   modal:
     reason:
       label: Grund
