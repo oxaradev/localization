@@ -39,11 +39,12 @@ network:
       footer: InterChat Network | Version {version}
     inProgress: There has already been an attempting to join a hub from {channel}. Please cancel it or wait for it to complete.
 blacklist:
-  fields:
-    user: 👤 Blacklist User
+  embed:
+    user: 👤 User
     userValue: Blacklist user **{user}** from this hub.
-    server: 🏠 Blacklist Server
+    server: 🏠 Server
     serverValue: Blacklist server **{server}** from this hub.
+    footer: User/Server will be notified of the blacklist. Use /blacklist list to view all blacklists.
   modal:
     reason:
       label: Reason
