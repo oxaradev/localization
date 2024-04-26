@@ -38,10 +38,10 @@ network:
     inProgress: Er is al een poging geweest om deel te nemen aan een hub van {channel}. Annuleer het of wacht tot het is voltooid.
 blacklist:
   fields:
-    user: '👤 Blacklist User'
-    userValue: Blacklist user **{user}** from this hub.
-    server: '🏠 Blacklist Server'
-    serverValue: Blacklist server **{server}** from this hub.
+    user: '👤 Blacklistgebruiker'
+    userValue: Blacklistgebruiker **{user}** uit deze hub.
+    server: '🏠 Blacklistserver'
+    serverValue: Blacklist Server **{server}** uit deze hub.
   modal:
     reason:
       label: Reden
