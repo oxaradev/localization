@@ -37,9 +37,11 @@ network:
       footer: Red InterChat | Version {version}
     inProgress: Ya ha habido un intento de unirse a un centro de {channel}. Por favor, cancelelo o espere a que se complete.
 blacklist:
-  button:
-    user: Usuario de la lista negra
-    server: Servidor de la lista negra
+  fields:
+    user: '👤 Blacklist User'
+    userValue: Blacklist user **{user}** from this hub.
+    server: '🏠 Blacklist Server'
+    serverValue: Blacklist server **{server}** from this hub.
   modal:
     reason:
       label: Razón
