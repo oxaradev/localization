@@ -38,10 +38,10 @@ network:
     inProgress: Уже была предпринята попытка присоединиться к хабу из {channel}. Пожалуйста, отмените ее или подождите, пока она завершится.
 blacklist:
   fields:
-    user: '👤 Blacklist User'
-    userValue: Blacklist user **{user}** from this hub.
-    server: '🏠 Blacklist Server'
-    serverValue: Blacklist server **{server}** from this hub.
+    user: '👤 Пользователь черного списка'
+    userValue: Blacklist User **{user}** из этого концентратора.
+    server: '🏠 Сервер черного списка'
+    serverValue: BlackList Server **{server}** из этого концентратора.
   modal:
     reason:
       label: Причина
