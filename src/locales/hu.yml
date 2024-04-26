@@ -37,11 +37,12 @@ network:
       footer: InterChat hálózat | Version {version}
     inProgress: Már megpróbálták csatlakozni egy hubhoz a {channel} -ból. Kérjük, törölje, vagy várja meg, amíg befejeződik.
 blacklist:
-  fields:
-    user: 👤 Blacklist felhasználó
+  embed:
+    user: 👤 Felhasználó
     userValue: Blacklist felhasználó **{user}** Ebből a HUB -ból.
-    server: 🏠 Blacklist szerver
+    server: 🏠 szerver
     serverValue: Blacklist Server **{server}** ebből a központból.
+    footer: A felhasználó/szerver értesítést kap a feketelistáról. Használja a /Blacklist listát az összes feketelisták megtekintéséhez.
   modal:
     reason:
       label: Ok

@@ -37,11 +37,12 @@ network:
       footer: InterChat Network | Version {version}
     inProgress: Jau buvo bandoma prisijungti prie stebulės iš {channel}. Prašome atšaukti arba palaukite, kol jis bus baigtas.
 blacklist:
-  fields:
-    user: 👤 Juodojo sąrašo vartotojas
+  embed:
+    user: 👤 Vartotojas
     userValue: „Blacklist“ vartotojas **{user}** iš šio centro.
-    server: 🏠 Juodojo sąrašo serveris
+    server: 🏠 serveris
     serverValue: „BlackList“ serveris **{server}** iš šio centro.
+    footer: Vartotojui/serveriui bus pranešta apie „BlackList“. Naudokite /juodųjų sąrašų sąrašą, kad peržiūrėtumėte visus juodus sąrašus.
   modal:
     reason:
       label: Priežastis

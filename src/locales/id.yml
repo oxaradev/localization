@@ -37,11 +37,12 @@ network:
       footer: Jaringan InterChat | Version {version}
     inProgress: Sudah ada upaya untuk bergabung dengan hub dari {channel}. Harap batal atau tunggu sampai selesai.
 blacklist:
-  fields:
-    user: 👤 Pengguna daftar hitam
+  embed:
+    user: 👤 Pengguna
     userValue: Pengguna BlackList **{user}** dari hub ini.
-    server: 🏠 Server daftar hitam
+    server: 🏠 Server
     serverValue: Server blacklist **{server}** dari hub ini.
+    footer: Pengguna/server akan diberitahu tentang daftar hitam. Daftar Gunakan /Daftar Hitam untuk melihat semua daftar hitam.
   modal:
     reason:
       label: Alasan

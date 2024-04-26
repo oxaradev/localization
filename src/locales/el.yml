@@ -37,11 +37,12 @@ network:
       footer: Δίκτυο InterChat | Version {version}
     inProgress: Έχει ήδη γίνει μια προσπάθεια να συμμετάσχει σε ένα κόμβο από {channel}. Ακυρώστε το ή περιμένετε να ολοκληρωθεί.
 blacklist:
-  fields:
-    user: 👤 χρήστης μαύρης λίστας
+  embed:
+    user: 👤 Χρήστης
     userValue: Χρήστης BlackList **{user}** Από αυτόν τον κόμβο.
-    server: 🏠 διακομιστής μαύρης λίστας
+    server: 🏠 διακομιστής
     serverValue: Blacklist Server **{server}** Από αυτόν τον κόμβο.
+    footer: Ο χρήστης/διακομιστής θα ειδοποιηθεί για τη Blacklist. Χρήση /λίστα Blacklist για να δείτε όλες τις μαύρες λίστες.
   modal:
     reason:
       label: Λόγος

@@ -37,11 +37,12 @@ network:
       footer: Rete interchat | Version {version}
     inProgress: C'è già stato un tentativo di unirsi a un hub da {channel}. Si prega di annullarlo o attendere che sia completato.
 blacklist:
-  fields:
-    user: 👤 Utente blacklist
+  embed:
+    user: 👤 utente
     userValue: BlackList User **{user}** Da questo hub.
-    server: 🏠 server blacklist
+    server: 🏠 server
     serverValue: Blacklist Server **{server}** Da questo hub.
+    footer: L'utente/server verrà avvisato della lista nera. Elenco Usa /Blacklist per visualizzare tutte le liste nere.
   modal:
     reason:
       label: Motivo

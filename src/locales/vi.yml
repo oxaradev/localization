@@ -37,11 +37,12 @@ network:
       footer: Mạng trao đổi | Version {version}
     inProgress: Đã có một nỗ lực để tham gia một trung tâm từ {channel}. Vui lòng hủy nó hoặc chờ nó hoàn thành.
 blacklist:
-  fields:
-    user: Người dùng danh sách đen
+  embed:
+    user: 👤 Người dùng
     userValue: Người dùng BlackList **{user}** từ trung tâm này.
-    server: Máy chủ Danh sách đen
+    server: Máy chủ
     serverValue: Máy chủ BlackList **{server}** từ trung tâm này.
+    footer: Người dùng/Máy chủ sẽ được thông báo về danh sách đen. Danh sách sử dụng /danh sách đen để xem tất cả các danh sách đen.
   modal:
     reason:
       label: Lý do

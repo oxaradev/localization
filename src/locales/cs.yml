@@ -37,11 +37,12 @@ network:
       footer: InterChat síť | Version {version}
     inProgress: Již se pokusilo připojit se k rozbočovači z {channel}. Zrušte to prosím nebo počkejte, až to dokončí.
 blacklist:
-  fields:
-    user: 👤 Uživatel černé listiny
+  embed:
+    user: 👤 Uživatel
     userValue: Uživatel BlackList **{user}** z tohoto rozbočovače.
-    server: 🏠 Server BlackList
+    server: 🏠 Server
     serverValue: BlackList Server **{server}** Z tohoto rozbočovače.
+    footer: Uživatel/server bude informován o černé listině. Použijte /seznam černé listiny pro zobrazení všech blacklistů.
   modal:
     reason:
       label: Důvod

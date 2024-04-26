@@ -37,11 +37,12 @@ network:
       footer: InterChat Network | Version {version}
     inProgress: Det har allerede vært et forsøk på å bli med på et knutepunkt fra {channel}. Avbryt den eller vent til den skal fullføres.
 blacklist:
-  fields:
-    user: 👤 Blacklist -bruker
+  embed:
+    user: 👤 Bruker
     userValue: Blacklist -bruker **{user}** fra dette navet.
-    server: 🏠 Blacklist Server
+    server: 🏠 Server
     serverValue: Blacklist Server **{server}** fra dette navet.
+    footer: Bruker/server vil bli varslet om svartelisten. Bruk /svarteliste -liste for å se alle svartelister.
   modal:
     reason:
       label: Grunnen til

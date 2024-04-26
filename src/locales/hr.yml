@@ -37,11 +37,12 @@ network:
       footer: InterChat Network | Version {version}
     inProgress: Već se pokušao pridružiti čvorištu od {channel}. Otkažite ga ili pričekajte da se završi.
 blacklist:
-  fields:
-    user: 👤 Korisnik crne liste
+  embed:
+    user: 👤 Korisnik
     userValue: Korisnik crne liste **{user}** iz ovog središta.
-    server: 🏠 Poslužitelj na crnoj listi
+    server: 🏠 Poslužitelj
     serverValue: BlackList Server **{server}** Iz ovog središta.
+    footer: Korisnik/poslužitelj bit će obaviješten o crnoj listi. Koristite /crne liste za pregled svih crnih popisa.
   modal:
     reason:
       label: Razlog
