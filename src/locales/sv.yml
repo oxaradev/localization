@@ -37,9 +37,11 @@ network:
       footer: InterChat Network | Version {version}
     inProgress: Det har redan varit ett försök att gå med i ett nav från {channel}. Avbryt den eller vänta på att den ska slutföras.
 blacklist:
-  button:
-    user: Svartlista
-    server: Svartlista -server
+  fields:
+    user: 👤 Blacklist -användare
+    userValue: BlackList -användare **{user}** från detta nav.
+    server: 🏠 Blacklist -server
+    serverValue: BlackList Server **{server}** från detta nav.
   modal:
     reason:
       label: Anledning

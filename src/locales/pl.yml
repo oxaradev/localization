@@ -37,9 +37,11 @@ network:
       footer: Sieć InterChat | Version {version}
     inProgress: Próbowano już dołączyć do piasty z {channel}. Anuluj lub poczekaj, aż go zakończy.
 blacklist:
-  button:
-    user: Użytkownik czarnej listy
-    server: Serwer czarnej listy
+  fields:
+    user: 👤 Użytkownik czarnej listy
+    userValue: Użytkownik czarnej listy **{user}** z tego hubu.
+    server: 🏠 Serwer czarnej listy
+    serverValue: Blacklist Server **{server}** z tego hubu.
   modal:
     reason:
       label: Powód

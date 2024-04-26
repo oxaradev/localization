@@ -37,9 +37,11 @@ network:
       footer: Δίκτυο InterChat | Version {version}
     inProgress: Έχει ήδη γίνει μια προσπάθεια να συμμετάσχει σε ένα κόμβο από {channel}. Ακυρώστε το ή περιμένετε να ολοκληρωθεί.
 blacklist:
-  button:
-    user: Χρήστης μαύρης λίστας
-    server: Διακομιστής μαύρης λίστας
+  fields:
+    user: 👤 χρήστης μαύρης λίστας
+    userValue: Χρήστης BlackList **{user}** Από αυτόν τον κόμβο.
+    server: 🏠 διακομιστής μαύρης λίστας
+    serverValue: Blacklist Server **{server}** Από αυτόν τον κόμβο.
   modal:
     reason:
       label: Λόγος

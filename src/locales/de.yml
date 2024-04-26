@@ -37,9 +37,11 @@ network:
       footer: Austausch -Netzwerk | Version {version}
     inProgress: Es gab bereits einen Versuch, sich einem Hub von {channel} anzuschließen. Bitte stornieren Sie es oder warten Sie, bis es abgeschlossen ist.
 blacklist:
-  button:
-    user: Blacklist -Benutzer
-    server: Blacklist Server
+  fields:
+    user: 👤 Blacklist -Benutzer
+    userValue: BlackList -Benutzer **{user}** Aus dieser Hub.
+    server: 🏠 Blacklist Server
+    serverValue: BlackList Server **{server}** Aus diesem Hub.
   modal:
     reason:
       label: Grund

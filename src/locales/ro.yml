@@ -37,9 +37,11 @@ network:
       footer: Rețea interchat | Version {version}
     inProgress: A existat deja o încercare de a se alătura unui hub de la {channel}. Vă rugăm să îl anulați sau să așteptați să se finalizeze.
 blacklist:
-  button:
-    user: Utilizator al listei negre
-    server: Server BlackList
+  fields:
+    user: 👤 Utilizator Lista neagră
+    userValue: Blacklist User **{user}** din acest hub.
+    server: 🏠 Server Blacklist
+    serverValue: Server BlackList **{server}** din acest hub.
   modal:
     reason:
       label: Motiv

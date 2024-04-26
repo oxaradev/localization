@@ -37,9 +37,11 @@ network:
       footer: InterChat网络| Version {version}
     inProgress: 已经有一个尝试从{channel}加入集线器。 请取消或等待完成。
 blacklist:
-  button:
-    user: 黑名单用户
-    server: 黑名单服务器
+  fields:
+    user: 👤黑名单用户
+    userValue: 黑名单用户**{user}**来自此集线器。
+    server: 🏠黑名单服务器
+    serverValue: 黑名单服务器**{server}**来自此集线器。
   modal:
     reason:
       label: 原因

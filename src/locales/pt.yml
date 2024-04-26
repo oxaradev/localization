@@ -37,9 +37,11 @@ network:
       footer: Rede InterChat | Version {version}
     inProgress: Já houve uma tentativa de entrar num hub a partir de {channel}. Por favor, cancele-a ou aguarde que seja concluída.
 blacklist:
-  button:
-    user: Utilizador da lista negra
-    server: Servidor de lista negra
+  fields:
+    user: 👤 Usuário da lista negra
+    userValue: Usuário da lista negra **{user}** deste hub.
+    server: 🏠 Servidor da lista negra
+    serverValue: Servidor Blacklist **{server}** deste hub.
   modal:
     reason:
       label: Motivo

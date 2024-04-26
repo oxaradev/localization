@@ -37,9 +37,11 @@ network:
       footer: InterChaT -verkko | Version {version}
     inProgress: '{channel} on jo yritetty liittyä keskittimeen. Peruuta se tai odota, että se valmistuu.'
 blacklist:
-  button:
-    user: Mustan listan käyttäjä
-    server: Mustanlistapalvelin
+  fields:
+    user: 👤 Musta listan käyttäjä
+    userValue: Blacklist -käyttäjä **{user}** tästä keskittimestä.
+    server: 🏠 Blacklist Server
+    serverValue: Blacklist Server **{server}** tästä keskittimestä.
   modal:
     reason:
       label: Syy

@@ -37,9 +37,11 @@ network:
       footer: InterChat Network | Version {version}
     inProgress: Er is al een poging geweest om deel te nemen aan een hub van {channel}. Annuleer het of wacht tot het is voltooid.
 blacklist:
-  button:
-    user: Blacklistgebruiker
-    server: Blacklist -server
+  fields:
+    user: 👤 Blacklistgebruiker
+    userValue: Blacklistgebruiker **{user}** uit deze hub.
+    server: 🏠 Blacklistserver
+    serverValue: Blacklist Server **{server}** uit deze hub.
   modal:
     reason:
       label: Reden

@@ -37,9 +37,11 @@ network:
       footer: InterChat Network | Version {version}
     inProgress: Der har allerede været et forsøg på at deltage i et knudepunkt fra {channel}. Annuller det, eller vent på, at det skal afsluttes.
 blacklist:
-  button:
-    user: Bruger Bruger
-    server: Blacklist Server
+  fields:
+    user: 👤 Bruger for sortliste
+    userValue: Blacklist -bruger **{user}** Fra dette hub.
+    server: 🏠 Blacklist Server
+    serverValue: Blacklist Server **{server}** fra dette hub.
   modal:
     reason:
       label: Grund
