@@ -168,7 +168,7 @@ hub:
   invalidChannel: '{emoji} Canal non valide. Seuls les canaux de texte et de fil sont pris en charge !'
   invalidImgurUrl: '{emoji} URL d''image invalide pour l''icône ou la bannière. Veuillez vous assurer que vous avez saisi une URL d''image Imgur valide qui n''est pas une galerie ou un album.'
   join:
-    success: Successfully joined hub **{hub}** from {channel}! Please give about **1 minute** for messages to start showing up. In the meantime you can use `/connection` to explore various customizations for this connection. Use `/hub leave` to leave the hub.
+    success: Hub a rejoint avec succès **{hub}** de {channel}! Veuillez donner environ **1 minute** pour que les messages commencent à apparaître. En attendant, vous pouvez utiliser «/ connexion» pour explorer diverses personnalisations pour cette connexion. Utilisez `/ Hub Leave 'pour quitter le hub.
   servers:
     total: 'Serveurs actuellement connectés : {from}-{to} / **{total}**'
     noConnections: '{emoji} Aucun serveur n''a encore rejoint ce hub. Utilisez `/hub join` pour rejoindre ce hub.'
