@@ -168,7 +168,7 @@ hub:
   invalidChannel: '{emoji} saluran tidak valid. Hanya saluran teks dan utas yang didukung!'
   invalidImgurUrl: '{emoji} URL gambar tidak valid untuk ikon atau spanduk. Pastikan Anda telah memasukkan URL gambar imgur yang valid yang bukan galeri atau album.'
   join:
-    success: Berhasil bergabung dengan hub **{hub}** dari {channel}! Gunakan `/koneksi` untuk mengelola koneksi Anda. Dan `/hub berangkat` untuk meninggalkan hub.
+    success: Berhasil bergabung dengan hub **{hub}** dari {channel}! Tolong beri tentang **1 menit** untuk pesan mulai muncul. Sementara itu Anda dapat menggunakan `/koneksi` untuk mengeksplorasi berbagai kustomisasi untuk koneksi ini. Gunakan `/hub cuti` untuk meninggalkan hub.
   servers:
     total: 'Server Terhubung Saat Ini: {from}-{to} / **{total}**'
     noConnections: '{emoji} Belum ada server yang bergabung dengan hub ini. Gunakan `/hub join` untuk bergabung dengan hub ini.'

@@ -168,7 +168,7 @@ hub:
   invalidChannel: '{emoji} ugyldig kanal. Kun tekst- og trådkanaler understøttes!'
   invalidImgurUrl: '{emoji} Ugyldig billed -URL til ikon eller banner. Sørg for, at du har indtastet en gyldig IMGUR -billed -URL, der ikke er et galleri eller album.'
   join:
-    success: Med succes med hub **{hub}** fra {channel}! Brug `/forbindelse 'til at styre din forbindelse. Og `/hub orlov 'for at forlade navet.
+    success: Med succes med hub **{hub}** fra {channel}! Giv omkring **1 minut** for at beskeder begynder at dukke op. I mellemtiden kan du bruge '/forbindelse' til at udforske forskellige tilpasninger til denne forbindelse. Brug `/hub orlov 'til at forlade navet.
   servers:
     total: 'Aktuelle tilsluttede servere: {from}-{to} / **{total}**'
     noConnections: '{emoji} Ingen server har endnu tilsluttet sig dette knudepunkt. Brug `/hub tilsluttet ''til at deltage i dette hub.'

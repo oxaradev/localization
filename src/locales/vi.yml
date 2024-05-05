@@ -168,7 +168,7 @@ hub:
   invalidChannel: '{emoji} kênh không hợp lệ. Chỉ các kênh văn bản và chủ đề được hỗ trợ!'
   invalidImgurUrl: '{emoji} URL hình ảnh không hợp lệ cho biểu tượng hoặc biểu ngữ. Vui lòng đảm bảo rằng bạn đã nhập URL Imgur Image hợp lệ không phải là bộ sưu tập hoặc album.'
   join:
-    success: Đã tham gia thành công Hub **{hub}** từ {channel}! Sử dụng `/Connection` để quản lý kết nối của bạn. Và `/Hub rời đi` để rời khỏi trung tâm.
+    success: Đã tham gia thành công Hub **{hub}** từ {channel}! Vui lòng cho khoảng **1 phút** cho các tin nhắn để bắt đầu hiển thị. Trong khi đó, bạn có thể sử dụng `/Connection` để khám phá các tùy chỉnh khác nhau cho kết nối này. Sử dụng `/Hub Rời` để rời khỏi trung tâm.
   servers:
     total: 'Máy chủ được kết nối hiện tại: {from}-{to} / **{total}**'
     noConnections: '{emoji} chưa có máy chủ nào tham gia trung tâm này. Sử dụng `/Hub tham gia` để tham gia trung tâm này.'

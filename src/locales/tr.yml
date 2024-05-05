@@ -168,7 +168,7 @@ hub:
   invalidChannel: '{emoji} Geçersiz kanal. Yalnızca metin ve iş parçacığı kanalları desteklenir!'
   invalidImgurUrl: '{emoji} Simge veya afiş için geçersiz resim URL''si. Lütfen galeri veya albüm olmayan geçerli bir Imgur resim URL''si girdiğinizden emin olun.'
   join:
-    success: '{hub}''dan **{channel} hub''ına başarıyla katılındı! Bağlantınızı yönetmek için `/connection` kullanın. Ve hub''dan ayrılmak için `/hub leave` kullanın.'
+    success: '{hub} ''den Hub **{channel}** başarıyla katıldı! Mesajların görünmeye başlaması için lütfen **1 dakika** verin. Bu arada, bu bağlantı için çeşitli özelleştirmeleri keşfetmek için `/connection` kullanabilirsiniz. Hub''dan ayrılmak için `/hub bırak ''kullanın.'
   servers:
     total: 'Mevcut bağlı sunucular: {from}-{to} / **{total}**'
     noConnections: '{emoji} Henüz hiçbir sunucu bu hub''a katılmadı. Bu hub''a katılmak için `/hub join` kullanın.'

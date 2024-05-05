@@ -168,7 +168,7 @@ hub:
   invalidChannel: '{emoji} Neplatný kanál. Jsou podporovány pouze textové a vlákové kanály!'
   invalidImgurUrl: '{emoji} Neplatná adresa URL pro ikonu nebo banner. Ujistěte se, že jste zadali platnou adresu URL IMGUR, která není galerií nebo albem.'
   join:
-    success: Úspěšně se připojil k Hub **{hub}** z {channel}! K správě připojení použijte `/connection`. A `/rozbočovač odejít opustit rozbočovač.
+    success: Úspěšně se připojil k Hub **{hub}** z {channel}! Uveďte asi **1 minutu**, aby se zprávy začaly objevovat. Mezitím můžete použít k prozkoumání různých přizpůsobení pro toto připojení `/connection`. Použijte `/rozbočovač Leave`, abyste opustili rozbočovač.
   servers:
     total: 'Aktuální připojené servery: {from}-{to} / **{total}**'
     noConnections: '{emoji} Žádný server se k tomuto rozbočovači dosud nepřipojil. Pomocí `/hub join` pro připojení k tomuto rozbočovači.'

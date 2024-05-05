@@ -168,7 +168,7 @@ hub:
   invalidChannel: '{emoji} canal nevalid. Sunt acceptate doar canale de text și fir!'
   invalidImgurUrl: '{emoji} URL de imagine nevalid pentru pictogramă sau banner. Vă rugăm să vă asigurați că ați introdus o adresă URL de imagine Imgur validă care nu este o galerie sau un album.'
   join:
-    success: S -a alăturat cu succes Hub **{hub}** din {channel}! Utilizați `/conexiune` pentru a vă gestiona conexiunea. Și `/hub pleacă` pentru a părăsi hub -ul.
+    success: S -a alăturat cu succes Hub **{hub}** din {channel}! Vă rugăm să dați aproximativ **1 minut** pentru ca mesajele să înceapă să apară. Între timp, puteți utiliza `/Connection` pentru a explora diverse personalizări pentru această conexiune. Folosiți `/hub Leave` pentru a părăsi butucul.
   servers:
     total: 'Servere conectate curente: {from}-{to} / **{total}**'
     noConnections: '{emoji} Niciun server nu s -a alăturat acestui hub. Utilizați `/hub Join` pentru a vă alătura acestui hub.'

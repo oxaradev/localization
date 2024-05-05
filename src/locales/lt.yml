@@ -168,7 +168,7 @@ hub:
   invalidChannel: '{emoji} neteisingas kanalas. Palaikomi tik teksto ir siūlų kanalai!'
   invalidImgurUrl: '{emoji} netinkamas piktogramos ar reklamjuostės vaizdo URL. Įsitikinkite, kad įvedėte galiojantį „Imgur“ vaizdo URL, kuris nėra galerija ar albumas.'
   join:
-    success: Sėkmingai sujungtas hub **{hub}** iš {channel}! Norėdami valdyti ryšį, naudokite „/Connection“. Ir „/stebulės palieka“, kad paliktumėte stebulę.
+    success: Sėkmingai sujungtas HUB **{hub}** iš {channel}! Prašau duoti apie **1 minutę**, kad pranešimai pradėtų rodyti. Tuo tarpu galite naudoti „/connection“, norėdami ištirti įvairius šį ryšį. Norėdami palikti stebulę, naudokite „/stebulės atostogas“.
   servers:
     total: 'Dabartiniai prijungti serveriai: {from}-{to} / **{total}**'
     noConnections: '{emoji} dar serveris dar neprisijungė prie šio centro. Norėdami prisijungti prie šio centro, naudokite „/stebulės prisijungimą“.'
