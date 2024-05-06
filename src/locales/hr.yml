@@ -168,7 +168,7 @@ hub:
   invalidChannel: '{emoji} nevažeći kanal. Podržani su samo kanali teksta i niti!'
   invalidImgurUrl: '{emoji} nevažeća url slike za ikonu ili natpis. Obavezno unijeli valjani URL IMGUR slike koji nije galerija ili album.'
   join:
-    success: Uspješno pridruženi Hub **{hub}** od {channel}! Navedite **1 minutu** da se poruke počnu prikazivati. U međuvremenu možete koristiti `/Connection` za istraživanje različitih prilagodbi za ovu vezu. Upotrijebite `/Hub dopust` da biste napustili čvorište.
+    success: Uspješno pridruženi Hub **{hub}** od {channel}! Molimo dajte **5 minuta** da se poruke počnu prikazivati. U međuvremenu možete koristiti `/Connection` za istraživanje različitih prilagodbi za ovu vezu. Upotrijebite `/Hub Leave` da biste napustili čvorište.
   servers:
     total: 'Trenutni spojeni poslužitelji: {from}-{to} / **{total}**'
     noConnections: '{emoji} Nijedan poslužitelj još nije pridružio ovom čvorištu. Upotrijebite `/Hub pridruži se` da biste se pridružili ovom središtu.'

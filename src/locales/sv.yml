@@ -168,7 +168,7 @@ hub:
   invalidChannel: '{emoji} Ogiltig kanal. Endast text- och trådkanaler stöds!'
   invalidImgurUrl: '{emoji} Ogiltig bild -URL för ikon eller banner. Se till att du har angett en giltig Imgur -bild -URL som inte är ett galleri eller album.'
   join:
-    success: Gick framgångsrikt med nav **{hub}** från {channel}! Vänligen ge ungefär **1 minut** för meddelanden att börja dyka upp. Under tiden kan du använda `/Connection` för att utforska olika anpassningar för denna anslutning. Använd `/nav -ledighet för att lämna navet.
+    success: Gick framgångsrikt med nav **{hub}** från {channel}! Vänligen ge ungefär **5 minuter** för meddelanden att börja dyka upp. Under tiden kan du använda `/Connection` för att utforska olika anpassningar för denna anslutning. Använd `/nav -ledighet för att lämna navet.
   servers:
     total: 'Nuvarande anslutna servrar: {from}-{to} / **{total}**'
     noConnections: '{emoji} Ingen server har anslutit sig till detta nav ännu. Använd `/Hub Join` för att gå med i detta nav.'

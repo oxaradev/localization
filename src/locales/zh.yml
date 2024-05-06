@@ -168,7 +168,7 @@ hub:
   invalidChannel: '{emoji}无效的通道。 仅支持文本和线程通道！'
   invalidImgurUrl: '{emoji}图标或横幅的无效图像URL。 请确保您输入了不是画廊或专辑的有效IMGUR图像URL。'
   join:
-    success: 从{hub}中成功加入了Hub **{channel}**！ 请给出大约**1分钟**，以使消息开始出现。 同时，您可以使用`/connection''探索此连接的各种自定义。 使用`/hub offew'离开集线器。
+    success: 从{hub}中成功加入了Hub **{channel}**！ 请给出大约**5分钟**，以开始出现消息。 同时，您可以使用`/connection''探索此连接的各种自定义。 使用`/hub offew'离开集线器。
   servers:
     total: 当前连接的服务器：{from}  -  {to} / **{total}**
     noConnections: '{emoji}尚未加入此轮毂。 使用`/hub join`加入此中心。'

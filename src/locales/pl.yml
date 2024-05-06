@@ -168,7 +168,7 @@ hub:
   invalidChannel: '{emoji} nieprawidłowy kanał. Obsługiwane są tylko kanały tekstowe i wątków!'
   invalidImgurUrl: '{emoji} Nieprawidłowy adres URL obrazu dla ikony lub baner. Upewnij się, że wprowadziłeś prawidłowy adres URL obrazu IMGUR, który nie jest galerią ani albumem.'
   join:
-    success: Pomyślnie dołączył do Hub **{hub}** z {channel}! Podaj około **1 minuta** w przypadku wiadomości, aby rozpocząć się pojawiać. W międzyczasie możesz użyć `/Connection 'do zbadania różnych dostosowań dla tego połączenia. Użyj `/Hub Laint`, aby opuścić hub.
+    success: Pomyślnie dołączył do Hub **{hub}** z {channel}! Podaj około **5 minut** w przypadku wiadomości, aby rozpocząć się pojawiać. W międzyczasie możesz użyć `/Connection 'do zbadania różnych dostosowań dla tego połączenia. Użyj `/Hub Laint`, aby opuścić hub.
   servers:
     total: 'Bieżące podłączone serwery: {from}-{to} / **{total}**'
     noConnections: '{emoji} Żaden serwer nie dołączył jeszcze do tego hubu. Użyj `/HUB Join '', aby dołączyć do tego centrum.'

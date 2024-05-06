@@ -168,7 +168,7 @@ hub:
   invalidChannel: '{emoji} virheellinen kanava. Vain teksti- ja kierteitä koskevia kanavia tuetaan!'
   invalidImgurUrl: '{emoji} virheellinen kuva -URL -osoite kuvakkeelle tai bannerille. Varmista, että olet kirjoittanut kelvollisen Imgur -kuvan URL -osoitteen, joka ei ole galleria tai albumi.'
   join:
-    success: Liittynyt menestyksekkäästi napa **{hub}** {channel}! Anna noin **1 minuutti**, jotta viestit alkavat näkyä. Sillä välin voit käyttää  tutkiaksesi erilaisia mukautuksia tähän yhteyteen. Käytä `/napa -jättäminen` poistuaksesi navan.
+    success: Liittynyt menestyksekkäästi napa **{hub}** {channel}! Anna noin **5 minuuttia** Viestit alkavat näkyä. Sillä välin voit käyttää  tutkiaksesi erilaisia mukautuksia tähän yhteyteen. Käytä `/napa -jättäminen` poistuaksesi navan.
   servers:
     total: 'Nykyiset kytketyt palvelimet: {from}-{to} / **{total}**'
     noConnections: '{emoji} Yksikään palvelin ei ole vielä liittynyt tähän keskittimeen. Liity tähän keskittimeen `/napa -liitosta.'

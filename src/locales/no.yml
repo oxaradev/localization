@@ -168,7 +168,7 @@ hub:
   invalidChannel: '{emoji} ugyldig kanal. Bare tekst- og trådkanaler støttes!'
   invalidImgurUrl: '{emoji} ugyldig bilde -url for ikon eller banner. Forsikre deg om at du har lagt inn en gyldig IMGUR -bilde -URL som ikke er et galleri eller et album.'
   join:
-    success: Vellykket ble med i Hub **{hub}** fra {channel}! Gi omtrent **1 minutt** for meldinger som skal begynne å dukke opp. I mellomtiden kan du bruke `/Connection` til å utforske forskjellige tilpasninger for denne forbindelsen. Bruk `/Hub Leave` for å forlate huben.
+    success: Vellykket ble med i Hub **{hub}** fra {channel}! Gi omtrent **5 minutter** for meldinger som skal begynne å dukke opp. I mellomtiden kan du bruke `/Connection` til å utforske forskjellige tilpasninger for denne forbindelsen. Bruk `/Hub Leave` for å forlate huben.
   servers:
     total: 'Gjeldende tilkoblede servere: {from}-{to} / **{total}**'
     noConnections: '{emoji} Ingen server har blitt med i dette huben ennå. Bruk `/hub join ''for å bli med i dette huben.'

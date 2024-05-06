@@ -169,7 +169,7 @@ hub:
   invalidChannel: '{emoji} Invalid channel. Only text and thread channels are supported!'
   invalidImgurUrl: '{emoji} Invalid image URL for icon or banner. Please make sure you have entered a valid Imgur image URL that is not a gallery or album.'
   join:
-    success: Successfully joined hub **{hub}** from {channel}! Please give about **1 minute** for messages to start showing up. In the meantime you can use `/connection` to explore various customizations for this connection. Use `/hub leave` to leave the hub.
+    success: Successfully joined hub **{hub}** from {channel}! Please give about **5 minutes** for messages to start showing up. In the meantime you can use `/connection` to explore various customizations for this connection. Use `/hub leave` to leave the hub.
   servers:
     total: 'Current connected servers: {from}-{to} / **{total}**'
     noConnections: '{emoji} No server has joined this hub yet. Use `/hub join` to join this hub.'

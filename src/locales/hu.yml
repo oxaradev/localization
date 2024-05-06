@@ -168,7 +168,7 @@ hub:
   invalidChannel: '{emoji} érvénytelen csatorna. Csak a szöveges és szálcsatornák támogatottak!'
   invalidImgurUrl: '{emoji} érvénytelen kép URL az ikonhoz vagy a zászlóhoz. Kérjük, győződjön meg arról, hogy megadott -e egy érvényes IMGUR Image URL -t, amely nem galéria vagy album.'
   join:
-    success: Sikeresen csatlakozott a hub **{hub}** -tól a {channel} -tól! Kérjük, adjon körülbelül **1 percet**, hogy az üzenetek megjelenjenek. Időközben a „/kapcsolat” segítségével feltárhatja a kapcsolat különféle testreszabásait. Használja a `/hub szabadságot a hub elhagyásához.
+    success: Sikeresen csatlakozott a hub **{hub}** -tól a {channel} -tól! Kérjük, adjon körülbelül 5 percet **** Az üzenetek megjelenésének megkezdéséhez. Időközben a „/kapcsolat” segítségével feltárhatja a kapcsolat különféle testreszabásait. Használja a `/hub szabadságot a hub elhagyásához.
   servers:
     total: 'Aktuális csatlakoztatott szerverek: {from}-{to} / **{total}** **'
     noConnections: '{emoji} Egyetlen szerver sem csatlakozott ehhez a hubhoz. Használja a `/hub csatlakozót a hubhoz.'
