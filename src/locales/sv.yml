@@ -63,12 +63,12 @@ blacklist:
     unknownError: Det gick inte att svartlista **{server}**. Fråga med utvecklarna för mer information.
   list:
     user: |
-      **userid:** {userId}
+      **userid:** {id}
       **Moderator:** {moderator}
       **Anledning:** {reason}
       **löper ut:** {expires}
     server: |
-      **ServerId:** {serverId}
+      **ServerId:** {id}
       **Moderator:** {moderator}
       **Anledning:** {reason}
       **löper ut:** {expires}
@@ -304,7 +304,7 @@ hub:
       reset: '{emoji} Återställ framgångsrikt loggarkonfigurationen för `{type}` loggar.'
       roleSuccess: '{emoji} Loggar av typ `{type}` kommer nu att nämna {role}!'
       channelSuccess: '{emoji} Loggar av typ `{type}` kommer att skickas till {channel} från nu!'
-      channelSelect: '#️⃣ Select a channel to send the logs'
+      channelSelect: '#⃣ Välj vilken typ av logg som ska konfigureras.'
       roleSelect: '🏓 Välj den roll som ska nämnas när en logg utlöses.'
       reportChannelFirst: '{emoji} Ställ in en logskanal först.'
       config:
