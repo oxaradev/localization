@@ -65,12 +65,12 @@ blacklist:
     unknownError: Failed to blacklist **{server}**. Enquire with the developers for more information.
   list:
     user: |
-      **UserID:** {userId}
+      **UserID:** {id}
       **Moderator:** {moderator}
       **Reason:** {reason}
       **Expires:** {expires}
     server: |
-      **ServerId:** {serverId}
+      **ServerId:** {id}
       **Moderator:** {moderator}
       **Reason:** {reason}
       **Expires:** {expires}
