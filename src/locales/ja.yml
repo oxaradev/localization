@@ -304,7 +304,7 @@ hub:
       reset: '{emoji} `{type}` logsのログ構成を正常にリセットします。'
       roleSuccess: '{emoji} type `{type}のログは、{role}を参照します！'
       channelSuccess: '{emoji} type `{type}のログは、今から{channel}に送信されます！'
-      channelSelect: '＃÷configtedを構成するログのタイプを選択します。'
+      channelSelect: '#️⃣ Select a channel to send the logs'
       roleSelect: logログがトリガーされたときに言及する役割を選択します。
       reportChannelFirst: '{emoji}最初にログチャネルを設定してください。'
       config:
