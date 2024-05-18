@@ -304,7 +304,7 @@ hub:
       reset: '{emoji} pomyślnie zresetuj konfigurację dzienników dla `{type}` logs.'
       roleSuccess: '{emoji} dzienniki typu `{type}` teraz wspomina {role}!'
       channelSuccess: '{emoji} dzienniki typu `{type} zostaną wysłane do {channel} od teraz!'
-      channelSelect: '#️⃣ Wybierz typ dziennika do skonfigurowania.'
+      channelSelect: '#️⃣ Select a channel to send the logs'
       roleSelect: '🏓 Wybierz rolę, o której należy wspomnieć, gdy log jest uruchamiany.'
       reportChannelFirst: '{emoji} najpierw ustaw kanał dziennika.'
       config:
