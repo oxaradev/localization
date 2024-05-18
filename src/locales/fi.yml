@@ -63,12 +63,12 @@ blacklist:
     unknownError: Blacklist **{server}** epäonnistui. Kysy lisätietoja kehittäjien kanssa.
   list:
     user: |-
-      **UserID:** {userId} 
+      **UserID:** {id} 
        **Moderaattori:** {moderator} 
        **syy:** {reason} 
        **vanhenee:** {expires}
     server: |-
-      **ServerID:** {serverId} 
+      **ServerID:** {id} 
        **Moderaattori:** {moderator} 
        **syy:** {reason} 
        **vanhenee:** {expires}

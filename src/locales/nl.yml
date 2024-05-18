@@ -63,12 +63,12 @@ blacklist:
     unknownError: Fail om op de zwarte lijst te komen **{server}**. Informeer bij de ontwikkelaars voor meer informatie.
   list:
     user: |
-      **userid:** {userId}
+      **userid:** {id}
       **Moderator:** {moderator}
       **reden:** {reason}
       **verloopt:** {expires}
     server: |
-      **serverId:** {serverId}
+      **serverId:** {id}
       **Moderator:** {moderator}
       **reden:** {reason}
       **verloopt:** {expires}

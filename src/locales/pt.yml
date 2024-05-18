@@ -63,12 +63,12 @@ blacklist:
     unknownError: Falha na lista negra **{server}**. Contacte os programadores para obter mais informações.
   list:
     user: |
-      **UserID:** {userId}
+      **UserID:** {id}
       **Moderador:** {moderator}
       **Razão:** {reason}
       **Expira:** {expires}
     server: |
-      **ServerId:** {serverId}
+      **ServerId:** {id}
       **Moderador:** {moderator}
       **Motivo:** {reason}
       **Expira:** {expires}

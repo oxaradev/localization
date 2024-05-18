@@ -63,12 +63,12 @@ blacklist:
     unknownError: Échec de la mise sur liste noire de **{server}**. Renseignez-vous auprès des développeurs pour plus d'informations.
   list:
     user: |
-      **UserID:** {userId}
+      **UserID:** {id}
       **Moderator:** {moderator}
       **Reason:** {reason}
       **Expires:** {expires}
     server: |
-      **ServerId:** {serverId}
+      **ServerId:** {id}
       **Moderator:** {moderator}
       **Reason:** {reason}
       **Expires:** {expires}

@@ -63,12 +63,12 @@ blacklist:
     unknownError: ब्लैक्लिस्ट करने में नाकामयाब **{server}**. अधिक जानकारी के लिए डेवलपर्स से जांच करें।
   list:
     user: |
-      **यूजर ID:** {userId}
+      **यूजर ID:** {id}
       **माडरैटर:** {moderator}
       **कारण:** {reason}
       **एक्स्पाइरी:** {expires}
     server: |
-      **सर्वर ID:** {serverId}
+      **सर्वर ID:** {id}
       **माडरैटर:** {moderator}
       **कारण:** {reason}
       **एक्स्पाइरी:** {expires}

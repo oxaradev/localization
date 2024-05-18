@@ -63,12 +63,12 @@ blacklist:
     unknownError: Gagal BlackList **{server}**. Tanyakan kepada pengembang untuk informasi lebih lanjut.
   list:
     user: |-
-      **userid:** {userId} 
+      **userid:** {id} 
        **Moderator:** {moderator} 
        **Alasan:** {reason} 
        **kedaluwarsa:** {expires}
     server: |-
-      **ServerId:** {serverId} 
+      **ServerId:** {id} 
        **Moderator:** {moderator} 
        **Alasan:** {reason} 
        **kedaluwarsa:** {expires}

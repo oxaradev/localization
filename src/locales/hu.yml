@@ -63,12 +63,12 @@ blacklist:
     unknownError: Nem sikerült a feketelistán **{server}**. Érdeklődjön a fejlesztőkkel további információkért.
   list:
     user: |-
-      **UserID:** {userId} 
+      **UserID:** {id} 
        **Moderátor:** {moderator} 
        **Ok:** {reason} 
        **Lejár:** {expires}
     server: |-
-      **ServerID:** {serverId} 
+      **ServerID:** {id} 
        **Moderátor:** {moderator} 
        **Ok:** {reason} 
        **Lejár:** {expires}

@@ -63,12 +63,12 @@ blacklist:
     unknownError: Không thành công với danh sách đen **{server}**. Hỏi với các nhà phát triển để biết thêm thông tin.
   list:
     user: |-
-      **userid:** {userId} 
+      **userid:** {id} 
        **Người điều hành:** {moderator} 
        **Lý do:** {reason} 
        **Hết hạn:** {expires}
     server: |-
-      **serverId:** {serverId} 
+      **serverId:** {id} 
        **Người điều hành:** {moderator} 
        **Lý do:** {reason} 
        **Hết hạn:** {expires}

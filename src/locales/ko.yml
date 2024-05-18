@@ -63,12 +63,12 @@ blacklist:
     unknownError: 서버}}**를 블랙리스트에 추가하지 못했습니다. 자세한 내용은 개발자에게 문의하세요.
   list:
     user: |
-      **UserID:** {userId}
+      **UserID:** {id}
       **Moderator:** {moderator}
       **이유:** {reason}
       **만료:** {expires}
     server: |
-      **서버아이디:** {serverId}
+      **서버아이디:** {id}
       **모더레이터:** {moderator}
       **이유:** {reason}
       **만료:** {expires}

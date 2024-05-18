@@ -63,12 +63,12 @@ blacklist:
     unknownError: ล้มเหลวในการสร้างบัญชีดำ **{server}** สอบถามกับนักพัฒนาสำหรับข้อมูลเพิ่มเติม
   list:
     user: |-
-      **userId:** {userId} 
+      **userId:** {id} 
        **Moderator:** {moderator} 
        **เหตุผล:** {reason} 
        **หมดอายุ:** {expires}
     server: |-
-      **ServerId:** {serverId} 
+      **ServerId:** {id} 
        **Moderator:** {moderator} 
        **เหตุผล:** {reason} 
        **หมดอายุ:** {expires}

@@ -63,12 +63,12 @@ blacklist:
     unknownError: Kara listeye alınamadı **{server}**. Daha fazla bilgi için geliştiricilere danışın.
   list:
     user: |
-      **Kullanıcı kimliği:** {userId}
+      **Kullanıcı kimliği:** {id}
       **Moderatör:** {moderator}
       **Neden:** {reason}
       **Süresi doluyor:** {expires}
     server: |
-      **ServerId:** {serverId}
+      **ServerId:** {id}
       **Moderatör:** {moderator}
       **Neden:** {reason}
       **Süresi doluyor:** {expires}

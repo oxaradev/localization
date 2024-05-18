@@ -63,12 +63,12 @@ blacklist:
     unknownError: Не удалось внести в черный список **{server}**. Обратитесь к разработчикам за дополнительной информацией.
   list:
     user: |
-      **UserID:** {userId}
+      **UserID:** {id}
       **Модератор:** {moderator}
       **Причина:** {reason}
       **Expires:** {expires}
     server: |
-      **ServerId:** {serverId}
+      **ServerId:** {id}
       **Модератор:** {moderator}
       **Reason:** {reason}
       **Expires:** {expires}

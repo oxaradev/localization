@@ -63,12 +63,12 @@ blacklist:
     unknownError: Неуспешно черен списък **{server}**. Попитайте с разработчиците за повече информация.
   list:
     user: |-
-      **userid:** {userId} 
+      **userid:** {id} 
        **Модератор:** {moderator} 
        **Причина:** {reason} 
        **Изтича:** {expires}
     server: |-
-      **ServerID:** {serverId} 
+      **ServerID:** {id} 
        **Модератор:** {moderator} 
        **Причина:** {reason} 
        **Изтича:** {expires}

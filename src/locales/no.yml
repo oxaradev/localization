@@ -63,12 +63,12 @@ blacklist:
     unknownError: Kunne ikke svarteliste **{server}**. Spør med utviklerne om mer informasjon.
   list:
     user: |-
-      **UserID:** {userId} 
+      **UserID:** {id} 
        **Moderator:** {moderator} 
        **Årsak:** {reason} 
        **utløper:** {expires}
     server: |-
-      **ServerID:** {serverId} 
+      **ServerID:** {id} 
        **Moderator:** {moderator} 
        **Årsak:** {reason} 
        **utløper:** {expires}

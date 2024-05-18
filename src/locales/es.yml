@@ -63,12 +63,12 @@ blacklist:
     unknownError: Error al agregar a la lista negra a **{server}**. Consulte a los desarrolladores para obtener más información.
   list:
     user: |
-      **ID de usuario:** {userId}
+      **ID de usuario:** {id}
       **Moderador:** {moderator}
       **Razón:** {reason}
       **Expira:** {expires}
     server: |
-      **ID del servidor:** {serverId}
+      **ID del servidor:** {id}
       **Moderador:** {moderator}
       **Razón:** {reason}
       **Expira:** {expires}

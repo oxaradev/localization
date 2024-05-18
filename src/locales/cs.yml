@@ -63,12 +63,12 @@ blacklist:
     unknownError: Nepodařilo se na černou listinu **{server}**. Zeptejte se s vývojáři o více informací.
   list:
     user: |-
-      **UserId:** {userId} 
+      **UserId:** {id} 
        **Moderátor:** {moderator} 
        **Důvod:** {reason} 
        **vyprší:** {expires}
     server: |-
-      **ServerId:** {serverId} 
+      **ServerId:** {id} 
        **Moderátor:** {moderator} 
        **Důvod:** {reason} 
        **vyprší:** {expires}

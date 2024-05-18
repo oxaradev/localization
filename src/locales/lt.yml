@@ -63,12 +63,12 @@ blacklist:
     unknownError: Nepavyko į juodąjį sąrašą **{server}**. Norėdami gauti daugiau informacijos, pasiteiraukite su kūrėjais.
   list:
     user: |-
-      **userId:** {userId} 
+      **userId:** {id} 
        **Moderatorius:** {moderator} 
        **Priežastis:** {reason} 
        **galiojimo laikas:** {expires}
     server: |-
-      **serveris:** {serverId} 
+      **serveris:** {id} 
        **Moderatorius:** {moderator} 
        **Priežastis:** {reason} 
        **galiojimo laikas:** {expires}

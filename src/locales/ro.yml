@@ -63,12 +63,12 @@ blacklist:
     unknownError: Nu a reușit să fie negru **{server}**. Întrebați cu dezvoltatorii pentru mai multe informații.
   list:
     user: |-
-      **userId:** {userId} 
+      **userId:** {id} 
        **moderator:** {moderator} 
        **Motiv:** {reason} 
        **expiră:** {expires}
     server: |-
-      **serverId:** {serverId} 
+      **serverId:** {id} 
        **moderator:** {moderator} 
        **Motiv:** {reason} 
        **expiră:** {expires}

@@ -63,12 +63,12 @@ blacklist:
     unknownError: Fehlgeschlagene Blacklist **{server}**. Fragen Sie bei den Entwicklern nach weiteren Informationen.
   list:
     user: |
-      **userId:** {userId}
+      **userId:** {id}
       **Moderator:** {moderator}
       **Grund:** {reason}
       **läuft ab:** {expires}
     server: |
-      **serverid:** {serverId}
+      **serverid:** {id}
       **Moderator:** {moderator}
       **Grund:** {reason}
       **läuft ab:** {expires}

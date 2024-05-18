@@ -63,12 +63,12 @@ blacklist:
     unknownError: Αποτυχία Blacklist **{server}**. Ζητήστε με τους προγραμματιστές για περισσότερες πληροφορίες.
   list:
     user: |-
-      **UserId:** {userId} 
+      **UserId:** {id} 
        **Συντονιστής:** {moderator} 
        **Λόγος:** {reason} 
        **Λήγει:** {expires}
     server: |-
-      **ServerId:** {serverId} 
+      **ServerId:** {id} 
        **Συντονιστής:** {moderator} 
        **Λόγος:** {reason} 
        **Λήγει:** {expires}

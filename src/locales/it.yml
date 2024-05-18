@@ -63,12 +63,12 @@ blacklist:
     unknownError: Impossibile a blacklist **{server}**. Informati con gli sviluppatori per ulteriori informazioni.
   list:
     user: |-
-      **userid:** {userId} 
+      **userid:** {id} 
        **Moderatore:** {moderator} 
        **Motivo:** {reason} 
        **scade:** {expires}
     server: |-
-      **ServerId:** {serverId} 
+      **ServerId:** {id} 
        **Moderatore:** {moderator} 
        **Motivo:** {reason} 
        **scade:** {expires}

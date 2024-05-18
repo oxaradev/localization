@@ -63,12 +63,12 @@ blacklist:
     unknownError: Nije uspjelo na crnoj listi **{server}**. Raspitajte se s programerima za više informacija.
   list:
     user: |-
-      **userId:** {userId} 
+      **userId:** {id} 
        **moderator:** {moderator} 
        **Razlog:** {reason} 
        **Istječe:** {expires}
     server: |-
-      **serverId:** {serverId} 
+      **serverId:** {id} 
        **moderator:** {moderator} 
        **Razlog:** {reason} 
        **Istječe:** {expires}

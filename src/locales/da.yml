@@ -63,12 +63,12 @@ blacklist:
     unknownError: Kunne ikke sortliste **{server}**. Spørg med udviklerne for mere information.
   list:
     user: |-
-      **userid:** {userId} 
+      **userid:** {id} 
        **Moderator:** {moderator} 
        **Årsag:** {reason} 
        **Udløber:** {expires}
     server: |-
-      **ServerId:** {serverId} 
+      **ServerId:** {id} 
        **Moderator:** {moderator} 
        **Årsag:** {reason} 
        **Udløber:** {expires}

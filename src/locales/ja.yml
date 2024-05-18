@@ -63,12 +63,12 @@ blacklist:
     unknownError: ブラックリストに失敗しました**{server}**。 詳細については、開発者にお問い合わせください。
   list:
     user: |
-      **userid：** {userId}
+      **userid：** {id}
       **モデレーター：** {moderator}
       **理由：** {reason}
       **有効期限：** {expires}
     server: |
-      **serverId：** {serverId}
+      **serverId：** {id}
       **モデレーター：** {moderator}
       **理由：** {reason}
       **有効期限：** {expires}

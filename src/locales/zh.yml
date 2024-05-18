@@ -63,12 +63,12 @@ blacklist:
     unknownError: 无法黑名单**{server}**。 向开发人员询问更多信息。
   list:
     user: |-
-      **用户ID：** {userId} 
+      **用户ID：** {id} 
        **主持人：** {moderator} 
        **原因：** {reason} 
        **到期：** {expires}
     server: |-
-      **serverid：** {serverId} 
+      **serverid：** {id} 
        **主持人：** {moderator} 
        **原因：** {reason} 
        **到期：** {expires}
