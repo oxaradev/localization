@@ -304,7 +304,7 @@ hub:
       reset: 'oder'
       roleSuccess: '{emoji} Protokolle vom Typ `{type}` erwähnen nun {role}!'
       channelSuccess: '{emoji} Protokolle vom Typ `{type}` werden ab sofort an {channel} gesendet!'
-      channelSelect: '#️⃣ Wählen Sie den zu konfigurierten Protokolltyp aus.'
+      channelSelect: '#️⃣ Select a channel to send the logs'
       roleSelect: '🏓 Wählen Sie die Rolle aus, wenn ein Protokoll ausgelöst wird.'
       reportChannelFirst: '{emoji} Bitte legen Sie zuerst einen Protokollkanal fest.'
       config:
