@@ -304,7 +304,7 @@ hub:
       reset: '{emoji} Réinitialisation réussie de la configuration des journaux pour les journaux `{type}`.'
       roleSuccess: '{emoji} Les journaux de type `{type}` mentionnent désormais {role} !'
       channelSuccess: '{emoji} Les logs de type `{type}` seront désormais envoyés à {channel} !'
-      channelSelect: '#️⃣ Sélectionnez le type de journal à configurer.'
+      channelSelect: '#️⃣ Select a channel to send the logs'
       roleSelect: '🏓 Sélectionnez le rôle à mentionner lorsqu''un journal est déclenché.'
       reportChannelFirst: '{emoji} Veuillez d''abord définir un canal de journalisation.'
       config:
