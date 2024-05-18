@@ -63,12 +63,12 @@ blacklist:
     unknownError: Error al agregar a la lista negra a **{server}**. Consulte a los desarrolladores para obtener más información.
   list:
     user: |
-      **ID de usuario:** {userId}
+      **ID de usuario:** {id}
       **Moderador:** {moderator}
       **Razón:** {reason}
       **Expira:** {expires}
     server: |
-      **ID del servidor:** {serverId}
+      **ID del servidor:** {id}
       **Moderador:** {moderator}
       **Razón:** {reason}
       **Expira:** {expires}
@@ -304,7 +304,7 @@ hub:
       reset: '{emoji} Se reinició con éxito la configuración de registros para `{type}`.'
       roleSuccess: '{emoji} registros de tipo `{type}` ahora mencionará {role}!'
       channelSuccess: '{emoji} registros de tipo `{type}` se enviará a {channel} de ahora!'
-      channelSelect: '#️⃣ Select a channel to send the logs'
+      channelSelect: '#️⃣ Seleccione el tipo de registro para configurar.'
       roleSelect: '🏓 Seleccione el papel a mencionar cuándo se activa un registro.'
       reportChannelFirst: '{emoji} Establezca primero un canal de registro.'
       config:
