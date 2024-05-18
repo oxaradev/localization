@@ -304,7 +304,7 @@ hub:
       reset: '{emoji} Günlük yapılandırması `{type}` günlükleri için başarıyla sıfırlandı.'
       roleSuccess: '{emoji} {type}` türündeki günlükler artık {role}''den bahsedecek!}'
       channelSuccess: '{emoji} Şu andan itibaren `{type}` türündeki günlükler {channel} adresine gönderilecektir!'
-      channelSelect: '#️⃣ Yapılandırılacak günlük türünü seçin.'
+      channelSelect: '#️⃣ Select a channel to send the logs'
       roleSelect: '🏓 Bir günlük tetiklendiğinde bahsedilecek rolü seçin.'
       reportChannelFirst: '{emoji} Lütfen önce bir günlük kanalı ayarlayın.'
       config:
