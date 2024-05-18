@@ -304,7 +304,7 @@ hub:
       reset: '{emoji} Repor com sucesso a configuração dos registos para os registos `{type}.'
       roleSuccess: '{emoji} Os registos do tipo `{type} passam a mencionar {role}!'
       channelSuccess: '{emoji} Os registos do tipo `{type} serão enviados para {channel} a partir de agora!'
-      channelSelect: '#️⃣ Seleccione o tipo de registo a configurar.'
+      channelSelect: '#️⃣ Select a channel to send the logs'
       roleSelect: Selecionar a função a mencionar quando um registo é acionado.
       reportChannelFirst: '{O que é que se passa? Defina primeiro um canal de registo.'
       config:
