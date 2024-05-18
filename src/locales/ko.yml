@@ -304,7 +304,7 @@ hub:
       reset: '{emoji} 유형}}}` 로그에 대한 로그 구성을 성공적으로 재설정했습니다.'
       roleSuccess: '{emoji} 이제 `{type}` 유형의 로그에 {role}이 언급됩니다!'
       channelSuccess: '{emoji} 이제부터 `{type}` 타입의 로그가 {channel}로 전송됩니다!'
-      channelSelect: '#️⃣ 구성할 로그 유형을 선택합니다.'
+      channelSelect: '#️⃣ Select a channel to send the logs'
       roleSelect: '🏓 로그가 트리거될 때 언급할 역할을 선택합니다.'
       reportChannelFirst: '{emoji} 먼저 로그 채널을 설정하세요.'
       config:
