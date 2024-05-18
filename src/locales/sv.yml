@@ -304,7 +304,7 @@ hub:
       reset: '{emoji} Återställ framgångsrikt loggarkonfigurationen för `{type}` loggar.'
       roleSuccess: '{emoji} Loggar av typ `{type}` kommer nu att nämna {role}!'
       channelSuccess: '{emoji} Loggar av typ `{type}` kommer att skickas till {channel} från nu!'
-      channelSelect: '#⃣ Välj vilken typ av logg som ska konfigureras.'
+      channelSelect: '#️⃣ Select a channel to send the logs'
       roleSelect: '🏓 Välj den roll som ska nämnas när en logg utlöses.'
       reportChannelFirst: '{emoji} Ställ in en logskanal först.'
       config:
