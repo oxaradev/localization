@@ -304,7 +304,7 @@ hub:
       reset: '{emoji} Reset met succes de logboekenconfiguratie voor `{type}` logs.'
       roleSuccess: '{emoji} logs van type `{type}` zal nu {role} vermelden!'
       channelSuccess: '{emoji} logs van type `{type}` worden vanaf nu naar {channel} verzonden!'
-      channelSelect: '#️⃣ Selecteer het type logboek om te configureren.'
+      channelSelect: '#️⃣ Select a channel to send the logs'
       roleSelect: '🏓 Selecteer de rol om te vermelden wanneer een logboek wordt geactiveerd.'
       reportChannelFirst: '{emoji} Stel eerst een logkanaal in.'
       config:
