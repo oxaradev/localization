@@ -26,7 +26,7 @@ network:
   nsfw:
     title: NSFW erkannt
     description: Ich habe {predictions} NSFW (nicht sicher für die Arbeit) in Ihrer Nachricht festgestellt. Bitte beachten Sie, dass dies gegen unsere {rules_command} ist und zu einer sofortigen Blacklist führt.
-    footer: Bitte beachten Sie, dass KI nicht perfekt ist und Fehler machen kann. Wir entschuldigen uns für etwaige Unannehmlichkeiten.
+    footer: The AI may make mistakes. But we must use this to keep the network safe for everyone.
   onboarding:
     embed:
       title: '👋 Hey there, willkommen bei {hubName}!'
