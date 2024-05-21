@@ -26,7 +26,7 @@ network:
   nsfw:
     title: NSFW gedetecteerd
     description: Ik heb {predictions} nsfw (niet veilig voor werk) in uw bericht gedetecteerd. Houd er rekening mee dat dit tegen onze {rules_command} is en zal resulteren in onmiddellijke zwarte lijst.
-    footer: Houd er rekening mee dat AI niet perfect is en fouten kan maken. Onze excuses voor het ongemak.
+    footer: The AI may make mistakes. But we must use this to keep the network safe for everyone.
   onboarding:
     embed:
       title: '👋 Hé daar, welkom bij {hubName}!'
