@@ -26,7 +26,7 @@ network:
   nsfw:
     title: NSFW 감지됨
     description: 예측}}을 감지했습니다. NSFW(업무에 적합하지 않음) 콘텐츠를 발견했습니다. 이는 트위터의 {predictions}에 위배되며 즉시 블랙리스트에 추가될 수 있음을 유의하세요.
-    footer: AI는 완벽하지 않으며 실수를 할 수 있다는 점을 양해해 주시기 바랍니다. 불편을 드려 죄송합니다.
+    footer: The AI may make mistakes. But we must use this to keep the network safe for everyone.
   onboarding:
     embed:
       title: 안녕하세요, {hubName}에 오신 것을 환영합니다!
