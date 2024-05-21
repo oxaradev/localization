@@ -26,7 +26,7 @@ network:
   nsfw:
     title: NSFWが検出されました
     description: メッセージで{predictions} nsfw（仕事に安全ではない）コンテンツを検出しました。 これは{rules_command}に反して、即時のブラックリストに陥ることに注意してください。
-    footer: AIは完全ではなく、間違いを犯す可能性があることに注意してください。 ご不便をおかけして申し訳ございません。
+    footer: The AI may make mistakes. But we must use this to keep the network safe for everyone.
   onboarding:
     embed:
       title: '👋ねえ、{hubName}へようこそ！'
