@@ -26,7 +26,7 @@ network:
   nsfw:
     title: NSFW Tespit Edildi
     description: Tespit ettiğim {predictions} Mesajınızda NSFW (İş İçin Güvenli Değil) içerik. Lütfen bunun {rules_command}'ımıza aykırı olduğunu ve derhal kara listeye alınmanıza neden olacağını unutmayın.
-    footer: Lütfen AI'nın mükemmel olmadığını ve hata yapabileceğini unutmayın. Verdiğimiz rahatsızlıktan dolayı özür dileriz.
+    footer: The AI may make mistakes. But we must use this to keep the network safe for everyone.
   onboarding:
     embed:
       title: '👋 Merhaba, {hubName}''e hoş geldiniz!'
