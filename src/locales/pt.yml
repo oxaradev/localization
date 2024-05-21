@@ -26,7 +26,7 @@ network:
   nsfw:
     title: NSFW detectado
     description: Detectei {predictions} conteúdo NSFW (Not Safe For Work) na tua mensagem. Tenha em atenção que isto é contra as nossas {rules_command} e resultará numa lista negra imediata.
-    footer: Tenha em atenção que a IA não é perfeita e pode cometer erros. Pedimos desculpa por qualquer incómodo causado.
+    footer: The AI may make mistakes. But we must use this to keep the network safe for everyone.
   onboarding:
     embed:
       title: '👋 Olá, bem-vindo ao {hubName}!'
