@@ -28,7 +28,7 @@ network:
   nsfw:
     title: NSFW Detected
     description: I have detected {predictions} NSFW (Not Safe For Work) content in your message. Please be aware that this is against our {rules_command} and will result in immediate blacklist.
-    footer: Please be aware that AI is not perfect and may make mistakes. We apologize for any inconvenience caused.
+    footer: The AI may make mistakes. But we must use this to keep the network safe for everyone.
   onboarding:
     embed:
       title: 👋 Hey there, welcome to {hubName}!
