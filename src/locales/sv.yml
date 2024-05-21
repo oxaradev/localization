@@ -26,7 +26,7 @@ network:
   nsfw:
     title: NSFW upptäckt
     description: Jag har upptäckt {predictions} NSFW (inte säkert för arbete) i ditt meddelande. Tänk på att detta är emot vår {rules_command} och kommer att resultera i omedelbar svartlista.
-    footer: Tänk på att AI inte är perfekt och kan göra misstag. Vi beklagar eventuella olägenheter.
+    footer: The AI may make mistakes. But we must use this to keep the network safe for everyone.
   onboarding:
     embed:
       title: '👋 Hej där, välkommen till {hubName}!'
