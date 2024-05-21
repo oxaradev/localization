@@ -26,7 +26,7 @@ network:
   nsfw:
     title: Wykryto NSFW
     description: Wykryłem {predictions} nsfw (nie jest bezpieczny do pracy) w Twojej wiadomości. Należy pamiętać, że jest to sprzeczne z naszym {rules_command} i spowoduje natychmiastową czarną listę.
-    footer: Należy pamiętać, że sztuczna inteligencja nie jest idealna i może popełniać błędy. Przepraszamy za wszelkie spowodowane niedogodności.
+    footer: The AI may make mistakes. But we must use this to keep the network safe for everyone.
   onboarding:
     embed:
       title: '👋 Hej, witaj w {hubName}!'
