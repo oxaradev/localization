@@ -365,7 +365,7 @@ errors:
   unknownServer: '{emoji} okänd server. Se till att du har angett rätt server -ID.'
   unknownNetworkMessage: '{emoji} okänt meddelande. Om det har skickats i den senaste minuten, vänta några sekunder till och försök igen.'
   userNotFound: '{emoji} Användare hittades inte. Försök att mata in deras ID istället.'
-  blacklisted: '{emoji} Du eller den här servern är svartlistad från att använda interchat.'
+  blacklisted: '{emoji} You or this server is blacklisted from this hub.'
   userBlacklisted: '{emoji} Du är svartlistad från detta nav.'
   serverBlacklisted: '{emoji} Den här servern är svartlistad från detta nav.'
   serverNotBlacklisted: '{emoji} Den inputted servern är inte svartlistad.'
