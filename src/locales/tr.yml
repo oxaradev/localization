@@ -365,7 +365,7 @@ errors:
   unknownServer: '{emoji} Bilinmeyen sunucu. Lütfen doğru sunucu kimliğini girdiğinizden emin olun.'
   unknownNetworkMessage: '{emoji} Bilinmeyen Mesaj. Son bir dakika içinde gönderildiyse, lütfen birkaç saniye daha bekleyin ve tekrar deneyin.'
   userNotFound: '{emoji} Kullanıcı bulunamadı. Bunun yerine kimliklerini girmeyi deneyin.'
-  blacklisted: '{emoji} Siz veya bu sunucu InterChat''i kullanmaktan kara listeye alınmışsınız.'
+  blacklisted: '{emoji} You or this server is blacklisted from this hub.'
   userBlacklisted: '{emoji} Bu merkezden kara listeye alınmışsınız.'
   serverBlacklisted: '{emoji} Bu sunucu bu merkezden kara listeye alınmıştır.'
   serverNotBlacklisted: '{emoji} Girilen sunucu kara listede değil.'
