@@ -168,7 +168,10 @@ hub:
   invalidChannel: '{emoji}無効なチャネル。 テキストとスレッドチャネルのみがサポートされています！'
   invalidImgurUrl: '{emoji}アイコンまたはバナーの無効な画像URL。 ギャラリーやアルバムではない有効なimgur画像URLを入力したことを確認してください。'
   join:
-    success: '{hub}からハブ**{channel}**に成功しました！ メッセージが表示されるまで、**5分**を与えてください。 それまでの間、「/connection」を使用して、この接続のさまざまなカスタマイズを検討できます。 `/hub leave`を使用して、ハブを離れます。'
+    success: |
+      Successfully joined hub **{hub}** from {channel}! You can now chat with members from other servers in this hub.
+      - Use `/connection` to explore various customizations for this connection.
+      - Use `/hub leave` to stop receiving messages from this hub.
   servers:
     total: '現在の接続サーバー：{from}  -  {to} / **{total}**'
     noConnections: '{emoji}このハブにまだ参加しているサーバーはありません。 `/hub join`を使用して、このハブに参加します。'
