@@ -168,7 +168,10 @@ hub:
   invalidChannel: '{emoji} Неверный канал. Поддерживаются только текстовые и потоковые каналы!'
   invalidImgurUrl: '{emoji} Неверный URL-адрес изображения для иконки или баннера. Убедитесь, что вы ввели правильный URL-адрес изображения Imgur, не являющийся галереей или альбомом.'
   join:
-    success: Успешно присоединился к Hub **{hub}** из {channel}! Пожалуйста, дайте около **5 минут**, чтобы начать отображаться. В то же время вы можете использовать `/connection` для изучения различных настроек для этого соединения. Используйте `/hub least`, чтобы покинуть концентратор.
+    success: |
+      Successfully joined hub **{hub}** from {channel}! You can now chat with members from other servers in this hub.
+      - Use `/connection` to explore various customizations for this connection.
+      - Use `/hub leave` to stop receiving messages from this hub.
   servers:
     total: 'Текущие подключенные серверы: {from}-{to} / **{total}**'
     noConnections: '{emoji} Ни один сервер еще не присоединился к этому хабу. Используйте `/hub join`, чтобы присоединиться к этому хабу.'
