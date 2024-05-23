@@ -365,7 +365,7 @@ errors:
   unknownServer: '{emoji} Unbekannter Server. Bitte stellen Sie sicher, dass Sie die richtige Server -ID eingegeben haben.'
   unknownNetworkMessage: '{emoji} Unbekannte Nachricht. Wenn es in der vergangenen Minute gesendet wurde, warten Sie bitte noch einige Sekunden und versuchen Sie es erneut.'
   userNotFound: '{emoji} Benutzer nicht gefunden. Versuchen Sie stattdessen ihre ID eingeben.'
-  blacklisted: '{emoji} Sie oder dieser Server wird von der Verwendung des Austauschs schwarzlistet.'
+  blacklisted: '{emoji} You or this server is blacklisted from this hub.'
   userBlacklisted: '{emoji} Sie sind von diesem Hub auf die schwarze Liste gesetzt.'
   serverBlacklisted: '{emoji} Dieser Server ist von diesem Hub auf die schwarze Liste gesetzt.'
   serverNotBlacklisted: '{emoji} Der eingegebene Server ist nicht auf die schwarze Liste.'
