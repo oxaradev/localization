@@ -168,7 +168,10 @@ hub:
   invalidChannel: '{emoji} недійсний канал. Підтримуються лише канали тексту та потоку!'
   invalidImgurUrl: '{emoji} Недійна URL -адреса зображення для піктограми або банера. Будь ласка, переконайтеся, що ви ввели дійсну URL -адресу зображення IMGUR, яка не є галереєю чи альбомом.'
   join:
-    success: Успішно приєднався до Hub **{hub}** з {channel}! Будь ласка, дайте про **5 хвилин**, щоб повідомлення починали з’являтися. Тим часом ви можете використовувати `/connection` для вивчення різних налаштувань для цього з'єднання. Використовуйте `/Hub lead`, щоб залишити центр.
+    success: |
+      Successfully joined hub **{hub}** from {channel}! You can now chat with members from other servers in this hub.
+      - Use `/connection` to explore various customizations for this connection.
+      - Use `/hub leave` to stop receiving messages from this hub.
   servers:
     total: 'Поточні підключені сервери: {from}-{to} / **{total}**'
     noConnections: '{emoji} Жоден сервер ще не приєднався до цього центру. Використовуйте `/HUB join`, щоб приєднатися до цього центру.'
