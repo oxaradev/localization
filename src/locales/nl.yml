@@ -168,7 +168,10 @@ hub:
   invalidChannel: '{emoji} Ongeldig kanaal. Alleen tekst- en threadkanalen worden ondersteund!'
   invalidImgurUrl: '{emoji} Ongeldige afbeelding URL voor pictogram of banner. Zorg ervoor dat u een geldige Imgur -afbeeldings -URL hebt ingevoerd die geen galerij of album is.'
   join:
-    success: Succesvol bij hub **{hub}** van {channel}! Geef ongeveer **5 minuten** voor berichten om te verschijnen. In de tussentijd kunt u `/connection` gebruiken om verschillende aanpassingen voor deze verbinding te verkennen. Gebruik `/hub -vertrek 'om de hub te verlaten.
+    success: |
+      Successfully joined hub **{hub}** from {channel}! You can now chat with members from other servers in this hub.
+      - Use `/connection` to explore various customizations for this connection.
+      - Use `/hub leave` to stop receiving messages from this hub.
   servers:
     total: 'Huidige verbonden servers: {from}-{to} / **{total}**'
     noConnections: '{emoji} geen server heeft zich al bij deze hub aangesloten. Gebruik `/hub join` om deel te nemen aan deze hub.'
