@@ -168,7 +168,10 @@ hub:
   invalidChannel: '{emoji} Ungültiger Kanal. Es werden nur Text- und Thread -Kanäle unterstützt!'
   invalidImgurUrl: '{emoji} Ungültige Bild -URL für Symbol oder Banner. Bitte stellen Sie sicher, dass Sie eine gültige IMGUR -Bild -URL eingegeben haben, die keine Galerie oder ein Album ist.'
   join:
-    success: Erfolgreich beigetreten Hub **{hub}** von {channel}! Bitte geben Sie ungefähr **5 Minuten**, damit Nachrichten angezeigt werden. In der Zwischenzeit können Sie  verwenden, um verschiedene Anpassungen für diese Verbindung zu untersuchen. Verwenden Sie , um den Hub zu verlassen.
+    success: |
+      Successfully joined hub **{hub}** from {channel}! You can now chat with members from other servers in this hub.
+      - Use `/connection` to explore various customizations for this connection.
+      - Use `/hub leave` to stop receiving messages from this hub.
   servers:
     total: 'Aktuelle verbundene Server: {from}-{to} / **{total}**'
     noConnections: '{emoji} Kein Server hat sich dieser Hub noch angeschlossen. Verwenden Sie `/Hub Join`, um diesem Hub beizutreten.'
