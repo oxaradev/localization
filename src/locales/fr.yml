@@ -365,7 +365,7 @@ errors:
   unknownServer: '{emoji} Serveur inconnu. Veuillez vous assurer que vous avez entré le bon ID de serveur.'
   unknownNetworkMessage: '{emoji} Message inconnu. S''il a été envoyé au cours de la dernière minute, veuillez patienter quelques secondes et réessayer.'
   userNotFound: '{emoji} Utilisateur non trouvé. Essayez de saisir son ID à la place.'
-  blacklisted: '{emoji} Vous ou ce serveur êtes sur la liste noire des utilisateurs d''InterChat.'
+  blacklisted: '{emoji} You or this server is blacklisted from this hub.'
   userBlacklisted: '{emoji} Vous êtes sur liste noire à partir de ce centre.'
   serverBlacklisted: '{emoji} Ce serveur est sur liste noire à partir de ce centre.'
   serverNotBlacklisted: '{emoji} Le serveur saisi n''est pas sur liste noire.'
