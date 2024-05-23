@@ -365,7 +365,7 @@ errors:
   unknownServer: '{emoji} Onbekende server. Zorg ervoor dat u de juiste server -ID hebt ingevoerd.'
   unknownNetworkMessage: '{emoji} onbekend bericht. Als het de afgelopen minuut is verzonden, wacht dan nog een paar seconden en probeer het opnieuw.'
   userNotFound: '{emoji} gebruiker niet gevonden. Probeer in plaats daarvan hun ID in te voeren.'
-  blacklisted: '{emoji} U of deze server staat op de zwarte lijst van het gebruik van interchat.'
+  blacklisted: '{emoji} You or this server is blacklisted from this hub.'
   userBlacklisted: '{emoji} U staat op de zwarte lijst van deze hub.'
   serverBlacklisted: '{emoji} Deze server staat op de zwarte lijst van deze hub.'
   serverNotBlacklisted: '{emoji} De ingevoerde server staat niet op de zwarte lijst.'
