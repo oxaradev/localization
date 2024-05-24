@@ -26,7 +26,7 @@ network:
   nsfw:
     title: NSFW erkannt
     description: Ich habe {predictions} NSFW (nicht sicher für die Arbeit) in Ihrer Nachricht festgestellt. Bitte beachten Sie, dass dies gegen unsere {rules_command} ist und zu einer sofortigen Blacklist führt.
-    footer: The AI may make mistakes. But we must use this to keep the network safe for everyone.
+    footer: Bitte beachten Sie, dass KI nicht perfekt ist und Fehler machen kann. Wir entschuldigen uns für etwaige Unannehmlichkeiten.
   onboarding:
     embed:
       title: '👋 Hey there, willkommen bei {hubName}!'
@@ -35,7 +35,7 @@ network:
 
         **Wie es funktioniert:** Das Austauschnetzwerk ist wie eine magische Brücke, die Kanäle auf verschiedenen Servern verknüpft, die in diesem Hub bei uns sind. Erfahren Sie mehr unter unserem [Handbuch]({docs_link}).
       footer: Austausch -Netzwerk | Version {version}
-    inProgress: Es gab bereits einen Versuch, sich einem Hub von {channel} anzuschließen. Bitte stornieren Sie es oder warten Sie, bis es abgeschlossen ist.
+    inProgress: 'Es gab bereits einen Versuch, sich einem Hub von {emoji} anzuschließen. Bitte stornieren Sie es oder warten Sie, bis es abgeschlossen ist.'
 blacklist:
   embed:
     user: '👤 Benutzer'
@@ -169,9 +169,7 @@ hub:
   invalidImgurUrl: '{emoji} Ungültige Bild -URL für Symbol oder Banner. Bitte stellen Sie sicher, dass Sie eine gültige IMGUR -Bild -URL eingegeben haben, die keine Galerie oder ein Album ist.'
   join:
     success: |
-      Successfully joined hub **{hub}** from {channel}! You can now chat with members from other servers in this hub.
-      - Use `/connection` to explore various customizations for this connection.
-      - Use `/hub leave` to stop receiving messages from this hub.
+      Erfolgreich beigetreten Hub **{hub}** von {channel}! Bitte geben Sie ungefähr **5 Minuten**, damit Nachrichten angezeigt werden. In der Zwischenzeit können Sie  verwenden, um verschiedene Anpassungen für diese Verbindung zu untersuchen. Verwenden Sie , um den Hub zu verlassen.
   servers:
     total: 'Aktuelle verbundene Server: {from}-{to} / **{total}**'
     noConnections: '{emoji} Kein Server hat sich dieser Hub noch angeschlossen. Verwenden Sie `/Hub Join`, um diesem Hub beizutreten.'
@@ -357,7 +355,7 @@ errors:
   commandError: |
     {emoji} Es ist ein Fehler beim Ausführen dieses Befehls aufgetreten. Es wurde an unserem System angemeldet. Wenn dieses Problem bestehen bleibt, nehmen Sie bitte an unserem [Support Server]({support_invite}) teil und melden Sie es!
     ```js
-    {error}
+    {errorId}
     ```
   mustVote: Bitte [Abstimmung](https://top.gg/bot/769921109209907241/vote) für den Austausch, um diesen Befehl zu verwenden. Ihre Unterstützung wird sehr geschätzt!
   inviteLinks: '{emoji} werben oder bewerben Sie Server im Netzwerk nicht. Stellen Sie stattdessen eine Einladung in  ein!'
@@ -365,7 +363,7 @@ errors:
   unknownServer: '{emoji} Unbekannter Server. Bitte stellen Sie sicher, dass Sie die richtige Server -ID eingegeben haben.'
   unknownNetworkMessage: '{emoji} Unbekannte Nachricht. Wenn es in der vergangenen Minute gesendet wurde, warten Sie bitte noch einige Sekunden und versuchen Sie es erneut.'
   userNotFound: '{emoji} Benutzer nicht gefunden. Versuchen Sie stattdessen ihre ID eingeben.'
-  blacklisted: '{emoji} You or this server is blacklisted from this hub.'
+  blacklisted: '{emoji} Sie oder dieser Server wird von der Verwendung des Austauschs schwarzlistet.'
   userBlacklisted: '{emoji} Sie sind von diesem Hub auf die schwarze Liste gesetzt.'
   serverBlacklisted: '{emoji} Dieser Server ist von diesem Hub auf die schwarze Liste gesetzt.'
   serverNotBlacklisted: '{emoji} Der eingegebene Server ist nicht auf die schwarze Liste.'
