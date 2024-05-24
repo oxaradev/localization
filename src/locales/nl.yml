@@ -26,7 +26,7 @@ network:
   nsfw:
     title: NSFW gedetecteerd
     description: Ik heb {predictions} nsfw (niet veilig voor werk) in uw bericht gedetecteerd. Houd er rekening mee dat dit tegen onze {rules_command} is en zal resulteren in onmiddellijke zwarte lijst.
-    footer: The AI may make mistakes. But we must use this to keep the network safe for everyone.
+    footer: Houd er rekening mee dat AI niet perfect is en fouten kan maken. Onze excuses voor het ongemak.
   onboarding:
     embed:
       title: '👋 Hé daar, welkom bij {hubName}!'
@@ -35,7 +35,7 @@ network:
 
         **Hoe het werkt:** Het InterChat -netwerk is als een magische brug die kanalen verbindt op verschillende servers die bij ons in deze hub zijn. Meer informatie op onze [gids]({docs_link}).
       footer: InterChat Network | Version {version}
-    inProgress: Er is al een poging geweest om deel te nemen aan een hub van {channel}. Annuleer het of wacht tot het is voltooid.
+    inProgress: 'Er is al een poging geweest om deel te nemen aan een hub van {emoji}. Annuleer het of wacht tot het is voltooid.'
 blacklist:
   embed:
     user: '👤 Gebruiker'
@@ -169,9 +169,7 @@ hub:
   invalidImgurUrl: '{emoji} Ongeldige afbeelding URL voor pictogram of banner. Zorg ervoor dat u een geldige Imgur -afbeeldings -URL hebt ingevoerd die geen galerij of album is.'
   join:
     success: |
-      Successfully joined hub **{hub}** from {channel}! You can now chat with members from other servers in this hub.
-      - Use `/connection` to explore various customizations for this connection.
-      - Use `/hub leave` to stop receiving messages from this hub.
+      Succesvol bij hub **{hub}** van {channel}! Geef ongeveer **5 minuten** voor berichten om te verschijnen. In de tussentijd kunt u `/connection` gebruiken om verschillende aanpassingen voor deze verbinding te verkennen. Gebruik `/hub -vertrek 'om de hub te verlaten.
   servers:
     total: 'Huidige verbonden servers: {from}-{to} / **{total}**'
     noConnections: '{emoji} geen server heeft zich al bij deze hub aangesloten. Gebruik `/hub join` om deel te nemen aan deze hub.'
@@ -357,7 +355,7 @@ errors:
   commandError: |
     {emoji} Er is een fout opgetreden tijdens het uitvoeren van deze opdracht. Het is vastgelegd op ons systeem. Als dit probleem aanhoudt, voegt u zich aan bij onze [Support Server]({support_invite}) en rapporteer dit!
     ```JS
-    {error}
+    {errorId}
     ```
   mustVote: GELIEVE [stem](https://top.gg/bot/769921109209907241/vote) Voor interchat om deze opdracht te gebruiken, wordt uw steun zeer op prijs gesteld!
   inviteLinks: '{emoji} adverteren of promoten geen servers in het netwerk. Stel in plaats daarvan een uitnodiging in `/connection` in!'
@@ -365,7 +363,7 @@ errors:
   unknownServer: '{emoji} Onbekende server. Zorg ervoor dat u de juiste server -ID hebt ingevoerd.'
   unknownNetworkMessage: '{emoji} onbekend bericht. Als het de afgelopen minuut is verzonden, wacht dan nog een paar seconden en probeer het opnieuw.'
   userNotFound: '{emoji} gebruiker niet gevonden. Probeer in plaats daarvan hun ID in te voeren.'
-  blacklisted: '{emoji} You or this server is blacklisted from this hub.'
+  blacklisted: '{emoji} U of deze server staat op de zwarte lijst van het gebruik van interchat.'
   userBlacklisted: '{emoji} U staat op de zwarte lijst van deze hub.'
   serverBlacklisted: '{emoji} Deze server staat op de zwarte lijst van deze hub.'
   serverNotBlacklisted: '{emoji} De ingevoerde server staat niet op de zwarte lijst.'
