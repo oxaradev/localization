@@ -26,7 +26,7 @@ network:
   nsfw:
     title: NSFW upptäckt
     description: Jag har upptäckt {predictions} NSFW (inte säkert för arbete) i ditt meddelande. Tänk på att detta är emot vår {rules_command} och kommer att resultera i omedelbar svartlista.
-    footer: The AI may make mistakes. But we must use this to keep the network safe for everyone.
+    footer: Tänk på att AI inte är perfekt och kan göra misstag. Vi beklagar eventuella olägenheter.
   onboarding:
     embed:
       title: '👋 Hej där, välkommen till {hubName}!'
@@ -35,7 +35,7 @@ network:
 
         **Hur det fungerar:** InterChat -nätverket är som en magisk bro som länkar kanaler på olika servrar som är med oss i detta nav. Lär dig mer på vår [guide]({docs_link}).
       footer: InterChat Network | Version {version}
-    inProgress: Det har redan varit ett försök att gå med i ett nav från {channel}. Avbryt den eller vänta på att den ska slutföras.
+    inProgress: 'Det har redan varit ett försök att gå med i ett nav från {emoji}. Avbryt den eller vänta på att den ska slutföras.'
 blacklist:
   embed:
     user: '👤 Användare'
@@ -169,9 +169,7 @@ hub:
   invalidImgurUrl: '{emoji} Ogiltig bild -URL för ikon eller banner. Se till att du har angett en giltig Imgur -bild -URL som inte är ett galleri eller album.'
   join:
     success: |
-      Successfully joined hub **{hub}** from {channel}! You can now chat with members from other servers in this hub.
-      - Use `/connection` to explore various customizations for this connection.
-      - Use `/hub leave` to stop receiving messages from this hub.
+      Gick framgångsrikt med nav **{hub}** från {channel}! Vänligen ge ungefär **5 minuter** för meddelanden att börja dyka upp. Under tiden kan du använda `/Connection` för att utforska olika anpassningar för denna anslutning. Använd `/nav -ledighet för att lämna navet.
   servers:
     total: 'Nuvarande anslutna servrar: {from}-{to} / **{total}**'
     noConnections: '{emoji} Ingen server har anslutit sig till detta nav ännu. Använd `/Hub Join` för att gå med i detta nav.'
@@ -357,7 +355,7 @@ errors:
   commandError: |
     {emoji} Ett fel inträffade vid körning av detta kommando. Det har loggats in på vårt system. Om det här problemet kvarstår, gå med i vår [supportserver]({support_invite}) och rapportera det!
     ```JS
-    {error}
+    {errorId}
     ```
   mustVote: Vänligen [rösta](https://top.gg/bot/769921109209907241/vote) för att interchat ska använda detta kommando är ditt stöd mycket uppskattat!
   inviteLinks: '{emoji} Annonserar eller marknadsför inte servrar i nätverket. Ställ in en inbjudan i `/Connection` istället!'
@@ -365,7 +363,7 @@ errors:
   unknownServer: '{emoji} okänd server. Se till att du har angett rätt server -ID.'
   unknownNetworkMessage: '{emoji} okänt meddelande. Om det har skickats i den senaste minuten, vänta några sekunder till och försök igen.'
   userNotFound: '{emoji} Användare hittades inte. Försök att mata in deras ID istället.'
-  blacklisted: '{emoji} You or this server is blacklisted from this hub.'
+  blacklisted: '{emoji} Du eller den här servern är svartlistad från att använda interchat.'
   userBlacklisted: '{emoji} Du är svartlistad från detta nav.'
   serverBlacklisted: '{emoji} Den här servern är svartlistad från detta nav.'
   serverNotBlacklisted: '{emoji} Den inputted servern är inte svartlistad.'
