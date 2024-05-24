@@ -26,7 +26,7 @@ network:
   nsfw:
     title: NSFWが検出されました
     description: メッセージで{predictions} nsfw（仕事に安全ではない）コンテンツを検出しました。 これは{rules_command}に反して、即時のブラックリストに陥ることに注意してください。
-    footer: The AI may make mistakes. But we must use this to keep the network safe for everyone.
+    footer: AIは完全ではなく、間違いを犯す可能性があることに注意してください。 ご不便をおかけして申し訳ございません。
   onboarding:
     embed:
       title: '👋ねえ、{hubName}へようこそ！'
@@ -35,7 +35,7 @@ network:
 
         **それがどのように機能するか：** InterChatネットワークは、このハブにあるさまざまなサーバーのチャネルをリンクするマジックブリッジのようなものです。 [ガイド]（{docs_link}）で詳細をご覧ください。
       footer: インターチャットネットワーク| Version {version}
-    inProgress: '{channel}からハブに参加しようとしています。 キャンセルするか、完了するのを待ちます。'
+    inProgress: '{emoji}からハブに参加しようとしています。 キャンセルするか、完了するのを待ちます。'
 blacklist:
   embed:
     user: '👤ユーザー'
@@ -169,9 +169,7 @@ hub:
   invalidImgurUrl: '{emoji}アイコンまたはバナーの無効な画像URL。 ギャラリーやアルバムではない有効なimgur画像URLを入力したことを確認してください。'
   join:
     success: |
-      Successfully joined hub **{hub}** from {channel}! You can now chat with members from other servers in this hub.
-      - Use `/connection` to explore various customizations for this connection.
-      - Use `/hub leave` to stop receiving messages from this hub.
+      {hub}からハブ**{channel}**に成功しました！ メッセージが表示されるまで、**5分**を与えてください。 それまでの間、「/connection」を使用して、この接続のさまざまなカスタマイズを検討できます。 `/hub leave`を使用して、ハブを離れます。
   servers:
     total: '現在の接続サーバー：{from}  -  {to} / **{total}**'
     noConnections: '{emoji}このハブにまだ参加しているサーバーはありません。 `/hub join`を使用して、このハブに参加します。'
@@ -357,7 +355,7 @@ errors:
   commandError: |
     {emoji}このコマンドの実行中にエラーが発生しました。 システムに記録されています。 この問題が続いている場合は、[サポートサーバー]（{support_invite}）に参加して報告してください！
     「JS」
-    {error}
+    {errorId}
     ```
   mustVote: '[投票]（https://top.gg/bot/769921109209907241/vote）InterChatがこのコマンドを使用するには、サポートが非常に高く評価されています。'
   inviteLinks: '{emoji}ネットワーク内のサーバーを宣伝または宣伝しないでください。 代わりに「/connection」で招待状を設定します！'
@@ -365,7 +363,7 @@ errors:
   unknownServer: '{emoji}不明なサーバー。 正しいサーバーIDを入力したことを確認してください。'
   unknownNetworkMessage: '{emoji}不明なメッセージ。 過去1分間に送信された場合は、もう少し待って、もう一度お試しください。'
   userNotFound: '{emoji}ユーザーが見つかりません。 代わりにIDを入力してみてください。'
-  blacklisted: '{emoji} You or this server is blacklisted from this hub.'
+  blacklisted: '{emoji}あなたまたはこのサーバーは、InterChatの使用からブラックリストに登録されています。'
   userBlacklisted: '{emoji}あなたはこのハブからブラックリストに載っています。'
   serverBlacklisted: '{emoji}このサーバーは、このハブからブラックリストに登録されています。'
   serverNotBlacklisted: '{emoji}入力されたサーバーはブラックリストに載っていません。'
