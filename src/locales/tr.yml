@@ -26,7 +26,7 @@ network:
   nsfw:
     title: NSFW Tespit Edildi
     description: Tespit ettiğim {predictions} Mesajınızda NSFW (İş İçin Güvenli Değil) içerik. Lütfen bunun {rules_command}'ımıza aykırı olduğunu ve derhal kara listeye alınmanıza neden olacağını unutmayın.
-    footer: The AI may make mistakes. But we must use this to keep the network safe for everyone.
+    footer: Lütfen AI'nın mükemmel olmadığını ve hata yapabileceğini unutmayın. Verdiğimiz rahatsızlıktan dolayı özür dileriz.
   onboarding:
     embed:
       title: '👋 Merhaba, {hubName}''e hoş geldiniz!'
@@ -35,7 +35,7 @@ network:
 
         **Nasıl çalışır:** InterChat Ağı, bu merkezde bizimle birlikte olan farklı sunuculardaki kanalları birbirine bağlayan sihirli bir köprü gibidir. Daha fazla bilgi için [rehber]({docs_link}).
       footer: InterChat Network | Version {version}
-    inProgress: Zaten {channel}'dan bir hub'a katılma girişimi oldu. Lütfen iptal edin veya tamamlanmasını bekleyin.
+    inProgress: 'Zaten {emoji}''dan bir hub''a katılma girişimi oldu. Lütfen iptal edin veya tamamlanmasını bekleyin.'
 blacklist:
   embed:
     user: '👤 Kullanıcı'
@@ -169,9 +169,7 @@ hub:
   invalidImgurUrl: '{emoji} Simge veya afiş için geçersiz resim URL''si. Lütfen galeri veya albüm olmayan geçerli bir Imgur resim URL''si girdiğinizden emin olun.'
   join:
     success: |
-      Successfully joined hub **{hub}** from {channel}! You can now chat with members from other servers in this hub.
-      - Use `/connection` to explore various customizations for this connection.
-      - Use `/hub leave` to stop receiving messages from this hub.
+      {hub} 'den Hub **{channel}** başarıyla katıldı! Mesajların görünmeye başlaması için lütfen yaklaşık **5 dakika** verin. Bu arada, bu bağlantı için çeşitli özelleştirmeleri keşfetmek için `/connection` kullanabilirsiniz. Hub'dan ayrılmak için `/hub bırak 'kullanın.
   servers:
     total: 'Mevcut bağlı sunucular: {from}-{to} / **{total}**'
     noConnections: '{emoji} Henüz hiçbir sunucu bu hub''a katılmadı. Bu hub''a katılmak için `/hub join` kullanın.'
@@ -357,7 +355,7 @@ errors:
   commandError: |
     {emoji} Bu komut yürütülürken bir hata oluştu. Sistemimize kaydedildi. Bu sorun devam ederse, lütfen [destek sunucumuza]({support_invite}) katılın ve bildirin!
     ```js
-    {error}
+    {errorId}
     ```
   mustVote: InterChat'in bu komutu kullanması için lütfen [vote](https://top.gg/bot/769921109209907241/vote), desteğiniz çok takdir edilmektedir!
   inviteLinks: '{emoji} Ağdaki sunucuların reklamını veya tanıtımını yapmayın. Bunun yerine `/connection` içinde bir davet ayarlayın!'
@@ -365,7 +363,7 @@ errors:
   unknownServer: '{emoji} Bilinmeyen sunucu. Lütfen doğru sunucu kimliğini girdiğinizden emin olun.'
   unknownNetworkMessage: '{emoji} Bilinmeyen Mesaj. Son bir dakika içinde gönderildiyse, lütfen birkaç saniye daha bekleyin ve tekrar deneyin.'
   userNotFound: '{emoji} Kullanıcı bulunamadı. Bunun yerine kimliklerini girmeyi deneyin.'
-  blacklisted: '{emoji} You or this server is blacklisted from this hub.'
+  blacklisted: '{emoji} Siz veya bu sunucu InterChat''i kullanmaktan kara listeye alınmışsınız.'
   userBlacklisted: '{emoji} Bu merkezden kara listeye alınmışsınız.'
   serverBlacklisted: '{emoji} Bu sunucu bu merkezden kara listeye alınmıştır.'
   serverNotBlacklisted: '{emoji} Girilen sunucu kara listede değil.'
