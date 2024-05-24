@@ -35,7 +35,7 @@ network:
 
          **Kuinka se toimii:** Chachat -verkko on kuin taikuussilta, joka linkittää kanavia eri palvelimiin, jotka ovat kanssamme tässä keskittimessä. Lisätietoja [oppaasta]({docs_link}).
       footer: InterChaT -verkko | Version {version}
-    inProgress: '{channel} on jo yritetty liittyä keskittimeen. Peruuta se tai odota, että se valmistuu.'
+    inProgress: '{emoji} on jo yritetty liittyä keskittimeen. Peruuta se tai odota, että se valmistuu.'
 blacklist:
   embed:
     user: 👤 Käyttäjä
@@ -354,7 +354,7 @@ errors:
   commandError: |-
     {emoji} Tämän komennon suorittamisen aikana tapahtui virhe. Se on kirjautunut järjestelmään. Jos tämä ongelma jatkuu, liity [tukipalvelin]({support_invite}) ja ilmoita siitä! 
      ```JS 
-     {error} 
+     {errorId} 
      ```
   mustVote: Ole hyvä ja äänestää] (https://top.gg/bot/769921109209907241/vote) InterChatille tämän komennon käyttämiseksi, tuestasi on erittäin arvostettu!
   inviteLinks: '{emoji} Älä mainosta tai mainosta palvelimia verkossa. Aseta kutsu  sen sijaan!'

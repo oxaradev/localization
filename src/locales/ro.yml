@@ -35,7 +35,7 @@ network:
 
          **Cum funcționează:** Rețeaua InterChat este ca un pod magic care leagă canalele pe diferite servere care sunt cu noi în acest hub. Aflați mai multe la [Ghidul nostru]({docs_link}).
       footer: Rețea interchat | Version {version}
-    inProgress: A existat deja o încercare de a se alătura unui hub de la {channel}. Vă rugăm să îl anulați sau să așteptați să se finalizeze.
+    inProgress: A existat deja o încercare de a se alătura unui hub de la {emoji}. Vă rugăm să îl anulați sau să așteptați să se finalizeze.
 blacklist:
   embed:
     user: 👤 utilizator
@@ -354,7 +354,7 @@ errors:
   commandError: |-
     {emoji} a apărut o eroare în timpul executării acestei comenzi. A fost înregistrat la sistemul nostru. Dacă această problemă persistă, vă rugăm să vă alăturați [serverul de asistență]({support_invite}) și raportați -l! 
      ```JS 
-     {error} 
+     {errorId} 
      ```
   mustVote: Vă rugăm să [vot](https://top.gg/bot/769921109209907241/vote) pentru interchat să utilizeze această comandă, suportul dvs. este foarte apreciat!
   inviteLinks: '{emoji} nu faceți publicitate și nu promovați serverele în rețea. Setați o invitație în `/conexiune` în schimb!'

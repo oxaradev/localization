@@ -35,7 +35,7 @@ network:
 
          **它的工作原理：** InterChat网络就像是一座魔术桥，它可以在此枢纽中与我们一起链接不同的服务器上的通道。 在我们的[指南]（{docs_link}）上了解更多信息。
       footer: InterChat网络| Version {version}
-    inProgress: 已经有一个尝试从{channel}加入集线器。 请取消或等待完成。
+    inProgress: 已经有一个尝试从{emoji}加入集线器。 请取消或等待完成。
 blacklist:
   embed:
     user: 👤用户
@@ -354,7 +354,7 @@ errors:
   commandError: |-
     {emoji}执行此命令时发生了错误。 它已记录到我们的系统。 如果此问题持续存在，请加入我们的[support Server]（{support_invite}）并报告它！ 
      ``JS 
-     {error} 
+     {errorId} 
      ````````
   mustVote: 请[投票]（https://top.gg/bot/769921109209907241/vote）对于InterChat使用此命令，非常感谢您的支持！
   inviteLinks: '{emoji}不要在网络中宣传或促进服务器。 改用``/connection''''设置邀请！'

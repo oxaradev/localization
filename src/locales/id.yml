@@ -35,7 +35,7 @@ network:
 
          **Cara kerjanya:** Jaringan InterChat seperti jembatan ajaib yang menghubungkan saluran di berbagai server yang bersama kami di hub ini. Pelajari lebih lanjut di [panduan] kami]({docs_link}).
       footer: Jaringan InterChat | Version {version}
-    inProgress: Sudah ada upaya untuk bergabung dengan hub dari {channel}. Harap batal atau tunggu sampai selesai.
+    inProgress: Sudah ada upaya untuk bergabung dengan hub dari {emoji}. Harap batal atau tunggu sampai selesai.
 blacklist:
   embed:
     user: 👤 Pengguna
@@ -354,7 +354,7 @@ errors:
   commandError: |-
     {emoji} Terjadi kesalahan saat menjalankan perintah ini. Itu telah dicatat ke sistem kami. Jika masalah ini berlanjut, silakan bergabung dengan [server dukungan] kami ({support_invite}) dan laporkan! 
      ```JS 
-     {error} 
+     {errorId} 
      ```
   mustVote: Silakan [VOTE](https://top.gg/bot/769921109209907241/vote) untuk InterChat menggunakan perintah ini, dukungan Anda sangat dihargai!
   inviteLinks: '{emoji} Jangan mengiklankan atau mempromosikan server di jaringan. Tetapkan undangan di `/koneksi` sebagai gantinya!'

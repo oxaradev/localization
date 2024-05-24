@@ -35,7 +35,7 @@ network:
 
         **Hoe het werkt:** Het InterChat -netwerk is als een magische brug die kanalen verbindt op verschillende servers die bij ons in deze hub zijn. Meer informatie op onze [gids]({docs_link}).
       footer: InterChat Network | Version {version}
-    inProgress: Er is al een poging geweest om deel te nemen aan een hub van {channel}. Annuleer het of wacht tot het is voltooid.
+    inProgress: Er is al een poging geweest om deel te nemen aan een hub van {emoji}. Annuleer het of wacht tot het is voltooid.
 blacklist:
   embed:
     user: 👤 Gebruiker
@@ -354,7 +354,7 @@ errors:
   commandError: |
     {emoji} Er is een fout opgetreden tijdens het uitvoeren van deze opdracht. Het is vastgelegd op ons systeem. Als dit probleem aanhoudt, voegt u zich aan bij onze [Support Server]({support_invite}) en rapporteer dit!
     ```JS
-    {error}
+    {errorId}
     ```
   mustVote: GELIEVE [stem](https://top.gg/bot/769921109209907241/vote) Voor interchat om deze opdracht te gebruiken, wordt uw steun zeer op prijs gesteld!
   inviteLinks: '{emoji} adverteren of promoten geen servers in het netwerk. Stel in plaats daarvan een uitnodiging in `/connection` in!'

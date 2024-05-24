@@ -35,7 +35,7 @@ network:
 
          **Hogyan működik:** Az InterChat hálózat olyan, mint egy varázslatos híd, amely összekapcsolja a csatornákat a különböző szerverekhez, amelyek velünk vannak ebben a központban. Tudjon meg többet a [Útmutató]({docs_link} oldalon).
       footer: InterChat hálózat | Version {version}
-    inProgress: Már megpróbálták csatlakozni egy hubhoz a {channel} -ból. Kérjük, törölje, vagy várja meg, amíg befejeződik.
+    inProgress: Már megpróbálták csatlakozni egy hubhoz a {emoji} -ból. Kérjük, törölje, vagy várja meg, amíg befejeződik.
 blacklist:
   embed:
     user: 👤 Felhasználó
@@ -354,7 +354,7 @@ errors:
   commandError: |-
     {emoji} Hiba történt a parancs végrehajtása során. Jelentkeztünk a rendszerünkbe. Ha ez a probléma továbbra is fennáll, kérjük, csatlakozzon a [Support Server]({support_invite}) [támogatási kiszolgálóhoz), és jelentse be! 
      ```js 
-     {error} 
+     {errorId} 
      ```
   mustVote: Kérjük, [Szavazás](https://top.gg/bot/76992110920907241/vote) az InterChat számára, hogy ezt a parancsot használja, a támogatást nagyon értékelik!
   inviteLinks: '{emoji} Ne hirdetjen vagy népszerűsítsen a kiszolgálókat a hálózatban. Állítson be egy meghívót ehelyett a  -en!'

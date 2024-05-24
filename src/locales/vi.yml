@@ -35,7 +35,7 @@ network:
 
          **Cách thức hoạt động:** Mạng trao đổi giống như một cây cầu ma thuật liên kết các kênh trên các máy chủ khác nhau với chúng tôi trong trung tâm này. Tìm hiểu thêm tại [Hướng dẫn] của chúng tôi ({docs_link}).
       footer: Mạng trao đổi | Version {version}
-    inProgress: Đã có một nỗ lực để tham gia một trung tâm từ {channel}. Vui lòng hủy nó hoặc chờ nó hoàn thành.
+    inProgress: Đã có một nỗ lực để tham gia một trung tâm từ {emoji}. Vui lòng hủy nó hoặc chờ nó hoàn thành.
 blacklist:
   embed:
     user: 👤 Người dùng
@@ -354,7 +354,7 @@ errors:
   commandError: |-
     {emoji} Đã xảy ra lỗi trong khi thực thi lệnh này. Nó đã được đăng nhập vào hệ thống của chúng tôi. Nếu vấn đề này vẫn tồn tại, vui lòng tham gia [máy chủ hỗ trợ] của chúng tôi ({support_invite}) và báo cáo nó! 
      ```JS 
-     {error} 
+     {errorId} 
      ```
   mustVote: Xin vui lòng [bỏ phiếu](https://top.gg/bot/769921109209907241/vote) để giao thoa sử dụng lệnh này, sự hỗ trợ của bạn được đánh giá rất cao!
   inviteLinks: '{emoji} Không quảng cáo hoặc quảng bá máy chủ trong mạng. Thay vào đó, hãy đặt một lời mời trong `/Connection`!'

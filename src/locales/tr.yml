@@ -35,7 +35,7 @@ network:
 
         **Nasıl çalışır:** InterChat Ağı, bu merkezde bizimle birlikte olan farklı sunuculardaki kanalları birbirine bağlayan sihirli bir köprü gibidir. Daha fazla bilgi için [rehber]({docs_link}).
       footer: InterChat Network | Version {version}
-    inProgress: Zaten {channel}'dan bir hub'a katılma girişimi oldu. Lütfen iptal edin veya tamamlanmasını bekleyin.
+    inProgress: Zaten {emoji}'dan bir hub'a katılma girişimi oldu. Lütfen iptal edin veya tamamlanmasını bekleyin.
 blacklist:
   embed:
     user: 👤 Kullanıcı
@@ -354,7 +354,7 @@ errors:
   commandError: |
     {emoji} Bu komut yürütülürken bir hata oluştu. Sistemimize kaydedildi. Bu sorun devam ederse, lütfen [destek sunucumuza]({support_invite}) katılın ve bildirin!
     ```js
-    {error}
+    {errorId}
     ```
   mustVote: InterChat'in bu komutu kullanması için lütfen [vote](https://top.gg/bot/769921109209907241/vote), desteğiniz çok takdir edilmektedir!
   inviteLinks: '{emoji} Ağdaki sunucuların reklamını veya tanıtımını yapmayın. Bunun yerine `/connection` içinde bir davet ayarlayın!'

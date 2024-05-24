@@ -35,7 +35,7 @@ network:
 
          **Hvordan det fungerer:** InterChat -nettverket er som en magisk bro som kobler kanaler på forskjellige servere som er med oss i dette knutepunktet. Lær mer på vår [guide]({docs_link}).
       footer: InterChat Network | Version {version}
-    inProgress: Det har allerede vært et forsøk på å bli med på et knutepunkt fra {channel}. Avbryt den eller vent til den skal fullføres.
+    inProgress: Det har allerede vært et forsøk på å bli med på et knutepunkt fra {emoji}. Avbryt den eller vent til den skal fullføres.
 blacklist:
   embed:
     user: 👤 Bruker
@@ -354,7 +354,7 @@ errors:
   commandError: |-
     {emoji} Det oppstod en feil under utførelsen av denne kommandoen. Det er logget til systemet vårt. Hvis dette problemet vedvarer, kan du bli med på [Support Server]({support_invite}) og rapportere det! 
      `` JS 
-     {error} 
+     {errorId} 
      ```
   mustVote: Vennligst [stemme](https://top.gg/bot/769921109209907241/vote) For at InterChat skal bruke denne kommandoen, er din støtte veldig verdsatt!
   inviteLinks: '{emoji} Ikke annonser eller markedsfører servere i nettverket. Sett en invitasjon i `/Connection` i stedet!'

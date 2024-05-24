@@ -35,7 +35,7 @@ network:
 
         **それがどのように機能するか：** InterChatネットワークは、このハブにあるさまざまなサーバーのチャネルをリンクするマジックブリッジのようなものです。 [ガイド]（{docs_link}）で詳細をご覧ください。
       footer: インターチャットネットワーク| Version {version}
-    inProgress: '{channel}からハブに参加しようとしています。 キャンセルするか、完了するのを待ちます。'
+    inProgress: '{emoji}からハブに参加しようとしています。 キャンセルするか、完了するのを待ちます。'
 blacklist:
   embed:
     user: 👤ユーザー
@@ -354,7 +354,7 @@ errors:
   commandError: |
     {emoji}このコマンドの実行中にエラーが発生しました。 システムに記録されています。 この問題が続いている場合は、[サポートサーバー]（{support_invite}）に参加して報告してください！
     「JS」
-    {error}
+    {errorId}
     ```
   mustVote: '[投票]（https://top.gg/bot/769921109209907241/vote）InterChatがこのコマンドを使用するには、サポートが非常に高く評価されています。'
   inviteLinks: '{emoji}ネットワーク内のサーバーを宣伝または宣伝しないでください。 代わりに「/connection」で招待状を設定します！'

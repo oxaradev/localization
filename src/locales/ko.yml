@@ -35,7 +35,7 @@ network:
 
         **사용 방법:**인터챗 네트워크는 이 허브에 있는 여러 서버의 채널을 연결하는 마법의 다리와 같습니다. 자세한 내용은 [가이드]({docs_link})에서 알아보세요.
       footer: 인터챗 네트워크 | Version {version}
-    inProgress: 이미 {channel}에서 허브에 가입하려고 시도했습니다. 취소하거나 완료될 때까지 기다려 주세요.
+    inProgress: 이미 {emoji}에서 허브에 가입하려고 시도했습니다. 취소하거나 완료될 때까지 기다려 주세요.
 blacklist:
   embed:
     user: 👤 사용자
@@ -354,7 +354,7 @@ errors:
   commandError: |
     {emoji} 이 명령을 실행하는 동안 오류가 발생했습니다. 저희 시스템에 기록되었습니다. 이 문제가 지속되면 [지원 서버]({support_invite})에 참여하여 신고해 주세요!
     ```js
-    {error}
+    {errorId}
     ```
   mustVote: 인터챗에서 이 명령을 사용할 수 있도록 [투표](https://top.gg/bot/769921109209907241/vote)해 주세요, 여러분의 성원에 감사드립니다!
   inviteLinks: '{emoji} 네트워크에서 서버를 광고하거나 홍보하지 마세요. 대신 `/연결`에서 초대를 설정하세요!'

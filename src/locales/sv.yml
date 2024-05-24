@@ -35,7 +35,7 @@ network:
 
         **Hur det fungerar:** InterChat -nätverket är som en magisk bro som länkar kanaler på olika servrar som är med oss i detta nav. Lär dig mer på vår [guide]({docs_link}).
       footer: InterChat Network | Version {version}
-    inProgress: Det har redan varit ett försök att gå med i ett nav från {channel}. Avbryt den eller vänta på att den ska slutföras.
+    inProgress: Det har redan varit ett försök att gå med i ett nav från {emoji}. Avbryt den eller vänta på att den ska slutföras.
 blacklist:
   embed:
     user: 👤 Användare
@@ -354,7 +354,7 @@ errors:
   commandError: |
     {emoji} Ett fel inträffade vid körning av detta kommando. Det har loggats in på vårt system. Om det här problemet kvarstår, gå med i vår [supportserver]({support_invite}) och rapportera det!
     ```JS
-    {error}
+    {errorId}
     ```
   mustVote: Vänligen [rösta](https://top.gg/bot/769921109209907241/vote) för att interchat ska använda detta kommando är ditt stöd mycket uppskattat!
   inviteLinks: '{emoji} Annonserar eller marknadsför inte servrar i nätverket. Ställ in en inbjudan i `/Connection` istället!'

@@ -35,7 +35,7 @@ network:
 
         **Wie es funktioniert:** Das Austauschnetzwerk ist wie eine magische Brücke, die Kanäle auf verschiedenen Servern verknüpft, die in diesem Hub bei uns sind. Erfahren Sie mehr unter unserem [Handbuch]({docs_link}).
       footer: Austausch -Netzwerk | Version {version}
-    inProgress: Es gab bereits einen Versuch, sich einem Hub von {channel} anzuschließen. Bitte stornieren Sie es oder warten Sie, bis es abgeschlossen ist.
+    inProgress: Es gab bereits einen Versuch, sich einem Hub von {emoji} anzuschließen. Bitte stornieren Sie es oder warten Sie, bis es abgeschlossen ist.
 blacklist:
   embed:
     user: 👤 Benutzer
@@ -354,7 +354,7 @@ errors:
   commandError: |
     {emoji} Es ist ein Fehler beim Ausführen dieses Befehls aufgetreten. Es wurde an unserem System angemeldet. Wenn dieses Problem bestehen bleibt, nehmen Sie bitte an unserem [Support Server]({support_invite}) teil und melden Sie es!
     ```js
-    {error}
+    {errorId}
     ```
   mustVote: Bitte [Abstimmung](https://top.gg/bot/769921109209907241/vote) für den Austausch, um diesen Befehl zu verwenden. Ihre Unterstützung wird sehr geschätzt!
   inviteLinks: '{emoji} werben oder bewerben Sie Server im Netzwerk nicht. Stellen Sie stattdessen eine Einladung in  ein!'

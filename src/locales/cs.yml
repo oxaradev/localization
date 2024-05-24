@@ -35,7 +35,7 @@ network:
 
          **Jak to funguje:** Síť InterChat je jako magický most, který propojuje kanály na různých serverech, které jsou s námi v tomto rozbočovači. Další informace naleznete na našem [průvodci]({docs_link}).
       footer: InterChat síť | Version {version}
-    inProgress: Již se pokusilo připojit se k rozbočovači z {channel}. Zrušte to prosím nebo počkejte, až to dokončí.
+    inProgress: Již se pokusilo připojit se k rozbočovači z {emoji}. Zrušte to prosím nebo počkejte, až to dokončí.
 blacklist:
   embed:
     user: 👤 Uživatel
@@ -354,7 +354,7 @@ errors:
   commandError: |-
     {emoji} Při provádění tohoto příkazu došlo k chybě. Byl zaznamenán do našeho systému. Pokud tento problém přetrvává, připojte se k našemu [podpůrnému serveru]({support_invite}) a nahláste to! 
      ```JS 
-     {error} 
+     {errorId} 
      ```
   mustVote: Prosím [Hlasujte](https://top.gg/bot/769921109209907241/vote) Pro InterChat k použití tohoto příkazu je vaše podpora velmi oceněna!
   inviteLinks: '{emoji} Neinzerujte ani nepodporujte servery v síti. Místo toho nastavte pozvání v `/connection`!'

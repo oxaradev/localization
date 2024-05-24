@@ -35,7 +35,7 @@ network:
 
          **Come funziona:** La rete InterChat è come un ponte magico che collega i canali su diversi server che sono con noi in questo hub. Ulteriori informazioni sulla nostra [guida]({docs_link}).
       footer: Rete interchat | Version {version}
-    inProgress: C'è già stato un tentativo di unirsi a un hub da {channel}. Si prega di annullarlo o attendere che sia completato.
+    inProgress: C'è già stato un tentativo di unirsi a un hub da {emoji}. Si prega di annullarlo o attendere che sia completato.
 blacklist:
   embed:
     user: 👤 utente
@@ -354,7 +354,7 @@ errors:
   commandError: |-
     {emoji} si è verificato un errore durante l'esecuzione di questo comando. È stato registrato al nostro sistema. Se questo problema persiste, unisciti al nostro [Support Server]({support_invite}) e segnalalo! 
      ```js 
-     {error} 
+     {errorId} 
      ```
   mustVote: Si prega di [vota](https://top.gg/bot/769921109209907241/vote) per InterChat per utilizzare questo comando, il tuo supporto è molto apprezzato!
   inviteLinks: '{emoji} non pubblicizzare o promuovere i server nella rete. Imposta invece un invito in `/connection`!'

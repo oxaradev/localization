@@ -35,7 +35,7 @@ network:
 
          **Kaip tai veikia:** „InterChat“ tinklas yra tarsi stebuklingas tiltas, susiejantis kanalus skirtinguose serveriuose, kurie yra su mumis šiame centre. Sužinokite daugiau mūsų [gide]({docs_link}).
       footer: InterChat Network | Version {version}
-    inProgress: Jau buvo bandoma prisijungti prie stebulės iš {channel}. Prašome atšaukti arba palaukite, kol jis bus baigtas.
+    inProgress: Jau buvo bandoma prisijungti prie stebulės iš {emoji}. Prašome atšaukti arba palaukite, kol jis bus baigtas.
 blacklist:
   embed:
     user: 👤 Vartotojas
@@ -354,7 +354,7 @@ errors:
   commandError: |-
     {emoji} įvyko klaida vykdant šią komandą. Jis buvo prisijungęs prie mūsų sistemos. Jei ši problema išlieka, prisijunkite prie mūsų [palaikymo serverio]({support_invite}) ir praneškite apie tai! 
      ```JS 
-     {error} 
+     {errorId} 
      ```
   mustVote: Prašau [balsuoti](https://top.gg/bot/769921109209907241/Vote), kad „InterChat“ galėtų naudotis šia komanda, jūsų palaikymas yra labai vertinamas!
   inviteLinks: '{emoji} NENORITE ir nereklamuokite serverių tinkle. Vietoj to nustatykite kvietimą į „/Connection“!'

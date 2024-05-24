@@ -35,7 +35,7 @@ network:
 
         **Jak to działa:** Sieć InterChat jest jak magiczny most, który łączy kanały na różnych serwerach, które są z nami w tym hubie. Dowiedz się więcej w naszym [przewodniu]({docs_link}).
       footer: Sieć InterChat | Version {version}
-    inProgress: Próbowano już dołączyć do piasty z {channel}. Anuluj lub poczekaj, aż go zakończy.
+    inProgress: Próbowano już dołączyć do piasty z {emoji}. Anuluj lub poczekaj, aż go zakończy.
 blacklist:
   embed:
     user: 👤 Użytkownik
@@ -354,7 +354,7 @@ errors:
   commandError: |
     {emoji} Wystąpił błąd podczas wykonywania tego polecenia. Został zalogowany do naszego systemu. Jeśli ten problem będzie się utrzymywał, dołącz do naszego [Server wsparcia]({support_invite}) i zgłoś go!
     `` JS
-    {error}
+    {errorId}
     ```
   mustVote: Proszę [głosuj](https://top.gg/bot/769921109209907241/vote), aby używać tego polecenia, twoje wsparcie jest bardzo mile widziane!
   inviteLinks: '{emoji} nie reklamuj ani promuj serwerów w sieci. Zamiast tego ustaw zaproszenie w `/Connection`!'

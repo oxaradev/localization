@@ -35,7 +35,7 @@ network:
 
          **Kako to funkcionira:** InterChat mreža je poput čarobnog mosta koji povezuje kanale na različitim poslužiteljima koji su s nama u ovom središtu. Saznajte više na našem [vodiču]({docs_link}).
       footer: InterChat Network | Version {version}
-    inProgress: Već se pokušao pridružiti čvorištu od {channel}. Otkažite ga ili pričekajte da se završi.
+    inProgress: Već se pokušao pridružiti čvorištu od {emoji}. Otkažite ga ili pričekajte da se završi.
 blacklist:
   embed:
     user: 👤 Korisnik
@@ -354,7 +354,7 @@ errors:
   commandError: |-
     {emoji} Došlo je do pogreške tijekom izvršavanja ove naredbe. Zabilježen je u naš sustav. Ako se ovaj problem i dalje pojavljuje, pridružite se našem [poslužitelju za podršku]({support_invite}) i prijavite ga! 
      ```js 
-     {error} 
+     {errorId} 
      ```` ``
   mustVote: Molimo [glasajte](https://top.gg/bot/76921109209907241/vote) za InterChat za korištenje ove naredbe, vaša je podrška vrlo cijenjena!
   inviteLinks: '{emoji} Ne oglašavajte ili promovirate poslužitelje u mreži. Umjesto toga postavite pozivnicu u `/Connection`!'
