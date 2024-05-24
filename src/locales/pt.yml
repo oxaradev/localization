@@ -26,7 +26,7 @@ network:
   nsfw:
     title: NSFW detectado
     description: Detectei {predictions} conteúdo NSFW (Not Safe For Work) na tua mensagem. Tenha em atenção que isto é contra as nossas {rules_command} e resultará numa lista negra imediata.
-    footer: The AI may make mistakes. But we must use this to keep the network safe for everyone.
+    footer: Tenha em atenção que a IA não é perfeita e pode cometer erros. Pedimos desculpa por qualquer incómodo causado.
   onboarding:
     embed:
       title: '👋 Olá, bem-vindo ao {hubName}!'
@@ -35,7 +35,7 @@ network:
 
         **Como funciona:** A Rede InterChat é como uma ponte mágica que liga canais em diferentes servidores que estão connosco neste hub. Saiba mais no nosso [guia]({docs_link}).
       footer: Rede InterChat | Version {version}
-    inProgress: Já houve uma tentativa de entrar num hub a partir de {channel}. Por favor, cancele-a ou aguarde que seja concluída.
+    inProgress: 'Já houve uma tentativa de entrar num hub a partir de {emoji}. Por favor, cancele-a ou aguarde que seja concluída.'
 blacklist:
   embed:
     user: '👤 Usuário'
@@ -169,9 +169,7 @@ hub:
   invalidImgurUrl: '{emoji} URL de imagem inválido para ícone ou banner. Certifique-se de que introduziu um URL de imagem Imgur válido que não seja uma galeria ou um álbum.'
   join:
     success: |
-      Successfully joined hub **{hub}** from {channel}! You can now chat with members from other servers in this hub.
-      - Use `/connection` to explore various customizations for this connection.
-      - Use `/hub leave` to stop receiving messages from this hub.
+      Ingressou com sucesso hub **{hub}** de {channel}! Por favor, dê cerca de 5 minutos ** para que as mensagens comecem a aparecer. Enquanto isso, você pode usar `/conexão` para explorar várias personalizações para essa conexão. Use `/hub Leave` para deixar o hub.
   servers:
     total: 'Servidores ligados atualmente: {from}-{to} / **{total}**'
     noConnections: '{Não há nenhum servidor que tenha aderido a esta plataforma. Nenhum servidor se juntou a este hub ainda. Use `/hub join` para se juntar a este hub.'
@@ -357,7 +355,7 @@ errors:
   commandError: |
     {emoji} Ocorreu um erro durante a execução deste comando. Foi registado no nosso sistema. Se este problema persistir, junte-se ao nosso [servidor de suporte]({support_invite}) e comunique-o!
     ```js
-    {error}
+    {errorId}
     ```
   mustVote: Por favor [vote](https://top.gg/bot/769921109209907241/vote) para que o InterChat use este comando, seu apoio é muito apreciado!
   inviteLinks: '{Não promover servidores na rede Não anuncie ou promova servidores na rede. Em vez disso, coloque um convite em `/connection`!'
@@ -365,7 +363,7 @@ errors:
   unknownServer: '{Não há servidor desconhecido. Servidor desconhecido. Certifique-se de que introduziu o ID de servidor correto.'
   unknownNetworkMessage: '{Mensagem desconhecida Mensagem desconhecida. Se tiver sido enviada no último minuto, aguarde mais alguns segundos e tente novamente.'
   userNotFound: '{O utilizador não foi encontrado. Utilizador não encontrado. Tenta introduzir o seu ID.'
-  blacklisted: '{emoji} You or this server is blacklisted from this hub.'
+  blacklisted: '{O que é que se passa? O utilizador ou este servidor está na lista negra de utilização do InterChat.'
   userBlacklisted: '{emoji} Você está na lista negra deste hub.'
   serverBlacklisted: '{emoji} Este servidor está na lista negra deste hub.'
   serverNotBlacklisted: '{O servidor introduzido não está na lista negra. O servidor introduzido não está na lista negra.'
