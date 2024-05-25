@@ -132,10 +132,10 @@ msgInfo:
   report:
     notEnabled: '{emoji} Reporting is not enabled for this hub.'
     success: '{emoji} Report submitted successfully. Thank you!'
-invite: |
-  Thank you for choosing to invite InterChat. Simply click the button below to invite me!
+invite: |  
+  Thank you for choosing to invite InterChat! If you have any questions or need help, we are always here to help you in the support server! 
 
-  - **Support Server:** {support}
+  **[{invite_emoji} `Invite Link`]( {invite} ) [{support_emoji} `Support Server`]( {support} )**
 connection:
   notFound: '{emoji} Invalid connection. Verify the channel ID or select from displayed options.'
   channelNotFound: '{emoji} Unable to find connected channel. To talk again choose a new channel.'
@@ -359,6 +359,7 @@ errors:
     {emoji} An error occurred while executing this command. It has been logged to our system. If this issue persists, please join our [support server]({support_invite}) and report the error ID!
 
     - **Error ID:** {errorId}
+
   mustVote: Please [vote](https://top.gg/bot/769921109209907241/vote) for InterChat to use this command, your support is very much appreciated!
   inviteLinks: '{emoji} Do not advertise or promote servers in the network. Set an invite in `/connection` instead!'
   invalidLangCode: '{emoji} Invalid language code. Please make sure you have entered a correct [language code](https://cloud.google.com/translate/docs/languages).'
