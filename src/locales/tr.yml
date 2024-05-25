@@ -134,7 +134,7 @@ msgInfo:
 invite: |
   InterChat'i davet etmeyi seçtiğiniz için teşekkür ederiz. Beni davet etmek için aşağıdaki butona tıklamanız yeterli!
 
-  - **Destek Sunucusu:** {support}
+  - **Destek Sunucusu:** {invite_emoji}
 connection:
   notFound: '{emoji} Geçersiz bağlantı. Kanal kimliğini doğrulayın veya görüntülenen seçeneklerden birini seçin.'
   channelNotFound: '{emoji} Bağlı kanal bulunamıyor. Tekrar konuşmak için yeni bir kanal seçin.'
