@@ -134,7 +134,7 @@ msgInfo:
 invite: |
   Vielen Dank, dass Sie sich dafür entschieden haben, den Austausch einzuladen. Klicken Sie einfach auf die Schaltfläche unten, um mich einzuladen!
 
-  - **Support Server:** {support}
+  - **Support Server:** {invite_emoji}
 connection:
   notFound: '{emoji} Ungültige Verbindung. Überprüfen Sie die Kanal -ID oder wählen Sie aus den angezeigten Optionen.'
   channelNotFound: '{emoji} kann einen vernetzten Kanal nicht finden. Um erneut zu sprechen, wählen Sie einen neuen Kanal.'
