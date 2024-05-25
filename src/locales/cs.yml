@@ -134,7 +134,7 @@ msgInfo:
 invite: |-
   Děkujeme, že jste se rozhodli pozvat InterChat. Jednoduše klikněte na tlačítko níže a pozvěte mě! 
 
-   - **Support Server:** {support}
+   - **Support Server:** {invite_emoji}
 connection:
   notFound: '{emoji} Neplatné připojení. Ověřte ID kanálu nebo vyberte z zobrazených možností.'
   channelNotFound: '{emoji} Nelze najít připojený kanál. Chcete -li znovu promluvit, vyberte nový kanál.'

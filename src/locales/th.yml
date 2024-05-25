@@ -134,7 +134,7 @@ msgInfo:
 invite: |-
   ขอบคุณที่เลือกเชิญ InterChat เพียงคลิกที่ปุ่มด้านล่างเพื่อเชิญฉัน! 
 
-   - **Support Server:** {support}
+   - **Support Server:** {invite_emoji}
 connection:
   notFound: '{emoji} การเชื่อมต่อที่ไม่ถูกต้อง ตรวจสอบ ID ช่องสัญญาณหรือเลือกจากตัวเลือกที่แสดง'
   channelNotFound: '{emoji} ไม่สามารถค้นหาช่องที่เชื่อมต่อได้ เพื่อพูดคุยอีกครั้งเลือกช่องใหม่'

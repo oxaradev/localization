@@ -134,7 +134,7 @@ msgInfo:
 invite: |-
   Terima kasih telah memilih untuk mengundang InterChat. Cukup klik tombol di bawah ini untuk mengundang saya! 
 
-   - **Support Server:** {support}
+   - **Support Server:** {invite_emoji}
 connection:
   notFound: '{emoji} koneksi tidak valid. Verifikasi ID saluran atau pilih dari opsi yang ditampilkan.'
   channelNotFound: '{emoji} Tidak dapat menemukan saluran yang terhubung. Untuk berbicara lagi memilih saluran baru.'

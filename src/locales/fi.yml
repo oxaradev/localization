@@ -134,7 +134,7 @@ msgInfo:
 invite: |-
   Kiitos, että päätit kutsua InterChatin. Napsauta vain alla olevaa painiketta kutsuaksesi minut! 
 
-   - **Tukipalvelin:** {support}
+   - **Tukipalvelin:** {invite_emoji}
 connection:
   notFound: '{emoji} virheellinen yhteys. Vahvista kanavan tunnus tai valitse näytetyistä vaihtoehdoista.'
   channelNotFound: '{emoji} ei löydy kytkettyä kanavaa. Puhutaan uudelleen Valitse uusi kanava.'

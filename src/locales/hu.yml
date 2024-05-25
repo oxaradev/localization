@@ -134,7 +134,7 @@ msgInfo:
 invite: |-
   Köszönjük, hogy választotta az InterChat meghívását. Egyszerűen kattintson az alábbi gombra, hogy meghívjon! 
 
-   - **Támogató szerver:** {support}
+   - **Támogató szerver:** {invite_emoji}
 connection:
   notFound: '{emoji} érvénytelen kapcsolat. Ellenőrizze a csatorna azonosítóját, vagy válassza a megjelenített beállítások közül.'
   channelNotFound: '{emoji} nem találja meg a csatlakoztatott csatornát. Az újbóli beszélgetéshez válasszon egy új csatornát.'

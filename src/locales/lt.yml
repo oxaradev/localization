@@ -134,7 +134,7 @@ msgInfo:
 invite: |-
   Dėkojame, kad pasirinkote pakviesti „InterChat“. Tiesiog spustelėkite žemiau esantį mygtuką, kad pakviestumėte mane! 
 
-   - **Palaikymo serveris:** {support}
+   - **Palaikymo serveris:** {invite_emoji}
 connection:
   notFound: '{emoji} neteisingas ryšys. Patikrinkite kanalo ID arba pasirinkite iš rodomų parinkčių.'
   channelNotFound: '{emoji} nepavyksta rasti prijungto kanalo. Norėdami vėl kalbėti, pasirinkite naują kanalą.'

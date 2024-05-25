@@ -134,7 +134,7 @@ msgInfo:
 invite: |-
   Cảm ơn bạn đã chọn mời giao thoa. Chỉ cần nhấp vào nút bên dưới để mời tôi! 
 
-   - **Máy chủ hỗ trợ:** {support}
+   - **Máy chủ hỗ trợ:** {invite_emoji}
 connection:
   notFound: '{emoji} Kết nối không hợp lệ. Xác minh ID kênh hoặc chọn từ các tùy chọn được hiển thị.'
   channelNotFound: '{emoji} Không thể tìm thấy kênh được kết nối. Để nói chuyện lại chọn một kênh mới.'

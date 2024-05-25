@@ -134,7 +134,7 @@ msgInfo:
 invite: |-
   Takk for at du valgte å invitere InterChat. Bare klikk på knappen nedenfor for å invitere meg! 
 
-   - **Support Server:** {support}
+   - **Support Server:** {invite_emoji}
 connection:
   notFound: '{emoji} ugyldig forbindelse. Kontroller kanal -IDen eller velg fra viste alternativer.'
   channelNotFound: '{emoji} Kan ikke finne tilkoblet kanal. For å snakke igjen, velg en ny kanal.'

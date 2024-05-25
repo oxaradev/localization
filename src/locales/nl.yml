@@ -134,7 +134,7 @@ msgInfo:
 invite: |
   Bedankt voor het kiezen om InterChat uit te nodigen. Klik eenvoudig op de onderstaande knop om mij uit te nodigen!
 
-  - **Support Server:** {support}
+  - **Support Server:** {invite_emoji}
 connection:
   notFound: '{emoji} Ongeldige verbinding. Controleer de kanaal -ID of selecteer uit weergegeven opties.'
   channelNotFound: '{emoji} Kan het verbonden kanaal niet vinden. Kies een nieuw kanaal om opnieuw te praten.'

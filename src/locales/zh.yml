@@ -134,7 +134,7 @@ msgInfo:
 invite: |-
   感谢您选择邀请InterChat。 只需单击下面的按钮即可邀请我！ 
 
-    -  **支持服务器：** {support}
+    -  **支持服务器：** {invite_emoji}
 connection:
   notFound: '{emoji}无效连接。 验证通道ID或从显示的选项中选择。'
   channelNotFound: '{emoji}无法找到连接的通道。 再次交谈选择一个新频道。'
