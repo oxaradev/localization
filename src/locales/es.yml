@@ -134,7 +134,7 @@ msgInfo:
 invite: |
   Gracias por elegir invitar a InterChat. ¡Haga clic en el botón de abajo para invitarme!
 
-  - **Servidor de soporte:** {support}
+  - **Servidor de soporte:** {invite_emoji}
 connection:
   notFound: '{emoji} Conexión no válida. Verifique el ID del canal o seleccione de las opciones mostradas.'
   channelNotFound: '{emoji} No se puede encontrar el canal conectado. Para hablar nuevamente, elija un nuevo canal.'
