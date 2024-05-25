@@ -134,7 +134,7 @@ msgInfo:
 invite: |
   Tack för att du valde att bjuda in interchat. Klicka bara på knappen nedan för att bjuda in mig!
 
-  - **Supportserver:** {support}
+  - **Supportserver:** {invite_emoji}
 connection:
   notFound: '{emoji} Ogiltig anslutning. Verifiera kanal -ID eller välj från visade alternativ.'
   channelNotFound: '{emoji} Det går inte att hitta ansluten kanal. För att prata igen väljer du en ny kanal.'
