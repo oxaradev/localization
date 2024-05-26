@@ -159,7 +159,7 @@ connection:
       profanity: Filtro de blasfemias
     footer: Use el botón y el menú desplegable a continuación para administrar su conexión.
   selects:
-    placeholder: '🛠️ Seleccione una opción a continuación para administrar su conexión.'
+    placeholder: '🛠️ Select an option to edit this connection'
   unpaused: |
     ## {tick_emoji} Conexión no puesta
 
