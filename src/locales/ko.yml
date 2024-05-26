@@ -159,7 +159,7 @@ connection:
       profanity: 욕설 필터
     footer: 아래 버튼 및 드롭다운을 사용하여 연결을 관리하세요.
   selects:
-    placeholder: '🛠️ 아래 옵션을 선택하여 연결을 관리하세요.'
+    placeholder: '🛠️ Select an option to edit this connection'
   unpaused: |
     ## {tick_emoji} 연결되지 않은 연결
 
