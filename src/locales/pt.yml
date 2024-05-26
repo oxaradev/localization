@@ -159,7 +159,7 @@ connection:
       profanity: Filtro de palavrões
     footer: Utilize o botão e a lista pendente abaixo para gerir a sua ligação.
   selects:
-    placeholder: '🛠️ Seleccione uma opção abaixo para gerir a sua ligação.'
+    placeholder: '🛠️ Select an option to edit this connection'
   unpaused: |
     ## {tick_emoji} conexão não ouvida
 
