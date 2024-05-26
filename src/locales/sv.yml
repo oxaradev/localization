@@ -149,7 +149,6 @@ connection:
   emColorChange: '{emoji} inbäddad färg framgångsrikt {action}'
   embed:
     title: Anslutningsuppgifter
-    description: Välj ett alternativ nedan för att hantera din anslutning.
     fields:
       hub: Nav
       channel: Kanal
@@ -161,6 +160,19 @@ connection:
     footer: Använd knappen och rullgardinsmenyn nedan för att hantera din anslutning.
   selects:
     placeholder: '🛠 Välj ett alternativ nedan för att hantera din anslutning.'
+  unpaused: |
+    ## {tick_emoji} ospisad anslutning
+
+    Osmakad anslutning för {channel}! Meddelanden från navet börjar komma in i kanalen igen och du kan skicka meddelanden till navet.
+    ### Tips:
+    - Använd `/anslutning Paus` för att pausa anslutningen.
+    - Använd `/anslutning Anpassa 'för att ställa in inbäddningsfärger, växla banningens filter, aktivera kompakt läge och mer.
+  paused: |
+    ## {clock_emoji} pausade anslutning
+    Pausad anslutning för {channel}! Meddelanden från navet kommer inte längre in i kanalen och dina meddelanden kommer inte att sändas till dem.
+    ### Tips:
+    - Använd `/-anslutning opause` för att ta upp anslutningen.
+    - Använd `/Hub -ledighet för att permanent sluta få meddelanden.
 hub:
   notFound: '{emoji} Det går inte att hitta nav. Se till att du har angett rätt navnamn.'
   notFound_mod: '{emoji} Det går inte att hitta nav. Se till att du har angett rätt navnamn och att du är ägaren eller en moderator för navet.'
