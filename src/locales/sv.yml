@@ -159,7 +159,7 @@ connection:
       profanity: Språkfilter
     footer: Använd knappen och rullgardinsmenyn nedan för att hantera din anslutning.
   selects:
-    placeholder: '🛠 Välj ett alternativ nedan för att hantera din anslutning.'
+    placeholder: '🛠️ Select an option to edit this connection'
   unpaused: |
     ## {tick_emoji} ospisad anslutning
 
