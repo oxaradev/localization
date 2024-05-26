@@ -149,7 +149,6 @@ connection:
   emColorChange: '{emoji} încorporează culoarea cu succes {action}'
   embed:
     title: Detalii despre conexiune
-    description: Selectați o opțiune de mai jos pentru a vă gestiona conexiunea.
     fields:
       hub: Hub
       channel: Canal
@@ -161,6 +160,19 @@ connection:
     footer: Utilizați butonul și meniul derulant de mai jos pentru a vă gestiona conexiunea.
   selects:
     placeholder: 🛠️ Selectați o opțiune de mai jos pentru a vă gestiona conexiunea.
+  unpaused: |-
+    ## {tick_emoji} Conexiune nepezândită
+
+     Conexiune nepezitată pentru {channel}! Mesajele de la Hub vor începe să intre din nou în canal și puteți trimite mesaje către Hub.
+     ### Sfaturi:
+     - Utilizați `/Conexiune Pauză` pentru a întrerupe conexiunea.
+     - Utilizați `/Connection Personalizare` pentru a seta culorile de încorporare, a comuta filtrul de profanitate, pentru a activa modul compact și multe altele.
+  paused: |-
+    ## {clock_emoji} conexiune pauză 
+     Conexiune pusă pentru {channel}! Mesajele de la hub nu vor mai intra în canal, iar mesajele dvs. nu vor fi transmise către ele. 
+     ### Sfaturi: 
+     - Utilizați `/conexiune Unpause` pentru a dezactiva conexiunea. 
+     - Utilizați `/hub Leave` pentru a opri permanent primirea mesajelor.
 hub:
   notFound: '{emoji} Imposibil de găsit hub. Vă rugăm să vă asigurați că ați introdus numele hub -ului corect.'
   notFound_mod: '{emoji} Imposibil de găsit hub. Vă rugăm să vă asigurați că ați introdus numele hub -ului corect și că sunteți proprietarul sau un moderator al hub -ului.'

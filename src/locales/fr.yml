@@ -149,7 +149,6 @@ connection:
   emColorChange: '{emoji} Intégrer la couleur avec succès {action}'
   embed:
     title: Détails de la connexion
-    description: Sélectionnez une option ci-dessous pour gérer votre connexion.
     fields:
       hub: Hub
       channel: Chaîne
@@ -161,6 +160,19 @@ connection:
     footer: Utilisez le bouton et le menu déroulant ci-dessous pour gérer votre connexion.
   selects:
     placeholder: 🛠️ Sélectionnez une option ci-dessous pour gérer votre connexion.
+  unpaused: |-
+    ## {tick_emoji} connexion non utilisée 
+
+     Connexion non utilisée pour {channel}! Les messages du centre recommenceront à revenir dans la chaîne et vous pouvez envoyer des messages au centre. 
+     ### Conseils: 
+     - Utilisez `/ connexion Pause` pour suspendre la connexion. 
+     - Utilisez `/ connexion Personnalise` pour définir les couleurs intégrées, basculer le filtre de blasphème, activer le mode compact et plus encore.
+  paused: |-
+    ## {clock_emoji} connexion en pause 
+     Connexion en pause pour {channel}! Les messages du Hub ne viendront plus dans la chaîne et vos messages ne leur seront pas diffusés. 
+     ### Conseils: 
+     - Utilisez `/ connexion Inscriptez-vous pour inaugurer la connexion. 
+     - Utilisez `/ Hub Leave 'pour arrêter de façon permanente de recevoir des messages.
 hub:
   notFound: '{emoji} Impossible de trouver le hub. Veuillez vous assurer que vous avez saisi le nom correct du hub.'
   notFound_mod: '{emoji} Impossible de trouver le hub. Veuillez vous assurer que vous avez saisi le nom correct du hub et que vous êtes le propriétaire ou un modérateur du hub.'

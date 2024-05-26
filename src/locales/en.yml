@@ -174,7 +174,6 @@ connection:
     ### Tips:
     - Use `/connection unpause` to unpause the connection.
     - Use `/hub leave` to permanently stop recieving messages.
-
 hub:
   notFound: '{emoji} Unable to find hub. Please make sure you have entered the correct hub name.'
   notFound_mod: '{emoji} Unable to find hub. Please make sure you have entered the correct hub name & that you are the owner or a moderator of the hub.'
@@ -373,7 +372,6 @@ errors:
 
     **Error ID:**
     ```{errorId}```
-
   mustVote: Please [vote](https://top.gg/bot/769921109209907241/vote) for InterChat to use this command, your support is very much appreciated!
   inviteLinks: '{emoji} Do not advertise or promote servers in the network. Set an invite in `/connection` instead!'
   invalidLangCode: '{emoji} Invalid language code. Please make sure you have entered a correct [language code](https://cloud.google.com/translate/docs/languages).'

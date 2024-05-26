@@ -149,7 +149,6 @@ connection:
   emColorChange: '{emoji} insluiten kleur succesvol {action}'
   embed:
     title: Verbindingsgegevens
-    description: Selecteer hieronder een optie om uw verbinding te beheren.
     fields:
       hub: Middelpunt
       channel: Kanaal
@@ -161,6 +160,19 @@ connection:
     footer: Gebruik de knop en de vervolgkeuzelijst hieronder om uw verbinding te beheren.
   selects:
     placeholder: 🛠️ Selecteer hieronder een optie om uw verbinding te beheren.
+  unpaused: |-
+    ## {tick_emoji} niet -verhandelde verbinding 
+
+     Niet -gebruikte verbinding voor {channel}! Berichten van de hub gaan weer naar het kanaal komen en u kunt berichten naar de hub verzenden. 
+     ### Tips: 
+     - Gebruik `/verbindingspauze 'om de verbinding te pauzeren. 
+     - Gebruik `/verbinding aanpassen 'om insluitende kleuren in te stellen, schakelschooffilter in te schakelen, de compacte modus in te schakelen en meer.
+  paused: |-
+    ## {clock_emoji} Pauzige verbinding 
+     Pauzeerde verbinding voor {channel}! Berichten van de hub komen niet langer in het kanaal en uw berichten worden niet op hen uitgezonden. 
+     ### Tips: 
+     - Gebruik `/verbinding onvoorwaardelijk 'om de verbinding te pauzeren. 
+     - Gebruik `/Hub Leave` om permanent te stoppen met het ontvangen van berichten.
 hub:
   notFound: '{emoji} kan hub niet vinden. Zorg ervoor dat u de juiste hubnaam hebt ingevoerd.'
   notFound_mod: '{emoji} kan hub niet vinden. Zorg ervoor dat u de juiste hubnaam hebt ingevoerd en dat u de eigenaar of een moderator van de hub bent.'

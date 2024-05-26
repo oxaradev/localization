@@ -149,7 +149,6 @@ connection:
   emColorChange: '{emoji} upota väri onnistuneesti {action}'
   embed:
     title: Yhteystiedot
-    description: Valitse alla oleva vaihtoehto hallitaksesi yhteyttä.
     fields:
       hub: Napa
       channel: Kanava
@@ -161,6 +160,19 @@ connection:
     footer: Hallitse yhteyden alla olevaa painiketta ja pudotuspaikkaa.
   selects:
     placeholder: 🛠️ Valitse alla oleva vaihtoehto hallitaksesi yhteyttä.
+  unpaused: |-
+    ## {tick_emoji} 
+
+     Tuhoton yhteys {channel}! Keskittimen viestit alkavat tulla kanavalle uudelleen ja voit lähettää viestejä napalle. 
+     ### Vinkkejä: 
+     - keskeyttää yhteyden `/yhteystauko '. 
+     - Käytä `/Connection Commercation` -sovellusta upotusvärit, kytkentä turmeltuvuussuodatin, ota kompakti tila ja paljon muuta.
+  paused: |-
+    ## {clock_emoji} keskeytetty yhteys 
+     Keskeytetty yhteys {channel}! Keskittimen viestit eivät enää tule kanavalle, eikä viestejäsi lähetetä heille. 
+     ### Vinkkejä: 
+     - Käytä yhteyden lopettamista `/yhteyskäytäntö". 
+     - Käytä `/Hub -jätettä" lopettaaksesi viestejä pysyvästi.
 hub:
   notFound: '{emoji} ei löydy keskittimestä. Varmista, että olet syöttänyt oikean navan nimen.'
   notFound_mod: '{emoji} ei löydy keskittimestä. Varmista, että olet syöttänyt oikean navan nimen ja että olet keskuksen omistaja tai moderaattori.'

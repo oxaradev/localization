@@ -149,7 +149,6 @@ connection:
   emColorChange: '{emoji} indlejret farve med succes {action}'
   embed:
     title: Forbindelsesoplysninger
-    description: Vælg en mulighed nedenfor for at administrere din forbindelse.
     fields:
       hub: Hub
       channel: Kanal
@@ -161,6 +160,19 @@ connection:
     footer: Brug knappen og dropdown nedenfor til at administrere din forbindelse.
   selects:
     placeholder: 🛠 Vælg en mulighed nedenfor for at administrere din forbindelse.
+  unpaused: |-
+    ## {tick_emoji} Upaused Connection 
+
+     Upaused forbindelse til {channel}! Meddelelser fra huben begynder at komme ind i kanalen igen, og du kan sende beskeder til huben. 
+     ### Tips: 
+     - Brug `/forbindelsespause 'til at sætte forbindelsen på pause. 
+     - Brug `/Forbindelse Tilpas 'til at indstille indlejringsfarver, skifte bandefilter, aktivere kompakt tilstand og mere.
+  paused: |-
+    ## {clock_emoji} pauset forbindelse 
+     Pauset forbindelse til {channel}! Meddelelser fra huben kommer ikke længere ind i kanalen, og dine meddelelser bliver ikke sendt til dem. 
+     ### Tips: 
+     - Brug `/Forbindelse UNPAUSE 'til at ikkepausere forbindelsen. 
+     - Brug `/hub orlov 'til permanent at stoppe med at modtage beskeder.
 hub:
   notFound: '{emoji} kan ikke finde hub. Sørg for, at du har indtastet det rigtige knudepunkt.'
   notFound_mod: '{emoji} kan ikke finde hub. Sørg for, at du har indtastet det rigtige knudepunkt, og at du er ejer eller moderator af huben.'

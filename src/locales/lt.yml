@@ -149,7 +149,6 @@ connection:
   emColorChange: '{{ay'
   embed:
     title: Informacija apie ryšį
-    description: Norėdami valdyti ryšį, pasirinkite parinktį.
     fields:
       hub: Stebulė
       channel: Kanalas
@@ -161,6 +160,19 @@ connection:
     footer: Norėdami valdyti ryšį, naudokite žemiau esantį mygtuką ir išskleidžiamąjį išskleidimą.
   selects:
     placeholder: 🛠️ Pasirinkite parinktį žemiau, kad galėtumėte valdyti savo ryšį.
+  unpaused: |-
+    ## {tick_emoji} nepaliestas ryšys 
+
+     Neapsaugotas ryšys {channel}! Žaidimai iš centro vėl pradės ateiti į kanalą ir galėsite siųsti pranešimus į centrą. 
+     ### patarimai: 
+     - Norėdami pristabdyti ryšį, naudokite „/Connection Pause“. 
+     - Naudokite „/Connection Tinkinti“, kad nustatytumėte įterpimo spalvas, perjunkite nešvankybės filtrą, įgalinkite kompaktišką režimą ir dar daugiau.
+  paused: |-
+    ## {clock_emoji} pristabdytas ryšys 
+     Pristabdytas ryšys {channel}! Žinutės iš centro nebebus į kanalą, o jūsų pranešimai jiems nebus transliuojami. 
+     ### patarimai: 
+     - Norėdami panaikinti ryšį, naudokite „/Connection UnPause“. 
+     - Naudokite „/stebulės atostogas“, kad visam laikui nustosite pranešti pranešimus.
 hub:
   notFound: '{emoji} nesugebu rasti centro. Įsitikinkite, kad įvedėte teisingą centro pavadinimą.'
   notFound_mod: '{emoji} nesugebu rasti centro. Įsitikinkite, kad įvedėte teisingą centro pavadinimą ir ar esate „Hub“ savininkas ar moderatorius.'

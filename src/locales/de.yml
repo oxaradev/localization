@@ -149,7 +149,6 @@ connection:
   emColorChange: '{emoji} Einbetten Sie die Farbe erfolgreich {action} ein.'
   embed:
     title: Verbindungsdetails
-    description: Wählen Sie unten eine Option aus, um Ihre Verbindung zu verwalten.
     fields:
       hub: Nabe
       channel: Kanal
@@ -161,6 +160,19 @@ connection:
     footer: Verwenden Sie die unten stehende Schaltfläche und Dropdown, um Ihre Verbindung zu verwalten.
   selects:
     placeholder: 🛠️ Wählen Sie unten eine Option aus, um Ihre Verbindung zu verwalten.
+  unpaused: |-
+    ## {tick_emoji} ungehelte Verbindung 
+
+     Unbeobachtete Verbindung für {channel}! Nachrichten aus dem Hub kommen wieder in den Kanal und Sie können Nachrichten an den Hub senden. 
+     ### Tipps: 
+     - Verwenden Sie `/Connection Pause`, um die Verbindung zu pausieren. 
+     - Verwenden Sie `/Connection Customize`, um Einbettungsfarben zu setzen, den Profanitätsfilter umzuschalten, den Kompaktmodus zu aktivieren und vieles mehr.
+  paused: |-
+    ## {clock_emoji} pausierte die Verbindung 
+     Pause für {channel}! Nachrichten aus dem Hub werden nicht mehr in den Kanal gelangen und Ihre Nachrichten werden nicht mehr an sie gesendet. 
+     ### Tipps: 
+     - Verwenden Sie `/connection pause`, um die Verbindung zu entfalten. 
+     - Verwenden Sie , um dauerhaft keine Nachrichten zu erhalten.
 hub:
   notFound: '{emoji} kann Hub nicht finden. Bitte stellen Sie sicher, dass Sie den richtigen Hub -Namen eingegeben haben.'
   notFound_mod: '{emoji} kann Hub nicht finden. Bitte stellen Sie sicher, dass Sie den richtigen Hub -Namen eingegeben haben und dass Sie der Eigentümer oder ein Moderator des Hubs sind.'

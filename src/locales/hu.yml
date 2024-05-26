@@ -149,7 +149,6 @@ connection:
   emColorChange: '{emoji} Sikeresen beágyazza a színt {action}'
   embed:
     title: Csatlakozási részletek
-    description: Válassza ki az alábbi opciót a kapcsolat kezeléséhez.
     fields:
       hub: Kerékagy
       channel: Csatorna
@@ -161,6 +160,19 @@ connection:
     footer: A kapcsolat kezeléséhez használja az alábbi gombot és legördülő gombot.
   selects:
     placeholder: 🛠️ Válassza ki az alábbi lehetőséget a kapcsolat kezeléséhez.
+  unpaused: |-
+    ## {tick_emoji} Undosed Connection 
+
+     A {channel} -hoz nem használt kapcsolat! A hub üzenetei újra elkezdenek bejutni a csatornába, és üzeneteket küldhet a Hub -ba. 
+     ### Tippek: 
+     - A kapcsolat szüneteltetéséhez használja a `/kapcsolatszünetet. 
+     - A `/Connection Couthize" használatával beágyazza a színek beágyazását, váltson az ostobaság -szűrőre, engedélyezze a kompakt módot és így tovább.
+  paused: |-
+    ## {clock_emoji} szüneteltetett kapcsolat
+     Szüneteltetés a {channel} -hoz! A hub üzenetei már nem kerülnek a csatornába, és az üzeneteket nem adják át nekik.
+     ### Tippek:
+     - Használja a `/kapcsolat UNCUSE" -et a kapcsolat megszüntetéséhez.
+     - Használja a `/hub szabadságot, hogy véglegesen abbahagyja az üzenetek kapását.
 hub:
   notFound: '{emoji} nem találja meg a hubot. Kérjük, győződjön meg arról, hogy megadta -e a helyes hub nevét.'
   notFound_mod: '{emoji} nem találja meg a hubot. Kérjük, győződjön meg arról, hogy megadta -e a helyes központ nevét, és hogy Ön a Hub tulajdonosa vagy moderátora.'

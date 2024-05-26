@@ -149,7 +149,6 @@ connection:
   emColorChange: '{emoji} nhúng màu thành công {action}'
   embed:
     title: Chi tiết kết nối
-    description: Chọn một tùy chọn bên dưới để quản lý kết nối của bạn.
     fields:
       hub: Trung tâm
       channel: Kênh
@@ -161,6 +160,19 @@ connection:
     footer: Sử dụng nút & thả xuống bên dưới để quản lý kết nối của bạn.
   selects:
     placeholder: Chọn một tùy chọn bên dưới để quản lý kết nối của bạn.
+  unpaused: |-
+    ## {tick_emoji} Kết nối không bị ảnh hưởng
+
+     Kết nối không được thực hiện cho {channel}! Tin nhắn từ trung tâm sẽ bắt đầu vào kênh một lần nữa và bạn có thể gửi tin nhắn đến trung tâm.
+     ### Lời khuyên:
+     - Sử dụng `/Tạm dừng kết nối` để tạm dừng kết nối.
+     - Sử dụng `/Kết nối Tùy chỉnh` để đặt màu nhúng, chuyển bộ lọc thô tục, bật chế độ nhỏ gọn và hơn thế nữa.
+  paused: |-
+    ## {clock_emoji} kết nối tạm dừng 
+     Kết nối tạm dừng cho {channel}! Tin nhắn từ trung tâm sẽ không còn đến kênh và tin nhắn của bạn sẽ không được phát cho họ. 
+     ### Lời khuyên: 
+     - Sử dụng `/kết nối Unpause` để không kết nối. 
+     - Sử dụng `/Hub Rời` để ngừng gửi tin nhắn vĩnh viễn.
 hub:
   notFound: '{emoji} Không thể tìm thấy Hub. Vui lòng đảm bảo rằng bạn đã nhập đúng tên trung tâm.'
   notFound_mod: '{emoji} Không thể tìm thấy Hub. Vui lòng đảm bảo rằng bạn đã nhập đúng tên trung tâm và bạn là chủ sở hữu hoặc người điều hành trung tâm.'

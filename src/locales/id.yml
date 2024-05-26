@@ -149,7 +149,6 @@ connection:
   emColorChange: '{emoji} embed berhasil {action}'
   embed:
     title: Detail Koneksi
-    description: Pilih opsi di bawah ini untuk mengelola koneksi Anda.
     fields:
       hub: Pusat
       channel: Saluran
@@ -161,6 +160,19 @@ connection:
     footer: Gunakan tombol & dropdown di bawah ini untuk mengelola koneksi Anda.
   selects:
     placeholder: 🛠️ Pilih opsi di bawah ini untuk mengelola koneksi Anda.
+  unpaused: |-
+    ## {tick_emoji} Koneksi yang tidak digunakan 
+
+     Koneksi yang tidak digunakan untuk {channel}! Pesan dari hub akan mulai masuk ke saluran lagi dan Anda dapat mengirim pesan ke hub. 
+     ### Tips: 
+     - Gunakan `/koneksi jeda` untuk menjeda koneksi. 
+     - Gunakan `/Connection Customize` untuk mengatur warna embed, sakelar filter kata -kata kotor, aktifkan mode kompak dan banyak lagi.
+  paused: |-
+    ## {clock_emoji} koneksi yang dijeda 
+     Koneksi yang dijeda untuk {channel}! Pesan dari hub tidak akan lagi masuk ke saluran dan pesan Anda tidak akan disiarkan ke mereka. 
+     ### Tips: 
+     - Gunakan `/koneksi unpause` untuk tidak mengetahui koneksi. 
+     - Gunakan `/hub cuti` untuk secara permanen berhenti menerima pesan.
 hub:
   notFound: '{emoji} Tidak dapat menemukan hub. Pastikan Anda telah memasukkan nama hub yang benar.'
   notFound_mod: '{emoji} Tidak dapat menemukan hub. Pastikan Anda telah memasukkan nama hub yang benar & bahwa Anda adalah pemilik atau moderator hub.'

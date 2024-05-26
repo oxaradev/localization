@@ -149,7 +149,6 @@ connection:
   emColorChange: '{emoji} ugraditi boju uspješno {action}'
   embed:
     title: Pojedinosti o vezi
-    description: Odaberite opciju u nastavku za upravljanje vezom.
     fields:
       hub: Središte
       channel: Kanal
@@ -161,6 +160,19 @@ connection:
     footer: Upotrijebite gumb i padajući u nastavku za upravljanje vezom.
   selects:
     placeholder: 🛠️ Odaberite opciju u nastavku za upravljanje vezom.
+  unpaused: |-
+    ## {tick_emoji} Raspunjena veza 
+
+     Rasmjenjena veza za {channel}! Poruke iz čvorišta ponovno će početi ulaziti u kanal, a poruke možete slati u središte. 
+     ### Savjeti: 
+     - Upotrijebite `/Connection Pause` da biste zaustavili vezu. 
+     - Upotrijebite `/Connection Prilagodite` za postavljanje ugrađenih boja, prebacivanje filtra za profanity, omogućavanje kompaktnog načina i još mnogo toga.
+  paused: |-
+    ## {clock_emoji} Zastajala veza
+     Pauzirana veza za {channel}! Poruke iz čvorišta više neće ulaziti u kanal i vaše poruke im se neće emitirati.
+     ### Savjeti:
+     - Upotrijebite `/Connection Spause` da biste uklonili vezu.
+     - Upotrijebite `/Hub Leave` da biste trajno prestali primati poruke.
 hub:
   notFound: '{emoji} Nije moguće pronaći Hub. Molimo vas da ste unijeli ispravno ime Hub -a.'
   notFound_mod: '{emoji} Nije moguće pronaći Hub. Molimo vas da ste unijeli ispravno ime Hub -a i da ste vlasnik ili moderator središta.'

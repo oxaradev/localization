@@ -149,7 +149,6 @@ connection:
   emColorChange: '{emoji} Rengi başarıyla göm {action}'
   embed:
     title: Bağlantı Detayları
-    description: Bağlantınızı yönetmek için aşağıdaki seçeneklerden birini seçin.
     fields:
       hub: Hub
       channel: Kanal
@@ -161,6 +160,19 @@ connection:
     footer: Bağlantınızı yönetmek için aşağıdaki düğmeyi ve açılır menüyü kullanın.
   selects:
     placeholder: 🛠️ Bağlantınızı yönetmek için aşağıdaki seçeneklerden birini seçin.
+  unpaused: |-
+    ## {tick_emoji} Papasız Bağlantı 
+
+     {channel} için Papasız Bağlantı! Hub'dan gelen mesajlar tekrar kanala gelmeye başlayacak ve göbeğe mesaj gönderebilirsiniz. 
+     ### İpuçları: 
+     - Bağlantıyı duraklatmak için `/bağlantı duraklatma 'kullanın. 
+     - Gömme renklerini ayarlamak, küfür filtresini başlatmak, kompakt modu etkinleştirmek ve daha fazlasını ayarlamak için `/bağlantı özelleştir 'kullanın.
+  paused: |-
+    ## {clock_emoji} duraklatılmış bağlantı 
+     {channel} için duraklatılmış bağlantı! Hub'dan gelen mesajlar artık kanala gelmeyecek ve mesajlarınız onlara yayınlanmayacak. 
+     ### İpuçları: 
+     - Bağlantıyı çözmek için `/bağlantı açma işlemini kullanın. 
+     - Mesajları almayı kalıcı olarak durdurmak için `/hub bırak 'kullanın.
 hub:
   notFound: '{emoji} Hub bulunamıyor. Lütfen doğru hub adını girdiğinizden emin olun.'
   notFound_mod: '{emoji} Hub bulunamıyor. Lütfen doğru hub adını girdiğinizden ve hub''ın sahibi veya moderatörü olduğunuzdan emin olun.'
