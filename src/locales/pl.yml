@@ -159,7 +159,7 @@ connection:
       profanity: Filtr wulgaryzmów
     footer: Użyj poniższego przycisku i rozwijania, aby zarządzać połączeniem.
   selects:
-    placeholder: '🛠️ Wybierz opcję poniżej, aby zarządzać połączeniem.'
+    placeholder: '🛠️ Select an option to edit this connection'
   unpaused: |
     ## {tick_emoji} niezakłócone połączenie
 
