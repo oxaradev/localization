@@ -159,7 +159,7 @@ connection:
       profanity: Filtre de grossièretés
     footer: Utilisez le bouton et le menu déroulant ci-dessous pour gérer votre connexion.
   selects:
-    placeholder: '🛠️ Sélectionnez une option ci-dessous pour gérer votre connexion.'
+    placeholder: '🛠️ Select an option to edit this connection'
   unpaused: |
     ## {tick_emoji} connexion non utilisée
 
