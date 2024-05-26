@@ -149,7 +149,6 @@ connection:
   emColorChange: '{emoji}埋め込まれた色に正常に{action}'
   embed:
     title: 接続の詳細
-    description: 接続を管理するには、以下のオプションを選択します。
     fields:
       hub: ハブ
       channel: チャネル
@@ -161,6 +160,19 @@ connection:
     footer: 下のボタンとドロップダウンを使用して、接続を管理します。
   selects:
     placeholder: '[接続を管理するには、以下のオプションを選択します。'
+  unpaused: |
+    ## {tick_emoji} ausued connection
+
+    {channel}のための未解決の接続！ ハブからのメッセージが再びチャンネルに入り始め、ハブにメッセージを送信できます。
+    ＃＃＃ チップ：
+    -  `/connection Pause`を使用して、接続を一時停止します。
+    - 「/接続カスタマイズ」を使用して、埋め込み色を設定し、冒とくフィルターを切り替え、コンパクトモードを有効にします。
+  paused: |
+    ## {clock_emoji}停止した接続
+    {channel}の接続を一時停止しました！ ハブからのメッセージはチャンネルに入ることなく、メッセージはブロードキャストされません。
+    ＃＃＃ チップ：
+    -  `/connection unpause`を使用して、接続をuseします。
+    - 「/hub reave」を使用して、メッセージの受信を永久に停止します。
 hub:
   notFound: '{emoji}ハブを見つけることができません。 正しいハブ名を入力したことを確認してください。'
   notFound_mod: '{emoji}ハブを見つけることができません。 正しいハブ名を入力したことを確認し、あなたがハブの所有者またはモデレーターであることを確認してください。'
