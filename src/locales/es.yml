@@ -149,7 +149,6 @@ connection:
   emColorChange: '{emoji} Se estableció el color exitosamente: {action}'
   embed:
     title: Detalles de la conexión
-    description: Seleccione una opción a continuación para administrar su conexión.
     fields:
       hub: Centro
       channel: Canal
@@ -161,6 +160,19 @@ connection:
     footer: Use el botón y el menú desplegable a continuación para administrar su conexión.
   selects:
     placeholder: '🛠️ Seleccione una opción a continuación para administrar su conexión.'
+  unpaused: |
+    ## {tick_emoji} Conexión no puesta
+
+    Conexión no puesta para {channel}! Los mensajes del Hub comenzarán a volver al canal nuevamente y puede enviar mensajes al HUB.
+    ### Consejos:
+    - Use `/Connection Pause` para pausar la conexión.
+    - Use `/Connection Customize` para configurar los colores de incrustación, alternar el filtro de blasfemias, habilitar el modo compacto y más.
+  paused: |
+    ## {clock_emoji} Conexión pausada
+    Conexión pausada para {channel}! Los mensajes del centro ya no entrarán en el canal y sus mensajes no se les transmitirá.
+    ### Consejos:
+    - Use `/Connection impause` para impausar la conexión.
+    - Use `/Hub Leave` para dejar de recibir mensajes permanentemente.
 hub:
   notFound: '{emoji} No se puede encontrar HUB. Asegúrese de haber ingresado el nombre correcto del concentrador.'
   notFound_mod: '{emoji} No se puede encontrar HUB. Asegúrese de haber ingresado el nombre correcto del concentrador y de que usted sea el propietario o un moderador del Hub.'
