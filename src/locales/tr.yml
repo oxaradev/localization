@@ -159,7 +159,7 @@ connection:
       profanity: Küfür Filtresi
     footer: Bağlantınızı yönetmek için aşağıdaki düğmeyi ve açılır menüyü kullanın.
   selects:
-    placeholder: '🛠️ Bağlantınızı yönetmek için aşağıdaki seçeneklerden birini seçin.'
+    placeholder: '🛠️ Select an option to edit this connection'
   unpaused: |
     ## {tick_emoji} Papasız Bağlantı
 
