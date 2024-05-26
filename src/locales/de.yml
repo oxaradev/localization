@@ -159,7 +159,7 @@ connection:
       profanity: Profanitätsfilter
     footer: Verwenden Sie die unten stehende Schaltfläche und Dropdown, um Ihre Verbindung zu verwalten.
   selects:
-    placeholder: '🛠️ Wählen Sie unten eine Option aus, um Ihre Verbindung zu verwalten.'
+    placeholder: '🛠️ Select an option to edit this connection'
   unpaused: |
     ## {tick_emoji} ungehelte Verbindung
 
