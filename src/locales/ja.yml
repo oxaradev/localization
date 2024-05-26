@@ -159,7 +159,7 @@ connection:
       profanity: 冒とく的なフィルター
     footer: 下のボタンとドロップダウンを使用して、接続を管理します。
   selects:
-    placeholder: '[接続を管理するには、以下のオプションを選択します。'
+    placeholder: '🛠️ Select an option to edit this connection'
   unpaused: |
     ## {tick_emoji} ausued connection
 
