@@ -159,7 +159,7 @@ connection:
       profanity: Godsdienstfilter
     footer: Gebruik de knop en de vervolgkeuzelijst hieronder om uw verbinding te beheren.
   selects:
-    placeholder: '🛠️ Selecteer hieronder een optie om uw verbinding te beheren.'
+    placeholder: '🛠️ Select an option to edit this connection'
   unpaused: |
     ## {tick_emoji} niet -verhandelde verbinding
 
