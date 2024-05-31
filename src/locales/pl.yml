@@ -159,20 +159,20 @@ connection:
       profanity: Filtr wulgaryzmów
     footer: Użyj poniższego przycisku i rozwijania, aby zarządzać połączeniem.
   selects:
-    placeholder: '🛠️ Select an option to edit this connection'
-  unpaused: |
-    ## {tick_emoji} niezakłócone połączenie
+    placeholder: '🛠️ Wybierz opcję poniżej, aby zarządzać połączeniem.'
+  unpaused:
+    desc: |
+      ### {tick_emoji} niezakłócone połączenie
 
-    Niezbędne połączenie dla {channel}! Wiadomości z piasty zaczną znów przychodzić do kanału i możesz wysyłać wiadomości do hubu.
-    ### Porady:
-    - Użyj `/połączenie pauza ', aby zatrzymać połączenie.
-    - Użyj `/Connection Dostosuj ', aby ustawić kolory osadzone, przełącz filtr wulgaryzmów, włącz tryb kompaktowy i więcej.
-  paused: |
-    ## {clock_emoji} wstrzymane połączenie
-    Zatrzymane połączenie dla {channel}! Wiadomości z piasty nie będą już pojawiać się na kanale, a twoje wiadomości nie będą do nich transmitowane.
-    ### Porady:
-    - Użyj `/Connection Unpause`, aby rozpoznać połączenie.
-    - Użyj `/Hub Laint`, aby trwale zaprzestać rezygnacji wiadomości.
+      Niezbędne połączenie dla {channel}! Wiadomości z piasty zaczną wchodzić na kanał i możesz ponownie wysyłać wiadomości do hubu.
+    tips: |
+      **💡 Wskazówka:** Użyj {pause_cmd}, aby wstrzymać połączenie lub {customize_cmd}, aby ustawić kolory osadzone, przełącz filtr wulgaryzmów i więcej.
+  paused:
+    desc: |
+      ### {clock_emoji} Zatrzymane połączenie
+      Zatrzymane połączenie dla {channel}! Wiadomości z piasty nie będą już pojawiać się na kanale, a twoje wiadomości nie będą do nich transmitowane.
+    tips: |
+      **💡 Wskazówka:** Użyj {unpause_cmd}, aby rozpoznać połączenie lub {leave_cmd}, aby trwale zaprzestać rezygnacji z wiadomości.
 hub:
   notFound: '{emoji} nie można znaleźć piasty. Upewnij się, że wprowadziłeś odpowiednią nazwę piasty.'
   notFound_mod: '{emoji} nie można znaleźć piasty. Upewnij się, że wprowadziłeś odpowiednią nazwę piasty i że jesteś właścicielem lub moderatorem piasty.'
