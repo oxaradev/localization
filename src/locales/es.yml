@@ -159,20 +159,20 @@ connection:
       profanity: Filtro de blasfemias
     footer: Use el botón y el menú desplegable a continuación para administrar su conexión.
   selects:
-    placeholder: '🛠️ Select an option to edit this connection'
-  unpaused: |
-    ## {tick_emoji} Conexión no puesta
+    placeholder: '🛠️ Seleccione una opción a continuación para administrar su conexión.'
+  unpaused:
+    desc: |
+      ### {tick_emoji} Conexión sin aliento
 
-    Conexión no puesta para {channel}! Los mensajes del Hub comenzarán a volver al canal nuevamente y puede enviar mensajes al HUB.
-    ### Consejos:
-    - Use `/Connection Pause` para pausar la conexión.
-    - Use `/Connection Customize` para configurar los colores de incrustación, alternar el filtro de blasfemias, habilitar el modo compacto y más.
-  paused: |
-    ## {clock_emoji} Conexión pausada
-    Conexión pausada para {channel}! Los mensajes del centro ya no entrarán en el canal y sus mensajes no se les transmitirá.
-    ### Consejos:
-    - Use `/Connection impause` para impausar la conexión.
-    - Use `/Hub Leave` para dejar de recibir mensajes permanentemente.
+      Conexión no puesta para {channel}! Los mensajes del Hub comenzarán a entrar al canal y puede enviar mensajes al Hub nuevamente.
+    tips: |
+      **💡 Tip:** use {pause_cmd} para pausar la conexión o {customize_cmd} para configurar los colores de incrustación, alternar el filtro de blasfemias y más.
+  paused:
+    desc: |
+      ### {clock_emoji} Conexión pausada
+      Conexión pausada para {channel}! Los mensajes del centro ya no entrarán en el canal y sus mensajes no se les transmitirá.
+    tips: |
+      **💡 consejo:** use {unpause_cmd} para impausar la conexión o {leave_cmd} para dejar de recibir mensajes permanentemente.
 hub:
   notFound: '{emoji} No se puede encontrar HUB. Asegúrese de haber ingresado el nombre correcto del concentrador.'
   notFound_mod: '{emoji} No se puede encontrar HUB. Asegúrese de haber ingresado el nombre correcto del concentrador y de que usted sea el propietario o un moderador del Hub.'
