@@ -161,19 +161,21 @@ connection:
     footer: Use the button & dropdown below to manage your connection.
   selects:
     placeholder: 🛠️ Select an option to edit this connection
-  unpaused: |
-    ## {tick_emoji} Unpaused Connection
+  unpaused:
+    desc: |
+      ### {tick_emoji} Unpaused Connection
 
-    Unpaused connection for {channel}! Messages from the hub will start coming into the channel again and you can send messages to the hub.
-    ### Tips:
-    - Use `/connection pause` to pause the connection.
-    - Use `/connection customize` to set embed colors, toggle profanity filter, enable compact mode and more.
-  paused: |
-    ## {clock_emoji} Paused Connection
-    Paused connection for {channel}! Messages from the hub will no longer come into the channel and your messages won't be broadcasted to them.
-    ### Tips:
-    - Use `/connection unpause` to unpause the connection.
-    - Use `/hub leave` to permanently stop recieving messages.
+      Unpaused connection for {channel}! Messages from the hub will start coming into the channel and you can send messages to the hub again.
+    tips: |
+      **💡 Tip:** Use {pause_cmd} to pause the connection or {customize_cmd} to set embed colors, toggle profanity filter, and more.
+
+  paused:
+    desc: |
+      ### {clock_emoji} Paused Connection
+      Paused connection for {channel}! Messages from the hub will no longer come into the channel and your messages won't be broadcasted to them.
+    tips: |
+      **💡 Tip:** Use {unpause_cmd} to unpause the connection or {leave_cmd} to permanently stop recieving messages.
+
 hub:
   notFound: '{emoji} Unable to find hub. Please make sure you have entered the correct hub name.'
   notFound_mod: '{emoji} Unable to find hub. Please make sure you have entered the correct hub name & that you are the owner or a moderator of the hub.'
@@ -389,7 +391,7 @@ errors:
   notUsable: '{emoji} This is no longer usable.'
   cooldown: '{emoji} You are on cooldown. Please wait until **{time}** before attempting again.'
 misc:
-  webhookNoLongerExists: '{emoji} The webhook for this channel no longer exists. To continue using InterChat, please re-enable the webhook by changing the connection to another channel using `/connection`.'
+  webhookNoLongerExists: '{emoji} The webhook for this channel no longer exists. To continue using InterChat, please re-create the webhook by using `/connection unpause`.'
   noReason: No reason provided.
   noDesc: No Description.
   version: InterChat v{version}
