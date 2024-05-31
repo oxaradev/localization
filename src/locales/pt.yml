@@ -160,19 +160,17 @@ connection:
     footer: Utilize o botão e a lista pendente abaixo para gerir a sua ligação.
   selects:
     placeholder: 🛠️ Seleccione uma opção abaixo para gerir a sua ligação.
-  unpaused: |-
-    ## {tick_emoji} conexão não ouvida 
+  unpaused:
+    desc: |-
+      ### {tick_emoji} conexão não mobilada
 
-     Conexão não ouvida para {channel}! As mensagens do hub começarão a entrar no canal novamente e você poderá enviar mensagens para o hub. 
-     ### Pontas: 
-     - Use `/conexão pausa` para pausar a conexão. 
-     - Use `/conexão personalize` para definir cores incorporadas, alternar filtro de profanidade, ativar o modo compacto e muito mais.
-  paused: |-
-    ## {clock_emoji} conexão parada
-     Conexão pausa para {channel}! As mensagens do hub não entrarão mais no canal e suas mensagens não serão transmitidas para eles.
-     ### Pontas:
-     - Use `/conexão desmarcar` para desconhecer a conexão.
-     - Use `/hub Leave` para parar permanentemente as mensagens de recebimento.
+       Conexão não ouvida para {channel}! As mensagens do hub começarão a entrar no canal e você poderá enviar mensagens para o hub novamente.
+    tips: '**💡 Dica:** Use {pause_cmd} para pausar a conexão ou {customize_cmd} para definir cores incorporadas, alternar o filtro de profanidade e muito mais.'
+  paused:
+    desc: |-
+      ### {clock_emoji} conexão parada
+       Conexão pausa para {channel}! As mensagens do hub não entrarão mais no canal e suas mensagens não serão transmitidas para eles.
+    tips: '**💡 TIP:** Use {unpause_cmd} para desconhecer a conexão ou {leave_cmd} para parar permanentemente as mensagens de recebimento.'
 hub:
   notFound: '{Não foi possível encontrar o centro. Não foi possível encontrar o centro. Certifica-te de que introduziste o nome correto do centro.'
   notFound_mod: '{Não foi possível encontrar o centro. Não foi possível encontrar o centro. Certifique-se de que introduziu o nome correto do centro e de que é o proprietário ou um moderador do centro.'

@@ -160,19 +160,17 @@ connection:
     footer: Bruk knappen og rullegardinmenyen nedenfor for å administrere tilkoblingen.
   selects:
     placeholder: 🛠 Velg et alternativ nedenfor for å administrere tilkoblingen.
-  unpaused: |-
-    ## {tick_emoji} upaused Connection 
+  unpaused:
+    desc: |-
+      ### {tick_emoji} upaused Connection
 
-     Upaused Connection for {channel}! Meldinger fra huben vil begynne å komme inn i kanalen igjen, og du kan sende meldinger til huben. 
-     ### Tips: 
-     - Bruk `/tilkoblingspause` for å pause forbindelsen. 
-     - Bruk `/tilkobling tilpasse 'for å stille inn innebygde farger, slå banefilter, aktivere kompakt modus og mer.
-  paused: |-
-    ## {clock_emoji} pause tilkobling 
-     Pauset tilkobling for {channel}! Meldinger fra huben kommer ikke lenger inn i kanalen, og meldingene dine vil ikke bli sendt til dem. 
-     ### Tips: 
-     - Bruk `/tilkobling av unpause` for å avgjøre forbindelsen. 
-     - Bruk `/Hub Leave` til å slutte å motta meldinger permanent.
+       Upaused Connection for {channel}! Meldinger fra huben vil begynne å komme inn i kanalen, og du kan sende meldinger til huben igjen.
+    tips: '**💡 tips:** bruk {pause_cmd} for å pause tilkoblingen eller {customize_cmd} for å stille inn innebygde farger, slå banefilter og mer.'
+  paused:
+    desc: |-
+      ### {clock_emoji} pause tilkobling
+       Pauset tilkobling for {channel}! Meldinger fra huben kommer ikke lenger inn i kanalen, og meldingene dine vil ikke bli sendt til dem.
+    tips: '**💡 Tips:** Bruk {unpause_cmd} for å avpasse tilkoblingen eller {leave_cmd} for å slutte å motta meldinger permanent.'
 hub:
   notFound: '{emoji} klarer ikke å finne hub. Forsikre deg om at du har skrevet inn riktig navnavn.'
   notFound_mod: '{emoji} klarer ikke å finne hub. Forsikre deg om at du har skrevet inn riktig navnavn og at du er eier eller en moderator av huben.'

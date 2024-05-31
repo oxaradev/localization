@@ -160,19 +160,17 @@ connection:
     footer: 使用下面的按钮和下拉列表来管理您的连接。
   selects:
     placeholder: 🛠️选择下面的选项以管理您的连接。
-  unpaused: |-
-    ## {tick_emoji}未大量连接 
+  unpaused:
+    desc: |-
+      ### {tick_emoji}未大量连接
 
-     {channel}的无措施连接！ 来自集线器的消息将再次开始进入频道，您可以将消息发送到集线器。 
-     ＃＃＃ 尖端： 
-      - 使用`/连接暂停'暂停连接。 
-      - 使用`/connection customize`以设置嵌入颜色，切换亵渎过滤器，启用紧凑模式等。
-  paused: |-
-    ## {clock_emoji}暂停连接 
-     {channel}的暂停连接！ 来自枢纽的消息将不再进入频道，您的消息将不会播放给它们。 
-     ＃＃＃ 尖端： 
-      - 使用`/连接解开'取消连接。 
-      - 使用`/hub offew'永久停止收回消息。
+       {channel}的无措施连接！ 来自集线器的消息将开始进入频道，您可以再次将消息发送到集线器。
+    tips: '**💡提示：**使用{pause_cmd}暂停连接或{customize_cmd}以设置嵌入颜色，切换profanity滤波器等。'
+  paused:
+    desc: |-
+      ### {clock_emoji}暂停连接
+       {channel}的暂停连接！ 来自枢纽的消息将不再进入频道，您的消息不会被广播给它们。
+    tips: '**💡提示：**使用{unpause_cmd}解开连接或{leave_cmd}以永久停止收回消息。'
 hub:
   notFound: '{emoji}无法找到集线器。 请确保您输入了正确的集线器名称。'
   notFound_mod: '{emoji}无法找到集线器。 请确保您输入了正确的集线器名称，并且您是Hub的所有者或主持人。'

@@ -160,19 +160,17 @@ connection:
     footer: Utilizzare il pulsante e il calo di seguito per gestire la connessione.
   selects:
     placeholder: 🛠️ Seleziona un'opzione di seguito per gestire la connessione.
-  unpaused: |-
-    ## {tick_emoji} connessione non pausa
+  unpaused:
+    desc: |-
+      ### {tick_emoji} connessione non pausa
 
-     Connessione non ribellata per {channel}! I messaggi dall'hub inizieranno di nuovo nel canale e puoi inviare messaggi all'hub.
-     ### Suggerimenti:
-     - Utilizzare `/Connection Pause` per mettere in pausa la connessione.
-     - Utilizzare `/Connection Personalizza` per impostare i colori incorporati, attivare il filtro di volgarità, abilitare la modalità compatta e altro ancora.
-  paused: |-
-    ## {clock_emoji} connessione in pausa 
-     Connessione in pausa per {channel}! I messaggi dell'hub non arriveranno più nel canale e i tuoi messaggi non verranno trasmessi a loro. 
-     ### Suggerimenti: 
-     - Utilizzare `/Connection Unpause` per impartire la connessione. 
-     - Usa `/hub Leave` per interrompere permanentemente i messaggi di ricezione.
+       Connessione non ribellata per {channel}! I messaggi dall'hub inizieranno ad entrare nel canale e puoi inviare di nuovo messaggi all'hub.
+    tips: '**💡 Suggerimento:** Utilizzare {pause_cmd} per mettere in pausa la connessione o {customize_cmd} per impostare i colori incorporati, alternare il filtro di volgarità e altro ancora.'
+  paused:
+    desc: |-
+      ### {clock_emoji} connessione in pausa
+       Connessione in pausa per {channel}! I messaggi dell'hub non arriveranno più nel canale e i tuoi messaggi non verranno trasmessi a loro.
+    tips: '**💡 Suggerimento:** Utilizzare {unpause_cmd} per non fare la connessione o {leave_cmd} per interrompere permanentemente i messaggi di ricezione.'
 hub:
   notFound: '{emoji} impossibile trovare hub. Assicurati di aver inserito il nome dell''hub corretto.'
   notFound_mod: '{emoji} impossibile trovare hub. Assicurati di aver inserito il nome dell''hub corretto e che tu sia il proprietario o un moderatore dell''hub.'

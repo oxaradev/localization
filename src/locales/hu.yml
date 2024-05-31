@@ -160,19 +160,17 @@ connection:
     footer: A kapcsolat kezeléséhez használja az alábbi gombot és legördülő gombot.
   selects:
     placeholder: 🛠️ Válassza ki az alábbi lehetőséget a kapcsolat kezeléséhez.
-  unpaused: |-
-    ## {tick_emoji} Undosed Connection 
+  unpaused:
+    desc: |-
+      ### {tick_emoji} Uncenter Connection
 
-     A {channel} -hoz nem használt kapcsolat! A hub üzenetei újra elkezdenek bejutni a csatornába, és üzeneteket küldhet a Hub -ba. 
-     ### Tippek: 
-     - A kapcsolat szüneteltetéséhez használja a `/kapcsolatszünetet. 
-     - A `/Connection Couthize" használatával beágyazza a színek beágyazását, váltson az ostobaság -szűrőre, engedélyezze a kompakt módot és így tovább.
-  paused: |-
-    ## {clock_emoji} szüneteltetett kapcsolat
-     Szüneteltetés a {channel} -hoz! A hub üzenetei már nem kerülnek a csatornába, és az üzeneteket nem adják át nekik.
-     ### Tippek:
-     - Használja a `/kapcsolat UNCUSE" -et a kapcsolat megszüntetéséhez.
-     - Használja a `/hub szabadságot, hogy véglegesen abbahagyja az üzenetek kapását.
+       A {channel} -hoz nem használt kapcsolat! A hub üzenetei elkezdenek bejutni a csatornába, és üzeneteket küldhet újra a Hub -ba.
+    tips: '**💡 TIPP:** Használja a {pause_cmd} -t a kapcsolat szüneteltetéséhez, vagy a {customize_cmd} színek beállításához, az istállószűrő és még sok más beállításához.'
+  paused:
+    desc: |-
+      ### {clock_emoji} szüneteltetett kapcsolat
+       Szüneteltetés a {channel} -hoz! A hub üzenetei már nem kerülnek a csatornába, és az üzeneteket nem adják át nekik.
+    tips: '**💡 TIPP:** Használja a {unpause_cmd} kapcsolatot a kapcsolat vagy a {leave_cmd} megszüntetéséhez az üzenetek fogadásának végleges leállításához.'
 hub:
   notFound: '{emoji} nem találja meg a hubot. Kérjük, győződjön meg arról, hogy megadta -e a helyes hub nevét.'
   notFound_mod: '{emoji} nem találja meg a hubot. Kérjük, győződjön meg arról, hogy megadta -e a helyes központ nevét, és hogy Ön a Hub tulajdonosa vagy moderátora.'

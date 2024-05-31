@@ -160,19 +160,17 @@ connection:
     footer: Utilizați butonul și meniul derulant de mai jos pentru a vă gestiona conexiunea.
   selects:
     placeholder: 🛠️ Selectați o opțiune de mai jos pentru a vă gestiona conexiunea.
-  unpaused: |-
-    ## {tick_emoji} Conexiune nepezândită
+  unpaused:
+    desc: |-
+      ### {tick_emoji} Conexiune nepezândită
 
-     Conexiune nepezitată pentru {channel}! Mesajele de la Hub vor începe să intre din nou în canal și puteți trimite mesaje către Hub.
-     ### Sfaturi:
-     - Utilizați `/Conexiune Pauză` pentru a întrerupe conexiunea.
-     - Utilizați `/Connection Personalizare` pentru a seta culorile de încorporare, a comuta filtrul de profanitate, pentru a activa modul compact și multe altele.
-  paused: |-
-    ## {clock_emoji} conexiune pauză 
-     Conexiune pusă pentru {channel}! Mesajele de la hub nu vor mai intra în canal, iar mesajele dvs. nu vor fi transmise către ele. 
-     ### Sfaturi: 
-     - Utilizați `/conexiune Unpause` pentru a dezactiva conexiunea. 
-     - Utilizați `/hub Leave` pentru a opri permanent primirea mesajelor.
+       Conexiune nepezitată pentru {channel}! Mesajele de la Hub vor începe să intre în canal și puteți trimite din nou mesaje către Hub.
+    tips: '**💡 TIP:** Utilizați {pause_cmd} pentru a întrerupe conexiunea sau {customize_cmd} pentru a seta culori încorporate, a comuta filtrul de profanitate și multe altele.'
+  paused:
+    desc: |-
+      ### {clock_emoji} conexiune pauză
+       Conexiune pusă pentru {channel}! Mesajele de la hub nu vor mai intra în canal, iar mesajele dvs. nu vor fi transmise către ele.
+    tips: '**💡 TIP:** Utilizați {unpause_cmd} pentru a dezactiva conexiunea sau {leave_cmd} pentru a înceta permanent primirea mesajelor.'
 hub:
   notFound: '{emoji} Imposibil de găsit hub. Vă rugăm să vă asigurați că ați introdus numele hub -ului corect.'
   notFound_mod: '{emoji} Imposibil de găsit hub. Vă rugăm să vă asigurați că ați introdus numele hub -ului corect și că sunteți proprietarul sau un moderator al hub -ului.'

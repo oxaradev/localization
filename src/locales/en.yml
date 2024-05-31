@@ -168,14 +168,12 @@ connection:
       Unpaused connection for {channel}! Messages from the hub will start coming into the channel and you can send messages to the hub again.
     tips: |
       **💡 Tip:** Use {pause_cmd} to pause the connection or {customize_cmd} to set embed colors, toggle profanity filter, and more.
-
   paused:
     desc: |
       ### {clock_emoji} Paused Connection
       Paused connection for {channel}! Messages from the hub will no longer come into the channel and your messages won't be broadcasted to them.
     tips: |
       **💡 Tip:** Use {unpause_cmd} to unpause the connection or {leave_cmd} to permanently stop recieving messages.
-
 hub:
   notFound: '{emoji} Unable to find hub. Please make sure you have entered the correct hub name.'
   notFound_mod: '{emoji} Unable to find hub. Please make sure you have entered the correct hub name & that you are the owner or a moderator of the hub.'

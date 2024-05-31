@@ -160,19 +160,17 @@ connection:
     footer: Pro spravování připojení použijte tlačítko a rozbalovací nabídku.
   selects:
     placeholder: 🛠 Níže vyberte možnost spravovat vaše připojení.
-  unpaused: |-
-    ## {tick_emoji} Neopatření připojení 
+  unpaused:
+    desc: |-
+      ### {tick_emoji} Neopatření připojení
 
-     Neopatření připojení pro {channel}! Zprávy z rozbočovače začnou přicházet znovu do kanálu a můžete odesílat zprávy do rozbočovače. 
-     ### Tipy: 
-     - Pomocí `/připojení pause` k pozastavení připojení. 
-     - Použijte `/připojení přizpůsobit` pro nastavení barvy vložení, přepínání filtru vulgárních, povolení kompaktního režimu a další.
-  paused: |-
-    ## {clock_emoji} pozastavené připojení
-     Zastavené připojení pro {channel}! Zprávy z rozbočovače již do kanálu nepřicházejí a vaše zprávy jim nebudou vysílány.
-     ### Tipy:
-     - Použijte `/připojení nezbavit se k nezasažení připojení.
-     - Pomocí `/hub leave` k trvalému zastavení přijímání zpráv.
+       Neopatření připojení pro {channel}! Zprávy z rozbočovače začnou přicházet do kanálu a můžete znovu odesílat zprávy do rozbočovače.
+    tips: '**💡 Tip:** Použijte {pause_cmd} k pozastavení připojení nebo {customize_cmd} pro nastavení vložených barev, přepínání filtru vulgárního a další.'
+  paused:
+    desc: |-
+      ### {clock_emoji} pozastavené připojení
+       Zastavené připojení pro {channel}! Zprávy z rozbočovače již do kanálu nepřicházejí a vaše zprávy jim nebudou vysílány.
+    tips: '**💡 Tip:** Použijte {unpause_cmd}, abyste uvolnili připojení nebo {leave_cmd}, abyste trvale přestali přijímat zprávy.'
 hub:
   notFound: '{emoji} Nelze najít Hub. Ujistěte se, že jste zadali správný název rozbočovače.'
   notFound_mod: '{emoji} Nelze najít Hub. Ujistěte se, že jste zadali správný název rozbočovače a že jste vlastníkem nebo moderátorem rozbočovače.'

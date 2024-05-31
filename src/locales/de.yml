@@ -160,19 +160,17 @@ connection:
     footer: Verwenden Sie die unten stehende Schaltfläche und Dropdown, um Ihre Verbindung zu verwalten.
   selects:
     placeholder: 🛠️ Wählen Sie unten eine Option aus, um Ihre Verbindung zu verwalten.
-  unpaused: |-
-    ## {tick_emoji} ungehelte Verbindung 
+  unpaused:
+    desc: |-
+      ### {tick_emoji} ungehelte Verbindung
 
-     Unbeobachtete Verbindung für {channel}! Nachrichten aus dem Hub kommen wieder in den Kanal und Sie können Nachrichten an den Hub senden. 
-     ### Tipps: 
-     - Verwenden Sie `/Connection Pause`, um die Verbindung zu pausieren. 
-     - Verwenden Sie `/Connection Customize`, um Einbettungsfarben zu setzen, den Profanitätsfilter umzuschalten, den Kompaktmodus zu aktivieren und vieles mehr.
-  paused: |-
-    ## {clock_emoji} pausierte die Verbindung 
-     Pause für {channel}! Nachrichten aus dem Hub werden nicht mehr in den Kanal gelangen und Ihre Nachrichten werden nicht mehr an sie gesendet. 
-     ### Tipps: 
-     - Verwenden Sie `/connection pause`, um die Verbindung zu entfalten. 
-     - Verwenden Sie , um dauerhaft keine Nachrichten zu erhalten.
+       Unbeobachtete Verbindung für {channel}! Nachrichten aus dem Hub kommen in den Kanal und Sie können Nachrichten erneut an den Hub senden.
+    tips: '**💡 Tipp:** Verwenden Sie {pause_cmd}, um die Verbindung oder {customize_cmd} zu pausieren, um Einbettungsfarben zu setzen, die Obszanalitätsfilter und mehr zu umschalten.'
+  paused:
+    desc: |-
+      ### {clock_emoji} pausierte die Verbindung
+       Pause für {channel}! Nachrichten aus dem Hub kommen nicht mehr in den Kanal und Ihre Nachrichten werden nicht mehr an sie gesendet.
+    tips: '**💡 Tipp:** Verwenden Sie {unpause_cmd}, um die Verbindung oder {leave_cmd} zu entspannen, um die Wiedergabe von Nachrichten dauerhaft aufzuhören.'
 hub:
   notFound: '{emoji} kann Hub nicht finden. Bitte stellen Sie sicher, dass Sie den richtigen Hub -Namen eingegeben haben.'
   notFound_mod: '{emoji} kann Hub nicht finden. Bitte stellen Sie sicher, dass Sie den richtigen Hub -Namen eingegeben haben und dass Sie der Eigentümer oder ein Moderator des Hubs sind.'
