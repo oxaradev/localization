@@ -330,7 +330,7 @@ hub:
         description: Menerima laporan dari pengguna.
       modLogs:
         label: Log mod
-        description: Tindakan moderasi yang dilakukan oleh moderator.
+        description: Tindakan Moderasi Log. (mis. Blacklist, pesan penghapusan, dll.)
       profanity:
         label: Filter kata -kata kotor
         description: Pesan log yang ditangkap oleh filter kata -kata kotor.

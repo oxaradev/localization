@@ -330,10 +330,10 @@ hub:
         description: 从用户接收报告。
       modLogs:
         label: mod日志
-        description: 主持人执行的节制动作。
+        description: 日志调节动作。 （例如，黑名单，消息删除等）
       profanity:
         label: 亵渎过滤器
-        description: 亵渎过滤器捕获的日志消息。
+        description: 被亵渎过滤器捕获的日志消息。
       joinLeave:
         label: 加入/离开
         description: 当服务器连接或离开此轮毂时，请记录。

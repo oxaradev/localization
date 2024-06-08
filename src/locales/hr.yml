@@ -330,10 +330,10 @@ hub:
         description: Primite izvještaje od korisnika.
       modLogs:
         label: Mod zapisnici
-        description: Umjerene akcije koje obavljaju moderatori.
+        description: Akcije umjerenosti dnevnika. (npr. crna lista, poruka briše itd.)
       profanity:
         label: Filtar za vulgarnost
-        description: Poruke dnevnika koje je uhvatio filter za profanity.
+        description: Poruke dnevnika koje je uhvaćen u filteru Profanity.
       joinLeave:
         label: Pridružite/ostavite
         description: Dnevnik kada se poslužitelj pridruži ili napusti ovo središte.

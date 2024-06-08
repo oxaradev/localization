@@ -330,10 +330,10 @@ hub:
         description: Přijímat zprávy od uživatelů.
       modLogs:
         label: Mod protokoly
-        description: Moderační akce prováděné moderátory.
+        description: Akce moderování protokolu. (např. Blacklist, Deletes Message atd.)
       profanity:
         label: Filtr nespisovných slov
-        description: Protokolujte zprávy, které chytil filtr vulgárního filtru.
+        description: Protokol zprávy, které jsou chyceny filtrem vulgárního filtru.
       joinLeave:
         label: Připojte se/odejděte
         description: Při připojení serveru nebo opuštění tohoto rozbočovače se přihlásí server.

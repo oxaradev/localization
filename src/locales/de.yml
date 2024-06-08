@@ -330,10 +330,10 @@ hub:
         description: Erhalten Sie Berichte von Benutzern.
       modLogs:
         label: Mod -Protokolle
-        description: Moderationsaktionen von Moderatoren.
+        description: Protokoll -Moderationsaktionen. (z. B. Blacklist, Nachricht löscht usw.)
       profanity:
         label: Profanitätsfilter
-        description: Protokollierungen, die vom Obszönitätsfilter gefangen werden.
+        description: Protokollnachrichten, die vom Obszönitätsfilter gefangen werden.
       joinLeave:
         label: Beitreten/verlassen
         description: Protokollieren Sie, wenn ein Server diesen Hub verbindet oder verlässt.

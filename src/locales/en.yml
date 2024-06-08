@@ -336,10 +336,10 @@ hub:
         description: Receive reports from users.
       modLogs:
         label: Mod Logs
-        description: Moderation actions performed by moderators.
+        description: Log Moderation actions. (eg. blacklist, message deletes, etc.)
       profanity:
         label: Profanity Filter
-        description: Log messages that caught by the profanity filter.
+        description: Log messages that are caught by the profanity filter.
       joinLeave:
         label: Join/Leave
         description: Log when a server joins or leaves this hub.

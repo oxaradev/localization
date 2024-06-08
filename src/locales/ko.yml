@@ -330,10 +330,10 @@ hub:
         description: 사용자로부터 보고서를 받습니다.
       modLogs:
         label: 모드 로그
-        description: 진행자가 수행하는 중재 작업.
+        description: '로그 중재 조치. (예 : 블랙리스트, 메시지 삭제 등)'
       profanity:
         label: 욕설 필터
-        description: 욕설 필터에 걸리는 메시지를 기록합니다.
+        description: 욕설 필터에 의해 잡힌 메시지.
       joinLeave:
         label: 가입/탈퇴
         description: 서버가 이 허브에 가입하거나 탈퇴할 때 기록합니다.

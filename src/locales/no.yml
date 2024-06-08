@@ -330,7 +330,7 @@ hub:
         description: Motta rapporter fra brukere.
       modLogs:
         label: Mod -logger
-        description: Moderasjonshandlinger utført av moderatorer.
+        description: Logg moderasjonshandlinger. (f.eks. Svarteliste, sletting av meldinger osv.)
       profanity:
         label: Uanstendighetsfilter
         description: Loggmeldinger som er fanget av banningsfilteret.

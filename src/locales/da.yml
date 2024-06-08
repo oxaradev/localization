@@ -330,10 +330,10 @@ hub:
         description: Modtag rapporter fra brugere.
       modLogs:
         label: Mod logfiler
-        description: Moderationshandlinger udført af moderatorer.
+        description: Logmoderationshandlinger. (f.eks. Sortliste, besked sletter osv.)
       profanity:
         label: Bandefilter
-        description: Logmeddelelser, der blev fanget af bandefilteret.
+        description: Logmeddelelser, der er fanget af bandefilteret.
       joinLeave:
         label: Deltag i/forlade
         description: Log, når en server slutter sig til eller forlader dette knudepunkt.

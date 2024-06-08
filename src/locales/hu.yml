@@ -330,10 +330,10 @@ hub:
         description: Jelentéseket kapjon a felhasználóktól.
       modLogs:
         label: MOD naplók
-        description: A moderátorok által végzett moderációs műveletek.
+        description: Napló moderálási műveletek. (pl. Fekete lista, üzenet törlése stb.)
       profanity:
         label: trágárságszűrő
-        description: Naplóüzenetek, amelyeket az ostobaság szűrője elfogott.
+        description: Naplóüzenetek, amelyeket az ostobaság szűrője fog.
       joinLeave:
         label: Csatlakozzon/távozzon
         description: Jelentkezzen be, amikor egy szerver csatlakozik vagy elhagyja ezt a hubot.

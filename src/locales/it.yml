@@ -330,10 +330,10 @@ hub:
         description: Ricevi rapporti dagli utenti.
       modLogs:
         label: Registri mod
-        description: Azioni di moderazione eseguite da moderatori.
+        description: Azioni di moderazione del registro. (ad es. Blacklist, Message Eleties, ecc.)
       profanity:
         label: Filtro di volgarità
-        description: Registra messaggi catturati dal filtro di volgarità.
+        description: Messaggi di registro catturati dal filtro di volgarità.
       joinLeave:
         label: Unisciti/lascia
         description: Registra quando un server si unisce o lascia questo hub.

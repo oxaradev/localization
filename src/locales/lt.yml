@@ -330,10 +330,10 @@ hub:
         description: Gaukite vartotojų ataskaitas.
       modLogs:
         label: MOD žurnalai
-        description: Saikingumo veiksmai, kuriuos atlieka moderatoriai.
+        description: LOG MEIDERACIJOS VEIKSMAI. (pvz.
       profanity:
         label: Nešvankybės filtras
-        description: Žurnalo pranešimai, kuriuos pagavo nešvankybės filtras.
+        description: Žurnalo pranešimai, kuriuos sugauna nešvankybės filtras.
       joinLeave:
         label: Prisijunkite/palikite
         description: Prisijunkite, kai serveris prisijungia arba palieka šį stebulę.

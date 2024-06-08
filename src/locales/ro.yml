@@ -330,7 +330,7 @@ hub:
         description: Primiți rapoarte de la utilizatori.
       modLogs:
         label: Jurnaluri de mod
-        description: Acțiuni de moderație efectuate de moderatori.
+        description: Acțiuni de moderare a jurnalului. (de exemplu, lista neagră, ștergerea mesajelor etc.)
       profanity:
         label: Filtru de Obscenități
         description: Mesaje de jurnal care sunt prinse de filtrul de profanitate.

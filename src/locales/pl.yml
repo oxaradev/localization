@@ -330,10 +330,10 @@ hub:
         description: Otrzymuj raporty od użytkowników.
       modLogs:
         label: Dzienniki modowe
-        description: Działania moderacyjne wykonywane przez moderatorów.
+        description: Działania z umiarkowaniem dziennika. (np. Czarna lista, usunięcie wiadomości itp.)
       profanity:
         label: Filtr wulgaryzmów
-        description: Komunikaty dziennika, które złapane przez filtr wulgaryzmów.
+        description: Komunikaty dziennika, które są złapane przez filtr wulgaryzmów.
       joinLeave:
         label: Dołącz/odejdź
         description: Zaloguj się, gdy serwer dołącza lub opuszcza to piasty.

@@ -330,10 +330,10 @@ hub:
         description: Recevoir les rapports des utilisateurs.
       modLogs:
         label: Journaux de modélisation
-        description: Actions de modération effectuées par les modérateurs.
+        description: Journal des actions de modération. (par exemple, liste noire, suppression de messages, etc.)
       profanity:
         label: Filtre de grossièretés
-        description: Journaliser les messages qui ont été pris en compte par le filtre de blasphème.
+        description: Journal des messages capturés par le filtre de blasphèmes.
       joinLeave:
         label: Rejoindre / Quitter
         description: Journal lorsqu'un serveur rejoint ou quitte ce hub.

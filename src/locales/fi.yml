@@ -330,10 +330,10 @@ hub:
         description: Vastaanota raportteja käyttäjiltä.
       modLogs:
         label: Mod -lokit
-        description: Moderaattoreiden suorittamat maltillisuustoimet.
+        description: Loki moderointitoimenpiteet. (esim. Musta lista, viestipoistot jne.)
       profanity:
         label: kirosanasuodatin
-        description: Lokiviestit, jotka ovat kiinni ruma -suodattimesta.
+        description: Lokiviestit, jotka ovat kiinni ruma -suodatin.
       joinLeave:
         label: Liity/lähteä
         description: Kirjaudu sisään kun palvelin liittyy tai jättää tämän navan.

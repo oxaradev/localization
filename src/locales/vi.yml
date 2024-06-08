@@ -330,10 +330,10 @@ hub:
         description: Nhận báo cáo từ người dùng.
       modLogs:
         label: Nhật ký mod
-        description: Hành động kiểm duyệt được thực hiện bởi người điều hành.
+        description: 'Hành động kiểm duyệt nhật ký. (ví dụ: Danh sách đen, Xóa tin nhắn, v.v.)'
       profanity:
         label: Bộ lọc thô tục
-        description: Thông điệp đăng nhập bị bắt bởi bộ lọc thô tục.
+        description: Các thông báo nhật ký bị bắt bởi bộ lọc thô tục.
       joinLeave:
         label: Tham gia/rời đi
         description: Đăng nhập khi một máy chủ tham gia hoặc rời khỏi trung tâm này.
