@@ -333,10 +333,10 @@ hub:
         description: Receber relatórios dos utilizadores.
       modLogs:
         label: Registos de mods
-        description: Acções de moderação realizadas pelos moderadores.
+        description: Ações de moderação de log. (por exemplo, lista negra, delete de mensagens, etc.)
       profanity:
         label: Filtro de palavrões
-        description: Mensagens de registo que foram apanhadas pelo filtro de profanação.
+        description: Mensagens de log que são capturadas pelo filtro de palavrões.
       joinLeave:
         label: Entrar/Sair
         description: Registar quando um servidor entra ou sai deste hub.
