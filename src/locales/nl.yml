@@ -333,10 +333,10 @@ hub:
         description: Ontvang rapporten van gebruikers.
       modLogs:
         label: Mod -logs
-        description: Moderatieacties uitgevoerd door moderators.
+        description: LODMODMENTING Acties. (bijv. Blacklist, bericht verwijdert, enz.)
       profanity:
         label: Godsdienstfilter
-        description: Logberichten die door het godslasteringsfilter worden betrapt.
+        description: Logberichten die worden gevangen door het godslasteringfilter.
       joinLeave:
         label: Doe mee/vertrek
         description: Log wanneer een server zich aansluit of verlaat deze hub.
