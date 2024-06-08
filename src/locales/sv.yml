@@ -333,10 +333,10 @@ hub:
         description: Ta emot rapporter från användare.
       modLogs:
         label: Mod stockar
-        description: Modereringsåtgärder utförda av moderatorer.
+        description: Logga modereringsåtgärder. (t.ex. svartlista, meddelandes borttagning, etc.)
       profanity:
         label: Språkfilter
-        description: Logga meddelanden som fångas av banningsfiltret.
+        description: Logga meddelanden som fångas av banningens filter.
       joinLeave:
         label: Gå med/gå med
         description: Logga när en server går samman eller lämnar detta nav.
