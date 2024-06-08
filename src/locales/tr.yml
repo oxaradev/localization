@@ -333,10 +333,10 @@ hub:
         description: Kullanıcılardan rapor alın.
       modLogs:
         label: Mod Günlükleri
-        description: Moderatörler tarafından gerçekleştirilen moderasyon eylemleri.
+        description: Günlük ılımlılık eylemleri. (Örn.
       profanity:
         label: Küfür Filtresi
-        description: Küfür filtresi tarafından yakalanan mesajları günlüğe kaydedin.
+        description: Küfür filtresi tarafından yakalanan günlük mesajları.
       joinLeave:
         label: Katıl / Ayrıl
         description: Bir sunucu bu hub'a katıldığında veya ayrıldığında günlüğe kaydedin.
