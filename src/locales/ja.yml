@@ -333,10 +333,10 @@ hub:
         description: ユーザーからレポートを受け取ります。
       modLogs:
         label: modログ
-        description: モデレーターによって実行されるモデレートアクション。
+        description: ログモデレーションアクション。 （例：ブラックリスト、メッセージ削除など）
       profanity:
         label: 冒とく的なフィルター
-        description: 冒とく的なフィルターでキャッチされたログメッセージ。
+        description: 冒とく的なフィルターによってキャッチされたログメッセージ。
       joinLeave:
         label: 参加/休暇
         description: サーバーがこのハブを結合または離れるときにログを記録します。
