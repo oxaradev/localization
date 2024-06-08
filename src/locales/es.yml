@@ -333,10 +333,10 @@ hub:
         description: Recibir informes de los usuarios.
       modLogs:
         label: Registros de mod
-        description: Acciones de moderación realizadas por moderadores.
+        description: Acciones de moderación de registro. (por ejemplo, la lista negra, el mensaje elimina, etc.)
       profanity:
         label: Filtro de blasfemias
-        description: Mensajes de registro que atrapado por el filtro de blasfemias.
+        description: Mensajes de registro que son capturados por el filtro de blasfemias.
       joinLeave:
         label: Unirse/salir
         description: Registre cuando un servidor se une o deja este centro.
