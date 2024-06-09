@@ -385,6 +385,9 @@ errors:
   unknown: '{emoji} Es ist ein unbekannter Fehler aufgetreten. Bitte versuchen Sie es später noch einmal oder kontaktieren Sie uns, indem Sie sich unserem [Support Server]({support_invite}) anschließen.'
   notUsable: '{emoji} Dies ist nicht mehr verwendbar.'
   cooldown: '{emoji} Sie sind in Abklingzeit. Bitte warten Sie **{time}**, bevor Sie erneut versuchen.'
+  banned: |
+    {emoji} Sie wurden aus dem Austausch aus der Vernunft verboten. {reason} **
+    Wenn Sie der Meinung sind, dass eine Berufung ein Ticket im [Support Server] erstellen ({support_invite}).
 misc:
   webhookNoLongerExists: '{emoji} Der Webhook für diesen Kanal existiert nicht mehr. Um den Austausch weiter zu verwenden, können Sie den Webhook bitte erneut annehmen, indem Sie die Verbindung mit `/Connection` zu einem anderen Kanal ändern.'
   noReason: Kein Grund dafür.
