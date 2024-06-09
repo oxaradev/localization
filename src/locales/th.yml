@@ -384,7 +384,7 @@ errors:
   cooldown: '{emoji} คุณอยู่ในคูลดาวน์ โปรดรอ **{time}** ก่อนพยายามอีกครั้ง'
   banned: |-
     {emoji} คุณถูกแบนจากการใช้ interchat ด้วยเหตุผล **{reason}**
-     หากคุณคิดว่ามีการอุทธรณ์ให้เข้าร่วม [Support Server]({support_invite})
+     หากคุณคิดว่าการอุทธรณ์นั้นใช้งานได้ให้สร้างตั๋วใน [Support Server]({support_invite})
 misc:
   webhookNoLongerExists: '{emoji} webhook สำหรับช่องนี้ไม่มีอยู่อีกต่อไป หากต้องการใช้งาน InterChat ต่อไปโปรดเปิดใช้งาน WebHook อีกครั้งโดยเปลี่ยนการเชื่อมต่อเป็นช่องอื่นโดยใช้ `/Connection '''
   noReason: ไม่มีเหตุผลให้

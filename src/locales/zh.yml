@@ -383,8 +383,8 @@ errors:
   notUsable: '{emoji}这不再可用。'
   cooldown: '{emoji}您在冷却。 请等待**{time}**再次尝试。'
   banned: |-
-    {emoji}您已被禁止使用互联网与理由**{reason}**
-     如果您认为适用上诉，请加入[支持服务器]（{support_invite}）。
+    {emoji}您由于原因而被禁止使用InterChat **{reason}**
+     如果您认为适用上诉，请在[support Server]（{support_invite}）中创建票证。
 misc:
   webhookNoLongerExists: '{emoji}此通道的网络钩不再存在。 要继续使用InterChat，请使用“/Connection”更改连接到另一个频道，请重新启用Webhook。'
   noReason: 没有理由。

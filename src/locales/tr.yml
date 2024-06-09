@@ -383,8 +383,8 @@ errors:
   notUsable: '{emoji} Bu artık kullanılamaz.'
   cooldown: '{emoji} Bekleme süresindesiniz. Lütfen tekrar denemeden önce **{time}** bekleyin.'
   banned: |-
-    {emoji} İnterchat'i akıl ile kullanmanız yasaklandınız **{reason}**
-     Bir itirazın uygulanabilir olduğunu düşünüyorsanız, [destek sunucusu]({support_invite}) 'ye katılın.
+    {emoji} Akıl için interchat kullanmanız yasaklandı **{reason}**
+     İtiraz uygulanabilir olduğunu düşünüyorsanız [destek sunucusu]({support_invite}) için bir bilet oluşturun.
 misc:
   webhookNoLongerExists: '{emoji} Bu kanal için webhook artık mevcut değil. İnterchat''i kullanmaya devam etmek için, `/bağlantı ''kullanarak başka bir kanala bağlantıyı değiştirerek lütfen webhook''u yeniden etkinleştirin.'
   noReason: Sebep belirtilmedi.

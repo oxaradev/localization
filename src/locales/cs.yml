@@ -383,8 +383,8 @@ errors:
   notUsable: '{emoji} Toto již není použitelné.'
   cooldown: '{emoji} Jste na cooldown. Počkejte prosím **{time}** před pokusem.'
   banned: |-
-    {emoji} Bylo vám zakázáno používat Interchat s rozumem **{reason}**
-     Pokud si myslíte, že je použitelné odvolání, připojte se k [Server] Server]({support_invite}).
+    {emoji} Byl vám zakázán používat Interchat z rozumu **{reason}**
+     Pokud si myslíte, že je použitelné odvolání, vytvořte lístek na [podpůrné server]({support_invite}).
 misc:
   webhookNoLongerExists: '{emoji} Webhook pro tento kanál již neexistuje. Chcete-li pokračovat v používání Interchat, znovu povolíte Webhook změnou připojení k jinému kanálu pomocí `/connection`.'
   noReason: Žádný důvod.

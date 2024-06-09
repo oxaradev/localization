@@ -383,8 +383,8 @@ errors:
   notUsable: '{emoji} Tai nebegalima naudoti.'
   cooldown: '{emoji} Jūs esate šaldytuve. Prieš bandydami dar kartą, palaukite **{time}**.'
   banned: |-
-    ay
-     Jei manote, kad apeliacija yra taikoma, prisijunkite prie [palaikymo serverio]({emoji}).
+    {emoji} jums buvo uždrausta naudoti „Interchat“ dėl priežasties **{reason}**
+     Jei manote, kad apeliacija yra taikoma, sukurkite bilietą [palaikymo serveryje]({support_invite}).
 misc:
   webhookNoLongerExists: '{emoji} „Webhook“ šiam kanalui nebeegzistuoja. Norėdami toliau naudoti „Interchat“, iš naujo įgalinkite „Webhook“ pakeisdami ryšį į kitą kanalą, naudodami „/Connection“.'
   noReason: Jokios priežasties nepateikta.

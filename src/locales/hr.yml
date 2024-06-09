@@ -383,8 +383,8 @@ errors:
   notUsable: '{emoji} Ovo više nije upotrebljivo.'
   cooldown: '{emoji} na hladnjaku. Molimo pričekajte **{time}** prije nego što pokušate ponovo.'
   banned: |-
-    {emoji} zabranjeno vam je korištenje Interchat s razlogom **{reason}**
-     Ako mislite da je žalba primjenjiva, pridružite se [poslužitelj za podršku]({support_invite}).
+    {emoji} zabranjeno vam je korištenje Interchat iz razloga **{reason}**
+     Ako mislite da je primjenjiva žalba, stvorite kartu na [poslužitelj za podršku]({support_invite}).
 misc:
   webhookNoLongerExists: '{emoji} Webhook za ovaj kanal više ne postoji. Da biste nastavili koristiti Interchat, molimo vas da ponovno omogućite webhook promjenom veze na drugi kanal pomoću `/Connection`.'
   noReason: Nijedan razlog.

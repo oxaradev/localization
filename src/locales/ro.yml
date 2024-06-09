@@ -383,8 +383,8 @@ errors:
   notUsable: '{emoji} Acest lucru nu mai este utilizabil.'
   cooldown: '{emoji} Sunteți în recul. Vă rugăm să așteptați **{time}** înainte de a încerca din nou.'
   banned: |-
-    {emoji} vi s -a interzis să utilizați interchat cu rațiunea **{reason}**
-     Dacă credeți că este aplicabil un apel, alăturați -vă [Serverul de asistență]({support_invite}).
+    {emoji} vi s -a interzis să utilizați interchat pentru rațiune **{reason}**
+     Dacă credeți că un apel este aplicabil, creați un bilet în [Server de asistență]({support_invite}).
 misc:
   webhookNoLongerExists: '{emoji} Webhook pentru acest canal nu mai există. Pentru a continua să utilizați Interchat, vă rugăm să reînnoiți Webhook schimbând conexiunea la un alt canal folosind `/conexiune`.'
   noReason: Niciun motiv furnizat.

@@ -383,8 +383,8 @@ errors:
   notUsable: '{emoji} Dette er ikke lenger brukbart.'
   cooldown: '{emoji} du er på cooldown. Vent **{time}** før du prøver igjen.'
   banned: |-
-    {emoji} Du har fått forbud mot å bruke interchat med fornuft **{reason}**
-     Hvis du tror en appell er aktuelt, kan du bli med på [Support Server]({support_invite}).
+    {emoji} Du har fått forbud mot å bruke interchat av grunn **{reason}**
+     Hvis du tror en appell er aktuelt, kan du opprette en billett i [Support Server]({support_invite}).
 misc:
   webhookNoLongerExists: '{emoji} Netthooken for denne kanalen eksisterer ikke lenger. For å fortsette å bruke Interchat, kan du aktivere webhooken ved å endre tilkoblingen til en annen kanal ved å bruke `/tilkobling`.'
   noReason: Ingen grunn gitt.
