@@ -382,6 +382,9 @@ errors:
   unknown: '{emoji} įvyko nežinoma klaida. Bandykite dar kartą vėliau arba susisiekite su mumis prisijungdami prie mūsų [palaikymo serverio]({support_invite}).'
   notUsable: '{emoji} Tai nebegalima naudoti.'
   cooldown: '{emoji} Jūs esate šaldytuve. Prieš bandydami dar kartą, palaukite **{time}**.'
+  banned: |-
+    ay
+     Jei manote, kad apeliacija yra taikoma, prisijunkite prie [palaikymo serverio]({emoji}).
 misc:
   webhookNoLongerExists: '{emoji} „Webhook“ šiam kanalui nebeegzistuoja. Norėdami toliau naudoti „Interchat“, iš naujo įgalinkite „Webhook“ pakeisdami ryšį į kitą kanalą, naudodami „/Connection“.'
   noReason: Jokios priežasties nepateikta.

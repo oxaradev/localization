@@ -382,6 +382,9 @@ errors:
   unknown: '{emoji} เกิดข้อผิดพลาดที่ไม่รู้จักเกิดขึ้น โปรดลองอีกครั้งในภายหลังหรือติดต่อเราโดยเข้าร่วม [Support Server]({support_invite})'
   notUsable: '{emoji} สิ่งนี้ไม่สามารถใช้งานได้อีกต่อไป'
   cooldown: '{emoji} คุณอยู่ในคูลดาวน์ โปรดรอ **{time}** ก่อนพยายามอีกครั้ง'
+  banned: |-
+    {emoji} คุณถูกแบนจากการใช้ interchat ด้วยเหตุผล **{reason}**
+     หากคุณคิดว่ามีการอุทธรณ์ให้เข้าร่วม [Support Server]({support_invite})
 misc:
   webhookNoLongerExists: '{emoji} webhook สำหรับช่องนี้ไม่มีอยู่อีกต่อไป หากต้องการใช้งาน InterChat ต่อไปโปรดเปิดใช้งาน WebHook อีกครั้งโดยเปลี่ยนการเชื่อมต่อเป็นช่องอื่นโดยใช้ `/Connection '''
   noReason: ไม่มีเหตุผลให้

@@ -382,6 +382,9 @@ errors:
   unknown: '{emoji} wystąpił nieznany błąd. Spróbuj ponownie później lub skontaktuj się z nami, dołączając do naszego [serwer wsparcia]({support_invite}).'
   notUsable: '{emoji} To nie jest już użyteczne.'
   cooldown: '{emoji} jesteś na odnowie. Poczekaj **{time}** Przed próbą ponownie.'
+  banned: |-
+    {emoji} Zakazano ci użycia Interchat z powodu **{reason}**
+     Jeśli uważasz, że dotyczy odwołania, dołącz do [Server wsparcia]({support_invite}).
 misc:
   webhookNoLongerExists: '{emoji} Webhook dla tego kanału już nie istnieje. Aby kontynuować korzystanie z Interchat, ponownie włącz HOOK Web, zmieniając połączenie na inny kanał za pomocą `/Connection`.'
   noReason: Brak powodu.

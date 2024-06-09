@@ -382,6 +382,9 @@ errors:
   unknown: '{emoji} Đã xảy ra lỗi không xác định. Vui lòng thử lại sau hoặc liên hệ với chúng tôi bằng cách tham gia [máy chủ hỗ trợ] của chúng tôi ({support_invite}).'
   notUsable: '{emoji} Điều này không còn có thể sử dụng được.'
   cooldown: '{emoji} Bạn đang trên thời gian hồi chiêu. Vui lòng đợi **{time}** trước khi thử lại.'
+  banned: |-
+    {emoji} Bạn đã bị cấm sử dụng giao thoa với lý do **{reason}**
+     Nếu bạn nghĩ rằng một kháng cáo có thể áp dụng, hãy tham gia [máy chủ hỗ trợ]({support_invite}).
 misc:
   webhookNoLongerExists: '{emoji} Webhook cho kênh này không còn tồn tại. Để tiếp tục sử dụng Giao lộ, vui lòng kích hoạt lại webhook bằng cách thay đổi kết nối sang kênh khác bằng `/Connection`.'
   noReason: Không có lý do được cung cấp.

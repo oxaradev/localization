@@ -382,6 +382,9 @@ errors:
   unknown: '{emoji}未知のエラーが発生しました。 [後で再試行するか、[サポートサーバー]（{support_invite}）に参加してお問い合わせください。'
   notUsable: '{emoji}これは使用できなくなりました。'
   cooldown: '{emoji}あなたはクールダウンにいます。 **{time}**を待ってから、もう一度試してみてください。'
+  banned: |-
+    {emoji}あなたは理由でインターチャットを使用することを禁止されています**{reason}**
+     アピールが適用されると思われる場合は、[サポートサーバー]（{support_invite}）に参加してください。
 misc:
   webhookNoLongerExists: '{emoji}このチャンネルのwebhookは存在しなくなりました。 Interchatの使用を継続するには、「/connection」を使用して別のチャネルに接続を変更して、Webhookを再度有効にしてください。'
   noReason: 理由はありません。

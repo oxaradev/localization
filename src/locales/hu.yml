@@ -382,6 +382,9 @@ errors:
   unknown: '{emoji} ismeretlen hiba történt. Kérjük, próbálkozzon újra később, vagy vegye fel velünk a kapcsolatot, ha csatlakozik a [Support Server]({support_invite}).'
   notUsable: '{emoji} Ez már nem használható.'
   cooldown: '{emoji} Cooldown -on vagy. Kérjük, várjon **{time}**, mielőtt újra megpróbálta.'
+  banned: |-
+    {emoji} Tiltották be az InterChat használatával az okkal **{reason}**
+     Ha úgy gondolja, hogy a fellebbezés alkalmazható, csatlakozzon a [támogatási kiszolgáló]({support_invite}).
 misc:
   webhookNoLongerExists: '{emoji} A csatorna webhookja már nem létezik. Az InterChat használatának folytatásához kérjük, adja meg újra a webhookot úgy, hogy a kapcsolatot egy másik csatornára változtatja a „/kapcsolat” használatával.'
   noReason: Nincs oka.

@@ -382,6 +382,9 @@ errors:
   unknown: '{emoji} Terjadi kesalahan yang tidak diketahui. Silakan coba lagi nanti atau hubungi kami dengan bergabung dengan [Server Dukungan] kami ({support_invite}).'
   notUsable: '{emoji} Ini tidak lagi dapat digunakan.'
   cooldown: '{emoji} Anda berada di cooldown. Harap tunggu **{time}** Sebelum mencoba lagi.'
+  banned: |-
+    {emoji} Anda telah dilarang menggunakan interchat dengan alasan **{reason}**
+     Jika Anda berpikir banding berlaku, bergabunglah dengan [server dukungan]({support_invite}).
 misc:
   webhookNoLongerExists: '{emoji} webhook untuk saluran ini tidak ada lagi. Untuk terus menggunakan Interchat, silakan mengaktifkan kembali webhook dengan mengubah koneksi ke saluran lain menggunakan `/koneksi`.'
   noReason: Tidak ada alasan yang disediakan.

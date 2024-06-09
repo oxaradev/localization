@@ -382,6 +382,9 @@ errors:
   unknown: '{emoji} Bilinmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyin veya [destek sunucumuza]({support_invite}) katılarak bizimle iletişime geçin.'
   notUsable: '{emoji} Bu artık kullanılamaz.'
   cooldown: '{emoji} Bekleme süresindesiniz. Lütfen tekrar denemeden önce **{time}** bekleyin.'
+  banned: |-
+    {emoji} İnterchat'i akıl ile kullanmanız yasaklandınız **{reason}**
+     Bir itirazın uygulanabilir olduğunu düşünüyorsanız, [destek sunucusu]({support_invite}) 'ye katılın.
 misc:
   webhookNoLongerExists: '{emoji} Bu kanal için webhook artık mevcut değil. İnterchat''i kullanmaya devam etmek için, `/bağlantı ''kullanarak başka bir kanala bağlantıyı değiştirerek lütfen webhook''u yeniden etkinleştirin.'
   noReason: Sebep belirtilmedi.
