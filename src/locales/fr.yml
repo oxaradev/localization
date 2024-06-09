@@ -385,6 +385,9 @@ errors:
   unknown: '{emoji} Une erreur inconnue s''est produite. Veuillez réessayer plus tard ou nous contacter en rejoignant notre [serveur d''assistance]({support_invite}).'
   notUsable: '{emoji} Ceci n''est plus utilisable.'
   cooldown: '{emoji} Vous êtes sur le temps de recharge. Veuillez attendre **{time}** avant d''essayer à nouveau.'
+  banned: |
+    {emoji} Vous avez été interdit d'utiliser InterChat pour raison **{reason}**
+    Si vous pensez qu'un appel est applicable, créez un billet dans le [support Server]({support_invite}).
 misc:
   webhookNoLongerExists: '{emoji} Le webhook pour ce canal n''existe plus. Pour continuer à utiliser InterChat, veuillez réactiver le webhook en modifiant la connexion en un autre canal à l''aide de `/ connexion`.'
   noReason: Aucune raison n'a été fournie.
