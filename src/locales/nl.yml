@@ -385,6 +385,9 @@ errors:
   unknown: '{emoji} Er is een onbekende fout opgetreden. Probeer het later opnieuw of neem contact met ons op door lid te worden van onze [Support Server]({support_invite}).'
   notUsable: '{emoji} Dit is niet langer bruikbaar.'
   cooldown: '{emoji} U bent op cooldown. Wacht alstublieft **{time}** voordat u opnieuw probeert.'
+  banned: |
+    {emoji} U bent verbannen om interchat te gebruiken om reden **{reason}**
+    Als u denkt dat een oproep van toepassing is, maak dan een ticket in de [Support Server]({support_invite}).
 misc:
   webhookNoLongerExists: '{emoji} Het webhook voor dit kanaal bestaat niet meer. Om Interchat te blijven gebruiken, kunt u de webhook opnieuw inschakelen door de verbinding te wijzigen in een ander kanaal met behulp van `/connection`.'
   noReason: Geen reden verstrekt.
