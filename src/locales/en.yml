@@ -388,6 +388,10 @@ errors:
   unknown: '{emoji} An unknown error occurred. Please try again later or contact us by joining our [support server]({support_invite}).'
   notUsable: '{emoji} This is no longer usable.'
   cooldown: '{emoji} You are on cooldown. Please wait until **{time}** before attempting again.'
+  banned: | 
+      {emoji} You have been banned from using InterChat with reason **{reason}**
+      If you think an appeal is applicable, join the [support server]( {support_invite} ).
+
 misc:
   webhookNoLongerExists: '{emoji} The webhook for this channel no longer exists. To continue using InterChat, please re-create the webhook by using `/connection unpause`.'
   noReason: No reason provided.
