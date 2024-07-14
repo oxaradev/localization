@@ -20,9 +20,9 @@ network:
   deleteSuccess: '{emoji} Message by {user} has been deleted from __**{deleted}/{total}**__ servers.'
   editSuccess: '{emoji} Message by {user} has been edited in __**{edited}/{total}**__ servers.'
   welcome: |
-    {emoji} {user} Welcome to the **{hub}** hub! Your message has been shared to **{totalServers}** other servers! 
+    {emoji} {user} Welcome to the **{hub}** hub! Your message has been shared to **{totalServers}** other servers!
 
-    This channel, {channel} has been setup so you can chat with people from other servers! You can share images, GIFs, add reactions, edit messages, and more. Become more proficient at using InterChat by checking out our simple [guide](https://docs.interchat.fun/messaging )! 
+    This channel, {channel} has been setup so you can chat with people from other servers! You can share images, GIFs, add reactions, edit messages, and more. Become more proficient at using InterChat by checking out our simple [guide](https://docs.interchat.fun/messaging )!
 
     *Note: Never share any personal information and follow the {rules_command}. Remember, what you share here is your responsibility. Have a great time! 🚀*
   nsfw:
@@ -84,7 +84,7 @@ msgInfo:
     description: |
       ## {emoji} Message Info
 
-      **Sent By:** 
+      **Sent By:**
       __{author}__
 
       **Sent From:**
@@ -103,13 +103,13 @@ msgInfo:
       ## {server}
       {description}
 
-      **Owner:** 
+      **Owner:**
       __{owner}__
 
-      **Created:** 
+      **Created:**
       __{createdAtFull} ({createdAt})__
 
-      **Member Count:** 
+      **Member Count:**
       __{memberCount}__
 
       **Invite:**
@@ -133,7 +133,7 @@ msgInfo:
     notEnabled: '{emoji} Reporting is not enabled for this hub.'
     success: '{emoji} Report submitted successfully. Thank you!'
 invite: |
-  Thank you for choosing to invite InterChat! If you have any questions or need help, we are always here to help you in the support server! 
+  Thank you for choosing to invite InterChat! If you have any questions or need help, we are always here to help you in the support server!
 
   **[{invite_emoji} `Invite Link`]( {invite} ) [{support_emoji} `Support Server`]( {support} )**
 connection:
@@ -233,7 +233,7 @@ hub:
   browse:
     joinConfirm: |
       Are you sure you wish to join {hub} from {channel}?
-          
+
       **Note:** You can always change this later using `/connection`.
     joinFooter: Want to use a different channel? Use the dropdown below.
     noHubs: '{emoji} There are no hubs listed here at the moment. Please try again later!'
@@ -375,7 +375,7 @@ errors:
   mustVote: Please [vote](https://top.gg/bot/769921109209907241/vote) for InterChat to use this command, your support is very much appreciated!
   inviteLinks: '{emoji} Do not advertise or promote servers in the network. Set an invite in `/connection` instead!'
   invalidLangCode: '{emoji} Invalid language code. Please make sure you have entered a correct [language code](https://cloud.google.com/translate/docs/languages).'
-  unknownServer: '{emoji} Unknown server. Please make sure you have entered the correct server ID.'
+  unknownServer: '{emoji} Unknown server. Please make sure you have entered the correct **Server ID**.'
   unknownNetworkMessage: '{emoji} Unknown Message. If it has been sent in the past minute, please wait few more seconds and try again.'
   userNotFound: '{emoji} User not found. Try inputting their ID instead.'
   blacklisted: '{emoji} You or this server is blacklisted from this hub.'
