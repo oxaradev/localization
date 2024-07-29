@@ -3,8 +3,8 @@ import { writeFileSync, existsSync, readFileSync } from 'fs';
 import * as yaml from 'js-yaml';
 
 const settings = {
-	langPaths: ['./src/locales/'],
-	rootLangFiles: ['./src/locales/en.yml'],
+	langPaths: ['./locales/'],
+	rootLangFiles: ['./locales/en.yml'],
 	rootLangCode: 'en',
 	outputLangs: [
 		'en',

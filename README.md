@@ -45,7 +45,7 @@ We appreciate contributions! If you'd like to add support for a new language or 
 ## How to use the translation service
 - Made by [tnfAngel](https://github.com/tnfAngel) and [LautyDev](https://github.com/LautyDev).
 
-1. [src\locales\en.yml](https://github.com/Discord-InterChat/locales/blob/main/src/locales/en.yml) is the main file, there you have to upload everything with the original language.
+1. [locales\en.yml](https://github.com/Discord-InterChat/locales/blob/main/locales/en.yml) is the main file, there you have to upload everything with the original language.
 2. Once you have put in everything you want to translate, run it:
     ```bash
     pnpm i

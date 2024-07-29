@@ -1,3 +1,0 @@
-files:
-  - source: /src/locales/en.yml
-    translation: /src/locales/%two_letters_code%.yml
