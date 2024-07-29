@@ -14,7 +14,7 @@ vote:
   description: |-
     ##投票给Interchat 
      通过投票，您通过帮助Interchat在搜索上排名更高来支持我们。 它只需几下几下，但对我们有很大帮助。 我们非常感谢您的投票，每个人都重要！
-  footer: 感谢您帮助Interchat成长！
+  footer: 谢谢您的支持！
 network:
   accountTooNew: '{emoji} {user}您的帐户太新了，无法使用InterChat发送消息。 请稍后再试。'
   deleteSuccess: '{emoji} {user}的消息已从__**** {deleted}/{total} **__ __服务器中删除。'

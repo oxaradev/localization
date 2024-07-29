@@ -14,7 +14,7 @@ vote:
   description: |
     ## Abstimmung für den Austausch
     Indem Sie uns stimmen, unterstützen Sie uns, indem Sie den Austausch bei der Suche bei den Suchanfragen verbessern. Es dauert nur ein paar Klicks, hilft uns aber enorm. Wir schätzen Ihre Stimme zutiefst, von denen jeder zählt!
-  footer: Vielen Dank, dass Sie den Austausch beim Wachstum beim Wachstum geholfen haben!
+  footer: Danke für die Unterstützung!
 network:
   accountTooNew: '{emoji} {user} Ihr Konto ist zu neu, um Nachrichten mit dem Austausch zu senden. Bitte versuchen Sie es später erneut.'
   deleteSuccess: '{emoji} Nachricht von {user} wurde aus __**{deleted}/{total}**__ -Server gelöscht.'

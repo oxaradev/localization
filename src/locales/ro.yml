@@ -14,7 +14,7 @@ vote:
   description: |-
     ## Votează pentru Interchat 
      Votarea ne sprijiniți, ajutând Interchat să se ridice mai sus la căutări. Este nevoie de doar câteva clicuri, dar ne ajută extraordinar. Apreciem profund votul dvs., fiecare contează!
-  footer: Vă mulțumim că ați ajutat Interchat să crească!
+  footer: Vă mulțumim pentru susținere!
 network:
   accountTooNew: '{emoji} {user} Contul tău este prea nou pentru a trimite mesaje folosind interchat. Vă rugăm să încercați din nou mai târziu.'
   deleteSuccess: '{emoji} Mesajul de {user} a fost șters din __**{deleted}/{total}**__ servere.'

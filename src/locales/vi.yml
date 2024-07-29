@@ -14,7 +14,7 @@ vote:
   description: |-
     ## Bình chọn cho Giao lộ 
      Bằng cách bỏ phiếu, bạn hỗ trợ chúng tôi bằng cách giúp trao đổi xếp hạng cao hơn trên các tìm kiếm. Chỉ mất một vài cú nhấp chuột nhưng giúp chúng tôi rất nhiều. Chúng tôi đánh giá cao phiếu bầu của bạn, mỗi người đều tính!
-  footer: Cảm ơn bạn đã giúp trao đổi phát triển!
+  footer: Cảm ơn bạn đã hỗ trợ!
 network:
   accountTooNew: '{emoji} {user} Tài khoản của bạn quá mới để gửi tin nhắn bằng cách trao đổi. Vui lòng thử lại sau.'
   deleteSuccess: '{emoji} tin nhắn bởi {user} đã bị xóa khỏi __**{deleted}/{total}**__ máy chủ.'

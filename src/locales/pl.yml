@@ -14,7 +14,7 @@ vote:
   description: |
     ## Głosuj na Interchat
     Głosując, popierasz nas, pomagając Matechat ranking wyżej w wyszukiwaniu. Zajmuje to tylko kilka kliknięć, ale bardzo nam pomaga. Głęboko doceniamy twój głos, każdy się liczy!
-  footer: Dziękujemy za pomoc w rozwoju Interchat!
+  footer: Dziękuję za wsparcie!
 network:
   accountTooNew: '{emoji} {user} Twoje konto jest zbyt nowe, aby wysyłać wiadomości za pomocą InterChat. Spróbuj ponownie później.'
   deleteSuccess: '{emoji} przez {user} został usunięty z __**{deleted}/{total}**__ serwery.'

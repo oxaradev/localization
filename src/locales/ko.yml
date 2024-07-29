@@ -14,7 +14,7 @@ vote:
   description: |
     ## Interchat에 대한 투표
     투표함으로써 당신은 검색에서 인터 chat의 순위가 높아짐에 따라 우리를 지원합니다. 몇 번의 클릭 만 필요하지만 우리를 엄청나게 도와줍니다. 우리는 당신의 투표에 깊이 감사합니다.
-  footer: Interchat의 성장을 도와 주셔서 감사합니다!
+  footer: 지원 해주셔서 감사합니다!
 network:
   accountTooNew: '{emoji} {user} 계정이 너무 새 계정이라 인터챗을 사용하여 메시지를 보낼 수 없습니다. 나중에 다시 시도해 주세요.'
   deleteSuccess: '{emoji} 사용자}}}의 메시지가 __**{user}/{deleted}**__ 서버에서 삭제되었습니다.'

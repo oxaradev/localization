@@ -14,7 +14,7 @@ vote:
   description: |
     ## Rösta för Interchat
     Genom att rösta stöder du oss genom att hjälpa Interchat att rankas högre på sökningar. Det tar bara ett par klick men hjälper oss enormt. Vi uppskattar djupt din röst, var och en räknas!
-  footer: Tack för att du hjälpte Interchat att växa!
+  footer: Tack för att du stöder!
 network:
   accountTooNew: '{emoji} {user} Ditt konto är för nytt för att skicka meddelanden med interchat. Vänligen försök igen senare.'
   deleteSuccess: '{emoji} Meddelande av {user} har tagits bort från __**{deleted}/{total}**__ -servrar.'

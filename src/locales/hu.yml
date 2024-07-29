@@ -14,7 +14,7 @@ vote:
   description: |-
     ## Szavazás az InterChatért 
      A szavazással támogat minket azzal, hogy elősegíti az Interchat magasabb rangsorolását a keresések során. Csak néhány kattintást igényel, de óriási segít. Mélyen értékeljük a szavazatát, mindegyik számít!
-  footer: Köszönjük, hogy segített az Interchat növekedésében!
+  footer: Köszönjük, hogy támogatta!
 network:
   accountTooNew: '{emoji} {user} A fiókja túl új ahhoz, hogy üzeneteket küldjön az InterChat használatával. Kérlek, próbáld újra később.'
   deleteSuccess: '{emoji} A {user} üzenetet törölték a __**{deleted}/{total}**__ szerverekről.'

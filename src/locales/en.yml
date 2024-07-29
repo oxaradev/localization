@@ -13,7 +13,7 @@ rules: |
 vote:
   description: |
     By voting you support us by helping InterChat rank higher on botlist searches.
-  footer: Thank you for helping InterChat grow!
+  footer: Thank you for supporting!
 network:
   accountTooNew: '{emoji} {user} Your account is too new to send messages using InterChat. Please try again later.'
   deleteSuccess: '{emoji} Message by {user} has been deleted from __**{deleted}/{total}**__ servers.'
@@ -372,7 +372,7 @@ errors:
     **Error ID:**
     ```{errorId}```
   mustVote: Please [vote](https://top.gg/bot/769921109209907241/vote) for InterChat to use this command, your support is very much appreciated!
-  inviteLinks: '{emoji} You may not send invite links to this hub. Set an invite in `/connection` instead! Hub mods can configure this using `/hub manage settings`' 
+  inviteLinks: '{emoji} You may not send invite links to this hub. Set an invite in `/connection` instead! Hub mods can configure this using `/hub manage settings`'
   invalidLangCode: '{emoji} Invalid language code. Please make sure you have entered a correct [language code](https://cloud.google.com/translate/docs/languages).'
   unknownServer: '{emoji} Unknown server. Please make sure you have entered the correct **Server ID**.'
   unknownNetworkMessage: '{emoji} Unknown Message. If it has been sent in the past minute, please wait few more seconds and try again.'

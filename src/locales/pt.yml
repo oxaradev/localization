@@ -14,7 +14,7 @@ vote:
   description: |
     ## Vote no InterChat
     Ao votar, você nos apoia ajudando o InterChat a ter uma classificação mais alta em pesquisas. É preciso apenas alguns cliques, mas nos ajuda tremendamente. Agradecemos profundamente seu voto, cada um conta!
-  footer: Obrigado por ajudar o InterChat a crescer!
+  footer: Obrigado por apoiar!
 network:
   accountTooNew: '{emoji} {user} A sua conta é demasiado recente para enviar mensagens através do InterChat. Por favor, tente novamente mais tarde.'
   deleteSuccess: '{emoji} foi eliminada dos servidores __**{user}/{deleted}**__.'

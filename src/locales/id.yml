@@ -14,7 +14,7 @@ vote:
   description: |-
     ## Vote untuk Interchat 
      Dengan memilih Anda mendukung kami dengan membantu Interchat peringkat yang lebih tinggi pada pencarian. Hanya membutuhkan beberapa klik tetapi sangat membantu kami. Kami sangat menghargai suara Anda, masing -masing penting!
-  footer: Terima kasih telah membantu Interchat tumbuh!
+  footer: Terima kasih telah mendukung!
 network:
   accountTooNew: '{emoji} {user} Akun Anda terlalu baru untuk mengirim pesan menggunakan interchat. Silakan coba lagi nanti.'
   deleteSuccess: '{emoji} pesan oleh {user} telah dihapus dari __**{deleted}/{total}**__ server.'

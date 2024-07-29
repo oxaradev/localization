@@ -14,7 +14,7 @@ vote:
   description: |-
     ## Glasajte za Interchat 
      Glasanjem podržavate nas pomažući da se Interchat rangira viši u pretraživanjima. Potrebno je samo nekoliko klikova, ali nam je strahovito pomaže. Duboko cijenimo vaš glas, svaki se računa!
-  footer: Hvala vam što ste pomogli Interchatu da raste!
+  footer: Hvala vam na podršci!
 network:
   accountTooNew: '{emoji} {user} Vaš je račun previše nov za slanje poruka koristeći InterChat. Molimo pokušajte ponovo kasnije.'
   deleteSuccess: '{emoji} poruka {user} izbrisana je iz __**{deleted}/{total}**__ poslužitelja.'

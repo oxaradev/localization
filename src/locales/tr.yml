@@ -14,7 +14,7 @@ vote:
   description: |
     ## İnterchat için oy verin
     Oylama yaparak, aramalarda daha yüksek rütbeye yardımcı olarak bizi desteklersiniz. Sadece birkaç tıklama alır ama bize çok yardımcı olur. Oyunuzu derinden takdir ediyoruz, her biri önemlidir!
-  footer: İnterchat'in büyümesine yardımcı olduğunuz için teşekkür ederiz!
+  footer: Desteğiniz için teşekkür ederim!
 network:
   accountTooNew: '{emoji} {user} Hesabınız InterChat kullanarak mesaj göndermek için çok yeni. Lütfen daha sonra tekrar deneyin.'
   deleteSuccess: '{emoji} {user} tarafından gönderilen mesaj __**{deleted}/{total}**__ sunucularından silindi.'

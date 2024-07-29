@@ -14,7 +14,7 @@ vote:
   description: |-
     ## Stem på Interchat 
      Ved å stemme støtter du oss ved å hjelpe Interchat med å rangere høyere på søk. Det tar bare et par klikk, men hjelper oss enormt. Vi setter stor pris på din stemme, hver og en teller!
-  footer: Takk for at du hjalp Interchat med å vokse!
+  footer: Takk for at du støtter!
 network:
   accountTooNew: '{emoji} {user} Kontoen din er for ny til å sende meldinger ved hjelp av InterChat. Prøv igjen senere.'
   deleteSuccess: '{emoji} melding av {user} er blitt slettet fra __**{deleted}/{total}**__ servere.'

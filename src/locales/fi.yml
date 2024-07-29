@@ -14,7 +14,7 @@ vote:
   description: |-
     ## Äänestä Interchatista 
      Äänestämällä sinua tukemaan meitä auttamalla hakujen interchat -sijoitusta korkeammalle hakuille. Se vie vain pari napsautusta, mutta auttaa meitä valtavasti. Arvostamme syvästi äänestystäsi, jokainen laskee!
-  footer: Kiitos, että autat Chacatin kasvua!
+  footer: Kiitos tuesta!
 network:
   accountTooNew: '{emoji} {user} Tilisi on liian uusi lähettää viestejä InterChatin avulla. Yritä uudelleen myöhemmin.'
   deleteSuccess: '{emoji} viesti {user} on poistettu osoitteesta __**{deleted}/{total}**__ palvelimet.'

@@ -14,7 +14,7 @@ vote:
   description: |-
     ## Balsuokite už „Interchat“ 
      Balsuodami palaikote mus, padėdami „Interchat“ reitinguoti aukščiau paieškų. Tai užtrunka tik porą paspaudimų, tačiau labai padeda mums. Mes labai vertiname jūsų balsą, kiekvienas skaičiuojamas!
-  footer: Dėkojame, kad padėjote „Interchat“ augti!
+  footer: Ačiū, kad palaikėte!
 network:
   accountTooNew: '{emoji} {user} Jūsų paskyra yra per daug nauja, kad galėtumėte siųsti pranešimus naudojant „InterChat“. Pabandykite dar kartą vėliau.'
   deleteSuccess: '{emoji} {user} pranešimas buvo ištrintas iš __**{deleted}/{total}**__ serveriai.'

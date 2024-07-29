@@ -14,7 +14,7 @@ vote:
   description: |
     ## Votez pour Interchat
     En voté, vous nous soutenez en aidant à interdire un rang plus haut sur les recherches. Il ne faut que quelques clics mais nous aide énormément. Nous apprécions profondément votre vote, chacun compte!
-  footer: Merci d'avoir aidé Interchat à grandir!
+  footer: Merci de votre soutient!
 network:
   accountTooNew: '{emoji} {user} Votre compte est trop récent pour envoyer des messages via InterChat. Veuillez réessayer plus tard.'
   deleteSuccess: '{emoji} Le message de {user} a été supprimé des serveurs __**{deleted}/{total}**__.'

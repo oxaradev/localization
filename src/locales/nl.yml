@@ -14,7 +14,7 @@ vote:
   description: |
     ## Stem op Interchat
     Door te stemmen steunt u ons door elkaar te helpen hoger te scoren op zoekopdrachten. Het duurt slechts een paar klikken, maar helpt ons enorm. We waarderen uw stem diep, elk telt!
-  footer: Bedankt voor het helpen van elkaar om te groeien!
+  footer: Bedankt voor het steunen!
 network:
   accountTooNew: '{emoji} {user} Uw account is te nieuw om berichten te verzenden met InterChat. Probeer het later opnieuw.'
   deleteSuccess: '{emoji} Bericht door {user} is verwijderd uit __**{deleted}/{total}**__ servers.'

@@ -14,7 +14,7 @@ vote:
   description: |
     ## Interchatに投票します
     投票することにより、Interchatランクが検索で上位にランクされるのを支援することで、私たちをサポートします。 数回クリックするだけですが、非常に役立ちます。 私たちはあなたの投票に深く感謝します、それぞれが重要です！
-  footer: Interchatの成長を手伝ってくれてありがとう！
+  footer: サポートありがとうございます！
 network:
   accountTooNew: '{emoji} {user}アカウントは、InterChatを使用してメッセージを送信するには新しいものです。 後でもう一度やり直してください。'
   deleteSuccess: '{emoji} {user}メッセージは、__**{deleted}/{total}**__サーバーから削除されました。'
