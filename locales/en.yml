@@ -26,7 +26,7 @@ network:
     *Note: Never share any personal information and follow the {rules_command}. Remember, what you share here is your responsibility. Have a great time! 🚀*
   nsfw:
     title: NSFW Detected
-    description: I have detected {predictions} NSFW (Not Safe For Work) content in your message. Please be aware that this is against our {rules_command} and will result in immediate blacklist.
+    description: I have detected NSFW (Not Safe For Work) content in your message. Please be aware that this is against our {rules_command} and will result in immediate blacklist.
     footer: The AI may make mistakes. But we must use this to keep the network safe for everyone.
   onboarding:
     embed:
