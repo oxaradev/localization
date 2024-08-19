@@ -19,40 +19,14 @@ concurrency:
     cancel-in-progress: true
 
 jobs:
-    lint_pretty_and_cache_deps:
-        runs-on: ubuntu-22.04
-        permissions: write-all
-        steps:
-            - uses: actions/checkout@v4
-
-            - uses: pnpm/action-setup@v4
-
-            - uses: actions/setup-node@v4
-              with:
-                  version: 8
-                  cache: 'pnpm'
-                  node-version: 20
-
-            - name: Install dependencies
-              run: pnpm install
-
-            - name: Prettify code
-              uses: creyD/prettier_action@v4.3
-              with:
-                  same_commit: true
-                  prettier_options: . --write
-
     translate:
-        needs: [lint_pretty_and_cache_deps]
         runs-on: ubuntu-22.04
         permissions:
             contents: write
         if: ${{ github.event_name == 'push' }}
         steps:
             - uses: actions/checkout@v4
-
             - uses: pnpm/action-setup@v4
-
             - uses: actions/setup-node@v4
               with:
                   version: 8
