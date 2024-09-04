@@ -39,10 +39,12 @@ network:
     inProgress: '{emoji} {channel} is already in the process of being setup to join a hub. Please wait for the setup to complete or cancel it if you were the one who initiated it.'
 blacklist:
   embed:
-    user: 👤 User
+    user: '{emoji} User'
     userValue: Blacklist user **{user}** from this hub.
-    server: 🏠 Server
+    userAlreadyBlacklisted: '~~User **{user}** is already blacklisted.~~'
+    server: '{emoji} Server'
     serverValue: Blacklist server **{server}** from this hub.
+    serverAlreadyBlacklisted: '~~Server **{server}** is already blacklisted.~~'
     footer: User/Server will be notified of the blacklist. Use /blacklist list to view all blacklists.
   modal:
     reason:
