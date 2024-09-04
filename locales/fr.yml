@@ -40,8 +40,10 @@ blacklist:
   embed:
     user: 👤 Utilisateur
     userValue: Utilisateur de liste noire **{user}** de ce centre.
+    userAlreadyBlacklisted: ~~ User **{user}** est déjà sur liste noire. ~~
     server: 🏠 serveur
     serverValue: BlackList Server **{server}** à partir de ce centre.
+    serverAlreadyBlacklisted: ~~ Server **{server}** est déjà sur liste noire. ~~
     footer: L'utilisateur / serveur sera informé de la liste noire. Utiliser / liste de listes noires pour afficher toutes les listes noires.
   modal:
     reason:

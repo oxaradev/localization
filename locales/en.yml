@@ -41,10 +41,10 @@ blacklist:
   embed:
     user: '{emoji} User'
     userValue: Blacklist user **{user}** from this hub.
-    userAlreadyBlacklisted: '~~User **{user}** is already blacklisted.~~'
+    userAlreadyBlacklisted: ~~User **{user}** is already blacklisted.~~
     server: '{emoji} Server'
     serverValue: Blacklist server **{server}** from this hub.
-    serverAlreadyBlacklisted: '~~Server **{server}** is already blacklisted.~~'
+    serverAlreadyBlacklisted: ~~Server **{server}** is already blacklisted.~~
     footer: User/Server will be notified of the blacklist. Use /blacklist list to view all blacklists.
   modal:
     reason:

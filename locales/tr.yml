@@ -40,8 +40,10 @@ blacklist:
   embed:
     user: 👤 Kullanıcı
     userValue: BlackList Kullanıcısı **{user}** Bu merkezden.
+    userAlreadyBlacklisted: ~~ Kullanıcı **{user}** zaten kara listeye alınmıştır. ~~
     server: 🏠 Sunucu
     serverValue: BlackList Sunucusu **{server}** Bu merkezden.
+    serverAlreadyBlacklisted: ~~ Sunucu **{server}** zaten kara listeye alınmıştır. ~~
     footer: Kara liste kullanıcı/sunucu bilgilendirilecektir. Tüm siyah listeleri görüntülemek için /kara liste listesini kullanın.
   modal:
     reason:

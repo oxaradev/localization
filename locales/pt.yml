@@ -40,8 +40,10 @@ blacklist:
   embed:
     user: 👤 Usuário
     userValue: Usuário da lista negra **{user}** deste hub.
+    userAlreadyBlacklisted: ~~ usuário **{user}** já está na lista negra. ~~
     server: 🏠 Servidor
     serverValue: Servidor Blacklist **{server}** deste hub.
+    serverAlreadyBlacklisted: ~~ servidor **{server}** já está na lista negra. ~~
     footer: Usuário/servidor será notificado da lista negra. Lista de use /lista negra para visualizar todas as listas negras.
   modal:
     reason:
