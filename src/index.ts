@@ -6,16 +6,7 @@ const settings = {
 	langPaths: ['./locales/'],
 	rootLangFiles: ['./locales/en.yml'],
 	rootLangCode: 'en',
-	outputLangs: [
-		'en',
-		'es',
-		'fr',
-		'pt',
-		'tr',
-		'ru',
-		'hi',
-		'ko',
-	],
+	outputLangs: ['en', 'es', 'fr', 'pt', 'tr', 'ru', 'hi', 'ko'],
 	translateDelay: 100,
 	debug: true,
 };

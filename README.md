@@ -9,11 +9,11 @@ Welcome to the InterChat's Translations Repository! This repository contains all
 To contribute to the localization efforts or use the translations in your InterChat project, follow these steps:
 
 1. **Select a Locale:**
-    Choose the desired language YAML file to access the translations for that locale.
+   Choose the desired language YAML file to access the translations for that locale.
 2. **Make Changes:**
-    Edit the YAML files to update translations or add new ones. If it doesn't exist you can create a new YAML file for the language you with to translate.
+   Edit the YAML files to update translations or add new ones. If it doesn't exist you can create a new YAML file for the language you with to translate.
 3. **Contribute:**
-    If you've made improvements or added translations for a new locale, feel free to create a pull request.
+   If you've made improvements or added translations for a new locale, feel free to create a pull request.
 
 ## File Structure
 
@@ -40,11 +40,12 @@ We appreciate contributions! If you'd like to add support for a new language or 
     ```
 
     You can also do it through github's UI.
+
 4. Open a pull request.
 
 ## How to use the translation service
 
-- Made by [tnfAngel](https://github.com/tnfAngel) and [LautyDev](https://github.com/LautyDev).
+-   Made by [tnfAngel](https://github.com/tnfAngel) and [LautyDev](https://github.com/LautyDev).
 
 1. [locales\en.yml](https://github.com/Discord-InterChat/locales/blob/main/locales/en.yml) is the main file, there you have to upload everything with the original language.
 2. Once you have put in everything you want to translate, run it:
@@ -55,9 +56,10 @@ We appreciate contributions! If you'd like to add support for a new language or 
     ```
 
     You need to have [Node.js](https://nodejs.org/en) installed
+
 3. Then you have to wait for the program to translate everything, the more data the longer it will take.
 
-- Project originally from [FNLB](https://github.com/FNLB-Project/Perception) and edited to support YML
+-   Project originally from [FNLB](https://github.com/FNLB-Project/Perception) and edited to support YML
 
 <p align="center"><image src="https://i.imgur.com/jjLpmXX.png" alt="Discord-InterChat Translation Service - Made by tnfAngel and LautyDev" width="800px"></p>
 
