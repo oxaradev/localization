@@ -23,10 +23,6 @@ network:
      이 채널, {channel}은 설정되었으므로 다른 서버의 사람들과 채팅 할 수 있습니다! 이미지, GIF, 반응 추가, 메시지 편집 등을 공유 할 수 있습니다. 간단한 [가이드](https://docs.interchat.fun/messaging)를 확인하여 Interchat 사용에 더 능숙 해집니다!
 
      *참고 : 개인 정보를 공유하지 말고 {rules_command}를 따르십시오. 여기서 당신이 공유하는 것은 당신의 책임입니다. 즐거운 시간 보내세요! 🚀*
-  nsfw:
-    title: NSFW가 감지되었습니다
-    description: 귀하의 메시지에서 NSFW (일에 안전하지 않음) 콘텐츠를 감지했습니다. 이것이 우리의 {rules_command}에 위배되며 즉각적인 블랙리스트를 초래할 것입니다.
-    footer: AI는 실수를 할 수 있습니다. 그러나 우리는 모든 사람에게 네트워크를 안전하게 유지하기 위해 이것을 사용해야합니다.
   onboarding:
     embed:
       title: 👋 이봐, {hubName}에 오신 것을 환영합니다!

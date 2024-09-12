@@ -23,10 +23,6 @@ network:
      Bu kanal, {channel}, diğer sunuculardan insanlarla sohbet edebilmeniz için kuruldu! Görüntüleri, GIF'leri paylaşabilir, reaksiyon ekleyebilir, mesajları düzenleyebilir ve daha fazlasını yapabilirsiniz. Basit [kılavuzumuzu](https://docs.interchat.fun/mesaging) kontrol ederek interchat kullanma konusunda daha yetkin olun!
 
      *Not: Asla kişisel bilgileri paylaşmayın ve {rules_command} 'ı takip edin. Unutmayın, burada paylaştığınız şey sizin sorumluluğunuzdur. Harika zaman geçirin! 🚀*
-  nsfw:
-    title: NSFW tespit edildi
-    description: Mesajınızda NSFW (iş için güvenli değil) içeriği tespit ettim. Lütfen bunun {rules_command} 'na karşı olduğunu ve hemen kara listeye neden olacağını unutmayın.
-    footer: Yapay zeka hata yapabilir. Ancak bunu herkes için güvende tutmak için kullanmalıyız.
   onboarding:
     embed:
       title: 👋 Hey, {hubName} 'e hoş geldiniz!

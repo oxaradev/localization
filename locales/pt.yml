@@ -23,10 +23,6 @@ network:
      Este canal, {channel} foi configurado para que você possa conversar com pessoas de outros servidores! Você pode compartilhar imagens, GIFs, adicionar reações, editar mensagens e muito mais. Torne -se mais proficiente em usar o InterChat, verificando nosso [guia] simples (https://docs.interchat.fun/messaging)!
 
      *NOTA: Nunca compartilhe nenhuma informação pessoal e siga o {rules_command}. Lembre -se, o que você compartilha aqui é sua responsabilidade. Divirta -se! 🚀*
-  nsfw:
-    title: NSFW detectado
-    description: Eu detectei o conteúdo NSFW (não é seguro para o trabalho) em sua mensagem. Esteja ciente de que isso é contra o nosso {rules_command} e resultará em uma lista negra imediata.
-    footer: A IA pode cometer erros. Mas devemos usar isso para manter a rede segura para todos.
   onboarding:
     embed:
       title: 👋 Ei, bem -vindo ao {hubName}!
