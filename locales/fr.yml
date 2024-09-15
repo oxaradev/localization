@@ -33,14 +33,6 @@ network:
       footer: Réseau interchat | Version {version}
     inProgress: '{emoji} {channel} est déjà en train d''être configuré pour rejoindre un hub. Veuillez attendre que la configuration soit terminée ou annulée si vous êtes celui qui l''a initié.'
 blacklist:
-  embed:
-    user: 👤 Utilisateur
-    userValue: Utilisateur de liste noire **{user}** de ce centre.
-    userAlreadyBlacklisted: ~~ User **{user}** est déjà sur liste noire. ~~
-    server: 🏠 serveur
-    serverValue: BlackList Server **{server}** à partir de ce centre.
-    serverAlreadyBlacklisted: ~~ Server **{server}** est déjà sur liste noire. ~~
-    footer: L'utilisateur / serveur sera informé de la liste noire. Utiliser / liste de listes noires pour afficher toutes les listes noires.
   modal:
     reason:
       label: Raison

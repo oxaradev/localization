@@ -33,14 +33,6 @@ network:
       footer: 인터 체트 네트워크 | Version {version}
     inProgress: '{emoji} {channel}은 이미 허브에 가입하기 위해 설정 중입니다. 당신이 그것을 시작한 사람이라면 설정이 완료되거나 취소 될 때까지 기다리십시오.'
 blacklist:
-  embed:
-    user: 👤 사용자
-    userValue: 블랙리스트 사용자 **{user}**이 허브에서.
-    userAlreadyBlacklisted: ~~ 사용자 **{user}** 이미 블랙리스트가 있습니다. ~~
-    server: 🏠 서버
-    serverValue: 블랙리스트 서버 **{server}**이 허브에서.
-    serverAlreadyBlacklisted: ~~ 서버 **{server}**는 이미 블랙리스트에 있습니다. ~~
-    footer: 사용자/서버는 블랙리스트를 알립니다. 모든 블랙리스트를 볼 수 있도록 /블랙리스트 목록을 사용하십시오.
   modal:
     reason:
       label: 이유
