@@ -14,7 +14,7 @@ vote:
   description: |
     ## Vote por Interchat
     Al votar, nos apoya ayudando a Interchat a clasificar más alto en las búsquedas. Solo toma un par de clics pero nos ayuda enormemente. ¡Apreciamos profundamente su voto, cada uno cuenta!
-  footer: ¡Gracias por apoyar!
+  footer: '¡Gracias por apoyar!'
 network:
   accountTooNew: '{emoji} {user} Su cuenta es demasiado nueva para enviar mensajes usando InterChat. Por favor, inténtelo de nuevo más tarde.'
   deleteSuccess: '{emoji} El mensaje de {user} se ha eliminado de __**{deleted} de {total}**__ servidores.'
@@ -25,13 +25,13 @@ network:
     Los mensajes enviados en {totalServers} se compartirán con otros servidores, **habilitando la comunicación sin esfuerzo**. Puede compartir imágenes, GIF, responder, reaccionar e interactuar con los mensajes como lo haría normalmente. Solo recuerde evitar compartir información personal (revise {channel} para más). ¿Listo para entrar? ¡Envía tu primer mensaje y únete a la conversación!
   onboarding:
     embed:
-      title: 👋 ¡Hola, bienvenido a {hubName}!
+      title: '👋 ¡Hola, bienvenido a {hubName}!'
       description: |
         Para mantener las cosas organizadas, se recomienda usar un canal separado solo para este centro. Pero no se preocupe, siempre puede cambiar esto más tarde.
 
         **Cómo funciona:** La red InterChat es como un puente mágico que vincula los canales en diferentes servidores que están con nosotros en este centro. Obtenga más información en nuestra [Guía]({docs_link}).
       footer: Red InterChat | Version {version}
-    inProgress: Ya ha habido un intento de unirse a un centro de {emoji}. Por favor, cancelelo o espere a que se complete.
+    inProgress: 'Ya ha habido un intento de unirse a un centro de {emoji}. Por favor, cancelelo o espere a que se complete.'
 blacklist:
   modal:
     reason:
@@ -149,18 +149,20 @@ connection:
       profanity: Filtro de blasfemias
     footer: Use el botón y el menú desplegable a continuación para administrar su conexión.
   selects:
-    placeholder: 🛠️ Seleccione una opción a continuación para administrar su conexión.
+    placeholder: '🛠️ Seleccione una opción a continuación para administrar su conexión.'
   unpaused:
-    desc: |-
+    desc: |
       ### {tick_emoji} Conexión sin aliento
 
-       Conexión no puesta para {channel}! Los mensajes del Hub comenzarán a entrar al canal y puede enviar mensajes al Hub nuevamente.
-    tips: '**💡 Tip:** use {pause_cmd} para pausar la conexión o {customize_cmd} para configurar los colores de incrustación, alternar el filtro de blasfemias y más.'
+      Conexión no puesta para {channel}! Los mensajes del Hub comenzarán a entrar al canal y puede enviar mensajes al Hub nuevamente.
+    tips: |
+      **💡 Tip:** use {pause_cmd} para pausar la conexión o {customize_cmd} para configurar los colores de incrustación, alternar el filtro de blasfemias y más.
   paused:
-    desc: |-
+    desc: |
       ### {clock_emoji} Conexión pausada
-       Conexión pausada para {channel}! Los mensajes del centro ya no entrarán en el canal y sus mensajes no se les transmitirá.
-    tips: '**💡 consejo:** use {unpause_cmd} para impausar la conexión o {leave_cmd} para dejar de recibir mensajes permanentemente.'
+      Conexión pausada para {channel}! Los mensajes del centro ya no entrarán en el canal y sus mensajes no se les transmitirá.
+    tips: |
+      **💡 consejo:** use {unpause_cmd} para impausar la conexión o {leave_cmd} para dejar de recibir mensajes permanentemente.
 hub:
   notFound: '{emoji} No se puede encontrar HUB. Asegúrese de haber ingresado el nombre correcto del concentrador.'
   notFound_mod: '{emoji} No se puede encontrar HUB. Asegúrese de haber ingresado el nombre correcto del concentrador y de que usted sea el propietario o un moderador del Hub.'
@@ -168,7 +170,8 @@ hub:
   invalidChannel: '{emoji} El canal no es válido. ¡Solo se admiten los canales de texto y hilo!'
   invalidImgurUrl: '{emoji} URL de imagen no válida para icono o banner. Asegúrese de haber ingresado una URL de imagen de Imgur válida que no es una galería o álbum.'
   join:
-    success: ¡Hub **{hub}** de {channel}! Dé alrededor de **5 minutos** para que los mensajes comiencen a aparecer. Mientras tanto, puede usar `/Connection` para explorar varias personalizaciones para esta conexión. Use `/Hub Leave` para dejar el centro.
+    success: |
+      ¡Hub **{hub}** de {channel}! Dé alrededor de **5 minutos** para que los mensajes comiencen a aparecer. Mientras tanto, puede usar `/Connection` para explorar varias personalizaciones para esta conexión. Use `/Hub Leave` para dejar el centro.
   servers:
     total: 'Servidores conectados actuales: {from}-{to} / **{total}**'
     noConnections: '{emoji} Ningún servidor se ha unido a este centro todavía. Use `/Hub Join` para unirse a este centro.'
@@ -210,7 +213,7 @@ hub:
 
       Obtenga más información sobre los centros en nuestra [Guía]({docs_link}). Une el [servidor de soporte]({support_invite}) para obtener ayuda.
   delete:
-    confirm: ¿Estás seguro de que desea eliminar **{hub}**? Esta acción es irreversible. Todos los servidores conectados, invitaciones y datos de mensajes se eliminarán de este centro.
+    confirm: '¿Estás seguro de que desea eliminar **{hub}**? Esta acción es irreversible. Todos los servidores conectados, invitaciones y datos de mensajes se eliminarán de este centro.'
     ownerOnly: '{emoji} Solo el propietario de este centro puede eliminarlo.'
     success: '{emoji} Hub **{hub}** ha sido eliminado.'
     cancelled: '{emoji} La eliminación de concentración ha sido cancelada.'
@@ -219,7 +222,7 @@ hub:
       ¿Estás seguro de que deseas unirte {hub} de {channel}?
 
       **Nota:** Siempre puede cambiar esto más tarde usando `/Connection`.
-    joinFooter: ¿Quieres usar un canal diferente? Use el menú desplegable a continuación.
+    joinFooter: '¿Quieres usar un canal diferente? Use el menú desplegable a continuación.'
     noHubs: '{emoji} No hay centros enumerados aquí en este momento. ¡Por favor, inténtelo de nuevo más tarde!'
     rating:
       invalid: Calificación no válida. Debe ingresar un número entre 1 y 5.
@@ -249,7 +252,7 @@ hub:
     joinedHubs: Este servidor es parte de **{total}** Hub(s). Use `/Hub Leave` para dejar un centro.
   leave:
     noHub: '{emoji} ese canal no es válido o no ha unido ningún centro.'
-    confirm: ¿Estás seguro de que deseas dejar **{hub}** de {channel}? No se enviarán más mensajes a este servidor desde este centro.
+    confirm: '¿Estás seguro de que deseas dejar **{hub}** de {channel}? No se enviarán más mensajes a este servidor desde este centro.'
     confirmFooter: Confirme usando el botón a continuación en 10 segundos.
     success: '{emoji} dejó el concentrador de {channel}. No se enviarán más mensajes a este servidor desde este centro. Puede reunirse usando `/Hub Join`.'
   moderator:
@@ -305,7 +308,7 @@ hub:
       roleSuccess: '{emoji} registros de tipo `{type}` ahora mencionará {role}!'
       channelSuccess: '{emoji} registros de tipo `{type}` se enviará a {channel} de ahora!'
       channelSelect: '#️⃣ Seleccione el tipo de registro para configurar.'
-      roleSelect: 🏓 Seleccione el papel a mencionar cuándo se activa un registro.
+      roleSelect: '🏓 Seleccione el papel a mencionar cuándo se activa un registro.'
       reportChannelFirst: '{emoji} Establezca primero un canal de registro.'
       config:
         title: Configurar `{type}` registra
@@ -340,13 +343,13 @@ report:
       input2:
         label: Descripción detallada (opcional)
         placeholder: Pasos que tomaste. P.ej. 1. Corre /ayuda 2. espera 5 segundos ...
-  submitted: Informe enviado. Únase al **[Servidor de soporte]({emoji})** para obtener actualizaciones en su informe.
+  submitted: 'Informe enviado. Únase al **[Servidor de soporte]({emoji})** para obtener actualizaciones en su informe.'
   bug:
     title: Informe de error
     affected: Componentes afectados
     description: Elija qué componente del bot con el que enfrenta problemas.
 language:
-  set: ¡Sé de idiomas! Ahora te responderé en **{lang}**.
+  set: '¡Sé de idiomas! Ahora te responderé en **{lang}**.'
 errors:
   messageNotSentOrExpired: '{emoji} Este mensaje no se envió en un centro, ha expirado o le falta permisos para realizar esta acción.'
   notYourAction: '{emoji} Lo siento, no puedes realizar esta acción. Por favor ejecute el comando usted mismo.'
@@ -372,9 +375,9 @@ errors:
   unknown: '{emoji} Ocurrió un error desconocido. Vuelva a intentarlo más tarde o contáctenos uniéndose a nuestro [servidor de soporte]({support_invite}).'
   notUsable: '{emoji} Esto ya no se puede usar.'
   cooldown: '{emoji} Estás en el tiempo de reutilización. Espere **{time}** antes de intentarlo nuevamente.'
-  banned: |-
+  banned: |
     {emoji} se le ha prohibido usar Interchat por la razón **{reason}**
-     Si cree que es aplicable una apelación, cree un ticket en el [Servidor de soporte]({support_invite}).
+    Si cree que es aplicable una apelación, cree un ticket en el [Servidor de soporte]({support_invite}).
 misc:
   webhookNoLongerExists: '{emoji} El webhook para este canal ya no existe. Para continuar usando Interchat, vuelva a habilitar el webhook cambiando la conexión a otro canal usando `/Connection`.'
   noReason: No se proporcionó ninguna razón.
