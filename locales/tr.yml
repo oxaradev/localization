@@ -34,6 +34,8 @@ network:
       footer: Çarşamba Ağı | Version {version}
     inProgress: '{emoji} {channel} zaten bir merkeze katılmak için kurulum sürecindedir. Lütfen kurulumun tamamlamasını veya iptal etmesini bekleyin.'
 blacklist:
+  success: '{emoji} **{name}** başarıyla listelendi!'
+  removed: '{emoji} **{name}** kara listeden kaldırıldı!'
   modal:
     reason:
       label: Sebep
@@ -42,14 +44,10 @@ blacklist:
       label: Süre
       placeholder: 'Blacklist süresi. Örn: 1d, 1W, 1m, 1y. Kalıcı için boş bırakın.'
   user:
-    success: '{emoji} **{username}** başarıyla listelendi!'
-    removed: '{emoji} **{username}** kara listeden kaldırıldı!'
     alreadyBlacklisted: '{emoji} Bu kullanıcı zaten kara listeye alınmıştır.'
     easterEggs:
       blacklistBot: Bana wtf listeleyemezsin.
   server:
-    success: '{emoji} **{server}** başarıyla listelendi!'
-    removed: '{emoji} **{server}** kara listeden kaldırıldı!'
     alreadyBlacklisted: '{emoji} Bu sunucu zaten kara listeye alınmıştır.'
     unknownError: Kara liste başarısız oldu **{server}**. Daha fazla bilgi için geliştiricilerle birlikte bilgi alın.
   list:
@@ -353,7 +351,7 @@ report:
 language:
   set: Dil seti! Şimdi size **{lang}** adresinde cevap vereceğim.
 errors:
-  messageNotSentOrExpired: '{emoji} Bu mesaj bir merkeze gönderilmedi, süresi doldu veya bu eylemi gerçekleştirmek için izininiz yok.'
+  messageNotSentOrExpired: ' Bu mesaj bir merkeze gönderilmedi, süresi doldu veya bu eylemi gerçekleştirmek için izininiz yok.'
   notYourAction: '{emoji} Üzgünüm, bu eylemi gerçekleştiremezsiniz. Lütfen komutu kendiniz çalıştırın.'
   notMessageAuthor: '{emoji} Bu mesajın yazarı değilsiniz.'
   commandError: |
