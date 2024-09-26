@@ -34,6 +34,8 @@ network:
       footer: InterChat Network | Version {version}
     inProgress: '{emoji} {channel} is already in the process of being setup to join a hub. Please wait for the setup to complete or cancel it if you were the one who initiated it.'
 blacklist:
+  success: '{emoji} **{name}** has been successfully blacklisted!'
+  removed: '{emoji} **{name}** has been removed from the blacklist!'
   modal:
     reason:
       label: Reason
@@ -42,14 +44,10 @@ blacklist:
       label: Duration
       placeholder: 'Duration of blacklist. Eg: 1d, 1w, 1m, 1y. Leave blank for permanent.'
   user:
-    success: '{emoji} **{username}** has been successfully blacklisted!'
-    removed: '{emoji} **{username}** has been removed from the blacklist!'
     alreadyBlacklisted: '{emoji} This user is already blacklisted.'
     easterEggs:
       blacklistBot: You can't blacklist me wtf.
   server:
-    success: '{emoji} **{server}** has been successfully blacklisted!'
-    removed: '{emoji} **{server}** has been removed from the blacklist!'
     alreadyBlacklisted: '{emoji} This server is already blacklisted.'
     unknownError: Failed to blacklist **{server}**. Enquire with the developers for more information.
   list:
@@ -353,7 +351,7 @@ report:
 language:
   set: Language set! I will now respond to you in **{lang}**.
 errors:
-  messageNotSentOrExpired: '{emoji} This message was not sent in a hub, has expired, or you lack permissions to perform this action.'
+  messageNotSentOrExpired: 'This message was not sent in a hub, has expired, or you lack permissions to perform this action.'
   notYourAction: '{emoji} Sorry, you can''t perform this action. Please run the command yourself.'
   notMessageAuthor: '{emoji} You are not the author of this message.'
   commandError: |
