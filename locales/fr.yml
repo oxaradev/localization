@@ -34,6 +34,8 @@ network:
       footer: Réseau interchat | Version {version}
     inProgress: '{emoji} {channel} est déjà en train d''être configuré pour rejoindre un hub. Veuillez attendre que la configuration soit terminée ou annulée si vous êtes celui qui l''a initié.'
 blacklist:
+  success: '{emoji} **{name}** a réussi à mener une liste noire!'
+  removed: '{emoji} **{name}** a été supprimé de la liste noire!'
   modal:
     reason:
       label: Raison
@@ -42,14 +44,10 @@ blacklist:
       label: Durée
       placeholder: 'Durée de la liste noire. Par exemple: 1d, 1w, 1m, 1y. Laissez vide pour permanent.'
   user:
-    success: '{emoji} **{username}** a été mis en évidence avec succès!'
-    removed: '{emoji} **{username}** a été supprimé de la liste noire!'
     alreadyBlacklisted: '{emoji} Cet utilisateur est déjà sur liste noire.'
     easterEggs:
       blacklistBot: Vous ne pouvez pas me liste noire wtf.
   server:
-    success: '{emoji} **{server}** a réussi à mener une liste noire!'
-    removed: '{emoji} **{server}** a été supprimé de la liste noire!'
     alreadyBlacklisted: '{emoji} Ce serveur est déjà sur liste noire.'
     unknownError: Échec de la liste noire **{server}**. Renseignez-vous auprès des développeurs pour plus d'informations.
   list:
@@ -353,7 +351,7 @@ report:
 language:
   set: Ensemble de langues! Je vais maintenant vous répondre dans **{lang}**.
 errors:
-  messageNotSentOrExpired: '{emoji} Ce message n''a pas été envoyé dans un hub, a expiré, ou vous manquez d''autorisations pour effectuer cette action.'
+  messageNotSentOrExpired: ' Ce message n''a pas été envoyé dans un hub, a expiré, ou vous manquez d''autorisations pour effectuer cette action.'
   notYourAction: '{emoji} Désolé, vous ne pouvez pas effectuer cette action. Veuillez exécuter la commande vous-même.'
   notMessageAuthor: '{emoji} Vous n''êtes pas l''auteur de ce message.'
   commandError: |
