@@ -351,7 +351,7 @@ report:
 language:
   set: Language set! I will now respond to you in **{lang}**.
 errors:
-  messageNotSentOrExpired: 'This message was not sent in a hub, has expired, or you lack permissions to perform this action.'
+  messageNotSentOrExpired: This message was not sent in a hub, has expired, or you lack permissions to perform this action.
   notYourAction: '{emoji} Sorry, you can''t perform this action. Please run the command yourself.'
   notMessageAuthor: '{emoji} You are not the author of this message.'
   commandError: |

@@ -33,6 +33,8 @@ network:
       footer: Red InterChat | Version {version}
     inProgress: Ya ha habido un intento de unirse a un centro de {emoji}. Por favor, cancelelo o espere a que se complete.
 blacklist:
+  success: '{emoji} **{name}** ¡ha sido con éxito en la lista negra!'
+  removed: '{emoji} **{name}** ¡se ha eliminado de la lista negra!'
   modal:
     reason:
       label: Razón
@@ -41,14 +43,10 @@ blacklist:
       label: Duración
       placeholder: 'Duración de la lista negra. Por ejemplo: 1d, 1w, 1m, 1y. Deje en blanco para que sea permanente.'
   user:
-    success: '{emoji} ¡**{username}** ha sido añadido con éxito a la lista negra!'
-    removed: '{emoji} ¡**{username}** se ha eliminado con éxito de la lista negra!'
     alreadyBlacklisted: '{emoji} Este usuario ya está en la lista negra.'
     easterEggs:
       blacklistBot: No puedes incluirme en la lista negra wtf.
   server:
-    success: '{emoji} ¡**{server}** se ha añadido con éxito a la lista negra!'
-    removed: '{emoji} ¡**{server}** se ha eliminado con éxito de la lista negra!'
     alreadyBlacklisted: '{emoji} Este servidor ya está en la lista negra.'
     unknownError: Error al agregar a la lista negra a **{server}**. Consulte a los desarrolladores para obtener más información.
   list:
@@ -348,7 +346,7 @@ report:
 language:
   set: ¡Sé de idiomas! Ahora te responderé en **{lang}**.
 errors:
-  messageNotSentOrExpired: '{emoji} Este mensaje no se envió en un centro, ha expirado o le falta permisos para realizar esta acción.'
+  messageNotSentOrExpired: ' Este mensaje no se envió en un centro, ha expirado o le falta permisos para realizar esta acción.'
   notYourAction: '{emoji} Lo siento, no puedes realizar esta acción. Por favor ejecute el comando usted mismo.'
   notMessageAuthor: '{emoji} No eres el autor de este mensaje.'
   commandError: |
