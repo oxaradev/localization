@@ -303,7 +303,7 @@ hub:
         label: Changer la visibilité
         description: Rendre ce hub public ou privé.
     logs:
-      title: Logs Configuration
+      title: Configurer les journaux
       reset: '{emoji} Réinitialisez avec succès la configuration des journaux pour `{type}` journaux.'
       roleSuccess: '{emoji} journaux de type `{type}` mentionnera maintenant {role}!'
       channelSuccess: '{emoji} Les journaux de type `{type}` seront envoyés à {channel} à partir de maintenant!'
@@ -328,11 +328,11 @@ hub:
         label: Filtre de blasphème
         description: Journal des messages capturés par le filtre de blasphèmes.
       joinLeaves:
-        label: Join/Leave
-        description: Log when a server joins or leaves this hub.
+        label: Rejoindre / partir
+        description: Enregistrez-vous lorsqu'un serveur rejoint ou quitte ce centre.
       appeals:
-        label: Appeals
-        description: Recieve appeals from blacklisted users/servers.
+        label: Appel
+        description: Recevoir les appels des utilisateurs / serveurs sur liste noire.
 report:
   modal:
     title: Détails de rapport
