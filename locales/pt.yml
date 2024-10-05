@@ -303,7 +303,7 @@ hub:
         label: Altere a visibilidade
         description: Tornar este hub público ou privado.
     logs:
-      title: Configure logs
+      title: Logs Configuration
       reset: '{emoji} redefina com sucesso a configuração de logs para `{type}` logs.'
       roleSuccess: '{emoji} logs do tipo `{type}` agora mencionarão {role}!'
       channelSuccess: '{emoji} logs do tipo `{type}` serão enviados para {channel} a partir de agora!'
@@ -327,9 +327,12 @@ hub:
       profanity:
         label: Filtro de palavrões
         description: Mensagens de log que são capturadas pelo filtro de palavrões.
-      joinLeave:
-        label: Junte/licença
-        description: Registre quando um servidor se juntar ou sair deste hub.
+      joinLeaves:
+        label: Join/Leave
+        description: Log when a server joins or leaves this hub.
+      appeals:
+        label: Appeals
+        description: Recieve appeals from blacklisted users/servers.
 report:
   modal:
     title: Detalhes do relatório
