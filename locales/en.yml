@@ -303,7 +303,7 @@ hub:
         label: Change Visibility
         description: Make this hub public or private.
     logs:
-      title: Configure Logs
+      title: Logs Configuration
       reset: '{emoji} Successfully reset the logs configuration for `{type}` logs.'
       roleSuccess: '{emoji} Logs of type `{type}` will now mention {role}!'
       channelSuccess: '{emoji} Logs of type `{type}` will be sent to  {channel} from now!'
@@ -327,9 +327,12 @@ hub:
       profanity:
         label: Profanity Filter
         description: Log messages that are caught by the profanity filter.
-      joinLeave:
+      joinLeaves:
         label: Join/Leave
         description: Log when a server joins or leaves this hub.
+      appeals:
+        label: Appeals
+        description: Recieve appeals from blacklisted users/servers.
 report:
   modal:
     title: Report Details
