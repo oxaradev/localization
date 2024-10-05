@@ -303,7 +303,7 @@ hub:
         label: Изменить видимость
         description: Сделать этот хаб публичным или частным.
     logs:
-      title: Logs Configuration
+      title: Настройка журналов
       reset: '{emoji} успешно сбросить конфигурацию журналов для `{type}` logs.'
       roleSuccess: '{emoji} журналы типа `{type}` теперь упомянут {role}!'
       channelSuccess: '{emoji} журналы типа `{type}` будет отправлено в {channel} сейчас!'
@@ -328,11 +328,11 @@ hub:
         label: Фельтр ненормативной лексики
         description: Сообщения журнала, которые пойманы фильтром ненормативной лексики.
       joinLeaves:
-        label: Join/Leave
-        description: Log when a server joins or leaves this hub.
+        label: Присоединяйтесь/уйти
+        description: Войдите, когда сервер соединяется или покидает этот концентратор.
       appeals:
-        label: Appeals
-        description: Recieve appeals from blacklisted users/servers.
+        label: Апелляция
+        description: Получить апелляции от пользователей/серверов с черным списком.
 report:
   modal:
     title: Отчет подробности
