@@ -324,9 +324,12 @@ hub:
       profanity:
         label: Küfür filtresi
         description: Küfür filtresi tarafından yakalanan günlük mesajları.
-      joinLeave:
+      joinLeaves:
         label: Katıl/Git
         description: Bir sunucu bu merkeze katıldığında veya terk ettiğinde günlüğe kaydedin.
+      appeals:
+        label: Temyiz
+        description: Kara listelenen kullanıcılardan/sunuculardan temyiz başvurusunu alın.
 report:
   modal:
     title: Rapor Ayrıntıları

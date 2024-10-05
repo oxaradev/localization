@@ -324,9 +324,12 @@ hub:
       profanity:
         label: 욕설 필터
         description: 욕설 필터에 의해 잡힌 메시지.
-      joinLeave:
+      joinLeaves:
         label: 가입/휴가
         description: 서버 가이 허브에 결합하거나 떠날 때 로그.
+      appeals:
+        label: 항소
+        description: 블랙리스트 사용자/서버의 항소를받습니다.
 report:
   modal:
     title: 보고서 세부 사항

@@ -327,9 +327,12 @@ hub:
       profanity:
         label: अपवित्र वचनों का फिल्टर
         description: लॉग संदेश जो कि अपवित्रता फ़िल्टर द्वारा पकड़े जाते हैं।
-      joinLeave:
+      joinLeaves:
         label: ज्वाइन/लीव
         description: जब कोई सर्वर इस हब से जुड़ता है या छोड़ता है।
+      appeals:
+        label: अपील
+        description: ब्लैकलिस्ट किए गए उपयोगकर्ताओं/सर्वर से अपील करें।
 report:
   modal:
     title: रिपोर्ट विवरण

@@ -324,9 +324,12 @@ hub:
       profanity:
         label: Filtre de blasphème
         description: Journal des messages capturés par le filtre de blasphèmes.
-      joinLeave:
+      joinLeaves:
         label: Rejoindre / partir
         description: Enregistrez-vous lorsqu'un serveur rejoint ou quitte ce centre.
+      appeals:
+        label: Appel
+        description: Recevoir les appels des utilisateurs / serveurs sur liste noire.
 report:
   modal:
     title: Détails de rapport

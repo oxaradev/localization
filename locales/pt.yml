@@ -324,9 +324,12 @@ hub:
       profanity:
         label: Filtro de palavrões
         description: Mensagens de log que são capturadas pelo filtro de palavrões.
-      joinLeave:
+      joinLeaves:
         label: Junte/licença
         description: Registre quando um servidor se juntar ou sair deste hub.
+      appeals:
+        label: Apelações
+        description: Receba recursos de usuários/servidores na lista negra.
 report:
   modal:
     title: Detalhes do relatório

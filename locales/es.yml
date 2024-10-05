@@ -322,9 +322,12 @@ hub:
       profanity:
         label: Filtro de blasfemias
         description: Mensajes de registro que son capturados por el filtro de blasfemias.
-      joinLeave:
-        label: Unirse/salir
+      joinLeaves:
+        label: Unir/salir
         description: Registre cuando un servidor se une o deja este centro.
+      appeals:
+        label: Apelaciones
+        description: Reciba apelaciones de usuarios/servidores en la lista negra.
 report:
   modal:
     title: Detalles del reporte
