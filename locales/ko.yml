@@ -303,7 +303,7 @@ hub:
         label: 가시성 변경
         description: 이 허브를 공개 또는 개인으로 만드십시오.
     logs:
-      title: 로그를 구성합니다
+      title: Logs Configuration
       reset: '{emoji}`{type}`logs에 대한 로그 구성을 성공적으로 재설정합니다.'
       roleSuccess: '{emoji} 유형의 로그`{type}`이제 {role}을 언급합니다!'
       channelSuccess: '{emoji} 유형의 로그`{type}`가 지금부터 {channel}으로 전송됩니다!'
@@ -327,9 +327,12 @@ hub:
       profanity:
         label: 욕설 필터
         description: 욕설 필터에 의해 잡힌 메시지.
-      joinLeave:
-        label: 가입/휴가
-        description: 서버 가이 허브에 결합하거나 떠날 때 로그.
+      joinLeaves:
+        label: Join/Leave
+        description: Log when a server joins or leaves this hub.
+      appeals:
+        label: Appeals
+        description: Recieve appeals from blacklisted users/servers.
 report:
   modal:
     title: 보고서 세부 사항
