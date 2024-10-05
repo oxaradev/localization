@@ -303,7 +303,7 @@ hub:
         label: Görünürlük Değiştir
         description: Bu merkezi kamuya açık veya özel yapın.
     logs:
-      title: Günlükleri yapılandırın
+      title: Logs Configuration
       reset: '{emoji} `{type}` günlükleri için günlük yapılandırmasını başarıyla sıfırlayın.'
       roleSuccess: '{emoji} `{type}` `türünün kütükleri artık {role}!'
       channelSuccess: '{emoji} `{type}` `tipi günlükleri {channel} ''a gönderilecek!'
@@ -327,9 +327,12 @@ hub:
       profanity:
         label: Küfür filtresi
         description: Küfür filtresi tarafından yakalanan günlük mesajları.
-      joinLeave:
-        label: Katıl/Git
-        description: Bir sunucu bu merkeze katıldığında veya terk ettiğinde günlüğe kaydedin.
+      joinLeaves:
+        label: Join/Leave
+        description: Log when a server joins or leaves this hub.
+      appeals:
+        label: Appeals
+        description: Recieve appeals from blacklisted users/servers.
 report:
   modal:
     title: Rapor Ayrıntıları
