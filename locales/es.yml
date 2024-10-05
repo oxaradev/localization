@@ -301,7 +301,7 @@ hub:
         label: Cambiar la visibilidad
         description: Haz este centro público o privado.
     logs:
-      title: Logs Configuration
+      title: Configurar registros
       reset: '{emoji} Se reinició con éxito la configuración de registros para `{type}`.'
       roleSuccess: '{emoji} registros de tipo `{type}` ahora mencionará {role}!'
       channelSuccess: '{emoji} registros de tipo `{type}` se enviará a {channel} de ahora!'
@@ -326,11 +326,11 @@ hub:
         label: Filtro de blasfemias
         description: Mensajes de registro que son capturados por el filtro de blasfemias.
       joinLeaves:
-        label: Join/Leave
-        description: Log when a server joins or leaves this hub.
+        label: Unir/salir
+        description: Registre cuando un servidor se une o deja este centro.
       appeals:
-        label: Appeals
-        description: Recieve appeals from blacklisted users/servers.
+        label: Apelaciones
+        description: Reciba apelaciones de usuarios/servidores en la lista negra.
 report:
   modal:
     title: Detalles del reporte
