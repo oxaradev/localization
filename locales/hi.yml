@@ -303,7 +303,7 @@ hub:
         label: दृश्यता बदलें
         description: इस हब को सार्वजनिक या निजी बनाएं।
     logs:
-      title: लॉग कॉन्फ़िगर करें
+      title: Logs Configuration
       reset: '{emoji} `{type}` लॉग के लिए लॉग कॉन्फ़िगरेशन को सफलतापूर्वक रीसेट करें।'
       roleSuccess: '{emoji} प्रकार के लॉग `{type}` अब {role} का उल्लेख करेंगे!'
       channelSuccess: '{emoji} टाइप `{type}` के लॉग को अब से {channel} पर भेजा जाएगा!'
@@ -327,9 +327,12 @@ hub:
       profanity:
         label: अपवित्र वचनों का फिल्टर
         description: लॉग संदेश जो कि अपवित्रता फ़िल्टर द्वारा पकड़े जाते हैं।
-      joinLeave:
-        label: ज्वाइन/लीव
-        description: जब कोई सर्वर इस हब से जुड़ता है या छोड़ता है।
+      joinLeaves:
+        label: Join/Leave
+        description: Log when a server joins or leaves this hub.
+      appeals:
+        label: Appeals
+        description: Recieve appeals from blacklisted users/servers.
 report:
   modal:
     title: रिपोर्ट विवरण
