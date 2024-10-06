@@ -2,6 +2,11 @@
 
 <p align="center"><strong>InterChat Translations</strong></p>
 
+## Repository moved
+Ever since InterChat went open source, the localization files have been moved to the main monorepo. It can be found here: 
+- **https://github.com/Discord-InterChat/InterChat**
+
+---
 Welcome to the InterChat's Translations Repository! This repository contains all the translation YAML files for InterChat, a messaging discord bot designed for seamless cross-server communication.
 
 ## Getting Started
