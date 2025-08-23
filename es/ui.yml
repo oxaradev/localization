@@ -1,0 +1,267 @@
+ui:
+  setup:
+    embed:
+      description: "Usa el modal para ingresar los datos de tu hub."
+    select:
+      placeholder: "Selecciona un idioma"
+      loadingLabel: "Cargando..."
+      loadingDescription: "Por favor espera..."
+      chooseOption: "Elige una opción para comenzar..."
+    buttons:
+      back: "Atrás"
+      cancel: "Cancelar"
+      refresh: "Actualizar"
+      enterHubInfo: "Ingresar Información del Hub"
+      hubInfoComplete: "Información del Hub Completa"
+      createHub: "Crear Hub"
+      completeInfoFirst: "Completa la Información Primero"
+      discoverHubs: "Descubrir Hubs Públicos"
+      supportServer: "Servidor de Soporte"
+    modal:
+      hubCreation:
+        title: "Crear Tu Hub"
+        name:
+          label: "Nombre del Hub"
+          placeholder: "Ingresa un nombre único para tu hub"
+        brief:
+          label: "Descripción Breve"
+          placeholder: "Un resumen rápido del propósito de tu hub"
+        description:
+          label: "Descripción Detallada"
+          placeholder: "Cuéntale a la gente de qué trata tu hub y qué pueden esperar"
+        logoUrl:
+          label: "URL del Logo del Hub"
+          placeholder: "https://ejemplo.com/tu-logo.png"
+  help:
+    select:
+      placeholder: "Selecciona una categoría"
+  preferences:
+    title: "Preferencias de Usuario"
+    description: "Edita tu configuración personal para que InterChat funcione para ti. Estas son GLOBALES y funcionan en todos los servidores que compartes con InterChat."
+    general:
+      title: "Preferencias Generales"
+      description: "Configura las preferencias generales dentro de InterChat. Esto asegura que tu experiencia sea la mejor que podemos ofrecer."
+    locale:
+      title: "Selección de Idioma"
+      description: "Selecciona tu idioma preferido para InterChat."
+    select:
+      placeholder: "Selecciona una opción"
+      category: "Selecciona una categoría"
+  report:
+    buttons:
+      toStaff: "Reportar al Staff de Inter"
+      toHub: "Reportar al staff del hub"
+    modal:
+      toStaff:
+        title: "Reportar al Staff de InterChat"
+      toHub:
+        title: "Reportar al Staff del Hub"
+      reason:
+        label: "Razón"
+        placeholder: "Explica por qué estás reportando este mensaje…"
+  appeal:
+    select:
+      placeholder: "Elige una infracción para apelar..."
+    modal:
+      title: "Apelación de Infracción"
+      q1: "¿Por qué esta infracción fue incorrecta?"
+      q2: "¿Cómo evitarás esto en el futuro?"
+      q3: "¿Alguna información adicional para compartir?"
+    buttons:
+      previous: "Anterior"
+      next: "Siguiente"
+    errors:
+      notYourMenu: "Este no es tu menú de apelación."
+      nothingSelected: "Nada seleccionado."
+      invalidSelection: "Selección inválida."
+      modalError: "No se pudo abrir el modal de apelación. Por favor intenta de nuevo."
+      cannotControl: "No puedes controlar esta paginación."
+    success:
+      submitted: "Tu apelación ha sido enviada para revisión."
+  hubConfig:
+    main:
+      placeholder: "Selecciona una opción"
+      loadingLabel: "Cargando..."
+      loadingDescription: "Por favor espera."
+    general:
+      placeholder: "🎛️ Elige una configuración para modificar..."
+      editDescription:
+        label: "Editar Descripción"
+        description: "Actualiza el texto de descripción de tu hub"
+      editName:
+        label: "Editar Nombre del Hub"
+        description: "Cambia el nombre de tu hub (enfriamiento de 10 días)"
+      welcomeMessage:
+        label: "Mensaje de Bienvenida"
+        description: "Establece un mensaje mostrado a nuevos usuarios"
+    permissions:
+      remove:
+        label: "Remover"
+      moderator:
+        label: "Moderador"
+        description: "Gestionar mensajes, moderar usuarios, manejar reportes y apelaciones"
+      manager:
+        label: "Administrador"
+        description: "Gestionar configuraciones del hub más todo lo que pueden hacer los moderadores"
+      managerOnly:
+        description: "Gestionar configuraciones del hub"
+    modules:
+      reactions:
+        description: "Permitir interacciones basadas en reacciones en mensajes"
+      hideLinks:
+        description: "Ocultar vistas previas de enlaces en mensajes del hub"
+      spamFilter:
+        description: "Filtrar automáticamente spam y contenido no deseado"
+      blockInvites:
+        description: "Bloquear invitaciones de servidores de Discord en mensajes"
+      useNicknames:
+        description: "Mostrar apodos de usuarios en lugar de nombres de usuario"
+    logging:
+      moderationLogs: "Registros de Moderación"
+      joinLeaveLogs: "Registros de Entrada/Salida"
+      appealsChannel: "Canal de Apelaciones"
+      reportsChannel: "Canal de Reportes"
+      networkAlerts: "Alertas de Red"
+      messageModeration: "Moderación de Mensajes"
+    invites:
+      create:
+        title: "Entrada Requerida"
+        customCode:
+          label: "Código Personalizado"
+          placeholder: "abc123"
+        uses:
+          label: "Usos"
+          placeholder: "Déjame en blanco para infinito"
+        expiry:
+          label: "Expiración"
+          placeholder: "1 semana"
+      buttons:
+        create: "Crear"
+  moderation:
+    actions:
+      warn:
+        label: "Advertir"
+        description: "Emitir una advertencia al objetivo seleccionado"
+      mute:
+        label: "Silenciar"
+        description: "Silenciar un usuario/servidor del hub especificado"
+      ban:
+        label: "Banear"
+        description: "Banear un usuario/servidor del hub especificado"
+      unmute:
+        label: "Quitar Silencio"
+        description: "Revocar un silencio activo en este hub"
+      unban:
+        label: "Quitar Ban"
+        description: "Revocar un ban activo en este hub"
+      blacklist:
+        label: "Lista Negra"
+        description: "Emitir una lista negra de interchat (usuario/servidor)"
+    modal:
+      title: "Acción de Moderación"
+  common:
+    titles:
+      error: "Error"
+      success: "Éxito"
+    messages:
+      loading: "Cargando..."
+      pleaseWait: "Por favor espera..."
+      notImplemented: "Aún no implementado."
+      hubNotFound: "Hub no encontrado. Por favor intenta más tarde."
+      interfacePermission: "No puedes usar esta interfaz."
+      hubUpdateFailed: "Falló al actualizar configuraciones del hub."
+      hubConfigDescription: "Personaliza tu hub de InterChat para tu comunidad. Elige lo que te gustaría configurar abajo."
+    pagination:
+      previous: "Anterior"
+      next: "Siguiente"
+      page: "Página {current}/{total}"
+  hub:
+    config:
+      title: "Configuración del Hub"
+      description: "Personaliza tu hub de InterChat para tu comunidad. Elige lo que te gustaría configurar abajo."
+      options:
+        general:
+          label: "Configuración General"
+          description: "Personaliza la apariencia de tu hub, reglas y más"
+        rules:
+          label: "Reglas del Hub"
+          description: "Gestiona las reglas y pautas de la comunidad de tu hub"
+        team:
+          label: "Gestión de Equipo"
+          description: "Gestiona el equipo de tu hub y permisos del personal"
+        modules:
+          label: "Módulos"
+          description: "Habilita o deshabilita módulos adicionales dentro de tu hub"
+        logging:
+          label: "Configuración de Registro"
+          description: "Configura canales de registro y roles de notificación para tu hub"
+        transfer:
+          label: "Transferir Propiedad"
+          description: "Transfiere la propiedad de tu hub a otra persona"
+        announcements:
+          label: "Anuncios Programados"
+          description: "Configura anuncios automáticos programados para tu hub"
+    rules:
+      title: "Gestión de Reglas del Hub"
+      description: "Gestiona las reglas y pautas de la comunidad de tu hub a continuación."
+      noRules: "Aún no se han establecido reglas para este hub."
+      selectRule:
+        placeholder: "Selecciona una regla para editar o eliminar..."
+      addRule:
+        label: "Agregar Regla"
+        modal:
+          title: "Agregar Nueva Regla"
+          placeholder: "Ingresa tu nueva regla aquí..."
+      editRule:
+        label: "Editar Regla"
+        modal:
+          title: "Editar Regla"
+          placeholder: "Ingresa tu regla actualizada aquí..."
+      deleteRule:
+        label: "Eliminar Regla"
+        confirmation: "¿Estás seguro de que quieres eliminar esta regla?"
+      moveUp:
+        label: "Mover Arriba"
+      moveDown:
+        label: "Mover Abajo"
+      validation:
+        empty: "La regla no puede estar vacía."
+        tooLong: "La regla debe tener {maxLength} caracteres o menos."
+        maxRules: "Máximo de {maxRules} reglas permitidas."
+      success:
+        added: "¡Regla agregada exitosamente!"
+        updated: "¡Regla actualizada exitosamente!"
+        deleted: "¡Regla eliminada exitosamente!"
+        moved: "¡Regla movida exitosamente!"
+      errors:
+        maxRulesReached: "Máximo de Reglas Alcanzado ({maxRules})"
+        noRulesAvailable: "No hay reglas disponibles para seleccionar"
+        sessionExpired: "Sesión Expirada"
+        sessionExpiredDescription: "Esta sesión de configuración ha expirado. Por favor ejecuta el comando nuevamente para continuar gestionando reglas."
+        actionCancelled: "Acción Cancelada"
+        actionCancelledDescription: "La acción de regla ha sido cancelada. No se realizaron cambios."
+        ruleNotFound: "Selección de regla inválida. La regla puede haber sido eliminada por otro usuario."
+        invalidRuleSelection: "Selección de regla inválida. Por favor intenta de nuevo."
+        processingError: "Ocurrió un error al procesar tu solicitud. Por favor intenta de nuevo."
+        refreshError: "Ocurrió un error al actualizar. Por favor intenta de nuevo."
+        navigationError: "Ocurrió un error al navegar. Por favor intenta de nuevo."
+        selectionError: "Ocurrió un error al seleccionar la regla. Por favor intenta de nuevo."
+        deletionCancelled: "Cancelado"
+        deletionCancelledDescription: "La eliminación de regla ha sido cancelada. No se realizaron cambios."
+      warnings:
+        deleteWarning: "Advertencia"
+        deleteWarningDescription: "Esta acción no se puede deshacer. La regla será eliminada permanentemente de tu hub."
+      management:
+        title: "Gestión de Reglas"
+        instructions: "Gestión de Reglas"
+        addRuleInstruction: "Crear una nueva regla de comunidad"
+        editRuleInstruction: "Selecciona una regla del menú desplegable para editar"
+        deleteRuleInstruction: "Selecciona una regla del menú desplegable para eliminar"
+        reorderRuleInstruction: "Mover reglas arriba o abajo (próximamente)"
+      display:
+        noRulesTitle: "Sin Reglas Establecidas"
+        noRulesDescription: "Aún no se han establecido reglas para este hub. Usa el botón \"Agregar Regla\" a continuación para crear tu primera regla."
+        currentRulesTitle: "Reglas Actuales ({current}/{max})"
+        ruleSelected: "Regla {number} Seleccionada"
+        currentRule: "Regla Actual:"
+

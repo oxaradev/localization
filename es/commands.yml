@@ -1,0 +1,118 @@
+commands:
+  about:
+    title: "Acerca de InterChat"
+    description_text: "InterChat conecta comunidades de Discord mediante discusiones entre servidores en tiempo real, ayudándote a construir comunidades activas."
+    support_text: "¿Necesitas ayuda? ¡Únete a nuestro servidor de soporte!"
+    features:
+      title: "Características"
+      list: |
+        - Conéctate con otros servidores para discusiones entre servidores
+        - Mensajes en tiempo real entre servidores
+        - Crea comunidades activas enfocadas en temas
+        - Herramientas de moderación
+        - Panel visual para administrar hubs, servidores y ajustes
+    buttons:
+      vote: "Votar en top.gg"
+      invite: "Invitar InterChat"
+      dashboard: "Abrir Panel"
+      support: "Unirse al Soporte"
+  setup:
+    welcome:
+      title: "Bienvenido al asistente de InterChat"
+      description: "Vamos a conectar tu servidor. Este asistente te guiará para crear o unirte a un hub."
+    options:
+      create:
+        label: "Crear un Hub"
+        description: "Inicia tu propia comunidad InterChat"
+      join:
+        label: "Unirse a un Hub"
+        description: "Conéctate a una comunidad existente"
+    create:
+      whatYoullCreate:
+        title: "Lo Que Crearás:"
+        description: "{dot} Un espacio comunitario único para tus servidores\n{dot} Control completo sobre reglas y moderación\n{dot} Configuraciones y características personalizadas\n{dot} Privado por defecto - solo por invitación"
+      youllNeed:
+        title: "Necesitarás:"
+        description: "{arrow_right} Nombre creativo del hub\n{arrow_right} Descripción breve\n{arrow_right} Descripción detallada\n{arrow_right} URL de imagen del logo"
+    join:
+      title: "Unirse a un Hub"
+      description: "Usa el directorio público o conéctate con un código de invitación."
+      publicHubs:
+        title: "Hubs Públicos"
+        description: "**Navega** [interchat.tech/hubs](https://interchat.tech/hubs)\n**O haz clic** en el botón de abajo para abrir el directorio"
+      privateHubs:
+        title: "Privados o Solo por Invitación"
+        description: "**Pide al propietario o administrador del hub** un código de invitación\n**Ejecuta `/connect <código-invitación>`** en tu servidor para unirte"
+      footer: "Puedes unirte a más hubs en cualquier momento, y puedes estar conectado a múltiples hubs a la vez en diferentes canales."
+    nextSteps:
+      created:
+        title: "¡Hub Creado Exitosamente!"
+        description: "¡Tu hub **{hubName}** está listo! Esto es lo que puedes hacer a continuación:"
+    errors:
+      hubCreationFailed: "Algo salió mal al crear tu hub. Por favor intenta de nuevo."
+      troubleshooting: "Lo que puedes hacer:"
+      troubleshootingSteps: "• Verifica que la URL de tu logo sea válida\n• Intenta de nuevo en unos momentos\n• Contacta soporte si esto persiste"
+  general:
+    invite:
+      title: "¡Hola!"
+      description: "Gracias por elegir InterChat. ¿Necesitas ayuda? Únete a nuestro servidor de soporte. Usa los botones para invitar al bot y comenzar a conectar servidores."
+  stats:
+    title: "Métricas de InterChat"
+    shard:
+      title: "Información de Shards"
+      statusReady: "Listo"
+      statusProvisioning: "Aprovisionando..."
+      current: "Shard Actual: #{id}"
+  help:
+    title: "Comandos de InterChat"
+    description: "Explora nuestra amplia gama de comandos para ayudarte a ti y a tu comunidad a conectar con otros."
+    noDescription: "Sin descripción"
+  profile:
+    achievements:
+      noneFound: "Ninguno Encontrado"
+      noneFoundDescription: "¡No pude encontrar logros para este usuario!"
+    badges:
+      noneFound: "Ninguno Encontrado"
+      noneFoundDescription: "¡No pude encontrar insignias para este usuario!"
+  leaderboard:
+    staffTag: "Staff de InterChat"
+    userTag: "Usuario"
+    messagesColumn: "Mensajes"
+    voteCountColumn: "Conteo de Votos"
+  my:
+    hubs:
+      title: "Tus Hubs"
+      description: "Aquí están los hubs que posees o moderas:"
+      position: "Posición:"
+      owner: "Propietario"
+  report:
+    contextMenu: "Reportar Mensaje"
+    title: "Reportar Usuario"
+    description: "Reporta a {user} al **Staff del Hub** por violaciones del hub o al **Staff de InterChat** por violaciones de la plataforma. El usuario no será notificado, pero los moderadores pueden ver quién envió el reporte."
+    footer: "Los últimos 10 minutos de tu conversación serán enviados a la parte seleccionada."
+    errors:
+      hubMessageOnly: "Solo puedes reportar un mensaje enviado dentro de un hub."
+      cannotReportSelf: "No puedes reportar tus propios mensajes."
+    success:
+      title: "Reporte enviado"
+      toStaff: "Tu reporte ha sido enviado al staff de InterChat."
+      toHub: "Tu reporte ha sido enviado al staff del hub."
+  appeal:
+    title: "Tus Infracciones Apelables"
+    description: "Selecciona una infracción abajo para enviar una apelación, o ver el estado de apelaciones existentes."
+    noInfractions:
+      title: "Sin Infracciones Activas"
+      description: "No tienes infracciones activas que puedan ser apeladas."
+    notAppealable: "Esta infracción ya no es apelable."
+  rules:
+    description: "Ver las reglas de un hub"
+    title: "Reglas de {hubName}"
+    noRules:
+      title: "Sin Reglas Establecidas"
+      description: "Aún no se han establecido reglas para este hub."
+    footer: "{count} regla{plural} • Sigue estas pautas para mantener una comunidad positiva"
+    errors:
+      noHub: "Este comando debe usarse en un canal de servidor conectado a un hub, o debes especificar un nombre de hub."
+      notConnected: "Este canal no está conectado a ningún hub. Por favor especifica un nombre de hub o usa este comando en un canal conectado."
+      hubNotFound: "Hub \"{hubName}\" no encontrado."
+
