@@ -8,6 +8,7 @@ ui:
       loadingDescription: "Please wait..."
       chooseOption: "Choose an option to get started..."
     buttons:
+      back: "Back"
       cancel: "Cancel"
       refresh: "Refresh"
       enterHubInfo: "Enter Hub Information"
@@ -19,7 +20,7 @@ ui:
   common:
     titles:
       error: "Error!"
-      success: "Success"
+      success: "Success!"
     noDescription: "No description"
     labels:
       date: "Date"
@@ -67,7 +68,6 @@ ui:
     description: "Edit your personal settings to make InterChat work for you. These are GLOBAL and work across all servers you share with InterChat."
     buttons:
       return: "Return"
-      back: "Back"
     replyMentions:
       title: "Preferences: Reply Mentions"
       description: "You will now be **{status}** when someone replies to your messages. You may toggle this below using the button, or return to the menu with the return button."
@@ -112,10 +112,10 @@ ui:
     modal:
       title: "Submit Appeal"
       q1: "Why do you believe this action was incorrect?"
-      q2: "What would you like us to know about this situation?"
-      q3: "Additional information (optional)"
+      q2: "Tell us about the situation"
+      q3: "Additional Information"
     success:
-      submitted: "Your appeal has been submitted for review."
+      submitted: "{tick} Your appeal has been submitted for review."
     viewInfractions:
       title: "Recent User Infractions"
       empty: "No infractions found for this user."
@@ -472,7 +472,7 @@ ui:
         deleteWarningDescription: "This action cannot be undone. The rule will be permanently removed from your hub."
       display:
         noRulesTitle: "No Rules Set"
-        noRulesDescription: 'No rules have been set for this hub yet. Use the "Add Rule" button below to create your first rule.'
+        noRulesDescription: "No rules have been set for this hub yet. Use the \"Add Rule\" button below to create your first rule."
         currentRulesTitle: "Current Rules ({current}/{max})"
         ruleSelected: "Rule {number} Selected"
         currentRule: "Current Rule:"
