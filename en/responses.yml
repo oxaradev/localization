@@ -24,10 +24,10 @@ responses:
       unknownHub: "Unknown Hub"
       noReason: "No reason provided"
     status:
-      pending: "Appeal Pending"
+      pending: "Pending Response"
       cooldown: "Cooldown"
-      canAppealAgain: "Can Appeal Again"
-      canAppeal: "Can Appeal"
+      canAppealAgain: "Appealable"
+      canAppeal: "Appealable"
     fields:
       date: "Date:"
       reason: "Reason:"
@@ -43,8 +43,8 @@ responses:
       title: "Your Appealable Infractions"
       description: "Select an infraction below to submit an appeal, or view the status of existing appeals."
       noInfractions:
-        title: "No Active Infractions"
-        description: "You have no active infractions that can be appealed."
+        title: "Squeaky Clean!"
+        description: "No appealable infractions found."
       footer:
         canAppeal: "💡 You can appeal {count} infraction(s). Use the select menu below."
         checkLater: "💡 Check back later when cooldowns expire or appeals are reviewed."
