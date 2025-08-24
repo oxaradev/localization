@@ -268,7 +268,7 @@ ui:
     labels:
       infraction: "Infraction"
     fields:
-      userName: "User Name"
+      userName: "Username"
       userId: "User ID"
       serverName: "Server Name"
       serverId: "Server ID"
@@ -415,7 +415,7 @@ ui:
       inviteExpire: '**Expires:**'
       noneFound: 'None found!'
     announcements:
-      title: 'Hub Announcements',
+      title: 'Hub Announcements'
       description: 'Create a **one time** announcement that sends in all connected channels. \n\n-# To create **recurring** announcements please visit the hub configuration menu.'
     creation:
       title: "Let's set up your hub!"

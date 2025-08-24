@@ -79,6 +79,8 @@ responses:
       permissionDenied: "You lack InterChat staff permissions to issue a global blacklist."
       alreadyActive: "Target already has an active global blacklist."
       success: "Globally blacklisted {target}."
+    success:
+      action: '{target} has been {action} {prep} {hubName}'
     errors:
       selectedHubNotFound: "Selected hub not found."
       processingFailed: "Failed to process moderation action: {error}"
