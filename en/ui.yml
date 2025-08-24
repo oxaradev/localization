@@ -405,6 +405,18 @@ ui:
         fieldValue: 'Connected Channel: {channel}'
       errors:
         alreadyConnected: 'Uh oh! It looks like this server already has a connection to this hub.'
+    disconnect:
+      title: 'Disconnected!'
+      description: 'Disconnected from hub.'
+      fieldValue: 'Associated Channel: {channel}'
+    invites:
+      title: 'Active Invites'
+      inviteUses: '**Uses:**'
+      inviteExpire: '**Expires:**'
+      noneFound: 'None found!'
+    announcements:
+      title: 'Hub Announcements',
+      description: 'Create a **one time** announcement that sends in all connected channels. \n\n-# To create **recurring** announcements please visit the hub configuration menu.'
     creation:
       title: "Let's set up your hub!"
       description: "Hubs link multiple servers together using webhooks. They're great for cross-server communities."
