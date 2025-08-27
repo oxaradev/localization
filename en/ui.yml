@@ -268,7 +268,7 @@ ui:
     labels:
       infraction: "Infraction"
     fields:
-      userName: "Username"
+      userName: "User Name"
       userId: "User ID"
       serverName: "Server Name"
       serverId: "Server ID"
