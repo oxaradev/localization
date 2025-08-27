@@ -241,6 +241,10 @@ ui:
     hubSelect:
       placeholder: "Select a hub to moderate..."
     hubSelection:
+      title: "Hub Selection"
+      description: "Select the hub you want to moderate."
+      fieldHubLabel: "Hub"
+      fieldHubPrompt: "Selected Hub"
     targetSelection:
       title: "Target Selection"
       description: "Who do you want to {action}?"

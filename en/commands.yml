@@ -48,6 +48,13 @@ commands:
     nextSteps:
       created:
         title: "Hub Created Successfully!"
+        description: |
+          Your hub **{hubName}** is ready! Here's what you can do next:
+          - Invite your first server using `/invite`
+          - Set rules with `/rules set`
+          - Customize settings in the [dashboard](https://interchat.tech/dashboard)
+          - Connect channels with `/connect <hub-name>`
+        footer: "Need help? Join our support server."
   report:
     title: "Report Message"
     footer: "Reports help keep InterChat safe for everyone"
@@ -166,12 +173,12 @@ commands:
       state:
         enabled: 'Broadcasts are now **active**.'
         disabled: 'Broadcasts are now **paused**.'
-    
-    fix: 
+
+    fix:
       title: 'Connection Validation'
       description: 'All connections within this guild have been validated. See below for more information.'
       responses:
-        success: 
+        success:
           fixed: 'Fixed connection!'
           valid: 'No issues found.'
         errors:
