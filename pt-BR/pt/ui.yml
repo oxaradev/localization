@@ -72,7 +72,7 @@ ui:
     title: "Preferências do usuário"
     description: "Edite as suas configurações pessoais para que o InterChat funcione para você. Estas são GLOBAL e trabalham em todos os servidores que você compartilha com o InterChat."
     buttons:
-      return: "Return"
+      return: "Retornar"
     replyMentions:
       title: "Preferences: Reply Mentions"
       description: "You will now be **{status}** when someone replies to your messages. You may toggle this below using the button, or return to the menu with the return button."
