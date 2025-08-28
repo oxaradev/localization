@@ -1,76 +1,76 @@
 ui:
   setup:
     embed:
-      description: "Use the modal to enter your hub details."
+      description: "Use o modal para inserir os detalhes do seu hub."
     select:
-      placeholder: "Select a language"
-      loadingLabel: "Loading..."
-      loadingDescription: "Please wait..."
-      chooseOption: "Choose an option to get started..."
+      placeholder: "Selecione uma linguagem"
+      loadingLabel: "Carregando..."
+      loadingDescription: "Por favor, aguarde..."
+      chooseOption: "Selecione uma opção para começar..."
     buttons:
-      back: "Back"
-      cancel: "Cancel"
-      refresh: "Refresh"
-      enterHubInfo: "Enter Hub Information"
-      hubInfoComplete: "Hub Information Complete"
-      createHub: "Create Hub"
-      completeInfoFirst: "Complete Hub Info First"
-      discoverHubs: "Discover Public Hubs"
-      supportServer: "Support Server"
+      back: "Voltar"
+      cancel: "Cancelar"
+      refresh: "Atualizar"
+      enterHubInfo: "Insira informações do hub"
+      hubInfoComplete: "Informações do Hub completadas"
+      createHub: "Criar Hub"
+      completeInfoFirst: "Complete as informações do Hub primeiro"
+      discoverHubs: "Descubra hubs públicos"
+      supportServer: "Servidor de suporte"
   common:
     titles:
-      error: "Error!"
-      success: "Success!"
-      cancelled: 'Cancelled!'
+      error: "Erro!"
+      success: "Sucesso!"
+      cancelled: 'Cancelado!'
     noDescription: "Sem descrição"
     labels:
-      date: "Date"
-      create: 'Create'
-      cancel: 'Cancel'
+      date: "Data"
+      create: 'Criar'
+      cancel: 'Cancelar'
     messages:
-      loading: "Loading..."
-      pleaseWait: "Please wait..."
-      notImplemented: "Not implemented yet."
-      hubNotFound: "Hub not found. Please try again later."
-      serverNotFound: "Server not found."
-      userNotFound: "User not found."
-      notSpecified: "Not specified"
-      interfacePermission: "You can't use this interface."
-      hubUpdateFailed: "Failed to update hub settings."
-      hubConfigDescription: "Customize your InterChat hub for your community. Pick what you'd like to configure below."
+      loading: "Carregando..."
+      pleaseWait: "Por favor, aguarde..."
+      notImplemented: "Ainda não implementado."
+      hubNotFound: "Hub não encontrado. Por favor, tente novamente mais tarde."
+      serverNotFound: "Servidor não encontrado."
+      userNotFound: "Usuário não encontrado."
+      notSpecified: "Não especificado"
+      interfacePermission: "Você não pode usar esta interface."
+      hubUpdateFailed: "Falha ao atualizar as configurações do Hub."
+      hubConfigDescription: "Personalize seu hub do InterChat para sua comunidade. Escolha o que você gostaria de configurar abaixo."
     pagination:
-      previous: "Previous"
-      next: "Next"
-      page: "Page {current}/{total}"
+      previous: "Voltar"
+      next: "Próximo"
+      page: "Página {current}/{total}"
     errors:
-      notYourMenu: "This isn't your menu."
-      cannotControlPagination: "You cannot control this pagination."
-      notFound: "Not Found"
-      invalidFilter: "Invalid Filter"
+      notYourMenu: "Este não é o seu menu."
+      cannotControlPagination: "Você não pode controlar esta paginação."
+      notFound: "Não encontrado"
+      invalidFilter: "Filtro inválido"
     modal:
       hubCreation:
-        title: "Create Your Hub"
+        title: "Criar Hub"
         name:
           label: "Hub Name"
-          placeholder: "Enter a unique name for your hub"
+          placeholder: "Digite um nome único para o seu hub"
         brief:
-          label: "Brief Description"
-          placeholder: "A quick summary of your hub's purpose"
+          label: "Descrição breve"
+          placeholder: "Uma breve descrição do propósito do seu hub."
         description:
-          label: "Detailed Description"
-          placeholder: "Tell people what your hub is about and what they can expect"
+          label: "Descrição detalhada"
+          placeholder: "Diga às pessoas sobre o que é o seu hub e o que podem esperar"
         logoUrl:
-          label: "Hub Logo URL"
-          placeholder: "https://example.com/your-logo.png"
+          label: "URL do logo do Hub"
+          placeholder: "https://exemplo.com.br/logotipo.png"
     create:
       footer:
-        getStarted: "Click 'Enter Hub Information' below to get started!"
+        getStarted: "Clique em 'Enter Hub Information' abaixo para começar!"
   help:
     select:
-      placeholder: "Select a category"
+      placeholder: "Selecione uma categoria"
   preferences:
-    title: "User Preferences"
-    description: "Edit your personal settings to make InterChat work for you. These are GLOBAL and work across all servers you share with InterChat."
+    title: "Preferências do usuário"
+    description: "Edite as suas configurações pessoais para que o InterChat funcione para você. Estas são GLOBAL e trabalham em todos os servidores que você compartilha com o InterChat."
     buttons:
       return: "Return"
     replyMentions:
@@ -90,7 +90,7 @@ ui:
       description: "Select your preferred language for InterChat."
     select:
       placeholder: "Select an option"
-      category: "Select a category"
+      category: "Selecione uma categoria"
     badges:
       title: "Preferences: Badges"
       description: "Your badges are now **{status}** within your messages. You may toggle this below using the button, or return to the menu with the return button."
@@ -102,8 +102,8 @@ ui:
         hide: "Hide"
   appeal:
     buttons:
-      previous: "Previous"
-      next: "Next"
+      previous: "Voltar"
+      next: "Próximo"
     select:
       placeholder: "Select an infraction to appeal"
     errors:
@@ -148,7 +148,7 @@ ui:
   hubConfig:
     main:
       placeholder: "Select an option"
-      loadingLabel: "Loading..."
+      loadingLabel: "Carregando..."
       loadingDescription: "Please wait."
     general:
       placeholder: "🎛️ Choose a setting to configure..."
@@ -203,7 +203,7 @@ ui:
           label: "Expiry"
           placeholder: "1 week"
       buttons:
-        create: "Create"
+        create: "Criar"
   moderation:
     actionNames:
       warned: "Warned"
@@ -470,7 +470,7 @@ ui:
         cancelled: 'Setup cancelled. We hope to see you back here again soon.'
     config:
       title: "Hub Configuration"
-      description: "Customize your InterChat hub for your community. Pick what you'd like to configure below."
+      description: "Personalize seu hub do InterChat para sua comunidade. Escolha o que você gostaria de configurar abaixo."
       options:
         general:
           label: "General Settings"
