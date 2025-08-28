@@ -59,7 +59,7 @@ responses:
     notConnected: "I could not find a hub connected in this channel."
     noInteraction: "This command only supports slash commands."
     missingAppealReference: "Missing appeal reference."
-    whoops: "Whoops!"
+    whoops: "Whoops! Something went wrong. Please try again later."
     missingArgument: "Missing argument: `{param}`."
     notConnectedServer: "{cross} I could not find any connections for this server."
   moderation:
@@ -94,6 +94,7 @@ responses:
       fetchAuthorOrServerFailed: "Could not fetch message author or server."
       hubNotFoundForMessage: "Hub not found for this message."
       noModeratedHubs: "You don't have moderation permissions in any hubs."
+      noTarget: "Please specify a target (user/server) or reply to a message."
   infractions:
     errors:
       noPermission: "You do not have permission to view infractions for this hub."

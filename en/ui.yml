@@ -45,6 +45,8 @@ ui:
     errors:
       notYourMenu: "This isn't your menu."
       cannotControlPagination: "You cannot control this pagination."
+      notFound: "Not Found"
+      invalidFilter: "Invalid Filter"
     modal:
       hubCreation:
         title: "Create Your Hub"
@@ -125,6 +127,11 @@ ui:
     status:
       acceptedBy: "Accepted by @{name}"
       rejectedBy: "Rejected by @{name}"
+    actions:
+      decisionTitle: "Appeal Decision"
+      reasonOptional:
+        label: "Reason (Optional)"
+        placeholder: "Explain your decision..."
   report:
     buttons:
       toStaff: "Report to Staff"
@@ -137,6 +144,9 @@ ui:
       reason:
         label: "Reason for Report"
         placeholder: "Please describe why you are reporting this message..."
+    status:
+      resolvedBy: "Resolved by {name}"
+      ignoredBy: "Ignored by {name}"
 
   hubConfig:
     main:
@@ -245,6 +255,7 @@ ui:
       description: "Select the hub you want to moderate."
       fieldHubLabel: "Hub"
       fieldHubPrompt: "Selected Hub"
+      prompt: "Select a hub to moderate"
     targetSelection:
       title: "Target Selection"
       description: "Who do you want to {action}?"
@@ -519,6 +530,8 @@ ui:
         label: "Move Up"
       moveDown:
         label: "Move Down"
+      viewAll:
+        label: "View All Rules"
       validation:
         empty: "Rule cannot be empty."
         tooLong: "Rule must be {maxLength} characters or less."
