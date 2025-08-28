@@ -3,7 +3,7 @@ responses:
     unknown: "Unknown"
     hub: "Hub"
   setup:
-    setupComplete: "Ready to create? Click the Create Hub button!"
+    setupComplete: "Pronto para criar? Clique no botão \"Create Hub\"!"
     editMessagePrompt: "{emoji} Please use the modal to edit your message."
     preview:
       titleSaved: "{emoji} Hub Information Saved!"
@@ -16,7 +16,7 @@ responses:
       successDescription: "{tick} Your language has been set to **{locale_name}**"
     loading:
       creatingHub: "{loading} Creating Your Hub..."
-      pleaseWait: "Please wait while we set up your community space."
+      pleaseWait: "Por favor, aguarde enquanto nós configuramos o espaço da sua comunidade."
     errors:
       hubCreationFailed: "{no} Hub Creation Failed"
   appeal:
@@ -36,7 +36,7 @@ responses:
       notFoundOrDeleted: "Appeal not found or has been deleted."
       updateFailed: "Failed to update appeal. Please try again later."
     dm:
-      accepted: "Your appeal regarding a moderation action{hubName} has been accepted. Our team reviewed your case and determined that your appeal should be upheld."
+      accepted: "Seu apelo em relação a uma ação de moderação{hubName} foi aceito. Nossa equipe analisou seu caso e decidiu que seu recurso deveria ser mantido."
       declined: "Your appeal regarding a moderation action{hubName} has been reviewed. After careful consideration, your appeal has been declined."
       moderatorNote: "Moderator note: {reason}"
     embed:
