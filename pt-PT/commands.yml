@@ -1,0 +1,184 @@
+commands:
+  about:
+    title: "About InterChat"
+    description_text: "InterChat connects Discord communities through active cross-server discussions. Messages flow naturally between servers in real-time, helping you build engaged topic-focused communities."
+    support_text: "Need help? Join our support server for assistance!"
+    features:
+      title: "Features"
+      list: |
+        - Connect with other servers for active cross-server discussions
+        - Messages flow naturally between servers in real-time
+        - Build engaged topic-focused communities
+        - Moderation tools to keep discussions healthy
+        - Visual dashboard to manage your hubs, servers, and settings
+    buttons:
+      vote: "Vote on top.gg"
+      invite: "Invite InterChat"
+      dashboard: "Open Dashboard"
+      support: "Join Support"
+      shardInfo: "Shard Info"
+  setup:
+    welcome:
+      title: "Welcome to InterChat Setup"
+      description: "Let's get your server connected. This wizard will guide you through creating or joining a hub."
+    options:
+      create:
+        label: "Create a Hub"
+        description: "Start your own InterChat community"
+      join:
+        label: "Join a Hub"
+        description: "Connect to an existing community"
+    create:
+      whatYoullCreate:
+        title: "What You'll Create:"
+        description: "{dot} A unique community space for your servers\n{dot} Complete control over rules and moderation\n{dot} Custom settings and features\n{dot} Private by default - invite only"
+      youllNeed:
+        title: "You'll Need:"
+        description: "{arrow_right} Creative hub name\n{arrow_right} Brief description\n{arrow_right} Detailed description\n{arrow_right} Logo image URL"
+    join:
+      title: "Join a Hub"
+      description: "Use the public directory or connect with an invite code."
+      publicHubs:
+        title: "Public Hubs"
+        description: "**Browse** [interchat.tech/hubs](https://interchat.tech/hubs)\n**Or click** the button below to open the directory"
+      privateHubs:
+        title: "Private or Invite-only"
+        description: "**Ask the hub owner or manager** for an invite code\n**Run `/connect <invite-code>`** in your server to join"
+      footer: "You can join more hubs anytime, and you can be connected to multiple hubs at once in different channels."
+    nextSteps:
+      created:
+        title: "Hub Created Successfully!"
+        description: |
+          Your hub **{hubName}** is ready! Here's what you can do next:
+          - Invite your first server using `/invite`
+          - Set rules with `/rules set`
+          - Customize settings in the [dashboard](https://interchat.tech/dashboard)
+          - Connect channels with `/connect <hub-name>`
+        footer: "Need help? Join our support server."
+  report:
+    title: "Report Message"
+    footer: "Reports help keep InterChat safe for everyone"
+    contextMenu: "Report Message"
+    description: "Report {user} to **Hub Staff** for hub violations or **InterChat Staff** for platform violations. The user won't be notified, but moderators can see who has submit the report."
+    success:
+      title: "Report Submitted"
+      toStaff: "{tick} Your report has been sent to InterChat staff for review."
+      toHub: "{tick} Your report has been sent to hub moderators for review."
+    errors:
+      hubMessageOnly: "{x_icon} You can only report messages sent through InterChat hubs."
+      cannotReportSelf: "{x_icon} You cannot report your own messages."
+  hubCreate:
+    success:
+      description: "Your hub **{hubName}** is ready! Here's what you can do next:"
+    errors:
+      hubCreationFailed: "Something went wrong while creating your hub. Please try again."
+      troubleshooting: "What you can do:"
+      troubleshootingSteps: "• Check that your logo URL is valid\n• Try again in a few moments\n• Contact support if this persists"
+  general:
+    invite:
+      title: "Hey!"
+      description: "Thanks for choosing InterChat. Need help? Join our support server. Use the buttons below to invite our bot to your server and start connecting servers."
+  stats:
+    title: "InterChat Metrics"
+    shard:
+      title: "Shard Information"
+      statusReady: "Ready"
+      statusProvisioning: "Provisioning..."
+      current: "Current Shard: #{id}"
+  help:
+    title: "InterChat Commands"
+    description: "Explore our wide range of commands to help you, and your community connect with others."
+    noDescription: "No description"
+    name: "Help"
+  staff:
+    blacklist:
+      list:
+        description: "View blacklist entries filtered by users or servers"
+    get:
+      description: "Get information about InterChat entities"
+      server:
+        description: "Get detailed information about a server"
+      hub:
+        description: "Get detailed information about a hub"
+      user:
+        description: "Get detailed information about a user"
+  profile:
+    achievements:
+      noneFound: "None Found"
+      noneFoundDescription: "I could not find any achievements for this user!"
+    badges:
+      noneFound: "None Found"
+      noneFoundDescription: "I could not find any badges for this user!"
+  leaderboard:
+    staffTag: "InterChat Staff"
+    userTag: "User"
+    messagesColumn: "Messages"
+    voteCountColumn: "Vote Count"
+  my:
+    hubs:
+      title: "Your Hubs"
+      description: "Here are the hubs you own or moderate:"
+      position: "Position:"
+      owner: "Owner"
+  appeal:
+    title: "Your Appealable Infractions"
+    description: "Select an infraction below to submit an appeal, or view the status of existing appeals."
+    noInfractions:
+      title: "No Active Infractions"
+      description: "You have no active infractions that can be appealed."
+    notAppealable: "This infraction is no longer appealable."
+  mod:
+    panel:
+      description: "Open the moderation panel for users, messages, or servers"
+    ban:
+      description: "Ban a user or server from a hub."
+    mute:
+      description: "Mute a user or server from a hub."
+    warn:
+      description: "Warn a user or server from a hub."
+    unmute:
+      description: "Revoke active mute infractions for a user or server in a hub."
+    unban:
+      description: "Revoke active ban infractions for a user or server in a hub."
+    delete:
+      description: "Delete an infraction (Manager+ only)."
+  infractions:
+    description: "View infractions in a hub, filtered by user or server."
+  rules:
+    description: "View the rules for a hub"
+    title: "{hubName} Rules"
+    noRules:
+      title: "No Rules Set"
+      description: "No rules have been set for this hub yet."
+    footer: "{count} rule{plural} • Follow these guidelines to maintain a positive community"
+    errors:
+      noHub: "This command must be used in a server channel connected to a hub, or you must specify a hub name."
+      notConnected: "This channel is not connected to any hub. Please specify a hub name or use this command in a connected channel."
+      hubNotFound: "Hub \"{hubName}\" not found."
+  connections:
+    title: "Connection Management"
+    description: "Configure, and administrate all hub connections within this server."
+    fields:
+      lastActive: "Last Active"
+    selected:
+      description: "You may now edit this connection. Use the below dropdowns to either change the broadcast channel, or edit settings regarding the connection."
+      fields:
+        broadcastChannel: 'Broadcasting to'
+        connectionState: 'Broadcast state'
+        lastActive: 'Last Active'
+      state:
+        enabled: 'Broadcasts are now **active**.'
+        disabled: 'Broadcasts are now **paused**.'
+    fix:
+      title: 'Connection Validation'
+      description: 'All connections within this guild have been validated. See below for more information.'
+      responses:
+        success:
+          fixed: 'Fixed connection!'
+          valid: 'No issues found.'
+        errors:
+          channelDeleted: 'The channel associated with this hub has been deleted. Connection removed.'
+          permissionsWebhook: 'I am unable to webhooks, please review my permissions and try again.'
+          permissionsView: 'I am unable to view channel, please review my permissions and try again.'
+          permissionsSend: 'I am unable to send messages, please review my permissions and try again.'
+
