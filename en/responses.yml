@@ -73,8 +73,11 @@ responses:
       success: "Revoked {action}."
     delete:
       notImplemented: "Message delete not implemented yet. Reason recorded: {reason}"
+      noMessage: "No message provided to delete."
+      success: "Message {messageId} has been deleted from all connected hubs."
+      notInterChatMessage: "This message is not an InterChat message or has already been deleted."
+      failed: "Failed to delete the message. Please try again later."
       notFound: "Infraction not found."
-      success: "Infraction deleted."
     blacklist:
       permissionDenied: "You lack InterChat staff permissions to issue a global blacklist."
       alreadyActive: "Target already has an active global blacklist."

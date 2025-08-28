@@ -263,6 +263,8 @@ ui:
       serverField: "Server"
     actionSelect:
       placeholder: "Select a moderation action..."
+    fields:
+      reason: "Reason"
 
   infractions:
     buttons:
