@@ -79,7 +79,7 @@ commands:
   stats:
     title: "InterChat Metrics"
     shard:
-      title: "Shard Information"
+      title: "Informações do Shard"
       statusReady: "Ready"
       statusProvisioning: "Provisioning..."
       current: "Current Shard: #{id}"
