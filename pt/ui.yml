@@ -157,7 +157,7 @@ ui:
         description: "Update your hub's description text"
       editName:
         label: "Edit Hub Name"
-        description: "Change your hub's name (10 day cooldown)"
+        description: "Mude o nome do hub. (10 dias de cooldown)"
       welcomeMessage:
         label: "Welcome Message"
         description: "Set a message shown to new users"
