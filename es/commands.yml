@@ -20,7 +20,7 @@ commands:
   setup:
     welcome:
       title: "Bienvenido a la configuración de InterChat"
-      description: "Let's get your server connected. This wizard will guide you through creating or joining a hub."
+      description: "Vamos a conectar tu servidor. Este mago te guiará a través de la creación o unión de un centro."
     options:
       create:
         label: "Crea un Centro"
@@ -31,65 +31,65 @@ commands:
     create:
       whatYoullCreate:
         title: "Lo Que Crearás:"
-        description: "{dot} A unique community space for your servers\n{dot} Complete control over rules and moderation\n{dot} Custom settings and features\n{dot} Private by default - invite only"
+        description: "{dot} Un espacio de comunidad único para tus servidores\n{dot} Control total sobre reglas y moderación\n{dot} Configuraciones y características personalizadas\n{dot} Privado por defecto - invitaciones solamente"
       youllNeed:
         title: "Necesitarás:"
-        description: "{arrow_right} Creative hub name\n{arrow_right} Brief description\n{arrow_right} Detailed description\n{arrow_right} Logo image URL"
+        description: "{arrow_right} Nombre creativo del Centro\n{arrow_right} Descripción breve\n{arrow_right} Descripción detallada\n{arrow_right} URL de la imagen del logotipo"
     join:
       title: "Únete a un Centro"
-      description: "Use the public directory or connect with an invite code."
+      description: "Use el directorio público o conéctate con un código de invitación."
       publicHubs:
-        title: "Public Hubs"
-        description: "**Browse** [interchat.tech/hubs](https://interchat.tech/hubs)\n**Or click** the button below to open the directory"
+        title: "Centros Públicos"
+        description: "**Navega** [interchat.tech/hubs](https://interchat.tech/hubs)\n**O clic** el botón de abajo para abrir el directorio"
       privateHubs:
-        title: "Private or Invite-only"
+        title: "Privado o Invitación solamente"
         description: "**Ask the hub owner or manager** for an invite code\n**Run `/connect <invite-code>`** in your server to join"
-      footer: "You can join more hubs anytime, and you can be connected to multiple hubs at once in different channels."
+      footer: "Puedes unirte a más centros en cualquier momento, y puedes conectarte a múltiples centros a la vez en diferentes canales."
     nextSteps:
       created:
-        title: "Hub Created Successfully!"
+        title: "¡Centro Creado Sucesivamente!"
         description: |
           Your hub **{hubName}** is ready! Here's what you can do next:
           - Invite your first server using `/invite`
           - Set rules with `/rules set`
           - Customize settings in the [dashboard](https://interchat.tech/dashboard)
           - Connect channels with `/connect <hub-name>`
-        footer: "Need help? Join our support server."
+        footer: "¿Necesitas ayuda? Únete a nuestro servidor de soporte."
   report:
-    title: "Report Message"
+    title: "Reporte el Mensaje"
     footer: "Reports help keep InterChat safe for everyone"
-    contextMenu: "Report Message"
+    contextMenu: "Reporte el Mensaje"
     description: "Report {user} to **Hub Staff** for hub violations or **InterChat Staff** for platform violations. The user won't be notified, but moderators can see who has submit the report."
     success:
       title: "Report Submitted"
       toStaff: "{tick} Your report has been sent to InterChat staff for review."
-      toHub: "{tick} Your report has been sent to hub moderators for review."
+      toHub: "{tick} Tu reporte ha sido enviado a los moderadores de centros para revisión."
     errors:
-      hubMessageOnly: "{x_icon} You can only report messages sent through InterChat hubs."
-      cannotReportSelf: "{x_icon} You cannot report your own messages."
+      hubMessageOnly: "{x_icon} Solo puedes reportar mensajes enviados a través de los centros de InterChat."
+      cannotReportSelf: "{x_icon} No puedes reportar tus propios mensajes."
   hubCreate:
     success:
       description: "Your hub **{hubName}** is ready! Here's what you can do next:"
     errors:
       hubCreationFailed: "Something went wrong while creating your hub. Please try again."
-      troubleshooting: "What you can do:"
+      troubleshooting: "Lo que puedes hacer:"
       troubleshootingSteps: "• Check that your logo URL is valid\n• Try again in a few moments\n• Contact support if this persists"
   general:
     invite:
-      title: "Hey!"
+      title: "¡Hola!"
       description: "Thanks for choosing InterChat. Need help? Join our support server. Use the buttons below to invite our bot to your server and start connecting servers."
   stats:
     title: "InterChat Metrics"
     shard:
-      title: "Shard Information"
-      statusReady: "Ready"
+      title: "Información de Fragmentos"
+      statusReady: "Listo"
       statusProvisioning: "Aprovisionando..."
-      current: "Current Shard: #{id}"
+      current: "Fragmentos actuales #{id}"
   help:
     title: "Comandos de InterChat"
     description: "Explore our wide range of commands to help you, and your community connect with others."
-    noDescription: "No description"
-    name: "Help"
+    noDescription: "Sin descripción"
+    name: "Ayuda"
   staff:
     blacklist:
       list:
@@ -97,29 +97,29 @@ commands:
     get:
       description: "Get information about InterChat entities"
       server:
-        description: "Get detailed information about a server"
+        description: "Obtenga información detallada sobre un servidor"
       hub:
-        description: "Get detailed information about a hub"
+        description: "Obtenga información detallada sobre un centro"
       user:
-        description: "Get detailed information about a user"
+        description: "Obtenga información detallada sobre un usuario"
   profile:
     achievements:
-      noneFound: "None Found"
-      noneFoundDescription: "I could not find any achievements for this user!"
+      noneFound: "Ningún Encontrado"
+      noneFoundDescription: "¡No pude encontrar ningún logro para este usuario!"
     badges:
-      noneFound: "None Found"
+      noneFound: "Ningún Encontrado"
       noneFoundDescription: "I could not find any badges for this user!"
   leaderboard:
     staffTag: "InterChat Staff"
-    userTag: "User"
-    messagesColumn: "Messages"
-    voteCountColumn: "Vote Count"
+    userTag: "Usuario"
+    messagesColumn: "Mensajes"
+    voteCountColumn: "Recuento de Votos"
   my:
     hubs:
-      title: "Your Hubs"
-      description: "Here are the hubs you own or moderate:"
-      position: "Position:"
-      owner: "Owner"
+      title: "Tus Centros"
+      description: "Aquí están los centros que usted posee o modera:"
+      position: "Posición:"
+      owner: "Dueño"
   appeal:
     title: "Your Appealable Infractions"
     description: "Select an infraction below to submit an appeal, or view the status of existing appeals."
