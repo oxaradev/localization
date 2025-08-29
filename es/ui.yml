@@ -22,7 +22,7 @@ ui:
       error: "Error!"
       success: "Success!"
       cancelled: 'Cancelled!'
-    noDescription: "No description"
+    noDescription: "Sin descripción"
     labels:
       date: "Date"
       create: 'Create'
@@ -256,7 +256,7 @@ ui:
     targetSelection:
       title: "Target Selection"
       description: "Who do you want to {action}?"
-      userField: "User"
+      userField: "Usuario"
       serverField: "Server"
     actionSelect:
       placeholder: "Select a moderation action..."
@@ -296,12 +296,12 @@ ui:
         moderation: "Moderation"
       fields:
         name: "Name"
-        messages: "Messages"
+        messages: "Mensajes"
         connections: "Connections"
         created: "Created"
         lastActive: "Last Active"
         upvotes: "Upvotes"
-        owner: "Owner"
+        owner: "Dueño"
         location: "Location"
         activity: "Activity"
         appealCooldown: "Appeal Cooldown"
@@ -323,7 +323,7 @@ ui:
         name: "Name"
         serverId: "Server ID"
         inviteCode: "Invite Code"
-        messages: "Messages"
+        messages: "Mensajes"
         connections: "Connections"
         status: "Status"
         created: "Created"
@@ -339,7 +339,7 @@ ui:
         name: "Name"
         userId: "User ID"
         status: "Status"
-        messages: "Messages"
+        messages: "Mensajes"
         reputation: "Reputation"
         votes: "Votes"
         hubJoins: "Hub Joins"
@@ -398,13 +398,13 @@ ui:
         userListEmpty: "No blacklisted users found."
         serverListEmpty: "No blacklisted servers found."
       fields:
-        user: "User"
+        user: "Usuario"
         server: "Server"
         expires: "Expires"
         staff: "Staff"
         added: "Added"
       labels:
-        user: "User"
+        user: "Usuario"
         server: "Server"
   hub:
     title: 'Hub Creation'
