@@ -1,42 +1,42 @@
 commands:
   about:
-    title: "About InterChat"
-    description_text: "InterChat connects Discord communities through active cross-server discussions. Messages flow naturally between servers in real-time, helping you build engaged topic-focused communities."
-    support_text: "Need help? Join our support server for assistance!"
+    title: "Sobre InterChat"
+    description_text: "InterChat conecta las comunidades de Discord a través de una discusión activa entre servidores. Mensajes fluyen naturalmente entre servidores en tiempo real, ayudándote a construir comunidades comprometidas y centradas en temas."
+    support_text: "¿Necesitas ayuda? ¡Únete a nuestro servidor de soporte para asistencia!"
     features:
-      title: "Features"
+      title: "Características"
       list: |
-        - Connect with other servers for active cross-server discussions
-        - Messages flow naturally between servers in real-time
-        - Build engaged topic-focused communities
-        - Moderation tools to keep discussions healthy
-        - Visual dashboard to manage your hubs, servers, and settings
+        - Conéctate con otros servidores para discusiones activas entre servidores
+        - Mensajes que fluyen naturalmente entre servidores en tiempo real
+        - Construye comunidades comprometidas y centradas en temas
+        - Herramientas de moderación para mantener discusiones saludables
+        - Panel visual para manejar tus centros, servidores y configuraciones
     buttons:
-      vote: "Vote on top.gg"
-      invite: "Invite InterChat"
-      dashboard: "Open Dashboard"
-      support: "Join Support"
-      shardInfo: "Shard Info"
+      vote: "Vota en top.gg"
+      invite: "Invita a Interchat"
+      dashboard: "Abre el panel"
+      support: "Únete al soporte"
+      shardInfo: "Información de fragmentos"
   setup:
     welcome:
-      title: "Welcome to InterChat Setup"
+      title: "Bienvenido a la configuración de InterChat"
       description: "Let's get your server connected. This wizard will guide you through creating or joining a hub."
     options:
       create:
-        label: "Create a Hub"
-        description: "Start your own InterChat community"
+        label: "Crea un Centro"
+        description: "Empieza tu propia comunidad de InterChat"
       join:
-        label: "Join a Hub"
-        description: "Connect to an existing community"
+        label: "Únete a un Centro"
+        description: "Conéctate a una comunidad existente"
     create:
       whatYoullCreate:
-        title: "What You'll Create:"
+        title: "Lo Que Crearás:"
         description: "{dot} A unique community space for your servers\n{dot} Complete control over rules and moderation\n{dot} Custom settings and features\n{dot} Private by default - invite only"
       youllNeed:
-        title: "You'll Need:"
+        title: "Necesitarás:"
         description: "{arrow_right} Creative hub name\n{arrow_right} Brief description\n{arrow_right} Detailed description\n{arrow_right} Logo image URL"
     join:
-      title: "Join a Hub"
+      title: "Únete a un Centro"
       description: "Use the public directory or connect with an invite code."
       publicHubs:
         title: "Public Hubs"
@@ -83,10 +83,10 @@ commands:
     shard:
       title: "Shard Information"
       statusReady: "Ready"
-      statusProvisioning: "Provisioning..."
+      statusProvisioning: "Aprovisionando..."
       current: "Current Shard: #{id}"
   help:
-    title: "InterChat Commands"
+    title: "Comandos de InterChat"
     description: "Explore our wide range of commands to help you, and your community connect with others."
     noDescription: "No description"
     name: "Help"
