@@ -1,0 +1,153 @@
+responses:
+  common:
+    unknown: "Desconhecido"
+    hub: "Hub"
+  setup:
+    setupComplete: "Pronto para criar? Clique no botão \"Create Hub\"!"
+    editMessagePrompt: "{emoji} Por favor, use o modal para editar sua mensagem."
+    preview:
+      titleSaved: "{emoji} Informações do hub salvadas!"
+      previewTitle: "Aqui está uma prévia do seu hub:"
+      name: "{emoji} Name"
+      short: "{emoji} Nome curto"
+      description: "{emoji} Descrição"
+    locale:
+      successTitle: "Sucesso!"
+      successDescription: "{tick} Sua lingua foi definida para **{locale_name}**"
+    loading:
+      creatingHub: "{loading} Criando seu hub..."
+      pleaseWait: "Por favor, aguarde enquanto nós configuramos o espaço da sua comunidade."
+    errors:
+      hubCreationFailed: "{no} A criação do hub falhou"
+  appeal:
+    constants:
+      unknownHub: "Hub desconhecido"
+      noReason: "Sem motivo indicado"
+    status:
+      pending: "Resposta pendente"
+      cooldown: "Tempo de espera"
+      canAppealAgain: "Apelável"
+      canAppeal: "Apelável"
+    fields:
+      date: "Data:"
+      reason: "Motivo:"
+    errors:
+      recordFailed: "Falha ao escrever decisão: {error}"
+      notFoundOrDeleted: "Apelo não encontrado ou deletado."
+      updateFailed: "Falha ao atualizar apelo. Tente novamente mais tarde"
+    dm:
+      accepted: "Seu apelo em relação a uma ação de moderação{hubName} foi aceito. Nossa equipe analisou seu caso e decidiu que seu recurso deveria ser mantido."
+      declined: "Seu apelo sobre uma ação moderativa em {hubName} foi avaliada. Após consideração, seu apelo foi recusado."
+      moderatorNote: "Nota do moderador: {reason}"
+    embed:
+      title: "Suas infrações apeláveis"
+      description: "Selecione uma infração abaixo para enviar um apelo, ou ver o progresso de apelos existentes."
+      noInfractions:
+        title: "Limpinho por aqui!"
+        description: "Nenhuma infração apelável encontrada."
+      footer:
+        canAppeal: "💡 Você pode apelar {count} infração(ões). Use o menu abaixo."
+        checkLater: "💡 Verifique mais tarde quando o tempo de espera expirar ou quando apelos forem avaliados."
+  errors:
+    errorTitle: "Erro!"
+    interactionCheck: "Você não deve usar essa interação, pois não chamou ela."
+    rateLimited: "Você está sendo limitado. Pegue um suco de maracujá."
+    webhookRateLimit: "Você atingiu o limite de criação de webhooks"
+    invalidInput: "Você não proveu uma resposta válida."
+    invalidInvite: "Esse convite está invalido ou expirado."
+    webhookError: "Falha ao criar um webhook"
+    notConnected: "Eu não consegui encontrar um hub conectado nesse canal."
+    noInteraction: "Esse comando somente suporta comandos slash ` / `."
+    missingAppealReference: "Faltando referência do apelo."
+    whoops: "Whoops! Parece que deu algo errado. Tente novamente mais tarde."
+    missingArgument: "Faltando argumento: `{param}`."
+    notConnectedServer: "{cross} Eu não consegui encontrar nenhuma conexão para esse servidor."
+  moderation:
+    permissions:
+      managerRequired: "Permissões de Gerente+ necessárias."
+    target:
+      both: ""
+      missing: "Please specify either a user or a server."
+    revoke:
+      noActive: "No active {action} found."
+      success: "Revoked {action}."
+    delete:
+      notImplemented: "Message delete not implemented yet. Reason recorded: {reason}"
+      noMessage: "No message provided to delete."
+      success: "Message {messageId} has been deleted from all connected hubs."
+      notInterChatMessage: "This message is not an InterChat message or has already been deleted."
+      failed: "Failed to delete the message. Please try again later."
+      notFound: "Infraction not found."
+    blacklist:
+      permissionDenied: "You lack InterChat staff permissions to issue a global blacklist."
+      alreadyActive: "Target already has an active global blacklist."
+      success: "Globally blacklisted {target}."
+    success:
+      action: '{target} has been {action} {prep} {hubName}'
+    errors:
+      selectedHubNotFound: "Selected hub not found."
+      processingFailed: "Failed to process moderation action: {error}"
+      unknownAction: "Unknown action."
+      unsupportedAction: "Unsupported action route."
+      openPanelFailed: "Error opening moderation panel: {error}"
+      notModeratorForHub: "You are not a moderator for this hub."
+      alreadyState: "{targetType} is already {state} in this hub."
+      invalidHubData: "Invalid hub data."
+      originalMessageNotFound: "Original message not found in database."
+      fetchAuthorOrServerFailed: "Could not fetch message author or server."
+      hubNotFoundForMessage: "Hub not found for this message."
+      noModeratedHubs: "You don't have moderation permissions in any hubs."
+      noTarget: "Please specify a target (user/server) or reply to a message."
+  infractions:
+    errors:
+      noPermission: "You do not have permission to view infractions for this hub."
+      bothSelection: "Please select only a user or a server, not both."
+      invalidServerId: "Invalid server ID."
+    permissions:
+      insufficient: "You need {permission}+ permissions in this hub."
+      managerRequired: "Permissões de Gerente+ necessárias."
+    target:
+      both: ""
+      missing: "Please specify either a user or a server."
+    success:
+      action: "{action} {target} {prep} {hubName}."
+    revoke:
+      noActive: "No active {action} found."
+      success: "Revoked {action}."
+    delete:
+      notImplemented: "Message delete not implemented yet. Reason recorded: {reason}"
+      notFound: "Infraction not found."
+      success: "Infraction deleted."
+    blacklist:
+      permissionDenied: "You lack InterChat staff permissions to issue a global blacklist."
+      alreadyActive: "Target already has an active global blacklist."
+      success: "Globally blacklisted {target}."
+  report:
+    errors:
+      processingFailed: "Error processing report: {error}"
+      notFoundOrDeleted: "Report not found or has been deleted."
+      alreadyHandled: "This report is already {status}."
+      updateFailed: "Failed to update report. Please try again later."
+    success:
+      actionPast: "Report {action}."
+    dm:
+      resolved: "Thank you for your report. Our moderation team reviewed it and took appropriate action. We cannot share specific details to protect user privacy."
+  welcome:
+    onGuildJoinTitle: "👋 Hey there!"
+    onGuildJoinDescription: |
+      **I'm InterChat, and I'm pleased to be on your server on behalf of our team.**
+      Together, we can connect your server with other remarkable communities from across Discord. Numerous, potentially thousands of servers located in one place, all filled with individuals eager to engage in conversation with you. 🚀
+
+      **Ready to start building new bridges with us?**
+      {dot} **New here?** The `/setup` command provides a step-by-step guide to help you begin your journey.
+      {dot} **Ready to explore?** Visit our [discovery page](https://interchat.tech/hubs) to locate and become part of our lively hubs.
+      {dot} **Perhaps something you're more familiar with?** Try our `/call` for one on one connections.
+
+      💝 **Lost? Require assistance?** We welcome you to our [support community](https://discord.gg/8DhUA4HNpD). Our team and our community will be pleased to offer their help. We offer as much support and assistance in whatever issues you may have, don't hesitate to join!
+  staff:
+    blacklist:
+      notFound: "No matching blacklist entry was found."
+      removed: "Blacklist entry removed."
+  user:
+    achievements:
+      placeholder: "Achievements here"
