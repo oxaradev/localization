@@ -1,30 +1,30 @@
 commands:
   about:
     title: "Относно InterChat"
-    description_text: "InterChat connects Discord communities through active cross-server discussions. Messages flow naturally between servers in real-time, helping you build engaged topic-focused communities."
-    support_text: "Need help? Join our support server for assistance!"
+    description_text: "InterChat свързва Discord общности чрез активни дискусии между сървърите. Съобщенията се обменят естествено между сървърите в реално време, което ви помага да се потопите в дадена тема."
+    support_text: "Имате нужда от помощ? Присъединете се към нашия сървър за поддръжка!"
     features:
       title: "Features"
       list: |
-        - Connect with other servers for active cross-server discussions
-        - Messages flow naturally between servers in real-time
-        - Build engaged topic-focused communities
-        - Moderation tools to keep discussions healthy
-        - Visual dashboard to manage your hubs, servers, and settings
+        - Свържете се с други сървъри за активни дискусии между сървърите
+        - Съобщенията се предават естествено между сървърите в реално време
+        - Изградете активни общности, фокусирани върху дадена тема
+        - Пособия за поддръжка с цел управление на разговорите. 
+        - Табло за управление на вашите хъбове, сървъри и настройки
     buttons:
-      vote: "Vote on top.gg"
-      invite: "Invite InterChat"
-      dashboard: "Open Dashboard"
-      support: "Join Support"
+      vote: "Гласувайте на top.gg"
+      invite: "Поканете InterChat"
+      dashboard: "Отваряне на таблото за управление"
+      support: "Присъединете се за помощ"
       shardInfo: "Shard Info"
   setup:
     welcome:
-      title: "Welcome to InterChat Setup"
-      description: "Let's get your server connected. This wizard will guide you through creating or joining a hub."
+      title: "Добре дошли в Настройване на InterChat"
+      description: "Нека свържем вашия сървър. Този съветник ще ви преведе през процеса на създаване или присъединяване към канал."
     options:
       create:
-        label: "Create a Hub"
-        description: "Start your own InterChat community"
+        label: "Създаване на канал"
+        description: "Дайте начало на своя собствена общност в InterChat"
       join:
         label: "Join a Hub"
         description: "Connect to an existing community"
