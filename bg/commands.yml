@@ -1,6 +1,6 @@
 commands:
   about:
-    title: "About InterChat"
+    title: "Относно InterChat"
     description_text: "InterChat connects Discord communities through active cross-server discussions. Messages flow naturally between servers in real-time, helping you build engaged topic-focused communities."
     support_text: "Need help? Join our support server for assistance!"
     features:
