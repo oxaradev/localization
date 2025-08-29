@@ -51,7 +51,7 @@ ui:
       hubCreation:
         title: "Criar Hub"
         name:
-          label: "Hub Name"
+          label: "Nome do hub"
           placeholder: "Digite um nome único para o seu hub"
         brief:
           label: "Descrição breve"
@@ -74,16 +74,16 @@ ui:
     buttons:
       return: "Retornar"
     replyMentions:
-      title: "Preferences: Reply Mentions"
-      description: "You will now be **{status}** when someone replies to your messages. You may toggle this below using the button, or return to the menu with the return button."
-      currentDescription: "Currently you are **{status}** when replied to within your messages. You may toggle this below using the button, or return to the menu with the return button."
-      mentioned: "mentioned"
-      notMentioned: "not mentioned"
+      title: "Preferências: Responder menções"
+      description: "Você agora estará **{status}** quando alguém responder para suas mensagens. Você consegue mudar isso abaixo usando o botão, ou retornando ao menu com o botão de Return."
+      currentDescription: "Atualmente você está **{status}** quando respondido as suas mensagens. Você pode mudar isso abaixo usando o botão, ou retornando com o botão de Return."
+      mentioned: "mencionado"
+      notMentioned: "não mencionado"
     errors:
-      noPreferences: "You do not have preferences set up yet."
-      hide: "Hide"
+      noPreferences: "Você não tem preferências defenidas ainda."
+      hide: "Esconder"
     general:
-      title: "General Preferences"
+      title: "Preferências gerais"
       description: "Configure general preferences within InterChat. This ensures your experience is the best we are able to make it."
     locale:
       title: "Language Select"
@@ -99,7 +99,7 @@ ui:
       hidden: "hidden"
       buttons:
         show: "Show"
-        hide: "Hide"
+        hide: "Esconder"
   appeal:
     buttons:
       previous: "Voltar"
@@ -108,52 +108,52 @@ ui:
       placeholder: "Select an infraction to appeal"
     errors:
       cannotControl: "You cannot control this pagination menu."
-      notYourMenu: "This is not your appeal menu."
-      nothingSelected: "Nothing was selected."
-      invalidSelection: "Invalid selection."
-      modalError: "Failed to open appeal modal."
+      notYourMenu: "Isso não é"
+      nothingSelected: "Nada foi selecionado."
+      invalidSelection: "Seleção inválida."
+      modalError: "Falha ao abrir modal do apelo."
     modal:
-      title: "Submit Appeal"
-      q1: "Why do you believe this action was incorrect?"
-      q2: "Tell us about the situation"
-      q3: "Additional Information"
+      title: "Pedir apelo"
+      q1: "Por que você acredita que essa ação está incorreta?"
+      q2: "Diga a nós sobre a situação"
+      q3: "Informação adicional"
     success:
-      submitted: "{tick} Your appeal has been submitted for review."
+      submitted: "{tick} Seu apelo foi enviado para revisão."
     viewInfractions:
-      title: "Recent User Infractions"
-      empty: "No infractions found for this user."
+      title: "Infrações recentes do usuário"
+      empty: "Sem infrações encontradas para este usuário."
     status:
-      acceptedBy: "Accepted by @{name}"
-      rejectedBy: "Rejected by @{name}"
+      acceptedBy: "Aceito por @{name}"
+      rejectedBy: "Rejeitado por @{name}"
     actions:
-      decisionTitle: "Appeal Decision"
+      decisionTitle: "Decisão do apelo"
       reasonOptional:
-        label: "Reason (Optional)"
-        placeholder: "Explain your decision..."
+        label: "Motivo (Opcional)"
+        placeholder: "Explique sua decisão..."
   report:
     buttons:
-      toStaff: "Report to Staff"
-      toHub: "Report to Hub"
+      toStaff: "Reportar para o InterChat"
+      toHub: "Reportar para o hub"
     modal:
       toStaff:
-        title: "Report to InterChat Staff"
+        title: "Reportar para a Moderação do Interchat"
       toHub:
-        title: "Report to Hub Moderators"
+        title: "Reportar para Moderadores do Hub"
       reason:
-        label: "Reason for Report"
-        placeholder: "Please describe why you are reporting this message..."
+        label: "Motivo para o reporte"
+        placeholder: "Por favor, descreva por quê você está reportando essa mensagem..."
     status:
-      resolvedBy: "Resolved by {name}"
-      ignoredBy: "Ignored by {name}"
+      resolvedBy: "Resolvido por {name}"
+      ignoredBy: "Ignorado por {name}"
   hubConfig:
     main:
-      placeholder: "Select an option"
+      placeholder: "Selecione uma opção"
       loadingLabel: "Carregando..."
-      loadingDescription: "Please wait."
+      loadingDescription: "Por favor, aguarde."
     general:
-      placeholder: "🎛️ Choose a setting to configure..."
+      placeholder: "🎛️ Escolha uma configuração para configurar..."
       editDescription:
-        label: "Edit Description"
+        label: "Editar descrição"
         description: "Update your hub's description text"
       editName:
         label: "Edit Hub Name"
