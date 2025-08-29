@@ -84,30 +84,30 @@ ui:
       hide: "Esconder"
     general:
       title: "Preferências gerais"
-      description: "Configure general preferences within InterChat. This ensures your experience is the best we are able to make it."
+      description: "Configure preferências gerais no InterChat. Isso garante que sua experiência é a melhor que conseguimos fazer."
     locale:
-      title: "Language Select"
-      description: "Select your preferred language for InterChat."
+      title: "Seleção de Idioma"
+      description: "Selecione o idioma de sua preferência para o InterChat."
     select:
-      placeholder: "Select an option"
+      placeholder: "Selecione uma opção"
       category: "Selecione uma categoria"
     badges:
-      title: "Preferences: Badges"
-      description: "Your badges are now **{status}** within your messages. You may toggle this below using the button, or return to the menu with the return button."
-      currentDescription: "Currently your badges are **{status}** within your messages. You may toggle this below using the button, or return to the menu with the return button."
-      visible: "visible"
-      hidden: "hidden"
+      title: "Preferências: Emblemas"
+      description: "Seus emblemas agora são **{status}** dentro das suas mensagens. Você pode alternar isto abaixo usando o botão, ou retornar ao menu com o botão de retorno."
+      currentDescription: "Atualmente seus emblemas estão **{status}** dentro de suas mensagens. Você pode alternar isto abaixo usando o botão, ou retornar ao menu com o botão de retorno."
+      visible: "visível"
+      hidden: "oculto"
       buttons:
-        show: "Show"
+        show: "Mostrar"
         hide: "Esconder"
   appeal:
     buttons:
       previous: "Voltar"
       next: "Próximo"
     select:
-      placeholder: "Select an infraction to appeal"
+      placeholder: "Selecione uma infração para apelar"
     errors:
-      cannotControl: "You cannot control this pagination menu."
+      cannotControl: "Você não pode controlar este menu de paginação."
       notYourMenu: "Isso não é"
       nothingSelected: "Nada foi selecionado."
       invalidSelection: "Seleção inválida."
@@ -154,39 +154,39 @@ ui:
       placeholder: "🎛️ Escolha uma configuração para configurar..."
       editDescription:
         label: "Editar descrição"
-        description: "Update your hub's description text"
+        description: "Atualize o texto da descrição do seu hub."
       editName:
-        label: "Edit Hub Name"
+        label: "Editar nome do Hub"
         description: "Mude o nome do hub. (10 dias de cooldown)"
       welcomeMessage:
         label: "Welcome Message"
-        description: "Set a message shown to new users"
+        description: "Defina uma mensagem para novos usuários"
     permissions:
       remove:
-        label: "Remove"
+        label: "Remover"
       moderator:
-        label: "Moderator"
-        description: "Manage messages, moderate users, handle reports & appeals"
+        label: "Moderador(a)"
+        description: "Gerenciar mensagens, usuários moderados, lidar com relatórios e recursos"
       manager:
-        label: "Manager"
-        description: "Manage hub settings plus everything that moderators can do"
+        label: "Gerente"
+        description: "Gerencia configurações do hub e tudo o que os moderadores podem fazer"
       managerOnly:
-        description: "Manage hub settings"
+        description: "Gerenciar configurações de hub"
     modules:
       reactions:
-        description: "Allow reaction-based interactions on messages"
+        description: "Permitir interações com reações em mensagens"
       hideLinks:
-        description: "Hide link previews in hub messages"
+        description: "Ocultar pré-visualizações de links nas mensagens do hub"
       spamFilter:
-        description: "Automatically filter spam and unwanted content"
+        description: "Automaticamente filtrar conteúdos de spam e indesejados"
       blockInvites:
-        description: "Block Discord server invites in messages"
+        description: "Bloquear convites de servidor do Discord em mensagens"
       useNicknames:
-        description: "Display user nicknames instead of usernames"
+        description: "Exibir apelidos do usuário ao invés do nome de usuário"
     logging:
-      moderationLogs: "Moderation Logs"
-      joinLeaveLogs: "Join/Leave Logs"
-      appealsChannel: "Appeals Channel"
+      moderationLogs: "Registros de Moderação"
+      joinLeaveLogs: "Entrar/Sair dos Logs"
+      appealsChannel: "Canal de Apelos"
       reportsChannel: "Reports Channel"
       networkAlerts: "Network Alerts"
       messageModeration: "Message Moderation"
@@ -286,7 +286,7 @@ ui:
       serverName: "Server Name"
       serverId: "Server ID"
       reason: "Reason"
-      moderator: "Moderator"
+      moderator: "Moderador(a)"
       issued: "Issued"
       status: "Status"
   staff:
