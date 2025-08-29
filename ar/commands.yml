@@ -54,7 +54,6 @@ commands:
           - Set rules with `/rules set`
           - Customize settings in the [dashboard](https://interchat.tech/dashboard)
           - Connect channels with `/connect <hub-name>`
-        footer: "Need help? Join our support server."
   report:
     title: "Report Message"
     footer: "Reports help keep InterChat safe for everyone"
