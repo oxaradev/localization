@@ -43,43 +43,43 @@ commands:
         description: "**Navega** [interchat.tech/hubs](https://interchat.tech/hubs)\n**O clic** el botón de abajo para abrir el directorio"
       privateHubs:
         title: "Privado o Invitación solamente"
-        description: "**Ask the hub owner or manager** for an invite code\n**Run `/connect <invite-code>`** in your server to join"
+        description: "**Pídele al dueño o manager del centro** un código de invitación\n**Ejecuta `/connect <código-invitación>`** en tu servidor para unirte"
       footer: "Puedes unirte a más centros en cualquier momento, y puedes conectarte a múltiples centros a la vez en diferentes canales."
     nextSteps:
       created:
         title: "¡Centro Creado Sucesivamente!"
         description: |
-          Your hub **{hubName}** is ready! Here's what you can do next:
-          - Invite your first server using `/invite`
-          - Set rules with `/rules set`
-          - Customize settings in the [dashboard](https://interchat.tech/dashboard)
-          - Connect channels with `/connect <hub-name>`
+          Tu centro **{hubName}** está listo! Esto es lo que puedes hacer a continuación:
+          - Invita tu primer servidor usando `/invite`
+          - Establece reglas con `/rules set`
+          - Personaliza configuraciones en el [panel](https://interchat.tech/dashboard)
+          - Conecta canales con `/connect <nombre-centro>`
         footer: "¿Necesitas ayuda? Únete a nuestro servidor de soporte."
   report:
     title: "Reporte el Mensaje"
-    footer: "Reports help keep InterChat safe for everyone"
+    footer: "Los reportes ayudan a mantener InterChat seguro para todos"
     contextMenu: "Reporte el Mensaje"
-    description: "Report {user} to **Hub Staff** for hub violations or **InterChat Staff** for platform violations. The user won't be notified, but moderators can see who has submit the report."
+    description: "Reporta a {user} al **Staff del Centro** por violaciones del centro o al **Staff de InterChat** por violaciones de la plataforma. El usuario no será notificado, pero los moderadores pueden ver quién ha enviado el reporte."
     success:
-      title: "Report Submitted"
-      toStaff: "{tick} Your report has been sent to InterChat staff for review."
+      title: "Reporte Enviado"
+      toStaff: "{tick} Tu reporte ha sido enviado al staff de InterChat para revisión."
       toHub: "{tick} Tu reporte ha sido enviado a los moderadores de centros para revisión."
     errors:
       hubMessageOnly: "{x_icon} Solo puedes reportar mensajes enviados a través de los centros de InterChat."
       cannotReportSelf: "{x_icon} No puedes reportar tus propios mensajes."
   hubCreate:
     success:
-      description: "Your hub **{hubName}** is ready! Here's what you can do next:"
+      description: "Tu centro **{hubName}** está listo! Esto es lo que puedes hacer a continuación:"
     errors:
-      hubCreationFailed: "Something went wrong while creating your hub. Please try again."
+      hubCreationFailed: "Algo salió mal al crear tu centro. Por favor intenta nuevamente."
       troubleshooting: "Lo que puedes hacer:"
-      troubleshootingSteps: "• Check that your logo URL is valid\n• Try again in a few moments\n• Contact support if this persists"
+      troubleshootingSteps: "• Verifica que tu URL del logo sea válida\n• Intenta nuevamente en unos momentos\n• Contacta a soporte si esto persiste"
   general:
     invite:
       title: "¡Hola!"
-      description: "Thanks for choosing InterChat. Need help? Join our support server. Use the buttons below to invite our bot to your server and start connecting servers."
+      description: "Gracias por elegir InterChat. ¿Necesitas ayuda? Únete a nuestro servidor de soporte. Usa los botones de abajo para invitar a nuestro bot a tu servidor y comenzar a conectar servidores."
   stats:
-    title: "InterChat Metrics"
+    title: "Métricas de InterChat"
     shard:
       title: "Información de Fragmentos"
       statusReady: "Listo"
@@ -87,15 +87,15 @@ commands:
       current: "Fragmentos actuales #{id}"
   help:
     title: "Comandos de InterChat"
-    description: "Explore our wide range of commands to help you, and your community connect with others."
+    description: "Explora nuestra amplia gama de comandos para ayudarte a ti y a tu comunidad a conectarse con otros."
     noDescription: "Sin descripción"
     name: "Ayuda"
   staff:
     blacklist:
       list:
-        description: "View blacklist entries filtered by users or servers"
+        description: "Ver entradas de lista negra filtradas por usuarios o servidores"
     get:
-      description: "Get information about InterChat entities"
+      description: "Obtener información sobre entidades de InterChat"
       server:
         description: "Obtenga información detallada sobre un servidor"
       hub:
@@ -108,9 +108,9 @@ commands:
       noneFoundDescription: "¡No pude encontrar ningún logro para este usuario!"
     badges:
       noneFound: "Ningún Encontrado"
-      noneFoundDescription: "I could not find any badges for this user!"
+      noneFoundDescription: "¡No pude encontrar ninguna insignia para este usuario!"
   leaderboard:
-    staffTag: "InterChat Staff"
+    staffTag: "Staff de InterChat"
     userTag: "Usuario"
     messagesColumn: "Mensajes"
     voteCountColumn: "Recuento de Votos"
@@ -121,64 +121,64 @@ commands:
       position: "Posición:"
       owner: "Dueño"
   appeal:
-    title: "Your Appealable Infractions"
-    description: "Select an infraction below to submit an appeal, or view the status of existing appeals."
+    title: "Tus Infracciones Apelables"
+    description: "Selecciona una infracción a continuación para enviar una apelación, o ver el estado de apelaciones existentes."
     noInfractions:
-      title: "No Active Infractions"
-      description: "You have no active infractions that can be appealed."
-    notAppealable: "This infraction is no longer appealable."
+      title: "Sin Infracciones Activas"
+      description: "No tienes infracciones activas que puedan ser apeladas."
+    notAppealable: "Esta infracción ya no es apelable."
   mod:
     panel:
-      description: "Open the moderation panel for users, messages, or servers"
+      description: "Abrir el panel de moderación para usuarios, mensajes o servidores"
     ban:
-      description: "Ban a user or server from a hub."
+      description: "Banear a un usuario o servidor de un centro."
     mute:
-      description: "Mute a user or server from a hub."
+      description: "Silenciar a un usuario o servidor de un centro."
     warn:
-      description: "Warn a user or server from a hub."
+      description: "Advertir a un usuario o servidor de un centro."
     unmute:
-      description: "Revoke active mute infractions for a user or server in a hub."
+      description: "Revocar infracciones de silencio activas para un usuario o servidor en un centro."
     unban:
-      description: "Revoke active ban infractions for a user or server in a hub."
+      description: "Revocar infracciones de ban activas para un usuario o servidor en un centro."
     delete:
-      description: "Delete an infraction (Manager+ only)."
+      description: "Eliminar una infracción (Solo Manager+)."
   infractions:
-    description: "View infractions in a hub, filtered by user or server."
+    description: "Ver infracciones en un centro, filtradas por usuario o servidor."
   rules:
-    description: "View the rules for a hub"
+    description: "Ver las reglas de un centro"
     title: "{hubName} Rules"
     noRules:
-      title: "No Rules Set"
-      description: "No rules have been set for this hub yet."
-    footer: "{count} rule{plural} • Follow these guidelines to maintain a positive community"
+      title: "No Hay Reglas Establecidas"
+      description: "Aún no se han establecido reglas para este centro."
+    footer: "{count} regla{plural} • Sigue estas pautas para mantener una comunidad positiva"
     errors:
-      noHub: "This command must be used in a server channel connected to a hub, or you must specify a hub name."
-      notConnected: "This channel is not connected to any hub. Please specify a hub name or use this command in a connected channel."
-      hubNotFound: "Hub \"{hubName}\" not found."
+      noHub: "Este comando debe usarse en un canal de servidor conectado a un centro, o debes especificar un nombre de centro."
+      notConnected: "Este canal no está conectado a ningún centro. Por favor especifica un nombre de centro o usa este comando en un canal conectado."
+      hubNotFound: "Centro \"{hubName}\" no encontrado."
   connections:
-    title: "Connection Management"
-    description: "Configure, and administrate all hub connections within this server."
+    title: "Gestión de Conexiones"
+    description: "Configura y administra todas las conexiones de centros dentro de este servidor."
     fields:
-      lastActive: "Last Active"
+      lastActive: "Última Actividad"
     selected:
-      description: "You may now edit this connection. Use the below dropdowns to either change the broadcast channel, or edit settings regarding the connection."
+      description: "Ahora puedes editar esta conexión. Usa los menús desplegables a continuación para cambiar el canal de transmisión o editar configuraciones relacionadas con la conexión."
       fields:
-        broadcastChannel: 'Broadcasting to'
-        connectionState: 'Broadcast state'
-        lastActive: 'Last Active'
+        broadcastChannel: 'Transmitiendo a'
+        connectionState: 'Estado de transmisión'
+        lastActive: 'Última Actividad'
       state:
-        enabled: 'Broadcasts are now **active**.'
-        disabled: 'Broadcasts are now **paused**.'
+        enabled: 'Las transmisiones ahora están **activas**.'
+        disabled: 'Las transmisiones ahora están **pausadas**.'
     fix:
-      title: 'Connection Validation'
-      description: 'All connections within this guild have been validated. See below for more information.'
+      title: 'Validación de Conexión'
+      description: 'Todas las conexiones dentro de este gremio han sido validadas. Mira abajo para más información.'
       responses:
         success:
-          fixed: 'Fixed connection!'
-          valid: 'No issues found.'
+          fixed: '¡Conexión reparada!'
+          valid: 'No se encontraron problemas.'
         errors:
-          channelDeleted: 'The channel associated with this hub has been deleted. Connection removed.'
-          permissionsWebhook: 'I am unable to webhooks, please review my permissions and try again.'
-          permissionsView: 'I am unable to view channel, please review my permissions and try again.'
-          permissionsSend: 'I am unable to send messages, please review my permissions and try again.'
+          channelDeleted: 'El canal asociado con este centro ha sido eliminado. Conexión removida.'
+          permissionsWebhook: 'No puedo gestionar webhooks, por favor revisa mis permisos e intenta nuevamente.'
+          permissionsView: 'No puedo ver el canal, por favor revisa mis permisos e intenta nuevamente.'
+          permissionsSend: 'No puedo enviar mensajes, por favor revisa mis permisos e intenta nuevamente.'
 
