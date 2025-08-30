@@ -1,153 +1,153 @@
 responses:
   common:
-    unknown: "Unknown"
+    unknown: "Desconocido"
     hub: "Hub"
   setup:
-    setupComplete: "Ready to create? Click the Create Hub button!"
-    editMessagePrompt: "{emoji} Please use the modal to edit your message."
+    setupComplete: "¿Listo para crear? ¡Haz clic en el botón Crear Hub!"
+    editMessagePrompt: "{emoji} Por favor, usa el modal para editar tu mensaje."
     preview:
-      titleSaved: "{emoji} Hub Information Saved!"
-      previewTitle: "Here's a preview of your hub:"
-      name: "{emoji} Name"
-      short: "{emoji} Short Name"
-      description: "{emoji} Description"
+      titleSaved: "{emoji} ¡Información del Hub Guardada!"
+      previewTitle: "Aquí tienes una vista previa de tu hub:"
+      name: "{emoji} Nombre"
+      short: "{emoji} Nombre Corto"
+      description: "{emoji} Descripción"
     locale:
-      successTitle: "Success!"
-      successDescription: "{tick} Your language has been set to **{locale_name}**"
+      successTitle: "¡Éxito!"
+      successDescription: "{tick} Tu idioma se ha establecido a **{locale_name}**"
     loading:
-      creatingHub: "{loading} Creating Your Hub..."
-      pleaseWait: "Please wait while we set up your community space."
+      creatingHub: "{loading} Creando Tu Hub..."
+      pleaseWait: "Por favor espera mientras configuramos tu espacio comunitario."
     errors:
-      hubCreationFailed: "{no} Hub Creation Failed"
+      hubCreationFailed: "{no} Error en la Creación del Hub"
   appeal:
     constants:
-      unknownHub: "Unknown Hub"
-      noReason: "No reason provided"
+      unknownHub: "Hub Desconocido"
+      noReason: "No se proporcionó razón"
     status:
-      pending: "Pending Response"
-      cooldown: "Cooldown"
-      canAppealAgain: "Appealable"
-      canAppeal: "Appealable"
+      pending: "Pendiente de Respuesta"
+      cooldown: "En Enfriamiento"
+      canAppealAgain: "Apelable"
+      canAppeal: "Apelable"
     fields:
-      date: "Date:"
-      reason: "Reason:"
+      date: "Fecha:"
+      reason: "Razón:"
     errors:
-      recordFailed: "Failed to record decision: {error}"
-      notFoundOrDeleted: "Appeal not found or has been deleted."
-      updateFailed: "Failed to update appeal. Please try again later."
+      recordFailed: "Error al registrar decisión: {error}"
+      notFoundOrDeleted: "Apelación no encontrada o ha sido eliminada."
+      updateFailed: "Error al actualizar apelación. Por favor intenta nuevamente más tarde."
     dm:
-      accepted: "Your appeal regarding a moderation action{hubName} has been accepted. Our team reviewed your case and determined that your appeal should be upheld."
-      declined: "Your appeal regarding a moderation action{hubName} has been reviewed. After careful consideration, your appeal has been declined."
-      moderatorNote: "Moderator note: {reason}"
+      accepted: "Tu apelación respecto a una acción de moderación{hubName} ha sido aceptada. Nuestro equipo revisó tu caso y determinó que tu apelación debe ser aceptada."
+      declined: "Tu apelación respecto a una acción de moderación{hubName} ha sido revisada. Tras cuidadosa consideración, tu apelación ha sido declinada."
+      moderatorNote: "Nota del moderador: {reason}"
     embed:
-      title: "Your Appealable Infractions"
-      description: "Select an infraction below to submit an appeal, or view the status of existing appeals."
+      title: "Tus Infracciones Apelables"
+      description: "Selecciona una infracción abajo para enviar una apelación, o ver el estado de apelaciones existentes."
       noInfractions:
-        title: "Squeaky Clean!"
-        description: "No appealable infractions found."
+        title: "¡Impecable!"
+        description: "No se encontraron infracciones apelables."
       footer:
-        canAppeal: "💡 You can appeal {count} infraction(s). Use the select menu below."
-        checkLater: "💡 Check back later when cooldowns expire or appeals are reviewed."
+        canAppeal: "💡 Puedes apelar {count} infracción(es). Usa el menú de selección abajo."
+        checkLater: "💡 Vuelve a revisar cuando los tiempos de enfriamiento expiren o las apelaciones sean revisadas."
   errors:
-    errorTitle: "Error!"
-    interactionCheck: "You may not use this interaction, as you did not invoke it."
-    rateLimited: "You are being rate limited. Take a chill pill."
-    webhookRateLimit: "You have reached the webhook creation rate limit"
-    invalidInput: "You have not provided a valid input."
-    invalidInvite: "This invite is invalid, or expired."
-    webhookError: "Failed to create webhook."
-    notConnected: "I could not find a hub connected in this channel."
-    noInteraction: "This command only supports slash commands."
-    missingAppealReference: "Missing appeal reference."
-    whoops: "Whoops! Something went wrong. Please try again later."
-    missingArgument: "Missing argument: `{param}`."
-    notConnectedServer: "{cross} I could not find any connections for this server."
+    errorTitle: "¡Error!"
+    interactionCheck: "No puedes usar esta interacción, ya que no fuiste quien la invocó."
+    rateLimited: "Estás siendo limitado por tasa de uso. Tómate un descanso."
+    webhookRateLimit: "Has alcanzado el límite de creación de webhooks"
+    invalidInput: "No has proporcionado una entrada válida."
+    invalidInvite: "Esta invitación es inválida o ha expirado."
+    webhookError: "Error al crear webhook."
+    notConnected: "No pude encontrar un hub conectado en este canal."
+    noInteraction: "Este comando sólo soporta comandos de barra."
+    missingAppealReference: "Falta referencia de apelación."
+    whoops: "¡Ups! Algo salió mal. Por favor intenta nuevamente más tarde."
+    missingArgument: "Falta argumento: `{param}`."
+    notConnectedServer: "{cross} No pude encontrar conexiones para este servidor."
   moderation:
     permissions:
-      managerRequired: "Manager+ permissions required."
+      managerRequired: "Se requieren permisos de Manager+."
     target:
-      both: "Please specify either a user or a server, not both."
-      missing: "Please specify either a user or a server."
+      both: "Por favor especifica un usuario o un servidor, no ambos."
+      missing: "Por favor especifica un usuario o un servidor."
     revoke:
-      noActive: "No active {action} found."
-      success: "Revoked {action}."
+      noActive: "No se encontró {action} activo."
+      success: "Revocado {action}."
     delete:
-      notImplemented: "Message delete not implemented yet. Reason recorded: {reason}"
-      noMessage: "No message provided to delete."
-      success: "Message {messageId} has been deleted from all connected hubs."
-      notInterChatMessage: "This message is not an InterChat message or has already been deleted."
-      failed: "Failed to delete the message. Please try again later."
-      notFound: "Infraction not found."
+      notImplemented: "Eliminación de mensaje no implementada aún. Razón registrada: {reason}"
+      noMessage: "No se proporcionó mensaje para eliminar."
+      success: "Mensaje {messageId} ha sido eliminado de todos los hubs conectados."
+      notInterChatMessage: "Este mensaje no es un mensaje de InterChat o ya fue eliminado."
+      failed: "Error al eliminar el mensaje. Por favor intenta nuevamente más tarde."
+      notFound: "Infracción no encontrada."
     blacklist:
-      permissionDenied: "You lack InterChat staff permissions to issue a global blacklist."
-      alreadyActive: "Target already has an active global blacklist."
-      success: "Globally blacklisted {target}."
+      permissionDenied: "Careces de permisos de staff de InterChat para emitir una lista negra global."
+      alreadyActive: "El objetivo ya tiene una lista negra global activa."
+      success: "Lista negra global aplicada a {target}."
     success:
-      action: '{target} has been {action} {prep} {hubName}'
+      action: '{target} ha sido {action} {prep} {hubName}'
     errors:
-      selectedHubNotFound: "Selected hub not found."
-      processingFailed: "Failed to process moderation action: {error}"
-      unknownAction: "Unknown action."
-      unsupportedAction: "Unsupported action route."
-      openPanelFailed: "Error opening moderation panel: {error}"
-      notModeratorForHub: "You are not a moderator for this hub."
-      alreadyState: "{targetType} is already {state} in this hub."
-      invalidHubData: "Invalid hub data."
-      originalMessageNotFound: "Original message not found in database."
-      fetchAuthorOrServerFailed: "Could not fetch message author or server."
-      hubNotFoundForMessage: "Hub not found for this message."
-      noModeratedHubs: "You don't have moderation permissions in any hubs."
-      noTarget: "Please specify a target (user/server) or reply to a message."
+      selectedHubNotFound: "Hub seleccionado no encontrado."
+      processingFailed: "Error al procesar acción de moderación: {error}"
+      unknownAction: "Acción desconocida."
+      unsupportedAction: "Ruta de acción no soportada."
+      openPanelFailed: "Error abriendo panel de moderación: {error}"
+      notModeratorForHub: "No eres moderador de este hub."
+      alreadyState: "{targetType} ya está {state} en este hub."
+      invalidHubData: "Datos de hub inválidos."
+      originalMessageNotFound: "Mensaje original no encontrado en la base de datos."
+      fetchAuthorOrServerFailed: "No se pudo obtener el autor del mensaje o el servidor."
+      hubNotFoundForMessage: "Hub no encontrado para este mensaje."
+      noModeratedHubs: "No tienes permisos de moderación en ningún hub."
+      noTarget: "Por favor especifica un objetivo (usuario/servidor) o responde a un mensaje."
   infractions:
     errors:
-      noPermission: "You do not have permission to view infractions for this hub."
-      bothSelection: "Please select only a user or a server, not both."
-      invalidServerId: "Invalid server ID."
+      noPermission: "No tienes permiso para ver infracciones de este hub."
+      bothSelection: "Por favor selecciona sólo un usuario o un servidor, no ambos."
+      invalidServerId: "ID de servidor inválido."
     permissions:
-      insufficient: "You need {permission}+ permissions in this hub."
-      managerRequired: "Manager+ permissions required."
+      insufficient: "Necesitas permisos de {permission}+ en este hub."
+      managerRequired: "Se requieren permisos de Manager+."
     target:
-      both: "Please specify either a user or a server, not both."
-      missing: "Please specify either a user or a server."
+      both: "Por favor especifica un usuario o un servidor, no ambos."
+      missing: "Por favor especifica un usuario o un servidor."
     success:
       action: "{action} {target} {prep} {hubName}."
     revoke:
-      noActive: "No active {action} found."
-      success: "Revoked {action}."
+      noActive: "No se encontró {action} activo."
+      success: "Revocado {action}."
     delete:
-      notImplemented: "Message delete not implemented yet. Reason recorded: {reason}"
-      notFound: "Infraction not found."
-      success: "Infraction deleted."
+      notImplemented: "Eliminación de mensaje no implementada aún. Razón registrada: {reason}"
+      notFound: "Infracción no encontrada."
+      success: "Infracción eliminada."
     blacklist:
-      permissionDenied: "You lack InterChat staff permissions to issue a global blacklist."
-      alreadyActive: "Target already has an active global blacklist."
-      success: "Globally blacklisted {target}."
+      permissionDenied: "Careces de permisos de staff de InterChat para emitir una lista negra global."
+      alreadyActive: "El objetivo ya tiene una lista negra global activa."
+      success: "Lista negra global aplicada a {target}."
   report:
     errors:
-      processingFailed: "Error processing report: {error}"
-      notFoundOrDeleted: "Report not found or has been deleted."
-      alreadyHandled: "This report is already {status}."
-      updateFailed: "Failed to update report. Please try again later."
+      processingFailed: "Error procesando reporte: {error}"
+      notFoundOrDeleted: "Reporte no encontrado o ha sido eliminado."
+      alreadyHandled: "Este reporte ya está {status}."
+      updateFailed: "Error al actualizar reporte. Por favor intenta nuevamente más tarde."
     success:
-      actionPast: "Report {action}."
+      actionPast: "Reporte {action}."
     dm:
-      resolved: "Thank you for your report. Our moderation team reviewed it and took appropriate action. We cannot share specific details to protect user privacy."
+      resolved: "Gracias por tu reporte. Nuestro equipo de moderación lo revisó y tomó la acción apropiada. No podemos compartir detalles específicos para proteger la privacidad de los usuarios."
   welcome:
-    onGuildJoinTitle: "👋 Hey there!"
+    onGuildJoinTitle: "👋 ¡Hola!"
     onGuildJoinDescription: |
-      **I'm InterChat, and I'm pleased to be on your server on behalf of our team.**
-      Together, we can connect your server with other remarkable communities from across Discord. Numerous, potentially thousands of servers located in one place, all filled with individuals eager to engage in conversation with you. 🚀
+      **Soy InterChat, y me complace estar en tu servidor en nombre de nuestro equipo.**
+      Juntos podemos conectar tu servidor con otras comunidades notables de Discord. Numerosos, potencialmente miles de servidores ubicados en un solo lugar, todos llenos de individuos ansiosos por conversar contigo. 🚀
 
-      **Ready to start building new bridges with us?**
-      {dot} **New here?** The `/setup` command provides a step-by-step guide to help you begin your journey.
-      {dot} **Ready to explore?** Visit our [discovery page](https://interchat.tech/hubs) to locate and become part of our lively hubs.
-      {dot} **Perhaps something you're more familiar with?** Try our `/call` for one on one connections.
+      **¿Listo para comenzar a construir nuevos puentes con nosotros?**
+      {dot} **¿Nuevo aquí?** El comando `/setup` proporciona una guía paso a paso para comenzar tu journey.
+      {dot} **¿Listo para explorar?** Visita nuestra [página de descubrimiento](https://interchat.tech/hubs) para ubicar y unirte a nuestros hubs activos.
+      {dot} **¿Tal vez algo más familiar?** Prueba nuestro `/call` para conexiones uno a uno.
 
-      💝 **Lost? Require assistance?** We welcome you to our [support community](https://discord.gg/8DhUA4HNpD). Our team and our community will be pleased to offer their help. We offer as much support and assistance in whatever issues you may have, don't hesitate to join!
+      💝 **¿Perdido? ¿Necesitas ayuda?** Te damos la bienvenida a nuestra [comunidad de soporte](https://discord.gg/8DhUA4HNpD). Nuestro equipo y comunidad estarán encantados de ayudarte. Ofrecemos todo el soporte y asistencia que necesites, ¡no dudes en unirte!
   staff:
     blacklist:
-      notFound: "No matching blacklist entry was found."
-      removed: "Blacklist entry removed."
+      notFound: "No se encontró entrada de lista negra coincidente."
+      removed: "Entrada de lista negra eliminada."
   user:
     achievements:
-      placeholder: "Achievements here"
+      placeholder: "Logros aquí"
