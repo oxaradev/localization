@@ -236,117 +236,117 @@ ui:
         description: "Issue an interchat wide blacklist (user/server)"
       delete:
         label: "Delete"
-        description: "Delete the selected message across all connected hubs"
+        description: "Exclui a mensagem selecionada em todos os hubs conectados"
     modal:
-      title: "Moderation Action"
+      title: "Ação Moderativa"
       reason:
-        label: "Reason"
-        placeholder: "Enter a concise justification{optional}"
+        label: "Motivo"
+        placeholder: "Digite uma justificação concisa {optional}"
       duration:
-        label: "Duration"
-        placeholder: "e.g. 30m, 2h, 1d"
+        label: "Duração"
+        placeholder: "ex. 30m, 2h, 1d"
     hubSelect:
-      placeholder: "Select a hub to moderate..."
+      placeholder: "Selecione um hub para moderar..."
     hubSelection:
-      title: "Hub Selection"
-      description: "Select the hub you want to moderate."
+      title: "Seleção do Hub"
+      description: "Selecione o hub que você deseja moderar."
       fieldHubLabel: "Hub"
-      fieldHubPrompt: "Selected Hub"
-      prompt: "Select a hub to moderate"
+      fieldHubPrompt: "Hub selecionado"
+      prompt: "Selecione um hub para moderar"
     targetSelection:
-      title: "Target Selection"
-      description: "Who do you want to {action}?"
+      title: "Seleção de alvo"
+      description: "Quem você quer {action}?"
       userField: "Usuário"
-      serverField: "Server"
+      serverField: "Servidor"
     actionSelect:
-      placeholder: "Select a moderation action..."
+      placeholder: "Selecione uma ação de moderação..."
     fields:
-      reason: "Reason"
+      reason: "Motivo"
   infractions:
     buttons:
-      userInfractions: "User Infractions"
-      serverInfractions: "Server Infractions"
+      userInfractions: "Infrações do usuário"
+      serverInfractions: "Infrações do servidor"
     titles:
-      base: "Infractions · {hubName}"
-      userList: "User Infractions · {hubName}"
-      serverList: "Server Infractions · {hubName}"
-      userSpecific: "Infractions for {user} · {hubName}"
-      serverSpecific: "Infractions for Server {serverId} · {hubName}"
+      base: "Infrações · {hubName}"
+      userList: "Infrações do usuário · {hubName}"
+      serverList: "Infrações do servidor · {hubName}"
+      userSpecific: "Infrações de {user} · {hubName}"
+      serverSpecific: "Infrações do servidor {serverId} · {hubName}"
     descriptions:
-      base: "Select which infractions to view for this hub."
-      userListEmpty: "No user infractions found for this hub."
-      serverListEmpty: "No server infractions found for this hub."
-      userSpecificEmpty: "No infractions found for this user in this hub."
-      serverSpecificEmpty: "No infractions found for this server in this hub."
+      base: "Selecione quais infrações deseja ver neste hub."
+      userListEmpty: "Nenhuma infração de usuário encontrada para este hub."
+      serverListEmpty: "Nenhuma infração de servidor encontrada para este hub."
+      userSpecificEmpty: "Nenhuma infração encontrada para este usuário neste hub."
+      serverSpecificEmpty: "Nenhuma infração encontrada para este servidor neste hub."
     labels:
-      infraction: "Infraction"
+      infraction: "Infrações"
     fields:
-      userName: "User Name"
-      userId: "User ID"
-      serverName: "Server Name"
-      serverId: "Server ID"
-      reason: "Reason"
+      userName: "Nome de Usuário"
+      userId: "ID do usuário"
+      serverName: "Nome do servidor"
+      serverId: "ID do Servidor"
+      reason: "Motivo"
       moderator: "Moderador(a)"
-      issued: "Issued"
-      status: "Status"
+      issued: "Emitido"
+      status: "Situação"
   staff:
     hub:
       section:
-        status: "Status"
-        moderation: "Moderation"
+        status: "Situação"
+        moderation: "Moderação"
       fields:
-        name: "Name"
+        name: "Nome"
         messages: "Mensagens"
-        connections: "Connections"
-        created: "Created"
+        connections: "Conexões"
+        created: "Criado"
         lastActive: "Ultima vez ativo"
         upvotes: "Upvotes"
         owner: "Dono"
-        location: "Location"
-        activity: "Activity"
-        appealCooldown: "Appeal Cooldown"
-        welcomeMessage: "Welcome Message"
-        description: "Description"
+        location: "Localização"
+        activity: "Atividade"
+        appealCooldown: "Cooldown do apelo"
+        welcomeMessage: "Mensagem de Boas-vindas"
+        description: "Descrição"
       values:
-        messagesThisWeek: "**{count}** this week"
-        connectionsActive: "**{count}** active"
-        upvotesTotal: "**{count}** total"
+        messagesThisWeek: "**{count}** nesta semana"
+        connectionsActive: "**{count}** ativas"
+        upvotesTotal: "**{count}** no total"
       badges:
-        verified: "Verified"
-        partnered: "Partnered"
-        featured: "Featured"
-        private: "Private"
-        locked: "Locked"
+        verified: "Verificado"
+        partnered: "Parceiro"
+        featured: "Em destaque"
+        private: "Privado"
+        locked: "Bloqueado"
         nsfw: "NSFW"
     server:
       fields:
-        name: "Name"
-        serverId: "Server ID"
-        inviteCode: "Invite Code"
+        name: "Nome"
+        serverId: "ID do Servidor"
+        inviteCode: "Código de Convite"
         messages: "Mensagens"
-        connections: "Connections"
-        status: "Status"
-        created: "Created"
-        lastMessage: "Last Message"
-        updated: "Updated"
+        connections: "Conexões"
+        status: "Situação"
+        created: "Criado"
+        lastMessage: "Última mensagem"
+        updated: "Atualizado"
       values:
-        messagesTotal: "**{count}** total"
-        connectionsActive: "**{count}** active"
+        messagesTotal: "**{count}** no total"
+        connectionsActive: "**{count}** ativos"
         premium: "Premium"
-        standard: "Standard"
+        standard: "Padrão"
     user:
       fields:
-        name: "Name"
-        userId: "User ID"
-        status: "Status"
+        name: "Nome"
+        userId: "ID do usuário"
+        status: "Situação"
         messages: "Mensagens"
         reputation: "Reputation"
         votes: "Votes"
         hubJoins: "Hub Joins"
         engagement: "Engagement"
         locale: "Locale"
-        created: "Created"
-        lastMessage: "Last Message"
+        created: "Criado"
+        lastMessage: "Última mensagem"
         lastVote: "Last Vote"
       values:
         staff: "Staff"
@@ -354,13 +354,13 @@ ui:
         messagesSent: "**{count}** sent"
         reputationPoints: "**{count}** points"
         votesCast: "**{count}** cast"
-        hubJoinsTotal: "**{count}** total"
+        hubJoinsTotal: "**{count}** no total"
         notSet: "Not set"
         never: "Never"
       sections:
         preferences: "Preferences"
         createdContent: "Created Content"
-        activity: "Activity"
+        activity: "Atividade"
         donation: "Donation"
         badges: "Badges"
       preferences:
@@ -399,13 +399,13 @@ ui:
         serverListEmpty: "No blacklisted servers found."
       fields:
         user: "Usuário"
-        server: "Server"
+        server: "Servidor"
         expires: "Expires"
         staff: "Staff"
         added: "Added"
       labels:
         user: "Usuário"
-        server: "Server"
+        server: "Servidor"
   hub:
     title: 'Hub Creation'
     description: 'Create your own InterChat hub for a community, your friends... or anyone - the list could go on for ages. Go ahead, see where it takes you.'
@@ -449,7 +449,7 @@ ui:
         description: 'Should your hub **public**? This means it will be accessible to **everyone** and show on the [discovery page]({discoverHubs}).'
         buttons:
           public: 'Public'
-          private: 'Private'
+          private: 'Privado'
       preview:
         title: 'Complete!'
         description: 'You have complete the hub setup! Review your choices below to contiune.'
