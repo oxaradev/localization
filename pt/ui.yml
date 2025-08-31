@@ -159,7 +159,7 @@ ui:
         label: "Editar nome do Hub"
         description: "Mude o nome do hub. (10 dias de cooldown)"
       welcomeMessage:
-        label: "Welcome Message"
+        label: "Mensagem de Boas-vindas"
         description: "Defina uma mensagem para novos usuários"
     permissions:
       remove:
@@ -187,55 +187,55 @@ ui:
       moderationLogs: "Registros de Moderação"
       joinLeaveLogs: "Entrar/Sair dos Logs"
       appealsChannel: "Canal de Apelos"
-      reportsChannel: "Reports Channel"
-      networkAlerts: "Network Alerts"
-      messageModeration: "Message Moderation"
+      reportsChannel: "Canal de Relatórios"
+      networkAlerts: "Alerta da Rede"
+      messageModeration: "Contatar moderação"
     invites:
       create:
-        title: "Input Required"
+        title: "Titulo necessária"
         customCode:
-          label: "Custom Code"
+          label: "Código customizado"
           placeholder: "abc123"
         uses:
-          label: "Uses"
-          placeholder: "Leave me blank for infinite"
+          label: "Usos"
+          placeholder: "Deixe-me em branco para infinito"
         expiry:
-          label: "Expiry"
-          placeholder: "1 week"
+          label: "Expiração"
+          placeholder: "1 semana"
       buttons:
         create: "Criar"
   moderation:
     actionNames:
-      warned: "Warned"
-      muted: "Muted"
-      banned: "Banned"
+      warned: "Avisado"
+      muted: "Silenciado"
+      banned: "Banido"
     actionNouns:
-      mute: "mute"
-      ban: "ban"
+      mute: "silenciar"
+      ban: "banir"
     prep:
-      in: "in"
-      from: "from"
+      in: "em"
+      from: "de"
     actions:
       warn:
-        label: "Warn"
-        description: "Issue a warning to the selected target"
+        label: "Avisar"
+        description: "Emite um aviso para o alvo selecionado"
       mute:
         label: "Mute"
         description: "Silencia um usuário/servidor a partir do hub especificado"
       ban:
-        label: "Ban"
-        description: "Ban a user/server from the specified hub"
+        label: "Banir"
+        description: "Bane um usuário/servidor do hub especificado"
       unmute:
-        label: "Unmute"
-        description: "Revoke an active mute in this hub"
+        label: "Desmutar"
+        description: "Revogar um silenciamento ativo neste hub"
       unban:
-        label: "Unban"
-        description: "Revoke an active ban in this hub"
+        label: "Desbanir"
+        description: "Revogar um banimento ativo neste hub"
       blacklist:
         label: "Blacklist"
-        description: "Issue an interchat wide blacklist (user/server)"
+        description: "Faz uma blacklist no InterChat (usuário/servidor)"
       delete:
-        label: "Delete"
+        label: "Apagar"
         description: "Exclui a mensagem selecionada em todos os hubs conectados"
     modal:
       title: "Ação Moderativa"
@@ -340,52 +340,52 @@ ui:
         userId: "ID do usuário"
         status: "Situação"
         messages: "Mensagens"
-        reputation: "Reputation"
-        votes: "Votes"
-        hubJoins: "Hub Joins"
-        engagement: "Engagement"
-        locale: "Locale"
+        reputation: "Reputação"
+        votes: "Votos"
+        hubJoins: "Entradas no hub"
+        engagement: "Engajamento"
+        locale: "Local"
         created: "Criado"
         lastMessage: "Última mensagem"
-        lastVote: "Last Vote"
+        lastVote: "Último Voto"
       values:
-        staff: "Staff"
-        member: "Member"
-        messagesSent: "**{count}** sent"
-        reputationPoints: "**{count}** points"
-        votesCast: "**{count}** cast"
+        staff: "Moderação"
+        member: "Membro"
+        messagesSent: "**{count}** enviado"
+        reputationPoints: "**{count}** pontos"
+        votesCast: "**{count}** transmitidas"
         hubJoinsTotal: "**{count}** no total"
-        notSet: "Not set"
-        never: "Never"
+        notSet: "Não definido"
+        never: "Nunca"
       sections:
-        preferences: "Preferences"
-        createdContent: "Created Content"
+        preferences: "Preferências"
+        createdContent: "Conteúdo Criado"
         activity: "Atividade"
-        donation: "Donation"
-        badges: "Badges"
+        donation: "Doação"
+        badges: "Emblemas"
       preferences:
-        showBadges: "Show badges"
-        mentionOnReply: "Mention on reply"
-        showNsfwHubs: "Show NSFW hubs"
+        showBadges: "Mostrar emblemas"
+        mentionOnReply: "Mencionar na resposta"
+        showNsfwHubs: "Mostrar Hubs NSFW"
       content:
         hubs: "{count} hubs"
-        modPositions: "{count} mod positions"
-        blockedWords: "{count} blocked words"
-        antiSwearRules: "{count} anti-swear rules"
+        modPositions: "Posições de mods {count}"
+        blockedWords: "{count} palavras bloqueadas"
+        antiSwearRules: "{COUNT} regras de anti-palavrões"
       moderation:
-        infractionsReceived: "{count} infractions received"
-        infractionsIssued: "{count} infractions issued"
-        blacklistsReceived: "{count} blacklists received"
-        blacklistsIssued: "{count} blacklists issued"
+        infractionsReceived: "{count} infraçoes recebidas"
+        infractionsIssued: "{count} Infrações emitidas"
+        blacklistsReceived: "{count} blacklists recebidas"
+        blacklistsIssued: "{count} blacklists emitidas"
       activity:
-        appeals: "{count} appeals"
-        reviews: "{count} reviews"
-        reportsMade: "{count} reports made"
-        reportsReceived: "{count} reports received"
-        achievements: "{count} achievements"
+        appeals: "{count} apelos"
+        reviews: "{count} avaliações"
+        reportsMade: "{count} reportagens feitas"
+        reportsReceived: "{count} reportagens recebidas"
+        achievements: "{count} conquistas"
       donation:
-        tier: "Tier: {tier}"
-        expires: "Expires"
+        tier: "Nível: {tier}"
+        expires: "Expira em"
     blacklist:
       titles:
         list: "Blacklist Entries"
@@ -400,8 +400,8 @@ ui:
       fields:
         user: "Usuário"
         server: "Servidor"
-        expires: "Expires"
-        staff: "Staff"
+        expires: "Expira em"
+        staff: "Moderação"
         added: "Added"
       labels:
         user: "Usuário"
