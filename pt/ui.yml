@@ -221,7 +221,7 @@ ui:
         description: "Issue a warning to the selected target"
       mute:
         label: "Mute"
-        description: "Mute a user/server from the specified hub"
+        description: "Silencia um usuário/servidor a partir do hub especificado"
       ban:
         label: "Ban"
         description: "Ban a user/server from the specified hub"
