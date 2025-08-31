@@ -54,6 +54,15 @@ commands:
           - Establece reglas con `/rules set`
           - Personaliza configuraciones en el [panel](https://interchat.tech/dashboard)
           - Conecta canales con `/connect <nombre-centro>`
+        inviteLink:
+          title: "Next: Create Invite Links"
+          description: "Use {hubInviteCommand} to generate invite codes for **{hubName}** and share them with other server owners."
+        shareHub:
+          title: "Share Your Hub"
+          description: "{dot} Post about your new hub in our [Support Server]({supportInvite})\n{dot} Share with friends and communities\n{dot} Use social media to spread the word"
+        proTips:
+          title: "{dot} Pro Tips"
+          description: "{dot} Visit the [Dashboard]({website}) for advanced settings\n{dot} Use {hubVisibilityCommand} to make your hub public\n{dot} Join our [Support Server]({supportInvite}) for help and updates"
         footer: "¿Necesitas ayuda? Únete a nuestro servidor de soporte."
   report:
     title: "Reporte el Mensaje"
@@ -141,7 +150,9 @@ commands:
     unban:
       description: "Revocar infracciones de ban activas para un usuario o servidor en un centro."
     delete:
-      description: "Eliminar una infracción (Solo Manager+)."
+      description: "Delete an InterChat message using a Discord message link."
+    delete_infraction:
+      description: "Delete an infraction (Manager+ only)."
   infractions:
     description: "Ver infracciones en un centro, filtradas por usuario o servidor."
   rules:
