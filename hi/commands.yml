@@ -1,10 +1,10 @@
 commands:
   about:
     title: "About InterChat"
-    description_text: "InterChat connects Discord communities through active cross-server discussions. Messages flow naturally between servers in real-time, helping you build engaged topic-focused communities."
-    support_text: "Need help? Join our support server for assistance!"
+    description_text: "InterChat Discord समुदायों को सक्रिय क्रॉस-सर्वर चर्चाओं के माध्यम से जोड़ता है। संदेश सर्वरों के बीच वास्तविक समय में स्वाभाविक रूप से प्रवाहित होते हैं, जिससे आपको सक्रिय और विषय-केंद्रित समुदाय बनाने में मदद मिलती है।"
+    support_text: "मदद चाहिए? सहायता के लिए हमारे सपोर्ट सर्वर से जुड़ें!"
     features:
-      title: "Features"
+      title: "विशेषताएँ"
       list: |
         - Connect with other servers for active cross-server discussions
         - Messages flow naturally between servers in real-time
