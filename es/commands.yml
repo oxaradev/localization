@@ -1,7 +1,7 @@
 commands:
   about:
     title: "Sobre InterChat"
-    description_text: "InterChat conecta las comunidades de Discord a través de una discusión activa entre servidores. Mensajes fluyen naturalmente entre servidores en tiempo real, ayudándote a construir comunidades comprometidas y centradas en temas."
+    description_text: "InterChat conecta las comunidades de Discord a través de una discusión activa entre servidores. Los mensajes fluyen naturalmente entre servidores en tiempo real, ayudándote a construir comunidades comprometidas y centradas en temas."
     support_text: "¿Necesitas ayuda? ¡Únete a nuestro servidor de soporte para asistencia!"
     features:
       title: "Características"
@@ -47,7 +47,7 @@ commands:
       footer: "Puedes unirte a más centros en cualquier momento, y puedes conectarte a múltiples centros a la vez en diferentes canales."
     nextSteps:
       created:
-        title: "¡Centro Creado Sucesivamente!"
+        title: "¡Centro Creado Exitosamente!"
         description: |
           Tu centro **{hubName}** está listo! Esto es lo que puedes hacer a continuación:
           - Invita tu primer servidor usando `/invite`
@@ -55,27 +55,27 @@ commands:
           - Personaliza configuraciones en el [panel](https://interchat.tech/dashboard)
           - Conecta canales con `/connect <nombre-centro>`
         inviteLink:
-          title: "Next: Create Invite Links"
-          description: "Use {hubInviteCommand} to generate invite codes for **{hubName}** and share them with other server owners."
+          title: "Siguiente: Crea Enlaces de Invitación"
+          description: "Use {hubInviteCommand} para generar códigos de invitación para **{hubName}** y compártelos con otros propietarios de servidores."
         shareHub:
-          title: "Share Your Hub"
-          description: "{dot} Post about your new hub in our [Support Server]({supportInvite})\n{dot} Share with friends and communities\n{dot} Use social media to spread the word"
+          title: "Comparte Tu Centro"
+          description: "{dot} Publica sobre tu nuevo centro en nuestro [Servidor de Soporte]({supportInvite})\n{dot} Comparte con amigos y comunidades\n{dot} Usa redes sociales para difundir la palabra"
         proTips:
-          title: "{dot} Pro Tips"
-          description: "{dot} Visit the [Dashboard]({website}) for advanced settings\n{dot} Use {hubVisibilityCommand} to make your hub public\n{dot} Join our [Support Server]({supportInvite}) for help and updates"
+          title: "{dot} Consejos Profesionales"
+          description: "{dot} Visita el [Panel]({website}) para configuraciones avanzadas\n{dot} Usa {hubVisibilityCommand} para hacer tu centro público\n{dot} Únete a nuestro [Servidor de Soporte]({supportInvite}) para ayuda y actualizaciones"
         footer: "¿Necesitas ayuda? Únete a nuestro servidor de soporte."
   report:
-    title: "Reporte el Mensaje"
-    footer: "Los reportes ayudan a mantener InterChat seguro para todos"
-    contextMenu: "Reporte el Mensaje"
-    description: "Reporta a {user} al **Staff del Centro** por violaciones del centro o al **Staff de InterChat** por violaciones de la plataforma. El usuario no será notificado, pero los moderadores pueden ver quién ha enviado el reporte."
+    title: "Denuncia el Mensaje"
+    footer: "Las denuncias ayudan a mantener InterChat seguro para todos"
+    contextMenu: "Denuncia el Mensaje"
+    description: "Denuncia a {user} al **Staff del Centro** por violaciones del centro o al **Staff de InterChat** por violaciones de la plataforma. El usuario no será notificado, pero los moderadores pueden ver quién ha enviado la denuncia."
     success:
-      title: "Reporte Enviado"
-      toStaff: "{tick} Tu reporte ha sido enviado al staff de InterChat para revisión."
-      toHub: "{tick} Tu reporte ha sido enviado a los moderadores de centros para revisión."
+      title: "Denuncia Enviada"
+      toStaff: "{tick} Tu denuncia ha sido enviada al staff de InterChat para revisión."
+      toHub: "{tick} Tu denuncia ha sido enviada a los moderadores de centros para revisión."
     errors:
-      hubMessageOnly: "{x_icon} Solo puedes reportar mensajes enviados a través de los centros de InterChat."
-      cannotReportSelf: "{x_icon} No puedes reportar tus propios mensajes."
+      hubMessageOnly: "{x_icon} Solo puedes denunciar mensajes enviados a través de los centros de InterChat."
+      cannotReportSelf: "{x_icon} No puedes denunciar tus propios mensajes."
   hubCreate:
     success:
       description: "Tu centro **{hubName}** está listo! Esto es lo que puedes hacer a continuación:"
@@ -150,9 +150,9 @@ commands:
     unban:
       description: "Revocar infracciones de ban activas para un usuario o servidor en un centro."
     delete:
-      description: "Delete an InterChat message using a Discord message link."
+      description: "Eliminar un mensaje de InterChat usando un enlace de mensaje de Discord."
     delete_infraction:
-      description: "Delete an infraction (Manager+ only)."
+      description: "Eliminar una infracción (Solo para Managers+)."
   infractions:
     description: "Ver infracciones en un centro, filtradas por usuario o servidor."
   rules:
