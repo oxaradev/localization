@@ -52,14 +52,14 @@ commands:
           - Customizar configurações no [painel de controle]{https://interchat.tech/dashboard}
           - Conectar canais com `/connect <nome do hub>`
         inviteLink:
-          title: "Next: Create Invite Links"
-          description: "Use {hubInviteCommand} to generate invite codes for **{hubName}** and share them with other server owners."
+          title: "Próximo: Crie links de convite"
+          description: "Use {hubInviteCommand} para gerar códigos de convite para **{hubName}** e compartilhá-los com outros proprietários do servidor."
         shareHub:
-          title: "Share Your Hub"
-          description: "{dot} Post about your new hub in our [Support Server]({supportInvite})\n{dot} Share with friends and communities\n{dot} Use social media to spread the word"
+          title: "Compartilhe seu Hub"
+          description: "{dot} Publique sobre seu novo hub em nosso [Servidor de Suporte]({supportInvite})\n{dot} Compartilhe com amigos e comunidades\n{dot} Use mídias sociais para espalhar a palavra"
         proTips:
-          title: "{dot} Pro Tips"
-          description: "{dot} Visit the [Dashboard]({website}) for advanced settings\n{dot} Use {hubVisibilityCommand} to make your hub public\n{dot} Join our [Support Server]({supportInvite}) for help and updates"
+          title: "{dot} Dicas profissionais"
+          description: "{dot} Visite o [Dashboard]({website}) para configurações avançadas\n{dot} Use {hubVisibilityCommand} para tornar seu hub público\n{dot} Junte-se ao nosso [Servidor de Suporte]({supportInvite}) para ajuda e atualizações"
         footer: "Precisa de ajuda? Entre em nosso servidor de suporte"
   report:
     title: "Reportar mensagem"
@@ -147,9 +147,9 @@ commands:
     unban:
       description: "Revoga infrações de banimento ativos para um usuário ou servidor em um hub."
     delete:
-      description: "Delete an InterChat message using a Discord message link."
+      description: "Exclua uma mensagem de InterChat usando um link de mensagem do Discord."
     delete_infraction:
-      description: "Delete an infraction (Manager+ only)."
+      description: "Deleta uma infração (Apenas para gerentes ou maior.)"
   infractions:
     description: "Veja infrações em um hub, filtrado por usuário ou servidor."
   rules:
