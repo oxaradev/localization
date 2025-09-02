@@ -70,7 +70,7 @@ ui:
       placeholder: "Selecione uma categoria"
   preferences:
     title: "Preferências do usuário"
-    description: "Edite as suas configurações pessoais para que o InterChat funcione para você. Estas são GLOBAL e trabalham em todos os servidores que você compartilha com o InterChat."
+    description: "Edite as suas configurações pessoais para que o InterChat funcione para você. Estas são GLOBAIS e trabalham em todos os servidores que você compartilha com o InterChat."
     buttons:
       return: "Retornar"
     replyMentions:
@@ -388,86 +388,86 @@ ui:
         expires: "Expira em"
     blacklist:
       titles:
-        list: "Blacklist Entries"
-        searchResults: "Blacklist Search Results"
-        userList: "User Blacklist"
-        serverList: "Server Blacklist"
+        list: "Entradas da blacklist"
+        searchResults: "Resultados da pesquisa de Blacklist"
+        userList: "Usuários blacklistados"
+        serverList: "Servidores blacklistados"
       descriptions:
-        list: "Total blacklist entries"
-        noEntriesPage: "No entries on this page."
-        userListEmpty: "No blacklisted users found."
-        serverListEmpty: "No blacklisted servers found."
+        list: "Total de entradas na blacklist"
+        noEntriesPage: "Não há entradas nesta página."
+        userListEmpty: "Nenhum usuário em blacklist encontrado."
+        serverListEmpty: "Nenhum servidor em blacklist encontrado."
       fields:
         user: "Usuário"
         server: "Servidor"
         expires: "Expira em"
         staff: "Moderação"
-        added: "Added"
+        added: "Adicionado"
       labels:
         user: "Usuário"
         server: "Servidor"
   hub:
-    title: 'Hub Creation'
-    description: 'Create your own InterChat hub for a community, your friends... or anyone - the list could go on for ages. Go ahead, see where it takes you.'
+    title: 'Criação de Hub'
+    description: 'Crie seu próprio hub de InterChat para uma comunidade, seus amigos... ou quem quer que seja - a lista pode continuar por eras. Vá em frente, veja onde você leva.'
     delete:
-      description: 'Your hub has been deleted.'
+      description: 'Seu hub foi excluído.'
     connect:
       success:
-        title: 'Connected!'
-        description: 'Connected to **{hubName}** - get chatting!'
-        fieldValue: 'Connected Channel: {channel}'
+        title: 'Conectado!'
+        description: 'Conectado a **{hubName}** - vamos conversar!'
+        fieldValue: 'Canal conectado: {channel}'
       errors:
-        alreadyConnected: 'Uh oh! It looks like this server already has a connection to this hub.'
+        alreadyConnected: 'Uh oh! Parece que este servidor já tem uma conexão com este hub.'
     disconnect:
-      title: 'Disconnected!'
-      description: 'Disconnected from hub.'
-      fieldValue: 'Associated Channel: {channel}'
+      title: 'Desconectado!'
+      description: 'Desconectado do hub.'
+      fieldValue: 'Canal associado: {channel}'
     invites:
-      title: 'Active Invites'
-      inviteUses: '**Uses:**'
-      inviteExpire: '**Expires:**'
-      noneFound: 'None found!'
+      title: 'Convites ativos'
+      inviteUses: '**Usos:**'
+      inviteExpire: '**Expira:**'
+      noneFound: 'Nenhum encontrado!'
     announcements:
-      title: 'Hub Announcements'
-      description: "Create a **one time** announcement that sends in all connected channels. \n\n-# To create **recurring** announcements please visit the hub configuration menu."
+      title: 'Anúncios do Hub'
+      description: "Crie um anúncio **'únicos** que envia em todos os canais conectados. \n\n-# Para criar anúncios **recorrentes** por favor, visite o menu de configuração do Hub."
     creation:
-      title: "Let's set up your hub!"
-      description: "Hubs link multiple servers together using webhooks. They're great for cross-server communities."
-      clickToBegin: "Click {emoji} Create to begin."
+      title: "Vamos configurar o seu Hub!"
+      description: "Hubs linham vários servidores juntos usando webhooks. Eles são ótimos para comunidades entre servidores."
+      clickToBegin: "Clique em {emoji} Criar para começar."
       modal:
-        title: 'Hub Information'
-        hubName: "Hub name"
-        shortLabel: "Short description"
+        title: 'Informações do Hub'
+        hubName: "Nome do Hub"
+        shortLabel: "Descrição curta"
       errors:
-        invalidInput: 'Invalid Input'
-        name: 'Uh oh! Your hub name must be composed of letters, numbers, spaces and underscores. We do not allow any other characters.'
-        shortDescription: "The hub's short description must be between 10 and 100 characters."
-        unhandled: 'Whoops! Something went wrong while attempting to create your hub. Please try again, and if the issue persists contact our (support team)[supportServer].'
-        unique: 'Uh oh! That hub name has already been taken. You must choose another.'
+        invalidInput: 'Dados inválidos'
+        name: 'Uh oh! Seu nome do hub deve ser composto por letras, números, espaços e sublinhados. Não permitimos outros caracteres.'
+        shortDescription: "A descrição curta do hub deve ter entre 10 e 100 caracteres."
+        unhandled: 'Opa! Algo deu errado ao tentar criar seu hub. Tente novamente e, se o problema persistir, entre em contato com nossa (equipe de suporte)[{supportServer}].'
+        unique: 'Uh oh! Esse nome de hub já foi usado. Você deve escolher outro.'
       visibility:
-        title: 'Hub Visibility'
-        description: 'Should your hub **public**? This means it will be accessible to **everyone** and show on the [discovery page]({discoverHubs}).'
+        title: 'Visibilidade do Hub'
+        description: 'O seu hub deve ser **público**? Isso significa que estará acessível a **todos** e mostrado na [página de descoberta]({discoverHubs}).'
         buttons:
-          public: 'Public'
+          public: 'Público'
           private: 'Privado'
       preview:
-        title: 'Complete!'
-        description: 'You have complete the hub setup! Review your choices below to contiune.'
-        footer: 'You may edit more fields later, after creation.'
+        title: 'Concluído!'
+        description: 'Você completou a configuração do hub! Revise suas escolhas abaixo para continuar.'
+        footer: 'Você pode editar mais campos depois, após a criação.'
         fields:
-          title: 'Information'
+          title: 'Informação'
           value: |
-            > {nemoji} **Name:** {hubName}
-            > {sdemoji} **Short description:** {shortDescription}
-            > {vemoji} **Visibility:** {visibility}
-            > {ldemoji} **Long description:** None - Set this in the [dashboard]({dashboard}) later!
+            > {nemoji} **Nome:** {hubName}
+            > {sdemoji} **Descrição curta:** {shortDescription}
+            > {vemoji} **Visibilidade:** {visibility}
+            > {ldemoji} **Descrição longa:** Nenhum - Defina isto na [dashboard]({dashboard}) depois!
       complete:
-        title: 'Created!'
-        description: "Your hub is now ready - get chatting! Looking for more customisation? Head over to the [dashboard]({dashboard}) and configure your hub's settings."
-        private: '**Invite Users!** As your hub is private you must generate user invites. Create one with `/hub invites`!'
-        public: '**Your creation!** As your hub is public, you may view it on the explorer - [check it out]({public})!'
+        title: 'Criado!'
+        description: "Agora seu hub está pronto - vamos conversar! Procurando por mais personalização? Vá para [dashboard]({dashboard}) e configure as configurações de seu hub."
+        private: '**Convide usuários!** Como o seu hub é privado, você deve gerar convites de usuário. Crie um com `/hub invites`!'
+        public: '**Sua criação!** Como seu hub é público, você pode vê-lo no explorador - [confira]({public})!'
       other:
-        cancelled: 'Setup cancelled. We hope to see you back here again soon.'
+        cancelled: 'Instalação cancelada. Esperamos vê-lo de volta aqui em breve.'
     config:
       title: "Configuração do Hub"
       description: "Personalize seu hub do InterChat para sua comunidade. Escolha o que você gostaria de configurar abaixo."
