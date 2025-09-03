@@ -139,6 +139,7 @@ commands:
   mod:
     panel:
       description: "Abrir el panel de moderación para usuarios, mensajes o servidores"
+      contextMenu: "Mod Panel"
     ban:
       description: "Banear a un usuario o servidor de un centro."
     mute:
