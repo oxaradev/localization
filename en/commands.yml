@@ -140,6 +140,7 @@ commands:
   mod:
     panel:
       description: "Open the moderation panel for users, messages, or servers"
+      contextMenu: "Mod Panel"
     ban:
       description: "Ban a user or server from a hub."
     mute:
