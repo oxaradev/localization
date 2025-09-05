@@ -151,7 +151,7 @@ ui:
       loadingLabel: "Loading..."
       loadingDescription: "Please wait."
     general:
-      placeholder: "🎛️ Choose a setting to configure..."
+      placeholder: "Choose a setting to configure..."
       editDescription:
         label: "Edit Description"
         description: "Update your hub's description text"
@@ -161,6 +161,12 @@ ui:
       welcomeMessage:
         label: "Welcome Message"
         description: "Set a message shown to new users"
+      toggleNsfw:
+        label: "Toggle NSFW"
+        description: "Mark your hub as NSFW or not"
+      togglePrivate:
+        label: "Toggle Private"
+        description: "Mark your hub as private or not"
     permissions:
       remove:
         label: "Remove"
