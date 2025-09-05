@@ -151,7 +151,7 @@ ui:
       loadingLabel: "Carregando..."
       loadingDescription: "Please wait."
     general:
-      placeholder: "🎛️ Choose a setting to configure..."
+      placeholder: "Choose a setting to configure..."
       editDescription:
         label: "Edit Description"
         description: "Update your hub's description text"
