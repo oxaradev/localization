@@ -51,6 +51,15 @@ commands:
           - Convidar seu primeiro servidor usando `/invite`}
           - Customizar configurações no [painel de controle]{https://interchat.tech/dashboard}
           - Conectar canais com `/connect <nome do hub>`
+        inviteLink:
+          title: "Próximo: Crie links de convite"
+          description: "Use {hubInviteCommand} para gerar códigos de convite para **{hubName}** e compartilhá-los com outros proprietários do servidor."
+        shareHub:
+          title: "Compartilhe seu Hub"
+          description: "{dot} Publique sobre seu novo hub em nosso [Servidor de Suporte]({supportInvite})\n{dot} Compartilhe com amigos e comunidades\n{dot} Use mídias sociais para espalhar a palavra"
+        proTips:
+          title: "{dot} Dicas profissionais"
+          description: "{dot} Visite o [Dashboard]({website}) para configurações avançadas\n{dot} Use {hubVisibilityCommand} para tornar seu hub público\n{dot} Junte-se ao nosso [Servidor de Suporte]({supportInvite}) para ajuda e atualizações"
         footer: "Precisa de ajuda? Entre em nosso servidor de suporte"
   report:
     title: "Reportar mensagem"
@@ -127,6 +136,7 @@ commands:
   mod:
     panel:
       description: "Abre o painel de moderação para usuários, mensagens ou servidores"
+      contextMenu: "Painel de Moderação"
     ban:
       description: "Bane um usuário ou servidor de um hub."
     mute:
@@ -138,6 +148,8 @@ commands:
     unban:
       description: "Revoga infrações de banimento ativos para um usuário ou servidor em um hub."
     delete:
+      description: "Exclua uma mensagem de InterChat usando um link de mensagem do Discord."
+    delete_infraction:
       description: "Deleta uma infração (Apenas para gerentes ou maior.)"
   infractions:
     description: "Veja infrações em um hub, filtrado por usuário ou servidor."

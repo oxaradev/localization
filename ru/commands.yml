@@ -54,6 +54,15 @@ commands:
           - Set rules with `/rules set`
           - Customize settings in the [dashboard](https://interchat.tech/dashboard)
           - Connect channels with `/connect <hub-name>`
+        inviteLink:
+          title: "Next: Create Invite Links"
+          description: "Use {hubInviteCommand} to generate invite codes for **{hubName}** and share them with other server owners."
+        shareHub:
+          title: "Share Your Hub"
+          description: "{dot} Post about your new hub in our [Support Server]({supportInvite})\n{dot} Share with friends and communities\n{dot} Use social media to spread the word"
+        proTips:
+          title: "{dot} Pro Tips"
+          description: "{dot} Visit the [Dashboard]({website}) for advanced settings\n{dot} Use {hubVisibilityCommand} to make your hub public\n{dot} Join our [Support Server]({supportInvite}) for help and updates"
         footer: "Need help? Join our support server."
   report:
     title: "Report Message"
@@ -130,6 +139,7 @@ commands:
   mod:
     panel:
       description: "Open the moderation panel for users, messages, or servers"
+      contextMenu: "Mod Panel"
     ban:
       description: "Ban a user or server from a hub."
     mute:
@@ -141,6 +151,8 @@ commands:
     unban:
       description: "Revoke active ban infractions for a user or server in a hub."
     delete:
+      description: "Delete an InterChat message using a Discord message link."
+    delete_infraction:
       description: "Delete an infraction (Manager+ only)."
   infractions:
     description: "View infractions in a hub, filtered by user or server."

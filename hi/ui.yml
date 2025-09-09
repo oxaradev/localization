@@ -161,6 +161,12 @@ ui:
       welcomeMessage:
         label: "Welcome Message"
         description: "Set a message shown to new users"
+      toggleNsfw:
+        label: "Toggle NSFW"
+        description: "Mark your hub as NSFW or not"
+      togglePrivate:
+        label: "Toggle Private"
+        description: "Mark your hub as private or not"
     permissions:
       remove:
         label: "Remove"

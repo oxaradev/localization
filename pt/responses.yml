@@ -8,7 +8,7 @@ responses:
     preview:
       titleSaved: "{emoji} Informações do hub salvadas!"
       previewTitle: "Aqui está uma prévia do seu hub:"
-      name: "{emoji} Name"
+      name: "{emoji} Nome"
       short: "{emoji} Nome curto"
       description: "{emoji} Descrição"
     locale:
@@ -66,88 +66,88 @@ responses:
     permissions:
       managerRequired: "Permissões de Gerente+ necessárias."
     target:
-      both: "Please specify either a user or a server, not both."
-      missing: "Please specify either a user or a server."
+      both: "Por favor, especifique um usuário ou um servidor, não ambos."
+      missing: "Por favor, especifique um usuário ou um servidor."
     revoke:
-      noActive: "No active {action} found."
-      success: "Revoked {action}."
+      noActive: "Nenhum {action} ativo encontrado."
+      success: "{action} revogada."
     delete:
-      notImplemented: "Message delete not implemented yet. Reason recorded: {reason}"
-      noMessage: "No message provided to delete."
-      success: "Message {messageId} has been deleted from all connected hubs."
-      notInterChatMessage: "This message is not an InterChat message or has already been deleted."
-      failed: "Failed to delete the message. Please try again later."
-      notFound: "Infraction not found."
+      notImplemented: "Apagar mensagens não implementado ainda. Motivo: {reason}"
+      noMessage: "Nenhuma mensagem fornecida para excluir."
+      success: "A mensagem {messageId} foi excluída de todos os hubs conectados."
+      notInterChatMessage: "Esta mensagem não é uma mensagem o InterChat ou já foi excluída."
+      failed: "Falha ao apagar a mensagem. Tente novamente mais tarde."
+      notFound: "Infração não encontrada."
     blacklist:
-      permissionDenied: "You lack InterChat staff permissions to issue a global blacklist."
-      alreadyActive: "Target already has an active global blacklist."
-      success: "Globally blacklisted {target}."
+      permissionDenied: "Você não tem permissões de equipe do InterChat para emitir uma blacklist global."
+      alreadyActive: "O alvo já tem uma blacklist global ativa"
+      success: "{target} em blacklist globalmente."
     success:
-      action: '{target} has been {action} {prep} {hubName}'
+      action: '{target} foi {action} {prep} {hubName}'
     errors:
-      selectedHubNotFound: "Selected hub not found."
-      processingFailed: "Failed to process moderation action: {error}"
-      unknownAction: "Unknown action."
-      unsupportedAction: "Unsupported action route."
-      openPanelFailed: "Error opening moderation panel: {error}"
-      notModeratorForHub: "You are not a moderator for this hub."
-      alreadyState: "{targetType} is already {state} in this hub."
-      invalidHubData: "Invalid hub data."
-      originalMessageNotFound: "Original message not found in database."
-      fetchAuthorOrServerFailed: "Could not fetch message author or server."
-      hubNotFoundForMessage: "Hub not found for this message."
-      noModeratedHubs: "You don't have moderation permissions in any hubs."
-      noTarget: "Please specify a target (user/server) or reply to a message."
+      selectedHubNotFound: "Hub selecionado não encontrado."
+      processingFailed: "Falha ao processar a ação moderativa: {error}"
+      unknownAction: "Ação desconhecida."
+      unsupportedAction: "Rota de ação não suportada."
+      openPanelFailed: "Erro ao abrir painel de moderação: {error}"
+      notModeratorForHub: "Você não é um moderador deste Hub."
+      alreadyState: "{targetType} já está {state} neste Hub."
+      invalidHubData: "Dados de hub inválidos."
+      originalMessageNotFound: "Mensagem original não encontrada na base de dados."
+      fetchAuthorOrServerFailed: "Não foi possível buscar o autor da mensagem ou servidor."
+      hubNotFoundForMessage: "Hub não encontrado para esta mensagem."
+      noModeratedHubs: "Você não tem permissão de moderação em nenhum Hub."
+      noTarget: "Por favor, especifique um alvo (usuário/servidor) ou responda a uma mensagem."
   infractions:
     errors:
-      noPermission: "You do not have permission to view infractions for this hub."
-      bothSelection: "Please select only a user or a server, not both."
-      invalidServerId: "Invalid server ID."
+      noPermission: "Você não tem permissão para ver as infrações deste Hub."
+      bothSelection: "Por favor, selecione apenas um usuário ou um servidor, não ambos."
+      invalidServerId: "ID do servidor inválido."
     permissions:
-      insufficient: "You need {permission}+ permissions in this hub."
+      insufficient: "Você precisa de permissões {permission}+ neste Hub."
       managerRequired: "Permissões de Gerente+ necessárias."
     target:
-      both: "Please specify either a user or a server, not both."
-      missing: "Please specify either a user or a server."
+      both: "Por favor, especifique um usuário ou um servidor, não ambos."
+      missing: "Por favor, especifique um usuário ou um servidor."
     success:
-      action: "{action} {target} {prep} {hubName}."
+      action: "action} {target} {prep} {hubName}."
     revoke:
-      noActive: "No active {action} found."
-      success: "Revoked {action}."
+      noActive: "Nenhum {action} ativo encontrado."
+      success: "{action} revogada."
     delete:
-      notImplemented: "Message delete not implemented yet. Reason recorded: {reason}"
-      notFound: "Infraction not found."
-      success: "Infraction deleted."
+      notImplemented: "Apagar mensagens não implementado ainda. Motivo: {reason}"
+      notFound: "Infração não encontrada."
+      success: "Infração excluída."
     blacklist:
-      permissionDenied: "You lack InterChat staff permissions to issue a global blacklist."
-      alreadyActive: "Target already has an active global blacklist."
-      success: "Globally blacklisted {target}."
+      permissionDenied: "Você não tem permissões de equipe do InterChat para emitir uma blacklist global."
+      alreadyActive: "O alvo já tem uma blacklist global ativa"
+      success: "{target} em blacklist globalmente."
   report:
     errors:
-      processingFailed: "Error processing report: {error}"
-      notFoundOrDeleted: "Report not found or has been deleted."
-      alreadyHandled: "This report is already {status}."
-      updateFailed: "Failed to update report. Please try again later."
+      processingFailed: "Erro ao processar o reporte: {error}"
+      notFoundOrDeleted: "Reporte não encontrado ou deletado."
+      alreadyHandled: "Esse reporte já esta {status}"
+      updateFailed: "Falha ao atualizar o reporte. Tente novamente mais tarde."
     success:
-      actionPast: "Report {action}."
+      actionPast: "Reportar {action}."
     dm:
-      resolved: "Thank you for your report. Our moderation team reviewed it and took appropriate action. We cannot share specific details to protect user privacy."
+      resolved: "Obrigado por relatar. Nossa equipe de moderação analisou-a e tomou as medidas apropriadas. Não podemos compartilhar detalhes específicos para proteger a privacidade do usuário."
   welcome:
-    onGuildJoinTitle: "👋 Hey there!"
+    onGuildJoinTitle: "👋 Olá!"
     onGuildJoinDescription: |
-      **I'm InterChat, and I'm pleased to be on your server on behalf of our team.**
-      Together, we can connect your server with other remarkable communities from across Discord. Numerous, potentially thousands of servers located in one place, all filled with individuals eager to engage in conversation with you. 🚀
+      **Sou InterChat e tenho o prazer de estar no seu servidor em nome de nossa equipe.** 
+      Juntos, podemos conectar seu servidor a outras comunidades notáveis de todo o Discord. Numerosos, potencialmente milhares de servidores localizados em um só lugar, todos cheios de pessoas ansiosas para conversar com você. 🚀 
 
-      **Ready to start building new bridges with us?**
-      {dot} **New here?** The `/setup` command provides a step-by-step guide to help you begin your journey.
-      {dot} **Ready to explore?** Visit our [discovery page](https://interchat.tech/hubs) to locate and become part of our lively hubs.
-      {dot} **Perhaps something you're more familiar with?** Try our `/call` for one on one connections.
+      **Pronto para começar a construir novas pontes conosco?** 
+      {dot} **Novo aqui?** O comando '/setup' fornece um guia passo a passo para ajudá-lo a começar sua jornada. 
+      {dot} **Pronto para explorar?** Visite nossa [página de descoberta](https://interchat.tech/hubs) para localizar e fazer parte de nossos centros animados. 
+      {dot} **Talvez algo com o qual você esteja mais familiarizado?** Experimente nosso '/call' para conexões individuais. 
 
-      💝 **Lost? Require assistance?** We welcome you to our [support community](https://discord.gg/8DhUA4HNpD). Our team and our community will be pleased to offer their help. We offer as much support and assistance in whatever issues you may have, don't hesitate to join!
+      💝 **Perdido? Precisa de ajuda?** Damos as boas-vindas à nossa [comunidade de suporte](https://discord.gg/8DhUA4HNpD). Nossa equipe e nossa comunidade terão prazer em oferecer sua ajuda. Oferecemos o máximo de suporte e assistência em quaisquer problemas que você possa ter, não hesite em participar!
   staff:
     blacklist:
-      notFound: "No matching blacklist entry was found."
-      removed: "Blacklist entry removed."
+      notFound: "Não foi encontrada nenhuma entrada na blacklsit."
+      removed: "Entrada removida da blacklist"
   user:
     achievements:
-      placeholder: "Achievements here"
+      placeholder: "Conquistas aqui"

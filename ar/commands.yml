@@ -54,6 +54,16 @@ commands:
           - Set rules with `/rules set`
           - Customize settings in the [dashboard](https://interchat.tech/dashboard)
           - Connect channels with `/connect <hub-name>`
+        inviteLink:
+          title: "Next: Create Invite Links"
+          description: "Use {hubInviteCommand} to generate invite codes for **{hubName}** and share them with other server owners."
+        shareHub:
+          title: "Share Your Hub"
+          description: "{dot} Post about your new hub in our [Support Server]({supportInvite})\n{dot} Share with friends and communities\n{dot} Use social media to spread the word"
+        proTips:
+          title: "{dot} Pro Tips"
+          description: "{dot} Visit the [Dashboard]({website}) for advanced settings\n{dot} Use {hubVisibilityCommand} to make your hub public\n{dot} Join our [Support Server]({supportInvite}) for help and updates"
+        footer: "Need help? Join our support server."
   report:
     title: "Report Message"
     footer: "Reports help keep InterChat safe for everyone"
@@ -101,6 +111,7 @@ commands:
         description: "Get detailed information about a hub"
       user:
         description: "Get detailed information about a user"
+
   profile:
     achievements:
       noneFound: "None Found"
@@ -129,6 +140,7 @@ commands:
   mod:
     panel:
       description: "Open the moderation panel for users, messages, or servers"
+      contextMenu: "Mod Panel"
     ban:
       description: "Ban a user or server from a hub."
     mute:
@@ -140,6 +152,8 @@ commands:
     unban:
       description: "Revoke active ban infractions for a user or server in a hub."
     delete:
+      description: "Delete an InterChat message using a Discord message link."
+    delete_infraction:
       description: "Delete an infraction (Manager+ only)."
   infractions:
     description: "View infractions in a hub, filtered by user or server."
@@ -154,20 +168,24 @@ commands:
       noHub: "This command must be used in a server channel connected to a hub, or you must specify a hub name."
       notConnected: "This channel is not connected to any hub. Please specify a hub name or use this command in a connected channel."
       hubNotFound: "Hub \"{hubName}\" not found."
+
   connections:
     title: "Connection Management"
     description: "Configure, and administrate all hub connections within this server."
     fields:
       lastActive: "Last Active"
+
     selected:
       description: "You may now edit this connection. Use the below dropdowns to either change the broadcast channel, or edit settings regarding the connection."
       fields:
         broadcastChannel: 'Broadcasting to'
         connectionState: 'Broadcast state'
         lastActive: 'Last Active'
+
       state:
         enabled: 'Broadcasts are now **active**.'
         disabled: 'Broadcasts are now **paused**.'
+
     fix:
       title: 'Connection Validation'
       description: 'All connections within this guild have been validated. See below for more information.'
