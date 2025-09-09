@@ -2,7 +2,7 @@ commands:
   about:
     title: "About InterChat"
     description_text: "InterChat connects Discord communities through active cross-server discussions. Messages flow naturally between servers in real-time, helping you build engaged topic-focused communities."
-    support_text: "Need help? Join our [support server]({support_invite}) for assistance!"
+    support_text: "Need help? Join our support server for assistance!"
     features:
       title: "Features"
       list: |
@@ -111,6 +111,7 @@ commands:
         description: "Get detailed information about a hub"
       user:
         description: "Get detailed information about a user"
+
   profile:
     achievements:
       noneFound: "None Found"
@@ -167,20 +168,24 @@ commands:
       noHub: "This command must be used in a server channel connected to a hub, or you must specify a hub name."
       notConnected: "This channel is not connected to any hub. Please specify a hub name or use this command in a connected channel."
       hubNotFound: "Hub \"{hubName}\" not found."
+
   connections:
     title: "Connection Management"
     description: "Configure, and administrate all hub connections within this server."
     fields:
       lastActive: "Last Active"
+
     selected:
       description: "You may now edit this connection. Use the below dropdowns to either change the broadcast channel, or edit settings regarding the connection."
       fields:
         broadcastChannel: 'Broadcasting to'
         connectionState: 'Broadcast state'
         lastActive: 'Last Active'
+
       state:
         enabled: 'Broadcasts are now **active**.'
         disabled: 'Broadcasts are now **paused**.'
+
     fix:
       title: 'Connection Validation'
       description: 'All connections within this guild have been validated. See below for more information.'
