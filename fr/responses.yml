@@ -89,7 +89,7 @@ responses:
       processingFailed: "Failed to process moderation action: {error}"
       unknownAction: "Unknown action."
       unsupportedAction: "Unsupported action route."
-      openPanelFailed: "Unexpected error opening mod panel. Please try again later or report this to staff in the support server."
+      openPanelFailed: "Error opening moderation panel: {error}"
       notModeratorForHub: "You are not a moderator for this hub."
       alreadyState: "{targetType} is already {state} in this hub."
       invalidHubData: "Invalid hub data."
@@ -124,7 +124,7 @@ responses:
       success: "Globally blacklisted {target}."
   report:
     errors:
-      processingFailed: "Encountered an error processing report! Please try again later."
+      processingFailed: "Error processing report: {error}"
       notFoundOrDeleted: "Report not found or has been deleted."
       alreadyHandled: "This report is already {status}."
       updateFailed: "Failed to update report. Please try again later."
@@ -144,6 +144,11 @@ responses:
       {dot} **Perhaps something you're more familiar with?** Try our `/call` for one on one connections.
 
       💝 **Lost? Require assistance?** We welcome you to our [support community](https://discord.gg/8DhUA4HNpD). Our team and our community will be pleased to offer their help. We offer as much support and assistance in whatever issues you may have, don't hesitate to join!
+  hubEvents:
+    serverJoined:
+      title: "🎉 Nouveau serveur rejoint !"
+      description: "**{serverName}** a rejoint le hub ! Donnons-leur un accueil chaleureux dans notre communauté."
+      footer: "Bienvenue dans {hubName} !"
   staff:
     blacklist:
       notFound: "No matching blacklist entry was found."
