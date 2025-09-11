@@ -22,7 +22,7 @@ ui:
       error: "Error!"
       success: "Success!"
       cancelled: 'Cancelled!'
-    noDescription: "No description"
+    noDescription: "Pas de description"
     labels:
       date: "Date"
       create: 'Create'
@@ -262,7 +262,7 @@ ui:
     targetSelection:
       title: "Target Selection"
       description: "Who do you want to {action}?"
-      userField: "User"
+      userField: "Utilisateur"
       serverField: "Server"
     actionSelect:
       placeholder: "Select a moderation action..."
@@ -302,12 +302,12 @@ ui:
         moderation: "Moderation"
       fields:
         name: "Name"
-        messages: "Messages"
+        messages: "Message"
         connections: "Connections"
         created: "Created"
-        lastActive: "Last Active"
+        lastActive: "Activité précédant"
         upvotes: "Upvotes"
-        owner: "Owner"
+        owner: "Propriétaire"
         location: "Location"
         activity: "Activity"
         appealCooldown: "Appeal Cooldown"
@@ -329,7 +329,7 @@ ui:
         name: "Name"
         serverId: "Server ID"
         inviteCode: "Invite Code"
-        messages: "Messages"
+        messages: "Message"
         connections: "Connections"
         status: "Status"
         created: "Created"
@@ -345,7 +345,7 @@ ui:
         name: "Name"
         userId: "User ID"
         status: "Status"
-        messages: "Messages"
+        messages: "Message"
         reputation: "Reputation"
         votes: "Votes"
         hubJoins: "Hub Joins"
@@ -404,13 +404,13 @@ ui:
         userListEmpty: "No blacklisted users found."
         serverListEmpty: "No blacklisted servers found."
       fields:
-        user: "User"
+        user: "Utilisateur"
         server: "Server"
         expires: "Expires"
         staff: "Staff"
         added: "Added"
       labels:
-        user: "User"
+        user: "Utilisateur"
         server: "Server"
   hub:
     title: 'Hub Creation'
@@ -514,7 +514,7 @@ ui:
     rules:
       title: "Hub Rules Management"
       description: "Manage your hub's community rules and guidelines below."
-      noRules: "No rules have been set for this hub yet."
+      noRules: "Aucune règle n'a encore été définie pour le hub."
       selectRule:
         placeholder: "Select a rule to edit or delete..."
       addRule:
@@ -564,7 +564,7 @@ ui:
         deleteWarning: "Warning"
         deleteWarningDescription: "This action cannot be undone. The rule will be permanently removed from your hub."
       display:
-        noRulesTitle: "No Rules Set"
+        noRulesTitle: "Aucune règle établie"
         noRulesDescription: "No rules have been set for this hub yet. Use the \"Add Rule\" button below to create your first rule."
         currentRulesTitle: "Current Rules ({current}/{max})"
         ruleSelected: "Rule {number} Selected"
