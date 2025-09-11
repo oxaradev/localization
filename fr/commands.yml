@@ -1,42 +1,42 @@
 commands:
   about:
-    title: "About InterChat"
+    title: "A propose de interchat"
     description_text: "."
     support_text: "Need help? Join our support server for assistance!"
     features:
       title: "Features"
       list: |
-        - Connect with other servers for active cross-server discussions
-        - Messages flow naturally between servers in real-time
-        - Build engaged topic-focused communities
-        - Moderation tools to keep discussions healthy
-        - Visual dashboard to manage your hubs, servers, and settings
+        - Connectez-vous à d'autres serveurs pour des discussions actives entre serveurs
+        - Les messages circulent naturellement entre les serveurs en temps réel
+        - Créez des communautés engagées et axées sur un sujet
+        - Outils de modération pour des discussions dynamiques
+        - Tableau de bord visuel pour gérer vos hubs, serveurs et paramètres
     buttons:
-      vote: "Vote on top.gg"
-      invite: "Invite InterChat"
-      dashboard: "Open Dashboard"
-      support: "Join Support"
-      shardInfo: "Shard Info"
+      vote: "Voter sur top.gg"
+      invite: "Inviter interchat"
+      dashboard: "Ouvrez les tableaux de bord"
+      support: "Rejoignez le support"
+      shardInfo: "Info partagée"
   setup:
     welcome:
-      title: "Welcome to InterChat Setup"
-      description: "Let's get your server connected. This wizard will guide you through creating or joining a hub."
+      title: "Bienvenue dans la configuration d'InterChat"
+      description: "Connectez votre serveur. Cet assistant vous guidera pour créer ou rejoindre un hub."
     options:
       create:
-        label: "Create a Hub"
-        description: "Start your own InterChat community"
+        label: "Crée un Hub"
+        description: "Commencer votre communauté InterChat"
       join:
-        label: "Join a Hub"
-        description: "Connect to an existing community"
+        label: "Rejoignez un Hub"
+        description: "Se connecter à une communauté existante"
     create:
       whatYoullCreate:
-        title: "What You'll Create:"
-        description: "{dot} A unique community space for your servers\n{dot} Complete control over rules and moderation\n{dot} Custom settings and features\n{dot} Private by default - invite only"
+        title: "Ce que vous allez créer :"
+        description: "{dot} Un espace communautaire unique pour vos serveurs {dot} Contrôle total des règles et de la modération {dot} Paramètres et fonctionnalités personnalisés {dot} Privé par défaut - sur invitation uniquement"
       youllNeed:
         title: "You'll Need:"
         description: "{arrow_right} Creative hub name\n{arrow_right} Brief description\n{arrow_right} Detailed description\n{arrow_right} Logo image URL"
     join:
-      title: "Join a Hub"
+      title: "Rejoignez un Hub"
       description: "Use the public directory or connect with an invite code."
       publicHubs:
         title: "Public Hubs"
@@ -189,8 +189,8 @@ commands:
           fixed: 'Connexion fixée!'
           valid: 'Aucune issue a été trouvée.'
         errors:
-          channelDeleted: 'The channel associated with this hub has been deleted. Connection removed.'
-          permissionsWebhook: 'I am unable to webhooks, please review my permissions and try again.'
-          permissionsView: 'I am unable to view channel, please review my permissions and try again.'
+          channelDeleted: 'La chaîne associée au hub a été supprimée. Connexion supprimée.'
+          permissionsWebhook: 'Je ne parviens pas à utiliser les webhooks, veuillez vérifier mes autorisations et réessayer.'
+          permissionsView: 'Je ne parviens pas à voir la chaîne, veuillez vérifier mes autorisations et réessayer.'
           permissionsSend: 'I am unable to send messages, please review my permissions and try again.'
 
