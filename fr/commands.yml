@@ -1,7 +1,7 @@
 commands:
   about:
     title: "About InterChat"
-    description_text: "InterChat connects Discord communities through active cross-server discussions. Messages flow naturally between servers in real-time, helping you build engaged topic-focused communities."
+    description_text: "."
     support_text: "Need help? Join our support server for assistance!"
     features:
       title: "Features"
@@ -86,16 +86,16 @@ commands:
   general:
     invite:
       title: "Hey!"
-      description: "Thanks for choosing InterChat. Need help? Join our support server. Use the buttons below to invite our bot to your server and start connecting servers."
+      description: "Merci d'avoir choisi Interchat. Besoin d'aide ? Rejoignez notre serveur d'assistance. Utilisez les boutons ci-dessous pour inviter notre bot sur votre serveur et commencer à vous connecter. "
   stats:
     title: "InterChat Metrics"
     shard:
       title: "Shard Information"
-      statusReady: "Ready"
-      statusProvisioning: "Provisioning..."
-      current: "Current Shard: #{id}"
+      statusReady: "Prêt"
+      statusProvisioning: "Approvisionnement..."
+      current: "Éclat actuel #{id}"
   help:
-    title: "InterChat Commands"
+    title: "InterChat commandes"
     description: "Explore our wide range of commands to help you, and your community connect with others."
     noDescription: "No description"
     name: "Help"
@@ -166,10 +166,10 @@ commands:
     errors:
       noHub: "This command must be used in a server channel connected to a hub, or you must specify a hub name."
       notConnected: "This channel is not connected to any hub. Please specify a hub name or use this command in a connected channel."
-      hubNotFound: "Hub \"{hubName}\" not found."
+      hubNotFound: "Le hub \"{hubName} na pas été trouvée."
   connections:
     title: "Connection Management"
-    description: "Configure, and administrate all hub connections within this server."
+    description: "Configurez et administrez toutes les connexions hub au sein de ce serveur."
     fields:
       lastActive: "Last Active"
     selected:
@@ -180,14 +180,14 @@ commands:
         lastActive: 'Last Active'
       state:
         enabled: 'Broadcasts are now **active**.'
-        disabled: 'Broadcasts are now **paused**.'
+        disabled: 'Les diffusions sont désormais **en pause**.'
     fix:
-      title: 'Connection Validation'
-      description: 'All connections within this guild have been validated. See below for more information.'
+      title: 'Validation de la connexion'
+      description: 'Toutes les connexions au sein de cette guilde ont été validées. Voir ci-dessous pour plus d''informations.'
       responses:
         success:
-          fixed: 'Fixed connection!'
-          valid: 'No issues found.'
+          fixed: 'Connexion fixée!'
+          valid: 'Aucune issue a été trouvée.'
         errors:
           channelDeleted: 'The channel associated with this hub has been deleted. Connection removed.'
           permissionsWebhook: 'I am unable to webhooks, please review my permissions and try again.'
