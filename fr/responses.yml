@@ -55,7 +55,7 @@ responses:
     webhookRateLimit: "You have reached the webhook creation rate limit"
     invalidInput: "You have not provided a valid input."
     invalidInvite: "This invite is invalid, or expired."
-    webhookError: "Failed to create webhook."
+    webhookError: "Erreur lors de la création du Webhook."
     notConnected: "I could not find a hub connected in this channel."
     noInteraction: "This command only supports slash commands."
     missingAppealReference: "Missing appeal reference."
