@@ -2,9 +2,9 @@ commands:
   about:
     title: "A propose de interchat"
     description_text: "."
-    support_text: "Need help? Join our support server for assistance!"
+    support_text: "Besoin d'aide ? Rejoignez notre serveur d'assistance !"
     features:
-      title: "Features"
+      title: "Caractéristiques"
       list: |
         - Connectez-vous à d'autres serveurs pour des discussions actives entre serveurs
         - Les messages circulent naturellement entre les serveurs en temps réel
@@ -33,153 +33,149 @@ commands:
         title: "Ce que vous allez créer :"
         description: "{dot} Un espace communautaire unique pour vos serveurs {dot} Contrôle total des règles et de la modération {dot} Paramètres et fonctionnalités personnalisés {dot} Privé par défaut - sur invitation uniquement"
       youllNeed:
-        title: "You'll Need:"
-        description: "{arrow_right} Creative hub name\n{arrow_right} Brief description\n{arrow_right} Detailed description\n{arrow_right} Logo image URL"
+        title: "Vous aurez besoin de :"
+        description: "{arrow_right} Nom du hub créatif {arrow_right} Brève description {arrow_right} Description détaillée {arrow_right} URL de l'image du logo"
     join:
       title: "Rejoignez un Hub"
-      description: "Use the public directory or connect with an invite code."
+      description: "Utilisez l'annuaire public ou connectez-vous avec un code d'invitation."
       publicHubs:
-        title: "Public Hubs"
-        description: "**Browse** [interchat.tech/hubs](https://interchat.tech/hubs)\n**Or click** the button below to open the directory"
+        title: "Hubs publics"
+        description: "**Parcourir** [interchat.tech/hubs](https://interchat.tech/hubs) **Ou cliquez** sur le bouton ci-dessous pour ouvrir le répertoire"
       privateHubs:
-        title: "Private or Invite-only"
-        description: "**Ask the hub owner or manager** for an invite code\n**Run `/connect <invite-code>`** in your server to join"
-      footer: "You can join more hubs anytime, and you can be connected to multiple hubs at once in different channels."
+        title: "Privée ou invitations uniquement"
+        description: "**Demandez au propriétaire ou au gestionnaire du hub** un code d'invitation **Exécutez `/connect <invite-code>`** sur votre serveur pour rejoindre"
+      footer: "Vous pouvez rejoindre plusieurs hubs à tout moment et vous pouvez être connecté à plusieurs hubs à la fois dans différents canaux."
     nextSteps:
       created:
-        title: "Hub Created Successfully!"
+        title: "Hubs crée avec succès!"
         description: |
-          Your hub **{hubName}** is ready! Here's what you can do next:
-          - Invite your first server using `/invite`
-          - Set rules with `/rules set`
-          - Customize settings in the [dashboard](https://interchat.tech/dashboard)
-          - Connect channels with `/connect <hub-name>`
+          Votre hub **{hubName}** est prêt ! Voici ce que vous pouvez faire ensuite : - Inviter votre premier serveur avec `/invite` - Définir des règles avec `/rules set` - Personnaliser les paramètres dans le [tableau de bord](https://interchat.tech/dashboard) - Connecter des canaux avec `/connect <hub-name>`
         inviteLink:
-          title: "Next: Create Invite Links"
-          description: "Use {hubInviteCommand} to generate invite codes for **{hubName}** and share them with other server owners."
+          title: "Suivant : Créer des liens d’invitation"
+          description: "Utilisez {hubInviteCommand} pour générer des codes d'invitation pour **{hubName}** et les partager avec d'autres propriétaires de serveurs."
         shareHub:
-          title: "Share Your Hub"
-          description: "{dot} Post about your new hub in our [Support Server]({supportInvite})\n{dot} Share with friends and communities\n{dot} Use social media to spread the word"
+          title: "Partager votre hub"
+          description: "{dot} Publiez des informations sur votre nouveau hub sur notre [Serveur d'assistance]({supportInvite}) {dot} Partagez avec vos amis et vos communautés {dot} Utilisez les réseaux sociaux pour faire passer le message"
         proTips:
-          title: "{dot} Pro Tips"
-          description: "{dot} Visit the [Dashboard]({website}) for advanced settings\n{dot} Use {hubVisibilityCommand} to make your hub public\n{dot} Join our [Support Server]({supportInvite}) for help and updates"
-        footer: "Need help? Join our support server."
+          title: "{dot} conseil de pro"
+          description: "{dot} Visitez le [Tableau de bord]({website}) pour les paramètres avancés {dot} Utilisez {hubVisibilityCommand} pour rendre votre hub public {dot} Rejoignez notre [Serveur d'assistance]({supportInvite}) pour obtenir de l'aide et des mises à jour"
+        footer: "Besoin d'aide ? Rejoignez notre serveur support."
   report:
-    title: "Report Message"
-    footer: "Reports help keep InterChat safe for everyone"
-    contextMenu: "Report Message"
-    description: "Report {user} to **Hub Staff** for hub violations or **InterChat Staff** for platform violations. The user won't be notified, but moderators can see who has submit the report."
+    title: "Signaler le message"
+    footer: "Les rapports contribuent à assurer la sécurité d'InterChat pour tous"
+    contextMenu: "Signaler le message"
+    description: "Signalez {user} à l'équipe du Hub ou à l'équipe d'InterChat pour toute violation de la plateforme. L'utilisateur ne sera pas averti, mais les modérateurs pourront voir qui a soumis le signalement."
     success:
-      title: "Report Submitted"
-      toStaff: "{tick} Your report has been sent to InterChat staff for review."
-      toHub: "{tick} Your report has been sent to hub moderators for review."
+      title: "Signalement envoyé"
+      toStaff: "{tick} Votre rapport a été envoyé au personnel d'InterChat pour examen."
+      toHub: "{tick} Vous ne pouvez signaler que les messages envoyés via les hubs InterChat."
     errors:
-      hubMessageOnly: "{x_icon} You can only report messages sent through InterChat hubs."
-      cannotReportSelf: "{x_icon} You cannot report your own messages."
+      hubMessageOnly: "{x_icon} Vous ne pouvez signaler que les messages envoyés via les hubs InterChat."
+      cannotReportSelf: "{x_icon} Vous ne pouvez pas signaler vos propres messages."
   hubCreate:
     success:
-      description: "Your hub **{hubName}** is ready! Here's what you can do next:"
+      description: "Votre hub **{hubName}** est prêt ! Voici ce que vous pouvez faire ensuite :"
     errors:
-      hubCreationFailed: "Something went wrong while creating your hub. Please try again."
-      troubleshooting: "What you can do:"
-      troubleshootingSteps: "• Check that your logo URL is valid\n• Try again in a few moments\n• Contact support if this persists"
+      hubCreationFailed: "Une erreur s'est produite lors de la création de votre hub. Veuillez réessayer."
+      troubleshooting: "Ce que vous pouvez faire :"
+      troubleshootingSteps: "• Vérifiez que l'URL de votre logo est valide • Réessayez dans quelques instants • Contactez le support si cela persiste"
   general:
     invite:
       title: "Hey!"
       description: "Merci d'avoir choisi Interchat. Besoin d'aide ? Rejoignez notre serveur d'assistance. Utilisez les boutons ci-dessous pour inviter notre bot sur votre serveur et commencer à vous connecter. "
   stats:
-    title: "InterChat Metrics"
+    title: "Métriques InterChat"
     shard:
-      title: "Shard Information"
+      title: "Informations sur les éclats"
       statusReady: "Prêt"
       statusProvisioning: "Approvisionnement..."
       current: "Éclat actuel #{id}"
   help:
     title: "InterChat commandes"
-    description: "Explore our wide range of commands to help you, and your community connect with others."
-    noDescription: "No description"
-    name: "Help"
+    description: "Explorez notre large gamme de commandes pour vous aider, vous et votre communauté, à vous connecter avec les autres."
+    noDescription: "Pas de description"
+    name: "Aide"
   staff:
     blacklist:
       list:
-        description: "View blacklist entries filtered by users or servers"
+        description: "Afficher les entrées de la liste noire filtrées par utilisateurs ou serveurs"
     get:
-      description: "Get information about InterChat entities"
+      description: "Obtenir des informations sur les entités InterChat"
       server:
-        description: "Get detailed information about a server"
+        description: "Obtenez des informations détaillées sur un serveur"
       hub:
-        description: "Get detailed information about a hub"
+        description: "Obtenez des informations détaillées sur un hub"
       user:
-        description: "Get detailed information about a user"
+        description: "Obtenez des informations détaillées sur un utilisateur"
   profile:
     achievements:
-      noneFound: "None Found"
-      noneFoundDescription: "I could not find any achievements for this user!"
+      noneFound: "Non trouvée"
+      noneFoundDescription: "Je n'ai trouvé aucune réussite pour cet utilisateur !"
     badges:
-      noneFound: "None Found"
-      noneFoundDescription: "I could not find any badges for this user!"
+      noneFound: "Non trouvée"
+      noneFoundDescription: "Je n'ai trouvé aucun badge pour cet utilisateur !"
   leaderboard:
-    staffTag: "InterChat Staff"
-    userTag: "User"
-    messagesColumn: "Messages"
-    voteCountColumn: "Vote Count"
+    staffTag: "Personnel d'InterChat"
+    userTag: "Utilisateur"
+    messagesColumn: "Message"
+    voteCountColumn: "Totale de vote"
   my:
     hubs:
-      title: "Your Hubs"
-      description: "Here are the hubs you own or moderate:"
-      position: "Position:"
-      owner: "Owner"
+      title: "Vos hubs"
+      description: "Voici les hubs que vous possédez ou modérez :"
+      position: "Positions :"
+      owner: "Propriétaire"
   appeal:
-    title: "Your Appealable Infractions"
-    description: "Select an infraction below to submit an appeal, or view the status of existing appeals."
+    title: "Vos infractions susceptibles d'appel"
+    description: "Sélectionnez une infraction ci-dessous pour soumettre un appel ou consultez l’état des appels existants."
     noInfractions:
-      title: "No Active Infractions"
-      description: "You have no active infractions that can be appealed."
-    notAppealable: "This infraction is no longer appealable."
+      title: "Aucune infraction trouvée"
+      description: "Vous n'avez pas d'infraction susceptible de faire l'objet d'un appel."
+    notAppealable: "Cette infraction n’est plus susceptible d’appel."
   mod:
     panel:
-      description: "Open the moderation panel for users, messages, or servers"
-      contextMenu: "Mod Panel"
+      description: "Ouvrir le panneau de modération pour les utilisateurs, les messages ou les serveurs"
+      contextMenu: "Panel de modération"
     ban:
-      description: "Ban a user or server from a hub."
+      description: "Bannir un utilisateur ou un serveur du hub."
     mute:
-      description: "Mute a user or server from a hub."
+      description: "Couper le son d'un utilisateur ou d'un serveur à partir d'un hub."
     warn:
-      description: "Warn a user or server from a hub."
+      description: "Avenir un utilisateur ou un serveur du hub."
     unmute:
-      description: "Revoke active mute infractions for a user or server in a hub."
+      description: "Révoquer les infractions de mise en sourdine actives pour un utilisateur ou un serveur dans un hub."
     unban:
-      description: "Revoke active ban infractions for a user or server in a hub."
+      description: "Révoquer les infractions d'interdiction actives pour un utilisateur ou un serveur dans un hub."
     delete:
-      description: "Delete an InterChat message using a Discord message link."
+      description: "Supprimez un message InterChat à l'aide d'un lien de message Discord."
     delete_infraction:
-      description: "Delete an infraction (Manager+ only)."
+      description: "Supprimer une infraction (Manager+ uniquement)."
   infractions:
-    description: "View infractions in a hub, filtered by user or server."
+    description: "Afficher les infractions dans un hub, filtrées par utilisateur ou serveur."
   rules:
-    description: "View the rules for a hub"
-    title: "{hubName} Rules"
+    description: "Regarder les règles du hub"
+    title: "Règles {hubName}"
     noRules:
-      title: "No Rules Set"
-      description: "No rules have been set for this hub yet."
-    footer: "{count} rule{plural} • Follow these guidelines to maintain a positive community"
+      title: "Aucune règle établie"
+      description: "Aucune règle n'a encore été définie pour le hub."
+    footer: "{count} règles {plural} • Suivez ces directives pour maintenir une communauté positive"
     errors:
-      noHub: "This command must be used in a server channel connected to a hub, or you must specify a hub name."
-      notConnected: "This channel is not connected to any hub. Please specify a hub name or use this command in a connected channel."
+      noHub: "Cette commande doit être utilisée dans un canal serveur connecté à un hub, ou vous devez spécifier un nom de hub."
+      notConnected: "Ce canal n'est connecté à aucun hub. Veuillez spécifier un nom de hub ou utiliser cette commande dans un canal connecté."
       hubNotFound: "Le hub \"{hubName} na pas été trouvée."
   connections:
-    title: "Connection Management"
+    title: "Gestion des connexions"
     description: "Configurez et administrez toutes les connexions hub au sein de ce serveur."
     fields:
-      lastActive: "Last Active"
+      lastActive: "Activité précédant"
     selected:
-      description: "You may now edit this connection. Use the below dropdowns to either change the broadcast channel, or edit settings regarding the connection."
+      description: "Vous pouvez maintenant modifier cette connexion. Utilisez les menus déroulants ci-dessous pour modifier le canal de diffusion ou les paramètres de connexion."
       fields:
-        broadcastChannel: 'Broadcasting to'
-        connectionState: 'Broadcast state'
-        lastActive: 'Last Active'
+        broadcastChannel: 'Diffusion à'
+        connectionState: 'État de diffusion'
+        lastActive: 'Activité précédant'
       state:
-        enabled: 'Broadcasts are now **active**.'
+        enabled: 'Les diffusions sont désormais **actives**.'
         disabled: 'Les diffusions sont désormais **en pause**.'
     fix:
       title: 'Validation de la connexion'
@@ -192,5 +188,5 @@ commands:
           channelDeleted: 'La chaîne associée au hub a été supprimée. Connexion supprimée.'
           permissionsWebhook: 'Je ne parviens pas à utiliser les webhooks, veuillez vérifier mes autorisations et réessayer.'
           permissionsView: 'Je ne parviens pas à voir la chaîne, veuillez vérifier mes autorisations et réessayer.'
-          permissionsSend: 'I am unable to send messages, please review my permissions and try again.'
+          permissionsSend: 'Je ne parviens pas à envoyer de messages, veuillez vérifier mes autorisations et réessayer.'
 
