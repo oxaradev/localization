@@ -40,8 +40,8 @@ responses:
       declined: "Your appeal regarding a moderation action{hubName} has been reviewed. After careful consideration, your appeal has been declined."
       moderatorNote: "Moderator note: {reason}"
     embed:
-      title: "Your Appealable Infractions"
-      description: "Select an infraction below to submit an appeal, or view the status of existing appeals."
+      title: "Vos infractions susceptibles d'appel"
+      description: "Sélectionnez une infraction ci-dessous pour soumettre un appel ou consultez l’état des appels existants."
       noInfractions:
         title: "Squeaky Clean!"
         description: "No appealable infractions found."
