@@ -144,6 +144,11 @@ responses:
       {dot} **¿Tal vez algo más familiar?** Prueba nuestro `/call` para conexiones uno a uno.
 
       💝 **¿Perdido? ¿Necesitas ayuda?** Te damos la bienvenida a nuestra [comunidad de soporte](https://discord.gg/8DhUA4HNpD). Nuestro equipo y comunidad estarán encantados de ayudarte. Ofrecemos todo el soporte y asistencia que necesites, ¡no dudes en unirte!
+  hubEvents:
+    serverJoined:
+      title: "🎉 ¡Nuevo servidor se unió!"
+      description: "**{serverName}** se ha unido al hub! Démosles una cálida bienvenida a nuestra comunidad."
+      footer: "¡Bienvenido a {hubName}!"
   staff:
     blacklist:
       notFound: "No se encontró entrada de lista negra coincidente."
