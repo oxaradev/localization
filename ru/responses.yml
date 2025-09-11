@@ -144,6 +144,11 @@ responses:
       {dot} **Perhaps something you're more familiar with?** Try our `/call` for one on one connections.
 
       💝 **Lost? Require assistance?** We welcome you to our [support community](https://discord.gg/8DhUA4HNpD). Our team and our community will be pleased to offer their help. We offer as much support and assistance in whatever issues you may have, don't hesitate to join!
+  hubEvents:
+    serverJoined:
+      title: "🎉 New Server Joined!"
+      description: "**{serverName}** has joined the hub! Let's give them a warm welcome to our community."
+      footer: "Welcome to {hubName}!"
   staff:
     blacklist:
       notFound: "No matching blacklist entry was found."
