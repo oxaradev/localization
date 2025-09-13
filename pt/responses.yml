@@ -146,9 +146,9 @@ responses:
       💝 **Perdido? Precisa de ajuda?** Damos as boas-vindas à nossa [comunidade de suporte](https://discord.gg/8DhUA4HNpD). Nossa equipe e nossa comunidade terão prazer em oferecer sua ajuda. Oferecemos o máximo de suporte e assistência em quaisquer problemas que você possa ter, não hesite em participar!
   hubEvents:
     serverJoined:
-      title: "🎉 New Server Joined!"
+      title: "🎉 Um novo servidor entrou!"
       description: "**{serverName}** entrou no hub! Vamos dar a eles uma calorosa recepção de boas-vindas à nossa comunidade."
-      footer: "Welcome to {hubName}!"
+      footer: "Bem-vindo a {hubName}!\n"
   staff:
     blacklist:
       notFound: "Não foi encontrada nenhuma entrada na blacklsit."
