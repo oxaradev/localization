@@ -12,9 +12,9 @@ ui:
       cancel: "Cancelar"
       refresh: "Atualizar"
       enterHubInfo: "Insira informações do hub"
-      hubInfoComplete: "Informações do Hub completadas"
-      createHub: "Criar Hub"
-      completeInfoFirst: "Complete as informações do Hub primeiro"
+      hubInfoComplete: "Informações do hub completadas"
+      createHub: "Criar hub"
+      completeInfoFirst: "Complete as informações do hub primeiro"
       discoverHubs: "Descubra hubs públicos"
       supportServer: "Servidor de suporte"
   common:
@@ -36,7 +36,7 @@ ui:
       userNotFound: "Usuário não encontrado."
       notSpecified: "Não especificado"
       interfacePermission: "Você não pode usar esta interface."
-      hubUpdateFailed: "Falha ao atualizar as configurações do Hub."
+      hubUpdateFailed: "Falha ao atualizar as configurações do hub."
       hubConfigDescription: "Personalize seu hub do InterChat para sua comunidade. Escolha o que você gostaria de configurar abaixo."
     pagination:
       previous: "Voltar"
@@ -49,7 +49,7 @@ ui:
       invalidFilter: "Filtro inválido"
     modal:
       hubCreation:
-        title: "Criar Hub"
+        title: "Criar hub"
         name:
           label: "Nome do hub"
           placeholder: "Digite um nome único para o seu hub"
@@ -60,7 +60,7 @@ ui:
           label: "Descrição detalhada"
           placeholder: "Diga às pessoas sobre o que é o seu hub e o que podem esperar"
         logoUrl:
-          label: "URL do logo do Hub"
+          label: "URL do logo do hub"
           placeholder: "https://exemplo.com.br/logotipo.png"
     create:
       footer:
@@ -76,7 +76,7 @@ ui:
     replyMentions:
       title: "Preferências: Responder menções"
       description: "Você agora estará **{status}** quando alguém responder para suas mensagens. Você consegue mudar isso abaixo usando o botão, ou retornando ao menu com o botão de Return."
-      currentDescription: "Atualmente você está **{status}** quando respondido as suas mensagens. Você pode mudar isso abaixo usando o botão, ou retornando com o botão de Return."
+      currentDescription: "Atualmente você está **{status}** quando respondido as suas mensagens. Você pode mudar isso abaixo usando o botão, ou retornando com o botão de return."
       mentioned: "mencionado"
       notMentioned: "não mencionado"
     errors:
@@ -138,7 +138,7 @@ ui:
       toStaff:
         title: "Reportar para a Moderação do Interchat"
       toHub:
-        title: "Reportar para Moderadores do Hub"
+        title: "Reportar para Moderadores do hub"
       reason:
         label: "Motivo para o reporte"
         placeholder: "Por favor, descreva por quê você está reportando essa mensagem..."
@@ -156,7 +156,7 @@ ui:
         label: "Editar descrição"
         description: "Atualize o texto da descrição do seu hub."
       editName:
-        label: "Editar nome do Hub"
+        label: "Editar nome do hub"
         description: "Mude o nome do hub. (10 dias de cooldown)"
       welcomeMessage:
         label: "Mensagem de Boas-vindas"
@@ -254,7 +254,7 @@ ui:
     hubSelect:
       placeholder: "Selecione um hub para moderar..."
     hubSelection:
-      title: "Seleção do Hub"
+      title: "Seleção do hub"
       description: "Selecione o hub que você deseja moderar."
       fieldHubLabel: "Hub"
       fieldHubPrompt: "Hub selecionado"
@@ -372,7 +372,7 @@ ui:
       preferences:
         showBadges: "Mostrar emblemas"
         mentionOnReply: "Mencionar na resposta"
-        showNsfwHubs: "Mostrar Hubs NSFW"
+        showNsfwHubs: "Mostrar hubs NSFW"
       content:
         hubs: "{count} hubs"
         modPositions: "Posições de mods {count}"
@@ -434,15 +434,15 @@ ui:
       inviteExpire: '**Expira:**'
       noneFound: 'Nenhum encontrado!'
     announcements:
-      title: 'Anúncios do Hub'
-      description: "Crie um anúncio **'únicos** que envia em todos os canais conectados. \n\n-# Para criar anúncios **recorrentes** por favor, visite o menu de configuração do Hub."
+      title: 'Anúncios do hub'
+      description: "Crie um anúncio **'únicos** que envia em todos os canais conectados. \n\n-# Para criar anúncios **recorrentes** por favor, visite o menu de configuração do hub."
     creation:
-      title: "Vamos configurar o seu Hub!"
+      title: "Vamos configurar o seu hub!"
       description: "Hubs linham vários servidores juntos usando webhooks. Eles são ótimos para comunidades entre servidores."
       clickToBegin: "Clique em {emoji} Criar para começar."
       modal:
-        title: 'Informações do Hub'
-        hubName: "Nome do Hub"
+        title: 'Informações do hub'
+        hubName: "Nome do hub"
         shortLabel: "Descrição curta"
       errors:
         invalidInput: 'Dados inválidos'
@@ -562,7 +562,7 @@ ui:
         deletionCancelledDescription: "A exclusão da regra foi cancelada. Nenhuma alteração foi feita."
       warnings:
         deleteWarning: "Atenção"
-        deleteWarningDescription: "Esta ação não pode ser desfeita. A regra será removida permanentemente do seu Hub."
+        deleteWarningDescription: "Esta ação não pode ser desfeita. A regra será removida permanentemente do seu hub."
       display:
         noRulesTitle: "Sem regras definidas"
         noRulesDescription: "Nenhuma regra foi definida para este hub ainda. Use o botão \"Adicionar Regra\" abaixo para criar sua primeira regra."
