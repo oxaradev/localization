@@ -147,7 +147,7 @@ responses:
   hubEvents:
     serverJoined:
       title: "🎉 New Server Joined!"
-      description: "**{serverName}** has joined the hub! Let's give them a warm welcome to our community."
+      description: "**{serverName}** entrou no hub! Vamos dar a eles uma calorosa recepção de boas-vindas à nossa comunidade."
       footer: "Welcome to {hubName}!"
   staff:
     blacklist:
