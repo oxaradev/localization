@@ -6,7 +6,7 @@ responses:
     setupComplete: "¿Listo para crear? ¡Haz clic en el botón Crear Hub!"
     editMessagePrompt: "{emoji} Por favor, usa el modal para editar tu mensaje."
     preview:
-      titleSaved: "{emoji} ¡Información del Hub Guardada!"
+      titleSaved: "{emoji} ¡Información del hub Guardada!"
       previewTitle: "Aquí tienes una vista previa de tu hub:"
       name: "{emoji} Nombre"
       short: "{emoji} Nombre Corto"
