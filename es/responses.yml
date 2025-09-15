@@ -72,9 +72,8 @@ responses:
       noActive: "No se encontró {action} activo."
       success: "Revocado {action}."
     delete:
-      notImplemented: "Eliminación de mensaje no implementada aún. Razón registrada: {reason}"
       noMessage: "No se proporcionó mensaje para eliminar."
-      success: "Mensaje {messageId} ha sido eliminado de todos los hubs conectados."
+      success: "Message has been deleted from all connected hubs."
       notInterChatMessage: "Este mensaje no es un mensaje de InterChat o ya fue eliminado."
       failed: "Error al eliminar el mensaje. Por favor intenta nuevamente más tarde."
       notFound: "Infracción no encontrada."
