@@ -19,8 +19,8 @@ ui:
       supportServer: "Support Server"
   common:
     titles:
-      error: "Error!"
-      success: "Success!"
+      error: "त्रुटि!"
+      success: "सफलता!"
       cancelled: 'Cancelled!'
     noDescription: "No description"
     labels:
@@ -256,7 +256,7 @@ ui:
     hubSelection:
       title: "Hub Selection"
       description: "Select the hub you want to moderate."
-      fieldHubLabel: "Hub"
+      fieldHubLabel: "हब"
       fieldHubPrompt: "Selected Hub"
       prompt: "Select a hub to moderate"
     targetSelection:
