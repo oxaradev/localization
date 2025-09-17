@@ -1,157 +1,157 @@
 responses:
   common:
-    unknown: "Unknown"
-    hub: "Hub"
+    unknown: "अज्ञात"
+    hub: "हब"
   setup:
-    setupComplete: "Ready to create? Click the Create Hub button!"
-    editMessagePrompt: "{emoji} Please use the modal to edit your message."
+    setupComplete: "तैयार हब बनाने के लिए? Create Hub बटन पर क्लिक करें!"
+    editMessagePrompt: "{emoji} कृपया अपना संदेश संपादित करने के लिए मोडल का उपयोग करें।"
     preview:
-      titleSaved: "{emoji} Hub Information Saved!"
-      previewTitle: "Here's a preview of your hub:"
-      name: "{emoji} Name"
-      short: "{emoji} Short Name"
-      description: "{emoji} Description"
+      titleSaved: "{emoji} हब की जानकारी सहेज ली गई!"
+      previewTitle: "यहाँ आपका हब प्रीव्यू है:"
+      name: "{emoji} नाम"
+      short: "{emoji} छोटा नाम"
+      description: "{emoji} विवरण"
     locale:
-      successTitle: "Success!"
-      successDescription: "{tick} Your language has been set to **{locale_name}**"
+      successTitle: "सफलता!"
+      successDescription: "{tick} आपकी भाषा **{locale_name}** में सेट कर दी गई है"
     loading:
-      creatingHub: "{loading} Creating Your Hub..."
-      pleaseWait: "Please wait while we set up your community space."
+      creatingHub: "{loading} आपका हब बनाया जा रहा है..."
+      pleaseWait: "कृपया प्रतीक्षा करें, हम आपका समुदाय स्पेस सेट कर रहे हैं।"
     errors:
-      hubCreationFailed: "{no} Hub Creation Failed"
+      hubCreationFailed: "{no} हब बनाने में असफल"
   appeal:
     constants:
-      unknownHub: "Unknown Hub"
-      noReason: "No reason provided"
+      unknownHub: "अज्ञात हब"
+      noReason: "कोई कारण प्रदान नहीं किया गया"
     status:
-      pending: "Pending Response"
-      cooldown: "Cooldown"
-      canAppealAgain: "Appealable"
-      canAppeal: "Appealable"
+      pending: "प्रतीक्षा में"
+      cooldown: "कूलडाउन"
+      canAppealAgain: "आप अपील कर सकते हैं"
+      canAppeal: "आप अपील कर सकते हैं"
     fields:
-      date: "Date:"
-      reason: "Reason:"
+      date: "तारीख:"
+      reason: "कारण:"
     errors:
-      recordFailed: "Failed to record decision: {error}"
-      notFoundOrDeleted: "Appeal not found or has been deleted."
-      updateFailed: "Failed to update appeal. Please try again later."
+      recordFailed: "निर्णय रिकॉर्ड करने में असफल: {error}"
+      notFoundOrDeleted: "अपील नहीं मिली या हटाई जा चुकी है।"
+      updateFailed: "अपील अपडेट करने में असफल। कृपया बाद में प्रयास करें।"
     dm:
-      accepted: "Your appeal regarding a moderation action{hubName} has been accepted. Our team reviewed your case and determined that your appeal should be upheld."
-      declined: "Your appeal regarding a moderation action{hubName} has been reviewed. After careful consideration, your appeal has been declined."
-      moderatorNote: "Moderator note: {reason}"
+      accepted: "मॉडरेशन कार्रवाई {hubName} के संबंध में आपकी अपील स्वीकार कर ली गई है। हमारी टीम ने आपका मामला समीक्षा किया और निर्णय लिया कि आपकी अपील सही है।"
+      declined: "मॉडरेशन कार्रवाई {hubName} के संबंध में आपकी अपील की समीक्षा की गई। सावधानीपूर्वक विचार करने के बाद, आपकी अपील अस्वीकार कर दी गई।"
+      moderatorNote: "मॉडरेटर नोट: {reason}"
     embed:
-      title: "Your Appealable Infractions"
-      description: "Select an infraction below to submit an appeal, or view the status of existing appeals."
+      title: "आपकी अपील योग्य उल्लंघन"
+      description: "अपील सबमिट करने के लिए नीचे उल्लंघन चुनें, या मौजूदा अपील की स्थिति देखें।"
       noInfractions:
-        title: "Squeaky Clean!"
-        description: "No appealable infractions found."
+        title: "साफ सुथरा!"
+        description: "कोई अपील योग्य उल्लंघन नहीं मिला।"
       footer:
-        canAppeal: "💡 You can appeal {count} infraction(s). Use the select menu below."
-        checkLater: "💡 Check back later when cooldowns expire or appeals are reviewed."
+        canAppeal: "💡 आप {count} उल्लंघन(ओं) पर अपील कर सकते हैं। नीचे सेलेक्ट मेन्यू का उपयोग करें।"
+        checkLater: "💡 जब कूलडाउन समाप्त हो या अपील की समीक्षा हो जाए, तब फिर से जाँच करें।"
   errors:
-    errorTitle: "Error!"
-    interactionCheck: "You may not use this interaction, as you did not invoke it."
-    rateLimited: "You are being rate limited. Take a chill pill."
-    webhookRateLimit: "You have reached the webhook creation rate limit"
-    invalidInput: "You have not provided a valid input."
-    invalidInvite: "This invite is invalid, or expired."
-    webhookError: "Failed to create webhook."
-    notConnected: "I could not find a hub connected in this channel."
-    noInteraction: "This command only supports slash commands."
-    missingAppealReference: "Missing appeal reference."
-    whoops: "Whoops! Something went wrong. Please try again later."
-    missingArgument: "Missing argument: `{param}`."
-    notConnectedServer: "{cross} I could not find any connections for this server."
+    errorTitle: "त्रुटि!"
+    interactionCheck: "आप इस इंटरैक्शन का उपयोग नहीं कर सकते क्योंकि आपने इसे सक्रिय नहीं किया।"
+    rateLimited: "आपको रेट लिमिट किया गया है। थोड़ा शांत हो जाएँ।"
+    webhookRateLimit: "आपने वेबहुक निर्माण की सीमा को पार कर लिया है।"
+    invalidInput: "आपने वैध इनपुट प्रदान नहीं किया है।"
+    invalidInvite: "यह आमंत्रण अमान्य है, या समाप्त हो गया है।"
+    webhookError: "वेबहुक बनाने में असफल।"
+    notConnected: "मैं इस चैनल में कोई हब कनेक्शन नहीं ढूंढ सका।"
+    noInteraction: "यह कमांड केवल स्लैश कमांड का समर्थन करता है।"
+    missingAppealReference: "अपील संदर्भ गायब है।"
+    whoops: "अरे! कुछ गलती हो गई है। कृपया बाद में फिर से प्रयास करें।"
+    missingArgument: "आवश्यक तर्क गायब: `{param}`।"
+    notConnectedServer: "{cross} इस सर्वर के लिए कोई कनेक्शन नहीं मिला।"
   moderation:
     permissions:
-      managerRequired: "Manager+ permissions required."
+      managerRequired: "Manager+ अनुमतियाँ आवश्यक हैं।"
     target:
-      both: "Please specify either a user or a server, not both."
-      missing: "Please specify either a user or a server."
+      both: "कृपया केवल उपयोगकर्ता या सर्वर निर्दिष्ट करें, दोनों नहीं।"
+      missing: "कृपया उपयोगकर्ता या सर्वर निर्दिष्ट करें।"
     revoke:
-      noActive: "No active {action} found."
-      success: "Revoked {action}."
+      noActive: "कोई सक्रिय {action} नहीं मिला।"
+      success: "{action} रद्द कर दिया गया।"
     delete:
-      noMessage: "No message provided to delete."
-      success: "Message has been deleted from all connected hubs."
-      notInterChatMessage: "This message is not an InterChat message or has already been deleted."
-      failed: "Failed to delete the message. Please try again later."
-      notFound: "Infraction not found."
+      noMessage: "हटाने के लिए कोई संदेश प्रदान नहीं किया गया।"
+      success: "संदेश सभी कनेक्टेड हब्स से हटा दिया गया।"
+      notInterChatMessage: "यह संदेश InterChat संदेश नहीं है या पहले ही हटा दिया गया है।"
+      failed: "संदेश हटाने में विफल। कृपया बाद में पुनः प्रयास करें।"
+      notFound: "उल्लंघन नहीं मिला।"
     blacklist:
-      permissionDenied: "You lack InterChat staff permissions to issue a global blacklist."
-      alreadyActive: "Target already has an active global blacklist."
-      success: "Globally blacklisted {target}."
+      permissionDenied: "वैश्विक ब्लैकलिस्ट जारी करने के लिए आपके पास InterChat स्टाफ अनुमतियाँ नहीं हैं।"
+      alreadyActive: "लक्ष्य पर पहले से ही सक्रिय वैश्विक ब्लैकलिस्ट है।"
+      success: "वैश्विक रूप से {target} ब्लैकलिस्ट किया गया।"
     success:
-      action: '{target} has been {action} {prep} {hubName}'
+      action: '{target} को {action} {prep} {hubName}'
     errors:
-      selectedHubNotFound: "Selected hub not found."
-      processingFailed: "Failed to process moderation action: {error}"
-      unknownAction: "Unknown action."
-      unsupportedAction: "Unsupported action route."
-      openPanelFailed: "Unexpected error opening mod panel. Please try again later or report this to staff in the support server."
-      notModeratorForHub: "You are not a moderator for this hub."
-      alreadyState: "{targetType} is already {state} in this hub."
-      invalidHubData: "Invalid hub data."
-      originalMessageNotFound: "Original message not found in database."
-      fetchAuthorOrServerFailed: "Could not fetch message author or server."
-      hubNotFoundForMessage: "Hub not found for this message."
-      noModeratedHubs: "You don't have moderation permissions in any hubs."
-      noTarget: "Please specify a target (user/server) or reply to a message."
+      selectedHubNotFound: "चयनित हब नहीं मिला।"
+      processingFailed: "मॉडरेशन कार्रवाई प्रक्रिया में असफल: {error}"
+      unknownAction: "अज्ञात कार्रवाई।"
+      unsupportedAction: "समर्थित नहीं क्रिया मार्ग।"
+      openPanelFailed: "मॉड पैनल खोलने में अप्रत्याशित त्रुटि। कृपया बाद में पुनः प्रयास करें या समर्थन सर्वर में स्टाफ को रिपोर्ट करें।"
+      notModeratorForHub: "आप इस हब के लिए मॉडरेटर नहीं हैं।"
+      alreadyState: "{targetType} पहले से ही इस हब में {state} है।"
+      invalidHubData: "अमान्य हब डेटा।"
+      originalMessageNotFound: "मूल संदेश डेटाबेस में नहीं मिला।"
+      fetchAuthorOrServerFailed: "संदेश लेखक या सर्वर को लाने में असफल।"
+      hubNotFoundForMessage: "इस संदेश के लिए हब नहीं मिला।"
+      noModeratedHubs: "आपके पास किसी भी हब में मॉडरेशन अनुमतियाँ नहीं हैं।"
+      noTarget: "कृपया एक लक्ष्य निर्दिष्ट करें (उपयोगकर्ता/सर्वर) या संदेश का जवाब दें।"
   infractions:
     errors:
-      noPermission: "You do not have permission to view infractions for this hub."
-      bothSelection: "Please select only a user or a server, not both."
-      invalidServerId: "Invalid server ID."
+      noPermission: "इस हब के उल्लंघनों को देखने की अनुमति नहीं है।"
+      bothSelection: "कृपया केवल उपयोगकर्ता या सर्वर चुनें, दोनों नहीं।"
+      invalidServerId: "अमान्य सर्वर आईडी।"
     permissions:
-      insufficient: "You need {permission}+ permissions in this hub."
-      managerRequired: "Manager+ permissions required."
+      insufficient: "इस हब में आपको {permission}+ अनुमतियाँ चाहिए।"
+      managerRequired: "Manager+ अनुमतियाँ आवश्यक हैं।"
     target:
-      both: "Please specify either a user or a server, not both."
-      missing: "Please specify either a user or a server."
+      both: "कृपया केवल उपयोगकर्ता या सर्वर निर्दिष्ट करें, दोनों नहीं।"
+      missing: "कृपया उपयोगकर्ता या सर्वर निर्दिष्ट करें।"
     success:
-      action: "{action} {target} {prep} {hubName}."
+      action: "{action}{target}{prep}{hubName}"
     revoke:
-      noActive: "No active {action} found."
-      success: "Revoked {action}."
+      noActive: "कोई सक्रिय {action} नहीं मिला।"
+      success: "{action} रद्द कर दिया गया।"
     delete:
-      notImplemented: "Message delete not implemented yet. Reason recorded: {reason}"
-      notFound: "Infraction not found."
-      success: "Infraction deleted."
+      notImplemented: "संदेश हटाना अभी लागू नहीं हुआ। कारण रिकॉर्ड किया गया: {reason}"
+      notFound: "उल्लंघन नहीं मिला।"
+      success: "उल्लंघन हटा दिया गया।"
     blacklist:
-      permissionDenied: "You lack InterChat staff permissions to issue a global blacklist."
-      alreadyActive: "Target already has an active global blacklist."
-      success: "Globally blacklisted {target}."
+      permissionDenied: "वैश्विक ब्लैकलिस्ट जारी करने के लिए आपके पास InterChat स्टाफ अनुमतियाँ नहीं हैं।"
+      alreadyActive: "लक्ष्य पर पहले से ही सक्रिय वैश्विक ब्लैकलिस्ट है।"
+      success: "वैश्विक रूप से {target} ब्लैकलिस्ट किया गया।"
   report:
     errors:
-      processingFailed: "Encountered an error processing report! Please try again later."
-      notFoundOrDeleted: "Report not found or has been deleted."
-      alreadyHandled: "This report is already {status}."
-      updateFailed: "Failed to update report. Please try again later."
+      processingFailed: "रिपोर्ट प्रक्रिया में त्रुटि! कृपया बाद में पुनः प्रयास करें।"
+      notFoundOrDeleted: "रिपोर्ट नहीं मिली या हटाई जा चुकी है।"
+      alreadyHandled: "यह रिपोर्ट पहले ही {status} है।"
+      updateFailed: "रिपोर्ट अपडेट करने में असफल। कृपया बाद में प्रयास करें।"
     success:
-      actionPast: "Report {action}."
+      actionPast: "रिपोर्ट {action}।"
     dm:
-      resolved: "Thank you for your report. Our moderation team reviewed it and took appropriate action. We cannot share specific details to protect user privacy."
+      resolved: "आपकी रिपोर्ट के लिए धन्यवाद। हमारी मॉडरेशन टीम ने इसे समीक्षा की और उचित कार्रवाई की। उपयोगकर्ता की गोपनीयता बनाए रखने के लिए हम विशिष्ट विवरण साझा नहीं कर सकते।"
   welcome:
-    onGuildJoinTitle: "👋 Hey there!"
+    onGuildJoinTitle: "👋 नमस्ते!"
     onGuildJoinDescription: |
-      **I'm InterChat, and I'm pleased to be on your server on behalf of our team.**
-      Together, we can connect your server with other remarkable communities from across Discord. Numerous, potentially thousands of servers located in one place, all filled with individuals eager to engage in conversation with you. 🚀
+      **मैं InterChat हूँ, और हमारी टीम की ओर से आपके सर्वर पर आने पर प्रसन्न हूँ।**
+      हम साथ में आपके सर्वर को Discord के अन्य अद्भुत कम्युनिटीज़ से जोड़ सकते हैं। यहाँ एक जगह में कई, संभावित रूप से हजारों सर्वर, सभी लोगों से भरे हुए हैं जो आपसे बातचीत करने के लिए उत्सुक हैं। 🚀
 
-      **Ready to start building new bridges with us?**
-      {dot} **New here?** The `/setup` command provides a step-by-step guide to help you begin your journey.
-      {dot} **Ready to explore?** Visit our [discovery page](https://interchat.tech/hubs) to locate and become part of our lively hubs.
-      {dot} **Perhaps something you're more familiar with?** Try our `/call` for one on one connections.
+      **हमारे साथ नए पुल बनाने के लिए तैयार?**
+      {dot} **यहाँ नए हैं?** `/setup` कमांड स्टेप-बाय-स्टेप मार्गदर्शन प्रदान करता है।
+      {dot} **खोज शुरू करने के लिए तैयार?** हमारे [डिस्कवरी पेज](https://interchat.tech/hubs) पर जाएँ।
+      {dot} **कुछ और परिचित लगता है?** एक-से-एक कनेक्शन के लिए `/call` का प्रयास करें।
 
-      💝 **Lost? Require assistance?** We welcome you to our [support community](https://discord.gg/8DhUA4HNpD). Our team and our community will be pleased to offer their help. We offer as much support and assistance in whatever issues you may have, don't hesitate to join!
+      💝 **खो गए? सहायता चाहिए?** हमारे [सपोर्ट कम्युनिटी](https://discord.gg/8DhUA4HNpD) में आपका स्वागत है। हमारी टीम और समुदाय आपकी सहायता के लिए तैयार हैं।
   hubEvents:
     serverJoined:
-      title: "🎉 New Server Joined!"
-      description: "**{serverName}** has joined the hub! Let's give them a warm welcome to our community."
-      footer: "Welcome to {hubName}!"
+      title: "🎉 नया सर्वर जुड़ा!"
+      description: "**{serverName}** हब में शामिल हो गया! चलिए उन्हें समुदाय में गर्मजोशी से स्वागत करें।"
+      footer: "स्वागत है {hubName} में!"
   staff:
     blacklist:
-      notFound: "No matching blacklist entry was found."
-      removed: "Blacklist entry removed."
+      notFound: "कोई मिलती-जुलती ब्लैकलिस्ट प्रविष्टि नहीं मिली।"
+      removed: "ब्लैकलिस्ट प्रविष्टि हटा दी गई।"
   user:
     achievements:
-      placeholder: "Achievements here"
+      placeholder: "यहाँ उपलब्धियां दिखेंगी"
