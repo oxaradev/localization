@@ -1,18 +1,18 @@
 commands:
   about:
-    title: "About InterChat"
+    title: "InterChat के बारे में"
     description_text: "InterChat Discord समुदायों को सक्रिय क्रॉस-सर्वर चर्चाओं के माध्यम से जोड़ता है। संदेश सर्वरों के बीच वास्तविक समय में स्वाभाविक रूप से प्रवाहित होते हैं, जिससे आपको सक्रिय और विषय-केंद्रित समुदाय बनाने में मदद मिलती है।"
     support_text: "मदद चाहिए? सहायता के लिए हमारे सपोर्ट सर्वर से जुड़ें!"
     features:
       title: "विशेषताएँ"
       list: |
-        - Connect with other servers for active cross-server discussions
-        - Messages flow naturally between servers in real-time
-        - Build engaged topic-focused communities
-        - Moderation tools to keep discussions healthy
-        - Visual dashboard to manage your hubs, servers, and settings
+        - सक्रिय क्रॉस-सर्वर चर्चाओं के लिए अन्य सर्वरों से जुड़ें 
+        - संदेश सर्वरों के बीच वास्तविक समय में स्वाभाविक रूप से प्रवाहित होते हैं 
+        - सक्रिय और विषय-केंद्रित समुदाय बनाएं 
+        - चर्चाओं को स्वस्थ बनाए रखने के लिए संयम उपकरण 
+        - अपने हब, सर्वर और सेटिंग्स को प्रबंधित करने के लिए दृश्य डैशबोर्ड
     buttons:
-      vote: "Vote on top.gg"
+      vote: "top.gg पर वोट करें"
       invite: "Invite InterChat"
       dashboard: "Open Dashboard"
       support: "Join Support"
