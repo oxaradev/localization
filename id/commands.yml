@@ -1,16 +1,13 @@
 commands:
   about:
-    title: "About InterChat"
-    description_text: "InterChat connects Discord communities through active cross-server discussions. Messages flow naturally between servers in real-time, helping you build engaged topic-focused communities."
+    title: "Tentang Interchat"
+    description_text: "Interchat menkoneksi kommunitas di Discord melalui server-server yang active yang berdiskusi. Pesan-Pesan mengalir dengan natural di antara server-server di waktu cepat, membantu kamu membangun topik yang terlibat kommunitas."
     support_text: "Need help? Join our support server for assistance!"
     features:
       title: "Features"
       list: |
-        - Connect with other servers for active cross-server discussions
-        - Messages flow naturally between servers in real-time
-        - Build engaged topic-focused communities
-        - Moderation tools to keep discussions healthy
-        - Visual dashboard to manage your hubs, servers, and settings
+        - Menghubungkan dengan server-server yang lain untuk aktif server yang berlintas 
+        - Pesan-pesan mengalir antara server-server yang lain di waktu cepat
     buttons:
       vote: "Vote on top.gg"
       invite: "Invite InterChat"
