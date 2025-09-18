@@ -2,38 +2,38 @@ commands:
   about:
     title: "Tentang Interchat"
     description_text: "Interchat menkoneksi kommunitas di Discord melalui server-server yang active yang berdiskusi. Pesan-Pesan mengalir dengan natural di antara server-server di waktu cepat, membantu kamu membangun topik yang terlibat kommunitas."
-    support_text: "Need help? Join our support server for assistance!"
+    support_text: "Butuh bantu? Bergabunglah dengan support server kami untuk bantuan!"
     features:
-      title: "Features"
+      title: "Fitur"
       list: |
         - Menghubungkan dengan server-server yang lain untuk aktif server yang berlintas 
         - Pesan-pesan mengalir antara server-server yang lain di waktu cepat
     buttons:
-      vote: "Vote on top.gg"
-      invite: "Invite InterChat"
-      dashboard: "Open Dashboard"
-      support: "Join Support"
-      shardInfo: "Shard Info"
+      vote: "Memililah untuk kita di top.gg"
+      invite: "Mengundang Interchat"
+      dashboard: "Membukai Dashboard"
+      support: "Bergabung Dukungan"
+      shardInfo: "Informasi Pecahan"
   setup:
     welcome:
-      title: "Welcome to InterChat Setup"
-      description: "Let's get your server connected. This wizard will guide you through creating or joining a hub."
+      title: "Selamat datang ke InterChat Setup"
+      description: "Ayuk mulai menkoneksi server kamu. Penyihir ini akan memandu kamu ke menciptakan atau bergabung dengan hub yang lain."
     options:
       create:
-        label: "Create a Hub"
-        description: "Start your own InterChat community"
+        label: "Menciptakan hub"
+        description: "Memulai komunitas Interchat kamu sendiri"
       join:
-        label: "Join a Hub"
-        description: "Connect to an existing community"
+        label: "Bergabung dengan hub"
+        description: "Menhubung ke komunitas yang sudah ada"
     create:
       whatYoullCreate:
-        title: "What You'll Create:"
-        description: "{dot} A unique community space for your servers\n{dot} Complete control over rules and moderation\n{dot} Custom settings and features\n{dot} Private by default - invite only"
+        title: "Apa yang kamu akan menciptakan:"
+        description: "{dot} Komunitas yang unik untuk server kamu\n{dot} Kontrol penuh atas aturan dan moderasi\n{dot}"
       youllNeed:
         title: "You'll Need:"
         description: "{arrow_right} Creative hub name\n{arrow_right} Brief description\n{arrow_right} Detailed description\n{arrow_right} Logo image URL"
     join:
-      title: "Join a Hub"
+      title: "Bergabung dengan hub"
       description: "Use the public directory or connect with an invite code."
       publicHubs:
         title: "Public Hubs"
