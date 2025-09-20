@@ -1,53 +1,50 @@
 commands:
   about:
-    title: "InterChat के बारे में"
-    description_text: "InterChat Discord समुदायों को सक्रिय क्रॉस-सर्वर चर्चाओं के माध्यम से जोड़ता है। संदेश सर्वरों के बीच वास्तविक समय में स्वाभाविक रूप से प्रवाहित होते हैं, जिससे आपको सक्रिय और विषय-केंद्रित समुदाय बनाने में मदद मिलती है।"
-    support_text: "मदद चाहिए? सहायता के लिए हमारे सपोर्ट सर्वर से जुड़ें!"
+    title: "Tentang Interchat"
+    description_text: "Interchat menkoneksi kommunitas di Discord melalui server-server yang aktif dan suka berdiskusi. Pesan-Pesan mengalir dengan natural di antara server-server di waktu cepat, membantu kamu membangun topik yang terlibat kommunitas."
+    support_text: "Butuh bantu? Bergabunglah dengan server dukungan kami untuk bantuan!"
     features:
-      title: "विशेषताएँ"
+      title: "Fitur"
       list: |
-        - सक्रिय क्रॉस-सर्वर चर्चाओं के लिए अन्य सर्वरों से जुड़ें 
-        - संदेश सर्वरों के बीच वास्तविक समय में स्वाभाविक रूप से प्रवाहित होते हैं 
-        - सक्रिय और विषय-केंद्रित समुदाय बनाएं 
-        - चर्चाओं को स्वस्थ बनाए रखने के लिए संयम उपकरण 
-        - अपने हब, सर्वर और सेटिंग्स को प्रबंधित करने के लिए दृश्य डैशबोर्ड
+        - Menghubungkan dengan server-server yang lain untuk aktif server yang berlintas 
+        - Pesan-pesan mengalir antara server-server yang lain di waktu cepat
     buttons:
-      vote: "top.gg पर वोट करें"
-      invite: "InterChat को बुलाएँ"
-      dashboard: "डैशबोर्ड खोलें"
-      support: "सहायता सर्वर से जुड़ें"
-      shardInfo: "Shard जानकारी"
+      vote: "Memililah untuk kita di top.gg"
+      invite: "Mengundang Interchat"
+      dashboard: "Membukai Dashboard"
+      support: "Bergabung Dukungan"
+      shardInfo: "Informasi Pecahan"
   setup:
     welcome:
-      title: "InterChat सेटअप में आपका स्वागत है"
-      description: "आइए आपके सर्वर को कनेक्ट करें। यह विज़ार्ड आपको एक हब बनाने या उसमें शामिल होने में मदद करेगा।"
+      title: "Selamat datang ke InterChat Setup"
+      description: "Ayuk mulai menkoneksi server kamu. Penyihir ini akan memandu kamu ke menciptakan atau bergabung dengan hub yang lain."
     options:
       create:
-        label: "हब बनाएं"
-        description: "अपना खुद का InterChat समुदाय शुरू करें"
+        label: "Menciptakan pusat"
+        description: "Memulai komunitas Interchat kamu sendiri"
       join:
-        label: "हब से जुड़ें"
-        description: "किसी मौजूदा समुदाय से जुड़ें"
+        label: "Bergabung dengan pusat"
+        description: "Menhubung ke komunitas yang sudah ada"
     create:
       whatYoullCreate:
-        title: "आप क्या बनाएँगे:"
-        description: "{dot} आपके सर्वरों के लिए एक अनोखा सामुदायिक स्थान\n{dot} नियमों और संचालन पर पूरा नियंत्रण\n{dot} कस्टम सेटिंग्स और फीचर्स\n{dot} डिफ़ॉल्ट रूप से निजी - केवल आमंत्रण द्वारा"
+        title: "Apa yang kamu akan menciptakan:"
+        description: "{dot} Komunitas yang unik untuk server kamu\n{dot} Kontrol penuh atas aturan dan moderasi\n{dot}"
       youllNeed:
-        title: "आपको आवश्यकता होगी:"
-        description: "{arrow_right} रचनात्मक हब नाम  \n{arrow_right} संक्षिप्त विवरण  \n{arrow_right} विस्तृत विवरण  \n{arrow_right} लोगो इमेज URL  "
+        title: "You'll Need:"
+        description: "{arrow_right} Creative hub name\n{arrow_right} Brief description\n{arrow_right} Detailed description\n{arrow_right} Logo image URL"
     join:
-      title: "हब से जुड़ें"
-      description: "सार्वजनिक डायरेक्टरी का उपयोग करें या निमंत्रण कोड के साथ कनेक्ट करें।"
+      title: "Bergabung dengan pusat "
+      description: "Use the public directory or connect with an invite code."
       publicHubs:
-        title: "पब्लिक हब्स"
-        description: "**ब्राउज़ करें** [interchat.tech/hubs](https://interchat.tech/hubs)  \n**या नीचे दिए गए बटन पर क्लिक करें** डायरेक्टरी खोलने के लिए"
+        title: "Public Hubs"
+        description: "**Browse** [interchat.tech/hubs](https://interchat.tech/hubs)\n**Or click** the button below to open the directory"
       privateHubs:
-        title: "निजी या केवल आमंत्रण द्वारा"
-        description: "**हब के मालिक या प्रबंधक से पूछें** आमंत्रण कोड के लिए  \n**अपने सर्वर में `/connect <निमंत्रण कोड>` चलाएँ** शामिल होने के लिए\n"
-      footer: "आप कभी भी और हब में शामिल हो सकते हैं, और आप एक ही समय में विभिन्न चैनलों में कई हब से जुड़े हो सकते हैं।"
+        title: "Private or Invite-only"
+        description: "**Ask the hub owner or manager** for an invite code\n**Run `/connect <invite-code>`** in your server to join"
+      footer: "You can join more hubs anytime, and you can be connected to multiple hubs at once in different channels."
     nextSteps:
       created:
-        title: "हब सफलतापूर्वक बनाया गया!"
+        title: "Hub Created Successfully!"
         description: |
           Your hub **{hubName}** is ready! Here's what you can do next:
           - Invite your first server using `/invite`

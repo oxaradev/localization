@@ -72,9 +72,8 @@ responses:
       noActive: "No active {action} found."
       success: "Revoked {action}."
     delete:
-      notImplemented: "Message delete not implemented yet. Reason recorded: {reason}"
       noMessage: "No message provided to delete."
-      success: "Message {messageId} has been deleted from all connected hubs."
+      success: "Message has been deleted from all connected hubs."
       notInterChatMessage: "This message is not an InterChat message or has already been deleted."
       failed: "Failed to delete the message. Please try again later."
       notFound: "Infraction not found."
