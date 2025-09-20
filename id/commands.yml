@@ -1,8 +1,8 @@
 commands:
   about:
     title: "Tentang Interchat"
-    description_text: "Interchat menkoneksi kommunitas di Discord melalui server-server yang active yang berdiskusi. Pesan-Pesan mengalir dengan natural di antara server-server di waktu cepat, membantu kamu membangun topik yang terlibat kommunitas."
-    support_text: "Butuh bantu? Bergabunglah dengan support server kami untuk bantuan!"
+    description_text: "Interchat menkoneksi kommunitas di Discord melalui server-server yang aktif dan suka berdiskusi. Pesan-Pesan mengalir dengan natural di antara server-server di waktu cepat, membantu kamu membangun topik yang terlibat kommunitas."
+    support_text: "Butuh bantu? Bergabunglah dengan server dukungan kami untuk bantuan!"
     features:
       title: "Fitur"
       list: |
@@ -23,7 +23,7 @@ commands:
         label: "Menciptakan pusat"
         description: "Memulai komunitas Interchat kamu sendiri"
       join:
-        label: "Bergabung dengan hub"
+        label: "Bergabung dengan pusat"
         description: "Menhubung ke komunitas yang sudah ada"
     create:
       whatYoullCreate:
@@ -33,7 +33,7 @@ commands:
         title: "You'll Need:"
         description: "{arrow_right} Creative hub name\n{arrow_right} Brief description\n{arrow_right} Detailed description\n{arrow_right} Logo image URL"
     join:
-      title: "Bergabung dengan hub"
+      title: "Bergabung dengan pusat "
       description: "Use the public directory or connect with an invite code."
       publicHubs:
         title: "Public Hubs"
