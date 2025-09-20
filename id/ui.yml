@@ -498,65 +498,65 @@ ui:
           description: "Transfer your hub's ownership to another person"
         announcements:
           label: "Scheduled Announcements"
-          description: "Configure automatic scheduled announcements for your hub"
+          description: "Konfigurasikan jadwal yang otomatis untuk pusat kamu"
     all:
-      title: "InterChat Hubs"
-      description: "Below you will be able search through a list of all our hubs! Check them out, see who you find."
-      filteredBy: 'Results filtered by: {filter}'
+      title: "Pusat Interchat"
+      description: "Di bawah ini, Anda dapat menelusuri daftar semua hub kami! Lihat, siapa yang Anda temukan."
+      filteredBy: 'Hasil yang di filter oleh: {filter}'
       errors:
-        notFound: "Uh oh! I was unable to find any hubs. That's probably not supposed to happen. Please contact our [support team]({supportServer})."
-        invalidFilter: "Crickets... no hubs match your filter."
+        notFound: "Uh oh! Saya tidak berhasil menumui pusat-pusat. Itu mungkin tidak seharusnya terjadi. Tolong contact [support team]({supportServer}) kami."
+        invalidFilter: "Crickets... tidak ada hub yang cocok dengan filter Anda."
       modal:
-        title: 'Search Filter'
+        title: 'Cari Filter'
         searchFilter:
           label: 'Filter'
-          placeholder: 'InterChat Central'
+          placeholder: 'Pusat Interchat'
     rules:
-      title: "Hub Rules Management"
-      description: "Manage your hub's community rules and guidelines below."
-      noRules: "No rules have been set for this hub yet."
+      title: "Manajemen Aturan Pusat"
+      description: "Mengelola aturan dan pedoman komunitas anda di bawah ini."
+      noRules: "Belum ada aturan yang ditetapkan untuk pusat ini."
       selectRule:
-        placeholder: "Select a rule to edit or delete..."
+        placeholder: "Pilih aturan untuk diedit atau dihapus..."
       addRule:
-        label: "Add Rule"
+        label: "Tambahin Aturan"
         modal:
-          title: "Add New Rule"
-          placeholder: "Enter your new rule here..."
+          title: "Tambahin Aturan Baru"
+          placeholder: "Masukin aturan kamu yang baru di sini..."
       editRule:
-        label: "Edit Rule"
+        label: "Edit Aturan"
         modal:
-          title: "Edit Rule"
-          placeholder: "Enter your updated rule here..."
+          title: "Edit Aturan"
+          placeholder: "Masukan rule yang anda update di sini..."
       deleteRule:
-        label: "Delete Rule"
-        confirmation: "Are you sure you want to delete this rule?"
+        label: "Hapus Aturan"
+        confirmation: "Apakah anda yakin mau hapus aturan ini?"
       moveUp:
-        label: "Move Up"
+        label: "Naik ke atas"
       moveDown:
-        label: "Move Down"
+        label: "Naik ke bawah"
       viewAll:
-        label: "View All Rules"
+        label: "Lihat Semua Aturan"
       validation:
-        empty: "Rule cannot be empty."
-        tooLong: "Rule must be {maxLength} characters or less."
-        maxRules: "Maximum of {maxRules} rules allowed."
+        empty: "Aturan tidak bisa kosong."
+        tooLong: "Aturan harus jadi {maxLength} karakter atau kurang."
+        maxRules: "Maksimum untuk {maxRules} aturan yang di bolehkan."
       success:
-        added: "Rule added successfully!"
-        updated: "Rule updated successfully!"
-        deleted: "Rule deleted successfully!"
-        moved: "Rule moved successfully!"
+        added: "Aturan berhasil di tambah!"
+        updated: "Aturan berhasil di ganti!"
+        deleted: "Aturan berhasil dihapus!"
+        moved: "Aturan berhasil di dipindahkan!"
       errors:
-        maxRulesReached: "Max Rules Reached ({maxRules})"
-        noRulesAvailable: "No rules available to select"
-        sessionExpired: "Session Expired"
-        sessionExpiredDescription: "This configuration session has expired. Please run the command again to continue managing rules."
-        actionCancelled: "Action Cancelled"
-        actionCancelledDescription: "Rule action has been cancelled. No changes were made."
-        ruleNotFound: "Invalid rule selection. The rule may have been deleted by another user."
-        invalidRuleSelection: "Invalid rule selection. Please try again."
-        processingError: "An error occurred while processing your request. Please try again."
-        refreshError: "An error occurred while refreshing. Please try again."
-        navigationError: "An error occurred while navigating. Please try again."
+        maxRulesReached: "Aturan Maksimum Tercapai ({maxRules})"
+        noRulesAvailable: "Tidak ada aturan yang bisa di pilih"
+        sessionExpired: "Sesi Sudah Berakhir"
+        sessionExpiredDescription: "Sesi konfigurasi ini telah berakhir. Silakan jalankan kembali perintah tersebut untuk melanjutkan pengelolaan aturan."
+        actionCancelled: "Aksi Dibatalkan"
+        actionCancelledDescription: "Aksi Aturan sudah dibatalkan. Tidak ada perubahaan yang dilakukan."
+        ruleNotFound: "Bagian aturan tidak sah. Aturannya mungkin sudah dihapus oleh user lain."
+        invalidRuleSelection: "Bagian aturan tidak sah. Mohon coba lagi."
+        processingError: "Sebuah kesalahan terjadi saat pengolahan permintaan anda. Mohon coba lagi."
+        refreshError: "Ada kesalahan terjadi saat menyegarkan situs webnya. Mohon coba lagi."
+        navigationError: "Ada kesalahan terjadi saat bernavigasi. Mohon coba lagi."
         selectionError: "An error occurred while selecting the rule. Please try again."
         deletionCancelled: "Cancelled"
         deletionCancelledDescription: "Rule deletion has been cancelled. No changes were made."
