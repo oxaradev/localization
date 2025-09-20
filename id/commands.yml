@@ -20,7 +20,7 @@ commands:
       description: "Ayuk mulai menkoneksi server kamu. Penyihir ini akan memandu kamu ke menciptakan atau bergabung dengan hub yang lain."
     options:
       create:
-        label: "Menciptakan hub"
+        label: "Menciptakan pusat"
         description: "Memulai komunitas Interchat kamu sendiri"
       join:
         label: "Bergabung dengan hub"
