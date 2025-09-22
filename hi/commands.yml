@@ -49,148 +49,148 @@ commands:
       created:
         title: "हब सफलतापूर्वक बनाया गया!"
         description: |
-          Your hub **{hubName}** is ready! Here's what you can do next:
-          - Invite your first server using `/invite`
-          - Set rules with `/rules set`
-          - Customize settings in the [dashboard](https://interchat.tech/dashboard)
-          - Connect channels with `/connect <hub-name>`
+          आपका हब **{hubName}** तैयार है! अब आप ये कर सकते हैं:
+          - अपना पहला सर्वर `/invite` का उपयोग करके आमंत्रित करें
+          - `/rules set` के साथ नियम सेट करें
+          - [डैशबोर्ड](https://interchat.tech/dashboard) में सेटिंग्स अनुकूलित करें
+          - `/connect <hub-name>` के साथ चैनल कनेक्ट करें
         inviteLink:
-          title: "Next: Create Invite Links"
-          description: "Use {hubInviteCommand} to generate invite codes for **{hubName}** and share them with other server owners."
+          title: "अगला: आमंत्रण लिंक बनाएँ"
+          description: "{hubInviteCommand} का उपयोग करके **{hubName}** के लिए आमंत्रण कोड जनरेट करें और उन्हें अन्य सर्वर मालिकों के साथ साझा करें।"
         shareHub:
-          title: "Share Your Hub"
-          description: "{dot} Post about your new hub in our [Support Server]({supportInvite})\n{dot} Share with friends and communities\n{dot} Use social media to spread the word"
+          title: "अपने हब को साझा करें"
+          description: "{dot} हमारे [सपोर्ट सर्वर]({supportInvite}) में अपने नए हब के बारे में पोस्ट करें\n{dot} दोस्तों और समुदायों के साथ साझा करें\n{dot} जानकारी फैलाने के लिए सोशल मीडिया का उपयोग करें"
         proTips:
-          title: "{dot} Pro Tips"
-          description: "{dot} Visit the [Dashboard]({website}) for advanced settings\n{dot} Use {hubVisibilityCommand} to make your hub public\n{dot} Join our [Support Server]({supportInvite}) for help and updates"
-        footer: "Need help? Join our support server."
+          title: "{dot} प्रो टिप्स"
+          description: "{dot} उन्नत सेटिंग्स के लिए [डैशबोर्ड]({website}) देखें\n{dot} अपने हब को सार्वजनिक करने के लिए {hubVisibilityCommand} का उपयोग करें\n{dot} मदद और अपडेट के लिए हमारे [सपोर्ट सर्वर]({supportInvite}) से जुड़ें"
+        footer: "मदद चाहिए? हमारे सपोर्ट सर्वर से जुड़ें।"
   report:
-    title: "Report Message"
-    footer: "Reports help keep InterChat safe for everyone"
-    contextMenu: "Report Message"
-    description: "Report {user} to **Hub Staff** for hub violations or **InterChat Staff** for platform violations. The user won't be notified, but moderators can see who has submit the report."
+    title: "संदेश रिपोर्ट करें"
+    footer: "रिपोर्ट InterChat को सभी के लिए सुरक्षित बनाए रखने में मदद करती हैं"
+    contextMenu: "संदेश रिपोर्ट करें"
+    description: "{user} को **हब स्टाफ** को हब उल्लंघनों के लिए या **InterChat स्टाफ** को प्लेटफ़ॉर्म उल्लंघनों के लिए रिपोर्ट करें। उपयोगकर्ता को सूचित नहीं किया जाएगा, लेकिन मॉडरेटर देख सकते हैं कि रिपोर्ट किसने जमा की।"
     success:
-      title: "Report Submitted"
-      toStaff: "{tick} Your report has been sent to InterChat staff for review."
-      toHub: "{tick} Your report has been sent to hub moderators for review."
+      title: "रिपोर्ट जमा हो गई"
+      toStaff: "{tick} आपकी रिपोर्ट InterChat स्टाफ को समीक्षा के लिए भेज दी गई है।"
+      toHub: "{tick} आपकी रिपोर्ट हब मॉडरेटरों को समीक्षा के लिए भेज दी गई है।"
     errors:
-      hubMessageOnly: "{x_icon} You can only report messages sent through InterChat hubs."
-      cannotReportSelf: "{x_icon} You cannot report your own messages."
+      hubMessageOnly: "{x_icon} आप केवल InterChat हब्स के माध्यम से भेजे गए संदेशों की रिपोर्ट कर सकते हैं।"
+      cannotReportSelf: "{x_icon} आप अपने खुद के संदेशों की रिपोर्ट नहीं कर सकते।"
   hubCreate:
     success:
-      description: "Your hub **{hubName}** is ready! Here's what you can do next:"
+      description: "आपका हब **{hubName}** तैयार है! अब आप ये कर सकते हैं:"
     errors:
-      hubCreationFailed: "Something went wrong while creating your hub. Please try again."
-      troubleshooting: "What you can do:"
-      troubleshootingSteps: "• Check that your logo URL is valid\n• Try again in a few moments\n• Contact support if this persists"
+      hubCreationFailed: "हब बनाते समय कुछ गलत हो गया। कृपया पुनः प्रयास करें।"
+      troubleshooting: "आप क्या कर सकते हैं:"
+      troubleshootingSteps: "• जाँचें कि आपका लोगो URL मान्य है\n• कुछ देर बाद पुनः प्रयास करें\n• यदि समस्या बनी रहती है तो सपोर्ट से संपर्क करें"
   general:
     invite:
-      title: "Hey!"
-      description: "Thanks for choosing InterChat. Need help? Join our support server. Use the buttons below to invite our bot to your server and start connecting servers."
+      title: "नमस्ते!"
+      description: "InterChat चुनने के लिए धन्यवाद। मदद चाहिए? हमारे सपोर्ट सर्वर से जुड़ें। नीचे दिए गए बटनों का उपयोग करके हमारे बॉट को अपने सर्वर में आमंत्रित करें और सर्वरों को कनेक्ट करना शुरू करें।"
   stats:
-    title: "InterChat Metrics"
+    title: "InterChat आँकड़े"
     shard:
-      title: "Shard Information"
-      statusReady: "Ready"
-      statusProvisioning: "Provisioning..."
-      current: "Current Shard: #{id}"
+      title: "Shard जानकारी"
+      statusReady: "तैयार"
+      statusProvisioning: "प्रावधान हो रहा है..."
+      current: "वर्तमान Shard: #{id}"
   help:
-    title: "InterChat Commands"
-    description: "Explore our wide range of commands to help you, and your community connect with others."
-    noDescription: "No description"
-    name: "Help"
+    title: "InterChat कमांड्स"
+    description: "हमारे व्यापक कमांड्स की सूची देखें जो आपको और आपके समुदाय को दूसरों से जुड़ने में मदद करती है।"
+    noDescription: "कोई विवरण नहीं"
+    name: "मदद"
   staff:
     blacklist:
       list:
-        description: "View blacklist entries filtered by users or servers"
+        description: "उपयोगकर्ताओं या सर्वरों के आधार पर ब्लैकलिस्ट प्रविष्टियाँ देखें"
     get:
-      description: "Get information about InterChat entities"
+      description: "InterChat संस्थाओं के बारे में जानकारी प्राप्त करें"
       server:
-        description: "Get detailed information about a server"
+        description: "किसी सर्वर के बारे में विस्तृत जानकारी प्राप्त करें"
       hub:
-        description: "Get detailed information about a hub"
+        description: "किसी हब के बारे में विस्तृत जानकारी प्राप्त करें"
       user:
-        description: "Get detailed information about a user"
+        description: "किसी उपयोगकर्ता के बारे में विस्तृत जानकारी प्राप्त करें"
   profile:
     achievements:
-      noneFound: "None Found"
-      noneFoundDescription: "I could not find any achievements for this user!"
+      noneFound: "कुछ नहीं मिला"
+      noneFoundDescription: "मुझे इस उपयोगकर्ता के लिए कोई उपलब्धि नहीं मिली!"
     badges:
-      noneFound: "None Found"
-      noneFoundDescription: "I could not find any badges for this user!"
+      noneFound: "कुछ नहीं मिला"
+      noneFoundDescription: "मुझे इस उपयोगकर्ता के लिए कोई बैज नहीं मिला!"
   leaderboard:
-    staffTag: "InterChat Staff"
-    userTag: "User"
-    messagesColumn: "Messages"
-    voteCountColumn: "Vote Count"
+    staffTag: "InterChat स्टाफ"
+    userTag: "उपयोगकर्ता"
+    messagesColumn: "संदेश"
+    voteCountColumn: "वोट संख्या"
   my:
     hubs:
-      title: "Your Hubs"
-      description: "Here are the hubs you own or moderate:"
-      position: "Position:"
-      owner: "Owner"
+      title: "आपके हब्स"
+      description: "यहाँ वे हब्स हैं जिन्हें आप स्वामित्व या मॉडरेट करते हैं:"
+      position: "स्थिति:"
+      owner: "मालिक"
   appeal:
-    title: "Your Appealable Infractions"
-    description: "Select an infraction below to submit an appeal, or view the status of existing appeals."
+    title: "आपकी अपील योग्य उल्लंघनाएँ"
+    description: "नीचे एक उल्लंघन चुनें अपील जमा करने के लिए, या मौजूदा अपीलों की स्थिति देखें।"
     noInfractions:
-      title: "No Active Infractions"
-      description: "You have no active infractions that can be appealed."
-    notAppealable: "This infraction is no longer appealable."
+      title: "कोई सक्रिय उल्लंघन नहीं"
+      description: "आपके पास कोई सक्रिय उल्लंघन नहीं है जो अपील योग्य हो।"
+    notAppealable: "यह उल्लंघन अब अपील योग्य नहीं है।"
   mod:
     panel:
-      description: "Open the moderation panel for users, messages, or servers"
-      contextMenu: "Mod Panel"
+      description: "उपयोगकर्ताओं, संदेशों, या सर्वरों के लिए मॉडरेशन पैनल खोलें"
+      contextMenu: "मॉड पैनल"
     ban:
-      description: "Ban a user or server from a hub."
+      description: "किसी उपयोगकर्ता या सर्वर को हब से प्रतिबंधित करें।"
     mute:
-      description: "Mute a user or server from a hub."
+      description: "किसी उपयोगकर्ता या सर्वर को हब से म्यूट करें।"
     warn:
-      description: "Warn a user or server from a hub."
+      description: "किसी उपयोगकर्ता या सर्वर को हब से चेतावनी दें।"
     unmute:
-      description: "Revoke active mute infractions for a user or server in a hub."
+      description: "किसी उपयोगकर्ता या सर्वर के सक्रिय म्यूट को हब में रद्द करें।"
     unban:
-      description: "Revoke active ban infractions for a user or server in a hub."
+      description: "किसी उपयोगकर्ता या सर्वर के सक्रिय प्रतिबंध को हब में रद्द करें।"
     delete:
-      description: "Delete an InterChat message using a Discord message link."
+      description: "Discord संदेश लिंक का उपयोग करके एक InterChat संदेश हटाएँ।"
     delete_infraction:
-      description: "Delete an infraction (Manager+ only)."
+      description: "एक उल्लंघन हटाएँ (केवल प्रबंधक+ के लिए)।"
   infractions:
-    description: "View infractions in a hub, filtered by user or server."
+    description: "हब में उल्लंघन देखें, उपयोगकर्ता या सर्वर द्वारा फ़िल्टर किए गए।"
   rules:
-    description: "View the rules for a hub"
-    title: "{hubName} Rules"
+    description: "किसी हब के नियम देखें"
+    title: "{hubName} नियम"
     noRules:
-      title: "No Rules Set"
-      description: "No rules have been set for this hub yet."
-    footer: "{count} rule{plural} • Follow these guidelines to maintain a positive community"
+      title: "कोई नियम सेट नहीं किए गए"
+      description: "इस हब के लिए अभी तक कोई नियम सेट नहीं किए गए हैं।"
+    footer: "{count} नियम{plural} • सकारात्मक समुदाय बनाए रखने के लिए इन दिशानिर्देशों का पालन करें"
     errors:
-      noHub: "This command must be used in a server channel connected to a hub, or you must specify a hub name."
-      notConnected: "This channel is not connected to any hub. Please specify a hub name or use this command in a connected channel."
-      hubNotFound: "Hub \"{hubName}\" not found."
+      noHub: "यह कमांड किसी ऐसे सर्वर चैनल में उपयोग की जानी चाहिए जो किसी हब से जुड़ा हो, या आपको एक हब नाम निर्दिष्ट करना होगा।"
+      notConnected: "यह चैनल किसी भी हब से जुड़ा नहीं है। कृपया हब नाम निर्दिष्ट करें या इस कमांड का उपयोग किसी जुड़े हुए चैनल में करें।"
+      hubNotFound: "हब \"{hubName}\" नहीं मिला।"
   connections:
-    title: "Connection Management"
-    description: "Configure, and administrate all hub connections within this server."
+    title: "कनेक्शन प्रबंधन"
+    description: "इस सर्वर के भीतर सभी हब कनेक्शनों को कॉन्फ़िगर और प्रबंधित करें।"
     fields:
-      lastActive: "Last Active"
+      lastActive: "अंतिम सक्रिय"
     selected:
-      description: "You may now edit this connection. Use the below dropdowns to either change the broadcast channel, or edit settings regarding the connection."
+      description: "अब आप इस कनेक्शन को संपादित कर सकते हैं। नीचे दिए गए विकल्पों का उपयोग करके प्रसारण चैनल बदलें या कनेक्शन से संबंधित सेटिंग्स संपादित करें।"
       fields:
-        broadcastChannel: 'Broadcasting to'
-        connectionState: 'Broadcast state'
-        lastActive: 'Last Active'
+        broadcastChannel: 'प्रसारण चैनल'
+        connectionState: 'प्रसारण स्थिति'
+        lastActive: 'अंतिम सक्रिय'
       state:
-        enabled: 'Broadcasts are now **active**.'
-        disabled: 'Broadcasts are now **paused**.'
+        enabled: 'प्रसारण अब **सक्रिय** हैं।'
+        disabled: 'प्रसारण अब **रुके हुए** हैं।'
     fix:
-      title: 'Connection Validation'
-      description: 'All connections within this guild have been validated. See below for more information.'
+      title: 'कनेक्शन मान्यता'
+      description: 'इस गिल्ड के भीतर सभी कनेक्शनों को मान्य किया गया है। अधिक जानकारी के लिए नीचे देखें।'
       responses:
         success:
-          fixed: 'Fixed connection!'
-          valid: 'No issues found.'
+          fixed: 'कनेक्शन ठीक कर दिया गया!'
+          valid: 'कोई समस्या नहीं मिली।'
         errors:
-          channelDeleted: 'The channel associated with this hub has been deleted. Connection removed.'
-          permissionsWebhook: 'I am unable to webhooks, please review my permissions and try again.'
-          permissionsView: 'I am unable to view channel, please review my permissions and try again.'
-          permissionsSend: 'I am unable to send messages, please review my permissions and try again.'
+          channelDeleted: 'इस हब से जुड़ा चैनल हटा दिया गया है। कनेक्शन हटा दिया गया।'
+          permissionsWebhook: 'मैं वेबहुक्स उपयोग नहीं कर पा रहा हूँ, कृपया मेरी अनुमतियाँ जाँचें और पुनः प्रयास करें।'
+          permissionsView: 'मैं चैनल देख नहीं पा रहा हूँ, कृपया मेरी अनुमतियाँ जाँचें और पुनः प्रयास करें।'
+          permissionsSend: 'मैं संदेश भेज नहीं पा रहा हूँ, कृपया मेरी अनुमतियाँ जाँचें और पुनः प्रयास करें।'
 
