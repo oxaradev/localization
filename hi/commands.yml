@@ -34,13 +34,13 @@ commands:
         description: "{dot} आपके सर्वरों के लिए एक अनोखा सामुदायिक स्थान\n{dot} नियमों और संचालन पर पूरा नियंत्रण\n{dot} कस्टम सेटिंग्स और फीचर्स\n{dot} डिफ़ॉल्ट रूप से निजी - केवल आमंत्रण द्वारा"
       youllNeed:
         title: "आपको आवश्यकता होगी:"
-        description: "{arrow_right} रचनात्मक हब नाम  \n{arrow_right} संक्षिप्त विवरण  \n{arrow_right} विस्तृत विवरण  \n{arrow_right} लोगो इमेज URL  "
+        description: "{arrow_right} रचनात्मक हब नाम\n{arrow_right} संक्षिप्त विवरण\n{arrow_right} विस्तृत विवरण\n{arrow_right} लोगो इमेज URL"
     join:
       title: "हब से जुड़ें"
       description: "सार्वजनिक डायरेक्टरी का उपयोग करें या निमंत्रण कोड के साथ कनेक्ट करें।"
       publicHubs:
         title: "पब्लिक हब्स"
-        description: "**ब्राउज़ करें** [interchat.tech/hubs](https://interchat.tech/hubs)  \n**या नीचे दिए गए बटन पर क्लिक करें** डायरेक्टरी खोलने के लिए"
+        description: "**ब्राउज़ करें** [interchat.tech/hubs](https://interchat.tech/hubs)\n**या नीचे दिए गए बटन पर क्लिक करें** डायरेक्टरी खोलने के लिए"
       privateHubs:
         title: "निजी या केवल आमंत्रण द्वारा"
         description: "**हब के मालिक या प्रबंधक से पूछें** आमंत्रण कोड के लिए  \n**अपने सर्वर में `/connect <निमंत्रण कोड>` चलाएँ** शामिल होने के लिए\n"
