@@ -80,7 +80,7 @@ commands:
     success:
       description: "आपका हब **{hubName}** तैयार है! अब आप ये कर सकते हैं:"
     errors:
-      hubCreationFailed: "हब बनाते समय कुछ गलत हो गया। कृपया पुनः प्रयास करें।"
+      hubCreationFailed: "हब बनाते समय कुछ गलत हो गया। कृपया पुनः प्रयास करें। (PENDING REVIEW)."
       troubleshooting: "आप क्या कर सकते हैं:"
       troubleshootingSteps: "• जाँचें कि आपका लोगो URL मान्य है\n• कुछ देर बाद पुनः प्रयास करें\n• यदि समस्या बनी रहती है तो सपोर्ट से संपर्क करें"
   general:
@@ -175,7 +175,7 @@ commands:
     selected:
       description: "अब आप इस कनेक्शन को संपादित कर सकते हैं। नीचे दिए गए विकल्पों का उपयोग करके प्रसारण चैनल बदलें या कनेक्शन से संबंधित सेटिंग्स संपादित करें।"
       fields:
-        broadcastChannel: 'प्रसारण चैनल'
+        broadcastChannel: 'प्रसारण चैनल (PENDING REVIEW)'
         connectionState: 'प्रसारण स्थिति'
         lastActive: 'अंतिम सक्रिय'
       state:
