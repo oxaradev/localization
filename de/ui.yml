@@ -1,154 +1,154 @@
 ui:
   setup:
     embed:
-      description: "Use the modal to enter your hub details."
+      description: "Verwende das Modal, um deine Hub-Details einzugeben."
     select:
-      placeholder: "Select a language"
-      loadingLabel: "Loading..."
-      loadingDescription: "Please wait..."
-      chooseOption: "Choose an option to get started..."
+      placeholder: "Sprache auswählen"
+      loadingLabel: "Lädt..."
+      loadingDescription: "Bitte warten..."
+      chooseOption: "Wähle eine Option, um zu beginnen..."
     buttons:
-      back: "Back"
-      cancel: "Cancel"
-      refresh: "Refresh"
-      enterHubInfo: "Enter Hub Information"
-      hubInfoComplete: "Hub Information Complete"
+      back: "Zurück"
+      cancel: "Abbrechen"
+      refresh: "Aktualisieren"
+      enterHubInfo: "Hub-Informationen eingeben"
+      hubInfoComplete: "Hub-Informationen abgeschlossen"
       createHub: "Hub erstellen"
-      completeInfoFirst: "Complete Hub Info First"
-      discoverHubs: "Discover Public Hubs"
-      supportServer: "Support Server"
+      completeInfoFirst: "Vervollständige zuerst die Hub-Informationen"
+      discoverHubs: "Öffentliche Hubs entdecken"
+      supportServer: "Support-Server"
   common:
     titles:
-      error: "Error!"
-      success: "Success!"
-      cancelled: 'Cancelled!'
-    noDescription: "No description"
+      error: "Fehler!"
+      success: "Erfolg!"
+      cancelled: 'Abgebrochen!'
+    noDescription: "Keine Beschreibung"
     labels:
-      date: "Date"
-      create: 'Create'
-      cancel: 'Cancel'
+      date: "Datum"
+      create: 'Erstellen'
+      cancel: 'Abbrechen'
     messages:
-      loading: "Loading..."
-      pleaseWait: "Please wait..."
-      notImplemented: "Not implemented yet."
-      hubNotFound: "Hub not found. Please try again later."
-      serverNotFound: "Server not found."
-      userNotFound: "User not found."
-      notSpecified: "Not specified"
-      interfacePermission: "You can't use this interface."
-      hubUpdateFailed: "Failed to update hub settings."
-      hubConfigDescription: "Customize your InterChat hub for your community. Pick what you'd like to configure below."
+      loading: "Lädt..."
+      pleaseWait: "Bitte warten..."
+      notImplemented: "Noch nicht implementiert."
+      hubNotFound: "Hub nicht gefunden. Bitte später erneut versuchen."
+      serverNotFound: "Server nicht gefunden."
+      userNotFound: "Benutzer nicht gefunden."
+      notSpecified: "Nicht angegeben"
+      interfacePermission: "Du kannst diese Oberfläche nicht benutzen."
+      hubUpdateFailed: "Aktualisierung der Hub-Einstellungen fehlgeschlagen."
+      hubConfigDescription: "Passe deinen InterChat Hub für deine Community an. Wähle unten aus, was du konfigurieren möchtest."
     pagination:
-      previous: "Previous"
-      next: "Next"
-      page: "Page {current}/{total}"
+      previous: "Zurück"
+      next: "Weiter"
+      page: "Seite (aktuell)/(gesamt)"
     errors:
-      notYourMenu: "This isn't your menu."
-      cannotControlPagination: "You cannot control this pagination."
-      notFound: "Not Found"
-      invalidFilter: "Invalid Filter"
+      notYourMenu: "Das ist nicht dein Menü."
+      cannotControlPagination: "Du kannst diese Seitennummerierung nicht steuern."
+      notFound: "Nicht gefunden"
+      invalidFilter: "Ungültiger Filter"
     modal:
       hubCreation:
-        title: "Create Your Hub"
+        title: "Erstelle deinen Hub"
         name:
-          label: "Hub Name"
-          placeholder: "Enter a unique name for your hub"
+          label: "Hub-Name"
+          placeholder: "Gib einen eindeutigen Namen für deinen Hub ein"
         brief:
-          label: "Brief Description"
-          placeholder: "A quick summary of your hub's purpose"
+          label: "Kurze Beschreibung"
+          placeholder: "Eine kurze Zusammenfassung des Zwecks deines Hubs"
         description:
-          label: "Detailed Description"
-          placeholder: "Tell people what your hub is about and what they can expect"
+          label: "Detaillierte Beschreibung"
+          placeholder: "Erkläre den Leuten, worum es in deinem Hub geht und was sie erwarten können"
         logoUrl:
-          label: "Hub Logo URL"
-          placeholder: "https://example.com/your-logo.png"
+          label: "Hub-Logo-URL"
+          placeholder: "https://beispiel.de/dein-logo.png"
     create:
       footer:
-        getStarted: "Click 'Enter Hub Information' below to get started!"
+        getStarted: "Klicke unten auf „Hub-Informationen eingeben“, um zu starten!"
   help:
     select:
-      placeholder: "Select a category"
+      placeholder: "Wähle eine Kategorie"
   preferences:
-    title: "User Preferences"
-    description: "Edit your personal settings to make InterChat work for you. These are GLOBAL and work across all servers you share with InterChat."
+    title: "Benutzereinstellungen"
+    description: "Bearbeite deine persönlichen Einstellungen, damit InterChat für dich funktioniert. Diese sind GLOBAL und gelten für alle Server, die du mit InterChat teilst."
     buttons:
-      return: "Return"
+      return: "Zurück"
     replyMentions:
       title: "Preferences: Reply Mentions"
-      description: "You will now be **{status}** when someone replies to your messages. You may toggle this below using the button, or return to the menu with the return button."
-      currentDescription: "Currently you are **{status}** when replied to within your messages. You may toggle this below using the button, or return to the menu with the return button."
-      mentioned: "mentioned"
-      notMentioned: "not mentioned"
+      description: "Du wirst nun {status}, wenn jemand auf deine Nachrichten antwortet.\nDu kannst dies unten über den Button umschalten oder mit dem Zurück-Button zum Menü zurückkehren.\nui.preferences.replyMentions.description\n"
+      currentDescription: "Derzeit bist du \"{status}\", wenn innerhalb deiner Nachrichten geantwortet wird. Du kannst dies unten mit dem Schalter ändern oder mit der Zurück-Schaltfläche ins Menü zurückkehren.\nui.preferences.replyMentions.currentDescription"
+      mentioned: "erwähnt"
+      notMentioned: "Nicht erwähnt"
     errors:
-      noPreferences: "You do not have preferences set up yet."
-      hide: "Hide"
+      noPreferences: "Sie haben noch keine Einstellung eingerichtet."
+      hide: "Verstecken"
     general:
-      title: "General Preferences"
-      description: "Configure general preferences within InterChat. This ensures your experience is the best we are able to make it."
+      title: "Allgemeine Einstellungen"
+      description: "Konfigurieren Sie allgemeine Einstellungen in InterChat. So stellen wir sicher, dass Sie das bestmögliche Erlebnis haben."
     locale:
-      title: "Language Select"
+      title: "Sprachauswahl"
       description: "Select your preferred language for InterChat."
     select:
-      placeholder: "Select an option"
-      category: "Select a category"
+      placeholder: "Wählen Sie eine Option"
+      category: "Wähle eine Kategorie"
     badges:
-      title: "Preferences: Badges"
-      description: "Your badges are now **{status}** within your messages. You may toggle this below using the button, or return to the menu with the return button."
-      currentDescription: "Currently your badges are **{status}** within your messages. You may toggle this below using the button, or return to the menu with the return button."
-      visible: "visible"
-      hidden: "hidden"
+      title: "Einstellungen: Abzeichen"
+      description: "Ihre Abzeichen befinden sich jetzt in Ihren Nachrichten im Status **{status}**. Sie können dies unten mit der Schaltfläche umschalten oder mit der Schaltfläche „Zurück“ zum Menü zurückkehren."
+      currentDescription: "Derzeit befinden sich Ihre Badges in Ihren Nachrichten im Status **{status}**. Sie können dies unten mit der Schaltfläche umschalten oder mit der Schaltfläche „Zurück“ zum Menü zurückkehren."
+      visible: "sichtbar"
+      hidden: "versteckt"
       buttons:
-        show: "Show"
-        hide: "Hide"
+        show: "Zeigen"
+        hide: "Verstecken"
   appeal:
     buttons:
-      previous: "Previous"
-      next: "Next"
+      previous: "Zurück"
+      next: "Weiter"
     select:
-      placeholder: "Select an infraction to appeal"
+      placeholder: "Wählen Sie einen Verstoß aus, gegen den Sie Einspruch einlegen möchten"
     errors:
-      cannotControl: "You cannot control this pagination menu."
-      notYourMenu: "This is not your appeal menu."
-      nothingSelected: "Nothing was selected."
-      invalidSelection: "Invalid selection."
-      modalError: "Failed to open appeal modal."
+      cannotControl: "Sie können dieses Paginierungsmenü nicht steuern."
+      notYourMenu: "Dies ist nicht Ihr Berufungsmenü."
+      nothingSelected: "Es wurde nichts ausgewählt."
+      invalidSelection: "Ungültige Auswahl."
+      modalError: "Das Öffnen des Einspruchsmodals ist fehlgeschlagen."
     modal:
-      title: "Submit Appeal"
-      q1: "Why do you believe this action was incorrect?"
-      q2: "Tell us about the situation"
-      q3: "Additional Information"
+      title: "Einspruch einreichen"
+      q1: "Warum glauben Sie, dass diese Aktion falsch war?"
+      q2: "Erzählen Sie uns von der Situation"
+      q3: "Weitere Informationen"
     success:
-      submitted: "{tick} Your appeal has been submitted for review."
+      submitted: "{tick} Ihr Einspruch wurde zur Prüfung eingereicht."
     viewInfractions:
-      title: "Recent User Infractions"
-      empty: "No infractions found for this user."
+      title: "Aktuelle Benutzerverstöße"
+      empty: "Für diesen Benutzer wurden keine Verstöße gefunden."
     status:
-      acceptedBy: "Accepted by @{name}"
-      rejectedBy: "Rejected by @{name}"
+      acceptedBy: "Akzeptiert von @{name}"
+      rejectedBy: "Abgelehnt von @{name}"
     actions:
-      decisionTitle: "Appeal Decision"
+      decisionTitle: "Berufungsentscheidung"
       reasonOptional:
-        label: "Reason (Optional)"
-        placeholder: "Explain your decision..."
+        label: "Grund (optional)"
+        placeholder: "Begründen Sie Ihre Entscheidung..."
   report:
     buttons:
-      toStaff: "Report to Staff"
-      toHub: "Report to Hub"
+      toStaff: "Bericht an die Mitarbeiter"
+      toHub: "Bericht an Hub"
     modal:
       toStaff:
-        title: "Report to InterChat Staff"
+        title: "Melden Sie sich beim InterChat-Personal"
       toHub:
-        title: "Report to Hub Moderators"
+        title: "Den Hub-Moderatoren melden"
       reason:
-        label: "Reason for Report"
-        placeholder: "Please describe why you are reporting this message..."
+        label: "Grund für die Meldung"
+        placeholder: "Bitte beschreiben Sie, warum Sie diese Nachricht melden ..."
     status:
-      resolvedBy: "Resolved by {name}"
-      ignoredBy: "Ignored by {name}"
+      resolvedBy: "Gelöst von {name}"
+      ignoredBy: "Ignoriert von {name}"
   hubConfig:
     main:
-      placeholder: "Select an option"
-      loadingLabel: "Loading..."
+      placeholder: "Wählen Sie eine Option"
+      loadingLabel: "Lädt..."
       loadingDescription: "Please wait."
     general:
       placeholder: "Choose a setting to configure..."
@@ -209,7 +209,7 @@ ui:
           label: "Expiry"
           placeholder: "1 week"
       buttons:
-        create: "Create"
+        create: "Erstellen"
   moderation:
     actionNames:
       warned: "Warned"
@@ -476,7 +476,7 @@ ui:
         cancelled: 'Setup cancelled. We hope to see you back here again soon.'
     config:
       title: "Hub Configuration"
-      description: "Customize your InterChat hub for your community. Pick what you'd like to configure below."
+      description: "Passe deinen InterChat Hub für deine Community an. Wähle unten aus, was du konfigurieren möchtest."
       options:
         general:
           label: "General Settings"
