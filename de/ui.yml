@@ -13,7 +13,7 @@ ui:
       refresh: "Refresh"
       enterHubInfo: "Enter Hub Information"
       hubInfoComplete: "Hub Information Complete"
-      createHub: "Create Hub"
+      createHub: "Hub erstellen"
       completeInfoFirst: "Complete Hub Info First"
       discoverHubs: "Discover Public Hubs"
       supportServer: "Support Server"
