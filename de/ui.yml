@@ -87,7 +87,7 @@ ui:
       description: "Konfigurieren Sie allgemeine Einstellungen in InterChat. So stellen wir sicher, dass Sie das bestmögliche Erlebnis haben."
     locale:
       title: "Sprachauswahl"
-      description: "Select your preferred language for InterChat."
+      description: "Wählen Sie Ihre bevorzugte Sprache für InterChat."
     select:
       placeholder: "Wählen Sie eine Option"
       category: "Wähle eine Kategorie"
@@ -149,7 +149,7 @@ ui:
     main:
       placeholder: "Wählen Sie eine Option"
       loadingLabel: "Lädt..."
-      loadingDescription: "Please wait."
+      loadingDescription: ""
     general:
       placeholder: "Choose a setting to configure..."
       editDescription:
