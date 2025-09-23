@@ -10,7 +10,7 @@ ui:
     buttons:
       back: "वापस"
       cancel: "रद्द करें"
-      refresh: "ताज़ा करें"
+      refresh: "रीफ्रेश"
       enterHubInfo: "हब जानकारी दर्ज करें"
       hubInfoComplete: "हब जानकारी पूरी हुई"
       createHub: "हब बनाएँ"
@@ -41,7 +41,7 @@ ui:
     pagination:
       previous: "पिछला"
       next: "अगला"
-      page: "पृष्ठ {current}/{total}"
+      page: "पेज {current}/{total}"
     errors:
       notYourMenu: "यह आपका मेनू नहीं है।"
       cannotControlPagination: "आप इस पृष्ठांकन को नियंत्रित नहीं कर सकते।"
@@ -290,7 +290,7 @@ ui:
       userName: "उपयोगकर्ता का नाम"
       userId: "उपयोगकर्ता आईडी"
       serverName: "सर्वर का नाम"
-      serverId: "सर्वर आईडी"
+      serverId: "सर्वर ID"
       reason: "कारण"
       moderator: "मॉडरेटर"
       issued: "जारी किया गया"
@@ -314,7 +314,7 @@ ui:
         welcomeMessage: "स्वागत संदेश"
         description: "विवरण"
       values:
-        messagesThisWeek: "इस सप्ताह **{count}**"
+        messagesThisWeek: "इस हफ़्ता **{count}**"
         connectionsActive: "**{count}** सक्रिय"
         upvotesTotal: "कुल **{count}**"
       badges:
@@ -327,7 +327,7 @@ ui:
     server:
       fields:
         name: "नाम"
-        serverId: "सर्वर आईडी"
+        serverId: "सर्वर ID"
         inviteCode: "आमंत्रण कोड"
         messages: "संदेश"
         connections: "कनेक्शन"
@@ -343,7 +343,7 @@ ui:
     user:
       fields:
         name: "नाम"
-        userId: "उपयोगकर्ता आईडी"
+        userId: "उपयोगकर्ता ID"
         status: "स्थिति"
         messages: "संदेश"
         reputation: "प्रतिष्ठा"
@@ -367,7 +367,7 @@ ui:
         preferences: "प्राथमिकताएँ"
         createdContent: "निर्मित सामग्री"
         activity: "गतिविधि"
-        donation: "दान"
+        donation: "डोनेशन"
         badges: "बैज"
       preferences:
         showBadges: "बैज दिखाएँ"
@@ -400,7 +400,7 @@ ui:
         serverList: "सर्वर ब्लैकलिस्ट"
       descriptions:
         list: "कुल ब्लैकलिस्ट प्रविष्टियाँ"
-        noEntriesPage: "इस पृष्ठ पर कोई प्रविष्टि नहीं है।"
+        noEntriesPage: "इस पेज पर कोई प्रविष्टि नहीं है।"
         userListEmpty: "कोई ब्लैकलिस्टेड उपयोगकर्ता नहीं मिला।"
         serverListEmpty: "कोई ब्लैकलिस्टेड सर्वर नहीं मिला।"
       fields:
@@ -452,7 +452,7 @@ ui:
         unique: 'अरे नहीं! वह हब नाम पहले ही लिया जा चुका है। आपको दूसरा चुनना होगा।'
       visibility:
         title: 'हब दृश्यता'
-        description: 'क्या आपका हब **सार्वजनिक** होना चाहिए? इसका मतलब है कि यह **सभी** के लिए सुलभ होगा और [खोज पृष्ठ]({discoverHubs}) पर दिखाई देगा।'
+        description: 'क्या आपका हब **सार्वजनिक** होना चाहिए? इसका मतलब है कि यह **सभी** के लिए सुलभ होगा और [डिस्कवरी पेज]({discoverHubs}) पर दिखाई देगा।'
         buttons:
           public: 'सार्वजनिक'
           private: 'निजी'
