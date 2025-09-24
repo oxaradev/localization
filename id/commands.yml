@@ -6,7 +6,7 @@ commands:
     features:
       title: "Fitur"
       list: |
-        - Menghubungkan dengan server-server yang lain untuk aktif server yang berlintas 
+        - Menghubungkan dengan server-server yang lain untuk aktif server yang berlintas
         - Pesan-pesan mengalir antara server-server yang lain di waktu cepat
     buttons:
       vote: "Memililah untuk kita di top.gg"

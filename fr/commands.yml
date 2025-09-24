@@ -1,6 +1,6 @@
 commands:
   about:
-    title: "A propose de interchat"
+    title: "A propose de InterChat"
     description_text: "."
     support_text: "Besoin d'aide ? Rejoignez notre serveur d'assistance !"
     features:
@@ -13,7 +13,7 @@ commands:
         - Tableau de bord visuel pour gérer vos hubs, serveurs et paramètres
     buttons:
       vote: "Voter sur top.gg"
-      invite: "Inviter interchat"
+      invite: "Inviter InterChat"
       dashboard: "Ouvrez les tableaux de bord"
       support: "Rejoignez le support"
       shardInfo: "Info partagée"
@@ -82,7 +82,7 @@ commands:
   general:
     invite:
       title: "Hey!"
-      description: "Merci d'avoir choisi Interchat. Besoin d'aide ? Rejoignez notre serveur d'assistance. Utilisez les boutons ci-dessous pour inviter notre bot sur votre serveur et commencer à vous connecter. "
+      description: "Merci d'avoir choisi InterChat. Besoin d'aide ? Rejoignez notre serveur d'assistance. Utilisez les boutons ci-dessous pour inviter notre bot sur votre serveur et commencer à vous connecter."
   stats:
     title: "Métriques InterChat"
     shard:
@@ -123,7 +123,7 @@ commands:
     hubs:
       title: "Vos hubs"
       description: "Voici les hubs que vous possédez ou modérez :"
-      position: "Positions :"
+      position: "Positions:"
       owner: "Propriétaire"
   appeal:
     title: "Vos infractions susceptibles d'appel"
@@ -162,7 +162,7 @@ commands:
     errors:
       noHub: "Cette commande doit être utilisée dans un canal serveur connecté à un hub, ou vous devez spécifier un nom de hub."
       notConnected: "Ce canal n'est connecté à aucun hub. Veuillez spécifier un nom de hub ou utiliser cette commande dans un canal connecté."
-      hubNotFound: "Le hub \"{hubName} na pas été trouvée."
+      hubNotFound: "Le hub \"{hubName}\" na pas été trouvée."
   connections:
     title: "Gestion des connexions"
     description: "Configurez et administrez toutes les connexions hub au sein de ce serveur."
