@@ -11,6 +11,7 @@ ui:
       back: "Back"
       cancel: "Cancel"
       refresh: "Refresh"
+      startWizard: "Start Setup Wizard"
       enterHubInfo: "Enter Hub Information"
       hubInfoComplete: "Hub Information Complete"
       createHub: "Create Hub"
