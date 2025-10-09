@@ -41,7 +41,7 @@ commands:
         description: "**Pesquise em** [interchat.tech/hubs]{https://interchat.tech/hubs} \n**Ou clique** no botão abaixo para abrir o diretório"
       privateHubs:
         title: "Privado ou Somente via convite"
-        description: "**Pergunte ao criador do hub ou gerente** por um código de convite\n**Execute `/connect <código de convite>`** no seu servidor para entrar"
+        description: "**Pergunte ao criador do hub ou gerente** por um código de convite\n**Execute `/connection add <código de convite>`** no seu servidor para entrar"
       footer: "Você pode entrar em mais hubs a qualquer momento, e você pode se conectar a múltiplos hubs de uma vez em diferentes canais."
     nextSteps:
       created:
@@ -50,7 +50,7 @@ commands:
           Seu hub **{hubName}** está pronto! Aqui está o que você pode fazer em seguida:
           - Convidar seu primeiro servidor usando `/invite`}
           - Customizar configurações no [painel de controle]{https://interchat.tech/dashboard}
-          - Conectar canais com `/connect <nome do hub>`
+          - Conectar canais com `/connection add <nome do hub>`
         inviteLink:
           title: "Próximo: Crie links de convite"
           description: "Use {hubInviteCommand} para gerar códigos de convite para **{hubName}** e compartilhá-los com outros proprietários do servidor."

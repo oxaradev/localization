@@ -40,7 +40,7 @@ commands:
         description: "**Browse** [interchat.tech/hubs](https://interchat.tech/hubs)\n**Or click** the button below to open the directory"
       privateHubs:
         title: "Private or Invite-only"
-        description: "**Ask the hub owner or manager** for an invite code\n**Run `/connect <invite-code>`** in your server to join"
+        description: "**Ask the hub owner or manager** for an invite code\n**Run `/connection add <invite-code>`** in your server to join"
       footer: "You can join more hubs anytime, and you can be connected to multiple hubs at once in different channels."
     nextSteps:
       created:
@@ -50,7 +50,7 @@ commands:
           - Invite your first server using `/invite`
           - Set rules with `/rules set`
           - Customize settings in the [dashboard](https://interchat.tech/dashboard)
-          - Connect channels with `/connect <hub-name>`
+          - Connect channels with `/connection add <hub-name>`
         inviteLink:
           title: "Next: Create Invite Links"
           description: "Use {hubInviteCommand} to generate invite codes for **{hubName}** and share them with other server owners."

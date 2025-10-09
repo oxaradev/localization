@@ -43,7 +43,7 @@ commands:
         description: "**Navega** [interchat.tech/hubs](https://interchat.tech/hubs)\n**O clic** el botón de abajo para abrir el directorio"
       privateHubs:
         title: "Privado o Invitación solamente"
-        description: "**Pídele al dueño o manager del centro** un código de invitación\n**Ejecuta `/connect <código-invitación>`** en tu servidor para unirte"
+        description: "**Pídele al dueño o manager del centro** un código de invitación\n**Ejecuta `/connection add <código-invitación>`** en tu servidor para unirte"
       footer: "Puedes unirte a más centros en cualquier momento, y puedes conectarte a múltiples centros a la vez en diferentes canales."
     nextSteps:
       created:
@@ -53,7 +53,7 @@ commands:
           - Invita tu primer servidor usando `/invite`
           - Establece reglas con `/rules set`
           - Personaliza configuraciones en el [panel](https://interchat.tech/dashboard)
-          - Conecta canales con `/connect <nombre-centro>`
+          - Conecta canales con `/connection add <nombre-centro>`
         inviteLink:
           title: "Siguiente: Crea Enlaces de Invitación"
           description: "Use {hubInviteCommand} para generar códigos de invitación para **{hubName}** y compártelos con otros propietarios de servidores."
