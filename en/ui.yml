@@ -590,3 +590,35 @@ ui:
       label: "Fix All Connections"
     manage:
       placeholder: "Select a connection to manage"
+  messageInfo:
+    tabs:
+      message:
+        title: "Message Information"
+        button: "Message"
+      user:
+        title: "User Information"
+        button: "User"
+      server:
+        title: "Server Information"
+        button: "Server"
+    fields:
+      messageId: "Message ID"
+      server: "Server"
+      author: "Author"
+      hub: "Hub"
+      content: "Content"
+      timestamp: "Timestamp"
+      username: "Username"
+      accountCreated: "Account Created"
+      badges: "Badges"
+      serverName: "Server Name"
+      connectionChannel: "Connection Channel"
+      connectedSince: "Connected Since"
+      status: "Status"
+    status:
+      connected: "Connected"
+      disconnected: "Disconnected"
+    unknown:
+      server: "Unknown Server"
+    noBadges: "No badges to display"
+    noConnection: "No connection information available"
