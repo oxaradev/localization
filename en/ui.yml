@@ -302,6 +302,11 @@ ui:
       moderator: "Moderator"
       issued: "Issued"
       status: "Status"
+      evidence: "Evidence"
+    evidence:
+      content: "Content"
+      author: "Author"
+      notAvailable: "No evidence available"
   staff:
     hub:
       section:
