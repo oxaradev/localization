@@ -11,14 +11,12 @@ ui:
       back: "Voltar"
       cancel: "Cancelar"
       refresh: "Atualizar"
-      startWizard: "Start Setup Wizard"
       enterHubInfo: "Insira informações do hub"
       hubInfoComplete: "Informações do hub completadas"
       createHub: "Criar hub"
       completeInfoFirst: "Complete as informações do hub primeiro"
       discoverHubs: "Descubra hubs públicos"
       supportServer: "Servidor de suporte"
-      joinHub: "Join Hub"
   common:
     titles:
       error: "Erro!"
@@ -297,11 +295,6 @@ ui:
       moderator: "Moderador(a)"
       issued: "Emitido"
       status: "Situação"
-      evidence: "Evidence"
-    evidence:
-      content: "Content"
-      author: "Author"
-      notAvailable: "No evidence available"
   staff:
     hub:
       section:
@@ -420,15 +413,6 @@ ui:
         user: "Usuário"
         server: "Servidor"
   hub:
-    wizard:
-      start: "Criar hub"
-      intro: "Let's create your InterChat hub! You'll be guided through each step."
-      name:
-        label: "Nome do hub"
-        placeholder: "My Amazing Hub"
-      tagline:
-        label: "Hub Tagline"
-        placeholder: "A one-sentence summary of your hub"
     title: 'Criação de Hub'
     description: 'Crie seu próprio hub de InterChat para uma comunidade, seus amigos... ou quem quer que seja - a lista pode continuar por eras. Vá em frente, veja onde você leva.'
     delete:
@@ -590,35 +574,3 @@ ui:
       label: "Corrigir todas as conexões"
     manage:
       placeholder: "Selecione uma conexão para gerenciar"
-  messageInfo:
-    tabs:
-      message:
-        title: "Message Information"
-        button: "Message"
-      user:
-        title: "User Information"
-        button: "Usuário"
-      server:
-        title: "Server Information"
-        button: "Servidor"
-    fields:
-      messageId: "Message ID"
-      server: "Servidor"
-      author: "Author"
-      hub: "Hub"
-      content: "Content"
-      timestamp: "Timestamp"
-      username: "Username"
-      accountCreated: "Account Created"
-      badges: "Emblemas"
-      serverName: "Nome do servidor"
-      connectionChannel: "Connection Channel"
-      connectedSince: "Connected Since"
-      status: "Situação"
-    status:
-      connected: "Connected"
-      disconnected: "Disconnected"
-    unknown:
-      server: "Unknown Server"
-    noBadges: "No badges to display"
-    noConnection: "No connection information available"
