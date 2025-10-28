@@ -11,12 +11,14 @@ ui:
       back: "वापस"
       cancel: "रद्द करें"
       refresh: "रीफ्रेश"
+      startWizard: "Start Setup Wizard"
       enterHubInfo: "हब जानकारी दर्ज करें"
       hubInfoComplete: "हब जानकारी पूरी हुई"
       createHub: "हब बनाएँ"
       completeInfoFirst: "पहले हब जानकारी पूरी करें"
       discoverHubs: "सार्वजनिक हब खोजें"
       supportServer: "सपोर्ट सर्वर"
+      joinHub: "Join Hub"
   common:
     titles:
       error: "त्रुटि!"
@@ -295,6 +297,11 @@ ui:
       moderator: "मॉडरेटर"
       issued: "जारी किया गया"
       status: "स्थिति"
+      evidence: "Evidence"
+    evidence:
+      content: "Content"
+      author: "Author"
+      notAvailable: "No evidence available"
   staff:
     hub:
       section:
@@ -413,6 +420,15 @@ ui:
         user: "उपयोगकर्ता"
         server: "सर्वर"
   hub:
+    wizard:
+      start: "अपना हब बनाएं"
+      intro: "Let's create your InterChat hub! You'll be guided through each step."
+      name:
+        label: "हब का नाम"
+        placeholder: "My Amazing Hub"
+      tagline:
+        label: "Hub Tagline"
+        placeholder: "A one-sentence summary of your hub"
     title: 'हब निर्माण'
     description: 'एक समुदाय, अपने दोस्तों... या किसी के लिए भी अपना खुद का इंटरचैट हब बनाएं - सूची युगों तक चल सकती है। आगे बढ़ो, देखो यह तुम्हें कहाँ ले जाता है।'
     delete:
@@ -574,3 +590,35 @@ ui:
       label: "सभी कनेक्शन ठीक करें"
     manage:
       placeholder: "प्रबंधित करने के लिए एक कनेक्शन चुनें"
+  messageInfo:
+    tabs:
+      message:
+        title: "Message Information"
+        button: "Message"
+      user:
+        title: "User Information"
+        button: "उपयोगकर्ता"
+      server:
+        title: "Server Information"
+        button: "सर्वर"
+    fields:
+      messageId: "Message ID"
+      server: "सर्वर"
+      author: "Author"
+      hub: "हब"
+      content: "Content"
+      timestamp: "Timestamp"
+      username: "Username"
+      accountCreated: "Account Created"
+      badges: "बैज"
+      serverName: "सर्वर का नाम"
+      connectionChannel: "Connection Channel"
+      connectedSince: "Connected Since"
+      status: "स्थिति"
+    status:
+      connected: "Connected"
+      disconnected: "Disconnected"
+    unknown:
+      server: "Unknown Server"
+    noBadges: "No badges to display"
+    noConnection: "No connection information available"
