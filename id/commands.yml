@@ -190,4 +190,25 @@ commands:
           permissionsWebhook: 'I am unable to webhooks, please review my permissions and try again.'
           permissionsView: 'I am unable to view channel, please review my permissions and try again.'
           permissionsSend: 'I am unable to send messages, please review my permissions and try again.'
+  voteReminders:
+    description: "Toggle vote reminder notifications from InterChat."
+    enable:
+      success: "Vote reminders have been enabled! You'll receive a DM reminder to vote every 6 hours if you haven't voted recently."
+      alreadyEnabled: "Vote reminders are already enabled."
+    disable:
+      success: "Vote reminders have been disabled. You will no longer receive vote reminder DMs."
+      alreadyDisabled: "Vote reminders are already disabled."
+    status:
+      enabled: "Vote reminders are currently **enabled**."
+      disabled: "Vote reminders are currently **disabled**."
+    dm:
+      title: "Time to Vote for InterChat!"
+      description: "Your support helps InterChat grow and reach more communities. Vote on top.gg to help us out!"
+      reminderInfo: "You receive this reminder because you've voted before. You can disable these reminders anytime with `/vote-reminders disable`."
+      buttons:
+        vote: "Vote Now"
+        disable: "Disable Reminders"
+      disableConfirm:
+        title: "Vote Reminders Disabled"
+        description: "You will no longer receive vote reminder DMs. You can re-enable them anytime with `/vote-reminders enable`. Thanks for your past support!"
 
