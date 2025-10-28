@@ -43,7 +43,7 @@ commands:
         description: "**Browse** [interchat.tech/hubs](https://interchat.tech/hubs)\n**Or click** the button below to open the directory"
       privateHubs:
         title: "Private or Invite-only"
-        description: "**Ask the hub owner or manager** for an invite code\n**Run `/connection add <invite-code>`** in your server to join"
+        description: "**Ask the hub owner or manager** for an invite code\n**Run `/connect <invite-code>`** in your server to join"
       footer: "You can join more hubs anytime, and you can be connected to multiple hubs at once in different channels."
     nextSteps:
       created:
@@ -53,7 +53,7 @@ commands:
           - Invite your first server using `/invite`
           - Set rules with `/rules set`
           - Customize settings in the [dashboard](https://interchat.tech/dashboard)
-          - Connect channels with `/connection add <hub-name>`
+          - Connect channels with `/connect <hub-name>`
         inviteLink:
           title: "Next: Create Invite Links"
           description: "Use {hubInviteCommand} to generate invite codes for **{hubName}** and share them with other server owners."
@@ -198,25 +198,4 @@ commands:
           permissionsWebhook: 'I am unable to webhooks, please review my permissions and try again.'
           permissionsView: 'I am unable to view channel, please review my permissions and try again.'
           permissionsSend: 'I am unable to send messages, please review my permissions and try again.'
-  voteReminders:
-    description: "Toggle vote reminder notifications from InterChat."
-    enable:
-      success: "Vote reminders have been enabled! You'll receive a DM reminder to vote every 6 hours if you haven't voted recently."
-      alreadyEnabled: "Vote reminders are already enabled."
-    disable:
-      success: "Vote reminders have been disabled. You will no longer receive vote reminder DMs."
-      alreadyDisabled: "Vote reminders are already disabled."
-    status:
-      enabled: "Vote reminders are currently **enabled**."
-      disabled: "Vote reminders are currently **disabled**."
-    dm:
-      title: "Time to Vote for InterChat!"
-      description: "Your support helps InterChat grow and reach more communities. Vote on top.gg to help us out!"
-      reminderInfo: "You receive this reminder because you've voted before. You can disable these reminders anytime with `/vote-reminders disable`."
-      buttons:
-        vote: "Vote Now"
-        disable: "Disable Reminders"
-      disableConfirm:
-        title: "Vote Reminders Disabled"
-        description: "You will no longer receive vote reminder DMs. You can re-enable them anytime with `/vote-reminders enable`. Thanks for your past support!"
 
