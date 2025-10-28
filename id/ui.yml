@@ -11,12 +11,14 @@ ui:
       back: "Back"
       cancel: "Cancel"
       refresh: "Refresh"
+      startWizard: "Start Setup Wizard"
       enterHubInfo: "Enter Hub Information"
       hubInfoComplete: "Hub Information Complete"
       createHub: "Create Hub"
       completeInfoFirst: "Complete Hub Info First"
       discoverHubs: "Discover Public Hubs"
       supportServer: "Support Server"
+      joinHub: "Join Hub"
   common:
     titles:
       error: "Error!"
@@ -295,6 +297,11 @@ ui:
       moderator: "Moderator"
       issued: "Issued"
       status: "Status"
+      evidence: "Evidence"
+    evidence:
+      content: "Content"
+      author: "Author"
+      notAvailable: "No evidence available"
   staff:
     hub:
       section:
@@ -413,6 +420,15 @@ ui:
         user: "User"
         server: "Server"
   hub:
+    wizard:
+      start: "Create Your Hub"
+      intro: "Let's create your InterChat hub! You'll be guided through each step."
+      name:
+        label: "Hub Name"
+        placeholder: "My Amazing Hub"
+      tagline:
+        label: "Hub Tagline"
+        placeholder: "A one-sentence summary of your hub"
     title: 'Hub Creation'
     description: 'Create your own InterChat hub for a community, your friends... or anyone - the list could go on for ages. Go ahead, see where it takes you.'
     delete:
@@ -425,25 +441,25 @@ ui:
       errors:
         alreadyConnected: 'Uh oh! It looks like this server already has a connection to this hub.'
     disconnect:
-      title: 'Disconnected!'
-      description: 'Disconnected from hub.'
-      fieldValue: 'Associated Channel: {channel}'
+      title: 'Terputus!'
+      description: 'Terputus dari hub.'
+      fieldValue: 'Saluran Terkait: {channel}'
     invites:
-      title: 'Active Invites'
-      inviteUses: '**Uses:**'
-      inviteExpire: '**Expires:**'
-      noneFound: 'None found!'
+      title: 'Undangan Aktif'
+      inviteUses: '**Kegunaan:**'
+      inviteExpire: '**Berakhir:**'
+      noneFound: 'Tidak ada di temukan!'
     announcements:
-      title: 'Hub Announcements'
-      description: "Create a **one time** announcement that sends in all connected channels. \n\n-# To create **recurring** announcements please visit the hub configuration menu."
+      title: 'Pengumuman Hub'
+      description: "Buat pengumuman **satu kali** yang dikirim ke semua saluran yang terhubung.\n\n-# Untuk membuat pengumuman **berulang**, silakan kunjungi menu konfigurasi hub."
     creation:
-      title: "Let's set up your hub!"
-      description: "Hubs link multiple servers together using webhooks. They're great for cross-server communities."
-      clickToBegin: "Click {emoji} Create to begin."
+      title: "Ayuk mempersiapkan hub kamu!"
+      description: "Hub menghubungkan beberapa server menggunakan webhook. Hub sangat cocok untuk komunitas lintas server."
+      clickToBegin: "Kliklah {emoji} Membuat untuk mulai"
       modal:
-        title: 'Hub Information'
-        hubName: "Hub name"
-        shortLabel: "Short description"
+        title: 'Informasi Tentang Hub'
+        hubName: "Nama Hub"
+        shortLabel: "Deskripsi Pendek"
       errors:
         invalidInput: 'Invalid Input'
         name: 'Uh oh! Your hub name must be composed of letters, numbers, spaces and underscores. We do not allow any other characters.'
@@ -552,25 +568,57 @@ ui:
         sessionExpiredDescription: "Sesi konfigurasi ini telah berakhir. Silakan jalankan kembali perintah tersebut untuk melanjutkan pengelolaan aturan."
         actionCancelled: "Aksi Dibatalkan"
         actionCancelledDescription: "Aksi Aturan sudah dibatalkan. Tidak ada perubahaan yang dilakukan."
-        ruleNotFound: "Bagian aturan tidak sah. Aturannya mungkin sudah dihapus oleh user lain."
+        ruleNotFound: "Bagian aturan tidak sah. Aturannya mungkin sudah dihapus oleh orang lain."
         invalidRuleSelection: "Bagian aturan tidak sah. Mohon coba lagi."
         processingError: "Sebuah kesalahan terjadi saat pengolahan permintaan anda. Mohon coba lagi."
         refreshError: "Ada kesalahan terjadi saat menyegarkan situs webnya. Mohon coba lagi."
         navigationError: "Ada kesalahan terjadi saat bernavigasi. Mohon coba lagi."
         selectionError: "An error occurred while selecting the rule. Please try again."
-        deletionCancelled: "Cancelled"
-        deletionCancelledDescription: "Rule deletion has been cancelled. No changes were made."
+        deletionCancelled: "Dibatalkan"
+        deletionCancelledDescription: "Penghapusaan aturan berhasil dibatalkan. Tidak ada perubahaan di buat."
       warnings:
-        deleteWarning: "Warning"
-        deleteWarningDescription: "This action cannot be undone. The rule will be permanently removed from your hub."
+        deleteWarning: "Peringataan"
+        deleteWarningDescription: "Tindakan ini tidak bisa dibatalkan. Aturan ini akan di dihapus secara permanen"
       display:
-        noRulesTitle: "No Rules Set"
-        noRulesDescription: "No rules have been set for this hub yet. Use the \"Add Rule\" button below to create your first rule."
-        currentRulesTitle: "Current Rules ({current}/{max})"
-        ruleSelected: "Rule {number} Selected"
-        currentRule: "Current Rule:"
+        noRulesTitle: "Tidak Ada Aturan Yang Ditetapkan"
+        noRulesDescription: "Belum ada aturan yang ditetapkan untuk hub ini. Gunakan tombol \"Tambah Aturan\" di bawah untuk membuat aturan pertama Anda."
+        currentRulesTitle: "Aturan Saat Ini ({current}/{max})"
+        ruleSelected: "Aturan {number} Dipilih"
+        currentRule: "Aturaan saat ini:"
   connection:
     fixAll:
-      label: "Fix All Connections"
+      label: "Perbaiki Semua Koneksi"
     manage:
-      placeholder: "Select a connection to manage"
+      placeholder: "Pilih koneksi yang mau anda atur"
+  messageInfo:
+    tabs:
+      message:
+        title: "Message Information"
+        button: "Message"
+      user:
+        title: "User Information"
+        button: "User"
+      server:
+        title: "Server Information"
+        button: "Server"
+    fields:
+      messageId: "Message ID"
+      server: "Server"
+      author: "Author"
+      hub: "Hub"
+      content: "Content"
+      timestamp: "Timestamp"
+      username: "Username"
+      accountCreated: "Account Created"
+      badges: "Badges"
+      serverName: "Server Name"
+      connectionChannel: "Connection Channel"
+      connectedSince: "Connected Since"
+      status: "Status"
+    status:
+      connected: "Connected"
+      disconnected: "Disconnected"
+    unknown:
+      server: "Unknown Server"
+    noBadges: "No badges to display"
+    noConnection: "No connection information available"
