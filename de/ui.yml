@@ -11,12 +11,14 @@ ui:
       back: "Zurück"
       cancel: "Abbrechen"
       refresh: "Aktualisieren"
+      startWizard: "Start Setup Wizard"
       enterHubInfo: "Hub-Informationen eingeben"
       hubInfoComplete: "Hub-Informationen abgeschlossen"
       createHub: "Hub erstellen"
       completeInfoFirst: "Vervollständige zuerst die Hub-Informationen"
       discoverHubs: "Öffentliche Hubs entdecken"
       supportServer: "Support-Server"
+      joinHub: "Join Hub"
   common:
     titles:
       error: "Fehler!"
@@ -149,7 +151,7 @@ ui:
     main:
       placeholder: "Wählen Sie eine Option"
       loadingLabel: "Lädt..."
-      loadingDescription: ""
+      loadingDescription: "Please wait."
     general:
       placeholder: "Choose a setting to configure..."
       editDescription:
@@ -295,6 +297,11 @@ ui:
       moderator: "Moderator"
       issued: "Issued"
       status: "Status"
+      evidence: "Evidence"
+    evidence:
+      content: "Content"
+      author: "Author"
+      notAvailable: "No evidence available"
   staff:
     hub:
       section:
@@ -413,6 +420,15 @@ ui:
         user: "User"
         server: "Server"
   hub:
+    wizard:
+      start: "Erstelle deinen Hub"
+      intro: "Let's create your InterChat hub! You'll be guided through each step."
+      name:
+        label: "Hub-Name"
+        placeholder: "My Amazing Hub"
+      tagline:
+        label: "Hub Tagline"
+        placeholder: "A one-sentence summary of your hub"
     title: 'Hub Creation'
     description: 'Create your own InterChat hub for a community, your friends... or anyone - the list could go on for ages. Go ahead, see where it takes you.'
     delete:
@@ -574,3 +590,35 @@ ui:
       label: "Fix All Connections"
     manage:
       placeholder: "Select a connection to manage"
+  messageInfo:
+    tabs:
+      message:
+        title: "Message Information"
+        button: "Message"
+      user:
+        title: "User Information"
+        button: "User"
+      server:
+        title: "Server Information"
+        button: "Server"
+    fields:
+      messageId: "Message ID"
+      server: "Server"
+      author: "Author"
+      hub: "Hub"
+      content: "Content"
+      timestamp: "Timestamp"
+      username: "Username"
+      accountCreated: "Account Created"
+      badges: "Badges"
+      serverName: "Server Name"
+      connectionChannel: "Connection Channel"
+      connectedSince: "Connected Since"
+      status: "Status"
+    status:
+      connected: "Connected"
+      disconnected: "Disconnected"
+    unknown:
+      server: "Unknown Server"
+    noBadges: "No badges to display"
+    noConnection: "No connection information available"
