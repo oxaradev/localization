@@ -73,7 +73,7 @@ responses:
       success: "{action} revogada."
     delete:
       noMessage: "Nenhuma mensagem fornecida para excluir."
-      success: "Message has been deleted from all connected hubs."
+      success: "A mensagem foi deletada de todos os hub conectados."
       notInterChatMessage: "Esta mensagem não é uma mensagem o InterChat ou já foi excluída."
       failed: "Falha ao apagar a mensagem. Tente novamente mais tarde."
       notFound: "Infração não encontrada."

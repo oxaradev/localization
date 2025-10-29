@@ -190,4 +190,25 @@ commands:
           permissionsWebhook: 'Não consigo acessar aos webhooks, por favor reveja minhas permissões e tente novamente.'
           permissionsView: 'Não consigo ver os canais, por favor reveja minhas permissões e tente novamente.'
           permissionsSend: 'Não consigo enviar mensagens, por favor reveja minhas permissões e tente novamente.'
+  voteReminders:
+    description: "Alternar notificações de lembrete de voto do InterChat."
+    enable:
+      success: "Lembretes de voto foram habilitados! Você receberá um lembrete no seu privado para votar a cada 6 horas se não tiver votado recentemente."
+      alreadyEnabled: "Lembretes de votos já estão habilitados."
+    disable:
+      success: "Os lembretes de voto foram desativados. Você não receberá mais mensagens de lembrete de voto."
+      alreadyDisabled: "Lembretes de voto já estão desabilitados."
+    status:
+      enabled: "Lembretes de voto estão atualmente **habilitados**."
+      disabled: "Lembretes de voto estão atualmente **desativados**."
+    dm:
+      title: "Hora de votar no InterChat!"
+      description: "Seu suporte ajuda o InterChat a crescer e alcançar mais comunidades. Vote no top.gg para nos ajudar!"
+      reminderInfo: "Você recebeu este lembrete porque votou antes. Você pode desativar esses lembretes a qualquer momento com a função `/vote-reminders disable`."
+      buttons:
+        vote: "Vote agora"
+        disable: "Desabilitar lembretes"
+      disableConfirm:
+        title: "Lembretes de Votos desabilitados."
+        description: "Você não receberá mais mensagens de lembrete de voto. Você pode reativá-los a qualquer momento com a opção `/vote-reminders enable`. Obrigado pelo seu apoio no passado!"
 

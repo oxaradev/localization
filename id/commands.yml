@@ -31,17 +31,17 @@ commands:
         description: "{dot} Komunitas yang unik untuk server kamu\n{dot} Kontrol penuh atas aturan dan moderasi\n{dot}"
       youllNeed:
         title: "You'll Need:"
-        description: "{arrow_right} Creative hub name\n{arrow_right} Brief description\n{arrow_right} Detailed description\n{arrow_right} Logo image URL"
+        description: "{arrow_right} Kreatif hub name\n{arrow_right} Deskripsi singkat \n{arrow_right} Deskripsi terperinci \n{arrow_right} URL gambar logo"
     join:
       title: "Bergabung dengan pusat "
-      description: "Use the public directory or connect with an invite code."
+      description: "Gunakan direktori publik atau hubungkan dengan kode undangan."
       publicHubs:
-        title: "Public Hubs"
-        description: "**Browse** [interchat.tech/hubs](https://interchat.tech/hubs)\n**Or click** the button below to open the directory"
+        title: "Pusat Publik"
+        description: "**Cari**[interchat.tech/hubs]\n(https://interchat.tech/hubs)\n**Atau klik** tombol di bawah untuk membuka direktori"
       privateHubs:
-        title: "Private or Invite-only"
-        description: "**Ask the hub owner or manager** for an invite code\n**Run `/connection add <invite-code>`** in your server to join"
-      footer: "You can join more hubs anytime, and you can be connected to multiple hubs at once in different channels."
+        title: "Pribadi atau Hanya untuk undangan"
+        description: "**Tanyai pemilik hub atau manager** untuk kode undangan\n**Jalani `/connection add <invite-code>`** di dalam server anda di server untuk bergabung"
+      footer: "Anda bisa bergabung dengan lebih banyak hubs kapan pun, dan anda dapat dihubungkan ke beberapa hub sekaligus di saluran yang berbeda."
     nextSteps:
       created:
         title: "Hub Created Successfully!"
@@ -190,4 +190,25 @@ commands:
           permissionsWebhook: 'I am unable to webhooks, please review my permissions and try again.'
           permissionsView: 'I am unable to view channel, please review my permissions and try again.'
           permissionsSend: 'I am unable to send messages, please review my permissions and try again.'
+  voteReminders:
+    description: "Toggle vote reminder notifications from InterChat."
+    enable:
+      success: "Vote reminders have been enabled! You'll receive a DM reminder to vote every 6 hours if you haven't voted recently."
+      alreadyEnabled: "Vote reminders are already enabled."
+    disable:
+      success: "Vote reminders have been disabled. You will no longer receive vote reminder DMs."
+      alreadyDisabled: "Vote reminders are already disabled."
+    status:
+      enabled: "Vote reminders are currently **enabled**."
+      disabled: "Vote reminders are currently **disabled**."
+    dm:
+      title: "Time to Vote for InterChat!"
+      description: "Your support helps InterChat grow and reach more communities. Vote on top.gg to help us out!"
+      reminderInfo: "You receive this reminder because you've voted before. You can disable these reminders anytime with `/vote-reminders disable`."
+      buttons:
+        vote: "Vote Now"
+        disable: "Disable Reminders"
+      disableConfirm:
+        title: "Vote Reminders Disabled"
+        description: "You will no longer receive vote reminder DMs. You can re-enable them anytime with `/vote-reminders enable`. Thanks for your past support!"
 
