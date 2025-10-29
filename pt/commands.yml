@@ -191,24 +191,24 @@ commands:
           permissionsView: 'Não consigo ver os canais, por favor reveja minhas permissões e tente novamente.'
           permissionsSend: 'Não consigo enviar mensagens, por favor reveja minhas permissões e tente novamente.'
   voteReminders:
-    description: "Toggle vote reminder notifications from InterChat."
+    description: "Alternar notificações de lembrete de voto do InterChat."
     enable:
-      success: "Vote reminders have been enabled! You'll receive a DM reminder to vote every 6 hours if you haven't voted recently."
-      alreadyEnabled: "Vote reminders are already enabled."
+      success: "Lembretes de voto foram habilitados! Você receberá um lembrete no seu privado para votar a cada 6 horas se não tiver votado recentemente."
+      alreadyEnabled: "Lembretes de votos já estão habilitados."
     disable:
-      success: "Vote reminders have been disabled. You will no longer receive vote reminder DMs."
-      alreadyDisabled: "Vote reminders are already disabled."
+      success: "Os lembretes de voto foram desativados. Você não receberá mais mensagens de lembrete de voto."
+      alreadyDisabled: "Lembretes de voto já estão desabilitados."
     status:
-      enabled: "Vote reminders are currently **enabled**."
-      disabled: "Vote reminders are currently **disabled**."
+      enabled: "Lembretes de voto estão atualmente **habilitados**."
+      disabled: "Lembretes de voto estão atualmente **desativados**."
     dm:
-      title: "Time to Vote for InterChat!"
-      description: "Your support helps InterChat grow and reach more communities. Vote on top.gg to help us out!"
-      reminderInfo: "You receive this reminder because you've voted before. You can disable these reminders anytime with `/vote-reminders disable`."
+      title: "Hora de votar no InterChat!"
+      description: "Seu suporte ajuda o InterChat a crescer e alcançar mais comunidades. Vote no top.gg para nos ajudar!"
+      reminderInfo: "Você recebeu este lembrete porque votou antes. Você pode desativar esses lembretes a qualquer momento com a função `/vote-reminders disable`."
       buttons:
-        vote: "Vote Now"
-        disable: "Disable Reminders"
+        vote: "Vote agora"
+        disable: "Desabilitar lembretes"
       disableConfirm:
-        title: "Vote Reminders Disabled"
-        description: "You will no longer receive vote reminder DMs. You can re-enable them anytime with `/vote-reminders enable`. Thanks for your past support!"
+        title: "Lembretes de Votos desabilitados."
+        description: "Você não receberá mais mensagens de lembrete de voto. Você pode reativá-los a qualquer momento com a opção `/vote-reminders enable`. Obrigado pelo seu apoio no passado!"
 
