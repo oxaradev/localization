@@ -40,7 +40,7 @@ commands:
       description: "Utilisez l'annuaire public ou connectez-vous avec un code d'invitation."
       publicHubs:
         title: "Hubs publics"
-        description: "**Parcourir** [interchat.tech/hubs](https://interchat.tech/hubs) **Ou cliquez** sur le bouton ci-dessous pour ouvrir le répertoire"
+        description: "**Parcourir** [interchat.tech/hubs](https://interchat.dev/hubs) **Ou cliquez** sur le bouton ci-dessous pour ouvrir le répertoire"
       privateHubs:
         title: "Privée ou invitations uniquement"
         description: "**Demandez au propriétaire ou au gestionnaire du hub** un code d'invitation **Exécutez `/connection add <invite-code>`** sur votre serveur pour rejoindre"
@@ -49,7 +49,7 @@ commands:
       created:
         title: "Hubs crée avec succès!"
         description: |
-          Votre hub **{hubName}** est prêt ! Voici ce que vous pouvez faire ensuite : - Inviter votre premier serveur avec `/invite` - Définir des règles avec `/rules set` - Personnaliser les paramètres dans le [tableau de bord](https://interchat.tech/dashboard) - Connecter des canaux avec `/connection add <hub-name>`
+          Votre hub **{hubName}** est prêt ! Voici ce que vous pouvez faire ensuite : - Inviter votre premier serveur avec `/invite` - Définir des règles avec `/rules set` - Personnaliser les paramètres dans le [tableau de bord](https://interchat.dev/dashboard) - Connecter des canaux avec `/connection add <hub-name>`
         inviteLink:
           title: "Suivant : Créer des liens d’invitation"
           description: "Utilisez {hubInviteCommand} pour générer des codes d'invitation pour **{hubName}** et les partager avec d'autres propriétaires de serveurs."
@@ -210,4 +210,3 @@ commands:
       disableConfirm:
         title: "Vote Reminders Disabled"
         description: "You will no longer receive vote reminder DMs. You can re-enable them anytime with `/vote-reminders enable`. Thanks for your past support!"
-
