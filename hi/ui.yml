@@ -420,6 +420,9 @@ ui:
         user: "उपयोगकर्ता"
         server: "सर्वर"
   hub:
+    create:
+      title: 'अपना हब बनाएं'
+      description: 'एक समुदाय, अपने दोस्तों... या किसी के लिए भी अपना खुद का इंटरचैट हब बनाएं - सूची युगों तक चल सकती है। आगे बढ़ो, देखो यह तुम्हें कहाँ ले जाता है।'
     wizard:
       start: "अपना हब बनाएं"
       intro: "Let's create your InterChat hub! You'll be guided through each step."
@@ -429,6 +432,9 @@ ui:
       tagline:
         label: "Hub Tagline"
         placeholder: "A one-sentence summary of your hub"
+      description:
+        label: "विवरण"
+        placeholder: "Describe your hub in detail"
     title: 'हब निर्माण'
     description: 'एक समुदाय, अपने दोस्तों... या किसी के लिए भी अपना खुद का इंटरचैट हब बनाएं - सूची युगों तक चल सकती है। आगे बढ़ो, देखो यह तुम्हें कहाँ ले जाता है।'
     delete:
