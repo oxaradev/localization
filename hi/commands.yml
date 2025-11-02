@@ -40,7 +40,7 @@ commands:
       description: "सार्वजनिक डायरेक्टरी का उपयोग करें या निमंत्रण कोड के साथ कनेक्ट करें।"
       publicHubs:
         title: "पब्लिक हब्स"
-        description: "**ब्राउज़ करें** [interchat.tech/hubs](https://interchat.tech/hubs)\n**या नीचे दिए गए बटन पर क्लिक करें** डायरेक्टरी खोलने के लिए"
+        description: "**ब्राउज़ करें** [interchat.tech/hubs](https://interchat.dev/hubs)\n**या नीचे दिए गए बटन पर क्लिक करें** डायरेक्टरी खोलने के लिए"
       privateHubs:
         title: "निजी या केवल आमंत्रण द्वारा"
         description: "**हब के मालिक या प्रबंधक से पूछें** आमंत्रण कोड के लिए  \n**अपने सर्वर में `/connection add <निमंत्रण कोड>` चलाएँ** शामिल होने के लिए\n"
@@ -52,7 +52,7 @@ commands:
           आपका हब **{hubName}** तैयार है! अब आप ये कर सकते हैं:
           - अपना पहला सर्वर `/invite` का उपयोग करके आमंत्रित करें
           - `/rules set` के साथ नियम सेट करें
-          - [डैशबोर्ड](https://interchat.tech/dashboard) में सेटिंग्स अनुकूलित करें
+          - [डैशबोर्ड](https://interchat.dev/dashboard) में सेटिंग्स अनुकूलित करें
           - `/connection add <hub-name>` के साथ चैनल कनेक्ट करें
         inviteLink:
           title: "अगला: आमंत्रण लिंक बनाएँ"
@@ -214,4 +214,3 @@ commands:
       disableConfirm:
         title: "Vote Reminders Disabled"
         description: "You will no longer receive vote reminder DMs. You can re-enable them anytime with `/vote-reminders enable`. Thanks for your past support!"
-
