@@ -62,6 +62,8 @@ responses:
     whoops: "Whoops! Something went wrong. Please try again later."
     missingArgument: "Missing argument: `{param}`."
     notConnectedServer: "{cross} I could not find any connections for this server."
+    not_authorized: "You can't use this button."
+    not_found: "Nicht gefunden"
   moderation:
     permissions:
       managerRequired: "Manager+ permissions required."
@@ -139,7 +141,7 @@ responses:
 
       **Ready to start building new bridges with us?**
       {dot} **New here?** The `/setup` command provides a step-by-step guide to help you begin your journey.
-      {dot} **Ready to explore?** Visit our [discovery page](https://interchat.tech/hubs) to locate and become part of our lively hubs.
+      {dot} **Ready to explore?** Visit our [discovery page](https://interchat.dev/hubs) to locate and become part of our lively hubs.
       {dot} **Perhaps something you're more familiar with?** Try our `/call` for one on one connections.
 
       💝 **Lost? Require assistance?** We welcome you to our [support community](https://discord.gg/8DhUA4HNpD). Our team and our community will be pleased to offer their help. We offer as much support and assistance in whatever issues you may have, don't hesitate to join!
