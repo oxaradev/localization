@@ -40,7 +40,7 @@ commands:
       description: "Use the public directory or connect with an invite code."
       publicHubs:
         title: "Public Hubs"
-        description: "**Browse** [interchat.tech/hubs](https://interchat.tech/hubs)\n**Or click** the button below to open the directory"
+        description: "**Browse** [interchat.dev/hubs](https://interchat.dev/hubs)\n**Or click** the button below to open the directory"
       privateHubs:
         title: "Private or Invite-only"
         description: "**Ask the hub owner or manager** for an invite code\n**Run `/connection add <invite-code>`** in your server to join"
@@ -52,7 +52,7 @@ commands:
           Your hub **{hubName}** is ready! Here's what you can do next:
           - Invite your first server using `/invite`
           - Set rules with `/rules set`
-          - Customize settings in the [dashboard](https://interchat.tech/dashboard)
+          - Customize settings in the [dashboard](https://interchat.dev/dashboard)
           - Connect channels with `/connection add <hub-name>`
         inviteLink:
           title: "Next: Create Invite Links"
@@ -214,4 +214,3 @@ commands:
       disableConfirm:
         title: "Vote Reminders Disabled"
         description: "You will no longer receive vote reminder DMs. You can re-enable them anytime with `/vote-reminders enable`. Thanks for your past support!"
-
