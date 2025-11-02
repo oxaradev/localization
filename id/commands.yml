@@ -37,7 +37,7 @@ commands:
       description: "Gunakan direktori publik atau hubungkan dengan kode undangan."
       publicHubs:
         title: "Pusat Publik"
-        description: "**Cari**[interchat.tech/hubs]\n(https://interchat.tech/hubs)\n**Atau klik** tombol di bawah untuk membuka direktori"
+        description: "**Browse** [interchat.tech/hubs](https://interchat.dev/hubs)\n**Or click** the button below to open the directory"
       privateHubs:
         title: "Pribadi atau Hanya untuk undangan"
         description: "**Tanyai pemilik hub atau manager** untuk kode undangan\n**Jalani `/connection add <invite-code>`** di dalam server anda di server untuk bergabung"
@@ -49,7 +49,7 @@ commands:
           Your hub **{hubName}** is ready! Here's what you can do next:
           - Invite your first server using `/invite`
           - Set rules with `/rules set`
-          - Customize settings in the [dashboard](https://interchat.tech/dashboard)
+          - Customize settings in the [dashboard](https://interchat.dev/dashboard)
           - Connect channels with `/connection add <hub-name>`
         inviteLink:
           title: "Next: Create Invite Links"
@@ -211,4 +211,3 @@ commands:
       disableConfirm:
         title: "Vote Reminders Disabled"
         description: "You will no longer receive vote reminder DMs. You can re-enable them anytime with `/vote-reminders enable`. Thanks for your past support!"
-
