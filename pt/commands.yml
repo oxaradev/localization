@@ -38,7 +38,7 @@ commands:
       description: "Use um diretório público ou conecte com um código de convite."
       publicHubs:
         title: "Hubs públicos"
-        description: "**Pesquise em** [interchat.tech/hubs]{https://interchat.tech/hubs} \n**Ou clique** no botão abaixo para abrir o diretório"
+        description: "**Pesquise em** [interchat.tech/hubs]{https://interchat.dev/hubs} \n**Ou clique** no botão abaixo para abrir o diretório"
       privateHubs:
         title: "Privado ou Somente via convite"
         description: "**Pergunte ao criador do hub ou gerente** por um código de convite\n**Execute `/connection add <código de convite>`** no seu servidor para entrar"
@@ -49,7 +49,7 @@ commands:
         description: |
           Seu hub **{hubName}** está pronto! Aqui está o que você pode fazer em seguida:
           - Convidar seu primeiro servidor usando `/invite`}
-          - Customizar configurações no [painel de controle]{https://interchat.tech/dashboard}
+          - Customizar configurações no [painel de controle]{https://interchat.dev/dashboard}
           - Conectar canais com `/connection add <nome do hub>`
         inviteLink:
           title: "Próximo: Crie links de convite"
@@ -190,4 +190,3 @@ commands:
           permissionsWebhook: 'Não consigo acessar aos webhooks, por favor reveja minhas permissões e tente novamente.'
           permissionsView: 'Não consigo ver os canais, por favor reveja minhas permissões e tente novamente.'
           permissionsSend: 'Não consigo enviar mensagens, por favor reveja minhas permissões e tente novamente.'
-

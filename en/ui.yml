@@ -425,6 +425,9 @@ ui:
         user: "User"
         server: "Server"
   hub:
+    create:
+      title: 'Create Your Hub'
+      description: 'Create your own InterChat hub for a community, your friends... or anyone - the list could go on for ages. Go ahead, see where it takes you.'
     wizard:
       start: "Create Your Hub"
       intro: "Let's create your InterChat hub! You'll be guided through each step."
@@ -434,6 +437,9 @@ ui:
       tagline:
         label: "Hub Tagline"
         placeholder: "A one-sentence summary of your hub"
+      description:
+        label: "Description"
+        placeholder: "Describe your hub in detail"
     title: 'Hub Creation'
     description: 'Create your own InterChat hub for a community, your friends... or anyone - the list could go on for ages. Go ahead, see where it takes you.'
     delete:
