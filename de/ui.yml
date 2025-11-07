@@ -19,6 +19,8 @@ ui:
       discoverHubs: "Öffentliche Hubs entdecken"
       supportServer: "Support-Server"
       joinHub: "Join Hub"
+      useDefault: "Use Default"
+      skipForNow: "Skip for Now"
   common:
     titles:
       error: "Fehler!"
@@ -182,14 +184,19 @@ ui:
         description: "Manage hub settings"
     modules:
       reactions:
+        label: "Reactions"
         description: "Allow reaction-based interactions on messages"
       hideLinks:
+        label: "Hide Links"
         description: "Hide link previews in hub messages"
       spamFilter:
+        label: "Spam Filter"
         description: "Automatically filter spam and unwanted content"
       blockInvites:
+        label: "Block Invites"
         description: "Block Discord server invites in messages"
       useNicknames:
+        label: "Use Nicknames"
         description: "Display user nicknames instead of usernames"
     logging:
       moderationLogs: "Moderation Logs"
@@ -424,8 +431,7 @@ ui:
       title: 'Erstelle deinen Hub'
       description: 'Create your own InterChat hub for a community, your friends... or anyone - the list could go on for ages. Go ahead, see where it takes you.'
     wizard:
-      start: "Erstelle deinen Hub"
-      intro: "Let's create your InterChat hub! You'll be guided through each step."
+      start: "Start Creating Your Hub"
       name:
         label: "Hub-Name"
         placeholder: "My Amazing Hub"
@@ -433,8 +439,103 @@ ui:
         label: "Hub Tagline"
         placeholder: "A one-sentence summary of your hub"
       description:
-        label: "Description"
-        placeholder: "Describe your hub in detail"
+        label: "Full Description"
+        placeholder: "Describe your hub in detail (20-1000 characters)"
+      steps:
+        progress: "Step {current}/{total}"
+        step1:
+          modalTitle: "Step 1/7: Hub Details"
+        step2:
+          title: "Hub Logo"
+          description: |
+            Add a logo for your hub!
+
+            -# 💡 *Tip: Use an image URL (PNG, JPG, GIF, WEBP) or choose the default bot avatar.*
+          modalTitle: "Step 2/7: Logo"
+          logoUrlLabel: "Logo URL"
+          logoUrlPlaceholder: "https://example.com/logo.png"
+          addLogoButton: "Add Logo"
+          invalidUrl: "Invalid image URL. Using default bot avatar instead."
+        step3:
+          description: |
+            Choose your hub's visibility:
+
+            🔓 **Public**: Discoverable on the hub directory, requires rules
+            🔒 **Private**: Invite-only, not listed publicly
+
+            -# 💡 *Tip: You can change this later in hub settings.*"
+          publicButton: "Public Hub"
+          privateButton: "Private Hub"
+        step4:
+          title: "Community Rules"
+          description: "Set community guidelines for your hub."
+          requiredPublic: "**Required for public hubs**"
+          optional: "Optional"
+          tip: "-# 💡 *Tip: Add one rule per line. You can add up to 25 rules.*"
+          modalTitle: "Step 4/7: Rules"
+          rulesLabel: "Hub Rules"
+          rulesPlaceholder: "1. Be respectful\n2. No spam\n3. Follow Discord ToS"
+          addRulesButton: "Add Rules"
+        step5:
+          title: "Welcome Message"
+          description: |
+            Create a welcome message for new members!
+
+            -# 💡 *Tip: Keep it friendly and informative. Max 500 characters.*"
+          modalTitle: "Step 5/7: Welcome"
+          welcomePlaceholder: "Welcome to {hubName} or our hub! Please read the rules and have fun!"
+          customMessageButton: "Custom Message"
+        step6:
+          title: "Hub Features"
+          description: |
+            Select features to enable for your hub!
+            ✅ **Pre-selected**: Reactions, Spam Filter (recommended)
+
+            -# 💡 *Tip: You can adjust these anytime in `/hub configure`.*"
+          modulesPlaceholder: "Select modules to enable..."
+          continueButton: "Continue"
+        step7:
+          description: |
+            Optionally select a channel for moderation logs.
+            Logs include: bans, warnings, reports, and other mod actions.
+
+            -# 💡 *Tip: Choose a private staff channel. You can configure more log types later.*"
+          selectChannelButton: "Select Channel"
+          channelSelectTitle: "Select Logging Channel"
+          channelSelectDescription: "Choose a channel for moderation logs:"
+          channelSelectPlaceholder: "Select a logging channel"
+      summary:
+        title: "Hub Configuration Summary"
+        description: "Review your hub settings before creating:"
+        nameAndDescription: "Name & Description"
+        visibilityPublic: "🌐 Public"
+        visibilityPrivate: "🔒 Private"
+        rulesCount: "{count} rule(s) set"
+        rulesNone: "No rules (can add later)"
+        welcomeDefault: "Default welcome message"
+        featuresNone: "None"
+        loggingNone: "Not configured"
+        footer: "Ready to create your hub?"
+      completion:
+        loading: "Creating Your Hub..."
+        loadingDescription: "Please wait while we set everything up..."
+        success: "Hub Created Successfully!"
+        successDescription: "{hubName} is now live! 🎉"
+        dashboardLink: "Manage your hub"
+        publicPageLink: "View on directory"
+        nextSteps: "What's Next?"
+        step1: |
+          **For Private Hubs: Create an Invite**: `/hub invites hub:{hubName}`
+          *Invite servers to join your hub*
+
+          **For Public Hubs: Share Your  Hub**: Check out your hub's [public page](https://interchat.dev/hubs/{hubId}) and use the link to join!
+          *Share your hub with others or join it from here!*
+        step2: "**Advanced Settings**: `/hub configure {hubName}`\n   - Profanity filters (custom anti-swear rules)\n   - Hub team management\n   - Advanced logging options\n   - Hub announcements"
+        step3: "**Need Help?**: [Join our support server]({supportInvite})"
+      cancelled:
+        description: "Your hub was not created. You can start over anytime with `/hub create`."
+      errors:
+        cantUseWizard: "You can't use this wizard."
     title: 'Hub Creation'
     description: 'Create your own InterChat hub for a community, your friends... or anyone - the list could go on for ages. Go ahead, see where it takes you.'
     delete:
@@ -457,7 +558,7 @@ ui:
       noneFound: 'None found!'
     announcements:
       title: 'Hub Announcements'
-      description: "Create a **one time** announcement that sends in all connected channels. \n\n-# To create **recurring** announcements please visit the hub configuration menu."
+      description: 'Create a **one time** announcement that sends in all connected channels. -# To create **recurring** announcements please visit the hub configuration menu.'
     creation:
       title: "Let's set up your hub!"
       description: "Hubs link multiple servers together using webhooks. They're great for cross-server communities."
