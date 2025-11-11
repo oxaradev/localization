@@ -519,7 +519,7 @@ ui:
       completion:
         loading: "Creating Your Hub..."
         loadingDescription: "Please wait while we set everything up..."
-        success: "Hub Created Successfully!"
+        success: "Hub berhasil dibuat!"
         successDescription: "{hubName} is now live! 🎉"
         dashboardLink: "Manage your hub"
         publicPageLink: "View on directory"
