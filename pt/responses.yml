@@ -64,6 +64,7 @@ responses:
     notConnectedServer: "{cross} Eu não consegui encontrar nenhuma conexão para esse servidor."
     not_authorized: "You can't use this button."
     not_found: "Não encontrado"
+    accessDenied: "Access Denied"
   moderation:
     permissions:
       managerRequired: "Permissões de Gerente+ necessárias."
