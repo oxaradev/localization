@@ -427,6 +427,12 @@ ui:
         user: "Usuário"
         server: "Servidor"
   hub:
+    lock:
+      successTitle: "Hub Locked"
+      successDescription: "Successfully locked **{hub}**. New members can no longer join."
+    unlock:
+      successTitle: "Hub Unlocked"
+      successDescription: "Successfully unlocked **{hub}**. New members can now join."
     create:
       title: 'Criar hub'
       description: 'Crie seu próprio hub de InterChat para uma comunidade, seus amigos... ou quem quer que seja - a lista pode continuar por eras. Vá em frente, veja onde você leva.'
