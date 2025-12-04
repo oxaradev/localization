@@ -64,6 +64,7 @@ responses:
     notConnectedServer: "{cross} इस सर्वर के लिए कोई कनेक्शन नहीं मिला।"
     not_authorized: "आप इस बटन का उपयोग नहीं कर सकते।"
     not_found: "नहीं मिला"
+    accessDenied: "Access Denied"
   moderation:
     permissions:
       managerRequired: "Manager+ अनुमतियाँ आवश्यक हैं।"
