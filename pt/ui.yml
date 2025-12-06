@@ -25,12 +25,12 @@ ui:
     titles:
       error: "Erro!"
       success: "Sucesso!"
-      cancelled: 'Cancelado!'
+      cancelled: "Cancelado!"
     noDescription: "Sem descrição"
     labels:
       date: "Data"
-      create: 'Criar'
-      cancel: 'Cancelar'
+      create: "Criar"
+      cancel: "Cancelar"
     messages:
       loading: "Carregando..."
       pleaseWait: "Por favor, aguarde..."
@@ -434,8 +434,8 @@ ui:
       successTitle: "Hub Unlocked"
       successDescription: "Successfully unlocked **{hub}**. New members can now join."
     create:
-      title: 'Criar hub'
-      description: 'Crie seu próprio hub de InterChat para uma comunidade, seus amigos... ou quem quer que seja - a lista pode continuar por eras. Vá em frente, veja onde você leva.'
+      title: "Criar hub"
+      description: "Crie seu próprio hub de InterChat para uma comunidade, seus amigos... ou quem quer que seja - a lista pode continuar por eras. Vá em frente, veja onde você leva."
     wizard:
       start: "Start Creating Your Hub"
       name:
@@ -542,67 +542,69 @@ ui:
         description: "Your hub was not created. You can start over anytime with `/hub create`."
       errors:
         cantUseWizard: "You can't use this wizard."
-    title: 'Criação de Hub'
-    description: 'Crie seu próprio hub de InterChat para uma comunidade, seus amigos... ou quem quer que seja - a lista pode continuar por eras. Vá em frente, veja onde você leva.'
+    title: "Criação de Hub"
+    description: "Crie seu próprio hub de InterChat para uma comunidade, seus amigos... ou quem quer que seja - a lista pode continuar por eras. Vá em frente, veja onde você leva."
     delete:
-      description: 'Seu hub foi excluído.'
+      description: "Seu hub foi excluído."
     connect:
       success:
-        title: 'Conectado!'
-        description: 'Conectado a **{hubName}** - vamos conversar!'
-        fieldValue: 'Canal conectado: {channel}'
+        title: "Conectado!"
+        description: "Conectado a **{hubName}** - vamos conversar!"
+        fieldValue: "Canal conectado: {channel}"
       errors:
-        alreadyConnected: 'Uh oh! Parece que este servidor já tem uma conexão com este hub.'
+        alreadyConnected: "Uh oh! Parece que este servidor já tem uma conexão com este hub."
     disconnect:
-      title: 'Desconectado!'
-      description: 'Desconectado do hub.'
-      fieldValue: 'Canal associado: {channel}'
+      title: "Desconectado!"
+      description: "Desconectado do hub."
+      fieldValue: "Canal associado: {channel}"
     invites:
-      title: 'Convites ativos'
-      inviteUses: '**Usos:**'
-      inviteExpire: '**Expira:**'
-      noneFound: 'Nenhum encontrado!'
+      title: "Convites ativos"
+      inviteUses: "**Usos:**"
+      inviteExpire: "**Expira:**"
+      noneFound: "Nenhum encontrado!"
     announcements:
-      title: 'Anúncios do hub'
-      description: 'Create a **one time** announcement that sends in all connected channels. -# To create **recurring** announcements please visit the hub configuration menu.'
+      title: "Anúncios do hub"
+      description: |
+        Create a **one time** announcement that sends in all connected channels.
+        -# To create **recurring** announcements please visit the hub configuration menu.
     creation:
       title: "Vamos configurar o seu hub!"
       description: "Hubs linham vários servidores juntos usando webhooks. Eles são ótimos para comunidades entre servidores."
       clickToBegin: "Clique em {emoji} Criar para começar."
       modal:
-        title: 'Informações do hub'
+        title: "Informações do hub"
         hubName: "Nome do hub"
         shortLabel: "Descrição curta"
       errors:
-        invalidInput: 'Dados inválidos'
-        name: 'Uh oh! Seu nome do hub deve ser composto por letras, números, espaços e sublinhados. Não permitimos outros caracteres.'
+        invalidInput: "Dados inválidos"
+        name: "Uh oh! Seu nome do hub deve ser composto por letras, números, espaços e sublinhados. Não permitimos outros caracteres."
         shortDescription: "A descrição curta do hub deve ter entre 10 e 100 caracteres."
-        unhandled: 'Opa! Algo deu errado ao tentar criar seu hub. Tente novamente e, se o problema persistir, entre em contato com nossa (equipe de suporte)[{supportServer}].'
-        unique: 'Uh oh! Esse nome de hub já foi usado. Você deve escolher outro.'
+        unhandled: "Opa! Algo deu errado ao tentar criar seu hub. Tente novamente e, se o problema persistir, entre em contato com nossa (equipe de suporte)[{supportServer}]."
+        unique: "Uh oh! Esse nome de hub já foi usado. Você deve escolher outro."
       visibility:
-        title: 'Visibilidade do Hub'
-        description: 'O seu hub deve ser **público**? Isso significa que estará acessível a **todos** e mostrado na [página de descoberta]({discoverHubs}).'
+        title: "Visibilidade do Hub"
+        description: "O seu hub deve ser **público**? Isso significa que estará acessível a **todos** e mostrado na [página de descoberta]({discoverHubs})."
         buttons:
-          public: 'Público'
-          private: 'Privado'
+          public: "Público"
+          private: "Privado"
       preview:
-        title: 'Concluído!'
-        description: 'Você completou a configuração do hub! Revise suas escolhas abaixo para continuar.'
-        footer: 'Você pode editar mais campos depois, após a criação.'
+        title: "Concluído!"
+        description: "Você completou a configuração do hub! Revise suas escolhas abaixo para continuar."
+        footer: "Você pode editar mais campos depois, após a criação."
         fields:
-          title: 'Informação'
+          title: "Informação"
           value: |
             > {nemoji} **Nome:** {hubName}
             > {sdemoji} **Descrição curta:** {shortDescription}
             > {vemoji} **Visibilidade:** {visibility}
             > {ldemoji} **Descrição longa:** Nenhum - Defina isto na [dashboard]({dashboard}) depois!
       complete:
-        title: 'Criado!'
+        title: "Criado!"
         description: "Agora seu hub está pronto - vamos conversar! Procurando por mais personalização? Vá para [dashboard]({dashboard}) e configure as configurações de seu hub."
-        private: '**Convide usuários!** Como o seu hub é privado, você deve gerar convites de usuário. Crie um com `/hub invites`!'
-        public: '**Sua criação!** Como seu hub é público, você pode vê-lo no explorador - [confira]({public})!'
+        private: "**Convide usuários!** Como o seu hub é privado, você deve gerar convites de usuário. Crie um com `/hub invites`!"
+        public: "**Sua criação!** Como seu hub é público, você pode vê-lo no explorador - [confira]({public})!"
       other:
-        cancelled: 'Instalação cancelada. Esperamos vê-lo de volta aqui em breve.'
+        cancelled: "Instalação cancelada. Esperamos vê-lo de volta aqui em breve."
     config:
       title: "Configuração do Hub"
       description: "Personalize seu hub do InterChat para sua comunidade. Escolha o que você gostaria de configurar abaixo."
@@ -631,15 +633,15 @@ ui:
     all:
       title: "Hubs do InterChat"
       description: "Abaixo você poderá pesquisar através de uma lista de todos os nossos hubs! Confira-os, veja quem você encontra."
-      filteredBy: 'Resultados filtrados por: {filter}'
+      filteredBy: "Resultados filtrados por: {filter}"
       errors:
         notFound: "Uh oh! Eu não consegui encontrar nenhum hub. Isso provavelmente não deveria acontecer. Entre em contato com nossa [equipe de suporte]({supportServer})."
         invalidFilter: "Cri, cri, cri... nenhum hub corresponde ao seu filtro."
       modal:
-        title: 'Filtro de busca:'
+        title: "Filtro de busca:"
         searchFilter:
-          label: 'Filtro'
-          placeholder: 'Central do InterChat'
+          label: "Filtro"
+          placeholder: "Central do InterChat"
     rules:
       title: "Gerenciamento de Regras do Hub"
       description: "Gerencie as regras e diretrizes da comunidade de seu hub."
@@ -694,7 +696,7 @@ ui:
         deleteWarningDescription: "Esta ação não pode ser desfeita. A regra será removida permanentemente do seu hub."
       display:
         noRulesTitle: "Sem regras definidas"
-        noRulesDescription: "Nenhuma regra foi definida para este hub ainda. Use o botão \"Adicionar Regra\" abaixo para criar sua primeira regra."
+        noRulesDescription: 'Nenhuma regra foi definida para este hub ainda. Use o botão "Adicionar Regra" abaixo para criar sua primeira regra.'
         currentRulesTitle: "Regras atuais ({current}/{max})"
         ruleSelected: "Regra {number} selecionada"
         currentRule: "Regra atual:"
@@ -731,6 +733,8 @@ ui:
     status:
       connected: "Connected"
       disconnected: "Disconnected"
+    buttons:
+      profile: "Profile"
     unknown:
       server: "Unknown Server"
     noBadges: "No badges to display"
