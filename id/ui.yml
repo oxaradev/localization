@@ -25,12 +25,12 @@ ui:
     titles:
       error: "Error!"
       success: "Success!"
-      cancelled: 'Cancelled!'
+      cancelled: "Cancelled!"
     noDescription: "No description"
     labels:
       date: "Date"
-      create: 'Create'
-      cancel: 'Cancel'
+      create: "Create"
+      cancel: "Cancel"
     messages:
       loading: "Loading..."
       pleaseWait: "Please wait..."
@@ -434,8 +434,8 @@ ui:
       successTitle: "Hub Unlocked"
       successDescription: "Successfully unlocked **{hub}**. New members can now join."
     create:
-      title: 'Create Your Hub'
-      description: 'Create your own InterChat hub for a community, your friends... or anyone - the list could go on for ages. Go ahead, see where it takes you.'
+      title: "Create Your Hub"
+      description: "Create your own InterChat hub for a community, your friends... or anyone - the list could go on for ages. Go ahead, see where it takes you."
     wizard:
       start: "Start Creating Your Hub"
       name:
@@ -542,67 +542,69 @@ ui:
         description: "Your hub was not created. You can start over anytime with `/hub create`."
       errors:
         cantUseWizard: "You can't use this wizard."
-    title: 'Hub Creation'
-    description: 'Create your own InterChat hub for a community, your friends... or anyone - the list could go on for ages. Go ahead, see where it takes you.'
+    title: "Hub Creation"
+    description: "Create your own InterChat hub for a community, your friends... or anyone - the list could go on for ages. Go ahead, see where it takes you."
     delete:
-      description: 'Your hub has been deleted.'
+      description: "Your hub has been deleted."
     connect:
       success:
-        title: 'Connected!'
-        description: 'Connected to **{hubName}** - get chatting!'
-        fieldValue: 'Connected Channel: {channel}'
+        title: "Connected!"
+        description: "Connected to **{hubName}** - get chatting!"
+        fieldValue: "Connected Channel: {channel}"
       errors:
-        alreadyConnected: 'Uh oh! It looks like this server already has a connection to this hub.'
+        alreadyConnected: "Uh oh! It looks like this server already has a connection to this hub."
     disconnect:
-      title: 'Terputus!'
-      description: 'Terputus dari hub.'
-      fieldValue: 'Saluran Terkait: {channel}'
+      title: "Terputus!"
+      description: "Terputus dari hub."
+      fieldValue: "Saluran Terkait: {channel}"
     invites:
-      title: 'Undangan Aktif'
-      inviteUses: '**Kegunaan:**'
-      inviteExpire: '**Berakhir:**'
-      noneFound: 'Tidak ada di temukan!'
+      title: "Undangan Aktif"
+      inviteUses: "**Kegunaan:**"
+      inviteExpire: "**Berakhir:**"
+      noneFound: "Tidak ada di temukan!"
     announcements:
-      title: 'Pengumuman Hub'
-      description: 'Create a **one time** announcement that sends in all connected channels. -# To create **recurring** announcements please visit the hub configuration menu.'
+      title: "Pengumuman Hub"
+      description: |
+        Create a **one time** announcement that sends in all connected channels.
+        -# To create **recurring** announcements please visit the hub configuration menu.
     creation:
       title: "Ayuk mempersiapkan hub kamu!"
       description: "Hub menghubungkan beberapa server menggunakan webhook. Hub sangat cocok untuk komunitas lintas server."
       clickToBegin: "Kliklah {emoji} Membuat untuk mulai"
       modal:
-        title: 'Informasi Tentang Hub'
+        title: "Informasi Tentang Hub"
         hubName: "Nama Hub"
         shortLabel: "Deskripsi Pendek"
       errors:
-        invalidInput: 'Invalid Input'
-        name: 'Uh oh! Your hub name must be composed of letters, numbers, spaces and underscores. We do not allow any other characters.'
+        invalidInput: "Invalid Input"
+        name: "Uh oh! Your hub name must be composed of letters, numbers, spaces and underscores. We do not allow any other characters."
         shortDescription: "The hub's short description must be between 10 and 100 characters."
-        unhandled: 'Whoops! Something went wrong while attempting to create your hub. Please try again, and if the issue persists contact our (support team)[supportServer].'
-        unique: 'Uh oh! That hub name has already been taken. You must choose another.'
+        unhandled: "Whoops! Something went wrong while attempting to create your hub. Please try again, and if the issue persists contact our (support team)[supportServer]."
+        unique: "Uh oh! That hub name has already been taken. You must choose another."
       visibility:
-        title: 'Hub Visibility'
-        description: 'Should your hub **public**? This means it will be accessible to **everyone** and show on the [discovery page]({discoverHubs}).'
+        title: "Hub Visibility"
+        description: "Should your hub **public**? This means it will be accessible to **everyone** and show on the [discovery page]({discoverHubs})."
         buttons:
-          public: 'Public'
-          private: 'Private'
+          public: "Public"
+          private: "Private"
       preview:
-        title: 'Complete!'
-        description: 'You have complete the hub setup! Review your choices below to contiune.'
-        footer: 'You may edit more fields later, after creation.'
+        title: "Complete!"
+        description: "You have complete the hub setup! Review your choices below to contiune."
+        footer: "You may edit more fields later, after creation."
         fields:
-          title: 'Information'
+          title: "Information"
           value: |
             > {nemoji} **Name:** {hubName}
             > {sdemoji} **Short description:** {shortDescription}
             > {vemoji} **Visibility:** {visibility}
             > {ldemoji} **Long description:** None - Set this in the [dashboard]({dashboard}) later!
       complete:
-        title: 'Created!'
+        title: "Created!"
         description: "Your hub is now ready - get chatting! Looking for more customisation? Head over to the [dashboard]({dashboard}) and configure your hub's settings."
-        private: '**Invite Users!** As your hub is private you must generate user invites. Create one with `/hub invites`!'
-        public: '**Your creation!** As your hub is public, you may view it on the explorer - [check it out]({public})!'
+        private: "**Invite Users!** As your hub is private you must generate user invites. Create one with `/hub invites`!"
+        public: "**Your creation!** As your hub is public, you may view it on the explorer - [check it out]({public})!"
       other:
-        cancelled: 'Setup cancelled. We hope to see you back here again soon.'
+        cancelled: "Setup cancelled. We hope to see you back here again soon."
     config:
       title: "Hub Configuration"
       description: "Customize your InterChat hub for your community. Pick what you'd like to configure below."
@@ -631,15 +633,15 @@ ui:
     all:
       title: "Pusat Interchat"
       description: "Di bawah ini, Anda dapat menelusuri daftar semua hub kami! Lihat, siapa yang Anda temukan."
-      filteredBy: 'Hasil yang di filter oleh: {filter}'
+      filteredBy: "Hasil yang di filter oleh: {filter}"
       errors:
         notFound: "Uh oh! Saya tidak berhasil menumui pusat-pusat. Itu mungkin tidak seharusnya terjadi. Tolong contact [support team]({supportServer}) kami."
         invalidFilter: "Crickets... tidak ada hub yang cocok dengan filter Anda."
       modal:
-        title: 'Cari Filter'
+        title: "Cari Filter"
         searchFilter:
-          label: 'Filter'
-          placeholder: 'Pusat Interchat'
+          label: "Filter"
+          placeholder: "Pusat Interchat"
     rules:
       title: "Manajemen Aturan Pusat"
       description: "Mengelola aturan dan pedoman komunitas anda di bawah ini."
@@ -694,7 +696,7 @@ ui:
         deleteWarningDescription: "Tindakan ini tidak bisa dibatalkan. Aturan ini akan di dihapus secara permanen"
       display:
         noRulesTitle: "Tidak Ada Aturan Yang Ditetapkan"
-        noRulesDescription: "Belum ada aturan yang ditetapkan untuk hub ini. Gunakan tombol \"Tambah Aturan\" di bawah untuk membuat aturan pertama Anda."
+        noRulesDescription: 'Belum ada aturan yang ditetapkan untuk hub ini. Gunakan tombol "Tambah Aturan" di bawah untuk membuat aturan pertama Anda.'
         currentRulesTitle: "Aturan Saat Ini ({current}/{max})"
         ruleSelected: "Aturan {number} Dipilih"
         currentRule: "Aturaan saat ini:"
@@ -731,6 +733,8 @@ ui:
     status:
       connected: "Connected"
       disconnected: "Disconnected"
+    buttons:
+      profile: "Profile"
     unknown:
       server: "Unknown Server"
     noBadges: "No badges to display"
