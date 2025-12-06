@@ -25,12 +25,12 @@ ui:
     titles:
       error: "त्रुटि!"
       success: "सफलता!"
-      cancelled: 'रद्द किया गया!'
+      cancelled: "रद्द किया गया!"
     noDescription: "कोई विवरण नहीं"
     labels:
       date: "तारीख"
-      create: 'बनाएँ'
-      cancel: 'रद्द करें'
+      create: "बनाएँ"
+      cancel: "रद्द करें"
     messages:
       loading: "लोड हो रहा है..."
       pleaseWait: "कृपया प्रतीक्षा करें..."
@@ -434,8 +434,8 @@ ui:
       successTitle: "Hub Unlocked"
       successDescription: "Successfully unlocked **{hub}**. New members can now join."
     create:
-      title: 'अपना हब बनाएं'
-      description: 'एक समुदाय, अपने दोस्तों... या किसी के लिए भी अपना खुद का इंटरचैट हब बनाएं - सूची युगों तक चल सकती है। आगे बढ़ो, देखो यह तुम्हें कहाँ ले जाता है।'
+      title: "अपना हब बनाएं"
+      description: "एक समुदाय, अपने दोस्तों... या किसी के लिए भी अपना खुद का इंटरचैट हब बनाएं - सूची युगों तक चल सकती है। आगे बढ़ो, देखो यह तुम्हें कहाँ ले जाता है।"
     wizard:
       start: "Start Creating Your Hub"
       name:
@@ -542,67 +542,69 @@ ui:
         description: "Your hub was not created. You can start over anytime with `/hub create`."
       errors:
         cantUseWizard: "You can't use this wizard."
-    title: 'हब निर्माण'
-    description: 'एक समुदाय, अपने दोस्तों... या किसी के लिए भी अपना खुद का इंटरचैट हब बनाएं - सूची युगों तक चल सकती है। आगे बढ़ो, देखो यह तुम्हें कहाँ ले जाता है।'
+    title: "हब निर्माण"
+    description: "एक समुदाय, अपने दोस्तों... या किसी के लिए भी अपना खुद का इंटरचैट हब बनाएं - सूची युगों तक चल सकती है। आगे बढ़ो, देखो यह तुम्हें कहाँ ले जाता है।"
     delete:
-      description: 'आपका हब हटा दिया गया है।'
+      description: "आपका हब हटा दिया गया है।"
     connect:
       success:
-        title: 'जुड़ गया!'
-        description: '**{hubName}** से जुड़ गए - बातें शुरू करें!'
-        fieldValue: 'जुड़ा हुआ चैनल: {channel}'
+        title: "जुड़ गया!"
+        description: "**{hubName}** से जुड़ गए - बातें शुरू करें!"
+        fieldValue: "जुड़ा हुआ चैनल: {channel}"
       errors:
-        alreadyConnected: 'अरे नहीं! ऐसा लगता है कि इस सर्वर का इस हब से पहले से ही एक कनेक्शन है।'
+        alreadyConnected: "अरे नहीं! ऐसा लगता है कि इस सर्वर का इस हब से पहले से ही एक कनेक्शन है।"
     disconnect:
-      title: 'डिस्कनेक्ट हो गया!'
-      description: 'हब से डिस्कनेक्ट हो गया।'
-      fieldValue: 'संबंधित चैनल: {channel}'
+      title: "डिस्कनेक्ट हो गया!"
+      description: "हब से डिस्कनेक्ट हो गया।"
+      fieldValue: "संबंधित चैनल: {channel}"
     invites:
-      title: 'सक्रिय आमंत्रण'
-      inviteUses: '**उपयोग:**'
-      inviteExpire: '**समाप्त होता है:**'
-      noneFound: 'कोई नहीं मिला!'
+      title: "सक्रिय आमंत्रण"
+      inviteUses: "**उपयोग:**"
+      inviteExpire: "**समाप्त होता है:**"
+      noneFound: "कोई नहीं मिला!"
     announcements:
-      title: 'हब घोषणाएँ'
-      description: 'Create a **one time** announcement that sends in all connected channels. -# To create **recurring** announcements please visit the hub configuration menu.'
+      title: "हब घोषणाएँ"
+      description: |
+        Create a **one time** announcement that sends in all connected channels.
+        -# To create **recurring** announcements please visit the hub configuration menu.
     creation:
       title: "आइए आपका हब सेट करें!"
       description: "हब वेबहुक का उपयोग करके कई सर्वरों को एक साथ जोड़ते हैं। वे क्रॉस-सर्वर समुदायों के लिए बहुत अच्छे हैं।"
       clickToBegin: "शुरू करने के लिए {emoji} बनाएं पर क्लिक करें।"
       modal:
-        title: 'हब जानकारी'
+        title: "हब जानकारी"
         hubName: "हब का नाम"
         shortLabel: "संक्षिप्त विवरण"
       errors:
-        invalidInput: 'अमान्य इनपुट'
-        name: 'अरे नहीं! आपके हब का नाम अक्षरों, संख्याओं, रिक्त स्थान और अंडरस्कोर से बना होना चाहिए। हम किसी अन्य वर्ण की अनुमति नहीं देते हैं।'
+        invalidInput: "अमान्य इनपुट"
+        name: "अरे नहीं! आपके हब का नाम अक्षरों, संख्याओं, रिक्त स्थान और अंडरस्कोर से बना होना चाहिए। हम किसी अन्य वर्ण की अनुमति नहीं देते हैं।"
         shortDescription: "हब का संक्षिप्त विवरण 10 और 100 वर्णों के बीच होना चाहिए।"
-        unhandled: 'उफ़! आपके हब को बनाने का प्रयास करते समय कुछ गलत हो गया। कृपया पुनः प्रयास करें, और यदि समस्या बनी रहती है तो हमारी (समर्थन टीम)[supportServer] से संपर्क करें।'
-        unique: 'अरे नहीं! वह हब नाम पहले ही लिया जा चुका है। आपको दूसरा चुनना होगा।'
+        unhandled: "उफ़! आपके हब को बनाने का प्रयास करते समय कुछ गलत हो गया। कृपया पुनः प्रयास करें, और यदि समस्या बनी रहती है तो हमारी (समर्थन टीम)[supportServer] से संपर्क करें।"
+        unique: "अरे नहीं! वह हब नाम पहले ही लिया जा चुका है। आपको दूसरा चुनना होगा।"
       visibility:
-        title: 'हब दृश्यता'
-        description: 'क्या आपका हब **सार्वजनिक** होना चाहिए? इसका मतलब है कि यह **सभी** के लिए सुलभ होगा और [डिस्कवरी पेज]({discoverHubs}) पर दिखाई देगा।'
+        title: "हब दृश्यता"
+        description: "क्या आपका हब **सार्वजनिक** होना चाहिए? इसका मतलब है कि यह **सभी** के लिए सुलभ होगा और [डिस्कवरी पेज]({discoverHubs}) पर दिखाई देगा।"
         buttons:
-          public: 'सार्वजनिक'
-          private: 'निजी'
+          public: "सार्वजनिक"
+          private: "निजी"
       preview:
-        title: 'पूर्ण!'
-        description: 'आपने हब सेटअप पूरा कर लिया है! जारी रखने के लिए नीचे अपने विकल्पों की समीक्षा करें।'
-        footer: 'आप निर्माण के बाद, बाद में और फ़ील्ड संपादित कर सकते हैं।'
+        title: "पूर्ण!"
+        description: "आपने हब सेटअप पूरा कर लिया है! जारी रखने के लिए नीचे अपने विकल्पों की समीक्षा करें।"
+        footer: "आप निर्माण के बाद, बाद में और फ़ील्ड संपादित कर सकते हैं।"
         fields:
-          title: 'जानकारी'
+          title: "जानकारी"
           value: |
             > {nemoji} **नाम:** {hubName}
             > {sdemoji} **संक्षिप्त विवरण:** {shortDescription}
             > {vemoji} **दृश्यता:** {visibility}
             > {ldemoji} **लंबा विवरण:** कोई नहीं - इसे बाद में [डैशबोर्ड]({dashboard}) में सेट करें!
       complete:
-        title: 'बनाया गया!'
+        title: "बनाया गया!"
         description: "आपका हब अब तैयार है - बातें शुरू करें! और अनुकूलन की तलाश है? [डैशबोर्ड]({dashboard}) पर जाएं और अपने हब की सेटिंग्स कॉन्फ़िगर करें।"
-        private: '**उपयोगकर्ताओं को आमंत्रित करें!** चूंकि आपका हब निजी है, आपको उपयोगकर्ता आमंत्रण बनाने होंगे। `/hub invites` के साथ एक बनाएं!'
-        public: '**आपकी रचना!** चूंकि आपका हब सार्वजनिक है, आप इसे एक्सप्लोरर पर देख सकते हैं - [इसे देखें]({public})!'
+        private: "**उपयोगकर्ताओं को आमंत्रित करें!** चूंकि आपका हब निजी है, आपको उपयोगकर्ता आमंत्रण बनाने होंगे। `/hub invites` के साथ एक बनाएं!"
+        public: "**आपकी रचना!** चूंकि आपका हब सार्वजनिक है, आप इसे एक्सप्लोरर पर देख सकते हैं - [इसे देखें]({public})!"
       other:
-        cancelled: 'सेटअप रद्द कर दिया गया। हम आपको जल्द ही यहां वापस देखने की उम्मीद करते हैं।'
+        cancelled: "सेटअप रद्द कर दिया गया। हम आपको जल्द ही यहां वापस देखने की उम्मीद करते हैं।"
     config:
       title: "हब कॉन्फ़िगरेशन"
       description: "अपने समुदाय के लिए InterChat हब को अनुकूलित करें। नीचे चुनें कि आप क्या कॉन्फ़िगर करना चाहते हैं।"
@@ -631,15 +633,15 @@ ui:
     all:
       title: "इंटरचैट हब"
       description: "नीचे आप हमारे सभी हब की सूची में खोज कर सकेंगे! उन्हें देखें, देखें कि आपको कौन मिलता है।"
-      filteredBy: 'परिणाम फ़िल्टर किए गए: {filter}'
+      filteredBy: "परिणाम फ़िल्टर किए गए: {filter}"
       errors:
         notFound: "अरे नहीं! मुझे कोई हब नहीं मिला। शायद ऐसा नहीं होना चाहिए था। कृपया हमारी [समर्थन टीम]({supportServer}) से संपर्क करें।"
         invalidFilter: "कुछ नहीं... कोई हब आपके फ़िल्टर से मेल नहीं खाता।"
       modal:
-        title: 'खोज फ़िल्टर'
+        title: "खोज फ़िल्टर"
         searchFilter:
-          label: 'फ़िल्टर'
-          placeholder: 'इंटरचैट सेंट्रल'
+          label: "फ़िल्टर"
+          placeholder: "इंटरचैट सेंट्रल"
     rules:
       title: "हब नियम प्रबंधन"
       description: "नीचे अपने हब के सामुदायिक नियमों और दिशानिर्देशों का प्रबंधन करें।"
@@ -694,7 +696,7 @@ ui:
         deleteWarningDescription: "यह क्रिया पूर्ववत नहीं की जा सकती। नियम आपके हब से स्थायी रूप से हटा दिया जाएगा।"
       display:
         noRulesTitle: "कोई नियम सेट नहीं किए गए"
-        noRulesDescription: "इस हब के लिए अभी तक कोई नियम निर्धारित नहीं किया गया है। अपना पहला नियम बनाने के लिए नीचे \"नियम जोड़ें\" बटन का उपयोग करें।"
+        noRulesDescription: 'इस हब के लिए अभी तक कोई नियम निर्धारित नहीं किया गया है। अपना पहला नियम बनाने के लिए नीचे "नियम जोड़ें" बटन का उपयोग करें।'
         currentRulesTitle: "वर्तमान नियम ({current}/{max})"
         ruleSelected: "नियम {number} चयनित"
         currentRule: "वर्तमान नियम:"
@@ -731,6 +733,8 @@ ui:
     status:
       connected: "Connected"
       disconnected: "Disconnected"
+    buttons:
+      profile: "Profile"
     unknown:
       server: "Unknown Server"
     noBadges: "No badges to display"
