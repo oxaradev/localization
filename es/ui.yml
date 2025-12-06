@@ -277,6 +277,28 @@ ui:
       placeholder: "Selecciona una acción de moderación..."
     fields:
       reason: "Razón"
+    history:
+      noHubSelected: "No hub selected."
+    errors:
+      generic: "An error occurred while processing your request."
+  profanity:
+    actions:
+      editActions:
+        label: "Edit Actions"
+      patterns:
+        label: "Patterns"
+      whitelist:
+        label: "Whitelist"
+      toggle:
+        label: "Toggle Enable/Disable"
+        description: "Turn this rule on or off"
+      delete:
+        label: "Eliminar Regla"
+        description: "⚠️ Permanently remove this rule"
+  welcomeMessage:
+    title: "Welcome to {hubName}! 👋"
+    footer: "Connected to {hubName}"
+    errorDm: "Failed to send welcome message for the hub you joined. Make sure I have permission to send messages in {channel}."
   infractions:
     buttons:
       userInfractions: "Infracciones de Usuario"
