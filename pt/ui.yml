@@ -578,7 +578,9 @@ ui:
         description: "Conectado a **{hubName}** - vamos conversar!"
         fieldValue: "Canal conectado: {channel}"
       errors:
-        alreadyConnected: "Uh oh! Parece que este servidor já tem uma conexão com este hub."
+        alreadyConnected:
+          title: Already Connected to this hub
+          description: 'It looks like this server has an connection to this hub from {channel}. Use `/connection list` to change channels or `/connection remove` to disconnect from the hub.'
     disconnect:
       title: "Desconectado!"
       description: "Desconectado do hub."
