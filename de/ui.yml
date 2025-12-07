@@ -452,9 +452,13 @@ ui:
     lock:
       successTitle: "Hub Locked"
       successDescription: "Successfully locked **{hub}**. New members can no longer join."
+      announceTitle: "Hub Locked"
+      announceDescription: "This hub has been locked by a moderator.\nOnly moderators can send messages now."
     unlock:
       successTitle: "Hub Unlocked"
       successDescription: "Successfully unlocked **{hub}**. New members can now join."
+      announceTitle: "Hub Unlocked"
+      announceDescription: "This hub has been unlocked by a moderator.\nYou can now send messages."
     create:
       title: "Erstelle deinen Hub"
       description: "Create your own InterChat hub for a community, your friends... or anyone - the list could go on for ages. Go ahead, see where it takes you."
