@@ -578,7 +578,9 @@ ui:
         description: "**{hubName}** से जुड़ गए - बातें शुरू करें!"
         fieldValue: "जुड़ा हुआ चैनल: {channel}"
       errors:
-        alreadyConnected: "अरे नहीं! ऐसा लगता है कि इस सर्वर का इस हब से पहले से ही एक कनेक्शन है।"
+        alreadyConnected:
+          title: Already Connected to this hub
+          description: 'It looks like this server has an connection to this hub from {channel}. Use `/connection list` to change channels or `/connection remove` to disconnect from the hub.'
     disconnect:
       title: "डिस्कनेक्ट हो गया!"
       description: "हब से डिस्कनेक्ट हो गया।"
