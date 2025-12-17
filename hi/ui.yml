@@ -168,6 +168,9 @@ ui:
       toggleNsfw:
         label: "NSFW टॉगल करें"
         description: "अपने हब को NSFW के रूप में चिह्नित करें या नहीं"
+      changeVisibility:
+        label: "Change Visibility"
+        description: "Switch between Public, Unlisted, or Private"
       togglePrivate:
         label: "निजी टॉगल करें"
         description: "अपने हब को निजी के रूप में चिह्नित करें या नहीं"
@@ -510,10 +513,12 @@ ui:
             Choose your hub's visibility:
 
             🔓 **Public**: Discoverable on the hub directory, requires rules
+            👁️ **Unlisted**: Not in directory but anyone can join if they know the name
             🔒 **Private**: Invite-only, not listed publicly
 
             -# 💡 *Tip: You can change this later in hub settings.*"
           publicButton: "Public Hub"
+          unlistedButton: "Unlisted"
           privateButton: "Private Hub"
         step4:
           title: "Community Rules"
@@ -558,6 +563,7 @@ ui:
         description: "Review your hub settings before creating:"
         nameAndDescription: "Name & Description"
         visibilityPublic: "🌐 Public"
+        visibilityUnlisted: "👁️ Unlisted"
         visibilityPrivate: "🔒 Private"
         rulesCount: "{count} rule(s) set"
         rulesNone: "No rules (can add later)"
@@ -597,7 +603,7 @@ ui:
       errors:
         alreadyConnected:
           title: Already Connected to this hub
-          description: 'It looks like this server has an connection to this hub from {channel}. Use `/connection list` to change channels or `/connection remove` to disconnect from the hub.'
+          description: "It looks like this server has an connection to this hub from {channel}. Use `/connection list` to change channels or `/connection remove` to disconnect from the hub."
     disconnect:
       title: "डिस्कनेक्ट हो गया!"
       description: "हब से डिस्कनेक्ट हो गया।"
