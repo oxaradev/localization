@@ -300,9 +300,26 @@ ui:
         label: "Delete Rule"
         description: "⚠️ Permanently remove this rule"
   welcomeMessage:
-    title: "Welcome to {hubName}! 👋"
+    title: "Welcome to {hubName}!"
     footer: "Connected to {hubName}"
     errorDm: "Failed to send welcome message for the hub you joined. Make sure I have permission to send messages in {channel}."
+    introText: "You're now connected to a network of servers. Messages you send here will be visible to everyone in this hub."
+    quickActions: "Quick Actions"
+    buttons:
+      rules: "Rules"
+      profile: "Profile"
+      hubInfo: "Hub Info"
+      report: "How to Report"
+      support: "Support"
+      disconnect: "Disconnect"
+    hubInfo:
+      title: "Hub Information"
+      connections: "🔗 Connections"
+      members: "👥 Members Reached"
+      description: "Description"
+    disconnectConfirm:
+      title: "Disconnect from Hub?"
+      description: "Are you sure you want to disconnect from **{hubName}**?"
 
   infractions:
     buttons:
