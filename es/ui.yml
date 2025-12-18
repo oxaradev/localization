@@ -305,12 +305,12 @@ ui:
     introText: "You're now connected to a network of servers. Messages you send here will be visible to everyone in this hub."
     quickActions: "Quick Actions"
     buttons:
-      rules: "Rules"
-      profile: "Profile"
+      rules: "Reglas"
+      profile: "Perfil"
       hubInfo: "Hub Info"
       report: "How to Report"
       support: "Support"
-      disconnect: "Disconnect"
+      disconnect: "Desconectar"
     hubInfo:
       title: "Información del Hub"
       connections: "🔗 Connections"
@@ -349,7 +349,7 @@ ui:
       evidence: "Evidence"
     evidence:
       content: "Content"
-      author: "Author"
+      author: "Autor"
       notAvailable: "No evidence available"
   staff:
     hub:
@@ -770,7 +770,7 @@ ui:
     fields:
       messageId: "Message ID"
       server: "Servidor"
-      author: "Author"
+      author: "Autor"
       hub: "Hub"
       content: "Content"
       timestamp: "Timestamp"
