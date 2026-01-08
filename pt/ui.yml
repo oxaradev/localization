@@ -299,7 +299,7 @@ ui:
         label: "Excluir a regra"
         description: "⚠️ Permanently remove this rule"
   welcomeMessage:
-    title: "Bem-vindo a {hubName}!\n"
+    title: "Welcome to the InterChat hub called **{hubName}**!"
     footer: "Connected to {hubName}"
     errorDm: "Failed to send welcome message for the hub you joined. Make sure I have permission to send messages in {channel}."
     introText: "You're now connected to a network of servers. Messages you send here will be visible to everyone in this hub."
