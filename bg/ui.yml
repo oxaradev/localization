@@ -104,6 +104,16 @@ ui:
       buttons:
         show: "Show"
         hide: "Hide"
+    voteReminders:
+      title: "Preferences: Vote Reminders"
+      description: "Vote reminders are now **{status}**. Help InterChat grow by voting on top.gg! You may toggle this below or return to the menu."
+      currentDescription: "Currently vote reminders are **{status}**. Your vote helps us reach more communities and grow! You may toggle this below or return to the menu."
+      enabled: "enabled"
+      disabled: "disabled"
+      buttons:
+        enable: "Enable"
+        disable: "Disable"
+        vote: "Гласувайте на top.gg"
   appeal:
     buttons:
       previous: "Previous"
