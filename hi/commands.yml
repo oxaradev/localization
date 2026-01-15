@@ -166,7 +166,7 @@ commands:
     errors:
       noHub: "यह कमांड किसी ऐसे सर्वर चैनल में उपयोग की जानी चाहिए जो किसी हब से जुड़ा हो, या आपको एक हब नाम निर्दिष्ट करना होगा।"
       notConnected: "यह चैनल किसी भी हब से जुड़ा नहीं है। कृपया हब नाम निर्दिष्ट करें या इस कमांड का उपयोग किसी जुड़े हुए चैनल में करें।"
-      hubNotFound: "हब \"{hubName}\" नहीं मिला।"
+      hubNotFound: 'हब "{hubName}" नहीं मिला।'
   connections:
     title: "कनेक्शन प्रबंधन"
     description: "इस सर्वर के भीतर सभी हब कनेक्शनों को कॉन्फ़िगर और प्रबंधित करें।"
@@ -175,24 +175,24 @@ commands:
     selected:
       description: "अब आप इस कनेक्शन को संपादित कर सकते हैं। नीचे दिए गए विकल्पों का उपयोग करके प्रसारण चैनल बदलें या कनेक्शन से संबंधित सेटिंग्स संपादित करें।"
       fields:
-        broadcastChannel: 'प्रसारण चैनल (PENDING REVIEW)'
-        connectionState: 'प्रसारण स्थिति'
-        lastActive: 'अंतिम सक्रिय'
+        broadcastChannel: "प्रसारण चैनल (PENDING REVIEW)"
+        connectionState: "प्रसारण स्थिति"
+        lastActive: "अंतिम सक्रिय"
       state:
-        enabled: 'प्रसारण अब **सक्रिय** हैं।'
-        disabled: 'प्रसारण अब **रुके हुए** हैं।'
+        enabled: "प्रसारण अब **सक्रिय** हैं।"
+        disabled: "प्रसारण अब **रुके हुए** हैं।"
     fix:
-      title: 'कनेक्शन मान्यता'
-      description: 'इस गिल्ड के भीतर सभी कनेक्शनों को मान्य किया गया है। अधिक जानकारी के लिए नीचे देखें।'
+      title: "कनेक्शन मान्यता"
+      description: "इस गिल्ड के भीतर सभी कनेक्शनों को मान्य किया गया है। अधिक जानकारी के लिए नीचे देखें।"
       responses:
         success:
-          fixed: 'कनेक्शन ठीक कर दिया गया!'
-          valid: 'कोई समस्या नहीं मिली।'
+          fixed: "कनेक्शन ठीक कर दिया गया!"
+          valid: "कोई समस्या नहीं मिली।"
         errors:
-          channelDeleted: 'इस हब से जुड़ा चैनल हटा दिया गया है। कनेक्शन हटा दिया गया।'
-          permissionsWebhook: 'मैं वेबहुक्स उपयोग नहीं कर पा रहा हूँ, कृपया मेरी अनुमतियाँ जाँचें और पुनः प्रयास करें।'
-          permissionsView: 'मैं चैनल देख नहीं पा रहा हूँ, कृपया मेरी अनुमतियाँ जाँचें और पुनः प्रयास करें।'
-          permissionsSend: 'मैं संदेश भेज नहीं पा रहा हूँ, कृपया मेरी अनुमतियाँ जाँचें और पुनः प्रयास करें।'
+          channelDeleted: "इस हब से जुड़ा चैनल हटा दिया गया है। कनेक्शन हटा दिया गया।"
+          permissionsWebhook: "मैं वेबहुक्स उपयोग नहीं कर पा रहा हूँ, कृपया मेरी अनुमतियाँ जाँचें और पुनः प्रयास करें।"
+          permissionsView: "मैं चैनल देख नहीं पा रहा हूँ, कृपया मेरी अनुमतियाँ जाँचें और पुनः प्रयास करें।"
+          permissionsSend: "मैं संदेश भेज नहीं पा रहा हूँ, कृपया मेरी अनुमतियाँ जाँचें और पुनः प्रयास करें।"
   voteReminders:
     description: "Toggle vote reminder notifications from InterChat."
     enable:
@@ -207,10 +207,10 @@ commands:
     dm:
       title: "Time to Vote for InterChat!"
       description: "Your support helps InterChat grow and reach more communities. Vote on top.gg to help us out!"
-      reminderInfo: "You receive this reminder because you've voted before. You can disable these reminders anytime with `/vote-reminders disable`."
+      reminderInfo: "You receive this reminder because you've voted before. You can disable these reminders anytime with `/my settings`."
       buttons:
         vote: "Vote Now"
         disable: "Disable Reminders"
       disableConfirm:
         title: "Vote Reminders Disabled"
-        description: "You will no longer receive vote reminder DMs. You can re-enable them anytime with `/vote-reminders enable`. Thanks for your past support!"
+        description: "You will no longer receive vote reminder DMs. You can re-enable them anytime with `/my settings`. Thanks for your past support!"
