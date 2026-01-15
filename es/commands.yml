@@ -166,7 +166,7 @@ commands:
     errors:
       noHub: "Este comando debe usarse en un canal de servidor conectado a un centro, o debes especificar un nombre de centro."
       notConnected: "Este canal no está conectado a ningún centro. Por favor especifica un nombre de centro o usa este comando en un canal conectado."
-      hubNotFound: "Centro \"{hubName}\" no encontrado."
+      hubNotFound: 'Centro "{hubName}" no encontrado.'
   connections:
     title: "Gestión de Conexiones"
     description: "Configura y administra todas las conexiones de centros dentro de este servidor."
@@ -175,24 +175,24 @@ commands:
     selected:
       description: "Ahora puedes editar esta conexión. Usa los menús desplegables a continuación para cambiar el canal de transmisión o editar configuraciones relacionadas con la conexión."
       fields:
-        broadcastChannel: 'Transmitiendo a'
-        connectionState: 'Estado de transmisión'
-        lastActive: 'Última Actividad'
+        broadcastChannel: "Transmitiendo a"
+        connectionState: "Estado de transmisión"
+        lastActive: "Última Actividad"
       state:
-        enabled: 'Las transmisiones ahora están **activas**.'
-        disabled: 'Las transmisiones ahora están **pausadas**.'
+        enabled: "Las transmisiones ahora están **activas**."
+        disabled: "Las transmisiones ahora están **pausadas**."
     fix:
-      title: 'Validación de Conexión'
-      description: 'Todas las conexiones dentro de este gremio han sido validadas. Mira abajo para más información.'
+      title: "Validación de Conexión"
+      description: "Todas las conexiones dentro de este gremio han sido validadas. Mira abajo para más información."
       responses:
         success:
-          fixed: '¡Conexión reparada!'
-          valid: 'No se encontraron problemas.'
+          fixed: "¡Conexión reparada!"
+          valid: "No se encontraron problemas."
         errors:
-          channelDeleted: 'El canal asociado con este centro ha sido eliminado. Conexión removida.'
-          permissionsWebhook: 'No puedo gestionar webhooks, por favor revisa mis permisos e intenta nuevamente.'
-          permissionsView: 'No puedo ver el canal, por favor revisa mis permisos e intenta nuevamente.'
-          permissionsSend: 'No puedo enviar mensajes, por favor revisa mis permisos e intenta nuevamente.'
+          channelDeleted: "El canal asociado con este centro ha sido eliminado. Conexión removida."
+          permissionsWebhook: "No puedo gestionar webhooks, por favor revisa mis permisos e intenta nuevamente."
+          permissionsView: "No puedo ver el canal, por favor revisa mis permisos e intenta nuevamente."
+          permissionsSend: "No puedo enviar mensajes, por favor revisa mis permisos e intenta nuevamente."
   voteReminders:
     description: "Toggle vote reminder notifications from InterChat."
     enable:
@@ -207,10 +207,10 @@ commands:
     dm:
       title: "Time to Vote for InterChat!"
       description: "Your support helps InterChat grow and reach more communities. Vote on top.gg to help us out!"
-      reminderInfo: "You receive this reminder because you've voted before. You can disable these reminders anytime with `/vote-reminders disable`."
+      reminderInfo: "You receive this reminder because you've voted before. You can disable these reminders anytime with `/my settings`."
       buttons:
         vote: "Vote Now"
         disable: "Disable Reminders"
       disableConfirm:
         title: "Vote Reminders Disabled"
-        description: "You will no longer receive vote reminder DMs. You can re-enable them anytime with `/vote-reminders enable`. Thanks for your past support!"
+        description: "You will no longer receive vote reminder DMs. You can re-enable them anytime with `/my settings`. Thanks for your past support!"
