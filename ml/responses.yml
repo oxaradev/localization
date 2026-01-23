@@ -67,75 +67,75 @@ responses:
     accessDenied: "പ്രവേശനം തടയപ്പെട്ടു"
   moderation:
     permissions:
-      managerRequired: "Manager+ permissions required."
+      managerRequired: "മാനേജർ+ അനുമതികൾ ആവശ്യമാണ്."
     target:
-      both: "Please specify either a user or a server, not both."
-      missing: "Please specify either a user or a server."
+      both: "ദയവായി ഒരു ഉപയോക്താവിനെയോ സെർവറിനെയോ വ്യക്തമാക്കുക, രണ്ടും അല്ല."
+      missing: "ദയവായി ഒരു ഉപയോക്താവിനെയോ സെർവറിനെയോ വ്യക്തമാക്കുക."
     revoke:
-      noActive: "No active {action} found."
-      success: "Revoked {action}."
+      noActive: "സജീവമായ {action} ഒന്നും കണ്ടെത്തിയില്ല."
+      success: "{action} റദ്ദാക്കി."
     delete:
-      noMessage: "No message provided to delete."
-      success: "Message has been deleted from all connected hubs."
-      notInterChatMessage: "This message is not an InterChat message or has already been deleted."
-      failed: "Failed to delete the message. Please try again later."
-      notFound: "Infraction not found."
+      noMessage: "ഇല്ലാതാക്കാൻ സന്ദേശമൊന്നും നൽകിയിട്ടില്ല."
+      success: "ബന്ധിപ്പിച്ച എല്ലാ ഹബ്ബുകളിൽ നിന്നും സന്ദേശം ഇല്ലാതാക്കി."
+      notInterChatMessage: "ഈ സന്ദേശം ഒരു ഇന്റർചാറ്റ് സന്ദേശമല്ല അല്ലെങ്കിൽ ഇതിനകം ഇല്ലാതാക്കി."
+      failed: "സന്ദേശം ഇല്ലാതാക്കാനായില്ല. പിന്നീട് വീണ്ടും ശ്രമിക്കുക."
+      notFound: "നിയമലംഘനം കണ്ടെത്തിയില്ല."
     blacklist:
-      permissionDenied: "You lack InterChat staff permissions to issue a global blacklist."
-      alreadyActive: "Target already has an active global blacklist."
-      success: "Globally blacklisted {target}."
+      permissionDenied: "ഒരു ആഗോള ബ്ലാക്ക്‌ലിസ്റ്റ് പുറപ്പെടുവിക്കാൻ നിങ്ങൾക്ക് ഇന്റർചാറ്റ് സ്റ്റാഫ് അനുമതിയില്ല."
+      alreadyActive: "ടാർഗെറ്റിന് ഇതിനകം തന്നെ സജീവമായ ഒരു ആഗോള ബ്ലാക്ക്‌ലിസ്റ്റ് ഉണ്ട്."
+      success: "ആഗോളതലത്തിൽ കരിമ്പട്ടികയിൽ പെടുത്തിയിരിക്കുന്നു {target}."
     success:
-      action: '{target} has been {action} {prep} {hubName}'
+      action: '{target} എന്നത് {action} {prep} {hubName} ആയി മാറിയിരിക്കുന്നു'
     errors:
-      selectedHubNotFound: "Selected hub not found."
-      processingFailed: "Failed to process moderation action: {error}"
-      unknownAction: "Unknown action."
+      selectedHubNotFound: "തിരഞ്ഞെടുത്ത ഹബ് കണ്ടെത്തിയില്ല."
+      processingFailed: "മോഡറേഷൻ പ്രവർത്തനം പ്രോസസ്സ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു: {error}"
+      unknownAction: "അജ്ഞാത പ്രവർത്തനം."
       unsupportedAction: "Unsupported action route."
-      openPanelFailed: "Unexpected error opening mod panel. Please try again later or report this to staff in the support server."
-      notModeratorForHub: "You are not a moderator for this hub."
-      alreadyState: "{targetType} is already {state} in this hub."
-      invalidHubData: "Invalid hub data."
-      originalMessageNotFound: "Original message not found in database."
-      fetchAuthorOrServerFailed: "Could not fetch message author or server."
-      hubNotFoundForMessage: "Hub not found for this message."
-      noModeratedHubs: "You don't have moderation permissions in any hubs."
-      noTarget: "Please specify a target (user/server) or reply to a message."
+      openPanelFailed: "മോഡ് പാനൽ തുറക്കുന്നതിൽ അപ്രതീക്ഷിത പിശക്. ദയവായി പിന്നീട് വീണ്ടും ശ്രമിക്കുക അല്ലെങ്കിൽ പിന്തുണാ സെർവറിലെ സ്റ്റാഫിനെ ഇത് റിപ്പോർട്ട് ചെയ്യുക."
+      notModeratorForHub: "നിങ്ങൾ ഈ ഹബ്ബിന്റെ മോഡറേറ്റർ അല്ല."
+      alreadyState: "{targetType} ഈ ഹബ്ബിൽ ഇതിനകം {state} ആണ്."
+      invalidHubData: "അസാധുവായ ഹബ് ഡാറ്റ."
+      originalMessageNotFound: "ഡാറ്റാബേസിൽ യഥാർത്ഥ സന്ദേശം കണ്ടെത്തിയില്ല."
+      fetchAuthorOrServerFailed: "സന്ദേശ രചയിതാവിനെയോ സെർവറിനെയോ കണ്ടെത്താനായില്ല."
+      hubNotFoundForMessage: "ഈ സന്ദേശത്തിനുള്ള ഹബ് കണ്ടെത്തിയില്ല."
+      noModeratedHubs: "നിങ്ങൾക്ക് ഒരു ഹബ്ബുകളിലും മോഡറേഷൻ അനുമതികളില്ല."
+      noTarget: "ദയവായി ഒരു ലക്ഷ്യം (ഉപയോക്താവ്/സെർവർ) വ്യക്തമാക്കുക അല്ലെങ്കിൽ ഒരു സന്ദേശത്തിന് മറുപടി നൽകുക."
   infractions:
     errors:
-      noPermission: "You do not have permission to view infractions for this hub."
-      bothSelection: "Please select only a user or a server, not both."
-      invalidServerId: "Invalid server ID."
+      noPermission: "ഈ ഹബ്ബിലെ നിയമലംഘനങ്ങൾ കാണാൻ നിങ്ങൾക്ക് അനുമതിയില്ല."
+      bothSelection: "ദയവായി ഒരു ഉപയോക്താവിനെയോ സെർവറിനെയോ മാത്രം തിരഞ്ഞെടുക്കുക, രണ്ടും വേണ്ട."
+      invalidServerId: "അസാധുവായ സെർവർ ഐഡി."
     permissions:
-      insufficient: "You need {permission}+ permissions in this hub."
-      managerRequired: "Manager+ permissions required."
+      insufficient: "ഈ ഹബ്ബിൽ നിങ്ങൾക്ക് {permission}+ അനുമതികൾ ആവശ്യമാണ്."
+      managerRequired: "മാനേജർ+ അനുമതികൾ ആവശ്യമാണ്."
     target:
-      both: "Please specify either a user or a server, not both."
-      missing: "Please specify either a user or a server."
+      both: "ദയവായി ഒരു ഉപയോക്താവിനെയോ സെർവറിനെയോ വ്യക്തമാക്കുക, രണ്ടും അല്ല."
+      missing: "ദയവായി ഒരു ഉപയോക്താവിനെയോ സെർവറിനെയോ വ്യക്തമാക്കുക."
     success:
       action: "{action} {target} {prep} {hubName}."
     revoke:
-      noActive: "No active {action} found."
-      success: "Revoked {action}."
+      noActive: "സജീവമായ {action} ഒന്നും കണ്ടെത്തിയില്ല."
+      success: "{action} റദ്ദാക്കി."
     delete:
-      notImplemented: "Message delete not implemented yet. Reason recorded: {reason}"
-      notFound: "Infraction not found."
-      success: "Infraction deleted."
+      notImplemented: "സന്ദേശം ഇല്ലാതാക്കൽ ഇതുവരെ നടപ്പിലാക്കിയിട്ടില്ല. കാരണം രേഖപ്പെടുത്തിയിരിക്കുന്നു: {reason}"
+      notFound: "നിയമലംഘനം കണ്ടെത്തിയില്ല."
+      success: "ലംഘനം ഇല്ലാതാക്കി."
     blacklist:
-      permissionDenied: "You lack InterChat staff permissions to issue a global blacklist."
-      alreadyActive: "Target already has an active global blacklist."
-      success: "Globally blacklisted {target}."
+      permissionDenied: "ഒരു ആഗോള ബ്ലാക്ക്‌ലിസ്റ്റ് പുറപ്പെടുവിക്കാൻ നിങ്ങൾക്ക് ഇന്റർചാറ്റ് സ്റ്റാഫ് അനുമതിയില്ല."
+      alreadyActive: "ടാർഗെറ്റിന് ഇതിനകം തന്നെ സജീവമായ ഒരു ആഗോള ബ്ലാക്ക്‌ലിസ്റ്റ് ഉണ്ട്."
+      success: "ആഗോളതലത്തിൽ കരിമ്പട്ടികയിൽ പെടുത്തിയിരിക്കുന്നു {target}."
   report:
     errors:
-      processingFailed: "Encountered an error processing report! Please try again later."
-      notFoundOrDeleted: "Report not found or has been deleted."
-      alreadyHandled: "This report is already {status}."
-      updateFailed: "Failed to update report. Please try again later."
+      processingFailed: "റിപ്പോർട്ട് പ്രോസസ്സ് ചെയ്യുന്നതിൽ ഒരു പിശക് നേരിട്ടു! ദയവായി പിന്നീട് വീണ്ടും ശ്രമിക്കുക."
+      notFoundOrDeleted: "റിപ്പോർട്ട് കണ്ടെത്തിയില്ല അല്ലെങ്കിൽ ഇല്ലാതാക്കി."
+      alreadyHandled: "ഈ റിപ്പോർട്ട് ഇതിനകം {status} ആണ്."
+      updateFailed: "റിപ്പോർട്ട് അപ്ഡേറ്റ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു. പിന്നീട് വീണ്ടും ശ്രമിക്കുക."
     success:
-      actionPast: "Report {action}."
+      actionPast: "റിപ്പോർട്ട് ചെയ്യുക {action}."
     dm:
-      resolved: "Thank you for your report. Our moderation team reviewed it and took appropriate action. We cannot share specific details to protect user privacy."
+      resolved: "നിങ്ങളുടെ റിപ്പോർട്ടിന് നന്ദി. ഞങ്ങളുടെ മോഡറേഷൻ ടീം അത് അവലോകനം ചെയ്ത് ഉചിതമായ നടപടി സ്വീകരിച്ചു. ഉപയോക്തൃ സ്വകാര്യത സംരക്ഷിക്കുന്നതിന് ഞങ്ങൾക്ക് നിർദ്ദിഷ്ട വിശദാംശങ്ങൾ പങ്കിടാൻ കഴിയില്ല."
   welcome:
-    onGuildJoinTitle: "👋 Hey there!"
+    onGuildJoinTitle: "👋 ഹേയ്!"
     onGuildJoinDescription: |
       **ഞാൻ ഇന്റർചാറ്റ് ആണ്, ഞങ്ങളുടെ ടീമിനുവേണ്ടി നിങ്ങളുടെ സെർവറിൽ ഉണ്ടായിരിക്കുന്നതിൽ എനിക്ക് സന്തോഷമുണ്ട്.**
       ഒന്നിച്ചുചേർന്ന്, ഡിസ്‌കോർഡിൽ ഉടനീളമുള്ള മറ്റ് ശ്രദ്ധേയമായ കമ്മ്യൂണിറ്റികളുമായി നിങ്ങളുടെ സെർവറിനെ ബന്ധിപ്പിക്കാൻ ഞങ്ങൾക്ക് കഴിയും. നിങ്ങളുമായി സംഭാഷണത്തിൽ ഏർപ്പെടാൻ ആഗ്രഹിക്കുന്ന വ്യക്തികളാൽ നിറഞ്ഞിരിക്കുന്ന നിരവധി, ആയിരക്കണക്കിന് സെർവറുകൾ ഒരിടത്ത് സ്ഥിതിചെയ്യുന്നു. 🚀
