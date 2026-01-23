@@ -23,8 +23,8 @@ ui:
       skipForNow: "Skip for Now"
   common:
     titles:
-      error: "Error!"
-      success: "Success!"
+      error: "പിശക്!"
+      success: "വിജയം!"
       cancelled: "Cancelled!"
     noDescription: "No description"
     labels:
