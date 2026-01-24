@@ -1,22 +1,22 @@
 commands:
   about:
-    title: "About InterChat"
-    description_text: "InterChat connects Discord communities through active cross-server discussions. Messages flow naturally between servers in real-time, helping you build engaged topic-focused communities."
-    support_text: "Need help? Join our support server for assistance!"
+    title: "ഇൻ്റർചാറ്റിനെക്കുറിച്ച്"
+    description_text: "ഇന്റർചാറ്റ് സജീവമായ ക്രോസ്-സെർവർ ചർച്ചകളിലൂടെ ഡിസ്‌കോർഡ് കമ്മ്യൂണിറ്റികളെ ബന്ധിപ്പിക്കുന്നു. സന്ദേശങ്ങൾ തത്സമയം സെർവറുകൾക്കിടയിൽ സ്വാഭാവികമായി ഒഴുകുന്നു, ഇത് ഇടപഴകുന്ന വിഷയാധിഷ്ഠിത കമ്മ്യൂണിറ്റികൾ നിർമ്മിക്കാൻ നിങ്ങളെ സഹായിക്കുന്നു."
+    support_text: "സഹായം ആവശ്യമുണ്ടോ? സഹായത്തിനായി ഞങ്ങളുടെ പിന്തുണ സെർവറിൽ ചേരൂ!"
     features:
-      title: "Features"
+      title: "ഫീച്ചറുകൾ"
       list: |
-        - Connect with other servers for active cross-server discussions
-        - Messages flow naturally between servers in real-time
-        - Build engaged topic-focused communities
-        - Moderation tools to keep discussions healthy
-        - Visual dashboard to manage your hubs, servers, and settings
+        - സജീവമായ ക്രോസ്-സെർവർ ചർച്ചകൾക്കായി മറ്റ് സെർവറുകളുമായി കണക്റ്റുചെയ്യുക
+        - സന്ദേശങ്ങൾ തത്സമയം സെർവറുകൾക്കിടയിൽ സ്വാഭാവികമായി ഒഴുകുന്നു
+        - ഇടപഴകുന്ന വിഷയാധിഷ്ഠിത കമ്മ്യൂണിറ്റികൾ നിർമ്മിക്കുക
+        - ചർച്ചകൾ ആരോഗ്യകരമായി നിലനിർത്തുന്നതിനുള്ള മോഡറേഷൻ ഉപകരണങ്ങൾ
+        - നിങ്ങളുടെ ഹബുകൾ, സെർവറുകൾ, ക്രമീകരണങ്ങൾ എന്നിവ കൈകാര്യം ചെയ്യുന്നതിനുള്ള വിഷ്വൽ ഡാഷ്‌ബോർഡ്
     buttons:
-      vote: "Vote on top.gg"
-      invite: "Invite InterChat"
-      dashboard: "Open Dashboard"
-      support: "Join Support"
-      shardInfo: "Shard Info"
+      vote: "Top.gg-ൽ വോട്ട് ചെയ്യുക"
+      invite: "ഇൻ്റർചാറ്റിനെ ക്ഷണിക്കുക"
+      dashboard: "ഡാഷ്‌ബോർഡ് തുറക്കുക"
+      support: "പിന്തുണയിൽ ചേരുക"
+      shardInfo: "ഷാർഡ് വിവരം"
   setup:
     welcome:
       title: "Welcome to InterChat Setup"
