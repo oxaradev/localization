@@ -26,7 +26,7 @@ ui:
       error: "പിശക്!"
       success: "വിജയം!"
       cancelled: "Cancelled!"
-    noDescription: "No description"
+    noDescription: "വിവരണമില്ല"
     labels:
       date: "Date"
       create: "Create"
@@ -284,7 +284,7 @@ ui:
     targetSelection:
       title: "Target Selection"
       description: "Who do you want to {action}?"
-      userField: "User"
+      userField: "ഉപയോക്താവ്"
       serverField: "Server"
     actionSelect:
       placeholder: "Select a moderation action..."
@@ -368,12 +368,12 @@ ui:
         moderation: "Moderation"
       fields:
         name: "Name"
-        messages: "Messages"
+        messages: "സന്ദേശങ്ങൾ"
         connections: "Connections"
         created: "Created"
-        lastActive: "Last Active"
+        lastActive: "അവസാനത്തെ സജീവമായ"
         upvotes: "Upvotes"
-        owner: "Owner"
+        owner: "ഉടമ"
         location: "Location"
         activity: "Activity"
         appealCooldown: "Appeal Cooldown"
@@ -395,7 +395,7 @@ ui:
         name: "Name"
         serverId: "Server ID"
         inviteCode: "Invite Code"
-        messages: "Messages"
+        messages: "സന്ദേശങ്ങൾ"
         connections: "Connections"
         status: "Status"
         created: "Created"
@@ -411,7 +411,7 @@ ui:
         name: "Name"
         userId: "User ID"
         status: "Status"
-        messages: "Messages"
+        messages: "സന്ദേശങ്ങൾ"
         reputation: "Reputation"
         votes: "Votes"
         hubJoins: "Hub Joins"
@@ -470,13 +470,13 @@ ui:
         userListEmpty: "No blacklisted users found."
         serverListEmpty: "No blacklisted servers found."
       fields:
-        user: "User"
+        user: "ഉപയോക്താവ്"
         server: "Server"
         expires: "Expires"
         staff: "Staff"
         added: "Added"
       labels:
-        user: "User"
+        user: "ഉപയോക്താവ്"
         server: "Server"
   hub:
     lock:
@@ -584,7 +584,7 @@ ui:
       completion:
         loading: "Creating Your Hub..."
         loadingDescription: "Please wait while we set everything up..."
-        success: "Hub Created Successfully!"
+        success: "ഹബ് വിജയകരമായി സൃഷ്ടിച്ചു!"
         successDescription: "{hubName} is now live! 🎉"
         dashboardLink: "Manage your hub"
         publicPageLink: "View on directory"
@@ -706,7 +706,7 @@ ui:
     rules:
       title: "Hub Rules Management"
       description: "Manage your hub's community rules and guidelines below."
-      noRules: "No rules have been set for this hub yet."
+      noRules: "ഈ ഹബ്ബിനായി ഇതുവരെ നിയമങ്ങളൊന്നും സജ്ജീകരിച്ചിട്ടില്ല."
       selectRule:
         placeholder: "Select a rule to edit or delete..."
       addRule:
@@ -756,7 +756,7 @@ ui:
         deleteWarning: "Warning"
         deleteWarningDescription: "This action cannot be undone. The rule will be permanently removed from your hub."
       display:
-        noRulesTitle: "No Rules Set"
+        noRulesTitle: "നിയമങ്ങൾ സജ്ജീകരിച്ചിട്ടില്ല"
         noRulesDescription: 'No rules have been set for this hub yet. Use the "Add Rule" button below to create your first rule.'
         currentRulesTitle: "Current Rules ({current}/{max})"
         ruleSelected: "Rule {number} Selected"
@@ -773,7 +773,7 @@ ui:
         button: "Message"
       user:
         title: "User Information"
-        button: "User"
+        button: "ഉപയോക്താവ്"
       server:
         title: "Server Information"
         button: "Server"
