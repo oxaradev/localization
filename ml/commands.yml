@@ -19,168 +19,168 @@ commands:
       shardInfo: "ഷാർഡ് വിവരം"
   setup:
     welcome:
-      title: "Welcome to InterChat Setup"
-      description: "Let's get your server connected. This wizard will guide you through creating or joining a hub."
+      title: "ഇന്റർചാറ്റ് സജ്ജീകരണത്തിലേക്ക് സ്വാഗതം"
+      description: "നിങ്ങളുടെ സെർവറുമായി ബന്ധിപ്പിക്കാം. ഒരു ഹബ് സൃഷ്ടിക്കുന്നതിനോ ചേരുന്നതിനോ ഈ വിസാർഡ് നിങ്ങളെ നയിക്കും."
     options:
       create:
-        label: "Create a Hub"
-        description: "Start your own InterChat community"
+        label: "ഒരു ഹബ് സൃഷ്ടിക്കുക"
+        description: "നിങ്ങളുടെ സ്വന്തം ഇന്റർചാറ്റ് കമ്മ്യൂണിറ്റി ആരംഭിക്കുക"
       join:
-        label: "Join a Hub"
-        description: "Connect to an existing community"
+        label: "ഒരു ഹബ്ബിൽ ചേരുക"
+        description: "നിലവിലുള്ള ഒരു കമ്മ്യൂണിറ്റിയിലേക്ക് കണക്റ്റുചെയ്യുക"
     create:
       whatYoullCreate:
-        title: "What You'll Create:"
-        description: "{dot} A unique community space for your servers\n{dot} Complete control over rules and moderation\n{dot} Custom settings and features\n{dot} Private by default - invite only"
+        title: "നിങ്ങൾ സൃഷ്ടിക്കുന്നത്:"
+        description: "{dot} നിങ്ങളുടെ സെർവറുകൾക്കായി ഒരു അദ്വിതീയ കമ്മ്യൂണിറ്റി ഇടം\n{dot} നിയമങ്ങളിലും മോഡറേഷനിലും പൂർണ്ണ നിയന്ത്രണം\n{dot} ഇഷ്ടാനുസൃത ക്രമീകരണങ്ങളും സവിശേഷതകളും\n{dot} സ്ഥിരസ്ഥിതിയായി സ്വകാര്യം - ക്ഷണം മാത്രം"
       youllNeed:
-        title: "You'll Need:"
-        description: "{arrow_right} Creative hub name\n{arrow_right} Brief description\n{arrow_right} Detailed description\n{arrow_right} Logo image URL"
+        title: "നിങ്ങൾക്ക് ഇത് ആവശ്യമാണ്:"
+        description: "{arrow_right} ക്രിയേറ്റീവ് ഹബ് നാമം\n{arrow_right} സംക്ഷിപ്ത വിവരണം\n{arrow_right} വിശദമായ വിവരണം\n{arrow_right} ലോഗോ ഇമേജ് URL"
     join:
-      title: "Join a Hub"
-      description: "Use the public directory or connect with an invite code."
+      title: "ഒരു ഹബ്ബിൽ ചേരുക"
+      description: "പബ്ലിക് ഡയറക്ടറി ഉപയോഗിക്കുകയോ ഒരു ക്ഷണ കോഡ് ഉപയോഗിച്ച് ബന്ധിപ്പിക്കുകയോ ചെയ്യുക."
       publicHubs:
-        title: "Public Hubs"
-        description: "**Browse** [interchat.tech/hubs](https://interchat.dev/hubs)\n**Or click** the button below to open the directory"
+        title: "പൊതു കേന്ദ്രങ്ങൾ"
+        description: "**ബ്രൗസ്** [interchat.tech/hubs](https://interchat.dev/hubs)\n**അല്ലെങ്കിൽ ഡയറക്ടറി തുറക്കാൻ താഴെയുള്ള ബട്ടൺ ക്ലിക്ക് ചെയ്യുക**"
       privateHubs:
-        title: "Private or Invite-only"
-        description: "**Ask the hub owner or manager** for an invite code\n**Run `/connection add <invite-code>`** in your server to join"
-      footer: "You can join more hubs anytime, and you can be connected to multiple hubs at once in different channels."
+        title: "സ്വകാര്യം അല്ലെങ്കിൽ ക്ഷണം മാത്രം"
+        description: "**ഹബ് ഉടമയോടോ മാനേജരോടോ ഒരു ക്ഷണ കോഡ് ചോദിക്കുക**\n**ചേരാൻ നിങ്ങളുടെ സെർവറിൽ `/connection add <invite-code>`** റൺ ചെയ്യുക"
+      footer: "നിങ്ങൾക്ക് എപ്പോൾ വേണമെങ്കിലും കൂടുതൽ ഹബ്ബുകളിൽ ചേരാം, വ്യത്യസ്ത ചാനലുകളിലായി ഒരേസമയം ഒന്നിലധികം ഹബ്ബുകളിലേക്ക് കണക്റ്റുചെയ്യാനും കഴിയും."
     nextSteps:
       created:
-        title: "Hub Created Successfully!"
+        title: "ഹബ് വിജയകരമായി സൃഷ്ടിച്ചു!"
         description: |
-          Your hub **{hubName}** is ready! Here's what you can do next:
-          - Invite your first server using `/invite`
-          - Set rules with `/rules set`
-          - Customize settings in the [dashboard](https://interchat.dev/dashboard)
-          - Connect channels with `/connection add <hub-name>`
+          നിങ്ങളുടെ ഹബ് **{hubName}** തയ്യാറാണ്! അടുത്തതായി നിങ്ങൾക്ക് ചെയ്യാൻ കഴിയുന്നത് ഇതാ:
+          - `/invite` ഉപയോഗിച്ച് നിങ്ങളുടെ ആദ്യ സെർവറിനെ ക്ഷണിക്കുക
+          - `/rules set` ഉപയോഗിച്ച് നിയമങ്ങൾ സജ്ജമാക്കുക
+          - [ഡാഷ്‌ബോർഡ്](https://interchat.dev/dashboard)-ൽ ക്രമീകരണങ്ങൾ ഇഷ്ടാനുസൃതമാക്കുക
+          - `/connection add <hub-name>` ഉപയോഗിച്ച് ചാനലുകൾ ബന്ധിപ്പിക്കുക
         inviteLink:
-          title: "Next: Create Invite Links"
-          description: "Use {hubInviteCommand} to generate invite codes for **{hubName}** and share them with other server owners."
+          title: "അടുത്തത്: ക്ഷണ ലിങ്കുകൾ സൃഷ്ടിക്കുക"
+          description: "**{hubName}** എന്നതിനായുള്ള ക്ഷണ കോഡുകൾ സൃഷ്ടിക്കുന്നതിനും അവ മറ്റ് സെർവർ ഉടമകളുമായി പങ്കിടുന്നതിനും {hubInviteCommand} ഉപയോഗിക്കുക."
         shareHub:
-          title: "Share Your Hub"
-          description: "{dot} Post about your new hub in our [Support Server]({supportInvite})\n{dot} Share with friends and communities\n{dot} Use social media to spread the word"
+          title: "നിങ്ങളുടെ ഹബ് പങ്കിടുക"
+          description: "{dot} നിങ്ങളുടെ പുതിയ ഹബ്ബിനെക്കുറിച്ച് ഞങ്ങളുടെ [സപ്പോർട്ട് സെർവറിൽ]({supportInvite}) പോസ്റ്റ് ചെയ്യുക\n{dot} സുഹൃത്തുക്കളുമായും കമ്മ്യൂണിറ്റികളുമായും പങ്കിടുക\n{dot} സോഷ്യൽ മീഡിയ ഉപയോഗിച്ച് വാർത്ത പ്രചരിപ്പിക്കുക"
         proTips:
-          title: "{dot} Pro Tips"
-          description: "{dot} Visit the [Dashboard]({website}) for advanced settings\n{dot} Use {hubVisibilityCommand} to make your hub public\n{dot} Join our [Support Server]({supportInvite}) for help and updates"
-        footer: "Need help? Join our support server."
+          title: "{dot} പ്രൊഫഷണൽ ടിപ്പുകൾ"
+          description: "{dot} വിപുലമായ ക്രമീകരണങ്ങൾക്കായി [ഡാഷ്‌ബോർഡ്]({website}) സന്ദർശിക്കുക\n{dot} നിങ്ങളുടെ ഹബ് പബ്ലിക് ആക്കാൻ {hubVisibilityCommand} ഉപയോഗിക്കുക\n{dot} സഹായത്തിനും അപ്‌ഡേറ്റുകൾക്കുമായി ഞങ്ങളുടെ [സപ്പോർട്ട് സെർവറിൽ]({supportInvite}) ചേരുക"
+        footer: "സഹായം ആവശ്യമുണ്ടോ? ഞങ്ങളുടെ പിന്തുണ സെർവറിൽ ചേരുക."
   report:
-    title: "Report Message"
-    footer: "Reports help keep InterChat safe for everyone"
-    contextMenu: "Report Message"
-    description: "Report {user} to **Hub Staff** for hub violations or **InterChat Staff** for platform violations. The user won't be notified, but moderators can see who has submit the report."
+    title: "റിപ്പോർട്ട് സന്ദേശം"
+    footer: "ഇന്റർചാറ്റ് എല്ലാവർക്കും സുരക്ഷിതമായി നിലനിർത്താൻ റിപ്പോർട്ടുകൾ സഹായിക്കുന്നു"
+    contextMenu: "റിപ്പോർട്ട് സന്ദേശം"
+    description: "ഹബ് ലംഘനങ്ങൾക്ക് {user} നെ **ഹബ് സ്റ്റാഫിനോ** പ്ലാറ്റ്‌ഫോം ലംഘനങ്ങൾക്ക് **ഇന്റർചാറ്റ് സ്റ്റാഫിനോ** റിപ്പോർട്ട് ചെയ്യുക. ഉപയോക്താവിനെ അറിയിക്കില്ല, പക്ഷേ ആരാണ് റിപ്പോർട്ട് സമർപ്പിച്ചതെന്ന് മോഡറേറ്റർമാർക്ക് കാണാൻ കഴിയും."
     success:
-      title: "Report Submitted"
-      toStaff: "{tick} Your report has been sent to InterChat staff for review."
-      toHub: "{tick} Your report has been sent to hub moderators for review."
+      title: "റിപ്പോർട്ട് സമർപ്പിച്ചു"
+      toStaff: "{tick} നിങ്ങളുടെ റിപ്പോർട്ട് ഇന്റർചാറ്റ് സ്റ്റാഫിന് അവലോകനത്തിനായി അയച്ചു."
+      toHub: "{tick} നിങ്ങളുടെ റിപ്പോർട്ട് അവലോകനത്തിനായി ഹബ് മോഡറേറ്റർമാർക്ക് അയച്ചു."
     errors:
-      hubMessageOnly: "{x_icon} You can only report messages sent through InterChat hubs."
-      cannotReportSelf: "{x_icon} You cannot report your own messages."
+      hubMessageOnly: "{x_icon} ഇന്റർചാറ്റ് ഹബ്ബുകൾ വഴി മാത്രമേ നിങ്ങൾക്ക് സന്ദേശങ്ങൾ റിപ്പോർട്ട് ചെയ്യാൻ കഴിയൂ."
+      cannotReportSelf: "{x_icon} നിങ്ങളുടെ സ്വന്തം സന്ദേശങ്ങൾ റിപ്പോർട്ട് ചെയ്യാൻ കഴിയില്ല."
   hubCreate:
     success:
-      description: "Your hub **{hubName}** is ready! Here's what you can do next:"
+      description: "നിങ്ങളുടെ ഹബ് **{hubName}** തയ്യാറാണ്! അടുത്തതായി നിങ്ങൾക്ക് ചെയ്യാൻ കഴിയുന്നത് ഇതാ:"
     errors:
-      hubCreationFailed: "Something went wrong while creating your hub. Please try again."
-      troubleshooting: "What you can do:"
-      troubleshootingSteps: "• Check that your logo URL is valid\n• Try again in a few moments\n• Contact support if this persists"
+      hubCreationFailed: "നിങ്ങളുടെ ഹബ് സൃഷ്ടിക്കുമ്പോൾ എന്തോ കുഴപ്പം സംഭവിച്ചു. വീണ്ടും ശ്രമിക്കുക."
+      troubleshooting: "നിങ്ങൾക്ക് എന്തുചെയ്യാൻ കഴിയും:"
+      troubleshootingSteps: "• നിങ്ങളുടെ ലോഗോ URL സാധുതയുള്ളതാണോ എന്ന് പരിശോധിക്കുക\n• കുറച്ച് നിമിഷങ്ങൾക്കുള്ളിൽ വീണ്ടും ശ്രമിക്കുക\n• ഇത് തുടരുകയാണെങ്കിൽ പിന്തുണയുമായി ബന്ധപ്പെടുക"
   general:
     invite:
-      title: "Hey!"
-      description: "Thanks for choosing InterChat. Need help? Join our support server. Use the buttons below to invite our bot to your server and start connecting servers."
+      title: "ഹേയ്!"
+      description: "ഇന്റർചാറ്റ് തിരഞ്ഞെടുത്തതിന് നന്ദി. സഹായം ആവശ്യമുണ്ടോ? ഞങ്ങളുടെ പിന്തുണാ സെർവറിൽ ചേരുക. താഴെയുള്ള ബട്ടണുകൾ ഉപയോഗിച്ച് ഞങ്ങളുടെ ബോട്ടിനെ നിങ്ങളുടെ സെർവറിലേക്ക് ക്ഷണിച്ച് സെർവറുകളുമായി ബന്ധിപ്പിക്കാൻ ആരംഭിക്കുക."
   stats:
-    title: "InterChat Metrics"
+    title: "ഇന്റർചാറ്റ് മെട്രിക്സ്"
     shard:
-      title: "Shard Information"
-      statusReady: "Ready"
-      statusProvisioning: "Provisioning..."
-      current: "Current Shard: #{id}"
+      title: "ഷാർഡ് വിവരങ്ങൾ"
+      statusReady: "തയ്യാറാണ്"
+      statusProvisioning: "പ്രൊവിഷനിംഗ്..."
+      current: "നിലവിലെ ഷാർഡ്: #{id}"
   help:
-    title: "InterChat Commands"
-    description: "Explore our wide range of commands to help you, and your community connect with others."
-    noDescription: "No description"
-    name: "Help"
+    title: "ഇന്റർചാറ്റ് കമാൻഡുകൾ"
+    description: "നിങ്ങളെ സഹായിക്കുന്നതിനും നിങ്ങളുടെ കമ്മ്യൂണിറ്റി മറ്റുള്ളവരുമായി ബന്ധപ്പെടുന്നതിനും ഞങ്ങളുടെ വിശാലമായ കമാൻഡുകൾ പര്യവേക്ഷണം ചെയ്യുക."
+    noDescription: "വിവരണമില്ല"
+    name: "സഹായം"
   staff:
     blacklist:
       list:
-        description: "View blacklist entries filtered by users or servers"
+        description: "ഉപയോക്താക്കളോ സെർവറുകളോ ഫിൽട്ടർ ചെയ്‌ത ബ്ലാക്ക്‌ലിസ്റ്റ് എൻട്രികൾ കാണുക"
     get:
-      description: "Get information about InterChat entities"
+      description: "ഇന്റർചാറ്റ് എന്റിറ്റികളെക്കുറിച്ചുള്ള വിവരങ്ങൾ നേടുക"
       server:
-        description: "Get detailed information about a server"
+        description: "ഒരു സെർവറിനെക്കുറിച്ചുള്ള വിശദമായ വിവരങ്ങൾ നേടുക"
       hub:
-        description: "Get detailed information about a hub"
+        description: "ഒരു ഹബിനെക്കുറിച്ചുള്ള വിശദമായ വിവരങ്ങൾ നേടുക"
       user:
-        description: "Get detailed information about a user"
+        description: "ഒരു ഉപയോക്താവിനെക്കുറിച്ചുള്ള വിശദമായ വിവരങ്ങൾ നേടുക"
   profile:
     achievements:
-      noneFound: "None Found"
-      noneFoundDescription: "I could not find any achievements for this user!"
+      noneFound: "ഒന്നും കണ്ടെത്തിയില്ല"
+      noneFoundDescription: "ഈ ഉപയോക്താവിനായി എനിക്ക് ഒരു നേട്ടവും കണ്ടെത്താൻ കഴിഞ്ഞില്ല!"
     badges:
-      noneFound: "None Found"
-      noneFoundDescription: "I could not find any badges for this user!"
+      noneFound: "ഒന്നും കണ്ടെത്തിയില്ല"
+      noneFoundDescription: "ഈ ഉപയോക്താവിനായി എനിക്ക് ഒരു ബാഡ്ജും കണ്ടെത്താൻ കഴിഞ്ഞില്ല!"
   leaderboard:
-    staffTag: "InterChat Staff"
-    userTag: "User"
-    messagesColumn: "Messages"
-    voteCountColumn: "Vote Count"
+    staffTag: "ഇന്റർചാറ്റ് സ്റ്റാഫ്"
+    userTag: "ഉപയോക്താവ്"
+    messagesColumn: "സന്ദേശങ്ങൾ"
+    voteCountColumn: "വോട്ട് എണ്ണം"
   my:
     hubs:
-      title: "Your Hubs"
-      description: "Here are the hubs you own or moderate:"
-      position: "Position:"
-      owner: "Owner"
+      title: "നിങ്ങളുടെ ഹബുകൾ"
+      description: "നിങ്ങളുടെ ഉടമസ്ഥതയിലുള്ളതോ മോഡറേറ്റ് ചെയ്യുന്നതോ ആയ ഹബുകൾ ഇതാ:"
+      position: "സ്ഥാനം:"
+      owner: "ഉടമ"
   appeal:
-    title: "Your Appealable Infractions"
-    description: "Select an infraction below to submit an appeal, or view the status of existing appeals."
+    title: "നിങ്ങളുടെ അപ്പീൽ ചെയ്യാവുന്ന ലംഘനങ്ങൾ"
+    description: "ഒരു അപ്പീൽ സമർപ്പിക്കുന്നതിന് താഴെ ഒരു ലംഘനം തിരഞ്ഞെടുക്കുക, അല്ലെങ്കിൽ നിലവിലുള്ള അപ്പീലുകളുടെ നില കാണുക."
     noInfractions:
-      title: "No Active Infractions"
-      description: "You have no active infractions that can be appealed."
-    notAppealable: "This infraction is no longer appealable."
+      title: "സജീവ ലംഘനങ്ങളൊന്നുമില്ല"
+      description: "നിങ്ങൾക്ക് അപ്പീൽ ചെയ്യാൻ കഴിയുന്ന സജീവ ലംഘനങ്ങളൊന്നുമില്ല."
+    notAppealable: "ഈ ലംഘനം ഇനി അപ്പീൽ ചെയ്യാവുന്നതല്ല."
   mod:
     panel:
-      description: "Open the moderation panel for users, messages, or servers"
-      contextMenu: "Mod Panel"
+      description: "ഉപയോക്താക്കൾ, സന്ദേശങ്ങൾ അല്ലെങ്കിൽ സെർവറുകൾക്കായി മോഡറേഷൻ പാനൽ തുറക്കുക"
+      contextMenu: "മോഡ് പാനൽ"
     ban:
-      description: "Ban a user or server from a hub."
+      description: "ഒരു ഹബ്ബിൽ നിന്ന് ഒരു ഉപയോക്താവിനെയോ സെർവറിനെയോ നിരോധിക്കുക."
     mute:
-      description: "Mute a user or server from a hub."
+      description: "ഒരു ഹബ്ബിൽ നിന്ന് ഒരു ഉപയോക്താവിനെയോ സെർവറിനെയോ നിശബ്ദമാക്കുക."
     warn:
-      description: "Warn a user or server from a hub."
+      description: "ഒരു ഹബ്ബിൽ നിന്ന് ഒരു ഉപയോക്താവിനെയോ സെർവറിനെയോ മുന്നറിയിപ്പ് നൽകുക."
     unmute:
-      description: "Revoke active mute infractions for a user or server in a hub."
+      description: "ഒരു ഹബ്ബിലെ ഒരു ഉപയോക്താവിനോ സെർവറിനോ വേണ്ടിയുള്ള സജീവമായ മ്യൂട്ട് ലംഘനങ്ങൾ റദ്ദാക്കുക."
     unban:
-      description: "Revoke active ban infractions for a user or server in a hub."
+      description: "ഒരു ഹബ്ബിലെ ഒരു ഉപയോക്താവിനോ സെർവറിനോ വേണ്ടിയുള്ള സജീവമായ നിരോധന ലംഘനങ്ങൾ റദ്ദാക്കുക."
     delete:
-      description: "Delete an InterChat message using a Discord message link."
+      description: "ഒരു ഡിസ്‌കോർഡ് സന്ദേശ ലിങ്ക് ഉപയോഗിച്ച് ഒരു ഇന്റർചാറ്റ് സന്ദേശം ഇല്ലാതാക്കുക."
     delete_infraction:
-      description: "Delete an infraction (Manager+ only)."
+      description: "ഒരു ലംഘനം ഇല്ലാതാക്കുക (മാനേജർ+ മാത്രം)."
   infractions:
-    description: "View infractions in a hub, filtered by user or server."
+    description: "ഉപയോക്താവോ സെർവറോ ഫിൽട്ടർ ചെയ്‌ത ഒരു ഹബ്ബിലെ ലംഘനങ്ങൾ കാണുക."
   rules:
-    description: "View the rules for a hub"
-    title: "{hubName} Rules"
+    description: "ഒരു ഹബ്ബിനുള്ള നിയമങ്ങൾ കാണുക"
+    title: "{hubName} നിയമങ്ങൾ"
     noRules:
-      title: "No Rules Set"
-      description: "No rules have been set for this hub yet."
-    footer: "{count} rule{plural} • Follow these guidelines to maintain a positive community"
+      title: "നിയമങ്ങൾ സജ്ജീകരിച്ചിട്ടില്ല"
+      description: "ഈ ഹബ്ബിനായി ഇതുവരെ നിയമങ്ങളൊന്നും സജ്ജീകരിച്ചിട്ടില്ല."
+    footer: "{count} rule{plural} • ഒരു പോസിറ്റീവ് കമ്മ്യൂണിറ്റി നിലനിർത്താൻ ഈ മാർഗ്ഗനിർദ്ദേശങ്ങൾ പാലിക്കുക"
     errors:
-      noHub: "This command must be used in a server channel connected to a hub, or you must specify a hub name."
-      notConnected: "This channel is not connected to any hub. Please specify a hub name or use this command in a connected channel."
-      hubNotFound: 'Hub "{hubName}" not found.'
+      noHub: "ഒരു ഹബ്ബുമായി ബന്ധിപ്പിച്ചിരിക്കുന്ന ഒരു സെർവർ ചാനലിൽ ഈ കമാൻഡ് ഉപയോഗിക്കണം, അല്ലെങ്കിൽ നിങ്ങൾ ഒരു ഹബ് നാമം വ്യക്തമാക്കണം."
+      notConnected: "ഈ ചാനൽ ഏതെങ്കിലും ഹബ്ബുമായി ബന്ധിപ്പിച്ചിട്ടില്ല. കണക്റ്റുചെയ്‌ത ചാനലിൽ ഒരു ഹബ് നാമം വ്യക്തമാക്കുക അല്ലെങ്കിൽ ഈ കമാൻഡ് ഉപയോഗിക്കുക."
+      hubNotFound: 'ഹബ് "{hubName}" കണ്ടെത്തിയില്ല.'
   connections:
-    title: "Connection Management"
-    description: "Configure, and administrate all hub connections within this server."
+    title: "കണക്ഷൻ മാനേജ്മെന്റ്"
+    description: "ഈ സെർവറിനുള്ളിലെ എല്ലാ ഹബ് കണക്ഷനുകളും ക്രമീകരിക്കുകയും നിയന്ത്രിക്കുകയും ചെയ്യുക."
     fields:
-      lastActive: "Last Active"
+      lastActive: "അവസാനത്തെ സജീവമായ"
     selected:
-      description: "You may now edit this connection. Use the below dropdowns to either change the broadcast channel, or edit settings regarding the connection."
+      description: "നിങ്ങൾക്ക് ഇപ്പോൾ ഈ കണക്ഷൻ എഡിറ്റ് ചെയ്യാം. ബ്രോഡ്കാസ്റ്റ് ചാനൽ മാറ്റുന്നതിനോ കണക്ഷൻ സംബന്ധിച്ച ക്രമീകരണങ്ങൾ എഡിറ്റ് ചെയ്യുന്നതിനോ ചുവടെയുള്ള ഡ്രോപ്പ്ഡൌണുകൾ ഉപയോഗിക്കുക."
       fields:
-        broadcastChannel: "Broadcasting to"
-        connectionState: "Broadcast state"
-        lastActive: "Last Active"
+        broadcastChannel: "പ്രക്ഷേപണം ചെയ്യുക"
+        connectionState: "പ്രക്ഷേപണ സംസ്ഥാനം"
+        lastActive: "അവസാനത്തെ സജീവമായ"
       state:
-        enabled: "Broadcasts are now **active**."
-        disabled: "Broadcasts are now **paused**."
+        enabled: "പ്രക്ഷേപണങ്ങൾ ഇപ്പോൾ * * സജീവമാണ്**."
+        disabled: "പ്രക്ഷേപണങ്ങൾ ഇപ്പോൾ * * താൽക്കാലികമായി നിർത്തിവച്ചിരിക്കുന്നു.**"
     fix:
       title: "Connection Validation"
       description: "All connections within this guild have been validated. See below for more information."
