@@ -180,37 +180,37 @@ commands:
         lastActive: "അവസാനത്തെ സജീവമായ"
       state:
         enabled: "പ്രക്ഷേപണങ്ങൾ ഇപ്പോൾ * * സജീവമാണ്**."
-        disabled: "പ്രക്ഷേപണങ്ങൾ ഇപ്പോൾ * * താൽക്കാലികമായി നിർത്തിവച്ചിരിക്കുന്നു.**"
+        disabled: "പ്രക്ഷേപണങ്ങൾ ഇപ്പോൾ * * താൽക്കാലികമായി നിർത്തിവച്ചിരിക്കുന്നു**."
     fix:
-      title: "Connection Validation"
-      description: "All connections within this guild have been validated. See below for more information."
+      title: "കണക്ഷൻ സാധുത"
+      description: "ഈ സംഘത്തിനുള്ളിലെ എല്ലാ ബന്ധങ്ങളും സാധൂകരിക്കപ്പെട്ടിട്ടുണ്ട്. കൂടുതൽ വിവരങ്ങൾക്ക് താഴെ കാണുക."
       responses:
         success:
-          fixed: "Fixed connection!"
-          valid: "No issues found."
+          fixed: "സ്ഥിരമായ കണക്ഷൻ!"
+          valid: "പ്രശ്നങ്ങളൊന്നും കണ്ടെത്തിയില്ല."
         errors:
-          channelDeleted: "The channel associated with this hub has been deleted. Connection removed."
-          permissionsWebhook: "I am unable to webhooks, please review my permissions and try again."
-          permissionsView: "I am unable to view channel, please review my permissions and try again."
-          permissionsSend: "I am unable to send messages, please review my permissions and try again."
+          channelDeleted: "ഈ ഹബ്ബുമായി ബന്ധപ്പെട്ട ചാനൽ നീക്കം ചെയ്തിട്ടുണ്ട്. കണക്ഷൻ നീക്കം ചെയ്തു."
+          permissionsWebhook: "എനിക്ക് വെബ്ഹൂക്ക് ചെയ്യാൻ കഴിയുന്നില്ല, ദയവായി എന്റെ അനുമതികൾ അവലോകനം ചെയ്ത് വീണ്ടും ശ്രമിക്കുക."
+          permissionsView: "എനിക്ക് ചാനൽ കാണാൻ കഴിയുന്നില്ല, ദയവായി എന്റെ അനുമതികൾ അവലോകനം ചെയ്ത് വീണ്ടും ശ്രമിക്കുക."
+          permissionsSend: "എനിക്ക് സന്ദേശങ്ങൾ അയയ്ക്കാൻ കഴിയുന്നില്ല, ദയവായി എന്റെ അനുമതികൾ അവലോകനം ചെയ്ത് വീണ്ടും ശ്രമിക്കുക."
   voteReminders:
-    description: "Toggle vote reminder notifications from InterChat."
+    description: "ഇന്റർചാറ്റിൽ നിന്നുള്ള വോട്ട് ഓർമ്മപ്പെടുത്തൽ അറിയിപ്പുകൾ ടോഗിൾ ചെയ്യുക."
     enable:
-      success: "Vote reminders have been enabled! You'll receive a DM reminder to vote every 6 hours if you haven't voted recently."
-      alreadyEnabled: "Vote reminders are already enabled."
+      success: "വോട്ട് ഓർമ്മപ്പെടുത്തലുകൾ പ്രവർത്തനക്ഷമമാക്കി! നിങ്ങൾ അടുത്തിടെ വോട്ട് ചെയ്തിട്ടില്ലെങ്കിൽ ഓരോ 6 മണിക്കൂറിലും വോട്ടുചെയ്യാൻ നിങ്ങൾക്ക് ഒരു ഡിഎം ഓർമ്മപ്പെടുത്തൽ ലഭിക്കും."
+      alreadyEnabled: "വോട്ട് ഓർമ്മപ്പെടുത്തലുകൾ ഇതിനകം പ്രവർത്തനക്ഷമമാക്കിയിട്ടുണ്ട്."
     disable:
-      success: "Vote reminders have been disabled. You will no longer receive vote reminder DMs."
-      alreadyDisabled: "Vote reminders are already disabled."
+      success: "വോട്ട് ഓർമ്മപ്പെടുത്തലുകൾ പ്രവർത്തനരഹിതമാക്കി. നിങ്ങൾക്ക് ഇനി വോട്ട് ഓർമ്മപ്പെടുത്തൽ ഡിഎമ്മുകൾ ലഭിക്കില്ല."
+      alreadyDisabled: "വോട്ട് ഓർമ്മപ്പെടുത്തലുകൾ ഇതിനകം പ്രവർത്തനരഹിതമാക്കിയിട്ടുണ്ട്."
     status:
-      enabled: "Vote reminders are currently **enabled**."
-      disabled: "Vote reminders are currently **disabled**."
+      enabled: "വോട്ട് ഓർമ്മപ്പെടുത്തലുകൾ നിലവിൽ * * പ്രവർത്തനക്ഷമമാക്കിയിരിക്കുന്നു.**."
+      disabled: "വോട്ട് ഓർമ്മപ്പെടുത്തലുകൾ നിലവിൽ * * പ്രവർത്തനരഹിതമാണ്.**."
     dm:
-      title: "Time to Vote for InterChat!"
-      description: "Your support helps InterChat grow and reach more communities. Vote on top.gg to help us out!"
-      reminderInfo: "You receive this reminder because you've voted before. You can disable these reminders anytime with `/my settings`."
+      title: "ഇന്റർചാറ്റിന് വോട്ട് ചെയ്യാനുള്ള സമയം!"
+      description: "നിങ്ങളുടെ പിന്തുണ ഇന്റർചാറ്റിനെ വളർത്താനും കൂടുതൽ കമ്മ്യൂണിറ്റികളിലേക്ക് എത്താനും സഹായിക്കുന്നു. ഞങ്ങളെ സഹായിക്കാൻ top. gg-ൽ വോട്ടുചെയ്യുക!"
+      reminderInfo: "നിങ്ങൾ മുമ്പ് വോട്ട് ചെയ്തതിനാൽ നിങ്ങൾക്ക് ഈ ഓർമ്മപ്പെടുത്തൽ ലഭിക്കും. '/my settings' ഉപയോഗിച്ച് നിങ്ങൾക്ക് എപ്പോൾ വേണമെങ്കിലും ഈ ഓർമ്മപ്പെടുത്തലുകൾ പ്രവർത്തനരഹിതമാക്കാം."
       buttons:
-        vote: "Vote Now"
-        disable: "Disable Reminders"
+        vote: "ഇപ്പോൾ വോട്ട് ചെയ്യുക"
+        disable: "ഓർമ്മപ്പെടുത്തലുകൾ അപ്രാപ്തമാക്കുക"
       disableConfirm:
-        title: "Vote Reminders Disabled"
-        description: "You will no longer receive vote reminder DMs. You can re-enable them anytime with `/my settings`. Thanks for your past support!"
+        title: "വോട്ട് ഓർമ്മപ്പെടുത്തലുകൾ പ്രവർത്തനരഹിതമാക്കി"
+        description: "നിങ്ങൾക്ക് ഇനി വോട്ട് ഓർമ്മപ്പെടുത്തൽ ഡിഎമ്മുകൾ ലഭിക്കില്ല. '/my settings' ഉപയോഗിച്ച് നിങ്ങൾക്ക് എപ്പോൾ വേണമെങ്കിലും അവ വീണ്ടും പ്രവർത്തനക്ഷമമാക്കാം. നിങ്ങളുടെ മുൻകാല പിന്തുണയ്ക്ക് നന്ദി!"
