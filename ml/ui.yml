@@ -113,7 +113,7 @@ ui:
       buttons:
         enable: "Enable"
         disable: "Disable"
-        vote: "Vote on top.gg"
+        vote: "Top.gg-ൽ വോട്ട് ചെയ്യുക"
   appeal:
     buttons:
       previous: "Previous"
