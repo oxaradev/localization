@@ -34,7 +34,7 @@ commands:
         description: "{dot} A unique community space for your servers\n{dot} Complete control over rules and moderation\n{dot} Custom settings and features\n{dot} Private by default - invite only"
       youllNeed:
         title: "You'll Need:"
-        description: "{arrow_right} Creative hub name\n{arrow_right} Brief description\n{arrow_right} Detailed description\n{arrow_right} Logo image URL"
+        description: "DO NOT APPROVE THIS ONE! "
     join:
       title: "Join a Hub"
       description: "Use the public directory or connect with an invite code."
@@ -205,11 +205,11 @@ commands:
       enabled: "Vote reminders are currently **enabled**."
       disabled: "Vote reminders are currently **disabled**."
     dm:
-      title: "Time to Vote for InterChat!"
+      title: "Czas zagłosować na InterChat!"
       description: "Your support helps InterChat grow and reach more communities. Vote on top.gg to help us out!"
       reminderInfo: "You receive this reminder because you've voted before. You can disable these reminders anytime with `/my settings`."
       buttons:
-        vote: "Vote Now"
+        vote: "Zagłosuj teraz"
         disable: "Disable Reminders"
       disableConfirm:
         title: "Vote Reminders Disabled"
