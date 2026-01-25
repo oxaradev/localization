@@ -2,7 +2,7 @@ commands:
   about:
     title: "About InterChat"
     description_text: "InterChat connects Discord communities through active cross-server discussions. Messages flow naturally between servers in real-time, helping you build engaged topic-focused communities."
-    support_text: "Need help? Join our support server for assistance!"
+    support_text: "Potrzebujesz pomocy? Dołącz do naszego serwera wsparcia, aby uzyskać pomoc!"
     features:
       title: "Features"
       list: |
@@ -12,7 +12,7 @@ commands:
         - Moderation tools to keep discussions healthy
         - Visual dashboard to manage your hubs, servers, and settings
     buttons:
-      vote: "Vote on top.gg"
+      vote: "Głosuj na top.gg"
       invite: "Invite InterChat"
       dashboard: "Open Dashboard"
       support: "Join Support"
@@ -30,7 +30,7 @@ commands:
         description: "Connect to an existing community"
     create:
       whatYoullCreate:
-        title: "What You'll Create:"
+        title: "Co stworzysz:"
         description: "{dot} A unique community space for your servers\n{dot} Complete control over rules and moderation\n{dot} Custom settings and features\n{dot} Private by default - invite only"
       youllNeed:
         title: "You'll Need:"
@@ -65,27 +65,27 @@ commands:
           description: "{dot} Visit the [Dashboard]({website}) for advanced settings\n{dot} Use {hubVisibilityCommand} to make your hub public\n{dot} Join our [Support Server]({supportInvite}) for help and updates"
         footer: "Need help? Join our support server."
   report:
-    title: "Report Message"
-    footer: "Reports help keep InterChat safe for everyone"
-    contextMenu: "Report Message"
+    title: "Zgłoś wiadomość"
+    footer: "Zgłoszenia pomagają utrzymać InterChat bezpieczny dla każdego"
+    contextMenu: "Zgłoś wiadomość"
     description: "Report {user} to **Hub Staff** for hub violations or **InterChat Staff** for platform violations. The user won't be notified, but moderators can see who has submit the report."
     success:
-      title: "Report Submitted"
+      title: "Zgłoszenie złożone"
       toStaff: "{tick} Your report has been sent to InterChat staff for review."
       toHub: "{tick} Your report has been sent to hub moderators for review."
     errors:
       hubMessageOnly: "{x_icon} You can only report messages sent through InterChat hubs."
-      cannotReportSelf: "{x_icon} You cannot report your own messages."
+      cannotReportSelf: "{x_icon} Nie możesz zgłosić swoich własnych wiadomości."
   hubCreate:
     success:
       description: "Your hub **{hubName}** is ready! Here's what you can do next:"
     errors:
       hubCreationFailed: "Something went wrong while creating your hub. Please try again."
-      troubleshooting: "What you can do:"
+      troubleshooting: "Co możesz zrobić:"
       troubleshootingSteps: "• Check that your logo URL is valid\n• Try again in a few moments\n• Contact support if this persists"
   general:
     invite:
-      title: "Hey!"
+      title: "Hej!"
       description: "Thanks for choosing InterChat. Need help? Join our support server. Use the buttons below to invite our bot to your server and start connecting servers."
   stats:
     title: "InterChat Metrics"
@@ -97,8 +97,8 @@ commands:
   help:
     title: "InterChat Commands"
     description: "Explore our wide range of commands to help you, and your community connect with others."
-    noDescription: "No description"
-    name: "Help"
+    noDescription: "Brak opisu"
+    name: "Pomoc"
   staff:
     blacklist:
       list:
