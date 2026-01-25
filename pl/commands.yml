@@ -1,6 +1,6 @@
 commands:
   about:
-    title: "About InterChat"
+    title: "Na temat InterChat"
     description_text: "InterChat connects Discord communities through active cross-server discussions. Messages flow naturally between servers in real-time, helping you build engaged topic-focused communities."
     support_text: "Potrzebujesz pomocy? Dołącz do naszego serwera wsparcia, aby uzyskać pomoc!"
     features:
@@ -106,11 +106,11 @@ commands:
     get:
       description: "Get information about InterChat entities"
       server:
-        description: "Get detailed information about a server"
+        description: "Uzyskaj precyzyjne informacje o serwerze"
       hub:
         description: "Get detailed information about a hub"
       user:
-        description: "Get detailed information about a user"
+        description: "Uzyskaj precyzyjne informacje o użytkowniku"
   profile:
     achievements:
       noneFound: "None Found"
@@ -120,15 +120,15 @@ commands:
       noneFoundDescription: "I could not find any badges for this user!"
   leaderboard:
     staffTag: "InterChat Staff"
-    userTag: "User"
-    messagesColumn: "Messages"
+    userTag: "Użytkownik"
+    messagesColumn: "Wiadomości"
     voteCountColumn: "Vote Count"
   my:
     hubs:
       title: "Your Hubs"
       description: "Here are the hubs you own or moderate:"
       position: "Position:"
-      owner: "Owner"
+      owner: "Właściciel"
   appeal:
     title: "Your Appealable Infractions"
     description: "Select an infraction below to submit an appeal, or view the status of existing appeals."
@@ -158,7 +158,7 @@ commands:
     description: "View infractions in a hub, filtered by user or server."
   rules:
     description: "View the rules for a hub"
-    title: "{hubName} Rules"
+    title: "Zasady {hubName}"
     noRules:
       title: "No Rules Set"
       description: "No rules have been set for this hub yet."
