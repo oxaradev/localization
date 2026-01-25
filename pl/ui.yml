@@ -26,7 +26,7 @@ ui:
       error: "Error!"
       success: "Success!"
       cancelled: "Cancelled!"
-    noDescription: "No description"
+    noDescription: "Brak opisu"
     labels:
       date: "Date"
       create: "Create"
@@ -113,7 +113,7 @@ ui:
       buttons:
         enable: "Enable"
         disable: "Disable"
-        vote: "Vote on top.gg"
+        vote: "Głosuj na top.gg"
   appeal:
     buttons:
       previous: "Previous"
