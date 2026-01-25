@@ -284,7 +284,7 @@ ui:
     targetSelection:
       title: "Target Selection"
       description: "Who do you want to {action}?"
-      userField: "User"
+      userField: "Użytkownik"
       serverField: "Server"
     actionSelect:
       placeholder: "Select a moderation action..."
@@ -368,12 +368,12 @@ ui:
         moderation: "Moderation"
       fields:
         name: "Name"
-        messages: "Messages"
+        messages: "Wiadomości"
         connections: "Connections"
         created: "Created"
         lastActive: "Last Active"
         upvotes: "Upvotes"
-        owner: "Owner"
+        owner: "Właściciel"
         location: "Location"
         activity: "Activity"
         appealCooldown: "Appeal Cooldown"
@@ -395,7 +395,7 @@ ui:
         name: "Name"
         serverId: "Server ID"
         inviteCode: "Invite Code"
-        messages: "Messages"
+        messages: "Wiadomości"
         connections: "Connections"
         status: "Status"
         created: "Created"
@@ -411,7 +411,7 @@ ui:
         name: "Name"
         userId: "User ID"
         status: "Status"
-        messages: "Messages"
+        messages: "Wiadomości"
         reputation: "Reputation"
         votes: "Votes"
         hubJoins: "Hub Joins"
@@ -470,13 +470,13 @@ ui:
         userListEmpty: "No blacklisted users found."
         serverListEmpty: "No blacklisted servers found."
       fields:
-        user: "User"
+        user: "Użytkownik"
         server: "Server"
         expires: "Expires"
         staff: "Staff"
         added: "Added"
       labels:
-        user: "User"
+        user: "Użytkownik"
         server: "Server"
   hub:
     lock:
@@ -773,7 +773,7 @@ ui:
         button: "Message"
       user:
         title: "User Information"
-        button: "User"
+        button: "Użytkownik"
       server:
         title: "Server Information"
         button: "Server"
