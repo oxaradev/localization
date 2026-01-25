@@ -54,7 +54,7 @@ responses:
     rateLimited: "You are being rate limited. Take a chill pill."
     webhookRateLimit: "You have reached the webhook creation rate limit"
     invalidInput: "You have not provided a valid input."
-    invalidInvite: "This invite is invalid, or expired."
+    invalidInvite: "To zaproszenie jest nieważne, albo przeterminowane."
     webhookError: "Failed to create webhook."
     notConnected: "I could not find a hub connected in this channel."
     noInteraction: "This command only supports slash commands."
