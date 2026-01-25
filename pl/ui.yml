@@ -24,7 +24,7 @@ ui:
   common:
     titles:
       error: "Error!"
-      success: "Success!"
+      success: "Sukces!"
       cancelled: "Cancelled!"
     noDescription: "Brak opisu"
     labels:
