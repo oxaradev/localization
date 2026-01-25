@@ -55,7 +55,7 @@ commands:
           - Customize settings in the [dashboard](https://interchat.dev/dashboard)
           - Connect channels with `/connection add <hub-name>`
         inviteLink:
-          title: "Next: Create Invite Links"
+          title: "Następnie: Utwórz linki do zaproszenia"
           description: "Use {hubInviteCommand} to generate invite codes for **{hubName}** and share them with other server owners."
         shareHub:
           title: "Share Your Hub"
@@ -63,7 +63,7 @@ commands:
         proTips:
           title: "{dot} Pro Tips"
           description: "{dot} Visit the [Dashboard]({website}) for advanced settings\n{dot} Use {hubVisibilityCommand} to make your hub public\n{dot} Join our [Support Server]({supportInvite}) for help and updates"
-        footer: "Need help? Join our support server."
+        footer: "Potrzebujesz pomocy? Dołącz do naszego serwera wsparcia."
   report:
     title: "Zgłoś wiadomość"
     footer: "Zgłoszenia pomagają utrzymać InterChat bezpieczny dla każdego"
