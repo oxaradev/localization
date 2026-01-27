@@ -13,9 +13,9 @@ commands:
         - Visual dashboard to manage your hubs, servers, and settings
     buttons:
       vote: "Głosuj na top.gg"
-      invite: "Invite InterChat"
+      invite: "Zaproś InterChat"
       dashboard: "Open Dashboard"
-      support: "Join Support"
+      support: "Dołącz do wsparcia"
       shardInfo: "Shard Info"
   setup:
     welcome:
@@ -33,7 +33,7 @@ commands:
         title: "Co stworzysz:"
         description: "{dot} A unique community space for your servers\n{dot} Complete control over rules and moderation\n{dot} Custom settings and features\n{dot} Private by default - invite only"
       youllNeed:
-        title: "You'll Need:"
+        title: "Będziesz potrzebował*:"
         description: "DO NOT APPROVE THIS ONE! "
     join:
       title: "Join a Hub"
@@ -61,7 +61,7 @@ commands:
           title: "Share Your Hub"
           description: "{dot} Post about your new hub in our [Support Server]({supportInvite})\n{dot} Share with friends and communities\n{dot} Use social media to spread the word"
         proTips:
-          title: "{dot} Pro Tips"
+          title: "{dot} Wskazówki"
           description: "{dot} Visit the [Dashboard]({website}) for advanced settings\n{dot} Use {hubVisibilityCommand} to make your hub public\n{dot} Join our [Support Server]({supportInvite}) for help and updates"
         footer: "Potrzebujesz pomocy? Dołącz do naszego serwera wsparcia."
   report:
@@ -82,7 +82,7 @@ commands:
     errors:
       hubCreationFailed: "Something went wrong while creating your hub. Please try again."
       troubleshooting: "Co możesz zrobić:"
-      troubleshootingSteps: "• Check that your logo URL is valid\n• Try again in a few moments\n• Contact support if this persists"
+      troubleshootingSteps: "• Upewnij się, że logo URL jest ważne\n• Spróbuj ponownie za chwile\n• Skontaktuj się ze wsparciem, jeśli problem nie ustąpi"
   general:
     invite:
       title: "Hej!"
@@ -91,7 +91,7 @@ commands:
     title: "InterChat Metrics"
     shard:
       title: "Shard Information"
-      statusReady: "Ready"
+      statusReady: "Gotowe"
       statusProvisioning: "Provisioning..."
       current: "Current Shard: #{id}"
   help:
