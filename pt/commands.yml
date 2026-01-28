@@ -186,10 +186,10 @@ commands:
           fixed: "Conexão concertada!"
           valid: "Nenhum problema encontrado."
         errors:
-          channelDeleted: "O canal associado com esse hub foi deletado, Conexão removida."
-          permissionsWebhook: "Não consigo acessar aos webhooks, por favor reveja minhas permissões e tente novamente."
-          permissionsView: "Não consigo ver os canais, por favor reveja minhas permissões e tente novamente."
-          permissionsSend: "Não consigo enviar mensagens, por favor reveja minhas permissões e tente novamente."
+          channelDeleted: 'O canal associado com esse hub foi deletado, Conexão removida.'
+          permissionsWebhook: 'Não consigo acessar aos webhooks, por favor reveja minhas permissões e tente novamente.'
+          permissionsView: 'Não consigo ver os canais, por favor reveja minhas permissões e tente novamente.'
+          permissionsSend: 'Não consigo enviar mensagens, por favor reveja minhas permissões e tente novamente.'
   voteReminders:
     description: "Alternar notificações de lembrete de voto do InterChat."
     enable:
