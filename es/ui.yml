@@ -11,7 +11,6 @@ ui:
       back: "Atrás"
       cancel: "Cancelar"
       refresh: "Actualizar"
-      startWizard: "Start Setup Wizard"
       enterHubInfo: "Ingresar Información del Hub"
       hubInfoComplete: "Información del Hub Completa"
       createHub: "Crear Hub"
@@ -356,11 +355,6 @@ ui:
       moderator: "Moderador"
       issued: "Emitido"
       status: "Estado"
-      evidence: "Evidence"
-    evidence:
-      content: "Content"
-      author: "Autor"
-      notAvailable: "No evidence available"
   staff:
     hub:
       section:
