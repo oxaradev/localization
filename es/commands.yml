@@ -189,10 +189,10 @@ commands:
           fixed: "¡Conexión reparada!"
           valid: "No se encontraron problemas."
         errors:
-          channelDeleted: "El canal asociado con este centro ha sido eliminado. Conexión removida."
-          permissionsWebhook: "No puedo gestionar webhooks, por favor revisa mis permisos e intenta nuevamente."
-          permissionsView: "No puedo ver el canal, por favor revisa mis permisos e intenta nuevamente."
-          permissionsSend: "No puedo enviar mensajes, por favor revisa mis permisos e intenta nuevamente."
+          channelDeleted: 'El canal asociado con este centro ha sido eliminado. Conexión removida.'
+          permissionsWebhook: 'No puedo gestionar webhooks, por favor revisa mis permisos e intenta nuevamente.'
+          permissionsView: 'No puedo ver el canal, por favor revisa mis permisos e intenta nuevamente.'
+          permissionsSend: 'No puedo enviar mensajes, por favor revisa mis permisos e intenta nuevamente.'
   voteReminders:
     description: "Toggle vote reminder notifications from InterChat."
     enable:
