@@ -37,7 +37,7 @@ commands:
       description: "Gunakan direktori publik atau hubungkan dengan kode undangan."
       publicHubs:
         title: "Pusat Publik"
-        description: "**Jelajahi** [interchat.tech/hubs](https://interchat.dev/hubs)\n**Atau tekan** tombol di bawah untuk membuka direktori"
+        description: "**Jelajahi** [interchat.dev/hubs](https://interchat.dev/hubs)\n**Atau tekan** tombol di bawah untuk membuka direktori"
       privateHubs:
         title: "Pribadi atau Hanya untuk undangan"
         description: "**Tanyai pemilik hub atau manager** untuk kode undangan\n**Jalani `/connection add <invite-code>`** di dalam server anda di server untuk bergabung"
