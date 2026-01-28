@@ -11,22 +11,26 @@ ui:
       back: "वापस"
       cancel: "रद्द करें"
       refresh: "रीफ्रेश"
+      startWizard: "Start Setup Wizard"
       enterHubInfo: "हब जानकारी दर्ज करें"
       hubInfoComplete: "हब जानकारी पूरी हुई"
       createHub: "हब बनाएँ"
       completeInfoFirst: "पहले हब जानकारी पूरी करें"
       discoverHubs: "सार्वजनिक हब खोजें"
       supportServer: "सपोर्ट सर्वर"
+      joinHub: "Join Hub"
+      useDefault: "Use Default"
+      skipForNow: "Skip for Now"
   common:
     titles:
       error: "त्रुटि!"
       success: "सफलता!"
-      cancelled: 'रद्द किया गया!'
+      cancelled: "रद्द किया गया!"
     noDescription: "कोई विवरण नहीं"
     labels:
       date: "तारीख"
-      create: 'बनाएँ'
-      cancel: 'रद्द करें'
+      create: "बनाएँ"
+      cancel: "रद्द करें"
     messages:
       loading: "लोड हो रहा है..."
       pleaseWait: "कृपया प्रतीक्षा करें..."
@@ -100,6 +104,16 @@ ui:
       buttons:
         show: "दिखाएँ"
         hide: "छुपाएँ"
+    voteReminders:
+      title: "Preferences: Vote Reminders"
+      description: "Vote reminders are now **{status}**. Help InterChat grow by voting on top.gg! You may toggle this below or return to the menu."
+      currentDescription: "Currently vote reminders are **{status}**. Your vote helps us reach more communities and grow! You may toggle this below or return to the menu."
+      enabled: "enabled"
+      disabled: "disabled"
+      buttons:
+        enable: "Enable"
+        disable: "Disable"
+        vote: "top.gg पर वोट करें"
   appeal:
     buttons:
       previous: "पिछला"
@@ -164,6 +178,9 @@ ui:
       toggleNsfw:
         label: "NSFW टॉगल करें"
         description: "अपने हब को NSFW के रूप में चिह्नित करें या नहीं"
+      changeVisibility:
+        label: "Change Visibility"
+        description: "Switch between Public, Unlisted, or Private"
       togglePrivate:
         label: "निजी टॉगल करें"
         description: "अपने हब को निजी के रूप में चिह्नित करें या नहीं"
@@ -180,14 +197,19 @@ ui:
         description: "हब सेटिंग्स प्रबंधित करें"
     modules:
       reactions:
+        label: "Reactions"
         description: "संदेशों पर प्रतिक्रिया-आधारित इंटरैक्शन की अनुमति दें"
       hideLinks:
+        label: "Hide Links"
         description: "हब संदेशों में लिंक पूर्वावलोकन छिपाएँ"
       spamFilter:
+        label: "Spam Filter"
         description: "स्पैम और अवांछित सामग्री को स्वचालित रूप से फ़िल्टर करें"
       blockInvites:
+        label: "Block Invites"
         description: "संदेशों में Discord सर्वर आमंत्रणों को ब्लॉक करें"
       useNicknames:
+        label: "Use Nicknames"
         description: "उपयोगकर्ता नामों के बजाय उपयोगकर्ता उपनाम प्रदर्शित करें"
     logging:
       moderationLogs: "मॉडरेशन लॉग"
@@ -268,6 +290,45 @@ ui:
       placeholder: "एक मॉडरेशन कार्रवाई चुनें..."
     fields:
       reason: "कारण"
+    history:
+      noHubSelected: "No hub selected."
+    errors:
+      generic: "An error occurred while processing your request."
+  profanity:
+    actions:
+      editActions:
+        label: "Edit Actions"
+      patterns:
+        label: "Patterns"
+      whitelist:
+        label: "Whitelist"
+      toggle:
+        label: "Toggle Enable/Disable"
+        description: "Turn this rule on or off"
+      delete:
+        label: "नियम हटाएं"
+        description: "⚠️ Permanently remove this rule"
+  welcomeMessage:
+    title: "Welcome to the InterChat hub called **{hubName}**!"
+    footer: "Connected to {hubName}"
+    errorDm: "Failed to send welcome message for the hub you joined. Make sure I have permission to send messages in {channel}."
+    introText: "You're now connected to a network of servers. Messages you send here will be visible to everyone in this hub."
+    quickActions: "Quick Actions"
+    buttons:
+      rules: "Rules"
+      profile: "Profile"
+      hubInfo: "Hub Info"
+      report: "How to Report"
+      support: "Support"
+      disconnect: "Disconnect"
+    hubInfo:
+      title: "हब जानकारी"
+      connections: "🔗 Connections"
+      members: "👥 Members Reached"
+      description: "विवरण"
+    disconnectConfirm:
+      title: "Disconnect from Hub?"
+      description: "Are you sure you want to disconnect from **{hubName}**?"
   infractions:
     buttons:
       userInfractions: "उपयोगकर्ता उल्लंघन"
@@ -295,6 +356,11 @@ ui:
       moderator: "मॉडरेटर"
       issued: "जारी किया गया"
       status: "स्थिति"
+      evidence: "Evidence"
+    evidence:
+      content: "Content"
+      author: "Author"
+      notAvailable: "No evidence available"
   staff:
     hub:
       section:
@@ -413,67 +479,193 @@ ui:
         user: "उपयोगकर्ता"
         server: "सर्वर"
   hub:
-    title: 'हब निर्माण'
-    description: 'एक समुदाय, अपने दोस्तों... या किसी के लिए भी अपना खुद का इंटरचैट हब बनाएं - सूची युगों तक चल सकती है। आगे बढ़ो, देखो यह तुम्हें कहाँ ले जाता है।'
+    lock:
+      successTitle: "Hub Locked"
+      successDescription: "Successfully locked **{hub}**. New members can no longer join."
+      announceTitle: "Hub Locked"
+      announceDescription: "This hub has been locked by a moderator.\nOnly moderators can send messages now."
+    unlock:
+      successTitle: "Hub Unlocked"
+      successDescription: "Successfully unlocked **{hub}**. New members can now join."
+      announceTitle: "Hub Unlocked"
+      announceDescription: "This hub has been unlocked by a moderator.\nYou can now send messages."
+    create:
+      title: "अपना हब बनाएं"
+      description: "एक समुदाय, अपने दोस्तों... या किसी के लिए भी अपना खुद का इंटरचैट हब बनाएं - सूची युगों तक चल सकती है। आगे बढ़ो, देखो यह तुम्हें कहाँ ले जाता है।"
+    wizard:
+      start: "Start Creating Your Hub"
+      name:
+        label: "हब का नाम"
+        placeholder: "My Amazing Hub"
+      tagline:
+        label: "Hub Tagline"
+        placeholder: "A one-sentence summary of your hub"
+      description:
+        label: "Full Description"
+        placeholder: "Describe your hub in detail (20-1000 characters)"
+      steps:
+        progress: "Step {current}/{total}"
+        step1:
+          modalTitle: "Step 1/7: Hub Details"
+        step2:
+          title: "Hub Logo"
+          description: |
+            Add a logo for your hub!
+
+            -# 💡 *Tip: Use an image URL (PNG, JPG, GIF, WEBP) or choose the default bot avatar.*
+          modalTitle: "Step 2/7: Logo"
+          logoUrlLabel: "Logo URL"
+          logoUrlPlaceholder: "https://example.com/logo.png"
+          addLogoButton: "Add Logo"
+          invalidUrl: "Invalid image URL. Using default bot avatar instead."
+        step3:
+          description: |
+            Choose your hub's visibility:
+
+            🔓 **Public**: Discoverable on the hub directory, requires rules
+            👁️ **Unlisted**: Not in directory but anyone can join if they know the name
+            🔒 **Private**: Invite-only, not listed publicly
+
+            -# 💡 *Tip: You can change this later in hub settings.*"
+          publicButton: "Public Hub"
+          unlistedButton: "Unlisted"
+          privateButton: "Private Hub"
+        step4:
+          title: "Community Rules"
+          description: "Set community guidelines for your hub."
+          requiredPublic: "**Required for public hubs**"
+          optional: "Optional"
+          tip: "-# 💡 *Tip: Add one rule per line. You can add up to 25 rules.*"
+          modalTitle: "Step 4/7: Rules"
+          rulesLabel: "हब के नियम"
+          rulesPlaceholder: "1. Be respectful\n2. No spam\n3. Follow Discord ToS"
+          addRulesButton: "Add Rules"
+        step5:
+          title: "स्वागत संदेश"
+          description: |
+            Create a welcome message for new members!
+
+            -# 💡 *Tip: Keep it friendly and informative. Max 500 characters.*"
+          modalTitle: "Step 5/7: Welcome"
+          welcomePlaceholder: "Welcome to {hubName} or our hub! Please read the rules and have fun!"
+          customMessageButton: "Custom Message"
+        step6:
+          title: "Hub Features"
+          description: |
+            Select features to enable for your hub!
+            ✅ **Pre-selected**: Reactions, Spam Filter (recommended)
+
+            -# 💡 *Tip: You can adjust these anytime in `/hub configure`.*"
+          modulesPlaceholder: "Select modules to enable..."
+          continueButton: "Continue"
+        step7:
+          description: |
+            Optionally select a channel for moderation logs.
+            Logs include: bans, warnings, reports, and other mod actions.
+
+            -# 💡 *Tip: Choose a private staff channel. You can configure more log types later.*"
+          selectChannelButton: "Select Channel"
+          channelSelectTitle: "Select Logging Channel"
+          channelSelectDescription: "Choose a channel for moderation logs:"
+          channelSelectPlaceholder: "Select a logging channel"
+      summary:
+        title: "Hub Configuration Summary"
+        description: "Review your hub settings before creating:"
+        nameAndDescription: "Name & Description"
+        visibilityPublic: "🌐 Public"
+        visibilityUnlisted: "👁️ Unlisted"
+        visibilityPrivate: "🔒 Private"
+        rulesCount: "{count} rule(s) set"
+        rulesNone: "No rules (can add later)"
+        welcomeDefault: "Default welcome message"
+        featuresNone: "None"
+        loggingNone: "Not configured"
+        footer: "Ready to create your hub?"
+      completion:
+        loading: "Creating Your Hub..."
+        loadingDescription: "Please wait while we set everything up..."
+        success: "हब सफलतापूर्वक बनाया गया!"
+        successDescription: "{hubName} is now live! 🎉"
+        dashboardLink: "Manage your hub"
+        publicPageLink: "View on directory"
+        nextSteps: "What's Next?"
+        step1: |
+          **For Private Hubs: Create an Invite**: `/hub invites hub:{hubName}`
+          *Invite servers to join your hub*
+
+          **For Public Hubs: Share Your  Hub**: Check out your hub's [public page](https://interchat.dev/hubs/{hubId}) and use the link to join!
+          *Share your hub with others or join it from here!*
+        step2: "**Advanced Settings**: `/hub configure {hubName}`\n   - Profanity filters (custom anti-swear rules)\n   - Hub team management\n   - Advanced logging options\n   - Hub announcements"
+        step3: "**Need Help?**: [Join our support server]({supportInvite})"
+      cancelled:
+        description: "Your hub was not created. You can start over anytime with `/hub create`."
+      errors:
+        cantUseWizard: "You can't use this wizard."
+    title: "हब निर्माण"
+    description: "एक समुदाय, अपने दोस्तों... या किसी के लिए भी अपना खुद का इंटरचैट हब बनाएं - सूची युगों तक चल सकती है। आगे बढ़ो, देखो यह तुम्हें कहाँ ले जाता है।"
     delete:
-      description: 'आपका हब हटा दिया गया है।'
+      description: "आपका हब हटा दिया गया है।"
     connect:
       success:
-        title: 'जुड़ गया!'
-        description: '**{hubName}** से जुड़ गए - बातें शुरू करें!'
-        fieldValue: 'जुड़ा हुआ चैनल: {channel}'
+        title: "जुड़ गया!"
+        description: "**{hubName}** से जुड़ गए - बातें शुरू करें!"
+        fieldValue: "जुड़ा हुआ चैनल: {channel}"
       errors:
-        alreadyConnected: 'अरे नहीं! ऐसा लगता है कि इस सर्वर का इस हब से पहले से ही एक कनेक्शन है।'
+        alreadyConnected:
+          title: Already Connected to this hub
+          description: "It looks like this server has an connection to this hub from {channel}. Use `/connection list` to change channels or `/connection remove` to disconnect from the hub."
     disconnect:
-      title: 'डिस्कनेक्ट हो गया!'
-      description: 'हब से डिस्कनेक्ट हो गया।'
-      fieldValue: 'संबंधित चैनल: {channel}'
+      title: "डिस्कनेक्ट हो गया!"
+      description: "हब से डिस्कनेक्ट हो गया।"
+      fieldValue: "संबंधित चैनल: {channel}"
     invites:
-      title: 'सक्रिय आमंत्रण'
-      inviteUses: '**उपयोग:**'
-      inviteExpire: '**समाप्त होता है:**'
-      noneFound: 'कोई नहीं मिला!'
+      title: "सक्रिय आमंत्रण"
+      inviteUses: "**उपयोग:**"
+      inviteExpire: "**समाप्त होता है:**"
+      noneFound: "कोई नहीं मिला!"
     announcements:
-      title: 'हब घोषणाएँ'
-      description: "एक **एक बार** की घोषणा बनाएं जो सभी जुड़े चैनलों में भेजी जाएगी। \n\n-# **आवर्ती** घोषणाएं बनाने के लिए कृपया हब कॉन्फ़िगरेशन मेनू पर जाएं।"
+      title: "हब घोषणाएँ"
+      description: |
+        Create a **one time** announcement that sends in all connected channels.
+        -# To create **recurring** announcements please visit the hub configuration menu.
     creation:
       title: "आइए आपका हब सेट करें!"
       description: "हब वेबहुक का उपयोग करके कई सर्वरों को एक साथ जोड़ते हैं। वे क्रॉस-सर्वर समुदायों के लिए बहुत अच्छे हैं।"
       clickToBegin: "शुरू करने के लिए {emoji} बनाएं पर क्लिक करें।"
       modal:
-        title: 'हब जानकारी'
+        title: "हब जानकारी"
         hubName: "हब का नाम"
         shortLabel: "संक्षिप्त विवरण"
       errors:
-        invalidInput: 'अमान्य इनपुट'
-        name: 'अरे नहीं! आपके हब का नाम अक्षरों, संख्याओं, रिक्त स्थान और अंडरस्कोर से बना होना चाहिए। हम किसी अन्य वर्ण की अनुमति नहीं देते हैं।'
+        invalidInput: "अमान्य इनपुट"
+        name: "अरे नहीं! आपके हब का नाम अक्षरों, संख्याओं, रिक्त स्थान और अंडरस्कोर से बना होना चाहिए। हम किसी अन्य वर्ण की अनुमति नहीं देते हैं।"
         shortDescription: "हब का संक्षिप्त विवरण 10 और 100 वर्णों के बीच होना चाहिए।"
-        unhandled: 'उफ़! आपके हब को बनाने का प्रयास करते समय कुछ गलत हो गया। कृपया पुनः प्रयास करें, और यदि समस्या बनी रहती है तो हमारी (समर्थन टीम)[supportServer] से संपर्क करें।'
-        unique: 'अरे नहीं! वह हब नाम पहले ही लिया जा चुका है। आपको दूसरा चुनना होगा।'
+        unhandled: "उफ़! आपके हब को बनाने का प्रयास करते समय कुछ गलत हो गया। कृपया पुनः प्रयास करें, और यदि समस्या बनी रहती है तो हमारी (समर्थन टीम)[supportServer] से संपर्क करें।"
+        unique: "अरे नहीं! वह हब नाम पहले ही लिया जा चुका है। आपको दूसरा चुनना होगा।"
       visibility:
-        title: 'हब दृश्यता'
-        description: 'क्या आपका हब **सार्वजनिक** होना चाहिए? इसका मतलब है कि यह **सभी** के लिए सुलभ होगा और [डिस्कवरी पेज]({discoverHubs}) पर दिखाई देगा।'
+        title: "हब दृश्यता"
+        description: "क्या आपका हब **सार्वजनिक** होना चाहिए? इसका मतलब है कि यह **सभी** के लिए सुलभ होगा और [डिस्कवरी पेज]({discoverHubs}) पर दिखाई देगा।"
         buttons:
-          public: 'सार्वजनिक'
-          private: 'निजी'
+          public: "सार्वजनिक"
+          private: "निजी"
       preview:
-        title: 'पूर्ण!'
-        description: 'आपने हब सेटअप पूरा कर लिया है! जारी रखने के लिए नीचे अपने विकल्पों की समीक्षा करें।'
-        footer: 'आप निर्माण के बाद, बाद में और फ़ील्ड संपादित कर सकते हैं।'
+        title: "पूर्ण!"
+        description: "आपने हब सेटअप पूरा कर लिया है! जारी रखने के लिए नीचे अपने विकल्पों की समीक्षा करें।"
+        footer: "आप निर्माण के बाद, बाद में और फ़ील्ड संपादित कर सकते हैं।"
         fields:
-          title: 'जानकारी'
+          title: "जानकारी"
           value: |
             > {nemoji} **नाम:** {hubName}
             > {sdemoji} **संक्षिप्त विवरण:** {shortDescription}
             > {vemoji} **दृश्यता:** {visibility}
             > {ldemoji} **लंबा विवरण:** कोई नहीं - इसे बाद में [डैशबोर्ड]({dashboard}) में सेट करें!
       complete:
-        title: 'बनाया गया!'
+        title: "बनाया गया!"
         description: "आपका हब अब तैयार है - बातें शुरू करें! और अनुकूलन की तलाश है? [डैशबोर्ड]({dashboard}) पर जाएं और अपने हब की सेटिंग्स कॉन्फ़िगर करें।"
-        private: '**उपयोगकर्ताओं को आमंत्रित करें!** चूंकि आपका हब निजी है, आपको उपयोगकर्ता आमंत्रण बनाने होंगे। `/hub invites` के साथ एक बनाएं!'
-        public: '**आपकी रचना!** चूंकि आपका हब सार्वजनिक है, आप इसे एक्सप्लोरर पर देख सकते हैं - [इसे देखें]({public})!'
+        private: "**उपयोगकर्ताओं को आमंत्रित करें!** चूंकि आपका हब निजी है, आपको उपयोगकर्ता आमंत्रण बनाने होंगे। `/hub invites` के साथ एक बनाएं!"
+        public: "**आपकी रचना!** चूंकि आपका हब सार्वजनिक है, आप इसे एक्सप्लोरर पर देख सकते हैं - [इसे देखें]({public})!"
       other:
-        cancelled: 'सेटअप रद्द कर दिया गया। हम आपको जल्द ही यहां वापस देखने की उम्मीद करते हैं।'
+        cancelled: "सेटअप रद्द कर दिया गया। हम आपको जल्द ही यहां वापस देखने की उम्मीद करते हैं।"
     config:
       title: "हब कॉन्फ़िगरेशन"
       description: "अपने समुदाय के लिए InterChat हब को अनुकूलित करें। नीचे चुनें कि आप क्या कॉन्फ़िगर करना चाहते हैं।"
@@ -502,15 +694,15 @@ ui:
     all:
       title: "इंटरचैट हब"
       description: "नीचे आप हमारे सभी हब की सूची में खोज कर सकेंगे! उन्हें देखें, देखें कि आपको कौन मिलता है।"
-      filteredBy: 'परिणाम फ़िल्टर किए गए: {filter}'
+      filteredBy: "परिणाम फ़िल्टर किए गए: {filter}"
       errors:
         notFound: "अरे नहीं! मुझे कोई हब नहीं मिला। शायद ऐसा नहीं होना चाहिए था। कृपया हमारी [समर्थन टीम]({supportServer}) से संपर्क करें।"
         invalidFilter: "कुछ नहीं... कोई हब आपके फ़िल्टर से मेल नहीं खाता।"
       modal:
-        title: 'खोज फ़िल्टर'
+        title: "खोज फ़िल्टर"
         searchFilter:
-          label: 'फ़िल्टर'
-          placeholder: 'इंटरचैट सेंट्रल'
+          label: "फ़िल्टर"
+          placeholder: "इंटरचैट सेंट्रल"
     rules:
       title: "हब नियम प्रबंधन"
       description: "नीचे अपने हब के सामुदायिक नियमों और दिशानिर्देशों का प्रबंधन करें।"
@@ -565,7 +757,7 @@ ui:
         deleteWarningDescription: "यह क्रिया पूर्ववत नहीं की जा सकती। नियम आपके हब से स्थायी रूप से हटा दिया जाएगा।"
       display:
         noRulesTitle: "कोई नियम सेट नहीं किए गए"
-        noRulesDescription: "इस हब के लिए अभी तक कोई नियम निर्धारित नहीं किया गया है। अपना पहला नियम बनाने के लिए नीचे \"नियम जोड़ें\" बटन का उपयोग करें।"
+        noRulesDescription: 'इस हब के लिए अभी तक कोई नियम निर्धारित नहीं किया गया है। अपना पहला नियम बनाने के लिए नीचे "नियम जोड़ें" बटन का उपयोग करें।'
         currentRulesTitle: "वर्तमान नियम ({current}/{max})"
         ruleSelected: "नियम {number} चयनित"
         currentRule: "वर्तमान नियम:"
@@ -574,3 +766,37 @@ ui:
       label: "सभी कनेक्शन ठीक करें"
     manage:
       placeholder: "प्रबंधित करने के लिए एक कनेक्शन चुनें"
+  messageInfo:
+    tabs:
+      message:
+        title: "Message Information"
+        button: "Message"
+      user:
+        title: "User Information"
+        button: "उपयोगकर्ता"
+      server:
+        title: "Server Information"
+        button: "सर्वर"
+    fields:
+      messageId: "Message ID"
+      server: "सर्वर"
+      author: "Author"
+      hub: "हब"
+      content: "Content"
+      timestamp: "Timestamp"
+      username: "Username"
+      accountCreated: "Account Created"
+      badges: "बैज"
+      serverName: "सर्वर का नाम"
+      connectionChannel: "Connection Channel"
+      connectedSince: "Connected Since"
+      status: "स्थिति"
+    status:
+      connected: "Connected"
+      disconnected: "Disconnected"
+    buttons:
+      profile: "Profile"
+    unknown:
+      server: "Unknown Server"
+    noBadges: "No badges to display"
+    noConnection: "No connection information available"

@@ -11,22 +11,26 @@ ui:
       back: "Back"
       cancel: "Cancel"
       refresh: "Refresh"
+      startWizard: "Start Setup Wizard"
       enterHubInfo: "Enter Hub Information"
       hubInfoComplete: "Hub Information Complete"
       createHub: "Create Hub"
       completeInfoFirst: "Complete Hub Info First"
       discoverHubs: "Discover Public Hubs"
       supportServer: "Support Server"
+      joinHub: "Join Hub"
+      useDefault: "Use Default"
+      skipForNow: "Skip for Now"
   common:
     titles:
       error: "Error!"
       success: "Success!"
-      cancelled: 'Cancelled!'
+      cancelled: "Cancelled!"
     noDescription: "No description"
     labels:
       date: "Date"
-      create: 'Create'
-      cancel: 'Cancel'
+      create: "Create"
+      cancel: "Cancel"
     messages:
       loading: "Loading..."
       pleaseWait: "Please wait..."
@@ -100,6 +104,16 @@ ui:
       buttons:
         show: "Show"
         hide: "Hide"
+    voteReminders:
+      title: "Preferences: Vote Reminders"
+      description: "Vote reminders are now **{status}**. Help InterChat grow by voting on top.gg! You may toggle this below or return to the menu."
+      currentDescription: "Currently vote reminders are **{status}**. Your vote helps us reach more communities and grow! You may toggle this below or return to the menu."
+      enabled: "enabled"
+      disabled: "disabled"
+      buttons:
+        enable: "Enable"
+        disable: "Disable"
+        vote: "Гласувайте на top.gg"
   appeal:
     buttons:
       previous: "Previous"
@@ -164,6 +178,9 @@ ui:
       toggleNsfw:
         label: "Toggle NSFW"
         description: "Mark your hub as NSFW or not"
+      changeVisibility:
+        label: "Change Visibility"
+        description: "Switch between Public, Unlisted, or Private"
       togglePrivate:
         label: "Toggle Private"
         description: "Mark your hub as private or not"
@@ -180,14 +197,19 @@ ui:
         description: "Manage hub settings"
     modules:
       reactions:
+        label: "Reactions"
         description: "Allow reaction-based interactions on messages"
       hideLinks:
+        label: "Hide Links"
         description: "Hide link previews in hub messages"
       spamFilter:
+        label: "Spam Filter"
         description: "Automatically filter spam and unwanted content"
       blockInvites:
+        label: "Block Invites"
         description: "Block Discord server invites in messages"
       useNicknames:
+        label: "Use Nicknames"
         description: "Display user nicknames instead of usernames"
     logging:
       moderationLogs: "Moderation Logs"
@@ -268,6 +290,45 @@ ui:
       placeholder: "Select a moderation action..."
     fields:
       reason: "Reason"
+    history:
+      noHubSelected: "No hub selected."
+    errors:
+      generic: "An error occurred while processing your request."
+  profanity:
+    actions:
+      editActions:
+        label: "Edit Actions"
+      patterns:
+        label: "Patterns"
+      whitelist:
+        label: "Whitelist"
+      toggle:
+        label: "Toggle Enable/Disable"
+        description: "Turn this rule on or off"
+      delete:
+        label: "Delete Rule"
+        description: "⚠️ Permanently remove this rule"
+  welcomeMessage:
+    title: "Welcome to the InterChat hub called **{hubName}**!"
+    footer: "Connected to {hubName}"
+    errorDm: "Failed to send welcome message for the hub you joined. Make sure I have permission to send messages in {channel}."
+    introText: "You're now connected to a network of servers. Messages you send here will be visible to everyone in this hub."
+    quickActions: "Quick Actions"
+    buttons:
+      rules: "Rules"
+      profile: "Profile"
+      hubInfo: "Hub Info"
+      report: "How to Report"
+      support: "Support"
+      disconnect: "Disconnect"
+    hubInfo:
+      title: "Hub Information"
+      connections: "🔗 Connections"
+      members: "👥 Members Reached"
+      description: "Description"
+    disconnectConfirm:
+      title: "Disconnect from Hub?"
+      description: "Are you sure you want to disconnect from **{hubName}**?"
   infractions:
     buttons:
       userInfractions: "User Infractions"
@@ -295,6 +356,11 @@ ui:
       moderator: "Moderator"
       issued: "Issued"
       status: "Status"
+      evidence: "Evidence"
+    evidence:
+      content: "Content"
+      author: "Author"
+      notAvailable: "No evidence available"
   staff:
     hub:
       section:
@@ -413,67 +479,193 @@ ui:
         user: "User"
         server: "Server"
   hub:
-    title: 'Hub Creation'
-    description: 'Create your own InterChat hub for a community, your friends... or anyone - the list could go on for ages. Go ahead, see where it takes you.'
+    lock:
+      successTitle: "Hub Locked"
+      successDescription: "Successfully locked **{hub}**. New members can no longer join."
+      announceTitle: "Hub Locked"
+      announceDescription: "This hub has been locked by a moderator.\nOnly moderators can send messages now."
+    unlock:
+      successTitle: "Hub Unlocked"
+      successDescription: "Successfully unlocked **{hub}**. New members can now join."
+      announceTitle: "Hub Unlocked"
+      announceDescription: "This hub has been unlocked by a moderator.\nYou can now send messages."
+    create:
+      title: "Create Your Hub"
+      description: "Create your own InterChat hub for a community, your friends... or anyone - the list could go on for ages. Go ahead, see where it takes you."
+    wizard:
+      start: "Start Creating Your Hub"
+      name:
+        label: "Hub Name"
+        placeholder: "My Amazing Hub"
+      tagline:
+        label: "Hub Tagline"
+        placeholder: "A one-sentence summary of your hub"
+      description:
+        label: "Full Description"
+        placeholder: "Describe your hub in detail (20-1000 characters)"
+      steps:
+        progress: "Step {current}/{total}"
+        step1:
+          modalTitle: "Step 1/7: Hub Details"
+        step2:
+          title: "Hub Logo"
+          description: |
+            Add a logo for your hub!
+
+            -# 💡 *Tip: Use an image URL (PNG, JPG, GIF, WEBP) or choose the default bot avatar.*
+          modalTitle: "Step 2/7: Logo"
+          logoUrlLabel: "Logo URL"
+          logoUrlPlaceholder: "https://example.com/logo.png"
+          addLogoButton: "Add Logo"
+          invalidUrl: "Invalid image URL. Using default bot avatar instead."
+        step3:
+          description: |
+            Choose your hub's visibility:
+
+            🔓 **Public**: Discoverable on the hub directory, requires rules
+            👁️ **Unlisted**: Not in directory but anyone can join if they know the name
+            🔒 **Private**: Invite-only, not listed publicly
+
+            -# 💡 *Tip: You can change this later in hub settings.*"
+          publicButton: "Public Hub"
+          unlistedButton: "Unlisted"
+          privateButton: "Private Hub"
+        step4:
+          title: "Community Rules"
+          description: "Set community guidelines for your hub."
+          requiredPublic: "**Required for public hubs**"
+          optional: "Optional"
+          tip: "-# 💡 *Tip: Add one rule per line. You can add up to 25 rules.*"
+          modalTitle: "Step 4/7: Rules"
+          rulesLabel: "Hub Rules"
+          rulesPlaceholder: "1. Be respectful\n2. No spam\n3. Follow Discord ToS"
+          addRulesButton: "Add Rules"
+        step5:
+          title: "Welcome Message"
+          description: |
+            Create a welcome message for new members!
+
+            -# 💡 *Tip: Keep it friendly and informative. Max 500 characters.*"
+          modalTitle: "Step 5/7: Welcome"
+          welcomePlaceholder: "Welcome to {hubName} or our hub! Please read the rules and have fun!"
+          customMessageButton: "Custom Message"
+        step6:
+          title: "Hub Features"
+          description: |
+            Select features to enable for your hub!
+            ✅ **Pre-selected**: Reactions, Spam Filter (recommended)
+
+            -# 💡 *Tip: You can adjust these anytime in `/hub configure`.*"
+          modulesPlaceholder: "Select modules to enable..."
+          continueButton: "Continue"
+        step7:
+          description: |
+            Optionally select a channel for moderation logs.
+            Logs include: bans, warnings, reports, and other mod actions.
+
+            -# 💡 *Tip: Choose a private staff channel. You can configure more log types later.*"
+          selectChannelButton: "Select Channel"
+          channelSelectTitle: "Select Logging Channel"
+          channelSelectDescription: "Choose a channel for moderation logs:"
+          channelSelectPlaceholder: "Select a logging channel"
+      summary:
+        title: "Hub Configuration Summary"
+        description: "Review your hub settings before creating:"
+        nameAndDescription: "Name & Description"
+        visibilityPublic: "🌐 Public"
+        visibilityUnlisted: "👁️ Unlisted"
+        visibilityPrivate: "🔒 Private"
+        rulesCount: "{count} rule(s) set"
+        rulesNone: "No rules (can add later)"
+        welcomeDefault: "Default welcome message"
+        featuresNone: "None"
+        loggingNone: "Not configured"
+        footer: "Ready to create your hub?"
+      completion:
+        loading: "Creating Your Hub..."
+        loadingDescription: "Please wait while we set everything up..."
+        success: "Hub Created Successfully!"
+        successDescription: "{hubName} is now live! 🎉"
+        dashboardLink: "Manage your hub"
+        publicPageLink: "View on directory"
+        nextSteps: "What's Next?"
+        step1: |
+          **For Private Hubs: Create an Invite**: `/hub invites hub:{hubName}`
+          *Invite servers to join your hub*
+
+          **For Public Hubs: Share Your  Hub**: Check out your hub's [public page](https://interchat.dev/hubs/{hubId}) and use the link to join!
+          *Share your hub with others or join it from here!*
+        step2: "**Advanced Settings**: `/hub configure {hubName}`\n   - Profanity filters (custom anti-swear rules)\n   - Hub team management\n   - Advanced logging options\n   - Hub announcements"
+        step3: "**Need Help?**: [Join our support server]({supportInvite})"
+      cancelled:
+        description: "Your hub was not created. You can start over anytime with `/hub create`."
+      errors:
+        cantUseWizard: "You can't use this wizard."
+    title: "Hub Creation"
+    description: "Create your own InterChat hub for a community, your friends... or anyone - the list could go on for ages. Go ahead, see where it takes you."
     delete:
-      description: 'Your hub has been deleted.'
+      description: "Your hub has been deleted."
     connect:
       success:
-        title: 'Connected!'
-        description: 'Connected to **{hubName}** - get chatting!'
-        fieldValue: 'Connected Channel: {channel}'
+        title: "Connected!"
+        description: "Connected to **{hubName}** - get chatting!"
+        fieldValue: "Connected Channel: {channel}"
       errors:
-        alreadyConnected: 'Uh oh! It looks like this server already has a connection to this hub.'
+        alreadyConnected:
+          title: Already Connected to this hub
+          description: "It looks like this server has an connection to this hub from {channel}. Use `/connection list` to change channels or `/connection remove` to disconnect from the hub."
     disconnect:
-      title: 'Disconnected!'
-      description: 'Disconnected from hub.'
-      fieldValue: 'Associated Channel: {channel}'
+      title: "Disconnected!"
+      description: "Disconnected from hub."
+      fieldValue: "Associated Channel: {channel}"
     invites:
-      title: 'Active Invites'
-      inviteUses: '**Uses:**'
-      inviteExpire: '**Expires:**'
-      noneFound: 'None found!'
+      title: "Active Invites"
+      inviteUses: "**Uses:**"
+      inviteExpire: "**Expires:**"
+      noneFound: "None found!"
     announcements:
-      title: 'Hub Announcements'
-      description: "Create a **one time** announcement that sends in all connected channels. \n\n-# To create **recurring** announcements please visit the hub configuration menu."
+      title: "Hub Announcements"
+      description: |
+        Create a **one time** announcement that sends in all connected channels.
+        -# To create **recurring** announcements please visit the hub configuration menu.
     creation:
       title: "Let's set up your hub!"
       description: "Hubs link multiple servers together using webhooks. They're great for cross-server communities."
       clickToBegin: "Click {emoji} Create to begin."
       modal:
-        title: 'Hub Information'
+        title: "Hub Information"
         hubName: "Hub name"
         shortLabel: "Short description"
       errors:
-        invalidInput: 'Invalid Input'
-        name: 'Uh oh! Your hub name must be composed of letters, numbers, spaces and underscores. We do not allow any other characters.'
+        invalidInput: "Invalid Input"
+        name: "Uh oh! Your hub name must be composed of letters, numbers, spaces and underscores. We do not allow any other characters."
         shortDescription: "The hub's short description must be between 10 and 100 characters."
-        unhandled: 'Whoops! Something went wrong while attempting to create your hub. Please try again, and if the issue persists contact our (support team)[supportServer].'
-        unique: 'Uh oh! That hub name has already been taken. You must choose another.'
+        unhandled: "Whoops! Something went wrong while attempting to create your hub. Please try again, and if the issue persists contact our (support team)[supportServer]."
+        unique: "Uh oh! That hub name has already been taken. You must choose another."
       visibility:
-        title: 'Hub Visibility'
-        description: 'Should your hub **public**? This means it will be accessible to **everyone** and show on the [discovery page]({discoverHubs}).'
+        title: "Hub Visibility"
+        description: "Should your hub **public**? This means it will be accessible to **everyone** and show on the [discovery page]({discoverHubs})."
         buttons:
-          public: 'Public'
-          private: 'Private'
+          public: "Public"
+          private: "Private"
       preview:
-        title: 'Complete!'
-        description: 'You have complete the hub setup! Review your choices below to contiune.'
-        footer: 'You may edit more fields later, after creation.'
+        title: "Complete!"
+        description: "You have complete the hub setup! Review your choices below to contiune."
+        footer: "You may edit more fields later, after creation."
         fields:
-          title: 'Information'
+          title: "Information"
           value: |
             > {nemoji} **Name:** {hubName}
             > {sdemoji} **Short description:** {shortDescription}
             > {vemoji} **Visibility:** {visibility}
             > {ldemoji} **Long description:** None - Set this in the [dashboard]({dashboard}) later!
       complete:
-        title: 'Created!'
+        title: "Created!"
         description: "Your hub is now ready - get chatting! Looking for more customisation? Head over to the [dashboard]({dashboard}) and configure your hub's settings."
-        private: '**Invite Users!** As your hub is private you must generate user invites. Create one with `/hub invites`!'
-        public: '**Your creation!** As your hub is public, you may view it on the explorer - [check it out]({public})!'
+        private: "**Invite Users!** As your hub is private you must generate user invites. Create one with `/hub invites`!"
+        public: "**Your creation!** As your hub is public, you may view it on the explorer - [check it out]({public})!"
       other:
-        cancelled: 'Setup cancelled. We hope to see you back here again soon.'
+        cancelled: "Setup cancelled. We hope to see you back here again soon."
     config:
       title: "Hub Configuration"
       description: "Customize your InterChat hub for your community. Pick what you'd like to configure below."
@@ -502,15 +694,15 @@ ui:
     all:
       title: "InterChat Hubs"
       description: "Below you will be able search through a list of all our hubs! Check them out, see who you find."
-      filteredBy: 'Results filtered by: {filter}'
+      filteredBy: "Results filtered by: {filter}"
       errors:
         notFound: "Uh oh! I was unable to find any hubs. That's probably not supposed to happen. Please contact our [support team]({supportServer})."
         invalidFilter: "Crickets... no hubs match your filter."
       modal:
-        title: 'Search Filter'
+        title: "Search Filter"
         searchFilter:
-          label: 'Filter'
-          placeholder: 'InterChat Central'
+          label: "Filter"
+          placeholder: "InterChat Central"
     rules:
       title: "Hub Rules Management"
       description: "Manage your hub's community rules and guidelines below."
@@ -565,7 +757,7 @@ ui:
         deleteWarningDescription: "This action cannot be undone. The rule will be permanently removed from your hub."
       display:
         noRulesTitle: "No Rules Set"
-        noRulesDescription: "No rules have been set for this hub yet. Use the \"Add Rule\" button below to create your first rule."
+        noRulesDescription: 'No rules have been set for this hub yet. Use the "Add Rule" button below to create your first rule.'
         currentRulesTitle: "Current Rules ({current}/{max})"
         ruleSelected: "Rule {number} Selected"
         currentRule: "Current Rule:"
@@ -574,3 +766,37 @@ ui:
       label: "Fix All Connections"
     manage:
       placeholder: "Select a connection to manage"
+  messageInfo:
+    tabs:
+      message:
+        title: "Message Information"
+        button: "Message"
+      user:
+        title: "User Information"
+        button: "User"
+      server:
+        title: "Server Information"
+        button: "Server"
+    fields:
+      messageId: "Message ID"
+      server: "Server"
+      author: "Author"
+      hub: "Hub"
+      content: "Content"
+      timestamp: "Timestamp"
+      username: "Username"
+      accountCreated: "Account Created"
+      badges: "Badges"
+      serverName: "Server Name"
+      connectionChannel: "Connection Channel"
+      connectedSince: "Connected Since"
+      status: "Status"
+    status:
+      connected: "Connected"
+      disconnected: "Disconnected"
+    buttons:
+      profile: "Profile"
+    unknown:
+      server: "Unknown Server"
+    noBadges: "No badges to display"
+    noConnection: "No connection information available"

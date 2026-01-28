@@ -166,7 +166,7 @@ commands:
     errors:
       noHub: "This command must be used in a server channel connected to a hub, or you must specify a hub name."
       notConnected: "This channel is not connected to any hub. Please specify a hub name or use this command in a connected channel."
-      hubNotFound: "Hub \"{hubName}\" not found."
+      hubNotFound: 'Hub "{hubName}" not found.'
   connections:
     title: "Connection Management"
     description: "Configure, and administrate all hub connections within this server."
@@ -175,21 +175,42 @@ commands:
     selected:
       description: "You may now edit this connection. Use the below dropdowns to either change the broadcast channel, or edit settings regarding the connection."
       fields:
-        broadcastChannel: 'Broadcasting to'
-        connectionState: 'Broadcast state'
-        lastActive: 'Last Active'
+        broadcastChannel: "Broadcasting to"
+        connectionState: "Broadcast state"
+        lastActive: "Last Active"
       state:
-        enabled: 'Broadcasts are now **active**.'
-        disabled: 'Broadcasts are now **paused**.'
+        enabled: "Broadcasts are now **active**."
+        disabled: "Broadcasts are now **paused**."
     fix:
-      title: 'Connection Validation'
-      description: 'All connections within this guild have been validated. See below for more information.'
+      title: "Connection Validation"
+      description: "All connections within this guild have been validated. See below for more information."
       responses:
         success:
-          fixed: 'Fixed connection!'
-          valid: 'No issues found.'
+          fixed: "Fixed connection!"
+          valid: "No issues found."
         errors:
-          channelDeleted: 'The channel associated with this hub has been deleted. Connection removed.'
-          permissionsWebhook: 'I am unable to webhooks, please review my permissions and try again.'
-          permissionsView: 'I am unable to view channel, please review my permissions and try again.'
-          permissionsSend: 'I am unable to send messages, please review my permissions and try again.'
+          channelDeleted: "The channel associated with this hub has been deleted. Connection removed."
+          permissionsWebhook: "I am unable to webhooks, please review my permissions and try again."
+          permissionsView: "I am unable to view channel, please review my permissions and try again."
+          permissionsSend: "I am unable to send messages, please review my permissions and try again."
+  voteReminders:
+    description: "Toggle vote reminder notifications from InterChat."
+    enable:
+      success: "Vote reminders have been enabled! You'll receive a DM reminder to vote every 6 hours if you haven't voted recently."
+      alreadyEnabled: "Vote reminders are already enabled."
+    disable:
+      success: "Vote reminders have been disabled. You will no longer receive vote reminder DMs."
+      alreadyDisabled: "Vote reminders are already disabled."
+    status:
+      enabled: "Vote reminders are currently **enabled**."
+      disabled: "Vote reminders are currently **disabled**."
+    dm:
+      title: "Time to Vote for InterChat!"
+      description: "Your support helps InterChat grow and reach more communities. Vote on top.gg to help us out!"
+      reminderInfo: "You receive this reminder because you've voted before. You can disable these reminders anytime with `/my settings`."
+      buttons:
+        vote: "Vote Now"
+        disable: "Disable Reminders"
+      disableConfirm:
+        title: "Vote Reminders Disabled"
+        description: "You will no longer receive vote reminder DMs. You can re-enable them anytime with `/my settings`. Thanks for your past support!"

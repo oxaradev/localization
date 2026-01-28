@@ -62,6 +62,9 @@ responses:
     whoops: "¡Ups! Algo salió mal. Por favor intenta nuevamente más tarde."
     missingArgument: "Falta argumento: `{param}`."
     notConnectedServer: "{cross} No pude encontrar conexiones para este servidor."
+    not_authorized: "You can't use this button."
+    not_found: "No Encontrado"
+    accessDenied: "Access Denied"
   moderation:
     permissions:
       managerRequired: "Se requieren permisos de Manager+."

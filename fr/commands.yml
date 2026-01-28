@@ -162,7 +162,7 @@ commands:
     errors:
       noHub: "Cette commande doit être utilisée dans un canal serveur connecté à un hub, ou vous devez spécifier un nom de hub."
       notConnected: "Ce canal n'est connecté à aucun hub. Veuillez spécifier un nom de hub ou utiliser cette commande dans un canal connecté."
-      hubNotFound: "Le hub \"{hubName}\" na pas été trouvée."
+      hubNotFound: 'Le hub "{hubName}" na pas été trouvée.'
   connections:
     title: "Gestion des connexions"
     description: "Configurez et administrez toutes les connexions hub au sein de ce serveur."
@@ -171,21 +171,42 @@ commands:
     selected:
       description: "Vous pouvez maintenant modifier cette connexion. Utilisez les menus déroulants ci-dessous pour modifier le canal de diffusion ou les paramètres de connexion."
       fields:
-        broadcastChannel: 'Diffusion à'
-        connectionState: 'État de diffusion'
-        lastActive: 'Activité précédant'
+        broadcastChannel: "Diffusion à"
+        connectionState: "État de diffusion"
+        lastActive: "Activité précédant"
       state:
-        enabled: 'Les diffusions sont désormais **actives**.'
-        disabled: 'Les diffusions sont désormais **en pause**.'
+        enabled: "Les diffusions sont désormais **actives**."
+        disabled: "Les diffusions sont désormais **en pause**."
     fix:
-      title: 'Validation de la connexion'
-      description: 'Toutes les connexions au sein de cette guilde ont été validées. Voir ci-dessous pour plus d''informations.'
+      title: "Validation de la connexion"
+      description: "Toutes les connexions au sein de cette guilde ont été validées. Voir ci-dessous pour plus d'informations."
       responses:
         success:
-          fixed: 'Connexion fixée!'
-          valid: 'Aucune issue a été trouvée.'
+          fixed: "Connexion fixée!"
+          valid: "Aucune issue a été trouvée."
         errors:
-          channelDeleted: 'La chaîne associée au hub a été supprimée. Connexion supprimée.'
-          permissionsWebhook: 'Je ne parviens pas à utiliser les webhooks, veuillez vérifier mes autorisations et réessayer.'
-          permissionsView: 'Je ne parviens pas à voir la chaîne, veuillez vérifier mes autorisations et réessayer.'
-          permissionsSend: 'Je ne parviens pas à envoyer de messages, veuillez vérifier mes autorisations et réessayer.'
+          channelDeleted: "La chaîne associée au hub a été supprimée. Connexion supprimée."
+          permissionsWebhook: "Je ne parviens pas à utiliser les webhooks, veuillez vérifier mes autorisations et réessayer."
+          permissionsView: "Je ne parviens pas à voir la chaîne, veuillez vérifier mes autorisations et réessayer."
+          permissionsSend: "Je ne parviens pas à envoyer de messages, veuillez vérifier mes autorisations et réessayer."
+  voteReminders:
+    description: "Toggle vote reminder notifications from InterChat."
+    enable:
+      success: "Vote reminders have been enabled! You'll receive a DM reminder to vote every 6 hours if you haven't voted recently."
+      alreadyEnabled: "Vote reminders are already enabled."
+    disable:
+      success: "Vote reminders have been disabled. You will no longer receive vote reminder DMs."
+      alreadyDisabled: "Vote reminders are already disabled."
+    status:
+      enabled: "Vote reminders are currently **enabled**."
+      disabled: "Vote reminders are currently **disabled**."
+    dm:
+      title: "Time to Vote for InterChat!"
+      description: "Your support helps InterChat grow and reach more communities. Vote on top.gg to help us out!"
+      reminderInfo: "You receive this reminder because you've voted before. You can disable these reminders anytime with `/my settings`."
+      buttons:
+        vote: "Vote Now"
+        disable: "Disable Reminders"
+      disableConfirm:
+        title: "Vote Reminders Disabled"
+        description: "You will no longer receive vote reminder DMs. You can re-enable them anytime with `/my settings`. Thanks for your past support!"

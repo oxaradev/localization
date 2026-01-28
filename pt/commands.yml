@@ -163,7 +163,7 @@ commands:
     errors:
       noHub: "Esse comando deve ser usado em um canal do servidor conectado a um hub, ou você deve especificar o nome do hub."
       notConnected: "Esse canal não está conectado a nenhum hub. Por favor, especifique um nome de um hub ou use esse comando em um canal conectado."
-      hubNotFound: "Hub \"{hubName}\" não encontrado."
+      hubNotFound: 'Hub "{hubName}" não encontrado.'
   connections:
     title: "Gestão da conexão"
     description: "Configure e administre todas as conexões de hubs com esse servidor."
@@ -172,21 +172,42 @@ commands:
     selected:
       description: "Você pode agora editar essa conexão. Use o menu abaixo para mudar o canal de transmissão ou editar configurações relacionadas a conexão."
       fields:
-        broadcastChannel: 'Transmitindo a'
-        connectionState: 'Estado da transmissão'
-        lastActive: 'Última vez ativo'
+        broadcastChannel: "Transmitindo a"
+        connectionState: "Estado da transmissão"
+        lastActive: "Última vez ativo"
       state:
-        enabled: 'Transmissões agora estão **ativas**.'
-        disabled: 'Transmissões agora estão **pausadas**.'
+        enabled: "Transmissões agora estão **ativas**."
+        disabled: "Transmissões agora estão **pausadas**."
     fix:
-      title: 'Validação de conexão'
-      description: 'Todas as conexões com essa guilda foram validadas. Veja abaixo para mais informações.'
+      title: "Validação de conexão"
+      description: "Todas as conexões com essa guilda foram validadas. Veja abaixo para mais informações."
       responses:
         success:
-          fixed: 'Conexão concertada!'
-          valid: 'Nenhum problema encontrado.'
+          fixed: "Conexão concertada!"
+          valid: "Nenhum problema encontrado."
         errors:
-          channelDeleted: 'O canal associado com esse hub foi deletado, Conexão removida.'
-          permissionsWebhook: 'Não consigo acessar aos webhooks, por favor reveja minhas permissões e tente novamente.'
-          permissionsView: 'Não consigo ver os canais, por favor reveja minhas permissões e tente novamente.'
-          permissionsSend: 'Não consigo enviar mensagens, por favor reveja minhas permissões e tente novamente.'
+          channelDeleted: "O canal associado com esse hub foi deletado, Conexão removida."
+          permissionsWebhook: "Não consigo acessar aos webhooks, por favor reveja minhas permissões e tente novamente."
+          permissionsView: "Não consigo ver os canais, por favor reveja minhas permissões e tente novamente."
+          permissionsSend: "Não consigo enviar mensagens, por favor reveja minhas permissões e tente novamente."
+  voteReminders:
+    description: "Alternar notificações de lembrete de voto do InterChat."
+    enable:
+      success: "Lembretes de voto foram habilitados! Você receberá um lembrete no seu privado para votar a cada 6 horas se não tiver votado recentemente."
+      alreadyEnabled: "Lembretes de votos já estão habilitados."
+    disable:
+      success: "Os lembretes de voto foram desativados. Você não receberá mais mensagens de lembrete de voto."
+      alreadyDisabled: "Lembretes de voto já estão desabilitados."
+    status:
+      enabled: "Lembretes de voto estão atualmente **habilitados**."
+      disabled: "Lembretes de voto estão atualmente **desativados**."
+    dm:
+      title: "Hora de votar no InterChat!"
+      description: "Seu suporte ajuda o InterChat a crescer e alcançar mais comunidades. Vote no top.gg para nos ajudar!"
+      reminderInfo: "You receive this reminder because you've voted before. You can disable these reminders anytime with `/my settings`."
+      buttons:
+        vote: "Vote agora"
+        disable: "Desabilitar lembretes"
+      disableConfirm:
+        title: "Lembretes de Votos desabilitados."
+        description: "You will no longer receive vote reminder DMs. You can re-enable them anytime with `/my settings`. Thanks for your past support!"

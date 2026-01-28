@@ -62,6 +62,9 @@ responses:
     whoops: "Whoops! Something went wrong. Please try again later."
     missingArgument: "Missing argument: `{param}`."
     notConnectedServer: "{cross} I could not find any connections for this server."
+    not_authorized: "You can't use this button."
+    not_found: "Nicht gefunden"
+    accessDenied: "Access Denied"
   moderation:
     permissions:
       managerRequired: "Manager+ permissions required."

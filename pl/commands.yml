@@ -1,8 +1,8 @@
 commands:
   about:
-    title: "عن انترشات"
-    description_text: "انترشات يوصل مجموعات ديسكورد على مناقشات عبر الخوادم، تتدفق رسائل بسلاسة بين مناقشات في نفس الوقت، يسعدك  يبني مجموعات ذات مواضيع جذابة."
-    support_text: "Need help? Join our [support server]({support_invite}) for assistance!"
+    title: "Na temat InterChat"
+    description_text: "InterChat connects Discord communities through active cross-server discussions. Messages flow naturally between servers in real-time, helping you build engaged topic-focused communities."
+    support_text: "Potrzebujesz pomocy? Dołącz do naszego serwera wsparcia, aby uzyskać pomoc!"
     features:
       title: "Features"
       list: |
@@ -12,10 +12,10 @@ commands:
         - Moderation tools to keep discussions healthy
         - Visual dashboard to manage your hubs, servers, and settings
     buttons:
-      vote: "Vote on top.gg"
-      invite: "Invite InterChat"
+      vote: "Głosuj na top.gg"
+      invite: "Zaproś InterChat"
       dashboard: "Open Dashboard"
-      support: "Join Support"
+      support: "Dołącz do wsparcia"
       shardInfo: "Shard Info"
   setup:
     welcome:
@@ -30,17 +30,17 @@ commands:
         description: "Connect to an existing community"
     create:
       whatYoullCreate:
-        title: "What You'll Create:"
+        title: "Co stworzysz:"
         description: "{dot} A unique community space for your servers\n{dot} Complete control over rules and moderation\n{dot} Custom settings and features\n{dot} Private by default - invite only"
       youllNeed:
-        title: "You'll Need:"
-        description: "{arrow_right} Creative hub name\n{arrow_right} Brief description\n{arrow_right} Detailed description\n{arrow_right} Logo image URL"
+        title: "Będziesz potrzebował*:"
+        description: "DO NOT APPROVE THIS ONE! "
     join:
       title: "Join a Hub"
       description: "Use the public directory or connect with an invite code."
       publicHubs:
         title: "Public Hubs"
-        description: "**Browse** [interchat.dev/hubs](https://interchat.dev/hubs)\n**Or click** the button below to open the directory"
+        description: "**Browse** [interchat.tech/hubs](https://interchat.dev/hubs)\n**Or click** the button below to open the directory"
       privateHubs:
         title: "Private or Invite-only"
         description: "**Ask the hub owner or manager** for an invite code\n**Run `/connection add <invite-code>`** in your server to join"
@@ -55,80 +55,80 @@ commands:
           - Customize settings in the [dashboard](https://interchat.dev/dashboard)
           - Connect channels with `/connection add <hub-name>`
         inviteLink:
-          title: "Next: Create Invite Links"
+          title: "Następnie: Utwórz linki do zaproszenia"
           description: "Use {hubInviteCommand} to generate invite codes for **{hubName}** and share them with other server owners."
         shareHub:
           title: "Share Your Hub"
           description: "{dot} Post about your new hub in our [Support Server]({supportInvite})\n{dot} Share with friends and communities\n{dot} Use social media to spread the word"
         proTips:
-          title: "{dot} Pro Tips"
+          title: "{dot} Wskazówki"
           description: "{dot} Visit the [Dashboard]({website}) for advanced settings\n{dot} Use {hubVisibilityCommand} to make your hub public\n{dot} Join our [Support Server]({supportInvite}) for help and updates"
-        footer: "Need help? Join our support server."
+        footer: "Potrzebujesz pomocy? Dołącz do naszego serwera wsparcia."
   report:
-    title: "Report Message"
-    footer: "Reports help keep InterChat safe for everyone"
-    contextMenu: "Report Message"
+    title: "Zgłoś wiadomość"
+    footer: "Zgłoszenia pomagają utrzymać InterChat bezpieczny dla każdego"
+    contextMenu: "Zgłoś wiadomość"
     description: "Report {user} to **Hub Staff** for hub violations or **InterChat Staff** for platform violations. The user won't be notified, but moderators can see who has submit the report."
     success:
-      title: "Report Submitted"
+      title: "Zgłoszenie złożone"
       toStaff: "{tick} Your report has been sent to InterChat staff for review."
       toHub: "{tick} Your report has been sent to hub moderators for review."
     errors:
       hubMessageOnly: "{x_icon} You can only report messages sent through InterChat hubs."
-      cannotReportSelf: "{x_icon} You cannot report your own messages."
+      cannotReportSelf: "{x_icon} Nie możesz zgłosić swoich własnych wiadomości."
   hubCreate:
     success:
       description: "Your hub **{hubName}** is ready! Here's what you can do next:"
     errors:
       hubCreationFailed: "Something went wrong while creating your hub. Please try again."
-      troubleshooting: "What you can do:"
-      troubleshootingSteps: "• Check that your logo URL is valid\n• Try again in a few moments\n• Contact support if this persists"
+      troubleshooting: "Co możesz zrobić:"
+      troubleshootingSteps: "• Upewnij się, że logo URL jest ważne\n• Spróbuj ponownie za chwile\n• Skontaktuj się ze wsparciem, jeśli problem nie ustąpi"
   general:
     invite:
-      title: "Hey!"
+      title: "Hej!"
       description: "Thanks for choosing InterChat. Need help? Join our support server. Use the buttons below to invite our bot to your server and start connecting servers."
   stats:
     title: "InterChat Metrics"
     shard:
       title: "Shard Information"
-      statusReady: "Ready"
+      statusReady: "Gotowe"
       statusProvisioning: "Provisioning..."
       current: "Current Shard: #{id}"
   help:
     title: "InterChat Commands"
     description: "Explore our wide range of commands to help you, and your community connect with others."
-    noDescription: "No description"
-    name: "Help"
+    noDescription: "Brak opisu"
+    name: "Pomoc"
   staff:
     blacklist:
       list:
         description: "View blacklist entries filtered by users or servers"
     get:
-      description: "Get information about InterChat entities"
+      description: "Uzyskaj informacje na temat podmiotów InterChat"
       server:
-        description: "Get detailed information about a server"
+        description: "Uzyskaj precyzyjne informacje o serwerze"
       hub:
         description: "Get detailed information about a hub"
       user:
-        description: "Get detailed information about a user"
+        description: "Uzyskaj precyzyjne informacje o użytkowniku"
   profile:
     achievements:
       noneFound: "None Found"
-      noneFoundDescription: "I could not find any achievements for this user!"
+      noneFoundDescription: "Nie można znaleźć żadnych osiągnięć dla tego użytkownika!"
     badges:
       noneFound: "None Found"
       noneFoundDescription: "I could not find any badges for this user!"
   leaderboard:
     staffTag: "InterChat Staff"
-    userTag: "User"
-    messagesColumn: "Messages"
+    userTag: "Użytkownik"
+    messagesColumn: "Wiadomości"
     voteCountColumn: "Vote Count"
   my:
     hubs:
       title: "Your Hubs"
       description: "Here are the hubs you own or moderate:"
       position: "Position:"
-      owner: "Owner"
+      owner: "Właściciel"
   appeal:
     title: "Your Appealable Infractions"
     description: "Select an infraction below to submit an appeal, or view the status of existing appeals."
@@ -158,7 +158,7 @@ commands:
     description: "View infractions in a hub, filtered by user or server."
   rules:
     description: "View the rules for a hub"
-    title: "{hubName} Rules"
+    title: "Zasady {hubName}"
     noRules:
       title: "No Rules Set"
       description: "No rules have been set for this hub yet."
@@ -205,11 +205,11 @@ commands:
       enabled: "Vote reminders are currently **enabled**."
       disabled: "Vote reminders are currently **disabled**."
     dm:
-      title: "Time to Vote for InterChat!"
+      title: "Czas zagłosować na InterChat!"
       description: "Your support helps InterChat grow and reach more communities. Vote on top.gg to help us out!"
       reminderInfo: "You receive this reminder because you've voted before. You can disable these reminders anytime with `/my settings`."
       buttons:
-        vote: "Vote Now"
+        vote: "Zagłosuj teraz"
         disable: "Disable Reminders"
       disableConfirm:
         title: "Vote Reminders Disabled"

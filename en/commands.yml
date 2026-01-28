@@ -43,7 +43,7 @@ commands:
         description: "**Browse** [interchat.tech/hubs](https://interchat.dev/hubs)\n**Or click** the button below to open the directory"
       privateHubs:
         title: "Private or Invite-only"
-        description: "**Ask the hub owner or manager** for an invite code\n**Run `/connection add <invite-code>`** in your server to join"
+        description: "**Ask the hub owner or manager** for an invite code\n**Run `/connect <invite-code>`** in your server to join"
       footer: "You can join more hubs anytime, and you can be connected to multiple hubs at once in different channels."
     nextSteps:
       created:
@@ -194,10 +194,10 @@ commands:
           fixed: "Fixed connection!"
           valid: "No issues found."
         errors:
-          channelDeleted: "The channel associated with this hub has been deleted. Connection removed."
-          permissionsWebhook: "I am unable to webhooks, please review my permissions and try again."
-          permissionsView: "I am unable to view channel, please review my permissions and try again."
-          permissionsSend: "I am unable to send messages, please review my permissions and try again."
+          channelDeleted: 'The channel associated with this hub has been deleted. Connection removed.'
+          permissionsWebhook: 'I am unable to webhooks, please review my permissions and try again.'
+          permissionsView: 'I am unable to view channel, please review my permissions and try again.'
+          permissionsSend: 'I am unable to send messages, please review my permissions and try again.'
   voteReminders:
     description: "Toggle vote reminder notifications from InterChat."
     enable:

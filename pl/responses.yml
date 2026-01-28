@@ -1,6 +1,6 @@
 responses:
   common:
-    unknown: "Unknown"
+    unknown: "Nieznane"
     hub: "Hub"
   setup:
     setupComplete: "Ready to create? Click the Create Hub button!"
@@ -10,9 +10,9 @@ responses:
       previewTitle: "Here's a preview of your hub:"
       name: "{emoji} Name"
       short: "{emoji} Short Name"
-      description: "{emoji} Description"
+      description: "{emoji} Opis"
     locale:
-      successTitle: "Success!"
+      successTitle: "Sukces!"
       successDescription: "{tick} Your language has been set to **{locale_name}**"
     loading:
       creatingHub: "{loading} Creating Your Hub..."
@@ -22,15 +22,15 @@ responses:
   appeal:
     constants:
       unknownHub: "Unknown Hub"
-      noReason: "No reason provided"
+      noReason: "Brak podanego powodu"
     status:
       pending: "Pending Response"
       cooldown: "Cooldown"
       canAppealAgain: "Appealable"
       canAppeal: "Appealable"
     fields:
-      date: "Date:"
-      reason: "Reason:"
+      date: "Data:"
+      reason: "Powód:"
     errors:
       recordFailed: "Failed to record decision: {error}"
       notFoundOrDeleted: "Appeal not found or has been deleted."
@@ -54,12 +54,12 @@ responses:
     rateLimited: "You are being rate limited. Take a chill pill."
     webhookRateLimit: "You have reached the webhook creation rate limit"
     invalidInput: "You have not provided a valid input."
-    invalidInvite: "This invite is invalid, or expired."
+    invalidInvite: "To zaproszenie jest nieważne, albo przeterminowane."
     webhookError: "Failed to create webhook."
     notConnected: "I could not find a hub connected in this channel."
     noInteraction: "This command only supports slash commands."
     missingAppealReference: "Missing appeal reference."
-    whoops: "Whoops! Something went wrong. Please try again later."
+    whoops: "Ups! Coś poszło nie tak. Proszę, spróbuj później."
     missingArgument: "Missing argument: `{param}`."
     notConnectedServer: "{cross} I could not find any connections for this server."
     not_authorized: "You can't use this button."

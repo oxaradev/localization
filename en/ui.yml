@@ -11,7 +11,6 @@ ui:
       back: "Back"
       cancel: "Cancel"
       refresh: "Refresh"
-      startWizard: "Start Setup Wizard"
       enterHubInfo: "Enter Hub Information"
       hubInfoComplete: "Hub Information Complete"
       createHub: "Create Hub"
@@ -362,11 +361,6 @@ ui:
       moderator: "Moderator"
       issued: "Issued"
       status: "Status"
-      evidence: "Evidence"
-    evidence:
-      content: "Content"
-      author: "Author"
-      notAvailable: "No evidence available"
   staff:
     hub:
       section:

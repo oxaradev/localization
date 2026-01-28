@@ -62,6 +62,9 @@ responses:
     whoops: "Whoops! Parece que deu algo errado. Tente novamente mais tarde."
     missingArgument: "Faltando argumento: `{param}`."
     notConnectedServer: "{cross} Eu não consegui encontrar nenhuma conexão para esse servidor."
+    not_authorized: "You can't use this button."
+    not_found: "Não encontrado"
+    accessDenied: "Access Denied"
   moderation:
     permissions:
       managerRequired: "Permissões de Gerente+ necessárias."
@@ -73,7 +76,7 @@ responses:
       success: "{action} revogada."
     delete:
       noMessage: "Nenhuma mensagem fornecida para excluir."
-      success: "Message has been deleted from all connected hubs."
+      success: "A mensagem foi deletada de todos os hub conectados."
       notInterChatMessage: "Esta mensagem não é uma mensagem o InterChat ou já foi excluída."
       failed: "Falha ao apagar a mensagem. Tente novamente mais tarde."
       notFound: "Infração não encontrada."
