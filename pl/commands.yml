@@ -122,7 +122,7 @@ commands:
     staffTag: "InterChat Staff"
     userTag: "Użytkownik"
     messagesColumn: "Wiadomości"
-    voteCountColumn: "Vote Count"
+    voteCountColumn: "Zliczenie głosów"
   my:
     hubs:
       title: "Your Hubs"
