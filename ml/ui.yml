@@ -1,77 +1,77 @@
 ui:
   setup:
     embed:
-      description: "Use the modal to enter your hub details."
+      description: "നിങ്ങളുടെ ഹബ് വിശദാംശങ്ങൾ നൽകാൻ മോഡൽ ഉപയോഗിക്കുക."
     select:
-      placeholder: "Select a language"
-      loadingLabel: "Loading..."
-      loadingDescription: "Please wait..."
-      chooseOption: "Choose an option to get started..."
+      placeholder: "ഒരു ഭാഷ തിരഞ്ഞെടുക്കുക"
+      loadingLabel: "ലോഡ് ചെയ്യുന്നു..."
+      loadingDescription: "കാത്തിരിക്കൂ..."
+      chooseOption: "ആരംഭിക്കാൻ ഒരു ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക..."
     buttons:
-      back: "Back"
-      cancel: "Cancel"
-      refresh: "Refresh"
-      startWizard: "Start Setup Wizard"
-      enterHubInfo: "Enter Hub Information"
-      hubInfoComplete: "Hub Information Complete"
-      createHub: "Create Hub"
-      completeInfoFirst: "Complete Hub Info First"
-      discoverHubs: "Discover Public Hubs"
-      supportServer: "Support Server"
-      joinHub: "Join Hub"
-      useDefault: "Use Default"
-      skipForNow: "Skip for Now"
+      back: "തിരികെ"
+      cancel: "റദ്ദാക്കുക"
+      refresh: "പുതുക്കുക"
+      startWizard: "സെറ്റപ്പ് വിസാർഡ് ആരംഭിക്കുക"
+      enterHubInfo: "ഹബ് വിവരങ്ങൾ നൽകുക"
+      hubInfoComplete: "ഹബ് വിവരങ്ങൾ പൂർത്തിയായി"
+      createHub: "ഹബ് സൃഷ്ടിക്കുക"
+      completeInfoFirst: "ആദ്യം ഹബ് വിവരങ്ങൾ പൂർത്തിയാക്കുക"
+      discoverHubs: "പബ്ലിക് ഹബുകൾ കണ്ടെത്തുക"
+      supportServer: "പിന്തുണ സെർവർ"
+      joinHub: "പിന്തുണ സെർവർ"
+      useDefault: "സ്ഥിരസ്ഥിതി ഉപയോഗിക്കുക"
+      skipForNow: "ഇപ്പോൾ ഒഴിവാക്കുക"
   common:
     titles:
       error: "പിശക്!"
       success: "വിജയം!"
-      cancelled: "Cancelled!"
+      cancelled: "റദ്ദാക്കി!"
     noDescription: "വിവരണമില്ല"
     labels:
-      date: "Date"
-      create: "Create"
-      cancel: "Cancel"
+      date: "തീയതി"
+      create: "സൃഷ്ടിക്കുക"
+      cancel: "റദ്ദാക്കുക"
     messages:
-      loading: "Loading..."
-      pleaseWait: "Please wait..."
-      notImplemented: "Not implemented yet."
-      hubNotFound: "Hub not found. Please try again later."
-      serverNotFound: "Server not found."
-      userNotFound: "User not found."
-      notSpecified: "Not specified"
-      interfacePermission: "You can't use this interface."
-      hubUpdateFailed: "Failed to update hub settings."
-      hubConfigDescription: "Customize your InterChat hub for your community. Pick what you'd like to configure below."
+      loading: "ലോഡ് ചെയ്യുന്നു..."
+      pleaseWait: "കാത്തിരിക്കൂ..."
+      notImplemented: "ഇതുവരെ നടപ്പാക്കിയിട്ടില്ല."
+      hubNotFound: "ഹബ് കണ്ടെത്തിയില്ല. പിന്നീട് വീണ്ടും ശ്രമിക്കുക."
+      serverNotFound: "സെർവർ കണ്ടെത്തിയില്ല."
+      userNotFound: "ഉപയോക്താവിനെ കണ്ടെത്തിയില്ല."
+      notSpecified: "വ്യക്തമാക്കിയിട്ടില്ല"
+      interfacePermission: "നിങ്ങൾക്ക് ഈ ഇന്റർഫേസ് ഉപയോഗിക്കാൻ കഴിയില്ല."
+      hubUpdateFailed: "ഹബ് ക്രമീകരണങ്ങൾ അപ്‌ഡേറ്റ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു."
+      hubConfigDescription: "നിങ്ങളുടെ കമ്മ്യൂണിറ്റിക്കായി ഇന്റർചാറ്റ് ഹബ് ഇഷ്ടാനുസൃതമാക്കുക. താഴെ എന്താണ് കോൺഫിഗർ ചെയ്യേണ്ടതെന്ന് തിരഞ്ഞെടുക്കുക."
     pagination:
-      previous: "Previous"
-      next: "Next"
-      page: "Page {current}/{total}"
+      previous: "മുമ്പത്തെ"
+      next: "അടുത്തത്"
+      page: "പേജ് {current}/{total}"
     errors:
-      notYourMenu: "This isn't your menu."
-      cannotControlPagination: "You cannot control this pagination."
-      notFound: "Not Found"
-      invalidFilter: "Invalid Filter"
+      notYourMenu: "ഇത് നിങ്ങളുടെ മെനു അല്ല."
+      cannotControlPagination: "നിങ്ങൾക്ക് ഈ പേജിനേഷൻ നിയന്ത്രിക്കാൻ കഴിയില്ല."
+      notFound: "കണ്ടെത്തിയില്ല"
+      invalidFilter: "അസാധുവായ ഫിൽട്ടർ"
     modal:
       hubCreation:
-        title: "Create Your Hub"
+        title: "നിങ്ങളുടെ ഹബ് സൃഷ്ടിക്കുക"
         name:
-          label: "Hub Name"
-          placeholder: "Enter a unique name for your hub"
+          label: "ഹബ്ബിൻ്റെ പേര്"
+          placeholder: "നിങ്ങളുടെ ഹബ്ബിന് ഒരു സവിശേഷ നാമം നൽകുക"
         brief:
-          label: "Brief Description"
-          placeholder: "A quick summary of your hub's purpose"
+          label: "സംക്ഷിപ്ത വിവരണം"
+          placeholder: "നിങ്ങളുടെ ഹബ്ബിന്റെ ഉദ്ദേശ്യത്തിന്റെ ഒരു ദ്രുത സംഗ്രഹം"
         description:
-          label: "Detailed Description"
-          placeholder: "Tell people what your hub is about and what they can expect"
+          label: "വിശദമായ വിവരണം"
+          placeholder: "നിങ്ങളുടെ ഹബ് എന്തിനെക്കുറിച്ചാണെന്നും അവർക്ക് എന്ത് പ്രതീക്ഷിക്കാമെന്നും ആളുകളോട് പറയുക"
         logoUrl:
-          label: "Hub Logo URL"
+          label: "ഹബ് ലോഗോ URL"
           placeholder: "https://example.com/your-logo.png"
     create:
       footer:
-        getStarted: "Click 'Enter Hub Information' below to get started!"
+        getStarted: "ആരംഭിക്കുന്നതിന് താഴെയുള്ള 'ഹബ് വിവരങ്ങൾ നൽകുക' ക്ലിക്ക് ചെയ്യുക!"
   help:
     select:
-      placeholder: "Select a category"
+      placeholder: "ഒരു വിഭാഗം തിരഞ്ഞെടുക്കുക"
   preferences:
     title: "User Preferences"
     description: "Edit your personal settings to make InterChat work for you. These are GLOBAL and work across all servers you share with InterChat."
@@ -94,7 +94,7 @@ ui:
       description: "Select your preferred language for InterChat."
     select:
       placeholder: "Select an option"
-      category: "Select a category"
+      category: "ഒരു വിഭാഗം തിരഞ്ഞെടുക്കുക"
     badges:
       title: "Preferences: Badges"
       description: "Your badges are now **{status}** within your messages. You may toggle this below using the button, or return to the menu with the return button."
@@ -116,8 +116,8 @@ ui:
         vote: "Top.gg-ൽ വോട്ട് ചെയ്യുക"
   appeal:
     buttons:
-      previous: "Previous"
-      next: "Next"
+      previous: "മുമ്പത്തെ"
+      next: "അടുത്തത്"
     select:
       placeholder: "Select an infraction to appeal"
     errors:
@@ -162,7 +162,7 @@ ui:
   hubConfig:
     main:
       placeholder: "Select an option"
-      loadingLabel: "Loading..."
+      loadingLabel: "ലോഡ് ചെയ്യുന്നു..."
       loadingDescription: "Please wait."
     general:
       placeholder: "Choose a setting to configure..."
@@ -231,7 +231,7 @@ ui:
           label: "Expiry"
           placeholder: "1 week"
       buttons:
-        create: "Create"
+        create: "സൃഷ്ടിക്കുക"
   moderation:
     actionNames:
       warned: "Warned"
@@ -490,12 +490,12 @@ ui:
       announceTitle: "Hub Unlocked"
       announceDescription: "This hub has been unlocked by a moderator.\nYou can now send messages."
     create:
-      title: "Create Your Hub"
+      title: "നിങ്ങളുടെ ഹബ് സൃഷ്ടിക്കുക"
       description: "Create your own InterChat hub for a community, your friends... or anyone - the list could go on for ages. Go ahead, see where it takes you."
     wizard:
       start: "Start Creating Your Hub"
       name:
-        label: "Hub Name"
+        label: "ഹബ്ബിൻ്റെ പേര്"
         placeholder: "My Amazing Hub"
       tagline:
         label: "Hub Tagline"
@@ -668,7 +668,7 @@ ui:
         cancelled: "Setup cancelled. We hope to see you back here again soon."
     config:
       title: "Hub Configuration"
-      description: "Customize your InterChat hub for your community. Pick what you'd like to configure below."
+      description: "നിങ്ങളുടെ കമ്മ്യൂണിറ്റിക്കായി ഇന്റർചാറ്റ് ഹബ് ഇഷ്ടാനുസൃതമാക്കുക. താഴെ എന്താണ് കോൺഫിഗർ ചെയ്യേണ്ടതെന്ന് തിരഞ്ഞെടുക്കുക."
       options:
         general:
           label: "General Settings"
