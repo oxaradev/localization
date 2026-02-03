@@ -189,10 +189,10 @@ commands:
           fixed: "Fixed connection!"
           valid: "No issues found."
         errors:
-          channelDeleted: "The channel associated with this hub has been deleted. Connection removed."
-          permissionsWebhook: "I am unable to webhooks, please review my permissions and try again."
-          permissionsView: "I am unable to view channel, please review my permissions and try again."
-          permissionsSend: "I am unable to send messages, please review my permissions and try again."
+          channelDeleted: 'The channel associated with this hub has been deleted. Connection removed.'
+          permissionsWebhook: 'I am unable to webhooks, please review my permissions and try again.'
+          permissionsView: 'I am unable to view channel, please review my permissions and try again.'
+          permissionsSend: 'I am unable to send messages, please review my permissions and try again.'
   voteReminders:
     description: "Toggle vote reminder notifications from InterChat."
     enable:
