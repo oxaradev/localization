@@ -744,6 +744,7 @@ hub:
         addLogoButton: "ലോഗോ ചേർക്കുക"
         invalidUrl: "അസാധുവായ ഇമേജ് URL. പകരം ഡിഫോൾട്ട് ബോട്ട് അവതാർ ഉപയോഗിക്കുന്നു."
       step3:
+        title: Hub Visibility
         description: |
           നിങ്ങളുടെ ഹബ്ബിന്റെ വിസിബിലിറ്റി തിരഞ്ഞെടുക്കുക:
 
