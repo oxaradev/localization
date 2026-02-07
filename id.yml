@@ -100,7 +100,6 @@ ui:
       support: "Gabung Support"
       shardInfo: "Info Shard"
 
-  # Bot Greeting (New Server Join)
   botLanding:
     title: "👋 Halo!"
     description: |
@@ -695,7 +694,7 @@ ui:
       labels:
         user: "Pengguna"
         server: "Server"
-      # Merged from responses.staff.blacklist
+
       notFound: "Tidak ditemukan entri daftar hitam yang cocok."
       removed: "Entri daftar hitam dihapus."
 

@@ -100,7 +100,6 @@ ui:
       support: "Support beitreten"
       shardInfo: "Shard Info"
 
-  # Bot Greeting (New Server Join)
   botLanding:
     title: "👋 Hey da!"
     description: |
@@ -695,7 +694,7 @@ ui:
       labels:
         user: "Nutzer"
         server: "Server"
-      # Merged from responses.staff.blacklist
+
       notFound: "Kein passender Blacklist-Eintrag gefunden."
       removed: "Blacklist-Eintrag entfernt."
 

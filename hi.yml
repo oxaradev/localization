@@ -100,7 +100,6 @@ ui:
       support: "Support से जुड़ें"
       shardInfo: "Shard इन्फो"
 
-  # Bot Greeting (New Server Join)
   botLanding:
     title: "👋 नमस्ते!"
     description: |
@@ -695,7 +694,7 @@ ui:
       labels:
         user: "उपयोगकर्ता"
         server: "सर्वर"
-      # Merged from responses.staff.blacklist
+
       notFound: "कोई मेल खाती ब्लैकलिस्ट प्रविष्टि नहीं मिली।"
       removed: "ब्लैकलिस्ट प्रविष्टि हटा दी गई।"
 

@@ -100,7 +100,6 @@ ui:
       support: "Unirse al Soporte"
       shardInfo: "Info del Shard"
 
-  # Bot Greeting (New Server Join)
   botLanding:
     title: "👋 ¡Hola!"
     description: |
@@ -695,7 +694,7 @@ ui:
       labels:
         user: "Usuario"
         server: "Servidor"
-      # Merged from responses.staff.blacklist
+
       notFound: "No se encontró ninguna entrada de lista negra coincidente."
       removed: "Entrada de lista negra eliminada."
 
