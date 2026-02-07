@@ -727,6 +727,7 @@ hub:
         addLogoButton: "Add Logo"
         invalidUrl: "Invalid image URL. Using default bot avatar instead."
       step3:
+        title: Hub Visibility
         description: |
           Choose your hub's visibility: 🔓 **Public**: Discoverable on the hub directory, requires rules 👁️ **Unlisted**: Not in directory but anyone can join if they know the name 🔒 **Private**: Invite-only, not listed publicly -# 💡 *Tip: You can change this later in hub settings.*" 
         publicButton: "Public Hub"
