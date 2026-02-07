@@ -744,6 +744,7 @@ hub:
         addLogoButton: "Tambah Logo"
         invalidUrl: "URL gambar tidak valid. Menggunakan avatar bot default sebagai gantinya."
       step3:
+        title: Hub Visibility
         description: |
           Pilih visibilitas hub Anda:
 
