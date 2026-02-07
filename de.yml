@@ -744,6 +744,7 @@ hub:
         addLogoButton: "Logo hinzufügen"
         invalidUrl: "Ungültige Bild-URL. Verwende stattdessen Standard-Bot-Avatar."
       step3:
+        title: Hub Visibility
         description: |
           Wähle die Sichtbarkeit deines Hubs:
 
