@@ -4,43 +4,14 @@ ui:
       error: "Error!"
       success: "Success!"
       cancelled: "Cancelled!"
-      warning: "Warning!"
-      info: "Information"
+    noDescription: "Pas de description"
     labels:
       date: "Date"
+      create: "Create"
+      cancel: "Cancel"
+    messages:
       loading: "Loading..."
       pleaseWait: "Please wait..."
-      optional: "{optional}"
-      lastActive: "Last Active"
-      unknown: "Unknown"
-    buttons:
-      back: "Back"
-      next: "Next"
-      previous: "Previous"
-      cancel: "Cancel"
-      confirm: "Confirm"
-      create: "Create"
-      return: "Return"
-      refresh: "Refresh"
-      delete: "Delete"
-      save: "Save"
-      vote: "Vote on top.gg"
-      invite: "Invite InterChat"
-      dashboard: "Open Dashboard"
-      support: "Join Support"
-    placeholders:
-      select: "Select an option"
-      type: "Type here..."
-    visibility:
-      public: "Public"
-      private: "Private"
-      unlisted: "Unlisted"
-    entities:
-      user: "User"
-      server: "Server"
-      hub: "Hub"
-      message: "Message"
-    messages:
       notImplemented: "Not implemented yet."
       hubNotFound: "Hub not found. Please try again later."
       serverNotFound: "Server not found."
@@ -51,142 +22,48 @@ ui:
       hubConfigDescription: "Customize your InterChat hub for your community. Pick what you'd like to configure below."
     pagination:
       previous: "Previous"
+      next: "Next"
       page: "Page {current}/{total}"
-    fields:
-      # TODO: THIS
-      id: "{type} ID"
-      name: "{type} Name"
-      reason: "Reason"
-      created: "Created"
-      status: "Status"
     errors:
       notYourMenu: "This isn't your menu."
       cannotControlPagination: "You cannot control this pagination."
       notFound: "Not Found"
       invalidFilter: "Invalid Filter"
-      generic: "An error occurred while processing your request."
-      contactSupport: "Please contact our [support team]({supportServer}) if this persists."
-      invalidSelection: "Invalid selection."
-      nothingSelected: "Nothing was selected."
-      interactionCheck: "You may not use this interaction, as you did not invoke it."
-      rateLimited: "You are being rate limited. Take a chill pill."
-      webhookRateLimit: "You have reached the webhook creation rate limit."
-      invalidInput: "You have not provided a valid input."
-      invalidInvite: "This invite is invalid or expired."
-      webhookError: "Failed to create webhook."
-      notConnected: "I could not find a hub connected in this channel."
-      notConnectedServer: "{cross} I could not find any connections for this server."
-      noInteraction: "This command only supports slash commands."
-      missingAppealReference: "Missing appeal reference."
-      missingArgument: "Missing argument: `{param}`."
-      notAuthorized: "You can't use this button."
-      accessDenied: "Access Denied"
-
-  about:
-    title: "About InterChat"
-    description: "InterChat connects Discord communities through active cross-server discussions. Messages flow naturally between servers in real-time, helping you build engaged topic-focused communities."
-    supportText: "Need help? Join our support server for assistance!"
-    features:
-      title: "Features"
-      list: |
-        - Connect with other servers for active cross-server discussions
-        - Messages flow naturally between servers in real-time
-        - Build engaged topic-focused communities
-        - Moderation tools to keep discussions healthy
-        - Visual dashboard to manage your hubs, servers, and settings
-    buttons:
-      vote: "Vote on top.gg"
-      invite: "Invite InterChat"
-      dashboard: "Open Dashboard"
-      support: "Join Support"
-      shardInfo: "Shard Info"
-
-  # Bot Greeting (New Server Join)
-  botLanding:
-    title: "👋 Hey there!"
-    description: |
-      **I'm InterChat, and I'm pleased to be on your server on behalf of our team.**
-      Together, we can connect your server with other remarkable communities from across Discord. Numerous, potentially thousands of servers located in one place, all filled with individuals eager to engage in conversation with you. 🚀
-
-      **Ready to start building new bridges with us?**
-      {dot} **New here?** The `/setup` command provides a step-by-step guide to help you begin your journey.
-      {dot} **Ready to explore?** Visit our [discovery page](https://interchat.dev/hubs) to locate and become part of our lively hubs.
-
-      💝 **Lost? Require assistance?** We welcome you to our [support community](https://discord.gg/8DhUA4HNpD). Our team and our community will be pleased to offer their help. We offer as much support and assistance in whatever issues you may have, don't hesitate to join!
-
-  setup:
-    embed:
-      description: "Use the modal to enter your hub details."
-    welcome:
-      title: "Welcome to InterChat Setup"
-      description: "Let's get your server connected. This wizard will guide you through creating or joining a hub."
-    editMessagePrompt: "{emoji} Please use the modal to edit your message."
-    select:
-      placeholder: "Select a language"
-      chooseOption: "Choose an option to get started..."
-    options:
-      create:
-        label: "Create a Hub"
-        description: "Start your own InterChat community"
-      join:
-        label: "Join a Hub"
-        description: "Connect to an existing community"
-      titleSaved: "{emoji} Hub Information Saved!"
-      previewTitle: "Here's a preview of your hub:"
-      name: "{emoji} Name"
-      short: "{emoji} Short Name"
-      description: "{emoji} Description"
-    locale:
-      successDescription: "{tick} Your language has been set to **{locale_name}**"
-    loading:
-      creatingHub: "{loading} Creating Your Hub..."
-      pleaseWait: "Please wait while we set up your community space."
+    modal:
+      hubCreation:
+        title: "Create Your Hub"
+        name:
+          label: "Hub Name"
+          placeholder: "Enter a unique name for your hub"
+        brief:
+          label: "Brief Description"
+          placeholder: "A quick summary of your hub's purpose"
+        description:
+          label: "Detailed Description"
+          placeholder: "Tell people what your hub is about and what they can expect"
+        logoUrl:
+          label: "Hub Logo URL"
+          placeholder: "https://example.com/your-logo.png"
     create:
       footer:
         getStarted: "Click 'Enter Hub Information' below to get started!"
-      whatYoullCreate:
-        title: "What You'll Create:"
-        description: "{dot} A unique community space for your servers\n{dot} Complete control over rules and moderation\n{dot} Custom settings and features\n{dot} Private by default - invite only"
-      youllNeed:
-        title: "You'll Need:"
-        description: "{arrow_right} Creative hub name\n{arrow_right} Brief description\n{arrow_right} Detailed description\n{arrow_right} Logo image URL"
-    join:
-      title: "Join a Hub"
-      description: "Use the public directory or connect with an invite code."
-      publicHubs:
-        title: "Public Hubs"
-        description: "**Browse** [interchat.tech/hubs](https://interchat.dev/hubs)\n**Or click** the button below to open the directory"
-      privateHubs:
-        title: "Private or Invite-only"
-        description: "**Ask the hub owner or manager** for an invite code\n**Run `/connect <invite-code>`** in your server to join"
-      footer: "You can join more hubs anytime, and you can be connected to multiple hubs at once in different channels."
-    buttons:
-      startWizard: "Start Setup Wizard"
-      enterHubInfo: "Enter Hub Information"
-      hubInfoComplete: "Hub Information Complete"
-      createHub: "Create Hub"
-      completeInfoFirst: "Complete Hub Info First"
-      discoverHubs: "Discover Public Hubs"
-      joinHub: "Join Hub"
-      useDefault: "Use Default"
-      skipForNow: "Skip for Now"
-    errors:
-      hubCreationFailed: "{no} Hub Creation Failed"
-
   help:
-    title: "InterChat Commands"
-    description: "Explore our wide range of commands to help you and your community connect with others."
-    name: "Help"
-
+    select:
+      placeholder: "Select a category"
   preferences:
     title: "User Preferences"
     description: "Edit your personal settings to make InterChat work for you. These are GLOBAL and work across all servers you share with InterChat."
+    buttons:
+      return: "Return"
     replyMentions:
       title: "Preferences: Reply Mentions"
       description: "You will now be **{status}** when someone replies to your messages. You may toggle this below using the button, or return to the menu with the return button."
       currentDescription: "Currently you are **{status}** when replied to within your messages. You may toggle this below using the button, or return to the menu with the return button."
       mentioned: "mentioned"
       notMentioned: "not mentioned"
+    errors:
+      noPreferences: "You do not have preferences set up yet."
+      hide: "Hide"
     general:
       title: "General Preferences"
       description: "Configure general preferences within InterChat. This ensures your experience is the best we are able to make it."
@@ -194,6 +71,7 @@ ui:
       title: "Language Select"
       description: "Select your preferred language for InterChat."
     select:
+      placeholder: "Select an option"
       category: "Select a category"
     badges:
       title: "Preferences: Badges"
@@ -206,32 +84,26 @@ ui:
         hide: "Hide"
     voteReminders:
       title: "Preferences: Vote Reminders"
-      description: "Toggle vote reminder notifications from InterChat."
-      status: "Vote reminders are currently **{status}**."
+      description: "Vote reminders are now **{status}**. Help InterChat grow by voting on top.gg! You may toggle this below or return to the menu."
+      currentDescription: "Currently vote reminders are **{status}**. Your vote helps us reach more communities and grow! You may toggle this below or return to the menu."
       enabled: "enabled"
       disabled: "disabled"
-      dm:
-        title: "Time to Vote for InterChat!"
-        description: "Your support helps InterChat grow! Vote on top.gg to help us out!"
-        reminderInfo: "You receive this reminder because you've voted before. You can disable these reminders anytime with `/my settings`."
-        disableConfirm:
-          title: "Vote Reminders Disabled"
-          description: "You will no longer receive vote reminder DMs. You can re-enable them anytime with `/my settings`. Thanks for your past support!"
       buttons:
         enable: "Enable"
         disable: "Disable"
-    errors:
-      noPreferences: "You don't have any preferences set yet."
-
+        vote: "Voter sur top.gg"
   appeal:
-    title: "Your Appealable Infractions"
-    description: "Select an infraction below to submit an appeal, or view the status of existing appeals."
-    noInfractions:
-      title: "No Active Infractions"
-      description: "You have no active infractions that can be appealed."
-    notAppealable: "This infraction is no longer appealable."
+    buttons:
+      previous: "Previous"
+      next: "Next"
     select:
       placeholder: "Select an infraction to appeal"
+    errors:
+      cannotControl: "You cannot control this pagination menu."
+      notYourMenu: "This is not your appeal menu."
+      nothingSelected: "Nothing was selected."
+      invalidSelection: "Invalid selection."
+      modalError: "Failed to open appeal modal."
     modal:
       title: "Submit Appeal"
       q1: "Why do you believe this action was incorrect?"
@@ -245,48 +117,12 @@ ui:
     status:
       acceptedBy: "Accepted by @{name}"
       rejectedBy: "Rejected by @{name}"
-      pending: "Pending Response"
-      cooldown: "Cooldown"
-      canAppealAgain: "Appealable"
-      canAppeal: "Appealable"
-    constants:
-      unknownHub: "Unknown Hub"
-      noReason: "No reason provided"
-    fields:
-      date: "Date:"
-      reason: "Reason:"
     actions:
       decisionTitle: "Appeal Decision"
       reasonOptional:
         label: "Reason (Optional)"
         placeholder: "Explain your decision..."
-    dm:
-      accepted: "Your appeal regarding a moderation action{hubName} has been accepted. Our team reviewed your case and determined that your appeal should be upheld."
-      declined: "Your appeal regarding a moderation action{hubName} has been reviewed. After careful consideration, your appeal has been declined."
-      moderatorNote: "Moderator note: {reason}"
-    embed:
-      title: "Your Appealable Infractions"
-      description: "Select an infraction below to submit an appeal, or view the status of existing appeals."
-      noInfractions:
-        title: "Squeaky Clean!"
-        description: "No appealable infractions found."
-      footer:
-        canAppeal: "💡 You can appeal {count} infraction(s). Use the select menu below."
-        checkLater: "💡 Check back later when cooldowns expire or appeals are reviewed."
-    errors:
-      cannotControl: "You cannot control this pagination menu."
-      nothingSelected: "Nothing was selected."
-      invalidSelection: "Invalid selection."
-      modalError: "Failed to open appeal modal."
-      recordFailed: "Failed to record decision: {error}"
-      notFoundOrDeleted: "Appeal not found or has been deleted."
-      updateFailed: "Failed to update appeal. Please try again later."
-
   report:
-    title: "Report Message"
-    footer: "Reports help keep InterChat safe for everyone"
-    description: "Report {user} to **Hub Staff** for hub violations or **InterChat Staff** for platform violations."
-    contextMenu: "Report Message"
     buttons:
       toStaff: "Report to Staff"
       toHub: "Report to Hub"
@@ -301,22 +137,11 @@ ui:
     status:
       resolvedBy: "Resolved by {name}"
       ignoredBy: "Ignored by {name}"
-    success:
-      title: "Report Submitted"
-      toStaff: "{tick} Your report has been sent to InterChat staff for review."
-      toHub: "{tick} Your report has been sent to hub moderators for review."
-      actionPast: "Report {action}."
-    dm:
-      resolved: "Thank you for your report. Our moderation team reviewed it and took appropriate action. We cannot share specific details to protect user privacy."
-    errors:
-      hubMessageOnly: "{x_icon} You can only report messages sent through InterChat hubs."
-      cannotReportSelf: "{x_icon} You cannot report your own messages."
-      processingFailed: "Encountered an error processing report! Please try again later."
-      notFoundOrDeleted: "Report not found or has been deleted."
-      alreadyHandled: "This report is already {status}."
-      updateFailed: "Failed to update report. Please try again later."
-
   hubConfig:
+    main:
+      placeholder: "Select an option"
+      loadingLabel: "Loading..."
+      loadingDescription: "Please wait."
     general:
       placeholder: "Choose a setting to configure..."
       editDescription:
@@ -382,12 +207,10 @@ ui:
           placeholder: "Leave me blank for infinite"
         expiry:
           label: "Expiry"
-          placeholder: "1w, 3d, 12h (Leave me blank for no expiry)"
-
+          placeholder: "1 week"
+      buttons:
+        create: "Create"
   moderation:
-    panel:
-      description: "Open the moderation panel for users, messages, or servers"
-      contextMenu: "Mod Panel"
     actionNames:
       warned: "Warned"
       muted: "Muted"
@@ -398,30 +221,6 @@ ui:
     prep:
       in: "in"
       from: "from"
-    permissions:
-      managerRequired: "Manager+ permissions required."
-    target:
-      both: "Please specify either a user or a server, not both."
-      missing: "Please specify either a user or a server."
-    revoke:
-      noActive: "No active {action} found."
-      success: "Revoked {action}."
-    delete:
-      label: "Delete"
-      description: "Delete the selected message across all connected hubs"
-      noMessage: "No message provided to delete."
-      success: "Message has been deleted from all connected hubs."
-      notInterChatMessage: "This message is not an InterChat message or has already been deleted."
-      failed: "Failed to delete the message. Please try again later."
-      notFound: "Infraction not found."
-    blacklist:
-      label: "Blacklist"
-      description: "Issue an interchat wide blacklist (user/server)"
-      permissionDenied: "You lack InterChat staff permissions to issue a global blacklist."
-      alreadyActive: "Target already has an active global blacklist."
-      success: "Globally blacklisted {target}."
-    success:
-      action: "{target} has been {action} {prep} {hubName}"
     actions:
       warn:
         label: "Warn"
@@ -434,18 +233,16 @@ ui:
         description: "Ban a user/server from the specified hub"
       unmute:
         label: "Unmute"
-        description: "Revoke active mute infractions"
+        description: "Revoke an active mute in this hub"
       unban:
         label: "Unban"
-        description: "Revoke active ban infractions"
+        description: "Revoke an active ban in this hub"
       blacklist:
         label: "Blacklist"
         description: "Issue an interchat wide blacklist (user/server)"
       delete:
         label: "Delete"
         description: "Delete the selected message across all connected hubs"
-      deleteInfraction:
-        description: "Delete an infraction (Manager+ only)"
     modal:
       title: "Moderation Action"
       reason:
@@ -465,6 +262,8 @@ ui:
     targetSelection:
       title: "Target Selection"
       description: "Who do you want to {action}?"
+      userField: "Utilisateur"
+      serverField: "Server"
     actionSelect:
       placeholder: "Select a moderation action..."
     fields:
@@ -472,20 +271,7 @@ ui:
     history:
       noHubSelected: "No hub selected."
     errors:
-      selectedHubNotFound: "Selected hub not found."
-      processingFailed: "Failed to process moderation action: {error}"
-      unknownAction: "Unknown action."
-      unsupportedAction: "Unsupported action route."
-      openPanelFailed: "Unexpected error opening mod panel. Please try again later or report to staff."
-      notModeratorForHub: "You are not a moderator for this hub."
-      alreadyState: "{targetType} is already {state} in this hub."
-      invalidHubData: "Invalid hub data."
-      originalMessageNotFound: "Original message not found in database."
-      fetchAuthorOrServerFailed: "Could not fetch message author or server."
-      hubNotFoundForMessage: "Hub not found for this message."
-      noModeratedHubs: "You don't have moderation permissions in any hubs."
-      noTarget: "Please specify a target (user/server) or reply to a message."
-
+      generic: "An error occurred while processing your request."
   profanity:
     actions:
       editActions:
@@ -500,7 +286,6 @@ ui:
       delete:
         label: "Delete Rule"
         description: "⚠️ Permanently remove this rule"
-
   welcomeMessage:
     title: "Welcome to the InterChat hub called **{hubName}**!"
     footer: "Connected to {hubName}"
@@ -522,9 +307,7 @@ ui:
     disconnectConfirm:
       title: "Disconnect from Hub?"
       description: "Are you sure you want to disconnect from **{hubName}**?"
-
   infractions:
-    description: "View infractions in a hub, filtered by user or server."
     buttons:
       userInfractions: "User Infractions"
       serverInfractions: "Server Infractions"
@@ -543,59 +326,32 @@ ui:
     labels:
       infraction: "Infraction"
     fields:
+      userName: "User Name"
+      userId: "User ID"
+      serverName: "Server Name"
+      serverId: "Server ID"
+      reason: "Reason"
       moderator: "Moderator"
       issued: "Issued"
+      status: "Status"
       evidence: "Evidence"
-
     evidence:
       content: "Content"
       author: "Author"
       notAvailable: "No evidence available"
-    errors:
-      noPermission: "You do not have permission to view infractions for this hub."
-      bothSelection: "Please select only a user or a server, not both."
-      invalidServerId: "Invalid server ID."
-    permissions:
-      insufficient: "You need {permission}+ permissions in this hub."
-      managerRequired: "Manager+ permissions required."
-    target:
-      both: "Please specify either a user or a server, not both."
-      missing: "Please specify either a user or a server."
-    success:
-      action: "{action} {target} {prep} {hubName}."
-    revoke:
-      noActive: "No active {action} found."
-      success: "Revoked {action}."
-    delete:
-      notImplemented: "Message delete not implemented yet. Reason recorded: {reason}"
-      notFound: "Infraction not found."
-      success: "Infraction deleted."
-    blacklist:
-      permissionDenied: "You lack InterChat staff permissions to issue a global blacklist."
-      alreadyActive: "Target already has an active global blacklist."
-      success: "Globally blacklisted {target}."
-
   staff:
-    get:
-      description: "Get information about InterChat entities"
-      server:
-        description: "Get detailed information about a server"
-      hub:
-        description: "Get detailed information about a hub"
-      user:
-        description: "Get detailed information about a user"
     hub:
       section:
         status: "Status"
         moderation: "Moderation"
       fields:
         name: "Name"
-        messages: "Messages"
+        messages: "Message"
         connections: "Connections"
         created: "Created"
-        lastActive: "Last Active"
+        lastActive: "Activité précédant"
         upvotes: "Upvotes"
-        owner: "Owner"
+        owner: "Propriétaire"
         location: "Location"
         activity: "Activity"
         appealCooldown: "Appeal Cooldown"
@@ -615,9 +371,12 @@ ui:
     server:
       fields:
         name: "Name"
+        serverId: "Server ID"
         inviteCode: "Invite Code"
-        messages: "Messages"
+        messages: "Message"
         connections: "Connections"
+        status: "Status"
+        created: "Created"
         lastMessage: "Last Message"
         updated: "Updated"
       values:
@@ -628,15 +387,17 @@ ui:
     user:
       fields:
         name: "Name"
-        messages: "Messages"
+        userId: "User ID"
+        status: "Status"
+        messages: "Message"
         reputation: "Reputation"
         votes: "Votes"
         hubJoins: "Hub Joins"
         engagement: "Engagement"
         locale: "Locale"
+        created: "Created"
         lastMessage: "Last Message"
         lastVote: "Last Vote"
-
       values:
         staff: "Staff"
         member: "Member"
@@ -683,23 +444,18 @@ ui:
         serverList: "Server Blacklist"
       descriptions:
         list: "Total blacklist entries"
-        command: "View blacklist entries filtered by users or servers"
         noEntriesPage: "No entries on this page."
         userListEmpty: "No blacklisted users found."
         serverListEmpty: "No blacklisted servers found."
       fields:
-        user: "User"
+        user: "Utilisateur"
         server: "Server"
         expires: "Expires"
         staff: "Staff"
         added: "Added"
       labels:
-        user: "User"
+        user: "Utilisateur"
         server: "Server"
-      # Merged from responses.staff.blacklist
-      notFound: "No matching blacklist entry was found."
-      removed: "Blacklist entry removed."
-
   hub:
     lock:
       successTitle: "Hub Locked"
@@ -711,33 +467,9 @@ ui:
       successDescription: "Successfully unlocked **{hub}**. New members can now join."
       announceTitle: "Hub Unlocked"
       announceDescription: "This hub has been unlocked by a moderator.\nYou can now send messages."
-    events:
-      serverJoined:
-        title: "🎉 New Server Joined!"
-        description: "**{serverName}** has joined the hub! Let's give them a warm welcome to our community."
-        footer: "Welcome to {hubName}!"
     create:
       title: "Create Your Hub"
       description: "Create your own InterChat hub for a community, your friends... or anyone - the list could go on for ages. Go ahead, see where it takes you."
-    nextSteps:
-      created:
-        title: "Hub Created Successfully!"
-        description: |
-          Your hub **{hubName}** is ready! Here's what you can do next:
-          - Invite your first server using `/invite`
-          - Set rules with `/rules set`
-          - Customize settings in the [dashboard](https://interchat.dev/dashboard)
-          - Connect channels with `/connection add <hub-name>`
-      inviteLink:
-        title: "Next: Create Invite Links"
-        description: "Use {hubInviteCommand} to generate invite codes for **{hubName}** and share them with other server owners."
-      shareHub:
-        title: "Share Your Hub"
-        description: "{dot} Post about your new hub in our [Support Server]({supportInvite})\n{dot} Share with friends and communities\n{dot} Use social media to spread the word"
-      proTips:
-        title: "{dot} Pro Tips"
-        description: "{dot} Visit the [Dashboard]({website}) for advanced settings\n{dot} Use {hubVisibilityCommand} to make your hub public\n{dot} Join our [Support Server]({supportInvite}) for help and updates"
-
     wizard:
       start: "Start Creating Your Hub"
       name:
@@ -830,7 +562,7 @@ ui:
       completion:
         loading: "Creating Your Hub..."
         loadingDescription: "Please wait while we set everything up..."
-        success: "Hub Created Successfully!"
+        success: "Hubs crée avec succès!"
         successDescription: "{hubName} is now live! 🎉"
         dashboardLink: "Manage your hub"
         publicPageLink: "View on directory"
@@ -839,7 +571,7 @@ ui:
           **For Private Hubs: Create an Invite**: `/hub invites hub:{hubName}`
           *Invite servers to join your hub*
 
-          **For Public Hubs: Share Your Hub**: Check out your hub's [public page](https://interchat.dev/hubs/{hubId}) and use the link to join!
+          **For Public Hubs: Share Your  Hub**: Check out your hub's [public page](https://interchat.dev/hubs/{hubId}) and use the link to join!
           *Share your hub with others or join it from here!*
         step2: "**Advanced Settings**: `/hub configure {hubName}`\n   - Profanity filters (custom anti-swear rules)\n   - Hub team management\n   - Advanced logging options\n   - Hub announcements"
         step3: "**Need Help?**: [Join our support server]({supportInvite})"
@@ -847,13 +579,8 @@ ui:
         description: "Your hub was not created. You can start over anytime with `/hub create`."
       errors:
         cantUseWizard: "You can't use this wizard."
-        invalidInput: "Invalid Input"
-        nameConstraint: "Uh oh! Your hub name must be composed of letters, numbers, spaces and underscores."
-        descConstraint: "The hub's short description must be between 10 and 100 characters."
-        uniqueConstraint: "Uh oh! That hub name has already been taken. You must choose another."
-        processingError: "Something went wrong while creating your hub. Please try again."
-        troubleshooting: "What you can do: • Check logo URL • Try again • Contact support"
-
+    title: "Hub Creation"
+    description: "Create your own InterChat hub for a community, your friends... or anyone - the list could go on for ages. Go ahead, see where it takes you."
     delete:
       description: "Your hub has been deleted."
     connect:
@@ -879,6 +606,44 @@ ui:
       description: |
         Create a **one time** announcement that sends in all connected channels.
         -# To create **recurring** announcements please visit the hub configuration menu.
+    creation:
+      title: "Let's set up your hub!"
+      description: "Hubs link multiple servers together using webhooks. They're great for cross-server communities."
+      clickToBegin: "Click {emoji} Create to begin."
+      modal:
+        title: "Hub Information"
+        hubName: "Hub name"
+        shortLabel: "Short description"
+      errors:
+        invalidInput: "Invalid Input"
+        name: "Uh oh! Your hub name must be composed of letters, numbers, spaces and underscores. We do not allow any other characters."
+        shortDescription: "The hub's short description must be between 10 and 100 characters."
+        unhandled: "Whoops! Something went wrong while attempting to create your hub. Please try again, and if the issue persists contact our (support team)[supportServer]."
+        unique: "Uh oh! That hub name has already been taken. You must choose another."
+      visibility:
+        title: "Hub Visibility"
+        description: "Should your hub **public**? This means it will be accessible to **everyone** and show on the [discovery page]({discoverHubs})."
+        buttons:
+          public: "Public"
+          private: "Private"
+      preview:
+        title: "Complete!"
+        description: "You have complete the hub setup! Review your choices below to contiune."
+        footer: "You may edit more fields later, after creation."
+        fields:
+          title: "Information"
+          value: |
+            > {nemoji} **Name:** {hubName}
+            > {sdemoji} **Short description:** {shortDescription}
+            > {vemoji} **Visibility:** {visibility}
+            > {ldemoji} **Long description:** None - Set this in the [dashboard]({dashboard}) later!
+      complete:
+        title: "Created!"
+        description: "Your hub is now ready - get chatting! Looking for more customisation? Head over to the [dashboard]({dashboard}) and configure your hub's settings."
+        private: "**Invite Users!** As your hub is private you must generate user invites. Create one with `/hub invites`!"
+        public: "**Your creation!** As your hub is public, you may view it on the explorer - [check it out]({public})!"
+      other:
+        cancelled: "Setup cancelled. We hope to see you back here again soon."
     config:
       title: "Hub Configuration"
       description: "Customize your InterChat hub for your community. Pick what you'd like to configure below."
@@ -916,99 +681,69 @@ ui:
         searchFilter:
           label: "Filter"
           placeholder: "InterChat Central"
-
-  rules:
-    title: "Hub Rules Management"
-    displayTitle: "{hubName} Rules"
-    description: "Manage your hub's community rules and guidelines below."
-    footer: "{count} rule{plural} • Follow these guidelines to maintain a positive community"
-    noRules: "No rules have been set for this hub yet."
-    selectRule:
-      placeholder: "Select a rule to edit or delete..."
-    addRule:
-      label: "Add Rule"
-      modal:
-        title: "Add New Rule"
-        placeholder: "Enter your new rule here..."
-    editRule:
-      label: "Edit Rule"
-      modal:
-        title: "Edit Rule"
-        placeholder: "Enter your updated rule here..."
-    deleteRule:
-      label: "Delete Rule"
-      confirmation: "Are you sure you want to delete this rule?"
-    moveUp:
-      label: "Move Up"
-    moveDown:
-      label: "Move Down"
-    viewAll:
-      label: "View All Rules"
-    validation:
-      empty: "Rule cannot be empty."
-      tooLong: "Rule must be {maxLength} characters or less."
-      maxRules: "Maximum of {maxRules} rules allowed."
-    success:
-      added: "Rule added successfully!"
-      updated: "Rule updated successfully!"
-      deleted: "Rule deleted successfully!"
-      moved: "Rule moved successfully!"
-    errors:
-      maxRulesReached: "Max Rules Reached ({maxRules})"
-      noRulesAvailable: "No rules available to select"
-      sessionExpired: "Session Expired"
-      sessionExpiredDescription: "This configuration session has expired. Please run the command again to continue managing rules."
-      actionCancelled: "Action Cancelled"
-      actionCancelledDescription: "Rule action has been cancelled. No changes were made."
-      ruleNotFound: "Invalid rule selection. The rule may have been deleted by another user."
-      invalidRuleSelection: "Invalid rule selection. Please try again."
-      processingError: "An error occurred while processing your request. Please try again."
-      refreshError: "An error occurred while refreshing. Please try again."
-      navigationError: "An error occurred while navigating. Please try again."
-      selectionError: "An error occurred while selecting the rule. Please try again."
-      deletionCancelled: "Cancelled"
-      deletionCancelledDescription: "Rule deletion has been cancelled. No changes were made."
-      noHub: "This command must be used in a server channel connected to a hub, or you must specify a hub name."
-      notConnected: "This channel is not connected to any hub."
-    warnings:
-      deleteWarning: "Warning"
-      deleteWarningDescription: "This action cannot be undone. The rule will be permanently removed from your hub."
-    display:
-      noRulesTitle: "No Rules Set"
-      noRulesDescription: 'No rules have been set for this hub yet. Use the "Add Rule" button below to create your first rule.'
-      currentRulesTitle: "Current Rules ({current}/{max})"
-      ruleSelected: "Rule {number} Selected"
-      currentRule: "Current Rule:"
-
+    rules:
+      title: "Hub Rules Management"
+      description: "Manage your hub's community rules and guidelines below."
+      noRules: "Aucune règle n'a encore été définie pour le hub."
+      selectRule:
+        placeholder: "Select a rule to edit or delete..."
+      addRule:
+        label: "Add Rule"
+        modal:
+          title: "Add New Rule"
+          placeholder: "Enter your new rule here..."
+      editRule:
+        label: "Edit Rule"
+        modal:
+          title: "Edit Rule"
+          placeholder: "Enter your updated rule here..."
+      deleteRule:
+        label: "Delete Rule"
+        confirmation: "Are you sure you want to delete this rule?"
+      moveUp:
+        label: "Move Up"
+      moveDown:
+        label: "Move Down"
+      viewAll:
+        label: "View All Rules"
+      validation:
+        empty: "Rule cannot be empty."
+        tooLong: "Rule must be {maxLength} characters or less."
+        maxRules: "Maximum of {maxRules} rules allowed."
+      success:
+        added: "Rule added successfully!"
+        updated: "Rule updated successfully!"
+        deleted: "Rule deleted successfully!"
+        moved: "Rule moved successfully!"
+      errors:
+        maxRulesReached: "Max Rules Reached ({maxRules})"
+        noRulesAvailable: "No rules available to select"
+        sessionExpired: "Session Expired"
+        sessionExpiredDescription: "This configuration session has expired. Please run the command again to continue managing rules."
+        actionCancelled: "Action Cancelled"
+        actionCancelledDescription: "Rule action has been cancelled. No changes were made."
+        ruleNotFound: "Invalid rule selection. The rule may have been deleted by another user."
+        invalidRuleSelection: "Invalid rule selection. Please try again."
+        processingError: "An error occurred while processing your request. Please try again."
+        refreshError: "An error occurred while refreshing. Please try again."
+        navigationError: "An error occurred while navigating. Please try again."
+        selectionError: "An error occurred while selecting the rule. Please try again."
+        deletionCancelled: "Cancelled"
+        deletionCancelledDescription: "Rule deletion has been cancelled. No changes were made."
+      warnings:
+        deleteWarning: "Warning"
+        deleteWarningDescription: "This action cannot be undone. The rule will be permanently removed from your hub."
+      display:
+        noRulesTitle: "Aucune règle établie"
+        noRulesDescription: 'No rules have been set for this hub yet. Use the "Add Rule" button below to create your first rule.'
+        currentRulesTitle: "Current Rules ({current}/{max})"
+        ruleSelected: "Rule {number} Selected"
+        currentRule: "Current Rule:"
   connection:
-    title: "Connection Management"
-    description: "Configure, and administrate all hub connections within this server."
     fixAll:
       label: "Fix All Connections"
     manage:
       placeholder: "Select a connection to manage"
-    selected:
-      description: "You may now edit this connection. Use the below dropdowns to either change the broadcast channel, or edit settings regarding the connection."
-      fields:
-        broadcastChannel: "Broadcasting to"
-        connectionState: "Broadcast state"
-        lastActive: "Last Active"
-      state:
-        enabled: "Broadcasts are now **active**."
-        disabled: "Broadcasts are now **paused**."
-    fix:
-      title: "Connection Validation"
-      description: "All connections within this guild have been validated. See below for more information."
-      responses:
-        success:
-          fixed: "Fixed connection!"
-          valid: "No issues found."
-        errors:
-          channelDeleted: "The channel associated with this hub has been deleted. Connection removed."
-          permissionsWebhook: "I am unable to webhooks, please review my permissions and try again."
-          permissionsView: "I am unable to view channel, please review my permissions and try again."
-          permissionsSend: "I am unable to send messages, please review my permissions and try again."
-
   messageInfo:
     tabs:
       message:
@@ -1016,7 +751,7 @@ ui:
         button: "Message"
       user:
         title: "User Information"
-        button: "User"
+        button: "Utilisateur"
       server:
         title: "Server Information"
         button: "Server"
@@ -1043,37 +778,3 @@ ui:
       server: "Unknown Server"
     noBadges: "No badges to display"
     noConnection: "No connection information available"
-
-  leaderboard:
-    staffTag: "InterChat Staff"
-    userTag: "User"
-    messagesColumn: "Messages"
-    voteCountColumn: "Vote Count"
-
-  profile:
-    achievements:
-      noneFound: "None Found"
-      noneFoundDescription: "I could not find any achievements for this user!"
-      placeholder: "Achievements here"
-    badges:
-      noneFound: "None Found"
-      noneFoundDescription: "I could not find any badges for this user!"
-
-  my:
-    hubs:
-      title: "Your Hubs"
-      description: "Here are the hubs you own or moderate:"
-      position: "Position:"
-      owner: "Owner"
-
-  stats:
-    title: "InterChat Metrics"
-    shard:
-      title: "Shard Information"
-      statusReady: "Ready"
-      statusProvisioning: "Provisioning..."
-      current: "Current Shard: #{id}"
-
-  invite:
-    title: "Hey!"
-    description: "Thanks for choosing InterChat. Need help? Join our support server. Use the buttons below to invite our bot to your server and start connecting servers."
