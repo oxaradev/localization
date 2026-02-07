@@ -1,3 +1,3 @@
 files:
-  - source: "/*.yml"
-    translation: "/%two_letters_code%"
+  - source: "en.yml"
+    translation: "/%two_letters_code%.yml"
