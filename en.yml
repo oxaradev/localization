@@ -762,6 +762,7 @@ hub:
         addLogoButton: "Add Logo"
         invalidUrl: "Invalid image URL. Using default bot avatar instead."
       step3:
+        title: Hub Visibility
         description: |
           Choose your hub's visibility:
 
