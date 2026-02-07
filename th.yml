@@ -1,1076 +1,1075 @@
-ui:
-  common:
-    titles:
-      error: "เกิดข้อผิดพลาด!"
-      success: "สำเร็จ!"
-      cancelled: "ยกเลิกแล้ว!"
-      warning: "คำเตือน!"
-      info: "ข้อมูล"
-    labels:
-      date: "วันที่"
-      loading: "กำลังโหลด..."
-      pleaseWait: "โปรดรอสักครู่..."
-      optional: "{optional}"
-      lastActive: "ใช้งานล่าสุด"
-      unknown: "ไม่ทราบ"
-    buttons:
-      back: "ย้อนกลับ"
-      next: "ถัดไป"
-      previous: "ก่อนหน้า"
-      cancel: "ยกเลิก"
-      confirm: "ยืนยัน"
-      create: "สร้าง"
-      return: "กลับ"
-      refresh: "รีเฟรช"
-      delete: "ลบ"
-      save: "บันทึก"
-      vote: "โหวตบน top.gg"
-      invite: "เชิญ InterChat"
-      dashboard: "เปิดแดชบอร์ด"
-      support: "เข้าร่วม Support"
-    placeholders:
-      select: "เลือกตัวเลือก"
-      type: "พิมพ์ที่นี่..."
-    visibility:
-      public: "สาธารณะ"
-      private: "ส่วนตัว"
-      unlisted: "ไม่แสดงในรายการ"
-    entities:
-      user: "ผู้ใช้"
-      server: "เซิร์ฟเวอร์"
-      hub: "Hub"
-      message: "ข้อความ"
-    messages:
-      notImplemented: "ยังไม่เปิดใช้งาน"
-      hubNotFound: "ไม่พบ Hub โปรดลองใหม่ภายหลัง"
-      serverNotFound: "ไม่พบเซิร์ฟเวอร์"
-      userNotFound: "ไม่พบผู้ใช้"
-      notSpecified: "ไม่ได้ระบุ"
-      interfacePermission: "คุณไม่สามารถใช้อินเทอร์เฟซนี้ได้"
-      hubUpdateFailed: "การอัปเดตการตั้งค่า Hub ล้มเหลว"
-      hubConfigDescription: "ปรับแต่ง InterChat Hub สำหรับชุมชนของคุณ เลือกสิ่งที่คุณต้องการตั้งค่าด้านล่าง"
-    pagination:
-      previous: "ก่อนหน้า"
-      page: "หน้า {current}/{total}"
-    fields:
-      id: "ID {type}"
-      name: "ชื่อ {type}"
-      reason: "เหตุผล"
-      created: "สร้างเมื่อ"
-      status: "สถานะ"
-    errors:
-      notYourMenu: "นี่ไม่ใช่เมนูของคุณ"
-      cannotControlPagination: "คุณไม่สามารถควบคุมการเปลี่ยนหน้านี้ได้"
-      notFound: "ไม่พบข้อมูล"
-      invalidFilter: "ตัวกรองไม่ถูกต้อง"
-      generic: "เกิดข้อผิดพลาดขณะดำเนินการตามคำขอของคุณ"
-      contactSupport: "โปรดติดต่อ [ทีมสนับสนุน]({supportServer}) หากปัญหายังคงอยู่"
-      invalidSelection: "การเลือกไม่ถูกต้อง"
-      nothingSelected: "ไม่มีอะไรถูกเลือก"
-      interactionCheck: "คุณไม่สามารถใช้การโต้ตอบนี้ได้ เนื่องจากคุณไม่ใช่ผู้เรียกใช้งาน"
-      rateLimited: "คุณถูกจำกัดความถี่ ใจเย็นๆ ก่อนนะ"
-      webhookRateLimit: "คุณถึงขีดจำกัดการสร้าง Webhook แล้ว"
-      invalidInput: "คุณระบุข้อมูลไม่ถูกต้อง"
-      invalidInvite: "คำเชิญนี้ไม่ถูกต้องหรือหมดอายุแล้ว"
-      webhookError: "สร้าง Webhook ล้มเหลว"
-      notConnected: "ฉันไม่พบ Hub ที่เชื่อมต่อในช่องนี้"
-      notConnectedServer: "{cross} ฉันไม่พบการเชื่อมต่อใดๆ สำหรับเซิร์ฟเวอร์นี้"
-      noInteraction: "คำสั่งนี้รองรับเฉพาะ Slash Commands เท่านั้น"
-      missingAppealReference: "ไม่พบข้อมูลอ้างอิงสำหรับการอุทธรณ์"
-      missingArgument: "อาร์กิวเมนต์หายไป: `{param}`"
-      notAuthorized: "คุณไม่สามารถใช้ปุ่มนี้ได้"
-      accessDenied: "การเข้าถึงถูกปฏิเสธ"
+common:
+  titles:
+    error: "เกิดข้อผิดพลาด!"
+    success: "สำเร็จ!"
+    cancelled: "ยกเลิกแล้ว!"
+    warning: "คำเตือน!"
+    info: "ข้อมูล"
+  labels:
+    date: "วันที่"
+    loading: "กำลังโหลด..."
+    pleaseWait: "โปรดรอสักครู่..."
+    optional: "{optional}"
+    lastActive: "ใช้งานล่าสุด"
+    unknown: "ไม่ทราบ"
+  buttons:
+    back: "ย้อนกลับ"
+    next: "ถัดไป"
+    previous: "ก่อนหน้า"
+    cancel: "ยกเลิก"
+    confirm: "ยืนยัน"
+    create: "สร้าง"
+    return: "กลับ"
+    refresh: "รีเฟรช"
+    delete: "ลบ"
+    save: "บันทึก"
+    vote: "โหวตบน top.gg"
+    invite: "เชิญ InterChat"
+    dashboard: "เปิดแดชบอร์ด"
+    support: "เข้าร่วม Support"
+  placeholders:
+    select: "เลือกตัวเลือก"
+    type: "พิมพ์ที่นี่..."
+  visibility:
+    public: "สาธารณะ"
+    private: "ส่วนตัว"
+    unlisted: "ไม่แสดงในรายการ"
+  entities:
+    user: "ผู้ใช้"
+    server: "เซิร์ฟเวอร์"
+    hub: "Hub"
+    message: "ข้อความ"
+  messages:
+    notImplemented: "ยังไม่เปิดใช้งาน"
+    hubNotFound: "ไม่พบ Hub โปรดลองใหม่ภายหลัง"
+    serverNotFound: "ไม่พบเซิร์ฟเวอร์"
+    userNotFound: "ไม่พบผู้ใช้"
+    notSpecified: "ไม่ได้ระบุ"
+    interfacePermission: "คุณไม่สามารถใช้อินเทอร์เฟซนี้ได้"
+    hubUpdateFailed: "การอัปเดตการตั้งค่า Hub ล้มเหลว"
+    hubConfigDescription: "ปรับแต่ง InterChat Hub สำหรับชุมชนของคุณ เลือกสิ่งที่คุณต้องการตั้งค่าด้านล่าง"
+  pagination:
+    previous: "ก่อนหน้า"
+    page: "หน้า {current}/{total}"
+  fields:
+    id: "ID {type}"
+    name: "ชื่อ {type}"
+    reason: "เหตุผล"
+    created: "สร้างเมื่อ"
+    status: "สถานะ"
+  errors:
+    notYourMenu: "นี่ไม่ใช่เมนูของคุณ"
+    cannotControlPagination: "คุณไม่สามารถควบคุมการเปลี่ยนหน้านี้ได้"
+    notFound: "ไม่พบข้อมูล"
+    invalidFilter: "ตัวกรองไม่ถูกต้อง"
+    generic: "เกิดข้อผิดพลาดขณะดำเนินการตามคำขอของคุณ"
+    contactSupport: "โปรดติดต่อ [ทีมสนับสนุน]({supportServer}) หากปัญหายังคงอยู่"
+    invalidSelection: "การเลือกไม่ถูกต้อง"
+    nothingSelected: "ไม่มีอะไรถูกเลือก"
+    interactionCheck: "คุณไม่สามารถใช้การโต้ตอบนี้ได้ เนื่องจากคุณไม่ใช่ผู้เรียกใช้งาน"
+    rateLimited: "คุณถูกจำกัดความถี่ ใจเย็นๆ ก่อนนะ"
+    webhookRateLimit: "คุณถึงขีดจำกัดการสร้าง Webhook แล้ว"
+    invalidInput: "คุณระบุข้อมูลไม่ถูกต้อง"
+    invalidInvite: "คำเชิญนี้ไม่ถูกต้องหรือหมดอายุแล้ว"
+    webhookError: "สร้าง Webhook ล้มเหลว"
+    notConnected: "ฉันไม่พบ Hub ที่เชื่อมต่อในช่องนี้"
+    notConnectedServer: "{cross} ฉันไม่พบการเชื่อมต่อใดๆ สำหรับเซิร์ฟเวอร์นี้"
+    noInteraction: "คำสั่งนี้รองรับเฉพาะ Slash Commands เท่านั้น"
+    missingAppealReference: "ไม่พบข้อมูลอ้างอิงสำหรับการอุทธรณ์"
+    missingArgument: "อาร์กิวเมนต์หายไป: `{param}`"
+    notAuthorized: "คุณไม่สามารถใช้ปุ่มนี้ได้"
+    accessDenied: "การเข้าถึงถูกปฏิเสธ"
 
-  about:
-    title: "เกี่ยวกับ InterChat"
-    description: "InterChat เชื่อมต่อชุมชน Discord ผ่านการสนทนาข้ามเซิร์ฟเวอร์ที่ใช้งานอยู่จริง ข้อความจะไหลเวียนระหว่างเซิร์ฟเวอร์อย่างเป็นธรรมชาติแบบเรียลไทม์ ช่วยให้คุณสร้างชุมชนที่เน้นหัวข้อสนทนาได้อย่างมีส่วนร่วม"
-    supportText: "ต้องการความช่วยเหลือ? เข้าร่วมเซิร์ฟเวอร์สนับสนุนของเราเพื่อรับความช่วยเหลือ!"
-    features:
-      title: "ฟีเจอร์"
-      list: |
-        - เชื่อมต่อกับเซิร์ฟเวอร์อื่นๆ เพื่อการสนทนาข้ามเซิร์ฟเวอร์ที่คึกคัก
-        - ข้อความไหลเวียนระหว่างเซิร์ฟเวอร์อย่างเป็นธรรมชาติแบบเรียลไทม์
-        - สร้างชุมชนที่เน้นหัวข้อสนทนาและมีส่วนร่วมสูง
-        - เครื่องมือ Moderation เพื่อรักษาบรรยากาศการสนทนาที่ดี
-        - แดชบอร์ดแบบภาพเพื่อจัดการ Hubs, เซิร์ฟเวอร์ และการตั้งค่าของคุณ
-    buttons:
-      vote: "โหวตบน top.gg"
-      invite: "เชิญ InterChat"
-      dashboard: "เปิดแดชบอร์ด"
-      support: "เข้าร่วม Support"
-      shardInfo: "ข้อมูล Shard"
+about:
+  title: "เกี่ยวกับ InterChat"
+  description: "InterChat เชื่อมต่อชุมชน Discord ผ่านการสนทนาข้ามเซิร์ฟเวอร์ที่ใช้งานอยู่จริง ข้อความจะไหลเวียนระหว่างเซิร์ฟเวอร์อย่างเป็นธรรมชาติแบบเรียลไทม์ ช่วยให้คุณสร้างชุมชนที่เน้นหัวข้อสนทนาได้อย่างมีส่วนร่วม"
+  supportText: "ต้องการความช่วยเหลือ? เข้าร่วมเซิร์ฟเวอร์สนับสนุนของเราเพื่อรับความช่วยเหลือ!"
+  features:
+    title: "ฟีเจอร์"
+    list: |
+      - เชื่อมต่อกับเซิร์ฟเวอร์อื่นๆ เพื่อการสนทนาข้ามเซิร์ฟเวอร์ที่คึกคัก
+      - ข้อความไหลเวียนระหว่างเซิร์ฟเวอร์อย่างเป็นธรรมชาติแบบเรียลไทม์
+      - สร้างชุมชนที่เน้นหัวข้อสนทนาและมีส่วนร่วมสูง
+      - เครื่องมือ Moderation เพื่อรักษาบรรยากาศการสนทนาที่ดี
+      - แดชบอร์ดแบบภาพเพื่อจัดการ Hubs, เซิร์ฟเวอร์ และการตั้งค่าของคุณ
+  buttons:
+    vote: "โหวตบน top.gg"
+    invite: "เชิญ InterChat"
+    dashboard: "เปิดแดชบอร์ด"
+    support: "เข้าร่วม Support"
+    shardInfo: "ข้อมูล Shard"
 
-  botLanding:
-    title: "👋 สวัสดีครับ!"
-    description: |
-      **ฉันคือ InterChat และฉันยินดีที่ได้มาอยู่ที่เซิร์ฟเวอร์ของคุณในนามของทีมงานของเรา**
-      เราจะช่วยเชื่อมต่อเซิร์ฟเวอร์ของคุณกับชุมชนที่น่าทึ่งอื่นๆ จากทั่วทั้ง Discord ร่วมกัน มีเซิร์ฟเวอร์มากมาย อาจถึงหลักพัน ที่รวมอยู่ในที่เดียว เต็มไปด้วยผู้คนที่กระตือรือร้นที่จะพูดคุยกับคุณ 🚀
+botLanding:
+  title: "👋 สวัสดีครับ!"
+  description: |
+    **ฉันคือ InterChat และฉันยินดีที่ได้มาอยู่ที่เซิร์ฟเวอร์ของคุณในนามของทีมงานของเรา**
+    เราจะช่วยเชื่อมต่อเซิร์ฟเวอร์ของคุณกับชุมชนที่น่าทึ่งอื่นๆ จากทั่วทั้ง Discord ร่วมกัน มีเซิร์ฟเวอร์มากมาย อาจถึงหลักพัน ที่รวมอยู่ในที่เดียว เต็มไปด้วยผู้คนที่กระตือรือร้นที่จะพูดคุยกับคุณ 🚀
 
-      **พร้อมที่จะเริ่มสร้างสะพานใหม่กับเราหรือยัง?**
-      {dot} **เพิ่งเคยมาใช่ไหม?** คำสั่ง `/setup` มีคำแนะนำทีละขั้นตอนเพื่อช่วยให้คุณเริ่มต้นการเดินทาง
-      {dot} **พร้อมที่จะสำรวจ?** เยี่ยมชม [หน้าสำรวจ](https://interchat.dev/hubs) เพื่อค้นหาและเป็นส่วนหนึ่งของ Hubs ที่มีชีวิตชีวาของเรา
+    **พร้อมที่จะเริ่มสร้างสะพานใหม่กับเราหรือยัง?**
+    {dot} **เพิ่งเคยมาใช่ไหม?** คำสั่ง `/setup` มีคำแนะนำทีละขั้นตอนเพื่อช่วยให้คุณเริ่มต้นการเดินทาง
+    {dot} **พร้อมที่จะสำรวจ?** เยี่ยมชม [หน้าสำรวจ](https://interchat.dev/hubs) เพื่อค้นหาและเป็นส่วนหนึ่งของ Hubs ที่มีชีวิตชีวาของเรา
 
-      💝 **หลงทาง? ต้องการความช่วยเหลือ?** เราขอเชิญคุณเข้าร่วม [ชุมชนสนับสนุน](https://discord.gg/8DhUA4HNpD) ทีมงานและชุมชนของเรายินดีที่จะให้ความช่วยเหลือ เราพร้อมสนับสนุนในทุกปัญหาที่คุณอาจพบ อย่าลังเลที่จะเข้าร่วม!
+    💝 **หลงทาง? ต้องการความช่วยเหลือ?** เราขอเชิญคุณเข้าร่วม [ชุมชนสนับสนุน](https://discord.gg/8DhUA4HNpD) ทีมงานและชุมชนของเรายินดีที่จะให้ความช่วยเหลือ เราพร้อมสนับสนุนในทุกปัญหาที่คุณอาจพบ อย่าลังเลที่จะเข้าร่วม!
 
-  setup:
-    embed:
-      description: "ใช้ Modal เพื่อกรอกรายละเอียด Hub ของคุณ"
-    welcome:
-      title: "ยินดีต้อนรับสู่การตั้งค่า InterChat"
-      description: "มาเชื่อมต่อเซิร์ฟเวอร์ของคุณกันเถอะ วิซาร์ดนี้จะแนะนำคุณเกี่ยวกับการสร้างหรือเข้าร่วม Hub"
-    editMessagePrompt: "{emoji} โปรดใช้ Modal เพื่อแก้ไขข้อความของคุณ"
-    select:
-      placeholder: "เลือกภาษา"
-      chooseOption: "เลือกตัวเลือกเพื่อเริ่มต้น..."
-    options:
-      create:
-        label: "สร้าง Hub"
-        description: "เริ่มชุมชน InterChat ของคุณเอง"
-      join:
-        label: "เข้าร่วม Hub"
-        description: "เชื่อมต่อกับชุมชนที่มีอยู่แล้ว"
-      titleSaved: "{emoji} บันทึกข้อมูล Hub แล้ว!"
-      previewTitle: "นี่คือตัวอย่าง Hub ของคุณ:"
-      name: "{emoji} ชื่อ"
-      short: "{emoji} ชื่อย่อ"
-      description: "{emoji} คำอธิบาย"
-    locale:
-      successDescription: "{tick} ภาษาของคุณถูกตั้งค่าเป็น **{locale_name}**"
-    loading:
-      creatingHub: "{loading} กำลังสร้าง Hub ของคุณ..."
-      pleaseWait: "โปรดรอสักครู่ขณะที่เราตั้งค่าพื้นที่ชุมชนของคุณ"
+setup:
+  embed:
+    description: "ใช้ Modal เพื่อกรอกรายละเอียด Hub ของคุณ"
+  welcome:
+    title: "ยินดีต้อนรับสู่การตั้งค่า InterChat"
+    description: "มาเชื่อมต่อเซิร์ฟเวอร์ของคุณกันเถอะ วิซาร์ดนี้จะแนะนำคุณเกี่ยวกับการสร้างหรือเข้าร่วม Hub"
+  editMessagePrompt: "{emoji} โปรดใช้ Modal เพื่อแก้ไขข้อความของคุณ"
+  select:
+    placeholder: "เลือกภาษา"
+    chooseOption: "เลือกตัวเลือกเพื่อเริ่มต้น..."
+  options:
     create:
-      footer:
-        getStarted: "คลิก 'กรอกข้อมูล Hub' ด้านล่างเพื่อเริ่มต้น!"
-      whatYoullCreate:
-        title: "สิ่งที่คุณจะสร้าง:"
-        description: "{dot} พื้นที่ชุมชนที่ไม่เหมือนใครสำหรับเซิร์ฟเวอร์ของคุณ\n{dot} ควบคุมกฎและการดูแลความเรียบร้อยได้เต็มที่\n{dot} การตั้งค่าและฟีเจอร์ที่กำหนดเอง\n{dot} เป็นส่วนตัวโดยค่าเริ่มต้น - เข้าร่วมได้โดยการเชิญเท่านั้น"
-      youllNeed:
-        title: "สิ่งที่คุณต้องเตรียม:"
-        description: "{arrow_right} ชื่อ Hub ที่สร้างสรรค์\n{arrow_right} คำอธิบายโดยย่อ\n{arrow_right} คำอธิบายโดยละเอียด\n{arrow_right} URL รูปภาพโลโก้"
+      label: "สร้าง Hub"
+      description: "เริ่มชุมชน InterChat ของคุณเอง"
     join:
-      title: "เข้าร่วม Hub"
-      description: "ใช้ไดเรกทอรีสาธารณะหรือเชื่อมต่อด้วยรหัสเชิญ"
-      publicHubs:
-        title: "Hub สาธารณะ"
-        description: "**ค้นหา** [interchat.dev/hubs](https://interchat.dev/hubs)\n**หรือคลิก** ปุ่มด้านล่างเพื่อเปิดไดเรกทอรี"
-      privateHubs:
-        title: "ส่วนตัว หรือ ต้องได้รับเชิญ"
-        description: "**ขอรหัสเชิญ** จากเจ้าของ Hub หรือผู้จัดการ\n**พิมพ์คำสั่ง `/connect <invite-code>`** ในเซิร์ฟเวอร์ของคุณเพื่อเข้าร่วม"
-      footer: "คุณสามารถเข้าร่วม Hub เพิ่มเติมได้ตลอดเวลา และสามารถเชื่อมต่อกับหลาย Hub พร้อมกันได้ในช่องทางต่างๆ"
+      label: "เข้าร่วม Hub"
+      description: "เชื่อมต่อกับชุมชนที่มีอยู่แล้ว"
+    titleSaved: "{emoji} บันทึกข้อมูล Hub แล้ว!"
+    previewTitle: "นี่คือตัวอย่าง Hub ของคุณ:"
+    name: "{emoji} ชื่อ"
+    short: "{emoji} ชื่อย่อ"
+    description: "{emoji} คำอธิบาย"
+  locale:
+    successDescription: "{tick} ภาษาของคุณถูกตั้งค่าเป็น **{locale_name}**"
+  loading:
+    creatingHub: "{loading} กำลังสร้าง Hub ของคุณ..."
+    pleaseWait: "โปรดรอสักครู่ขณะที่เราตั้งค่าพื้นที่ชุมชนของคุณ"
+  create:
+    footer:
+      getStarted: "คลิก 'กรอกข้อมูล Hub' ด้านล่างเพื่อเริ่มต้น!"
+    whatYoullCreate:
+      title: "สิ่งที่คุณจะสร้าง:"
+      description: "{dot} พื้นที่ชุมชนที่ไม่เหมือนใครสำหรับเซิร์ฟเวอร์ของคุณ\n{dot} ควบคุมกฎและการดูแลความเรียบร้อยได้เต็มที่\n{dot} การตั้งค่าและฟีเจอร์ที่กำหนดเอง\n{dot} เป็นส่วนตัวโดยค่าเริ่มต้น - เข้าร่วมได้โดยการเชิญเท่านั้น"
+    youllNeed:
+      title: "สิ่งที่คุณต้องเตรียม:"
+      description: "{arrow_right} ชื่อ Hub ที่สร้างสรรค์\n{arrow_right} คำอธิบายโดยย่อ\n{arrow_right} คำอธิบายโดยละเอียด\n{arrow_right} URL รูปภาพโลโก้"
+  join:
+    title: "เข้าร่วม Hub"
+    description: "ใช้ไดเรกทอรีสาธารณะหรือเชื่อมต่อด้วยรหัสเชิญ"
+    publicHubs:
+      title: "Hub สาธารณะ"
+      description: "**ค้นหา** [interchat.dev/hubs](https://interchat.dev/hubs)\n**หรือคลิก** ปุ่มด้านล่างเพื่อเปิดไดเรกทอรี"
+    privateHubs:
+      title: "ส่วนตัว หรือ ต้องได้รับเชิญ"
+      description: "**ขอรหัสเชิญ** จากเจ้าของ Hub หรือผู้จัดการ\n**พิมพ์คำสั่ง `/connect <invite-code>`** ในเซิร์ฟเวอร์ของคุณเพื่อเข้าร่วม"
+    footer: "คุณสามารถเข้าร่วม Hub เพิ่มเติมได้ตลอดเวลา และสามารถเชื่อมต่อกับหลาย Hub พร้อมกันได้ในช่องทางต่างๆ"
+  buttons:
+    startWizard: "เริ่มวิซาร์ดการตั้งค่า"
+    enterHubInfo: "กรอกข้อมูล Hub"
+    hubInfoComplete: "ข้อมูล Hub ครบถ้วน"
+    createHub: "สร้าง Hub"
+    completeInfoFirst: "กรอกข้อมูล Hub ให้ครบก่อน"
+    discoverHubs: "ค้นหา Hub สาธารณะ"
+    joinHub: "เข้าร่วม Hub"
+    useDefault: "ใช้ค่าเริ่มต้น"
+    skipForNow: "ข้ามไปก่อน"
+  errors:
+    hubCreationFailed: "{no} การสร้าง Hub ล้มเหลว"
+
+help:
+  title: "คำสั่ง InterChat"
+  description: "สำรวจคำสั่งที่หลากหลายของเราเพื่อช่วยให้คุณและชุมชนของคุณเชื่อมต่อกับผู้อื่น"
+  name: "ช่วยเหลือ"
+
+preferences:
+  title: "การตั้งค่าผู้ใช้"
+  description: "แก้ไขการตั้งค่าส่วนตัวของคุณเพื่อให้ InterChat ทำงานตามที่คุณต้องการ การตั้งค่าเหล่านี้เป็นแบบ 'ทั่วโลก' และมีผลกับทุกเซิร์ฟเวอร์ที่คุณใช้ร่วมกับ InterChat"
+  replyMentions:
+    title: "การตั้งค่า: การกล่าวถึงเมื่อตอบกลับ"
+    description: "ตอนนี้คุณจะ **{status}** เมื่อมีคนตอบกลับข้อความของคุณ คุณสามารถสลับการตั้งค่านี้ได้โดยใช้ปุ่มด้านล่าง หรือกลับสู่เมนูด้วยปุ่มย้อนกลับ"
+    currentDescription: "ปัจจุบันคุณ **{status}** เมื่อถูกตอบกลับในข้อความของคุณ คุณสามารถสลับการตั้งค่านี้ได้โดยใช้ปุ่มด้านล่าง หรือกลับสู่เมนูด้วยปุ่มย้อนกลับ"
+    mentioned: "ถูกกล่าวถึง (Mention)"
+    notMentioned: "ไม่ถูกกล่าวถึง"
+  general:
+    title: "การตั้งค่าทั่วไป"
+    description: "กำหนดการตั้งค่าทั่วไปภายใน InterChat เพื่อให้มั่นใจว่าคุณได้รับประสบการณ์ที่ดีที่สุดที่เราสามารถมอบให้ได้"
+  locale:
+    title: "เลือกภาษา"
+    description: "เลือกภาษาที่คุณต้องการสำหรับ InterChat"
+  select:
+    category: "เลือกหมวดหมู่"
+  badges:
+    title: "การตั้งค่า: ตราสัญลักษณ์ (Badges)"
+    description: "ตราสัญลักษณ์ของคุณตอนนี้ **{status}** ภายในข้อความของคุณ คุณสามารถสลับการตั้งค่านี้ได้โดยใช้ปุ่มด้านล่าง หรือกลับสู่เมนูด้วยปุ่มย้อนกลับ"
+    currentDescription: "ปัจจุบันตราสัญลักษณ์ของคุณ **{status}** ภายในข้อความของคุณ คุณสามารถสลับการตั้งค่านี้ได้โดยใช้ปุ่มด้านล่าง หรือกลับสู่เมนูด้วยปุ่มย้อนกลับ"
+    visible: "แสดงอยู่"
+    hidden: "ซ่อนอยู่"
     buttons:
-      startWizard: "เริ่มวิซาร์ดการตั้งค่า"
-      enterHubInfo: "กรอกข้อมูล Hub"
-      hubInfoComplete: "ข้อมูล Hub ครบถ้วน"
-      createHub: "สร้าง Hub"
-      completeInfoFirst: "กรอกข้อมูล Hub ให้ครบก่อน"
-      discoverHubs: "ค้นหา Hub สาธารณะ"
-      joinHub: "เข้าร่วม Hub"
-      useDefault: "ใช้ค่าเริ่มต้น"
-      skipForNow: "ข้ามไปก่อน"
-    errors:
-      hubCreationFailed: "{no} การสร้าง Hub ล้มเหลว"
+      show: "แสดง"
+      hide: "ซ่อน"
+  voteReminders:
+    title: "การตั้งค่า: เตือนความจำการโหวต"
+    description: "เปิด/ปิด การแจ้งเตือนให้โหวตจาก InterChat"
+    status: "การแจ้งเตือนให้โหวตขณะนี้ **{status}**"
+    enabled: "เปิดใช้งาน"
+    disabled: "ปิดใช้งาน"
+    dm:
+      title: "ได้เวลาโหวตให้ InterChat แล้ว!"
+      description: "การสนับสนุนของคุณช่วยให้ InterChat เติบโต! โหวตบน top.gg เพื่อช่วยเราหน่อยนะ!"
+      reminderInfo: "คุณได้รับข้อความเตือนนี้เพราะคุณเคยโหวตมาก่อน คุณสามารถปิดการเตือนเหล่านี้ได้ตลอดเวลาด้วยคำสั่ง `/my settings`"
+      disableConfirm:
+        title: "ปิดการเตือนให้โหวตแล้ว"
+        description: "คุณจะไม่ได้รับ DM เตือนให้โหวตอีกต่อไป คุณสามารถเปิดใช้งานใหม่ได้ตลอดเวลาด้วย `/my settings` ขอบคุณสำหรับการสนับสนุนที่ผ่านมา!"
+    buttons:
+      enable: "เปิดใช้งาน"
+      disable: "ปิดใช้งาน"
+  errors:
+    noPreferences: "คุณยังไม่มีการตั้งค่าใดๆ"
 
-  help:
-    title: "คำสั่ง InterChat"
-    description: "สำรวจคำสั่งที่หลากหลายของเราเพื่อช่วยให้คุณและชุมชนของคุณเชื่อมต่อกับผู้อื่น"
-    name: "ช่วยเหลือ"
-
-  preferences:
-    title: "การตั้งค่าผู้ใช้"
-    description: "แก้ไขการตั้งค่าส่วนตัวของคุณเพื่อให้ InterChat ทำงานตามที่คุณต้องการ การตั้งค่าเหล่านี้เป็นแบบ 'ทั่วโลก' และมีผลกับทุกเซิร์ฟเวอร์ที่คุณใช้ร่วมกับ InterChat"
-    replyMentions:
-      title: "การตั้งค่า: การกล่าวถึงเมื่อตอบกลับ"
-      description: "ตอนนี้คุณจะ **{status}** เมื่อมีคนตอบกลับข้อความของคุณ คุณสามารถสลับการตั้งค่านี้ได้โดยใช้ปุ่มด้านล่าง หรือกลับสู่เมนูด้วยปุ่มย้อนกลับ"
-      currentDescription: "ปัจจุบันคุณ **{status}** เมื่อถูกตอบกลับในข้อความของคุณ คุณสามารถสลับการตั้งค่านี้ได้โดยใช้ปุ่มด้านล่าง หรือกลับสู่เมนูด้วยปุ่มย้อนกลับ"
-      mentioned: "ถูกกล่าวถึง (Mention)"
-      notMentioned: "ไม่ถูกกล่าวถึง"
-    general:
-      title: "การตั้งค่าทั่วไป"
-      description: "กำหนดการตั้งค่าทั่วไปภายใน InterChat เพื่อให้มั่นใจว่าคุณได้รับประสบการณ์ที่ดีที่สุดที่เราสามารถมอบให้ได้"
-    locale:
-      title: "เลือกภาษา"
-      description: "เลือกภาษาที่คุณต้องการสำหรับ InterChat"
-    select:
-      category: "เลือกหมวดหมู่"
-    badges:
-      title: "การตั้งค่า: ตราสัญลักษณ์ (Badges)"
-      description: "ตราสัญลักษณ์ของคุณตอนนี้ **{status}** ภายในข้อความของคุณ คุณสามารถสลับการตั้งค่านี้ได้โดยใช้ปุ่มด้านล่าง หรือกลับสู่เมนูด้วยปุ่มย้อนกลับ"
-      currentDescription: "ปัจจุบันตราสัญลักษณ์ของคุณ **{status}** ภายในข้อความของคุณ คุณสามารถสลับการตั้งค่านี้ได้โดยใช้ปุ่มด้านล่าง หรือกลับสู่เมนูด้วยปุ่มย้อนกลับ"
-      visible: "แสดงอยู่"
-      hidden: "ซ่อนอยู่"
-      buttons:
-        show: "แสดง"
-        hide: "ซ่อน"
-    voteReminders:
-      title: "การตั้งค่า: เตือนความจำการโหวต"
-      description: "เปิด/ปิด การแจ้งเตือนให้โหวตจาก InterChat"
-      status: "การแจ้งเตือนให้โหวตขณะนี้ **{status}**"
-      enabled: "เปิดใช้งาน"
-      disabled: "ปิดใช้งาน"
-      dm:
-        title: "ได้เวลาโหวตให้ InterChat แล้ว!"
-        description: "การสนับสนุนของคุณช่วยให้ InterChat เติบโต! โหวตบน top.gg เพื่อช่วยเราหน่อยนะ!"
-        reminderInfo: "คุณได้รับข้อความเตือนนี้เพราะคุณเคยโหวตมาก่อน คุณสามารถปิดการเตือนเหล่านี้ได้ตลอดเวลาด้วยคำสั่ง `/my settings`"
-        disableConfirm:
-          title: "ปิดการเตือนให้โหวตแล้ว"
-          description: "คุณจะไม่ได้รับ DM เตือนให้โหวตอีกต่อไป คุณสามารถเปิดใช้งานใหม่ได้ตลอดเวลาด้วย `/my settings` ขอบคุณสำหรับการสนับสนุนที่ผ่านมา!"
-      buttons:
-        enable: "เปิดใช้งาน"
-        disable: "ปิดใช้งาน"
-    errors:
-      noPreferences: "คุณยังไม่มีการตั้งค่าใดๆ"
-
-  appeal:
+appeal:
+  title: "การทำผิดกฎของคุณที่อุทธรณ์ได้"
+  description: "เลือกการทำผิดกฎด้านล่างเพื่อส่งคำอุทธรณ์ หรือดูสถานะของการอุทธรณ์ที่มีอยู่"
+  noInfractions:
+    title: "ไม่มีการทำผิดกฎที่รอดำเนินการ"
+    description: "คุณไม่มีการทำผิดกฎที่สามารถอุทธรณ์ได้"
+  notAppealable: "การทำผิดกฎนี้ไม่สามารถอุทธรณ์ได้อีกต่อไป"
+  select:
+    placeholder: "เลือกการทำผิดกฎเพื่ออุทธรณ์"
+  modal:
+    title: "ส่งคำอุทธรณ์"
+    q1: "ทำไมคุณถึงเชื่อว่าการกระทำนี้ไม่ถูกต้อง?"
+    q2: "เล่าสถานการณ์ให้เราฟัง"
+    q3: "ข้อมูลเพิ่มเติม"
+  success:
+    submitted: "{tick} ส่งคำอุทธรณ์ของคุณเพื่อรับการตรวจสอบเรียบร้อยแล้ว"
+  viewInfractions:
+    title: "การทำผิดกฎล่าสุดของผู้ใช้"
+    empty: "ไม่พบการทำผิดกฎสำหรับผู้ใช้นี้"
+  status:
+    acceptedBy: "ยอมรับโดย @{name}"
+    rejectedBy: "ปฏิเสธโดย @{name}"
+    pending: "รอการตอบกลับ"
+    cooldown: "ติดคูลดาวน์"
+    canAppealAgain: "สามารถอุทธรณ์ได้"
+    canAppeal: "สามารถอุทธรณ์ได้"
+  constants:
+    unknownHub: "ไม่ทราบ Hub"
+    noReason: "ไม่ได้ระบุเหตุผล"
+  fields:
+    date: "วันที่:"
+    reason: "เหตุผล:"
+  actions:
+    decisionTitle: "การตัดสินคำอุทธรณ์"
+    reasonOptional:
+      label: "เหตุผล (ไม่บังคับ)"
+      placeholder: "อธิบายการตัดสินใจของคุณ..."
+  dm:
+    accepted: "คำอุทธรณ์ของคุณเกี่ยวกับการลงโทษใน {hubName} ได้รับการยอมรับ ทีมงานของเราได้ตรวจสอบกรณีของคุณและตัดสินว่าคำอุทธรณ์ของคุณมีน้ำหนักพอ"
+    declined: "คำอุทธรณ์ของคุณเกี่ยวกับการลงโทษใน {hubName} ได้รับการตรวจสอบแล้ว หลังจากพิจารณาอย่างถี่ถ้วน คำอุทธรณ์ของคุณถูกปฏิเสธ"
+    moderatorNote: "บันทึกจากผู้ดูแล: {reason}"
+  embed:
     title: "การทำผิดกฎของคุณที่อุทธรณ์ได้"
     description: "เลือกการทำผิดกฎด้านล่างเพื่อส่งคำอุทธรณ์ หรือดูสถานะของการอุทธรณ์ที่มีอยู่"
     noInfractions:
-      title: "ไม่มีการทำผิดกฎที่รอดำเนินการ"
-      description: "คุณไม่มีการทำผิดกฎที่สามารถอุทธรณ์ได้"
-    notAppealable: "การทำผิดกฎนี้ไม่สามารถอุทธรณ์ได้อีกต่อไป"
-    select:
-      placeholder: "เลือกการทำผิดกฎเพื่ออุทธรณ์"
-    modal:
-      title: "ส่งคำอุทธรณ์"
-      q1: "ทำไมคุณถึงเชื่อว่าการกระทำนี้ไม่ถูกต้อง?"
-      q2: "เล่าสถานการณ์ให้เราฟัง"
-      q3: "ข้อมูลเพิ่มเติม"
-    success:
-      submitted: "{tick} ส่งคำอุทธรณ์ของคุณเพื่อรับการตรวจสอบเรียบร้อยแล้ว"
-    viewInfractions:
-      title: "การทำผิดกฎล่าสุดของผู้ใช้"
-      empty: "ไม่พบการทำผิดกฎสำหรับผู้ใช้นี้"
-    status:
-      acceptedBy: "ยอมรับโดย @{name}"
-      rejectedBy: "ปฏิเสธโดย @{name}"
-      pending: "รอการตอบกลับ"
-      cooldown: "ติดคูลดาวน์"
-      canAppealAgain: "สามารถอุทธรณ์ได้"
-      canAppeal: "สามารถอุทธรณ์ได้"
-    constants:
-      unknownHub: "ไม่ทราบ Hub"
-      noReason: "ไม่ได้ระบุเหตุผล"
-    fields:
-      date: "วันที่:"
-      reason: "เหตุผล:"
-    actions:
-      decisionTitle: "การตัดสินคำอุทธรณ์"
-      reasonOptional:
-        label: "เหตุผล (ไม่บังคับ)"
-        placeholder: "อธิบายการตัดสินใจของคุณ..."
-    dm:
-      accepted: "คำอุทธรณ์ของคุณเกี่ยวกับการลงโทษใน {hubName} ได้รับการยอมรับ ทีมงานของเราได้ตรวจสอบกรณีของคุณและตัดสินว่าคำอุทธรณ์ของคุณมีน้ำหนักพอ"
-      declined: "คำอุทธรณ์ของคุณเกี่ยวกับการลงโทษใน {hubName} ได้รับการตรวจสอบแล้ว หลังจากพิจารณาอย่างถี่ถ้วน คำอุทธรณ์ของคุณถูกปฏิเสธ"
-      moderatorNote: "บันทึกจากผู้ดูแล: {reason}"
-    embed:
-      title: "การทำผิดกฎของคุณที่อุทธรณ์ได้"
-      description: "เลือกการทำผิดกฎด้านล่างเพื่อส่งคำอุทธรณ์ หรือดูสถานะของการอุทธรณ์ที่มีอยู่"
-      noInfractions:
-        title: "ประวัติขาวสะอาด!"
-        description: "ไม่พบการทำผิดกฎที่อุทธรณ์ได้"
-      footer:
-        canAppeal: "💡 คุณสามารถอุทธรณ์การทำผิดกฎได้ {count} รายการ ใช้เมนูเลือกด้านล่าง"
-        checkLater: "💡 กลับมาตรวจสอบภายหลังเมื่อคูลดาวน์หมดลง หรือเมื่อการอุทธรณ์ได้รับการตรวจสอบแล้ว"
-    errors:
-      cannotControl: "คุณไม่สามารถควบคุมเมนูเปลี่ยนหน้านี้ได้"
-      nothingSelected: "ไม่มีอะไรถูกเลือก"
-      invalidSelection: "การเลือกไม่ถูกต้อง"
-      modalError: "ไม่สามารถเปิด Modal อุทธรณ์ได้"
-      recordFailed: "บันทึกการตัดสินใจล้มเหลว: {error}"
-      notFoundOrDeleted: "ไม่พบคำอุทธรณ์หรืออาจถูกลบไปแล้ว"
-      updateFailed: "อัปเดตคำอุทธรณ์ล้มเหลว โปรดลองใหม่ภายหลัง"
+      title: "ประวัติขาวสะอาด!"
+      description: "ไม่พบการทำผิดกฎที่อุทธรณ์ได้"
+    footer:
+      canAppeal: "💡 คุณสามารถอุทธรณ์การทำผิดกฎได้ {count} รายการ ใช้เมนูเลือกด้านล่าง"
+      checkLater: "💡 กลับมาตรวจสอบภายหลังเมื่อคูลดาวน์หมดลง หรือเมื่อการอุทธรณ์ได้รับการตรวจสอบแล้ว"
+  errors:
+    cannotControl: "คุณไม่สามารถควบคุมเมนูเปลี่ยนหน้านี้ได้"
+    nothingSelected: "ไม่มีอะไรถูกเลือก"
+    invalidSelection: "การเลือกไม่ถูกต้อง"
+    modalError: "ไม่สามารถเปิด Modal อุทธรณ์ได้"
+    recordFailed: "บันทึกการตัดสินใจล้มเหลว: {error}"
+    notFoundOrDeleted: "ไม่พบคำอุทธรณ์หรืออาจถูกลบไปแล้ว"
+    updateFailed: "อัปเดตคำอุทธรณ์ล้มเหลว โปรดลองใหม่ภายหลัง"
 
-  report:
-    title: "รายงานข้อความ"
-    footer: "การรายงานช่วยให้ InterChat ปลอดภัยสำหรับทุกคน"
-    description: "รายงาน {user} ไปยัง **เจ้าหน้าที่ Hub** สำหรับการละเมิดกฎของ Hub หรือ **เจ้าหน้าที่ InterChat** สำหรับการละเมิดกฎแพลตฟอร์ม"
-    contextMenu: "รายงานข้อความ"
-    buttons:
-      toStaff: "รายงานไปยังทีมงาน"
-      toHub: "รายงานไปยัง Hub"
-    modal:
-      toStaff:
-        title: "รายงานไปยังทีมงาน InterChat"
-      toHub:
-        title: "รายงานไปยังผู้ดูแล Hub"
-      reason:
-        label: "เหตุผลในการรายงาน"
-        placeholder: "โปรดอธิบายเหตุผลที่คุณรายงานข้อความนี้..."
-    status:
-      resolvedBy: "แก้ไขแล้วโดย {name}"
-      ignoredBy: "เพิกเฉยโดย {name}"
-    success:
-      title: "ส่งรายงานแล้ว"
-      toStaff: "{tick} รายงานของคุณถูกส่งไปยังทีมงาน InterChat เพื่อตรวจสอบแล้ว"
-      toHub: "{tick} รายงานของคุณถูกส่งไปยังผู้ดูแล Hub เพื่อตรวจสอบแล้ว"
-      actionPast: "รายงาน {action}"
-    dm:
-      resolved: "ขอบคุณสำหรับการรายงาน ทีมดูแลของเราได้ตรวจสอบและดำเนินการตามความเหมาะสมแล้ว เราไม่สามารถเปิดเผยรายละเอียดเฉพาะเพื่อปกป้องความเป็นส่วนตัวของผู้ใช้"
-    errors:
-      hubMessageOnly: "{x_icon} คุณสามารถรายงานได้เฉพาะข้อความที่ส่งผ่าน InterChat Hubs เท่านั้น"
-      cannotReportSelf: "{x_icon} คุณไม่สามารถรายงานข้อความของตัวเองได้"
-      processingFailed: "เกิดข้อผิดพลาดในการประมวลผลรายงาน! โปรดลองใหม่ภายหลัง"
-      notFoundOrDeleted: "ไม่พบรายงานหรืออาจถูกลบไปแล้ว"
-      alreadyHandled: "รายงานนี้ถูก {status} ไปแล้ว"
-      updateFailed: "อัปเดตรายงานล้มเหลว โปรดลองใหม่ภายหลัง"
+report:
+  title: "รายงานข้อความ"
+  footer: "การรายงานช่วยให้ InterChat ปลอดภัยสำหรับทุกคน"
+  description: "รายงาน {user} ไปยัง **เจ้าหน้าที่ Hub** สำหรับการละเมิดกฎของ Hub หรือ **เจ้าหน้าที่ InterChat** สำหรับการละเมิดกฎแพลตฟอร์ม"
+  contextMenu: "รายงานข้อความ"
+  buttons:
+    toStaff: "รายงานไปยังทีมงาน"
+    toHub: "รายงานไปยัง Hub"
+  modal:
+    toStaff:
+      title: "รายงานไปยังทีมงาน InterChat"
+    toHub:
+      title: "รายงานไปยังผู้ดูแล Hub"
+    reason:
+      label: "เหตุผลในการรายงาน"
+      placeholder: "โปรดอธิบายเหตุผลที่คุณรายงานข้อความนี้..."
+  status:
+    resolvedBy: "แก้ไขแล้วโดย {name}"
+    ignoredBy: "เพิกเฉยโดย {name}"
+  success:
+    title: "ส่งรายงานแล้ว"
+    toStaff: "{tick} รายงานของคุณถูกส่งไปยังทีมงาน InterChat เพื่อตรวจสอบแล้ว"
+    toHub: "{tick} รายงานของคุณถูกส่งไปยังผู้ดูแล Hub เพื่อตรวจสอบแล้ว"
+    actionPast: "รายงาน {action}"
+  dm:
+    resolved: "ขอบคุณสำหรับการรายงาน ทีมดูแลของเราได้ตรวจสอบและดำเนินการตามความเหมาะสมแล้ว เราไม่สามารถเปิดเผยรายละเอียดเฉพาะเพื่อปกป้องความเป็นส่วนตัวของผู้ใช้"
+  errors:
+    hubMessageOnly: "{x_icon} คุณสามารถรายงานได้เฉพาะข้อความที่ส่งผ่าน InterChat Hubs เท่านั้น"
+    cannotReportSelf: "{x_icon} คุณไม่สามารถรายงานข้อความของตัวเองได้"
+    processingFailed: "เกิดข้อผิดพลาดในการประมวลผลรายงาน! โปรดลองใหม่ภายหลัง"
+    notFoundOrDeleted: "ไม่พบรายงานหรืออาจถูกลบไปแล้ว"
+    alreadyHandled: "รายงานนี้ถูก {status} ไปแล้ว"
+    updateFailed: "อัปเดตรายงานล้มเหลว โปรดลองใหม่ภายหลัง"
 
-  hubConfig:
-    general:
-      placeholder: "เลือกการตั้งค่าที่ต้องการปรับแต่ง..."
-      editDescription:
-        label: "แก้ไขคำอธิบาย"
-        description: "อัปเดตข้อความคำอธิบาย Hub ของคุณ"
-      editName:
-        label: "แก้ไขชื่อ Hub"
-        description: "เปลี่ยนชื่อ Hub ของคุณ (คูลดาวน์ 10 วัน)"
-      welcomeMessage:
-        label: "ข้อความต้อนรับ"
-        description: "ตั้งค่าข้อความที่จะแสดงให้ผู้ใช้ใหม่เห็น"
-      toggleNsfw:
-        label: "เปิด/ปิด NSFW"
-        description: "ระบุว่า Hub ของคุณเป็น NSFW หรือไม่"
-      changeVisibility:
-        label: "เปลี่ยนการมองเห็น"
-        description: "สลับระหว่าง สาธารณะ, ไม่แสดงในรายการ, หรือ ส่วนตัว"
-      togglePrivate:
-        label: "เปิด/ปิด ส่วนตัว"
-        description: "ระบุว่า Hub ของคุณเป็นส่วนตัวหรือไม่"
-    permissions:
-      remove:
-        label: "ลบออก"
-      moderator:
-        label: "Moderator"
-        description: "จัดการข้อความ, ดูแลผู้ใช้, จัดการรายงาน & การอุทธรณ์"
-      manager:
-        label: "Manager"
-        description: "จัดการการตั้งค่า Hub รวมถึงทุกสิ่งที่ Moderator ทำได้"
-      managerOnly:
-        description: "จัดการการตั้งค่า Hub"
-    modules:
-      reactions:
-        label: "รีแอคชั่น"
-        description: "อนุญาตให้มีรีแอคชั่นบนข้อความ"
-      hideLinks:
-        label: "ซ่อนลิงก์"
-        description: "ซ่อนพรีวิวลิงก์ในข้อความของ Hub"
-      spamFilter:
-        label: "ตัวกรองสแปม"
-        description: "กรองสแปมและเนื้อหาที่ไม่ต้องการโดยอัตโนมัติ"
-      blockInvites:
-        label: "บล็อกคำเชิญ"
-        description: "บล็อกคำเชิญ Discord server ในข้อความ"
-      useNicknames:
-        label: "ใช้ชื่อเล่น"
-        description: "แสดงชื่อเล่นของผู้ใช้แทนชื่อผู้ใช้ (Username)"
-    logging:
-      moderationLogs: "บันทึก Moderation"
-      joinLeaveLogs: "บันทึกการ เข้า/ออก"
-      appealsChannel: "ช่องการอุทธรณ์"
-      reportsChannel: "ช่องรายงาน"
-      networkAlerts: "แจ้งเตือนเครือข่าย"
-      messageModeration: "การดูแลข้อความ"
-    invites:
-      create:
-        title: "ต้องระบุข้อมูล"
-        customCode:
-          label: "รหัสที่กำหนดเอง"
-          placeholder: "abc123"
-        uses:
-          label: "จำนวนครั้งที่ใช้ได้"
-          placeholder: "ปล่อยว่างไว้ถ้าไม่จำกัด"
-        expiry:
-          label: "วันหมดอายุ"
-          placeholder: "1w, 3d, 12h (ปล่อยว่างไว้ถ้าไม่มีวันหมดอายุ)"
+hubConfig:
+  general:
+    placeholder: "เลือกการตั้งค่าที่ต้องการปรับแต่ง..."
+    editDescription:
+      label: "แก้ไขคำอธิบาย"
+      description: "อัปเดตข้อความคำอธิบาย Hub ของคุณ"
+    editName:
+      label: "แก้ไขชื่อ Hub"
+      description: "เปลี่ยนชื่อ Hub ของคุณ (คูลดาวน์ 10 วัน)"
+    welcomeMessage:
+      label: "ข้อความต้อนรับ"
+      description: "ตั้งค่าข้อความที่จะแสดงให้ผู้ใช้ใหม่เห็น"
+    toggleNsfw:
+      label: "เปิด/ปิด NSFW"
+      description: "ระบุว่า Hub ของคุณเป็น NSFW หรือไม่"
+    changeVisibility:
+      label: "เปลี่ยนการมองเห็น"
+      description: "สลับระหว่าง สาธารณะ, ไม่แสดงในรายการ, หรือ ส่วนตัว"
+    togglePrivate:
+      label: "เปิด/ปิด ส่วนตัว"
+      description: "ระบุว่า Hub ของคุณเป็นส่วนตัวหรือไม่"
+  permissions:
+    remove:
+      label: "ลบออก"
+    moderator:
+      label: "Moderator"
+      description: "จัดการข้อความ, ดูแลผู้ใช้, จัดการรายงาน & การอุทธรณ์"
+    manager:
+      label: "Manager"
+      description: "จัดการการตั้งค่า Hub รวมถึงทุกสิ่งที่ Moderator ทำได้"
+    managerOnly:
+      description: "จัดการการตั้งค่า Hub"
+  modules:
+    reactions:
+      label: "รีแอคชั่น"
+      description: "อนุญาตให้มีรีแอคชั่นบนข้อความ"
+    hideLinks:
+      label: "ซ่อนลิงก์"
+      description: "ซ่อนพรีวิวลิงก์ในข้อความของ Hub"
+    spamFilter:
+      label: "ตัวกรองสแปม"
+      description: "กรองสแปมและเนื้อหาที่ไม่ต้องการโดยอัตโนมัติ"
+    blockInvites:
+      label: "บล็อกคำเชิญ"
+      description: "บล็อกคำเชิญ Discord server ในข้อความ"
+    useNicknames:
+      label: "ใช้ชื่อเล่น"
+      description: "แสดงชื่อเล่นของผู้ใช้แทนชื่อผู้ใช้ (Username)"
+  logging:
+    moderationLogs: "บันทึก Moderation"
+    joinLeaveLogs: "บันทึกการ เข้า/ออก"
+    appealsChannel: "ช่องการอุทธรณ์"
+    reportsChannel: "ช่องรายงาน"
+    networkAlerts: "แจ้งเตือนเครือข่าย"
+    messageModeration: "การดูแลข้อความ"
+  invites:
+    create:
+      title: "ต้องระบุข้อมูล"
+      customCode:
+        label: "รหัสที่กำหนดเอง"
+        placeholder: "abc123"
+      uses:
+        label: "จำนวนครั้งที่ใช้ได้"
+        placeholder: "ปล่อยว่างไว้ถ้าไม่จำกัด"
+      expiry:
+        label: "วันหมดอายุ"
+        placeholder: "1w, 3d, 12h (ปล่อยว่างไว้ถ้าไม่มีวันหมดอายุ)"
 
-  moderation:
-    panel:
-      description: "เปิดแผงควบคุม Moderation สำหรับผู้ใช้, ข้อความ หรือเซิร์ฟเวอร์"
-      contextMenu: "แผง Mod"
-    actionNames:
-      warned: "เตือนแล้ว"
-      muted: "ปิดเสียงแล้ว"
-      banned: "แบนแล้ว"
-    actionNouns:
-      mute: "ปิดเสียง"
-      ban: "แบน"
-    prep:
-      in: "ใน"
-      from: "จาก"
-    permissions:
-      managerRequired: "ต้องมีสิทธิ์ระดับ Manager+ ขึ้นไป"
-    target:
-      both: "โปรดระบุผู้ใช้ หรือ เซิร์ฟเวอร์ อย่างใดอย่างหนึ่ง ไม่ใช่ทั้งสองอย่าง"
-      missing: "โปรดระบุผู้ใช้ หรือ เซิร์ฟเวอร์"
-    revoke:
-      noActive: "ไม่พบสถานะ {action} ที่ใช้งานอยู่"
-      success: "ยกเลิก {action} แล้ว"
-    delete:
-      label: "ลบ"
-      description: "ลบข้อความที่เลือกออกจาก Hub ที่เชื่อมต่อทั้งหมด"
-      noMessage: "ไม่ได้ระบุข้อความที่จะลบ"
-      success: "ข้อความถูกลบออกจาก Hub ที่เชื่อมต่อทั้งหมดแล้ว"
-      notInterChatMessage: "ข้อความนี้ไม่ใช่ข้อความ InterChat หรือถูกลบไปแล้ว"
-      failed: "ลบข้อความล้มเหลว โปรดลองใหม่ภายหลัง"
-      notFound: "ไม่พบข้อมูลการลงโทษ"
+moderation:
+  panel:
+    description: "เปิดแผงควบคุม Moderation สำหรับผู้ใช้, ข้อความ หรือเซิร์ฟเวอร์"
+    contextMenu: "แผง Mod"
+  actionNames:
+    warned: "เตือนแล้ว"
+    muted: "ปิดเสียงแล้ว"
+    banned: "แบนแล้ว"
+  actionNouns:
+    mute: "ปิดเสียง"
+    ban: "แบน"
+  prep:
+    in: "ใน"
+    from: "จาก"
+  permissions:
+    managerRequired: "ต้องมีสิทธิ์ระดับ Manager+ ขึ้นไป"
+  target:
+    both: "โปรดระบุผู้ใช้ หรือ เซิร์ฟเวอร์ อย่างใดอย่างหนึ่ง ไม่ใช่ทั้งสองอย่าง"
+    missing: "โปรดระบุผู้ใช้ หรือ เซิร์ฟเวอร์"
+  revoke:
+    noActive: "ไม่พบสถานะ {action} ที่ใช้งานอยู่"
+    success: "ยกเลิก {action} แล้ว"
+  delete:
+    label: "ลบ"
+    description: "ลบข้อความที่เลือกออกจาก Hub ที่เชื่อมต่อทั้งหมด"
+    noMessage: "ไม่ได้ระบุข้อความที่จะลบ"
+    success: "ข้อความถูกลบออกจาก Hub ที่เชื่อมต่อทั้งหมดแล้ว"
+    notInterChatMessage: "ข้อความนี้ไม่ใช่ข้อความ InterChat หรือถูกลบไปแล้ว"
+    failed: "ลบข้อความล้มเหลว โปรดลองใหม่ภายหลัง"
+    notFound: "ไม่พบข้อมูลการลงโทษ"
+  blacklist:
+    label: "Blacklist"
+    description: "ออกคำสั่ง Blacklist ทั่วทั้ง InterChat (ผู้ใช้/เซิร์ฟเวอร์)"
+    permissionDenied: "คุณไม่มีสิทธิ์ระดับเจ้าหน้าที่ InterChat เพื่อออกคำสั่ง Blacklist ทั่วโลก"
+    alreadyActive: "เป้าหมายติดสถานะ Blacklist ทั่วโลกอยู่แล้ว"
+    success: "Blacklist {target} ทั่วโลกแล้ว"
+  success:
+    action: "{target} ถูก {action} {prep} {hubName}"
+  actions:
+    warn:
+      label: "เตือน"
+      description: "ออกคำเตือนไปยังเป้าหมายที่เลือก"
+    mute:
+      label: "ปิดเสียง"
+      description: "ปิดเสียงผู้ใช้/เซิร์ฟเวอร์จาก Hub ที่ระบุ"
+    ban:
+      label: "แบน"
+      description: "แบนผู้ใช้/เซิร์ฟเวอร์จาก Hub ที่ระบุ"
+    unmute:
+      label: "ยกเลิกปิดเสียง"
+      description: "ยกเลิกสถานะปิดเสียง"
+    unban:
+      label: "ปลดแบน"
+      description: "ยกเลิกสถานะแบน"
     blacklist:
       label: "Blacklist"
       description: "ออกคำสั่ง Blacklist ทั่วทั้ง InterChat (ผู้ใช้/เซิร์ฟเวอร์)"
-      permissionDenied: "คุณไม่มีสิทธิ์ระดับเจ้าหน้าที่ InterChat เพื่อออกคำสั่ง Blacklist ทั่วโลก"
-      alreadyActive: "เป้าหมายติดสถานะ Blacklist ทั่วโลกอยู่แล้ว"
-      success: "Blacklist {target} ทั่วโลกแล้ว"
-    success:
-      action: "{target} ถูก {action} {prep} {hubName}"
-    actions:
-      warn:
-        label: "เตือน"
-        description: "ออกคำเตือนไปยังเป้าหมายที่เลือก"
-      mute:
-        label: "ปิดเสียง"
-        description: "ปิดเสียงผู้ใช้/เซิร์ฟเวอร์จาก Hub ที่ระบุ"
-      ban:
-        label: "แบน"
-        description: "แบนผู้ใช้/เซิร์ฟเวอร์จาก Hub ที่ระบุ"
-      unmute:
-        label: "ยกเลิกปิดเสียง"
-        description: "ยกเลิกสถานะปิดเสียง"
-      unban:
-        label: "ปลดแบน"
-        description: "ยกเลิกสถานะแบน"
-      blacklist:
-        label: "Blacklist"
-        description: "ออกคำสั่ง Blacklist ทั่วทั้ง InterChat (ผู้ใช้/เซิร์ฟเวอร์)"
-      delete:
-        label: "ลบ"
-        description: "ลบข้อความที่เลือกออกจาก Hub ที่เชื่อมต่อทั้งหมด"
-      deleteInfraction:
-        description: "ลบข้อมูลการลงโทษ (Manager+ เท่านั้น)"
-    modal:
-      title: "การดำเนินการ Moderation"
-      reason:
-        label: "เหตุผล"
-        placeholder: "ใส่คำอธิบายสั้นๆ {optional}"
-      duration:
-        label: "ระยะเวลา"
-        placeholder: "เช่น 30m, 2h, 1d"
-    hubSelect:
-      placeholder: "เลือก Hub เพื่อจัดการ..."
-    hubSelection:
-      title: "การเลือก Hub"
-      description: "เลือก Hub ที่คุณต้องการจัดการ"
-      fieldHubLabel: "Hub"
-      fieldHubPrompt: "Hub ที่เลือก"
-      prompt: "เลือก Hub เพื่อจัดการ"
-    targetSelection:
-      title: "เลือกเป้าหมาย"
-      description: "คุณต้องการ {action} ใคร?"
-    actionSelect:
-      placeholder: "เลือกการดำเนินการ..."
-    fields:
-      reason: "เหตุผล"
-    history:
-      noHubSelected: "ไม่ได้เลือก Hub"
-    errors:
-      selectedHubNotFound: "ไม่พบ Hub ที่เลือก"
-      processingFailed: "ดำเนินการ Moderation ล้มเหลว: {error}"
-      unknownAction: "ไม่รู้จักการกระทำ"
-      unsupportedAction: "เส้นทางการกระทำไม่รองรับ"
-      openPanelFailed: "เกิดข้อผิดพลาดที่ไม่คาดคิดขณะเปิดแผง Mod โปรดลองใหม่หรือแจ้งทีมงาน"
-      notModeratorForHub: "คุณไม่ใช่ Moderator สำหรับ Hub นี้"
-      alreadyState: "{targetType} ถูก {state} ใน Hub นี้อยู่แล้ว"
-      invalidHubData: "ข้อมูล Hub ไม่ถูกต้อง"
-      originalMessageNotFound: "ไม่พบข้อความต้นฉบับในฐานข้อมูล"
-      fetchAuthorOrServerFailed: "ไม่สามารถดึงข้อมูลผู้เขียนข้อความหรือเซิร์ฟเวอร์ได้"
-      hubNotFoundForMessage: "ไม่พบ Hub สำหรับข้อความนี้"
-      noModeratedHubs: "คุณไม่มีสิทธิ์ Moderation ใน Hub ใดๆ"
-      noTarget: "โปรดระบุเป้าหมาย (ผู้ใช้/เซิร์ฟเวอร์) หรือตอบกลับข้อความ"
-
-  profanity:
-    actions:
-      editActions:
-        label: "แก้ไขการกระทำ"
-      patterns:
-        label: "รูปแบบคำ"
-      whitelist:
-        label: "Whitelist"
-      toggle:
-        label: "เปิด/ปิด การใช้งาน"
-        description: "เปิดหรือปิดกฎนี้"
-      delete:
-        label: "ลบกฎ"
-        description: "⚠️ ลบกฎนี้ทิ้งอย่างถาวร"
-
-  welcomeMessage:
-    title: "ยินดีต้อนรับสู่ InterChat Hub ที่ชื่อว่า **{hubName}**!"
-    footer: "เชื่อมต่อกับ {hubName}"
-    errorDm: "ส่งข้อความต้อนรับสำหรับ Hub ที่คุณเข้าร่วมล้มเหลว ตรวจสอบให้แน่ใจว่าฉันมีสิทธิ์ส่งข้อความใน {channel}"
-    introText: "ตอนนี้คุณเชื่อมต่อกับเครือข่ายของเซิร์ฟเวอร์แล้ว ข้อความที่คุณส่งที่นี่จะปรากฏแก่ทุกคนใน Hub นี้"
-    quickActions: "การกระทำด่วน"
-    buttons:
-      rules: "กฎระเบียบ"
-      profile: "โปรไฟล์"
-      hubInfo: "ข้อมูล Hub"
-      report: "วิธีรายงาน"
-      support: "Support"
-      disconnect: "ตัดการเชื่อมต่อ"
-    hubInfo:
-      title: "ข้อมูล Hub"
-      connections: "🔗 การเชื่อมต่อ"
-      members: "👥 สมาชิกที่เข้าถึง"
-      description: "คำอธิบาย"
-    disconnectConfirm:
-      title: "ตัดการเชื่อมต่อจาก Hub?"
-      description: "คุณแน่ใจหรือไม่ว่าต้องการตัดการเชื่อมต่อจาก **{hubName}**?"
-
-  infractions:
-    description: "ดูการทำผิดกฎใน Hub กรองตามผู้ใช้หรือเซิร์ฟเวอร์"
-    buttons:
-      userInfractions: "การทำผิดกฎของผู้ใช้"
-      serverInfractions: "การทำผิดกฎของเซิร์ฟเวอร์"
-    titles:
-      base: "การทำผิดกฎ · {hubName}"
-      userList: "การทำผิดกฎของผู้ใช้ · {hubName}"
-      serverList: "การทำผิดกฎของเซิร์ฟเวอร์ · {hubName}"
-      userSpecific: "การทำผิดกฎสำหรับ {user} · {hubName}"
-      serverSpecific: "การทำผิดกฎสำหรับเซิร์ฟเวอร์ {serverId} · {hubName}"
-    descriptions:
-      base: "เลือกประเภทการทำผิดกฎที่ต้องการดูสำหรับ Hub นี้"
-      userListEmpty: "ไม่พบการทำผิดกฎของผู้ใช้สำหรับ Hub นี้"
-      serverListEmpty: "ไม่พบการทำผิดกฎของเซิร์ฟเวอร์สำหรับ Hub นี้"
-      userSpecificEmpty: "ไม่พบการทำผิดกฎสำหรับผู้ใช้นี้ใน Hub นี้"
-      serverSpecificEmpty: "ไม่พบการทำผิดกฎสำหรับเซิร์ฟเวอร์นี้ใน Hub นี้"
-    labels:
-      infraction: "การทำผิดกฎ"
-    fields:
-      moderator: "Moderator"
-      issued: "ออกให้เมื่อ"
-      evidence: "หลักฐาน"
-
-    evidence:
-      content: "เนื้อหา"
-      author: "ผู้เขียน"
-      notAvailable: "ไม่มีหลักฐาน"
-    errors:
-      noPermission: "คุณไม่มีสิทธิ์ดูข้อมูลการทำผิดกฎสำหรับ Hub นี้"
-      bothSelection: "โปรดเลือกเฉพาะผู้ใช้ หรือ เซิร์ฟเวอร์ เพียงอย่างเดียว ไม่ใช่ทั้งคู่"
-      invalidServerId: "ID เซิร์ฟเวอร์ไม่ถูกต้อง"
-    permissions:
-      insufficient: "คุณต้องมีสิทธิ์ระดับ {permission}+ ใน Hub นี้"
-      managerRequired: "ต้องมีสิทธิ์ระดับ Manager+ ขึ้นไป"
-    target:
-      both: "โปรดระบุผู้ใช้ หรือ เซิร์ฟเวอร์ อย่างใดอย่างหนึ่ง ไม่ใช่ทั้งสองอย่าง"
-      missing: "โปรดระบุผู้ใช้ หรือ เซิร์ฟเวอร์"
-    success:
-      action: "{action} {target} {prep} {hubName} แล้ว"
-    revoke:
-      noActive: "ไม่พบสถานะ {action} ที่ใช้งานอยู่"
-      success: "ยกเลิก {action} แล้ว"
     delete:
-      notImplemented: "การลบข้อความยังไม่เปิดใช้งาน บันทึกเหตุผล: {reason}"
-      notFound: "ไม่พบข้อมูลการลงโทษ"
-      success: "ลบข้อมูลการลงโทษเรียบร้อยแล้ว"
-    blacklist:
-      permissionDenied: "คุณไม่มีสิทธิ์ระดับเจ้าหน้าที่ InterChat เพื่อออกคำสั่ง Blacklist ทั่วโลก"
-      alreadyActive: "เป้าหมายติดสถานะ Blacklist ทั่วโลกอยู่แล้ว"
-      success: "Blacklist {target} ทั่วโลกแล้ว"
+      label: "ลบ"
+      description: "ลบข้อความที่เลือกออกจาก Hub ที่เชื่อมต่อทั้งหมด"
+    deleteInfraction:
+      description: "ลบข้อมูลการลงโทษ (Manager+ เท่านั้น)"
+  modal:
+    title: "การดำเนินการ Moderation"
+    reason:
+      label: "เหตุผล"
+      placeholder: "ใส่คำอธิบายสั้นๆ {optional}"
+    duration:
+      label: "ระยะเวลา"
+      placeholder: "เช่น 30m, 2h, 1d"
+  hubSelect:
+    placeholder: "เลือก Hub เพื่อจัดการ..."
+  hubSelection:
+    title: "การเลือก Hub"
+    description: "เลือก Hub ที่คุณต้องการจัดการ"
+    fieldHubLabel: "Hub"
+    fieldHubPrompt: "Hub ที่เลือก"
+    prompt: "เลือก Hub เพื่อจัดการ"
+  targetSelection:
+    title: "เลือกเป้าหมาย"
+    description: "คุณต้องการ {action} ใคร?"
+  actionSelect:
+    placeholder: "เลือกการดำเนินการ..."
+  fields:
+    reason: "เหตุผล"
+  history:
+    noHubSelected: "ไม่ได้เลือก Hub"
+  errors:
+    selectedHubNotFound: "ไม่พบ Hub ที่เลือก"
+    processingFailed: "ดำเนินการ Moderation ล้มเหลว: {error}"
+    unknownAction: "ไม่รู้จักการกระทำ"
+    unsupportedAction: "เส้นทางการกระทำไม่รองรับ"
+    openPanelFailed: "เกิดข้อผิดพลาดที่ไม่คาดคิดขณะเปิดแผง Mod โปรดลองใหม่หรือแจ้งทีมงาน"
+    notModeratorForHub: "คุณไม่ใช่ Moderator สำหรับ Hub นี้"
+    alreadyState: "{targetType} ถูก {state} ใน Hub นี้อยู่แล้ว"
+    invalidHubData: "ข้อมูล Hub ไม่ถูกต้อง"
+    originalMessageNotFound: "ไม่พบข้อความต้นฉบับในฐานข้อมูล"
+    fetchAuthorOrServerFailed: "ไม่สามารถดึงข้อมูลผู้เขียนข้อความหรือเซิร์ฟเวอร์ได้"
+    hubNotFoundForMessage: "ไม่พบ Hub สำหรับข้อความนี้"
+    noModeratedHubs: "คุณไม่มีสิทธิ์ Moderation ใน Hub ใดๆ"
+    noTarget: "โปรดระบุเป้าหมาย (ผู้ใช้/เซิร์ฟเวอร์) หรือตอบกลับข้อความ"
 
-  staff:
-    get:
-      description: "รับข้อมูลเกี่ยวกับเอนทิตีของ InterChat"
-      server:
-        description: "รับข้อมูลโดยละเอียดเกี่ยวกับเซิร์ฟเวอร์"
-      hub:
-        description: "รับข้อมูลโดยละเอียดเกี่ยวกับ Hub"
-      user:
-        description: "รับข้อมูลโดยละเอียดเกี่ยวกับผู้ใช้"
-    hub:
-      section:
-        status: "สถานะ"
-        moderation: "Moderation"
-      fields:
-        name: "ชื่อ"
-        messages: "ข้อความ"
-        connections: "การเชื่อมต่อ"
-        created: "สร้างเมื่อ"
-        lastActive: "ใช้งานล่าสุด"
-        upvotes: "Upvotes"
-        owner: "เจ้าของ"
-        location: "ตำแหน่ง"
-        activity: "กิจกรรม"
-        appealCooldown: "คูลดาวน์การอุทธรณ์"
-        welcomeMessage: "ข้อความต้อนรับ"
-        description: "คำอธิบาย"
-      values:
-        messagesThisWeek: "**{count}** สัปดาห์นี้"
-        connectionsActive: "**{count}** ใช้งานอยู่"
-        upvotesTotal: "**{count}** ทั้งหมด"
-      badges:
-        verified: "Verified"
-        partnered: "Partnered"
-        featured: "Featured"
-        private: "ส่วนตัว"
-        locked: "ล็อค"
-        nsfw: "NSFW"
-    server:
-      fields:
-        name: "ชื่อ"
-        inviteCode: "รหัสเชิญ"
-        messages: "ข้อความ"
-        connections: "การเชื่อมต่อ"
-        lastMessage: "ข้อความล่าสุด"
-        updated: "อัปเดต"
-      values:
-        messagesTotal: "**{count}** ทั้งหมด"
-        connectionsActive: "**{count}** ใช้งานอยู่"
-        premium: "Premium"
-        standard: "Standard"
-    user:
-      fields:
-        name: "ชื่อ"
-        messages: "ข้อความ"
-        reputation: "ชื่อเสียง"
-        votes: "โหวต"
-        hubJoins: "การเข้าร่วม Hub"
-        engagement: "การมีส่วนร่วม"
-        locale: "ภาษา"
-        lastMessage: "ข้อความล่าสุด"
-        lastVote: "โหวตล่าสุด"
-
-      values:
-        staff: "Staff"
-        member: "Member"
-        messagesSent: "**{count}** ส่งแล้ว"
-        reputationPoints: "**{count}** แต้ม"
-        votesCast: "**{count}** ครั้ง"
-        hubJoinsTotal: "**{count}** ทั้งหมด"
-        notSet: "ไม่ได้ตั้งค่า"
-        never: "ไม่เคย"
-      sections:
-        preferences: "การตั้งค่า"
-        createdContent: "เนื้อหาที่สร้าง"
-        activity: "กิจกรรม"
-        donation: "การบริจาค"
-        badges: "ตราสัญลักษณ์"
-      preferences:
-        showBadges: "แสดงตราสัญลักษณ์"
-        mentionOnReply: "แจ้งเตือนเมื่อตอบกลับ"
-        showNsfwHubs: "แสดง Hub NSFW"
-      content:
-        hubs: "{count} Hubs"
-        modPositions: "{count} ตำแหน่ง Mod"
-        blockedWords: "{count} คำที่ถูกบล็อก"
-        antiSwearRules: "{count} กฎห้ามคำหยาบ"
-      moderation:
-        infractionsReceived: "{count} ครั้งที่ถูกลงโทษ"
-        infractionsIssued: "{count} ครั้งที่ลงโทษผู้อื่น"
-        blacklistsReceived: "{count} ครั้งที่โดน Blacklist"
-        blacklistsIssued: "{count} ครั้งที่สั่ง Blacklist"
-      activity:
-        appeals: "{count} การอุทธรณ์"
-        reviews: "{count} การรีวิว"
-        reportsMade: "{count} รายงานที่สร้าง"
-        reportsReceived: "{count} รายงานที่ได้รับ"
-        achievements: "{count} ความสำเร็จ"
-      donation:
-        tier: "ระดับ: {tier}"
-        expires: "หมดอายุ"
-    blacklist:
-      titles:
-        list: "รายการ Blacklist"
-        searchResults: "ผลการค้นหา Blacklist"
-        userList: "Blacklist ผู้ใช้"
-        serverList: "Blacklist เซิร์ฟเวอร์"
-      descriptions:
-        list: "รายการ Blacklist ทั้งหมด"
-        command: "ดูรายการ Blacklist กรองโดยผู้ใช้หรือเซิร์ฟเวอร์"
-        noEntriesPage: "ไม่มีรายการในหน้านี้"
-        userListEmpty: "ไม่พบผู้ใช้ที่ติด Blacklist"
-        serverListEmpty: "ไม่พบเซิร์ฟเวอร์ที่ติด Blacklist"
-      fields:
-        user: "ผู้ใช้"
-        server: "เซิร์ฟเวอร์"
-        expires: "หมดอายุ"
-        staff: "เจ้าหน้าที่"
-        added: "เพิ่มเมื่อ"
-      labels:
-        user: "ผู้ใช้"
-        server: "เซิร์ฟเวอร์"
-      notFound: "ไม่พบรายการ Blacklist ที่ตรงกัน"
-      removed: "ลบรายการ Blacklist แล้ว"
-
-  hub:
-    lock:
-      successTitle: "ล็อค Hub แล้ว"
-      successDescription: "ล็อค **{hub}** เรียบร้อยแล้ว สมาชิกใหม่ไม่สามารถเข้าร่วมได้"
-      announceTitle: "ล็อค Hub แล้ว"
-      announceDescription: "Hub นี้ถูกล็อคโดยผู้ดูแล\nเฉพาะผู้ดูแลเท่านั้นที่สามารถส่งข้อความได้ในขณะนี้"
-    unlock:
-      successTitle: "ปลดล็อค Hub แล้ว"
-      successDescription: "ปลดล็อค **{hub}** เรียบร้อยแล้ว สมาชิกใหม่สามารถเข้าร่วมได้แล้ว"
-      announceTitle: "ปลดล็อค Hub แล้ว"
-      announceDescription: "Hub นี้ถูกปลดล็อคโดยผู้ดูแล\nคุณสามารถส่งข้อความได้แล้ว"
-    events:
-      serverJoined:
-        title: "🎉 เซิร์ฟเวอร์ใหม่เข้าร่วม!"
-        description: "**{serverName}** ได้เข้าร่วม Hub แล้ว! มาต้อนรับพวกเขาสู่ชุมชนของเรากันเถอะ"
-        footer: "ยินดีต้อนรับสู่ {hubName}!"
-    create:
-      title: "สร้าง Hub ของคุณ"
-      description: "สร้าง InterChat Hub ของคุณเองสำหรับชุมชน, เพื่อนๆ... หรือใครก็ได้ - รายชื่ออาจยาวเหยียดเลยทีเดียว เอาล่ะ ลองดูสิว่าจะพาคุณไปถึงไหน"
-    nextSteps:
-      created:
-        title: "สร้าง Hub สำเร็จแล้ว!"
-        description: |
-          Hub **{hubName}** ของคุณพร้อมแล้ว! นี่คือสิ่งที่คุณทำได้ต่อไป:
-          - เชิญเซิร์ฟเวอร์แรกของคุณโดยใช้ `/invite`
-          - ตั้งกฎด้วย `/rules set`
-          - ปรับแต่งการตั้งค่าใน [dashboard](https://interchat.dev/dashboard)
-          - เชื่อมต่อช่องสนทนาด้วย `/connection add <hub-name>`
-      inviteLink:
-        title: "ถัดไป: สร้างลิงก์คำเชิญ"
-        description: "ใช้ {hubInviteCommand} เพื่อสร้างรหัสเชิญสำหรับ **{hubName}** และแชร์ให้กับเจ้าของเซิร์ฟเวอร์คนอื่นๆ"
-      shareHub:
-        title: "แชร์ Hub ของคุณ"
-        description: "{dot} โพสต์เกี่ยวกับ Hub ใหม่ของคุณใน [Support Server]({supportInvite}) ของเรา\n{dot} แชร์กับเพื่อนและชุมชนต่างๆ\n{dot} ใช้โซเชียลมีเดียเพื่อบอกต่อ"
-      proTips:
-        title: "{dot} เคล็ดลับมือโปร"
-        description: "{dot} เยี่ยมชม [Dashboard]({website}) เพื่อการตั้งค่าขั้นสูง\n{dot} ใช้ {hubVisibilityCommand} เพื่อทำให้ Hub ของคุณเป็นสาธารณะ\n{dot} เข้าร่วม [Support Server]({supportInvite}) ของเราเพื่อขอความช่วยเหลือและรับข่าวสารอัปเดต"
-
-    wizard:
-      start: "เริ่มสร้าง Hub ของคุณ"
-      name:
-        label: "ชื่อ Hub"
-        placeholder: "Hub สุดเจ๋งของฉัน"
-      tagline:
-        label: "คำโปรยของ Hub"
-        placeholder: "สรุปเกี่ยวกับ Hub ของคุณในประโยคเดียว"
-      description:
-        label: "คำอธิบายฉบับเต็ม"
-        placeholder: "อธิบาย Hub ของคุณโดยละเอียด (20-1000 ตัวอักษร)"
-      steps:
-        progress: "ขั้นตอนที่ {current}/{total}"
-        step1:
-          modalTitle: "ขั้นตอนที่ 1/7: รายละเอียด Hub"
-        step2:
-          title: "โลโก้ Hub"
-          description: |
-            เพิ่มโลโก้สำหรับ Hub ของคุณ!
-
-            -# 💡 *คำแนะนำ: ใช้ URL รูปภาพ (PNG, JPG, GIF, WEBP) หรือเลือกใช้อวตารบอทเริ่มต้น*
-          modalTitle: "ขั้นตอนที่ 2/7: โลโก้"
-          logoUrlLabel: "URL โลโก้"
-          logoUrlPlaceholder: "https://example.com/logo.png"
-          addLogoButton: "เพิ่มโลโก้"
-          invalidUrl: "URL รูปภาพไม่ถูกต้อง ใช้อวตารบอทเริ่มต้นแทน"
-        step3:
-          description: |
-            เลือกการมองเห็นของ Hub ของคุณ:
-
-            🔓 **สาธารณะ**: ค้นหาได้ในไดเรกทอรี Hub, จำเป็นต้องมีกฎ
-            👁️ **ไม่แสดงในรายการ**: ไม่อยู่ในไดเรกทอรี แต่ใครก็เข้าร่วมได้ถ้ารู้ชื่อ
-            🔒 **ส่วนตัว**: ต้องได้รับเชิญเท่านั้น, ไม่แสดงต่อสาธารณะ
-
-            -# 💡 *คำแนะนำ: คุณสามารถเปลี่ยนสิ่งนี้ได้ภายหลังในการตั้งค่า Hub*
-          publicButton: "Hub สาธารณะ"
-          unlistedButton: "ไม่แสดงในรายการ"
-          privateButton: "Hub ส่วนตัว"
-        step4:
-          title: "กฎของชุมชน"
-          description: "กำหนดแนวทางปฏิบัติสำหรับ Hub ของคุณ"
-          requiredPublic: "**จำเป็นสำหรับ Hub สาธารณะ**"
-          optional: "ไม่บังคับ"
-          tip: "-# 💡 *คำแนะนำ: เพิ่มหนึ่งกฎต่อบรรทัด คุณสามารถเพิ่มกฎได้สูงสุด 25 ข้อ*"
-          modalTitle: "ขั้นตอนที่ 4/7: กฎระเบียบ"
-          rulesLabel: "กฎของ Hub"
-          rulesPlaceholder: "1. ให้เกียรติซึ่งกันและกัน\n2. ห้ามสแปม\n3. ปฏิบัติตาม ToS ของ Discord"
-          addRulesButton: "เพิ่มกฎ"
-        step5:
-          title: "ข้อความต้อนรับ"
-          description: |
-            สร้างข้อความต้อนรับสำหรับสมาชิกใหม่!
-
-            -# 💡 *คำแนะนำ: ทำให้ดูเป็นมิตรและให้ข้อมูล สูงสุด 500 ตัวอักษร*
-          modalTitle: "ขั้นตอนที่ 5/7: ต้อนรับ"
-          welcomePlaceholder: "ยินดีต้อนรับสู่ {hubName} หรือ Hub ของเรา! โปรดอ่านกฎและขอให้สนุก!"
-          customMessageButton: "ข้อความที่กำหนดเอง"
-        step6:
-          title: "ฟีเจอร์ของ Hub"
-          description: |
-            เลือกฟีเจอร์เพื่อเปิดใช้งานสำหรับ Hub ของคุณ!
-            ✅ **เลือกไว้แล้ว**: รีแอคชั่น, ตัวกรองสแปม (แนะนำ)
-
-            -# 💡 *คำแนะนำ: คุณสามารถปรับสิ่งเหล่านี้ได้ตลอดเวลาใน `/hub configure`*
-          modulesPlaceholder: "เลือกโมดูลเพื่อเปิดใช้งาน..."
-          continueButton: "ดำเนินการต่อ"
-        step7:
-          description: |
-            เลือกช่องสำหรับบันทึก Moderation (ไม่บังคับ)
-            บันทึกรวมถึง: การแบน, การเตือน, รายงาน, และการกระทำอื่นๆ ของผู้ดูแล
-
-            -# 💡 *คำแนะนำ: เลือกช่องส่วนตัวสำหรับทีมงาน คุณสามารถกำหนดค่าประเภทบันทึกเพิ่มเติมได้ภายหลัง*
-          selectChannelButton: "เลือกช่อง"
-          channelSelectTitle: "เลือกช่องสำหรับบันทึก (Logging)"
-          channelSelectDescription: "เลือกช่องสำหรับบันทึก Moderation:"
-          channelSelectPlaceholder: "เลือกช่อง Logging"
-      summary:
-        title: "สรุปการตั้งค่า Hub"
-        description: "ตรวจสอบการตั้งค่า Hub ของคุณก่อนสร้าง:"
-        nameAndDescription: "ชื่อ & คำอธิบาย"
-        visibilityPublic: "🌐 สาธารณะ"
-        visibilityUnlisted: "👁️ ไม่แสดงในรายการ"
-        visibilityPrivate: "🔒 ส่วนตัว"
-        rulesCount: "ตั้งไว้ {count} ข้อ"
-        rulesNone: "ไม่มีกฎ (เพิ่มได้ภายหลัง)"
-        welcomeDefault: "ข้อความต้อนรับเริ่มต้น"
-        featuresNone: "ไม่มี"
-        loggingNone: "ไม่ได้ตั้งค่า"
-        footer: "พร้อมที่จะสร้าง Hub ของคุณหรือยัง?"
-      completion:
-        loading: "กำลังสร้าง Hub ของคุณ..."
-        loadingDescription: "โปรดรอสักครู่ขณะที่เราตั้งค่าทุกอย่าง..."
-        success: "สร้าง Hub สำเร็จแล้ว!"
-        successDescription: "{hubName} เปิดใช้งานแล้ว! 🎉"
-        dashboardLink: "จัดการ Hub ของคุณ"
-        publicPageLink: "ดูในไดเรกทอรี"
-        nextSteps: "ทำอะไรต่อดี?"
-        step1: |
-          **สำหรับ Hub ส่วนตัว: สร้างคำเชิญ**: `/hub invites hub:{hubName}`
-          *เชิญเซิร์ฟเวอร์เข้าร่วม Hub ของคุณ*
-
-          **สำหรับ Hub สาธารณะ: แชร์ Hub ของคุณ**: ดู [หน้าสาธารณะ](https://interchat.dev/hubs/{hubId}) ของ Hub คุณและใช้ลิงก์เพื่อเข้าร่วม!
-          *แชร์ Hub ของคุณกับผู้อื่นหรือเข้าร่วมจากที่นี่!*
-        step2: "**การตั้งค่าขั้นสูง**: `/hub configure {hubName}`\n   - ตัวกรองคำหยาบ (กฎ anti-swear ที่กำหนดเอง)\n   - การจัดการทีม Hub\n   - ตัวเลือกการบันทึกขั้นสูง\n   - ประกาศของ Hub"
-        step3: "**ต้องการความช่วยเหลือ?**: [เข้าร่วมเซิร์ฟเวอร์สนับสนุนของเรา]({supportInvite})"
-      cancelled:
-        description: "Hub ของคุณไม่ได้ถูกสร้างขึ้น คุณสามารถเริ่มใหม่ได้ตลอดเวลาด้วย `/hub create`"
-      errors:
-        cantUseWizard: "คุณไม่สามารถใช้วิซาร์ดนี้ได้"
-        invalidInput: "ข้อมูลไม่ถูกต้อง"
-        nameConstraint: "โอ๊ะโอ! ชื่อ Hub ของคุณต้องประกอบด้วยตัวอักษร ตัวเลข ช่องว่าง และขีดล่าง (underscore) เท่านั้น"
-        descConstraint: "คำอธิบายสั้นของ Hub ต้องมีความยาวระหว่าง 10 ถึง 100 ตัวอักษร"
-        uniqueConstraint: "โอ๊ะโอ! ชื่อ Hub นั้นถูกใช้ไปแล้ว คุณต้องเลือกชื่ออื่น"
-        processingError: "มีบางอย่างผิดพลาดขณะสร้าง Hub ของคุณ โปรดลองอีกครั้ง"
-        troubleshooting: "สิ่งที่คุณทำได้: • ตรวจสอบ URL โลโก้ • ลองอีกครั้ง • ติดต่อฝ่ายสนับสนุน"
-
+profanity:
+  actions:
+    editActions:
+      label: "แก้ไขการกระทำ"
+    patterns:
+      label: "รูปแบบคำ"
+    whitelist:
+      label: "Whitelist"
+    toggle:
+      label: "เปิด/ปิด การใช้งาน"
+      description: "เปิดหรือปิดกฎนี้"
     delete:
-      description: "Hub ของคุณถูกลบแล้ว"
-    connect:
-      success:
-        title: "เชื่อมต่อแล้ว!"
-        description: "เชื่อมต่อกับ **{hubName}** แล้ว - เริ่มคุยได้เลย!"
-        fieldValue: "ช่องที่เชื่อมต่อ: {channel}"
-      errors:
-        alreadyConnected:
-          title: เชื่อมต่อกับ Hub นี้อยู่แล้ว
-          description: "ดูเหมือนว่าเซิร์ฟเวอร์นี้มีการเชื่อมต่อกับ Hub นี้จาก {channel} ใช้ `/connection list` เพื่อเปลี่ยนช่องหรือ `/connection remove` เพื่อตัดการเชื่อมต่อจาก Hub"
-    disconnect:
-      title: "ตัดการเชื่อมต่อแล้ว!"
-      description: "ตัดการเชื่อมต่อจาก Hub แล้ว"
-      fieldValue: "ช่องที่เกี่ยวข้อง: {channel}"
-    invites:
-      title: "คำเชิญที่ใช้งานอยู่"
-      inviteUses: "**จำนวนการใช้:**"
-      inviteExpire: "**หมดอายุ:**"
-      noneFound: "ไม่พบรายการ!"
-    announcements:
-      title: "ประกาศ Hub"
-      description: |
-        สร้างประกาศแบบ **ครั้งเดียว** ที่จะส่งไปยังทุกช่องที่เชื่อมต่อ
-        -# เพื่อสร้างประกาศแบบ **ประจำ** โปรดไปที่เมนูการตั้งค่า Hub
-    config:
-      title: "การตั้งค่า Hub"
-      description: "ปรับแต่ง InterChat Hub สำหรับชุมชนของคุณ เลือกสิ่งที่คุณต้องการตั้งค่าด้านล่าง"
-      options:
-        general:
-          label: "การตั้งค่าทั่วไป"
-          description: "ปรับแต่งรูปลักษณ์ของ Hub, กฎ, และอื่นๆ"
-        rules:
-          label: "กฎของ Hub"
-          description: "จัดการกฎและแนวทางปฏิบัติของชุมชนใน Hub ของคุณ"
-        team:
-          label: "การจัดการทีม"
-          description: "จัดการทีมของ Hub และสิทธิ์ของเจ้าหน้าที่"
-        modules:
-          label: "โมดูล"
-          description: "เปิดหรือปิดโมดูลเพิ่มเติมภายใน Hub ของคุณ"
-        logging:
-          label: "การตั้งค่า Logging"
-          description: "ตั้งค่าช่องสำหรับบันทึกและบทบาทการแจ้งเตือนสำหรับ Hub ของคุณ"
-        transfer:
-          label: "โอนความเป็นเจ้าของ"
-          description: "โอนความเป็นเจ้าของ Hub ของคุณให้ผู้อื่น"
-        announcements:
-          label: "ประกาศตามกำหนดเวลา"
-          description: "ตั้งค่าประกาศอัตโนมัติตามกำหนดเวลาสำหรับ Hub ของคุณ"
-    all:
-      title: "InterChat Hubs"
-      description: "ด้านล่างนี้คุณจะสามารถค้นหาผ่านรายชื่อ Hub ทั้งหมดของเรา! ลองดูสิว่าคุณจะเจอใครบ้าง"
-      filteredBy: "ผลลัพธ์กรองโดย: {filter}"
-      errors:
-        notFound: "โอ๊ะโอ! ฉันไม่สามารถหา Hub ใดๆ ได้เลย มันคงไม่น่าจะเกิดขึ้น โปรดติดต่อ [ทีมสนับสนุน]({supportServer}) ของเรา"
-        invalidFilter: "เงียบกริบ... ไม่มี Hub ไหนตรงกับตัวกรองของคุณ"
-      modal:
-        title: "ตัวกรองการค้นหา"
-        searchFilter:
-          label: "ตัวกรอง"
-          placeholder: "InterChat Central"
-
-  rules:
-    title: "การจัดการกฎ Hub"
-    displayTitle: "กฎของ {hubName}"
-    description: "จัดการกฎชุมชนและแนวทางปฏิบัติของ Hub คุณด้านล่าง"
-    footer: "{count} กฎ • ปฏิบัติตามแนวทางเหล่านี้เพื่อรักษาชุมชนที่ดี"
-    noRules: "ยังไม่มีการตั้งกฎสำหรับ Hub นี้"
-    selectRule:
-      placeholder: "เลือกกฎเพื่อแก้ไขหรือลบ..."
-    addRule:
-      label: "เพิ่มกฎ"
-      modal:
-        title: "เพิ่มกฎใหม่"
-        placeholder: "ใส่กฎใหม่ของคุณที่นี่..."
-    editRule:
-      label: "แก้ไขกฎ"
-      modal:
-        title: "แก้ไขกฎ"
-        placeholder: "ใส่กฎที่อัปเดตของคุณที่นี่..."
-    deleteRule:
       label: "ลบกฎ"
-      confirmation: "คุณแน่ใจหรือไม่ว่าต้องการลบกฎข้อนี้?"
-    moveUp:
-      label: "ย้ายขึ้น"
-    moveDown:
-      label: "ย้ายลง"
-    viewAll:
-      label: "ดูกฎทั้งหมด"
-    validation:
-      empty: "กฎห้ามเป็นค่าว่าง"
-      tooLong: "กฎต้องมีความยาวไม่เกิน {maxLength} ตัวอักษร"
-      maxRules: "อนุญาตให้มีกฎได้สูงสุด {maxRules} ข้อ"
-    success:
-      added: "เพิ่มกฎเรียบร้อยแล้ว!"
-      updated: "อัปเดตกฎเรียบร้อยแล้ว!"
-      deleted: "ลบกฎเรียบร้อยแล้ว!"
-      moved: "ย้ายกฎเรียบร้อยแล้ว!"
-    errors:
-      maxRulesReached: "ถึงขีดจำกัดจำนวนกฎแล้ว ({maxRules})"
-      noRulesAvailable: "ไม่มีกฎให้เลือก"
-      sessionExpired: "เซสชันหมดอายุ"
-      sessionExpiredDescription: "เซสชันการตั้งค่านี้หมดอายุแล้ว โปรดรันคำสั่งอีกครั้งเพื่อจัดการกฎต่อ"
-      actionCancelled: "การดำเนินการถูกยกเลิก"
-      actionCancelledDescription: "การดำเนินการเกี่ยวกับกฎถูกยกเลิก ไม่มีการเปลี่ยนแปลงใดๆ เกิดขึ้น"
-      ruleNotFound: "การเลือกกฎไม่ถูกต้อง กฎอาจถูกลบโดยผู้ใช้อื่นไปแล้ว"
-      invalidRuleSelection: "การเลือกกฎไม่ถูกต้อง โปรดลองใหม่"
-      processingError: "เกิดข้อผิดพลาดขณะประมวลผลคำขอของคุณ โปรดลองใหม่"
-      refreshError: "เกิดข้อผิดพลาดขณะรีเฟรช โปรดลองใหม่"
-      navigationError: "เกิดข้อผิดพลาดขณะนำทาง โปรดลองใหม่"
-      selectionError: "เกิดข้อผิดพลาดขณะเลือกกฎ โปรดลองใหม่"
-      deletionCancelled: "ยกเลิก"
-      deletionCancelledDescription: "การลบกฎถูกยกเลิก ไม่มีการเปลี่ยนแปลงใดๆ เกิดขึ้น"
-      noHub: "คำสั่งนี้ต้องใช้ในช่องของเซิร์ฟเวอร์ที่เชื่อมต่อกับ Hub หรือคุณต้องระบุชื่อ Hub"
-      notConnected: "ช่องนี้ไม่ได้เชื่อมต่อกับ Hub ใดๆ"
-    warnings:
-      deleteWarning: "คำเตือน"
-      deleteWarningDescription: "การกระทำนี้ไม่สามารถย้อนกลับได้ กฎจะถูกลบออกจาก Hub ของคุณอย่างถาวร"
-    display:
-      noRulesTitle: "ไม่มีกฎที่ตั้งไว้"
-      noRulesDescription: 'ยังไม่มีการตั้งกฎสำหรับ Hub นี้ ใช้ปุ่ม "เพิ่มกฎ" ด้านล่างเพื่อสร้างกฎข้อแรกของคุณ'
-      currentRulesTitle: "กฎปัจจุบัน ({current}/{max})"
-      ruleSelected: "เลือกกฎข้อที่ {number}"
-      currentRule: "กฎปัจจุบัน:"
+      description: "⚠️ ลบกฎนี้ทิ้งอย่างถาวร"
 
-  connection:
-    title: "การจัดการการเชื่อมต่อ"
-    description: "กำหนดค่าและบริหารจัดการการเชื่อมต่อ Hub ทั้งหมดภายในเซิร์ฟเวอร์นี้"
-    fixAll:
-      label: "ซ่อมแซมการเชื่อมต่อทั้งหมด"
-    manage:
-      placeholder: "เลือกการเชื่อมต่อเพื่อจัดการ"
-    selected:
-      description: "ตอนนี้คุณสามารถแก้ไขการเชื่อมต่อนี้ได้ ใช้เมนูดรอปดาวน์ด้านล่างเพื่อเปลี่ยนช่องกระจายข้อความ หรือแก้ไขการตั้งค่าเกี่ยวกับการเชื่อมต่อ"
-      fields:
-        broadcastChannel: "กระจายข้อความไปยัง"
-        connectionState: "สถานะการกระจายข้อความ"
-        lastActive: "ใช้งานล่าสุด"
-      state:
-        enabled: "การกระจายข้อความ **เปิดใช้งาน** อยู่"
-        disabled: "การกระจายข้อความ **หยุดชั่วคราว** อยู่"
-    fix:
-      title: "การตรวจสอบการเชื่อมต่อ"
-      description: "การเชื่อมต่อทั้งหมดในกิลด์นี้ได้รับการตรวจสอบแล้ว ดูข้อมูลเพิ่มเติมด้านล่าง"
-      responses:
-        success:
-          fixed: "ซ่อมแซมการเชื่อมต่อแล้ว!"
-          valid: "ไม่พบปัญหา"
-        errors:
-          channelDeleted: "ช่องที่เกี่ยวข้องกับ Hub นี้ถูกลบไปแล้ว การเชื่อมต่อถูกลบออก"
-          permissionsWebhook: "ฉันไม่สามารถจัดการ Webhooks ได้ โปรดตรวจสอบสิทธิ์ของฉันแล้วลองอีกครั้ง"
-          permissionsView: "ฉันไม่สามารถมองเห็นช่องได้ โปรดตรวจสอบสิทธิ์ของฉันแล้วลองอีกครั้ง"
-          permissionsSend: "ฉันไม่สามารถส่งข้อความได้ โปรดตรวจสอบสิทธิ์ของฉันแล้วลองอีกครั้ง"
+welcomeMessage:
+  title: "ยินดีต้อนรับสู่ InterChat Hub ที่ชื่อว่า **{hubName}**!"
+  footer: "เชื่อมต่อกับ {hubName}"
+  errorDm: "ส่งข้อความต้อนรับสำหรับ Hub ที่คุณเข้าร่วมล้มเหลว ตรวจสอบให้แน่ใจว่าฉันมีสิทธิ์ส่งข้อความใน {channel}"
+  introText: "ตอนนี้คุณเชื่อมต่อกับเครือข่ายของเซิร์ฟเวอร์แล้ว ข้อความที่คุณส่งที่นี่จะปรากฏแก่ทุกคนใน Hub นี้"
+  quickActions: "การกระทำด่วน"
+  buttons:
+    rules: "กฎระเบียบ"
+    profile: "โปรไฟล์"
+    hubInfo: "ข้อมูล Hub"
+    report: "วิธีรายงาน"
+    support: "Support"
+    disconnect: "ตัดการเชื่อมต่อ"
+  hubInfo:
+    title: "ข้อมูล Hub"
+    connections: "🔗 การเชื่อมต่อ"
+    members: "👥 สมาชิกที่เข้าถึง"
+    description: "คำอธิบาย"
+  disconnectConfirm:
+    title: "ตัดการเชื่อมต่อจาก Hub?"
+    description: "คุณแน่ใจหรือไม่ว่าต้องการตัดการเชื่อมต่อจาก **{hubName}**?"
 
-  messageInfo:
-    tabs:
-      message:
-        title: "ข้อมูลข้อความ"
-        button: "ข้อความ"
-      user:
-        title: "ข้อมูลผู้ใช้"
-        button: "ผู้ใช้"
-      server:
-        title: "ข้อมูลเซิร์ฟเวอร์"
-        button: "เซิร์ฟเวอร์"
-    fields:
-      messageId: "ID ข้อความ"
-      server: "เซิร์ฟเวอร์"
-      author: "ผู้เขียน"
-      hub: "Hub"
-      content: "เนื้อหา"
-      timestamp: "เวลา"
-      username: "ชื่อผู้ใช้"
-      accountCreated: "บัญชีสร้างเมื่อ"
-      badges: "ตราสัญลักษณ์"
-      serverName: "ชื่อเซิร์ฟเวอร์"
-      connectionChannel: "ช่องเชื่อมต่อ"
-      connectedSince: "เชื่อมต่อตั้งแต่"
+infractions:
+  description: "ดูการทำผิดกฎใน Hub กรองตามผู้ใช้หรือเซิร์ฟเวอร์"
+  buttons:
+    userInfractions: "การทำผิดกฎของผู้ใช้"
+    serverInfractions: "การทำผิดกฎของเซิร์ฟเวอร์"
+  titles:
+    base: "การทำผิดกฎ · {hubName}"
+    userList: "การทำผิดกฎของผู้ใช้ · {hubName}"
+    serverList: "การทำผิดกฎของเซิร์ฟเวอร์ · {hubName}"
+    userSpecific: "การทำผิดกฎสำหรับ {user} · {hubName}"
+    serverSpecific: "การทำผิดกฎสำหรับเซิร์ฟเวอร์ {serverId} · {hubName}"
+  descriptions:
+    base: "เลือกประเภทการทำผิดกฎที่ต้องการดูสำหรับ Hub นี้"
+    userListEmpty: "ไม่พบการทำผิดกฎของผู้ใช้สำหรับ Hub นี้"
+    serverListEmpty: "ไม่พบการทำผิดกฎของเซิร์ฟเวอร์สำหรับ Hub นี้"
+    userSpecificEmpty: "ไม่พบการทำผิดกฎสำหรับผู้ใช้นี้ใน Hub นี้"
+    serverSpecificEmpty: "ไม่พบการทำผิดกฎสำหรับเซิร์ฟเวอร์นี้ใน Hub นี้"
+  labels:
+    infraction: "การทำผิดกฎ"
+  fields:
+    moderator: "Moderator"
+    issued: "ออกให้เมื่อ"
+    evidence: "หลักฐาน"
+
+  evidence:
+    content: "เนื้อหา"
+    author: "ผู้เขียน"
+    notAvailable: "ไม่มีหลักฐาน"
+  errors:
+    noPermission: "คุณไม่มีสิทธิ์ดูข้อมูลการทำผิดกฎสำหรับ Hub นี้"
+    bothSelection: "โปรดเลือกเฉพาะผู้ใช้ หรือ เซิร์ฟเวอร์ เพียงอย่างเดียว ไม่ใช่ทั้งคู่"
+    invalidServerId: "ID เซิร์ฟเวอร์ไม่ถูกต้อง"
+  permissions:
+    insufficient: "คุณต้องมีสิทธิ์ระดับ {permission}+ ใน Hub นี้"
+    managerRequired: "ต้องมีสิทธิ์ระดับ Manager+ ขึ้นไป"
+  target:
+    both: "โปรดระบุผู้ใช้ หรือ เซิร์ฟเวอร์ อย่างใดอย่างหนึ่ง ไม่ใช่ทั้งสองอย่าง"
+    missing: "โปรดระบุผู้ใช้ หรือ เซิร์ฟเวอร์"
+  success:
+    action: "{action} {target} {prep} {hubName} แล้ว"
+  revoke:
+    noActive: "ไม่พบสถานะ {action} ที่ใช้งานอยู่"
+    success: "ยกเลิก {action} แล้ว"
+  delete:
+    notImplemented: "การลบข้อความยังไม่เปิดใช้งาน บันทึกเหตุผล: {reason}"
+    notFound: "ไม่พบข้อมูลการลงโทษ"
+    success: "ลบข้อมูลการลงโทษเรียบร้อยแล้ว"
+  blacklist:
+    permissionDenied: "คุณไม่มีสิทธิ์ระดับเจ้าหน้าที่ InterChat เพื่อออกคำสั่ง Blacklist ทั่วโลก"
+    alreadyActive: "เป้าหมายติดสถานะ Blacklist ทั่วโลกอยู่แล้ว"
+    success: "Blacklist {target} ทั่วโลกแล้ว"
+
+staff:
+  get:
+    description: "รับข้อมูลเกี่ยวกับเอนทิตีของ InterChat"
+    server:
+      description: "รับข้อมูลโดยละเอียดเกี่ยวกับเซิร์ฟเวอร์"
+    hub:
+      description: "รับข้อมูลโดยละเอียดเกี่ยวกับ Hub"
+    user:
+      description: "รับข้อมูลโดยละเอียดเกี่ยวกับผู้ใช้"
+  hub:
+    section:
       status: "สถานะ"
-    status:
-      connected: "เชื่อมต่อ"
-      disconnected: "ตัดการเชื่อมต่อ"
-    buttons:
-      profile: "โปรไฟล์"
-    unknown:
-      server: "เซิร์ฟเวอร์ที่ไม่รู้จัก"
-    noBadges: "ไม่มีตราสัญลักษณ์ที่จะแสดง"
-    noConnection: "ไม่มีข้อมูลการเชื่อมต่อ"
-
-  leaderboard:
-    staffTag: "เจ้าหน้าที่ InterChat"
-    userTag: "ผู้ใช้"
-    messagesColumn: "ข้อความ"
-    voteCountColumn: "จำนวนโหวต"
-
-  profile:
-    achievements:
-      noneFound: "ไม่พบข้อมูล"
-      noneFoundDescription: "ฉันไม่พบความสำเร็จใดๆ สำหรับผู้ใช้นี้!"
-      placeholder: "ความสำเร็จอยู่ที่นี่"
-    badges:
-      noneFound: "ไม่พบข้อมูล"
-      noneFoundDescription: "ฉันไม่พบตราสัญลักษณ์ใดๆ สำหรับผู้ใช้นี้!"
-
-  my:
-    hubs:
-      title: "Hub ของคุณ"
-      description: "นี่คือ Hub ที่คุณเป็นเจ้าของหรือดูแลอยู่:"
-      position: "ตำแหน่ง:"
+      moderation: "Moderation"
+    fields:
+      name: "ชื่อ"
+      messages: "ข้อความ"
+      connections: "การเชื่อมต่อ"
+      created: "สร้างเมื่อ"
+      lastActive: "ใช้งานล่าสุด"
+      upvotes: "Upvotes"
       owner: "เจ้าของ"
+      location: "ตำแหน่ง"
+      activity: "กิจกรรม"
+      appealCooldown: "คูลดาวน์การอุทธรณ์"
+      welcomeMessage: "ข้อความต้อนรับ"
+      description: "คำอธิบาย"
+    values:
+      messagesThisWeek: "**{count}** สัปดาห์นี้"
+      connectionsActive: "**{count}** ใช้งานอยู่"
+      upvotesTotal: "**{count}** ทั้งหมด"
+    badges:
+      verified: "Verified"
+      partnered: "Partnered"
+      featured: "Featured"
+      private: "ส่วนตัว"
+      locked: "ล็อค"
+      nsfw: "NSFW"
+  server:
+    fields:
+      name: "ชื่อ"
+      inviteCode: "รหัสเชิญ"
+      messages: "ข้อความ"
+      connections: "การเชื่อมต่อ"
+      lastMessage: "ข้อความล่าสุด"
+      updated: "อัปเดต"
+    values:
+      messagesTotal: "**{count}** ทั้งหมด"
+      connectionsActive: "**{count}** ใช้งานอยู่"
+      premium: "Premium"
+      standard: "Standard"
+  user:
+    fields:
+      name: "ชื่อ"
+      messages: "ข้อความ"
+      reputation: "ชื่อเสียง"
+      votes: "โหวต"
+      hubJoins: "การเข้าร่วม Hub"
+      engagement: "การมีส่วนร่วม"
+      locale: "ภาษา"
+      lastMessage: "ข้อความล่าสุด"
+      lastVote: "โหวตล่าสุด"
 
-  stats:
-    title: "สถิติ InterChat"
-    shard:
-      title: "ข้อมูล Shard"
-      statusReady: "พร้อมใช้งาน"
-      statusProvisioning: "กำลังจัดเตรียม..."
-      current: "Shard ปัจจุบัน: #{id}"
+    values:
+      staff: "Staff"
+      member: "Member"
+      messagesSent: "**{count}** ส่งแล้ว"
+      reputationPoints: "**{count}** แต้ม"
+      votesCast: "**{count}** ครั้ง"
+      hubJoinsTotal: "**{count}** ทั้งหมด"
+      notSet: "ไม่ได้ตั้งค่า"
+      never: "ไม่เคย"
+    sections:
+      preferences: "การตั้งค่า"
+      createdContent: "เนื้อหาที่สร้าง"
+      activity: "กิจกรรม"
+      donation: "การบริจาค"
+      badges: "ตราสัญลักษณ์"
+    preferences:
+      showBadges: "แสดงตราสัญลักษณ์"
+      mentionOnReply: "แจ้งเตือนเมื่อตอบกลับ"
+      showNsfwHubs: "แสดง Hub NSFW"
+    content:
+      hubs: "{count} Hubs"
+      modPositions: "{count} ตำแหน่ง Mod"
+      blockedWords: "{count} คำที่ถูกบล็อก"
+      antiSwearRules: "{count} กฎห้ามคำหยาบ"
+    moderation:
+      infractionsReceived: "{count} ครั้งที่ถูกลงโทษ"
+      infractionsIssued: "{count} ครั้งที่ลงโทษผู้อื่น"
+      blacklistsReceived: "{count} ครั้งที่โดน Blacklist"
+      blacklistsIssued: "{count} ครั้งที่สั่ง Blacklist"
+    activity:
+      appeals: "{count} การอุทธรณ์"
+      reviews: "{count} การรีวิว"
+      reportsMade: "{count} รายงานที่สร้าง"
+      reportsReceived: "{count} รายงานที่ได้รับ"
+      achievements: "{count} ความสำเร็จ"
+    donation:
+      tier: "ระดับ: {tier}"
+      expires: "หมดอายุ"
+  blacklist:
+    titles:
+      list: "รายการ Blacklist"
+      searchResults: "ผลการค้นหา Blacklist"
+      userList: "Blacklist ผู้ใช้"
+      serverList: "Blacklist เซิร์ฟเวอร์"
+    descriptions:
+      list: "รายการ Blacklist ทั้งหมด"
+      command: "ดูรายการ Blacklist กรองโดยผู้ใช้หรือเซิร์ฟเวอร์"
+      noEntriesPage: "ไม่มีรายการในหน้านี้"
+      userListEmpty: "ไม่พบผู้ใช้ที่ติด Blacklist"
+      serverListEmpty: "ไม่พบเซิร์ฟเวอร์ที่ติด Blacklist"
+    fields:
+      user: "ผู้ใช้"
+      server: "เซิร์ฟเวอร์"
+      expires: "หมดอายุ"
+      staff: "เจ้าหน้าที่"
+      added: "เพิ่มเมื่อ"
+    labels:
+      user: "ผู้ใช้"
+      server: "เซิร์ฟเวอร์"
+    notFound: "ไม่พบรายการ Blacklist ที่ตรงกัน"
+    removed: "ลบรายการ Blacklist แล้ว"
 
-  invite:
-    title: "เฮ้!"
-    description: "ขอบคุณที่เลือก InterChat ต้องการความช่วยเหลือ? เข้าร่วมเซิร์ฟเวอร์สนับสนุนของเรา ใช้ปุ่มด้านล่างเพื่อเชิญบอทของเราไปยังเซิร์ฟเวอร์ของคุณและเริ่มเชื่อมต่อเซิร์ฟเวอร์ต่างๆ เข้าด้วยกัน"
+hub:
+  lock:
+    successTitle: "ล็อค Hub แล้ว"
+    successDescription: "ล็อค **{hub}** เรียบร้อยแล้ว สมาชิกใหม่ไม่สามารถเข้าร่วมได้"
+    announceTitle: "ล็อค Hub แล้ว"
+    announceDescription: "Hub นี้ถูกล็อคโดยผู้ดูแล\nเฉพาะผู้ดูแลเท่านั้นที่สามารถส่งข้อความได้ในขณะนี้"
+  unlock:
+    successTitle: "ปลดล็อค Hub แล้ว"
+    successDescription: "ปลดล็อค **{hub}** เรียบร้อยแล้ว สมาชิกใหม่สามารถเข้าร่วมได้แล้ว"
+    announceTitle: "ปลดล็อค Hub แล้ว"
+    announceDescription: "Hub นี้ถูกปลดล็อคโดยผู้ดูแล\nคุณสามารถส่งข้อความได้แล้ว"
+  events:
+    serverJoined:
+      title: "🎉 เซิร์ฟเวอร์ใหม่เข้าร่วม!"
+      description: "**{serverName}** ได้เข้าร่วม Hub แล้ว! มาต้อนรับพวกเขาสู่ชุมชนของเรากันเถอะ"
+      footer: "ยินดีต้อนรับสู่ {hubName}!"
+  create:
+    title: "สร้าง Hub ของคุณ"
+    description: "สร้าง InterChat Hub ของคุณเองสำหรับชุมชน, เพื่อนๆ... หรือใครก็ได้ - รายชื่ออาจยาวเหยียดเลยทีเดียว เอาล่ะ ลองดูสิว่าจะพาคุณไปถึงไหน"
+  nextSteps:
+    created:
+      title: "สร้าง Hub สำเร็จแล้ว!"
+      description: |
+        Hub **{hubName}** ของคุณพร้อมแล้ว! นี่คือสิ่งที่คุณทำได้ต่อไป:
+        - เชิญเซิร์ฟเวอร์แรกของคุณโดยใช้ `/invite`
+        - ตั้งกฎด้วย `/rules set`
+        - ปรับแต่งการตั้งค่าใน [dashboard](https://interchat.dev/dashboard)
+        - เชื่อมต่อช่องสนทนาด้วย `/connection add <hub-name>`
+    inviteLink:
+      title: "ถัดไป: สร้างลิงก์คำเชิญ"
+      description: "ใช้ {hubInviteCommand} เพื่อสร้างรหัสเชิญสำหรับ **{hubName}** และแชร์ให้กับเจ้าของเซิร์ฟเวอร์คนอื่นๆ"
+    shareHub:
+      title: "แชร์ Hub ของคุณ"
+      description: "{dot} โพสต์เกี่ยวกับ Hub ใหม่ของคุณใน [Support Server]({supportInvite}) ของเรา\n{dot} แชร์กับเพื่อนและชุมชนต่างๆ\n{dot} ใช้โซเชียลมีเดียเพื่อบอกต่อ"
+    proTips:
+      title: "{dot} เคล็ดลับมือโปร"
+      description: "{dot} เยี่ยมชม [Dashboard]({website}) เพื่อการตั้งค่าขั้นสูง\n{dot} ใช้ {hubVisibilityCommand} เพื่อทำให้ Hub ของคุณเป็นสาธารณะ\n{dot} เข้าร่วม [Support Server]({supportInvite}) ของเราเพื่อขอความช่วยเหลือและรับข่าวสารอัปเดต"
+
+  wizard:
+    start: "เริ่มสร้าง Hub ของคุณ"
+    name:
+      label: "ชื่อ Hub"
+      placeholder: "Hub สุดเจ๋งของฉัน"
+    tagline:
+      label: "คำโปรยของ Hub"
+      placeholder: "สรุปเกี่ยวกับ Hub ของคุณในประโยคเดียว"
+    description:
+      label: "คำอธิบายฉบับเต็ม"
+      placeholder: "อธิบาย Hub ของคุณโดยละเอียด (20-1000 ตัวอักษร)"
+    steps:
+      progress: "ขั้นตอนที่ {current}/{total}"
+      step1:
+        modalTitle: "ขั้นตอนที่ 1/7: รายละเอียด Hub"
+      step2:
+        title: "โลโก้ Hub"
+        description: |
+          เพิ่มโลโก้สำหรับ Hub ของคุณ!
+
+          -# 💡 *คำแนะนำ: ใช้ URL รูปภาพ (PNG, JPG, GIF, WEBP) หรือเลือกใช้อวตารบอทเริ่มต้น*
+        modalTitle: "ขั้นตอนที่ 2/7: โลโก้"
+        logoUrlLabel: "URL โลโก้"
+        logoUrlPlaceholder: "https://example.com/logo.png"
+        addLogoButton: "เพิ่มโลโก้"
+        invalidUrl: "URL รูปภาพไม่ถูกต้อง ใช้อวตารบอทเริ่มต้นแทน"
+      step3:
+        description: |
+          เลือกการมองเห็นของ Hub ของคุณ:
+
+          🔓 **สาธารณะ**: ค้นหาได้ในไดเรกทอรี Hub, จำเป็นต้องมีกฎ
+          👁️ **ไม่แสดงในรายการ**: ไม่อยู่ในไดเรกทอรี แต่ใครก็เข้าร่วมได้ถ้ารู้ชื่อ
+          🔒 **ส่วนตัว**: ต้องได้รับเชิญเท่านั้น, ไม่แสดงต่อสาธารณะ
+
+          -# 💡 *คำแนะนำ: คุณสามารถเปลี่ยนสิ่งนี้ได้ภายหลังในการตั้งค่า Hub*
+        publicButton: "Hub สาธารณะ"
+        unlistedButton: "ไม่แสดงในรายการ"
+        privateButton: "Hub ส่วนตัว"
+      step4:
+        title: "กฎของชุมชน"
+        description: "กำหนดแนวทางปฏิบัติสำหรับ Hub ของคุณ"
+        requiredPublic: "**จำเป็นสำหรับ Hub สาธารณะ**"
+        optional: "ไม่บังคับ"
+        tip: "-# 💡 *คำแนะนำ: เพิ่มหนึ่งกฎต่อบรรทัด คุณสามารถเพิ่มกฎได้สูงสุด 25 ข้อ*"
+        modalTitle: "ขั้นตอนที่ 4/7: กฎระเบียบ"
+        rulesLabel: "กฎของ Hub"
+        rulesPlaceholder: "1. ให้เกียรติซึ่งกันและกัน\n2. ห้ามสแปม\n3. ปฏิบัติตาม ToS ของ Discord"
+        addRulesButton: "เพิ่มกฎ"
+      step5:
+        title: "ข้อความต้อนรับ"
+        description: |
+          สร้างข้อความต้อนรับสำหรับสมาชิกใหม่!
+
+          -# 💡 *คำแนะนำ: ทำให้ดูเป็นมิตรและให้ข้อมูล สูงสุด 500 ตัวอักษร*
+        modalTitle: "ขั้นตอนที่ 5/7: ต้อนรับ"
+        welcomePlaceholder: "ยินดีต้อนรับสู่ {hubName} หรือ Hub ของเรา! โปรดอ่านกฎและขอให้สนุก!"
+        customMessageButton: "ข้อความที่กำหนดเอง"
+      step6:
+        title: "ฟีเจอร์ของ Hub"
+        description: |
+          เลือกฟีเจอร์เพื่อเปิดใช้งานสำหรับ Hub ของคุณ!
+          ✅ **เลือกไว้แล้ว**: รีแอคชั่น, ตัวกรองสแปม (แนะนำ)
+
+          -# 💡 *คำแนะนำ: คุณสามารถปรับสิ่งเหล่านี้ได้ตลอดเวลาใน `/hub configure`*
+        modulesPlaceholder: "เลือกโมดูลเพื่อเปิดใช้งาน..."
+        continueButton: "ดำเนินการต่อ"
+      step7:
+        description: |
+          เลือกช่องสำหรับบันทึก Moderation (ไม่บังคับ)
+          บันทึกรวมถึง: การแบน, การเตือน, รายงาน, และการกระทำอื่นๆ ของผู้ดูแล
+
+          -# 💡 *คำแนะนำ: เลือกช่องส่วนตัวสำหรับทีมงาน คุณสามารถกำหนดค่าประเภทบันทึกเพิ่มเติมได้ภายหลัง*
+        selectChannelButton: "เลือกช่อง"
+        channelSelectTitle: "เลือกช่องสำหรับบันทึก (Logging)"
+        channelSelectDescription: "เลือกช่องสำหรับบันทึก Moderation:"
+        channelSelectPlaceholder: "เลือกช่อง Logging"
+    summary:
+      title: "สรุปการตั้งค่า Hub"
+      description: "ตรวจสอบการตั้งค่า Hub ของคุณก่อนสร้าง:"
+      nameAndDescription: "ชื่อ & คำอธิบาย"
+      visibilityPublic: "🌐 สาธารณะ"
+      visibilityUnlisted: "👁️ ไม่แสดงในรายการ"
+      visibilityPrivate: "🔒 ส่วนตัว"
+      rulesCount: "ตั้งไว้ {count} ข้อ"
+      rulesNone: "ไม่มีกฎ (เพิ่มได้ภายหลัง)"
+      welcomeDefault: "ข้อความต้อนรับเริ่มต้น"
+      featuresNone: "ไม่มี"
+      loggingNone: "ไม่ได้ตั้งค่า"
+      footer: "พร้อมที่จะสร้าง Hub ของคุณหรือยัง?"
+    completion:
+      loading: "กำลังสร้าง Hub ของคุณ..."
+      loadingDescription: "โปรดรอสักครู่ขณะที่เราตั้งค่าทุกอย่าง..."
+      success: "สร้าง Hub สำเร็จแล้ว!"
+      successDescription: "{hubName} เปิดใช้งานแล้ว! 🎉"
+      dashboardLink: "จัดการ Hub ของคุณ"
+      publicPageLink: "ดูในไดเรกทอรี"
+      nextSteps: "ทำอะไรต่อดี?"
+      step1: |
+        **สำหรับ Hub ส่วนตัว: สร้างคำเชิญ**: `/hub invites hub:{hubName}`
+        *เชิญเซิร์ฟเวอร์เข้าร่วม Hub ของคุณ*
+
+        **สำหรับ Hub สาธารณะ: แชร์ Hub ของคุณ**: ดู [หน้าสาธารณะ](https://interchat.dev/hubs/{hubId}) ของ Hub คุณและใช้ลิงก์เพื่อเข้าร่วม!
+        *แชร์ Hub ของคุณกับผู้อื่นหรือเข้าร่วมจากที่นี่!*
+      step2: "**การตั้งค่าขั้นสูง**: `/hub configure {hubName}`\n   - ตัวกรองคำหยาบ (กฎ anti-swear ที่กำหนดเอง)\n   - การจัดการทีม Hub\n   - ตัวเลือกการบันทึกขั้นสูง\n   - ประกาศของ Hub"
+      step3: "**ต้องการความช่วยเหลือ?**: [เข้าร่วมเซิร์ฟเวอร์สนับสนุนของเรา]({supportInvite})"
+    cancelled:
+      description: "Hub ของคุณไม่ได้ถูกสร้างขึ้น คุณสามารถเริ่มใหม่ได้ตลอดเวลาด้วย `/hub create`"
+    errors:
+      cantUseWizard: "คุณไม่สามารถใช้วิซาร์ดนี้ได้"
+      invalidInput: "ข้อมูลไม่ถูกต้อง"
+      nameConstraint: "โอ๊ะโอ! ชื่อ Hub ของคุณต้องประกอบด้วยตัวอักษร ตัวเลข ช่องว่าง และขีดล่าง (underscore) เท่านั้น"
+      descConstraint: "คำอธิบายสั้นของ Hub ต้องมีความยาวระหว่าง 10 ถึง 100 ตัวอักษร"
+      uniqueConstraint: "โอ๊ะโอ! ชื่อ Hub นั้นถูกใช้ไปแล้ว คุณต้องเลือกชื่ออื่น"
+      processingError: "มีบางอย่างผิดพลาดขณะสร้าง Hub ของคุณ โปรดลองอีกครั้ง"
+      troubleshooting: "สิ่งที่คุณทำได้: • ตรวจสอบ URL โลโก้ • ลองอีกครั้ง • ติดต่อฝ่ายสนับสนุน"
+
+  delete:
+    description: "Hub ของคุณถูกลบแล้ว"
+  connect:
+    success:
+      title: "เชื่อมต่อแล้ว!"
+      description: "เชื่อมต่อกับ **{hubName}** แล้ว - เริ่มคุยได้เลย!"
+      fieldValue: "ช่องที่เชื่อมต่อ: {channel}"
+    errors:
+      alreadyConnected:
+        title: เชื่อมต่อกับ Hub นี้อยู่แล้ว
+        description: "ดูเหมือนว่าเซิร์ฟเวอร์นี้มีการเชื่อมต่อกับ Hub นี้จาก {channel} ใช้ `/connection list` เพื่อเปลี่ยนช่องหรือ `/connection remove` เพื่อตัดการเชื่อมต่อจาก Hub"
+  disconnect:
+    title: "ตัดการเชื่อมต่อแล้ว!"
+    description: "ตัดการเชื่อมต่อจาก Hub แล้ว"
+    fieldValue: "ช่องที่เกี่ยวข้อง: {channel}"
+  invites:
+    title: "คำเชิญที่ใช้งานอยู่"
+    inviteUses: "**จำนวนการใช้:**"
+    inviteExpire: "**หมดอายุ:**"
+    noneFound: "ไม่พบรายการ!"
+  announcements:
+    title: "ประกาศ Hub"
+    description: |
+      สร้างประกาศแบบ **ครั้งเดียว** ที่จะส่งไปยังทุกช่องที่เชื่อมต่อ
+      -# เพื่อสร้างประกาศแบบ **ประจำ** โปรดไปที่เมนูการตั้งค่า Hub
+  config:
+    title: "การตั้งค่า Hub"
+    description: "ปรับแต่ง InterChat Hub สำหรับชุมชนของคุณ เลือกสิ่งที่คุณต้องการตั้งค่าด้านล่าง"
+    options:
+      general:
+        label: "การตั้งค่าทั่วไป"
+        description: "ปรับแต่งรูปลักษณ์ของ Hub, กฎ, และอื่นๆ"
+      rules:
+        label: "กฎของ Hub"
+        description: "จัดการกฎและแนวทางปฏิบัติของชุมชนใน Hub ของคุณ"
+      team:
+        label: "การจัดการทีม"
+        description: "จัดการทีมของ Hub และสิทธิ์ของเจ้าหน้าที่"
+      modules:
+        label: "โมดูล"
+        description: "เปิดหรือปิดโมดูลเพิ่มเติมภายใน Hub ของคุณ"
+      logging:
+        label: "การตั้งค่า Logging"
+        description: "ตั้งค่าช่องสำหรับบันทึกและบทบาทการแจ้งเตือนสำหรับ Hub ของคุณ"
+      transfer:
+        label: "โอนความเป็นเจ้าของ"
+        description: "โอนความเป็นเจ้าของ Hub ของคุณให้ผู้อื่น"
+      announcements:
+        label: "ประกาศตามกำหนดเวลา"
+        description: "ตั้งค่าประกาศอัตโนมัติตามกำหนดเวลาสำหรับ Hub ของคุณ"
+  all:
+    title: "InterChat Hubs"
+    description: "ด้านล่างนี้คุณจะสามารถค้นหาผ่านรายชื่อ Hub ทั้งหมดของเรา! ลองดูสิว่าคุณจะเจอใครบ้าง"
+    filteredBy: "ผลลัพธ์กรองโดย: {filter}"
+    errors:
+      notFound: "โอ๊ะโอ! ฉันไม่สามารถหา Hub ใดๆ ได้เลย มันคงไม่น่าจะเกิดขึ้น โปรดติดต่อ [ทีมสนับสนุน]({supportServer}) ของเรา"
+      invalidFilter: "เงียบกริบ... ไม่มี Hub ไหนตรงกับตัวกรองของคุณ"
+    modal:
+      title: "ตัวกรองการค้นหา"
+      searchFilter:
+        label: "ตัวกรอง"
+        placeholder: "InterChat Central"
+
+rules:
+  title: "การจัดการกฎ Hub"
+  displayTitle: "กฎของ {hubName}"
+  description: "จัดการกฎชุมชนและแนวทางปฏิบัติของ Hub คุณด้านล่าง"
+  footer: "{count} กฎ • ปฏิบัติตามแนวทางเหล่านี้เพื่อรักษาชุมชนที่ดี"
+  noRules: "ยังไม่มีการตั้งกฎสำหรับ Hub นี้"
+  selectRule:
+    placeholder: "เลือกกฎเพื่อแก้ไขหรือลบ..."
+  addRule:
+    label: "เพิ่มกฎ"
+    modal:
+      title: "เพิ่มกฎใหม่"
+      placeholder: "ใส่กฎใหม่ของคุณที่นี่..."
+  editRule:
+    label: "แก้ไขกฎ"
+    modal:
+      title: "แก้ไขกฎ"
+      placeholder: "ใส่กฎที่อัปเดตของคุณที่นี่..."
+  deleteRule:
+    label: "ลบกฎ"
+    confirmation: "คุณแน่ใจหรือไม่ว่าต้องการลบกฎข้อนี้?"
+  moveUp:
+    label: "ย้ายขึ้น"
+  moveDown:
+    label: "ย้ายลง"
+  viewAll:
+    label: "ดูกฎทั้งหมด"
+  validation:
+    empty: "กฎห้ามเป็นค่าว่าง"
+    tooLong: "กฎต้องมีความยาวไม่เกิน {maxLength} ตัวอักษร"
+    maxRules: "อนุญาตให้มีกฎได้สูงสุด {maxRules} ข้อ"
+  success:
+    added: "เพิ่มกฎเรียบร้อยแล้ว!"
+    updated: "อัปเดตกฎเรียบร้อยแล้ว!"
+    deleted: "ลบกฎเรียบร้อยแล้ว!"
+    moved: "ย้ายกฎเรียบร้อยแล้ว!"
+  errors:
+    maxRulesReached: "ถึงขีดจำกัดจำนวนกฎแล้ว ({maxRules})"
+    noRulesAvailable: "ไม่มีกฎให้เลือก"
+    sessionExpired: "เซสชันหมดอายุ"
+    sessionExpiredDescription: "เซสชันการตั้งค่านี้หมดอายุแล้ว โปรดรันคำสั่งอีกครั้งเพื่อจัดการกฎต่อ"
+    actionCancelled: "การดำเนินการถูกยกเลิก"
+    actionCancelledDescription: "การดำเนินการเกี่ยวกับกฎถูกยกเลิก ไม่มีการเปลี่ยนแปลงใดๆ เกิดขึ้น"
+    ruleNotFound: "การเลือกกฎไม่ถูกต้อง กฎอาจถูกลบโดยผู้ใช้อื่นไปแล้ว"
+    invalidRuleSelection: "การเลือกกฎไม่ถูกต้อง โปรดลองใหม่"
+    processingError: "เกิดข้อผิดพลาดขณะประมวลผลคำขอของคุณ โปรดลองใหม่"
+    refreshError: "เกิดข้อผิดพลาดขณะรีเฟรช โปรดลองใหม่"
+    navigationError: "เกิดข้อผิดพลาดขณะนำทาง โปรดลองใหม่"
+    selectionError: "เกิดข้อผิดพลาดขณะเลือกกฎ โปรดลองใหม่"
+    deletionCancelled: "ยกเลิก"
+    deletionCancelledDescription: "การลบกฎถูกยกเลิก ไม่มีการเปลี่ยนแปลงใดๆ เกิดขึ้น"
+    noHub: "คำสั่งนี้ต้องใช้ในช่องของเซิร์ฟเวอร์ที่เชื่อมต่อกับ Hub หรือคุณต้องระบุชื่อ Hub"
+    notConnected: "ช่องนี้ไม่ได้เชื่อมต่อกับ Hub ใดๆ"
+  warnings:
+    deleteWarning: "คำเตือน"
+    deleteWarningDescription: "การกระทำนี้ไม่สามารถย้อนกลับได้ กฎจะถูกลบออกจาก Hub ของคุณอย่างถาวร"
+  display:
+    noRulesTitle: "ไม่มีกฎที่ตั้งไว้"
+    noRulesDescription: 'ยังไม่มีการตั้งกฎสำหรับ Hub นี้ ใช้ปุ่ม "เพิ่มกฎ" ด้านล่างเพื่อสร้างกฎข้อแรกของคุณ'
+    currentRulesTitle: "กฎปัจจุบัน ({current}/{max})"
+    ruleSelected: "เลือกกฎข้อที่ {number}"
+    currentRule: "กฎปัจจุบัน:"
+
+connection:
+  title: "การจัดการการเชื่อมต่อ"
+  description: "กำหนดค่าและบริหารจัดการการเชื่อมต่อ Hub ทั้งหมดภายในเซิร์ฟเวอร์นี้"
+  fixAll:
+    label: "ซ่อมแซมการเชื่อมต่อทั้งหมด"
+  manage:
+    placeholder: "เลือกการเชื่อมต่อเพื่อจัดการ"
+  selected:
+    description: "ตอนนี้คุณสามารถแก้ไขการเชื่อมต่อนี้ได้ ใช้เมนูดรอปดาวน์ด้านล่างเพื่อเปลี่ยนช่องกระจายข้อความ หรือแก้ไขการตั้งค่าเกี่ยวกับการเชื่อมต่อ"
+    fields:
+      broadcastChannel: "กระจายข้อความไปยัง"
+      connectionState: "สถานะการกระจายข้อความ"
+      lastActive: "ใช้งานล่าสุด"
+    state:
+      enabled: "การกระจายข้อความ **เปิดใช้งาน** อยู่"
+      disabled: "การกระจายข้อความ **หยุดชั่วคราว** อยู่"
+  fix:
+    title: "การตรวจสอบการเชื่อมต่อ"
+    description: "การเชื่อมต่อทั้งหมดในกิลด์นี้ได้รับการตรวจสอบแล้ว ดูข้อมูลเพิ่มเติมด้านล่าง"
+    responses:
+      success:
+        fixed: "ซ่อมแซมการเชื่อมต่อแล้ว!"
+        valid: "ไม่พบปัญหา"
+      errors:
+        channelDeleted: "ช่องที่เกี่ยวข้องกับ Hub นี้ถูกลบไปแล้ว การเชื่อมต่อถูกลบออก"
+        permissionsWebhook: "ฉันไม่สามารถจัดการ Webhooks ได้ โปรดตรวจสอบสิทธิ์ของฉันแล้วลองอีกครั้ง"
+        permissionsView: "ฉันไม่สามารถมองเห็นช่องได้ โปรดตรวจสอบสิทธิ์ของฉันแล้วลองอีกครั้ง"
+        permissionsSend: "ฉันไม่สามารถส่งข้อความได้ โปรดตรวจสอบสิทธิ์ของฉันแล้วลองอีกครั้ง"
+
+messageInfo:
+  tabs:
+    message:
+      title: "ข้อมูลข้อความ"
+      button: "ข้อความ"
+    user:
+      title: "ข้อมูลผู้ใช้"
+      button: "ผู้ใช้"
+    server:
+      title: "ข้อมูลเซิร์ฟเวอร์"
+      button: "เซิร์ฟเวอร์"
+  fields:
+    messageId: "ID ข้อความ"
+    server: "เซิร์ฟเวอร์"
+    author: "ผู้เขียน"
+    hub: "Hub"
+    content: "เนื้อหา"
+    timestamp: "เวลา"
+    username: "ชื่อผู้ใช้"
+    accountCreated: "บัญชีสร้างเมื่อ"
+    badges: "ตราสัญลักษณ์"
+    serverName: "ชื่อเซิร์ฟเวอร์"
+    connectionChannel: "ช่องเชื่อมต่อ"
+    connectedSince: "เชื่อมต่อตั้งแต่"
+    status: "สถานะ"
+  status:
+    connected: "เชื่อมต่อ"
+    disconnected: "ตัดการเชื่อมต่อ"
+  buttons:
+    profile: "โปรไฟล์"
+  unknown:
+    server: "เซิร์ฟเวอร์ที่ไม่รู้จัก"
+  noBadges: "ไม่มีตราสัญลักษณ์ที่จะแสดง"
+  noConnection: "ไม่มีข้อมูลการเชื่อมต่อ"
+
+leaderboard:
+  staffTag: "เจ้าหน้าที่ InterChat"
+  userTag: "ผู้ใช้"
+  messagesColumn: "ข้อความ"
+  voteCountColumn: "จำนวนโหวต"
+
+profile:
+  achievements:
+    noneFound: "ไม่พบข้อมูล"
+    noneFoundDescription: "ฉันไม่พบความสำเร็จใดๆ สำหรับผู้ใช้นี้!"
+    placeholder: "ความสำเร็จอยู่ที่นี่"
+  badges:
+    noneFound: "ไม่พบข้อมูล"
+    noneFoundDescription: "ฉันไม่พบตราสัญลักษณ์ใดๆ สำหรับผู้ใช้นี้!"
+
+my:
+  hubs:
+    title: "Hub ของคุณ"
+    description: "นี่คือ Hub ที่คุณเป็นเจ้าของหรือดูแลอยู่:"
+    position: "ตำแหน่ง:"
+    owner: "เจ้าของ"
+
+stats:
+  title: "สถิติ InterChat"
+  shard:
+    title: "ข้อมูล Shard"
+    statusReady: "พร้อมใช้งาน"
+    statusProvisioning: "กำลังจัดเตรียม..."
+    current: "Shard ปัจจุบัน: #{id}"
+
+invite:
+  title: "เฮ้!"
+  description: "ขอบคุณที่เลือก InterChat ต้องการความช่วยเหลือ? เข้าร่วมเซิร์ฟเวอร์สนับสนุนของเรา ใช้ปุ่มด้านล่างเพื่อเชิญบอทของเราไปยังเซิร์ฟเวอร์ของคุณและเริ่มเชื่อมต่อเซิร์ฟเวอร์ต่างๆ เข้าด้วยกัน"
