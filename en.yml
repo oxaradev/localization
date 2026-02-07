@@ -155,7 +155,7 @@ ui:
       description: "Use the public directory or connect with an invite code."
       publicHubs:
         title: "Public Hubs"
-        description: "**Browse** [interchat.tech/hubs](https://interchat.dev/hubs)\n**Or click** the button below to open the directory"
+        description: "**Browse** [interchat.dev/hubs](https://interchat.dev/hubs)\n**Or click** the button below to open the directory"
       privateHubs:
         title: "Private or Invite-only"
         description: "**Ask the hub owner or manager** for an invite code\n**Run `/connect <invite-code>`** in your server to join"

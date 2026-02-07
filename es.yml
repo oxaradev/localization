@@ -185,7 +185,7 @@ ui:
       publicHubs:
         title: Centros Públicos
         description:
-          "**Navega** [interchat.tech/hubs](https://interchat.dev/hubs)
+          "**Navega** [interchat.dev/hubs](https://interchat.dev/hubs)
 
           **O clic** el botón de abajo para abrir el directorio"
       privateHubs:
