@@ -744,6 +744,7 @@ hub:
         addLogoButton: "เพิ่มโลโก้"
         invalidUrl: "URL รูปภาพไม่ถูกต้อง ใช้อวตารบอทเริ่มต้นแทน"
       step3:
+        title: Hub Visibility
         description: |
           เลือกการมองเห็นของ Hub ของคุณ:
 
