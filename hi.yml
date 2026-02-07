@@ -744,6 +744,7 @@ hub:
         addLogoButton: "लोगो जोड़ें"
         invalidUrl: "अमान्य इमेज URL। इसके बजाय डिफ़ॉल्ट बॉट अवतार का उपयोग किया जा रहा है।"
       step3:
+        title: Hub Visibility
         description: |
           अपने Hub की दृश्यता (visibility) चुनें:
 
