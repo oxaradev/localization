@@ -1,0 +1,1017 @@
+ui:
+  common:
+    titles:
+      error: "त्रुटि!"
+      success: "सफलता!"
+      cancelled: "Cancelled!"
+      warning: "Warning!"
+      info: "Information"
+    labels:
+      date: "Date"
+      loading: "Loading..."
+      pleaseWait: "Please wait..."
+      optional: "{optional}"
+      lastActive: "Last Active"
+      unknown: "अज्ञात"
+    buttons:
+      back: "Back"
+      next: "Next"
+      previous: "Previous"
+      cancel: "Cancel"
+      confirm: "Confirm"
+      create: "Create"
+      return: "Return"
+      refresh: "Refresh"
+      delete: "Delete"
+      save: "Save"
+      vote: "Vote on top.gg"
+      invite: "Invite InterChat"
+      dashboard: "Open Dashboard"
+      support: "Join Support"
+    placeholders:
+      select: "Select an option"
+      type: "Type here..."
+    visibility:
+      public: "Public"
+      private: "Private"
+      unlisted: "Unlisted"
+    entities:
+      user: "User"
+      server: "Server"
+      hub: "हब"
+      message: "Message"
+    messages:
+      notImplemented: "Not implemented yet."
+      hubNotFound: "Hub not found. Please try again later."
+      serverNotFound: "Server not found."
+      userNotFound: "User not found."
+      notSpecified: "Not specified"
+      interfacePermission: "You can't use this interface."
+      hubUpdateFailed: "Failed to update hub settings."
+      hubConfigDescription: "Customize your InterChat hub for your community. Pick what you'd like to configure below."
+    pagination:
+      previous: "Previous"
+      page: "Page {current}/{total}"
+    fields:
+      # TODO: THIS
+      id: "{type} ID"
+      name: "{type} Name"
+      reason: "Reason"
+      created: "Created"
+      status: "Status"
+    errors:
+      notYourMenu: "This isn't your menu."
+      cannotControlPagination: "You cannot control this pagination."
+      notFound: "नहीं मिला"
+      invalidFilter: "Invalid Filter"
+      generic: "An error occurred while processing your request."
+      contactSupport: "Please contact our [support team]({supportServer}) if this persists."
+      invalidSelection: "Invalid selection."
+      nothingSelected: "Nothing was selected."
+      interactionCheck: "आप इस इंटरैक्शन का उपयोग नहीं कर सकते क्योंकि आपने इसे सक्रिय नहीं किया।"
+      rateLimited: "आपको रेट लिमिट किया गया है। थोड़ा शांत हो जाएँ।"
+      webhookRateLimit: "आपने वेबहुक निर्माण की सीमा को पार कर लिया है।"
+      invalidInput: "आपने वैध इनपुट प्रदान नहीं किया है।"
+      invalidInvite: "यह आमंत्रण अमान्य है, या समाप्त हो गया है।"
+      webhookError: "वेबहुक बनाने में असफल।"
+      notConnected: "मैं इस चैनल में कोई हब कनेक्शन नहीं ढूंढ सका।"
+      notConnectedServer: "{cross} इस सर्वर के लिए कोई कनेक्शन नहीं मिला।"
+      noInteraction: "यह कमांड केवल स्लैश कमांड का समर्थन करता है।"
+      missingAppealReference: "अपील संदर्भ गायब है।"
+      missingArgument: "आवश्यक तर्क गायब: `{param}`।"
+      notAuthorized: "आप इस बटन का उपयोग नहीं कर सकते।"
+      accessDenied: "Access Denied"
+  about:
+    title: "InterChat के बारे में"
+    description: "InterChat Discord समुदायों को सक्रिय क्रॉस-सर्वर चर्चाओं के माध्यम से जोड़ता है। संदेश सर्वरों के बीच वास्तविक समय में स्वाभाविक रूप से प्रवाहित होते हैं, जिससे आपको सक्रिय और विषय-केंद्रित समुदाय बनाने में मदद मिलती है।"
+    supportText: "मदद चाहिए? सहायता के लिए हमारे सपोर्ट सर्वर से जुड़ें!"
+    features:
+      title: "विशेषताएँ"
+      list: |
+        - सक्रिय क्रॉस-सर्वर चर्चाओं के लिए अन्य सर्वरों से जुड़ें - संदेश सर्वरों के बीच वास्तविक समय में स्वाभाविक रूप से प्रवाहित होते हैं - सक्रिय और विषय-केंद्रित समुदाय बनाएं - चर्चाओं को स्वस्थ बनाए रखने के लिए संयम उपकरण - अपने हब, सर्वर और सेटिंग्स को प्रबंधित करने के लिए दृश्य डैशबोर्ड 
+    buttons:
+      vote: "top.gg पर वोट करें"
+      invite: "InterChat को बुलाएँ"
+      dashboard: "डैशबोर्ड खोलें"
+      support: "सहायता सर्वर से जुड़ें"
+      shardInfo: "Shard जानकारी"
+  # Bot Greeting (New Server Join)
+  botLanding:
+    title: "👋 नमस्ते!"
+    description: |
+      **मैं InterChat हूँ, और हमारी टीम की ओर से आपके सर्वर पर आने पर प्रसन्न हूँ।** हम साथ में आपके सर्वर को Discord के अन्य अद्भुत कम्युनिटीज़ से जोड़ सकते हैं। यहाँ एक जगह में कई, संभावित रूप से हजारों सर्वर, सभी लोगों से भरे हुए हैं जो आपसे बातचीत करने के लिए उत्सुक हैं। 🚀 **हमारे साथ नए रास्ते बनाने के लिए तैयार?** {dot} **यहाँ नए हैं?** `/setup` कमांड स्टेप-बाय-स्टेप मार्गदर्शन प्रदान करता है। {dot} **खोज शुरू करने के लिए तैयार?** हमारे [डिस्कवरी पेज](https://interchat.dev/hubs) पर जाएँ। {dot} **कुछ और परिचित लगता है?** एक-से-एक कनेक्शन के लिए `/call` का प्रयास करें। 💝 **खो गए? सहायता चाहिए?** हमारे [सपोर्ट कम्युनिटी](https://discord.gg/8DhUA4HNpD) में आपका स्वागत है। हमारी टीम और समुदाय आपकी सहायता के लिए तैयार हैं। 
+  setup:
+    embed:
+      description: "Use the modal to enter your hub details."
+    welcome:
+      title: "InterChat सेटअप में आपका स्वागत है"
+      description: "आइए आपके सर्वर को कनेक्ट करें। यह विज़ार्ड आपको एक हब बनाने या उसमें शामिल होने में मदद करेगा।"
+    editMessagePrompt: "{emoji} कृपया अपना संदेश संपादित करने के लिए मोडल का उपयोग करें।"
+    select:
+      placeholder: "Select a language"
+      chooseOption: "Choose an option to get started..."
+    options:
+      create:
+        label: "हब बनाएं"
+        description: "अपना खुद का InterChat समुदाय शुरू करें"
+      join:
+        label: "हब से जुड़ें"
+        description: "किसी मौजूदा समुदाय से जुड़ें"
+      titleSaved: "{emoji} हब की जानकारी सहेज ली गई!"
+      previewTitle: "यहाँ आपका हब प्रीव्यू है:"
+      name: "{emoji} नाम"
+      short: "{emoji} छोटा नाम"
+      description: "{emoji} विवरण"
+    locale:
+      successDescription: "{tick} आपकी भाषा **{locale_name}** में सेट कर दी गई है"
+    loading:
+      creatingHub: "{loading} आपका हब बनाया जा रहा है..."
+      pleaseWait: "कृपया प्रतीक्षा करें, हम आपका समुदाय स्पेस सेट कर रहे हैं।"
+    create:
+      footer:
+        getStarted: "Click 'Enter Hub Information' below to get started!"
+      whatYoullCreate:
+        title: "आप क्या बनाएँगे:"
+        description: "{dot} आपके सर्वरों के लिए एक अनोखा सामुदायिक स्थान {dot} नियमों और संचालन पर पूरा नियंत्रण {dot} कस्टम सेटिंग्स और फीचर्स {dot} डिफ़ॉल्ट रूप से निजी - केवल आमंत्रण द्वारा"
+      youllNeed:
+        title: "आपको आवश्यकता होगी:"
+        description: "{arrow_right} रचनात्मक हब नाम {arrow_right} संक्षिप्त विवरण {arrow_right} विस्तृत विवरण {arrow_right} लोगो इमेज URL"
+    join:
+      title: "हब से जुड़ें"
+      description: "सार्वजनिक डायरेक्टरी का उपयोग करें या निमंत्रण कोड के साथ कनेक्ट करें।"
+      publicHubs:
+        title: "पब्लिक हब्स"
+        description: "**ब्राउज़ करें** [interchat.tech/hubs](https://interchat.dev/hubs) **या नीचे दिए गए बटन पर क्लिक करें** डायरेक्टरी खोलने के लिए"
+      privateHubs:
+        title: "निजी या केवल आमंत्रण द्वारा"
+        description: "**हब के मालिक या प्रबंधक से पूछें** आमंत्रण कोड के लिए  \n**अपने सर्वर में `/connection add <निमंत्रण\\ \\ कोड>` चलाएँ** शामिल होने के लिए\n"
+      footer: "आप कभी भी और हब में शामिल हो सकते हैं, और आप एक ही समय में विभिन्न चैनलों में कई हब से जुड़े हो सकते हैं।"
+    buttons:
+      startWizard: "Start Setup Wizard"
+      enterHubInfo: "Enter Hub Information"
+      hubInfoComplete: "Hub Information Complete"
+      createHub: "Create Hub"
+      completeInfoFirst: "Complete Hub Info First"
+      discoverHubs: "Discover Public Hubs"
+      joinHub: "Join Hub"
+      useDefault: "Use Default"
+      skipForNow: "Skip for Now"
+    errors:
+      hubCreationFailed: "{no} हब बनाने में असफल"
+  help:
+    title: "InterChat कमांड्स"
+    description: "हमारे व्यापक कमांड्स की सूची देखें जो आपको और आपके समुदाय को दूसरों से जुड़ने में मदद करती है।"
+    name: "मदद"
+  preferences:
+    title: "User Preferences"
+    description: "Edit your personal settings to make InterChat work for you. These are GLOBAL and work across all servers you share with InterChat."
+    replyMentions:
+      title: "Preferences: Reply Mentions"
+      description: "You will now be **{status}** when someone replies to your messages. You may toggle this below using the button, or return to the menu with the return button."
+      currentDescription: "Currently you are **{status}** when replied to within your messages. You may toggle this below using the button, or return to the menu with the return button."
+      mentioned: "mentioned"
+      notMentioned: "not mentioned"
+    general:
+      title: "General Preferences"
+      description: "Configure general preferences within InterChat. This ensures your experience is the best we are able to make it."
+    locale:
+      title: "Language Select"
+      description: "Select your preferred language for InterChat."
+    select:
+      category: "Select a category"
+    badges:
+      title: "Preferences: Badges"
+      description: "Your badges are now **{status}** within your messages. You may toggle this below using the button, or return to the menu with the return button."
+      currentDescription: "Currently your badges are **{status}** within your messages. You may toggle this below using the button, or return to the menu with the return button."
+      visible: "visible"
+      hidden: "hidden"
+      buttons:
+        show: "Show"
+        hide: "Hide"
+    voteReminders:
+      title: "Preferences: Vote Reminders"
+      description: "Toggle vote reminder notifications from InterChat."
+      status: "Vote reminders are currently **{status}**."
+      enabled: "enabled"
+      disabled: "disabled"
+      dm:
+        title: "Time to Vote for InterChat!"
+        description: "Your support helps InterChat grow and reach more communities. Vote on top.gg to help us out!"
+        reminderInfo: "You receive this reminder because you've voted before. You can disable these reminders anytime with `/my settings`."
+        disableConfirm:
+          title: "Vote Reminders Disabled"
+          description: "You will no longer receive vote reminder DMs. You can re-enable them anytime with `/my settings`. Thanks for your past support!"
+      buttons:
+        enable: "Enable"
+        disable: "Disable"
+    errors:
+      noPreferences: "You don't have any preferences set yet."
+  appeal:
+    title: "आपकी अपील योग्य उल्लंघन"
+    description: "अपील सबमिट करने के लिए नीचे उल्लंघन चुनें, या मौजूदा अपील की स्थिति देखें।"
+    noInfractions:
+      title: "साफ सुथरा!"
+      description: "कोई अपील योग्य उल्लंघन नहीं मिला।"
+    notAppealable: "यह उल्लंघन अब अपील योग्य नहीं है।"
+    select:
+      placeholder: "Select an infraction to appeal"
+    modal:
+      title: "Submit Appeal"
+      q1: "Why do you believe this action was incorrect?"
+      q2: "Tell us about the situation"
+      q3: "Additional Information"
+    success:
+      submitted: "{tick} Your appeal has been submitted for review."
+    viewInfractions:
+      title: "Recent User Infractions"
+      empty: "No infractions found for this user."
+    status:
+      acceptedBy: "Accepted by @{name}"
+      rejectedBy: "Rejected by @{name}"
+      pending: "प्रतीक्षा में"
+      cooldown: "कूलडाउन"
+      canAppealAgain: "आप अपील कर सकते हैं"
+      canAppeal: "आप अपील कर सकते हैं"
+    constants:
+      unknownHub: "अज्ञात हब"
+      noReason: "कोई कारण प्रदान नहीं किया गया"
+    fields:
+      date: "तारीख:"
+      reason: "कारण:"
+    actions:
+      decisionTitle: "Appeal Decision"
+      reasonOptional:
+        label: "Reason (Optional)"
+        placeholder: "Explain your decision..."
+    dm:
+      accepted: "मॉडरेशन कार्रवाई {hubName} के संबंध में आपकी अपील स्वीकार कर ली गई है। हमारी टीम ने आपका मामला समीक्षा किया और निर्णय लिया कि आपकी अपील सही है।"
+      declined: "मॉडरेशन कार्रवाई {hubName} के संबंध में आपकी अपील की समीक्षा की गई। सावधानीपूर्वक विचार करने के बाद, आपकी अपील अस्वीकार कर दी गई।"
+      moderatorNote: "मॉडरेटर नोट: {reason}"
+    embed:
+      title: "आपकी अपील योग्य उल्लंघन"
+      description: "अपील सबमिट करने के लिए नीचे उल्लंघन चुनें, या मौजूदा अपील की स्थिति देखें।"
+      noInfractions:
+        title: "साफ सुथरा!"
+        description: "कोई अपील योग्य उल्लंघन नहीं मिला।"
+      footer:
+        canAppeal: "💡 आप {count} उल्लंघन(ओं) पर अपील कर सकते हैं। नीचे सेलेक्ट मेन्यू का उपयोग करें।"
+        checkLater: "💡 जब कूलडाउन समाप्त हो या अपील की समीक्षा हो जाए, तब फिर से जाँच करें।"
+    errors:
+      cannotControl: "You cannot control this pagination menu."
+      nothingSelected: "Nothing was selected."
+      invalidSelection: "Invalid selection."
+      modalError: "Failed to open appeal modal."
+      recordFailed: "निर्णय रिकॉर्ड करने में असफल: {error}"
+      notFoundOrDeleted: "अपील नहीं मिली या हटाई जा चुकी है।"
+      updateFailed: "अपील अपडेट करने में असफल। कृपया बाद में प्रयास करें।"
+  report:
+    title: "संदेश रिपोर्ट करें"
+    footer: "रिपोर्ट InterChat को सभी के लिए सुरक्षित बनाए रखने में मदद करती हैं"
+    description: "{user} को **हब स्टाफ** को हब उल्लंघनों के लिए या **InterChat स्टाफ** को प्लेटफ़ॉर्म उल्लंघनों के लिए रिपोर्ट करें। उपयोगकर्ता को सूचित नहीं किया जाएगा, लेकिन मॉडरेटर देख सकते हैं कि रिपोर्ट किसने जमा की।"
+    contextMenu: "संदेश रिपोर्ट करें"
+    buttons:
+      toStaff: "Report to Staff"
+      toHub: "Report to Hub"
+    modal:
+      toStaff:
+        title: "Report to InterChat Staff"
+      toHub:
+        title: "Report to Hub Moderators"
+      reason:
+        label: "Reason for Report"
+        placeholder: "Please describe why you are reporting this message..."
+    status:
+      resolvedBy: "Resolved by {name}"
+      ignoredBy: "Ignored by {name}"
+    success:
+      title: "रिपोर्ट जमा हो गई"
+      toStaff: "{tick} आपकी रिपोर्ट InterChat स्टाफ को समीक्षा के लिए भेज दी गई है।"
+      toHub: "{tick} आपकी रिपोर्ट हब मॉडरेटरों को समीक्षा के लिए भेज दी गई है।"
+      actionPast: "रिपोर्ट {action}।"
+    dm:
+      resolved: "आपकी रिपोर्ट के लिए धन्यवाद। हमारी मॉडरेशन टीम ने इसे समीक्षा की और उचित कार्रवाई की। उपयोगकर्ता की गोपनीयता बनाए रखने के लिए हम विशिष्ट विवरण साझा नहीं कर सकते।"
+    errors:
+      hubMessageOnly: "{x_icon} आप केवल InterChat हब्स के माध्यम से भेजे गए संदेशों की रिपोर्ट कर सकते हैं।"
+      cannotReportSelf: "{x_icon} आप अपने खुद के संदेशों की रिपोर्ट नहीं कर सकते।"
+      processingFailed: "रिपोर्ट प्रक्रिया में त्रुटि! कृपया बाद में पुनः प्रयास करें।"
+      notFoundOrDeleted: "रिपोर्ट नहीं मिली या हटाई जा चुकी है।"
+      alreadyHandled: "यह रिपोर्ट पहले ही {status} है।"
+      updateFailed: "रिपोर्ट अपडेट करने में असफल। कृपया बाद में प्रयास करें।"
+  hubConfig:
+    general:
+      placeholder: "Choose a setting to configure..."
+      editDescription:
+        label: "Edit Description"
+        description: "Update your hub's description text"
+      editName:
+        label: "Edit Hub Name"
+        description: "Change your hub's name (10 day cooldown)"
+      welcomeMessage:
+        label: "Welcome Message"
+        description: "Set a message shown to new users"
+      toggleNsfw:
+        label: "Toggle NSFW"
+        description: "Mark your hub as NSFW or not"
+      changeVisibility:
+        label: "Change Visibility"
+        description: "Switch between Public, Unlisted, or Private"
+      togglePrivate:
+        label: "Toggle Private"
+        description: "Mark your hub as private or not"
+    permissions:
+      remove:
+        label: "Remove"
+      moderator:
+        label: "Moderator"
+        description: "Manage messages, moderate users, handle reports & appeals"
+      manager:
+        label: "Manager"
+        description: "Manage hub settings plus everything that moderators can do"
+      managerOnly:
+        description: "Manage hub settings"
+    modules:
+      reactions:
+        label: "Reactions"
+        description: "Allow reaction-based interactions on messages"
+      hideLinks:
+        label: "Hide Links"
+        description: "Hide link previews in hub messages"
+      spamFilter:
+        label: "Spam Filter"
+        description: "Automatically filter spam and unwanted content"
+      blockInvites:
+        label: "Block Invites"
+        description: "Block Discord server invites in messages"
+      useNicknames:
+        label: "Use Nicknames"
+        description: "Display user nicknames instead of usernames"
+    logging:
+      moderationLogs: "Moderation Logs"
+      joinLeaveLogs: "Join/Leave Logs"
+      appealsChannel: "Appeals Channel"
+      reportsChannel: "Reports Channel"
+      networkAlerts: "Network Alerts"
+      messageModeration: "Message Moderation"
+    invites:
+      create:
+        title: "Input Required"
+        customCode:
+          label: "Custom Code"
+          placeholder: "abc123"
+        uses:
+          label: "Uses"
+          placeholder: "Leave me blank for infinite"
+        expiry:
+          label: "Expiry"
+          placeholder: "1w, 3d, 12h (Leave me blank for no expiry)"
+  moderation:
+    panel:
+      description: "उपयोगकर्ताओं, संदेशों, या सर्वरों के लिए मॉडरेशन पैनल खोलें"
+      contextMenu: "मॉड पैनल"
+    actionNames:
+      warned: "Warned"
+      muted: "Muted"
+      banned: "Banned"
+    actionNouns:
+      mute: "mute"
+      ban: "ban"
+    prep:
+      in: "in"
+      from: "from"
+    permissions:
+      managerRequired: "Manager+ अनुमतियाँ आवश्यक हैं।"
+    target:
+      both: "कृपया केवल उपयोगकर्ता या सर्वर निर्दिष्ट करें, दोनों नहीं।"
+      missing: "कृपया उपयोगकर्ता या सर्वर निर्दिष्ट करें।"
+    revoke:
+      noActive: "कोई सक्रिय {action} नहीं मिला।"
+      success: "{action} रद्द कर दिया गया।"
+    delete:
+      label: "Delete"
+      description: "Delete the selected message across all connected hubs"
+      noMessage: "हटाने के लिए कोई संदेश प्रदान नहीं किया गया।"
+      success: "संदेश सभी कनेक्टेड हब्स से हटा दिया गया।"
+      notInterChatMessage: "यह संदेश InterChat संदेश नहीं है या पहले ही हटा दिया गया है।"
+      failed: "संदेश हटाने में विफल। कृपया बाद में पुनः प्रयास करें।"
+      notFound: "उल्लंघन नहीं मिला।"
+    blacklist:
+      label: "Blacklist"
+      description: "Issue an interchat wide blacklist (user/server)"
+      permissionDenied: "वैश्विक ब्लैकलिस्ट जारी करने के लिए आपके पास InterChat स्टाफ अनुमतियाँ नहीं हैं।"
+      alreadyActive: "लक्ष्य पर पहले से ही सक्रिय वैश्विक ब्लैकलिस्ट है।"
+      success: "वैश्विक रूप से {target} ब्लैकलिस्ट किया गया।"
+    success:
+      action: "{target} को {action} {prep} {hubName}"
+    actions:
+      warn:
+        label: "Warn"
+        description: "किसी उपयोगकर्ता या सर्वर को हब से चेतावनी दें।"
+      mute:
+        label: "Mute"
+        description: "किसी उपयोगकर्ता या सर्वर को हब से म्यूट करें।"
+      ban:
+        label: "Ban"
+        description: "किसी उपयोगकर्ता या सर्वर को हब से प्रतिबंधित करें।"
+      unmute:
+        label: "Unmute"
+        description: "किसी उपयोगकर्ता या सर्वर के सक्रिय म्यूट को हब में रद्द करें।"
+      unban:
+        label: "Unban"
+        description: "किसी उपयोगकर्ता या सर्वर के सक्रिय प्रतिबंध को हब में रद्द करें।"
+      blacklist:
+        label: "Blacklist"
+        description: "Issue an interchat wide blacklist (user/server)"
+      delete:
+        label: "Delete"
+        description: "Discord संदेश लिंक का उपयोग करके एक InterChat संदेश हटाएँ।"
+      deleteInfraction:
+        description: "Delete an infraction (Manager+ only)"
+    modal:
+      title: "Moderation Action"
+      reason:
+        label: "Reason"
+        placeholder: "Enter a concise justification{optional}"
+      duration:
+        label: "Duration"
+        placeholder: "e.g. 30m, 2h, 1d"
+    hubSelect:
+      placeholder: "Select a hub to moderate..."
+    hubSelection:
+      title: "Hub Selection"
+      description: "Select the hub you want to moderate."
+      fieldHubLabel: "Hub"
+      fieldHubPrompt: "Selected Hub"
+      prompt: "Select a hub to moderate"
+    targetSelection:
+      title: "Target Selection"
+      description: "Who do you want to {action}?"
+    actionSelect:
+      placeholder: "Select a moderation action..."
+    fields:
+      reason: "Reason"
+    history:
+      noHubSelected: "No hub selected."
+    errors:
+      selectedHubNotFound: "चयनित हब नहीं मिला।"
+      processingFailed: "मॉडरेशन कार्रवाई प्रक्रिया में असफल: {error}"
+      unknownAction: "अज्ञात कार्रवाई।"
+      unsupportedAction: "समर्थित नहीं क्रिया मार्ग।"
+      openPanelFailed: "मॉड पैनल खोलने में अप्रत्याशित त्रुटि। कृपया बाद में पुनः प्रयास करें या समर्थन सर्वर में स्टाफ को रिपोर्ट करें।"
+      notModeratorForHub: "आप इस हब के लिए मॉडरेटर नहीं हैं।"
+      alreadyState: "{targetType} पहले से ही इस हब में {state} है।"
+      invalidHubData: "अमान्य हब डेटा।"
+      originalMessageNotFound: "मूल संदेश डेटाबेस में नहीं मिला।"
+      fetchAuthorOrServerFailed: "संदेश लेखक या सर्वर को लाने में असफल।"
+      hubNotFoundForMessage: "इस संदेश के लिए हब नहीं मिला।"
+      noModeratedHubs: "आपके पास किसी भी हब में मॉडरेशन अनुमतियाँ नहीं हैं।"
+      noTarget: "कृपया एक लक्ष्य निर्दिष्ट करें (उपयोगकर्ता/सर्वर) या संदेश का जवाब दें।"
+  profanity:
+    actions:
+      editActions:
+        label: "Edit Actions"
+      patterns:
+        label: "Patterns"
+      whitelist:
+        label: "Whitelist"
+      toggle:
+        label: "Toggle Enable/Disable"
+        description: "Turn this rule on or off"
+      delete:
+        label: "Delete Rule"
+        description: "⚠️ Permanently remove this rule"
+  welcomeMessage:
+    title: "Welcome to the InterChat hub called **{hubName}**!"
+    footer: "Connected to {hubName}"
+    errorDm: "Failed to send welcome message for the hub you joined. Make sure I have permission to send messages in {channel}."
+    introText: "You're now connected to a network of servers. Messages you send here will be visible to everyone in this hub."
+    quickActions: "Quick Actions"
+    buttons:
+      rules: "Rules"
+      profile: "Profile"
+      hubInfo: "Hub Info"
+      report: "How to Report"
+      support: "Support"
+      disconnect: "Disconnect"
+    hubInfo:
+      title: "Hub Information"
+      connections: "🔗 Connections"
+      members: "👥 Members Reached"
+      description: "Description"
+    disconnectConfirm:
+      title: "Disconnect from Hub?"
+      description: "Are you sure you want to disconnect from **{hubName}**?"
+  infractions:
+    description: "हब में उल्लंघन देखें, उपयोगकर्ता या सर्वर द्वारा फ़िल्टर किए गए।"
+    buttons:
+      userInfractions: "User Infractions"
+      serverInfractions: "Server Infractions"
+    titles:
+      base: "Infractions · {hubName}"
+      userList: "User Infractions · {hubName}"
+      serverList: "Server Infractions · {hubName}"
+      userSpecific: "Infractions for {user} · {hubName}"
+      serverSpecific: "Infractions for Server {serverId} · {hubName}"
+    descriptions:
+      base: "Select which infractions to view for this hub."
+      userListEmpty: "No user infractions found for this hub."
+      serverListEmpty: "No server infractions found for this hub."
+      userSpecificEmpty: "No infractions found for this user in this hub."
+      serverSpecificEmpty: "No infractions found for this server in this hub."
+    labels:
+      infraction: "Infraction"
+    fields:
+      moderator: "Moderator"
+      issued: "Issued"
+      evidence: "Evidence"
+    evidence:
+      content: "Content"
+      author: "Author"
+      notAvailable: "No evidence available"
+    errors:
+      noPermission: "इस हब के उल्लंघनों को देखने की अनुमति नहीं है।"
+      bothSelection: "कृपया केवल उपयोगकर्ता या सर्वर चुनें, दोनों नहीं।"
+      invalidServerId: "अमान्य सर्वर आईडी।"
+    permissions:
+      insufficient: "इस हब में आपको {permission}+ अनुमतियाँ चाहिए।"
+      managerRequired: "Manager+ अनुमतियाँ आवश्यक हैं।"
+    target:
+      both: "कृपया केवल उपयोगकर्ता या सर्वर निर्दिष्ट करें, दोनों नहीं।"
+      missing: "कृपया उपयोगकर्ता या सर्वर निर्दिष्ट करें।"
+    success:
+      action: "{action}{target}{prep}{hubName}"
+    revoke:
+      noActive: "कोई सक्रिय {action} नहीं मिला।"
+      success: "{action} रद्द कर दिया गया।"
+    delete:
+      notImplemented: "संदेश हटाना अभी लागू नहीं हुआ। कारण रिकॉर्ड किया गया: {reason}"
+      notFound: "उल्लंघन नहीं मिला।"
+      success: "उल्लंघन हटा दिया गया।"
+    blacklist:
+      permissionDenied: "वैश्विक ब्लैकलिस्ट जारी करने के लिए आपके पास InterChat स्टाफ अनुमतियाँ नहीं हैं।"
+      alreadyActive: "लक्ष्य पर पहले से ही सक्रिय वैश्विक ब्लैकलिस्ट है।"
+      success: "वैश्विक रूप से {target} ब्लैकलिस्ट किया गया।"
+  staff:
+    get:
+      description: "InterChat संस्थाओं के बारे में जानकारी प्राप्त करें"
+      server:
+        description: "किसी सर्वर के बारे में विस्तृत जानकारी प्राप्त करें"
+      hub:
+        description: "किसी हब के बारे में विस्तृत जानकारी प्राप्त करें"
+      user:
+        description: "किसी उपयोगकर्ता के बारे में विस्तृत जानकारी प्राप्त करें"
+    hub:
+      section:
+        status: "Status"
+        moderation: "Moderation"
+      fields:
+        name: "Name"
+        messages: "Messages"
+        connections: "Connections"
+        created: "Created"
+        lastActive: "Last Active"
+        upvotes: "Upvotes"
+        owner: "Owner"
+        location: "Location"
+        activity: "Activity"
+        appealCooldown: "Appeal Cooldown"
+        welcomeMessage: "Welcome Message"
+        description: "Description"
+      values:
+        messagesThisWeek: "**{count}** this week"
+        connectionsActive: "**{count}** active"
+        upvotesTotal: "**{count}** total"
+      badges:
+        verified: "Verified"
+        partnered: "Partnered"
+        featured: "Featured"
+        private: "Private"
+        locked: "Locked"
+        nsfw: "NSFW"
+    server:
+      fields:
+        name: "Name"
+        inviteCode: "Invite Code"
+        messages: "Messages"
+        connections: "Connections"
+        lastMessage: "Last Message"
+        updated: "Updated"
+      values:
+        messagesTotal: "**{count}** total"
+        connectionsActive: "**{count}** active"
+        premium: "Premium"
+        standard: "Standard"
+    user:
+      fields:
+        name: "Name"
+        messages: "Messages"
+        reputation: "Reputation"
+        votes: "Votes"
+        hubJoins: "Hub Joins"
+        engagement: "Engagement"
+        locale: "Locale"
+        lastMessage: "Last Message"
+        lastVote: "Last Vote"
+      values:
+        staff: "Staff"
+        member: "Member"
+        messagesSent: "**{count}** sent"
+        reputationPoints: "**{count}** points"
+        votesCast: "**{count}** cast"
+        hubJoinsTotal: "**{count}** total"
+        notSet: "Not set"
+        never: "Never"
+      sections:
+        preferences: "Preferences"
+        createdContent: "Created Content"
+        activity: "Activity"
+        donation: "Donation"
+        badges: "Badges"
+      preferences:
+        showBadges: "Show badges"
+        mentionOnReply: "Mention on reply"
+        showNsfwHubs: "Show NSFW hubs"
+      content:
+        hubs: "{count} hubs"
+        modPositions: "{count} mod positions"
+        blockedWords: "{count} blocked words"
+        antiSwearRules: "{count} anti-swear rules"
+      moderation:
+        infractionsReceived: "{count} infractions received"
+        infractionsIssued: "{count} infractions issued"
+        blacklistsReceived: "{count} blacklists received"
+        blacklistsIssued: "{count} blacklists issued"
+      activity:
+        appeals: "{count} appeals"
+        reviews: "{count} reviews"
+        reportsMade: "{count} reports made"
+        reportsReceived: "{count} reports received"
+        achievements: "{count} achievements"
+      donation:
+        tier: "Tier: {tier}"
+        expires: "Expires"
+    blacklist:
+      titles:
+        list: "Blacklist Entries"
+        searchResults: "Blacklist Search Results"
+        userList: "User Blacklist"
+        serverList: "Server Blacklist"
+      descriptions:
+        list: "Total blacklist entries"
+        command: "View blacklist entries filtered by users or servers"
+        noEntriesPage: "No entries on this page."
+        userListEmpty: "No blacklisted users found."
+        serverListEmpty: "No blacklisted servers found."
+      fields:
+        user: "User"
+        server: "Server"
+        expires: "Expires"
+        staff: "Staff"
+        added: "Added"
+      labels:
+        user: "User"
+        server: "Server"
+      # Merged from responses.staff.blacklist
+      notFound: "कोई मिलती-जुलती ब्लैकलिस्ट प्रविष्टि नहीं मिली।"
+      removed: "ब्लैकलिस्ट प्रविष्टि हटा दी गई।"
+  hub:
+    lock:
+      successTitle: "Hub Locked"
+      successDescription: "Successfully locked **{hub}**. New members can no longer join."
+      announceTitle: "Hub Locked"
+      announceDescription: "This hub has been locked by a moderator. Only moderators can send messages now."
+    unlock:
+      successTitle: "Hub Unlocked"
+      successDescription: "Successfully unlocked **{hub}**. New members can now join."
+      announceTitle: "Hub Unlocked"
+      announceDescription: "This hub has been unlocked by a moderator. You can now send messages."
+    events:
+      serverJoined:
+        title: "🎉 नया सर्वर जुड़ा!"
+        description: "**{serverName}** हब में शामिल हो गया! चलिए उन्हें समुदाय में गर्मजोशी से स्वागत करें।"
+        footer: "स्वागत है {hubName} में!"
+    create:
+      title: "Create Your Hub"
+      description: "Create your own InterChat hub for a community, your friends... or anyone - the list could go on for ages. Go ahead, see where it takes you."
+    nextSteps:
+      created:
+        title: "Hub Created Successfully!"
+        description: |
+          आपका हब **{hubName}** तैयार है! अब आप ये कर सकते हैं:
+      inviteLink:
+        title: "Next: Create Invite Links"
+        description: "Use {hubInviteCommand} to generate invite codes for **{hubName}** and share them with other server owners."
+      shareHub:
+        title: "Share Your Hub"
+        description: "{dot} Post about your new hub in our [Support Server]({supportInvite}) {dot} Share with friends and communities {dot} Use social media to spread the word"
+      proTips:
+        title: "{dot} Pro Tips"
+        description: "{dot} Visit the [Dashboard]({website}) for advanced settings {dot} Use {hubVisibilityCommand} to make your hub public {dot} Join our [Support Server]({supportInvite}) for help and updates"
+    wizard:
+      start: "Start Creating Your Hub"
+      name:
+        label: "Hub Name"
+        placeholder: "My Amazing Hub"
+      tagline:
+        label: "Hub Tagline"
+        placeholder: "A one-sentence summary of your hub"
+      description:
+        label: "Full Description"
+        placeholder: "Describe your hub in detail (20-1000 characters)"
+      steps:
+        progress: "Step {current}/{total}"
+        step1:
+          modalTitle: "Step 1/7: Hub Details"
+        step2:
+          title: "Hub Logo"
+          description: |
+            Add a logo for your hub! -# 💡 *Tip: Use an image URL (PNG, JPG, GIF, WEBP) or choose the default bot avatar.* 
+          modalTitle: "Step 2/7: Logo"
+          logoUrlLabel: "Logo URL"
+          logoUrlPlaceholder: "https://example.com/logo.png"
+          addLogoButton: "Add Logo"
+          invalidUrl: "Invalid image URL. Using default bot avatar instead."
+        step3:
+          description: |
+            Choose your hub's visibility: 🔓 **Public**: Discoverable on the hub directory, requires rules 👁️ **Unlisted**: Not in directory but anyone can join if they know the name 🔒 **Private**: Invite-only, not listed publicly -# 💡 *Tip: You can change this later in hub settings.*" 
+          publicButton: "Public Hub"
+          unlistedButton: "Unlisted"
+          privateButton: "Private Hub"
+        step4:
+          title: "Community Rules"
+          description: "Set community guidelines for your hub."
+          requiredPublic: "**Required for public hubs**"
+          optional: "Optional"
+          tip: "-# 💡 *Tip: Add one rule per line. You can add up to 25 rules.*"
+          modalTitle: "Step 4/7: Rules"
+          rulesLabel: "Hub Rules"
+          rulesPlaceholder: "1. Be respectful 2. No spam 3. Follow Discord ToS"
+          addRulesButton: "Add Rules"
+        step5:
+          title: "Welcome Message"
+          description: |
+            Create a welcome message for new members! -# 💡 *Tip: Keep it friendly and informative. Max 500 characters.*" 
+          modalTitle: "Step 5/7: Welcome"
+          welcomePlaceholder: "Welcome to {hubName} or our hub! Please read the rules and have fun!"
+          customMessageButton: "Custom Message"
+        step6:
+          title: "Hub Features"
+          description: |
+            Select features to enable for your hub! ✅ **Pre-selected**: Reactions, Spam Filter (recommended) -# 💡 *Tip: You can adjust these anytime in `/hub configure`.*" 
+          modulesPlaceholder: "Select modules to enable..."
+          continueButton: "Continue"
+        step7:
+          description: |
+            Optionally select a channel for moderation logs. Logs include: bans, warnings, reports, and other mod actions. -# 💡 *Tip: Choose a private staff channel. You can configure more log types later.*" 
+          selectChannelButton: "Select Channel"
+          channelSelectTitle: "Select Logging Channel"
+          channelSelectDescription: "Choose a channel for moderation logs:"
+          channelSelectPlaceholder: "Select a logging channel"
+      summary:
+        title: "Hub Configuration Summary"
+        description: "Review your hub settings before creating:"
+        nameAndDescription: "Name & Description"
+        visibilityPublic: "🌐 Public"
+        visibilityUnlisted: "👁️ Unlisted"
+        visibilityPrivate: "🔒 Private"
+        rulesCount: "{count} rule(s) set"
+        rulesNone: "No rules (can add later)"
+        welcomeDefault: "Default welcome message"
+        featuresNone: "None"
+        loggingNone: "Not configured"
+        footer: "Ready to create your hub?"
+      completion:
+        loading: "Creating Your Hub..."
+        loadingDescription: "Please wait while we set everything up..."
+        success: "Hub Created Successfully!"
+        successDescription: "{hubName} is now live! 🎉"
+        dashboardLink: "Manage your hub"
+        publicPageLink: "View on directory"
+        nextSteps: "What's Next?"
+        step1: |
+          **For Private Hubs: Create an Invite**: `/hub invites hub:{hubName}` *Invite servers to join your hub* **For Public Hubs: Share Your Hub**: Check out your hub's [public page](https://interchat.dev/hubs/{hubId}) and use the link to join! *Share your hub with others or join it from here!* 
+        step2: "**Advanced Settings**: `/hub configure {hubName}`\n   - Profanity filters (custom anti-swear rules)\n   -\\ \\ Hub team management\n   - Advanced logging options\n   - Hub announcements"
+        step3: "**Need Help?**: [Join our support server]({supportInvite})"
+      cancelled:
+        description: "Your hub was not created. You can start over anytime with `/hub create`."
+      errors:
+        cantUseWizard: "You can't use this wizard."
+        invalidInput: "Invalid Input"
+        nameConstraint: "Uh oh! Your hub name must be composed of letters, numbers, spaces and underscores."
+        descConstraint: "The hub's short description must be between 10 and 100 characters."
+        uniqueConstraint: "Uh oh! That hub name has already been taken. You must choose another."
+        processingError: "Something went wrong while creating your hub. Please try again."
+        troubleshooting: "What you can do: • Check logo URL • Try again • Contact support"
+    delete:
+      description: "Your hub has been deleted."
+    connect:
+      success:
+        title: "Connected!"
+        description: "Connected to **{hubName}** - get chatting!"
+        fieldValue: "Connected Channel: {channel}"
+      errors:
+        alreadyConnected:
+          title: Already Connected to this hub
+          description: "It looks like this server has an connection to this hub from {channel}. Use `/connection list` to change channels or `/connection remove` to disconnect from the hub."
+    disconnect:
+      title: "Disconnected!"
+      description: "Disconnected from hub."
+      fieldValue: "Associated Channel: {channel}"
+    invites:
+      title: "Active Invites"
+      inviteUses: "**Uses:**"
+      inviteExpire: "**Expires:**"
+      noneFound: "None found!"
+    announcements:
+      title: "Hub Announcements"
+      description: |
+        Create a **one time** announcement that sends in all connected channels. -# To create **recurring** announcements please visit the hub configuration menu. 
+    config:
+      title: "Hub Configuration"
+      description: "Customize your InterChat hub for your community. Pick what you'd like to configure below."
+      options:
+        general:
+          label: "General Settings"
+          description: "Customize your hub's appearance, rules, and more"
+        rules:
+          label: "Hub Rules"
+          description: "Manage your hub's community rules and guidelines"
+        team:
+          label: "Team Management"
+          description: "Manage your hub's team and staff permissions"
+        modules:
+          label: "Modules"
+          description: "Enable or disable additional modules within your hub"
+        logging:
+          label: "Logging Configuration"
+          description: "Configure logging channels and notification roles for your hub"
+        transfer:
+          label: "Transfer Ownership"
+          description: "Transfer your hub's ownership to another person"
+        announcements:
+          label: "Scheduled Announcements"
+          description: "Configure automatic scheduled announcements for your hub"
+    all:
+      title: "InterChat Hubs"
+      description: "Below you will be able search through a list of all our hubs! Check them out, see who you find."
+      filteredBy: "Results filtered by: {filter}"
+      errors:
+        notFound: "Uh oh! I was unable to find any hubs. That's probably not supposed to happen. Please contact our [support team]({supportServer})."
+        invalidFilter: "Crickets... no hubs match your filter."
+      modal:
+        title: "Search Filter"
+        searchFilter:
+          label: "Filter"
+          placeholder: "InterChat Central"
+  rules:
+    title: "{hubName} नियम"
+    displayTitle: "{hubName} Rules"
+    description: "किसी हब के नियम देखें"
+    footer: "{count} नियम{plural} • सकारात्मक समुदाय बनाए रखने के लिए इन दिशानिर्देशों का पालन करें"
+    noRules: "No rules have been set for this hub yet."
+    selectRule:
+      placeholder: "Select a rule to edit or delete..."
+    addRule:
+      label: "Add Rule"
+      modal:
+        title: "Add New Rule"
+        placeholder: "Enter your new rule here..."
+    editRule:
+      label: "Edit Rule"
+      modal:
+        title: "Edit Rule"
+        placeholder: "Enter your updated rule here..."
+    deleteRule:
+      label: "Delete Rule"
+      confirmation: "Are you sure you want to delete this rule?"
+    moveUp:
+      label: "Move Up"
+    moveDown:
+      label: "Move Down"
+    viewAll:
+      label: "View All Rules"
+    validation:
+      empty: "Rule cannot be empty."
+      tooLong: "Rule must be {maxLength} characters or less."
+      maxRules: "Maximum of {maxRules} rules allowed."
+    success:
+      added: "Rule added successfully!"
+      updated: "Rule updated successfully!"
+      deleted: "Rule deleted successfully!"
+      moved: "Rule moved successfully!"
+    errors:
+      maxRulesReached: "Max Rules Reached ({maxRules})"
+      noRulesAvailable: "No rules available to select"
+      sessionExpired: "Session Expired"
+      sessionExpiredDescription: "This configuration session has expired. Please run the command again to continue managing rules."
+      actionCancelled: "Action Cancelled"
+      actionCancelledDescription: "Rule action has been cancelled. No changes were made."
+      ruleNotFound: "Invalid rule selection. The rule may have been deleted by another user."
+      invalidRuleSelection: "Invalid rule selection. Please try again."
+      processingError: "An error occurred while processing your request. Please try again."
+      refreshError: "An error occurred while refreshing. Please try again."
+      navigationError: "An error occurred while navigating. Please try again."
+      selectionError: "An error occurred while selecting the rule. Please try again."
+      deletionCancelled: "Cancelled"
+      deletionCancelledDescription: "Rule deletion has been cancelled. No changes were made."
+      noHub: "यह कमांड किसी ऐसे सर्वर चैनल में उपयोग की जानी चाहिए जो किसी हब से जुड़ा हो, या आपको एक हब नाम निर्दिष्ट करना होगा।"
+      notConnected: "यह चैनल किसी भी हब से जुड़ा नहीं है। कृपया हब नाम निर्दिष्ट करें या इस कमांड का उपयोग किसी जुड़े हुए चैनल में करें।"
+    warnings:
+      deleteWarning: "Warning"
+      deleteWarningDescription: "This action cannot be undone. The rule will be permanently removed from your hub."
+    display:
+      noRulesTitle: "No Rules Set"
+      noRulesDescription: 'No rules have been set for this hub yet. Use the "Add Rule" button below to create your first rule.'
+      currentRulesTitle: "Current Rules ({current}/{max})"
+      ruleSelected: "Rule {number} Selected"
+      currentRule: "Current Rule:"
+  connection:
+    title: "कनेक्शन प्रबंधन"
+    description: "इस सर्वर के भीतर सभी हब कनेक्शनों को कॉन्फ़िगर और प्रबंधित करें।"
+    fixAll:
+      label: "Fix All Connections"
+    manage:
+      placeholder: "Select a connection to manage"
+    selected:
+      description: "अब आप इस कनेक्शन को संपादित कर सकते हैं। नीचे दिए गए विकल्पों का उपयोग करके प्रसारण चैनल बदलें या कनेक्शन से संबंधित सेटिंग्स संपादित करें।"
+      fields:
+        broadcastChannel: "प्रसारण चैनल (PENDING REVIEW)"
+        connectionState: "प्रसारण स्थिति"
+        lastActive: "अंतिम सक्रिय"
+      state:
+        enabled: "प्रसारण अब **सक्रिय** हैं।"
+        disabled: "प्रसारण अब **रुके हुए** हैं।"
+    fix:
+      title: "कनेक्शन मान्यता"
+      description: "इस गिल्ड के भीतर सभी कनेक्शनों को मान्य किया गया है। अधिक जानकारी के लिए नीचे देखें।"
+      responses:
+        success:
+          fixed: "कनेक्शन ठीक कर दिया गया!"
+          valid: "कोई समस्या नहीं मिली।"
+        errors:
+          channelDeleted: "इस हब से जुड़ा चैनल हटा दिया गया है। कनेक्शन हटा दिया गया।"
+          permissionsWebhook: "मैं वेबहुक्स उपयोग नहीं कर पा रहा हूँ, कृपया मेरी अनुमतियाँ जाँचें और पुनः प्रयास करें।"
+          permissionsView: "मैं चैनल देख नहीं पा रहा हूँ, कृपया मेरी अनुमतियाँ जाँचें और पुनः प्रयास करें।"
+          permissionsSend: "मैं संदेश भेज नहीं पा रहा हूँ, कृपया मेरी अनुमतियाँ जाँचें और पुनः प्रयास करें।"
+  messageInfo:
+    tabs:
+      message:
+        title: "Message Information"
+        button: "Message"
+      user:
+        title: "User Information"
+        button: "User"
+      server:
+        title: "Server Information"
+        button: "Server"
+    fields:
+      messageId: "Message ID"
+      server: "Server"
+      author: "Author"
+      hub: "Hub"
+      content: "Content"
+      timestamp: "Timestamp"
+      username: "Username"
+      accountCreated: "Account Created"
+      badges: "Badges"
+      serverName: "Server Name"
+      connectionChannel: "Connection Channel"
+      connectedSince: "Connected Since"
+      status: "Status"
+    status:
+      connected: "Connected"
+      disconnected: "Disconnected"
+    buttons:
+      profile: "Profile"
+    unknown:
+      server: "Unknown Server"
+    noBadges: "No badges to display"
+    noConnection: "No connection information available"
+  leaderboard:
+    staffTag: "InterChat स्टाफ"
+    userTag: "उपयोगकर्ता"
+    messagesColumn: "संदेश"
+    voteCountColumn: "वोट संख्या"
+  profile:
+    achievements:
+      noneFound: "कुछ नहीं मिला"
+      noneFoundDescription: "मुझे इस उपयोगकर्ता के लिए कोई उपलब्धि नहीं मिली!"
+      placeholder: "यहाँ उपलब्धियां दिखेंगी"
+    badges:
+      noneFound: "कुछ नहीं मिला"
+      noneFoundDescription: "मुझे इस उपयोगकर्ता के लिए कोई बैज नहीं मिला!"
+  my:
+    hubs:
+      title: "आपके हब्स"
+      description: "यहाँ वे हब्स हैं जिन्हें आप स्वामित्व या मॉडरेट करते हैं:"
+      position: "स्थिति:"
+      owner: "मालिक"
+  stats:
+    title: "InterChat आँकड़े"
+    shard:
+      title: "Shard जानकारी"
+      statusReady: "तैयार"
+      statusProvisioning: "प्रावधान हो रहा है..."
+      current: "वर्तमान Shard: #{id}"
+  invite:
+    title: "नमस्ते!"
+    description: "InterChat चुनने के लिए धन्यवाद। मदद चाहिए? हमारे सपोर्ट सर्वर से जुड़ें। नीचे दिए गए बटनों का उपयोग करके हमारे बॉट को अपने सर्वर में आमंत्रित करें और सर्वरों को कनेक्ट करना शुरू करें।"
