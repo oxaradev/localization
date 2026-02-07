@@ -79,7 +79,6 @@ common:
     missingArgument: "อาร์กิวเมนต์หายไป: `{param}`"
     notAuthorized: "คุณไม่สามารถใช้ปุ่มนี้ได้"
     accessDenied: "การเข้าถึงถูกปฏิเสธ"
-
 about:
   title: "เกี่ยวกับ InterChat"
   description: "InterChat เชื่อมต่อชุมชน Discord ผ่านการสนทนาข้ามเซิร์ฟเวอร์ที่ใช้งานอยู่จริง ข้อความจะไหลเวียนระหว่างเซิร์ฟเวอร์อย่างเป็นธรรมชาติแบบเรียลไทม์ ช่วยให้คุณสร้างชุมชนที่เน้นหัวข้อสนทนาได้อย่างมีส่วนร่วม"
@@ -98,7 +97,6 @@ about:
     dashboard: "เปิดแดชบอร์ด"
     support: "เข้าร่วม Support"
     shardInfo: "ข้อมูล Shard"
-
 botLanding:
   title: "👋 สวัสดีครับ!"
   description: |
@@ -110,7 +108,6 @@ botLanding:
     {dot} **พร้อมที่จะสำรวจ?** เยี่ยมชม [หน้าสำรวจ](https://interchat.dev/hubs) เพื่อค้นหาและเป็นส่วนหนึ่งของ Hubs ที่มีชีวิตชีวาของเรา
 
     💝 **หลงทาง? ต้องการความช่วยเหลือ?** เราขอเชิญคุณเข้าร่วม [ชุมชนสนับสนุน](https://discord.gg/8DhUA4HNpD) ทีมงานและชุมชนของเรายินดีที่จะให้ความช่วยเหลือ เราพร้อมสนับสนุนในทุกปัญหาที่คุณอาจพบ อย่าลังเลที่จะเข้าร่วม!
-
 setup:
   embed:
     description: "ใช้ Modal เพื่อกรอกรายละเอียด Hub ของคุณ"
@@ -169,12 +166,10 @@ setup:
     skipForNow: "ข้ามไปก่อน"
   errors:
     hubCreationFailed: "{no} การสร้าง Hub ล้มเหลว"
-
 help:
   title: "คำสั่ง InterChat"
   description: "สำรวจคำสั่งที่หลากหลายของเราเพื่อช่วยให้คุณและชุมชนของคุณเชื่อมต่อกับผู้อื่น"
   name: "ช่วยเหลือ"
-
 preferences:
   title: "การตั้งค่าผู้ใช้"
   description: "แก้ไขการตั้งค่าส่วนตัวของคุณเพื่อให้ InterChat ทำงานตามที่คุณต้องการ การตั้งค่าเหล่านี้เป็นแบบ 'ทั่วโลก' และมีผลกับทุกเซิร์ฟเวอร์ที่คุณใช้ร่วมกับ InterChat"
@@ -219,7 +214,6 @@ preferences:
       disable: "ปิดใช้งาน"
   errors:
     noPreferences: "คุณยังไม่มีการตั้งค่าใดๆ"
-
 appeal:
   title: "การทำผิดกฎของคุณที่อุทธรณ์ได้"
   description: "เลือกการทำผิดกฎด้านล่างเพื่อส่งคำอุทธรณ์ หรือดูสถานะของการอุทธรณ์ที่มีอยู่"
@@ -278,7 +272,6 @@ appeal:
     recordFailed: "บันทึกการตัดสินใจล้มเหลว: {error}"
     notFoundOrDeleted: "ไม่พบคำอุทธรณ์หรืออาจถูกลบไปแล้ว"
     updateFailed: "อัปเดตคำอุทธรณ์ล้มเหลว โปรดลองใหม่ภายหลัง"
-
 report:
   title: "รายงานข้อความ"
   footer: "การรายงานช่วยให้ InterChat ปลอดภัยสำหรับทุกคน"
@@ -312,7 +305,6 @@ report:
     notFoundOrDeleted: "ไม่พบรายงานหรืออาจถูกลบไปแล้ว"
     alreadyHandled: "รายงานนี้ถูก {status} ไปแล้ว"
     updateFailed: "อัปเดตรายงานล้มเหลว โปรดลองใหม่ภายหลัง"
-
 hubConfig:
   general:
     placeholder: "เลือกการตั้งค่าที่ต้องการปรับแต่ง..."
@@ -380,7 +372,6 @@ hubConfig:
       expiry:
         label: "วันหมดอายุ"
         placeholder: "1w, 3d, 12h (ปล่อยว่างไว้ถ้าไม่มีวันหมดอายุ)"
-
 moderation:
   panel:
     description: "เปิดแผงควบคุม Moderation สำหรับผู้ใช้, ข้อความ หรือเซิร์ฟเวอร์"
@@ -482,7 +473,6 @@ moderation:
     hubNotFoundForMessage: "ไม่พบ Hub สำหรับข้อความนี้"
     noModeratedHubs: "คุณไม่มีสิทธิ์ Moderation ใน Hub ใดๆ"
     noTarget: "โปรดระบุเป้าหมาย (ผู้ใช้/เซิร์ฟเวอร์) หรือตอบกลับข้อความ"
-
 profanity:
   actions:
     editActions:
@@ -497,7 +487,6 @@ profanity:
     delete:
       label: "ลบกฎ"
       description: "⚠️ ลบกฎนี้ทิ้งอย่างถาวร"
-
 welcomeMessage:
   title: "ยินดีต้อนรับสู่ InterChat Hub ที่ชื่อว่า **{hubName}**!"
   footer: "เชื่อมต่อกับ {hubName}"
@@ -519,7 +508,6 @@ welcomeMessage:
   disconnectConfirm:
     title: "ตัดการเชื่อมต่อจาก Hub?"
     description: "คุณแน่ใจหรือไม่ว่าต้องการตัดการเชื่อมต่อจาก **{hubName}**?"
-
 infractions:
   description: "ดูการทำผิดกฎใน Hub กรองตามผู้ใช้หรือเซิร์ฟเวอร์"
   buttons:
@@ -543,7 +531,6 @@ infractions:
     moderator: "Moderator"
     issued: "ออกให้เมื่อ"
     evidence: "หลักฐาน"
-
   evidence:
     content: "เนื้อหา"
     author: "ผู้เขียน"
@@ -571,7 +558,6 @@ infractions:
     permissionDenied: "คุณไม่มีสิทธิ์ระดับเจ้าหน้าที่ InterChat เพื่อออกคำสั่ง Blacklist ทั่วโลก"
     alreadyActive: "เป้าหมายติดสถานะ Blacklist ทั่วโลกอยู่แล้ว"
     success: "Blacklist {target} ทั่วโลกแล้ว"
-
 staff:
   get:
     description: "รับข้อมูลเกี่ยวกับเอนทิตีของ InterChat"
@@ -633,7 +619,6 @@ staff:
       locale: "ภาษา"
       lastMessage: "ข้อความล่าสุด"
       lastVote: "โหวตล่าสุด"
-
     values:
       staff: "Staff"
       member: "Member"
@@ -695,7 +680,6 @@ staff:
       server: "เซิร์ฟเวอร์"
     notFound: "ไม่พบรายการ Blacklist ที่ตรงกัน"
     removed: "ลบรายการ Blacklist แล้ว"
-
 hub:
   lock:
     successTitle: "ล็อค Hub แล้ว"
@@ -733,7 +717,6 @@ hub:
     proTips:
       title: "{dot} เคล็ดลับมือโปร"
       description: "{dot} เยี่ยมชม [Dashboard]({website}) เพื่อการตั้งค่าขั้นสูง\n{dot} ใช้ {hubVisibilityCommand} เพื่อทำให้ Hub ของคุณเป็นสาธารณะ\n{dot} เข้าร่วม [Support Server]({supportInvite}) ของเราเพื่อขอความช่วยเหลือและรับข่าวสารอัปเดต"
-
   wizard:
     start: "เริ่มสร้าง Hub ของคุณ"
     name:
@@ -849,7 +832,6 @@ hub:
       uniqueConstraint: "โอ๊ะโอ! ชื่อ Hub นั้นถูกใช้ไปแล้ว คุณต้องเลือกชื่ออื่น"
       processingError: "มีบางอย่างผิดพลาดขณะสร้าง Hub ของคุณ โปรดลองอีกครั้ง"
       troubleshooting: "สิ่งที่คุณทำได้: • ตรวจสอบ URL โลโก้ • ลองอีกครั้ง • ติดต่อฝ่ายสนับสนุน"
-
   delete:
     description: "Hub ของคุณถูกลบแล้ว"
   connect:
@@ -912,7 +894,6 @@ hub:
       searchFilter:
         label: "ตัวกรอง"
         placeholder: "InterChat Central"
-
 rules:
   title: "การจัดการกฎ Hub"
   displayTitle: "กฎของ {hubName}"
@@ -975,7 +956,6 @@ rules:
     currentRulesTitle: "กฎปัจจุบัน ({current}/{max})"
     ruleSelected: "เลือกกฎข้อที่ {number}"
     currentRule: "กฎปัจจุบัน:"
-
 connection:
   title: "การจัดการการเชื่อมต่อ"
   description: "กำหนดค่าและบริหารจัดการการเชื่อมต่อ Hub ทั้งหมดภายในเซิร์ฟเวอร์นี้"
@@ -1004,7 +984,6 @@ connection:
         permissionsWebhook: "ฉันไม่สามารถจัดการ Webhooks ได้ โปรดตรวจสอบสิทธิ์ของฉันแล้วลองอีกครั้ง"
         permissionsView: "ฉันไม่สามารถมองเห็นช่องได้ โปรดตรวจสอบสิทธิ์ของฉันแล้วลองอีกครั้ง"
         permissionsSend: "ฉันไม่สามารถส่งข้อความได้ โปรดตรวจสอบสิทธิ์ของฉันแล้วลองอีกครั้ง"
-
 messageInfo:
   tabs:
     message:
@@ -1039,13 +1018,11 @@ messageInfo:
     server: "เซิร์ฟเวอร์ที่ไม่รู้จัก"
   noBadges: "ไม่มีตราสัญลักษณ์ที่จะแสดง"
   noConnection: "ไม่มีข้อมูลการเชื่อมต่อ"
-
 leaderboard:
   staffTag: "เจ้าหน้าที่ InterChat"
   userTag: "ผู้ใช้"
   messagesColumn: "ข้อความ"
   voteCountColumn: "จำนวนโหวต"
-
 profile:
   achievements:
     noneFound: "ไม่พบข้อมูล"
@@ -1054,14 +1031,12 @@ profile:
   badges:
     noneFound: "ไม่พบข้อมูล"
     noneFoundDescription: "ฉันไม่พบตราสัญลักษณ์ใดๆ สำหรับผู้ใช้นี้!"
-
 my:
   hubs:
     title: "Hub ของคุณ"
     description: "นี่คือ Hub ที่คุณเป็นเจ้าของหรือดูแลอยู่:"
     position: "ตำแหน่ง:"
     owner: "เจ้าของ"
-
 stats:
   title: "สถิติ InterChat"
   shard:
@@ -1069,7 +1044,6 @@ stats:
     statusReady: "พร้อมใช้งาน"
     statusProvisioning: "กำลังจัดเตรียม..."
     current: "Shard ปัจจุบัน: #{id}"
-
 invite:
   title: "เฮ้!"
   description: "ขอบคุณที่เลือก InterChat ต้องการความช่วยเหลือ? เข้าร่วมเซิร์ฟเวอร์สนับสนุนของเรา ใช้ปุ่มด้านล่างเพื่อเชิญบอทของเราไปยังเซิร์ฟเวอร์ของคุณและเริ่มเชื่อมต่อเซิร์ฟเวอร์ต่างๆ เข้าด้วยกัน"
