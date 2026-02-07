@@ -53,7 +53,6 @@ ui:
       previous: "Previous"
       page: "Page {current}/{total}"
     fields:
-      # TODO: THIS
       id: "{type} ID"
       name: "{type} Name"
       reason: "Reason"

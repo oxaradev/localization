@@ -53,7 +53,6 @@ ui:
       previous: "Anterior"
       page: "Página {current}/{total}"
     fields:
-      # TODO: THIS
       id: "ID de {type}"
       name: "Nombre de {type}"
       reason: "Razón"
