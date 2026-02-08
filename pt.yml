@@ -98,41 +98,13 @@ botLanding:
   description: |
     **Sou InterChat e tenho o prazer de estar no seu servidor em nome de nossa equipe.** Juntos, podemos conectar seu servidor a outras comunidades notáveis de todo o Discord. Numerosos, potencialmente milhares de servidores localizados em um só lugar, todos cheios de pessoas ansiosas para conversar com você. 🚀 **Pronto para começar a construir novas pontes conosco?** {dot} **Novo aqui?** O comando '/setup' fornece um guia passo a passo para ajudá-lo a começar sua jornada. {dot} **Pronto para explorar?** Visite nossa [página de descoberta](https://interchat.dev/hubs) para localizar e fazer parte de nossos centros animados. {dot} **Talvez algo com o qual você esteja mais familiarizado?** Experimente nosso '/call' para conexões individuais. 💝 **Perdido? Precisa de ajuda?** Damos as boas-vindas à nossa [comunidade de suporte](https://discord.gg/8DhUA4HNpD). Nossa equipe e nossa comunidade terão prazer em oferecer sua ajuda. Oferecemos o máximo de suporte e assistência em quaisquer problemas que você possa ter, não hesite em participar! 
 setup:
-  embed:
-    description: "Use o modal para inserir os detalhes do seu hub."
   welcome:
     title: "Bem-vindo a configuração do InterChat"
     description: "Vamos ter o seu servidor conectado. Esse instalador ira te guiar a como criar ou entrar em um hub."
-  editMessagePrompt: "{emoji} Por favor, use o modal para editar sua mensagem."
   select:
     placeholder: "Selecione um idioma"
-    chooseOption: "Escolha uma opção para começar..."
-  options:
-    create:
-      label: "Criar Hub"
-      description: "Comece sua própria comunidade no InterChat"
-    join:
-      label: "Entre em um hub"
-      description: "Conecte-se a uma comunidade existente"
-    titleSaved: "{emoji} Informações do hub salvadas!"
-    previewTitle: "Aqui está uma prévia do seu hub:"
-    name: "{emoji} Nome"
-    short: "{emoji} Nome curto"
-    description: "{emoji} Descrição"
   locale:
     successDescription: "{tick} Sua lingua foi definida para **{locale_name}**"
-  loading:
-    creatingHub: "{loading} Criando seu hub..."
-    pleaseWait: "Por favor, aguarde enquanto nós configuramos o espaço da sua comunidade."
-  create:
-    footer:
-      getStarted: "Clique em 'Inserir Informações do Hub' abaixo para começar!"
-    whatYoullCreate:
-      title: "O que você deve criar:"
-      description: "{dot} Um espaço único a comunidade para seus servidores {dot} Controle completo sobre as regras e moderação {dot} Configurações e funcionalidades customizadas {dot} Privado por padrão - somente convites"
-    youllNeed:
-      title: "Você precisará:"
-      description: "{arrow_right} Nome criativo para o hub {arrow_right} Descrição breve {arrow_right} Descrição detalhada {arrow_right} Imagem URL de logo"
   join:
     title: "Entrar em um hub"
     description: "Use um diretório público ou conecte com um código de convite."
@@ -141,7 +113,7 @@ setup:
       description: "**Pesquise em** [interchat.dev/hubs]{https://interchat.dev/hubs} \n**Ou clique** no botão abaixo para\\ \\ abrir o diretório"
     privateHubs:
       title: "Privado ou Somente via convite"
-      description: "**Pergunte ao criador do hub ou gerente** por um código de convite **Execute `/connection add <código de convite>`** no seu servidor para entrar"
+      description: "**Ask the hub owner or manager** for an invite code\n**Run `/connection add<invite-code>`** in your server to join"
     footer: "Você pode entrar em mais hubs a qualquer momento, e você pode se conectar a múltiplos hubs de uma vez em diferentes canais."
   buttons:
     startWizard: "Iniciar Assistente de Configuração"
@@ -153,8 +125,6 @@ setup:
     joinHub: "Entrar no Hub"
     useDefault: "Usar Padrão"
     skipForNow: "Pular por Enquanto"
-  errors:
-    hubCreationFailed: "{no} A criação do hub falhou"
 help:
   title: "Comandos do InterChat"
   description: "Explore nossa grande variedades de comandos para ajudar você, e sua comunidade conectar com outros."
@@ -386,11 +356,8 @@ moderation:
   delete:
     label: "Deletar"
     description: "Deletar a mensagem selecionada em todos os hubs conectados"
-    noMessage: "Nenhuma mensagem fornecida para excluir."
     success: "A mensagem foi deletada de todos os hub conectados."
     notInterChatMessage: "Esta mensagem não é uma mensagem o InterChat ou já foi excluída."
-    failed: "Falha ao apagar a mensagem. Tente novamente mais tarde."
-    notFound: "Infração não encontrada."
   blacklist:
     label: "Blacklist"
     description: "Emitir uma blacklist global do InterChat (usuário/servidor)"
@@ -450,7 +417,6 @@ moderation:
     noHubSelected: "Nenhum hub selecionado."
   errors:
     selectedHubNotFound: "Hub selecionado não encontrado."
-    processingFailed: "Falha ao processar a ação moderativa: {error}"
     unknownAction: "Ação desconhecida."
     unsupportedAction: "Rota de ação não suportada."
     openPanelFailed: "Erro ao abrir painel de moderação: {error}"
@@ -540,7 +506,6 @@ infractions:
     noActive: "Nenhum {action} ativo encontrado."
     success: "{action} revogada."
   delete:
-    notImplemented: "Apagar mensagens não implementado ainda. Motivo: {reason}"
     notFound: "Infração não encontrada."
     success: "Infração excluída."
   blacklist:
@@ -688,20 +653,6 @@ hub:
   create:
     title: "Crie Seu Hub"
     description: "Crie seu próprio hub InterChat para uma comunidade, seus amigos... ou qualquer um - a lista poderia continuar por muito tempo. Vá em frente, veja onde isso te leva."
-  nextSteps:
-    created:
-      title: "Hub Criado com Sucesso!"
-      description: |
-        Seu hub **{hubName}** está pronto! Aqui está o que você pode fazer em seguida:
-    inviteLink:
-      title: "Próximo: Criar Links de Convite"
-      description: "Use {hubInviteCommand} para gerar códigos de convite para **{hubName}** e compartilhe-os com outros donos de servidores."
-    shareHub:
-      title: "Compartilhe Seu Hub"
-      description: "{dot} Poste sobre seu novo hub em nosso [Servidor de Suporte]({supportInvite}) {dot} Compartilhe com amigos e comunidades {dot} Use redes sociais para espalhar a palavra"
-    proTips:
-      title: "{dot} Dicas Pro"
-      description: "{dot} Visite o [Dashboard]({website}) para configurações avançadas {dot} Use {hubVisibilityCommand} para tornar seu hub público {dot} Entre em nosso [Servidor de Suporte]({supportInvite}) para ajuda e atualizações"
   wizard:
     start: "Começar a Criar Seu Hub"
     name:
@@ -993,15 +944,10 @@ profile:
     noneFound: "Nenhum encontrado"
     noneFoundDescription: "Eu não consegui encontrar nenhuma conquista para este usuário!"
     placeholder: "Conquistas aqui"
-  badges:
-    noneFound: "Nenhum encontrado"
-    noneFoundDescription: "Eu não consegui encontrar nenhuma insignia para este usuário!"
 my:
   hubs:
     title: "Seus hubs"
     description: "Aqui estão os hubs que você adquire ou modera:"
-    position: "Posição:"
-    owner: "Dono"
 stats:
   title: "Estatísticas do InterChat"
   shard:
