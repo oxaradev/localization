@@ -79,7 +79,6 @@ common:
     missingArgument: "Falta argumento: `{param}`."
     notAuthorized: "No puedes usar este botón."
     accessDenied: "Acceso Denegado"
-
 about:
   title: "Sobre InterChat"
   description: "InterChat conecta comunidades de Discord a través de discusiones activas entre servidores. Los mensajes fluyen naturalmente entre servidores en tiempo real, ayudándote a construir comunidades comprometidas y enfocadas en temas."
@@ -98,7 +97,6 @@ about:
     dashboard: "Abrir Dashboard"
     support: "Unirse al Soporte"
     shardInfo: "Info del Shard"
-
 botLanding:
   title: "👋 ¡Hola!"
   description: |
@@ -110,43 +108,14 @@ botLanding:
     {dot} **¿Listo para explorar?** Visita nuestra [página de descubrimiento](https://interchat.dev/hubs) para localizar y formar parte de nuestros animados Hubs.
 
     💝 **¿Perdido? ¿Necesitas asistencia?** Te damos la bienvenida a nuestra [comunidad de soporte](https://discord.gg/8DhUA4HNpD). Nuestro equipo y comunidad estarán encantados de ofrecer su ayuda. Ofrecemos tanto soporte y asistencia como necesites en cualquier problema que puedas tener, ¡no dudes en unirte!
-
 setup:
-  embed:
-    description: "Usa el modal para ingresar los detalles de tu Hub."
   welcome:
     title: "Bienvenido a la Configuración de InterChat"
     description: "Vamos a conectar tu servidor. Este asistente te guiará para crear o unirte a un Hub."
-  editMessagePrompt: "{emoji} Por favor usa el modal para editar tu mensaje."
   select:
     placeholder: "Selecciona un idioma"
-    chooseOption: "Elige una opción para comenzar..."
-  options:
-    create:
-      label: "Crear un Hub"
-      description: "Inicia tu propia comunidad de InterChat"
-    join:
-      label: "Unirse a un Hub"
-      description: "Conéctate a una comunidad existente"
-    titleSaved: "{emoji} ¡Información del Hub Guardada!"
-    previewTitle: "Aquí tienes una vista previa de tu Hub:"
-    name: "{emoji} Nombre"
-    short: "{emoji} Nombre Corto"
-    description: "{emoji} Descripción"
   locale:
     successDescription: "{tick} Tu idioma ha sido configurado a **{locale_name}**"
-  loading:
-    creatingHub: "{loading} Creando tu Hub..."
-    pleaseWait: "Por favor espera mientras configuramos tu espacio comunitario."
-  create:
-    footer:
-      getStarted: "¡Haz clic en 'Ingresar Información del Hub' abajo para comenzar!"
-    whatYoullCreate:
-      title: "Lo que crearás:"
-      description: "{dot} Un espacio comunitario único para tus servidores\n{dot} Control total sobre reglas y moderación\n{dot} Configuraciones y características personalizadas\n{dot} Privado por defecto - solo con invitación"
-    youllNeed:
-      title: "Necesitarás:"
-      description: "{arrow_right} Nombre creativo para el Hub\n{arrow_right} Descripción breve\n{arrow_right} Descripción detallada\n{arrow_right} URL de la imagen del logo"
   join:
     title: "Unirse a un Hub"
     description: "Usa el directorio público o conéctate con un código de invitación."
@@ -155,7 +124,7 @@ setup:
       description: "**Explora** [interchat.dev/hubs](https://interchat.dev/hubs)\n**O haz clic** en el botón de abajo para abrir el directorio"
     privateHubs:
       title: "Privados o Solo Invitación"
-      description: "**Pide al dueño o gerente del Hub** un código de invitación\n**Ejecuta `/connection add<código-invitación>`** en tu servidor para unirte"
+      description: "**Pide al dueño o gerente del Hub** un código de invitación\n**Ejecuta `/connection add <código-invitación>`** en tu servidor para unirte"
     footer: "Puedes unirte a más Hubs en cualquier momento, y puedes estar conectado a múltiples Hubs a la vez en diferentes canales."
   buttons:
     startWizard: "Iniciar Asistente"
@@ -167,14 +136,10 @@ setup:
     joinHub: "Unirse a Hub"
     useDefault: "Usar Predeterminado"
     skipForNow: "Omitir por Ahora"
-  errors:
-    hubCreationFailed: "{no} Falló la Creación del Hub"
-
 help:
   title: "Comandos de InterChat"
   description: "Explora nuestra amplia gama de comandos para ayudarte a ti y a tu comunidad a conectar con otros."
   name: "Ayuda"
-
 preferences:
   title: "Preferencias de Usuario"
   description: "Edita tus configuraciones personales para que InterChat funcione para ti. Estas son GLOBALES y funcionan en todos los servidores que compartes con InterChat."
@@ -219,7 +184,6 @@ preferences:
       disable: "Desactivar"
   errors:
     noPreferences: "Aún no tienes ninguna preferencia establecida."
-
 appeal:
   title: "Tus Infracciones Apelables"
   description: "Selecciona una infracción abajo para enviar una apelación, o ver el estado de apelaciones existentes."
@@ -278,7 +242,6 @@ appeal:
     recordFailed: "Fallo al registrar la decisión: {error}"
     notFoundOrDeleted: "Apelación no encontrada o ha sido eliminada."
     updateFailed: "Fallo al actualizar la apelación. Por favor intenta de nuevo más tarde."
-
 report:
   title: "Reportar Mensaje"
   footer: "Los reportes ayudan a mantener InterChat seguro para todos"
@@ -312,7 +275,6 @@ report:
     notFoundOrDeleted: "Reporte no encontrado o ha sido eliminado."
     alreadyHandled: "Este reporte ya está {status}."
     updateFailed: "Fallo al actualizar el reporte. Por favor intenta de nuevo más tarde."
-
 hubConfig:
   general:
     placeholder: "Elige una configuración para modificar..."
@@ -380,7 +342,6 @@ hubConfig:
       expiry:
         label: "Expiración"
         placeholder: "1w, 3d, 12h (Déjame en blanco para sin expiración)"
-
 moderation:
   panel:
     description: "Abrir el panel de moderación para usuarios, mensajes o servidores"
@@ -406,11 +367,8 @@ moderation:
   delete:
     label: "Eliminar"
     description: "Eliminar el mensaje seleccionado en todos los Hubs conectados"
-    noMessage: "No se proporcionó mensaje para eliminar."
     success: "El mensaje ha sido eliminado de todos los Hubs conectados."
     notInterChatMessage: "Este mensaje no es un mensaje de InterChat o ya ha sido eliminado."
-    failed: "Fallo al eliminar el mensaje. Por favor intenta de nuevo más tarde."
-    notFound: "Infracción no encontrada."
   blacklist:
     label: "Lista negra"
     description: "Emitir una lista negra global en InterChat (usuario/servidor)"
@@ -470,7 +428,6 @@ moderation:
     noHubSelected: "Ningún Hub seleccionado."
   errors:
     selectedHubNotFound: "Hub seleccionado no encontrado."
-    processingFailed: "Fallo al procesar la acción de moderación: {error}"
     unknownAction: "Acción desconocida."
     unsupportedAction: "Ruta de acción no soportada."
     openPanelFailed: "Error inesperado al abrir el panel de mod. Por favor intenta de nuevo más tarde o reporta al staff."
@@ -482,7 +439,6 @@ moderation:
     hubNotFoundForMessage: "Hub no encontrado para este mensaje."
     noModeratedHubs: "No tienes permisos de moderación en ningún Hub."
     noTarget: "Por favor especifica un objetivo (usuario/servidor) o responde a un mensaje."
-
 profanity:
   actions:
     editActions:
@@ -497,7 +453,6 @@ profanity:
     delete:
       label: "Eliminar Regla"
       description: "⚠️ Eliminar permanentemente esta regla"
-
 welcomeMessage:
   title: "¡Bienvenido al Hub de InterChat llamado **{hubName}**!"
   footer: "Conectado a {hubName}"
@@ -519,7 +474,6 @@ welcomeMessage:
   disconnectConfirm:
     title: "¿Desconectar del Hub?"
     description: "¿Estás seguro de que quieres desconectarte de **{hubName}**?"
-
 infractions:
   description: "Ver infracciones en un Hub, filtradas por usuario o servidor."
   buttons:
@@ -543,7 +497,6 @@ infractions:
     moderator: "Moderador"
     issued: "Emitida"
     evidence: "Evidencia"
-
   evidence:
     content: "Contenido"
     author: "Autor"
@@ -564,14 +517,12 @@ infractions:
     noActive: "No se encontró {action} activo."
     success: "{action} revocado."
   delete:
-    notImplemented: "Eliminación de mensaje no implementada aún. Razón registrada: {reason}"
     notFound: "Infracción no encontrada."
     success: "Infracción eliminada."
   blacklist:
     permissionDenied: "Careces de permisos de staff de InterChat para emitir una lista negra global."
     alreadyActive: "El objetivo ya tiene una lista negra global activa."
     success: "{target} añadido a la lista negra global."
-
 staff:
   get:
     description: "Obtener información sobre entidades de InterChat"
@@ -633,7 +584,6 @@ staff:
       locale: "Idioma"
       lastMessage: "Último Mensaje"
       lastVote: "Último Voto"
-
     values:
       staff: "Staff"
       member: "Miembro"
@@ -693,10 +643,8 @@ staff:
     labels:
       user: "Usuario"
       server: "Servidor"
-
     notFound: "No se encontró ninguna entrada de lista negra coincidente."
     removed: "Entrada de lista negra eliminada."
-
 hub:
   lock:
     successTitle: "Hub Bloqueado"
@@ -716,25 +664,6 @@ hub:
   create:
     title: "Crea Tu Hub"
     description: "Crea tu propio Hub de InterChat para una comunidad, tus amigos... o cualquiera - la lista podría seguir por años. Adelante, mira a dónde te lleva."
-  nextSteps:
-    created:
-      title: "¡Hub Creado Exitosamente!"
-      description: |
-        ¡Tu Hub **{hubName}** está listo! Aquí hay lo que puedes hacer a continuación:
-        - Invita tu primer servidor usando `/invite`
-        - Establece reglas con `/rules set`
-        - Personaliza configuraciones en el [dashboard](https://interchat.dev/dashboard)
-        - Conecta canales con `/connection add <nombre-hub>`
-    inviteLink:
-      title: "Siguiente: Crear Enlaces de Invitación"
-      description: "Usa {hubInviteCommand} para generar códigos de invitación para **{hubName}** y compártelos con otros dueños de servidores."
-    shareHub:
-      title: "Comparte Tu Hub"
-      description: "{dot} Publica sobre tu nuevo Hub en nuestro [Servidor de Soporte]({supportInvite})\n{dot} Comparte con amigos y comunidades\n{dot} Usa redes sociales para correr la voz"
-    proTips:
-      title: "{dot} Consejos Pro"
-      description: "{dot} Visita el [Dashboard]({website}) para configuraciones avanzadas\n{dot} Usa {hubVisibilityCommand} para hacer tu Hub público\n{dot} Únete a nuestro [Servidor de Soporte]({supportInvite}) para ayuda y actualizaciones"
-
   wizard:
     start: "Comenzar a Crear Tu Hub"
     name:
@@ -762,6 +691,7 @@ hub:
         addLogoButton: "Añadir Logo"
         invalidUrl: "URL de imagen inválida. Usando avatar predeterminado del bot en su lugar."
       step3:
+        title: Hub Visibility
         description: |
           Elige la visibilidad de tu Hub:
 
@@ -850,7 +780,6 @@ hub:
       uniqueConstraint: "¡Oh no! Ese nombre de Hub ya ha sido tomado. Debes elegir otro."
       processingError: "Algo salió mal al crear tu Hub. Por favor inténtalo de nuevo."
       troubleshooting: "Lo que puedes hacer: • Verificar URL del logo • Intentar de nuevo • Contactar soporte"
-
   delete:
     description: "Tu Hub ha sido eliminado."
   connect:
@@ -913,7 +842,6 @@ hub:
       searchFilter:
         label: "Filtro"
         placeholder: "InterChat Central"
-
 rules:
   title: "Gestión de Reglas del Hub"
   displayTitle: "Reglas de {hubName}"
@@ -976,7 +904,6 @@ rules:
     currentRulesTitle: "Reglas Actuales ({current}/{max})"
     ruleSelected: "Regla {number} Seleccionada"
     currentRule: "Regla Actual:"
-
 connection:
   title: "Gestión de Conexión"
   description: "Configura, y administra todas las conexiones de Hub dentro de este servidor."
@@ -1005,7 +932,6 @@ connection:
         permissionsWebhook: "Soy incapaz de usar webhooks, por favor revisa mis permisos e intenta de nuevo."
         permissionsView: "Soy incapaz de ver el canal, por favor revisa mis permisos e intenta de nuevo."
         permissionsSend: "Soy incapaz de enviar mensajes, por favor revisa mis permisos e intenta de nuevo."
-
 messageInfo:
   tabs:
     message:
@@ -1040,29 +966,20 @@ messageInfo:
     server: "Servidor Desconocido"
   noBadges: "No hay insignias para mostrar"
   noConnection: "No hay información de conexión disponible"
-
 leaderboard:
   staffTag: "Staff de InterChat"
   userTag: "Usuario"
   messagesColumn: "Mensajes"
   voteCountColumn: "Conteo de Votos"
-
 profile:
   achievements:
     noneFound: "Ninguno Encontrado"
     noneFoundDescription: "¡No pude encontrar ningún logro para este usuario!"
     placeholder: "Logros aquí"
-  badges:
-    noneFound: "Ninguna Encontrada"
-    noneFoundDescription: "¡No pude encontrar ninguna insignia para este usuario!"
-
 my:
   hubs:
     title: "Tus Hubs"
     description: "Aquí están los Hubs que posees o moderas:"
-    position: "Posición:"
-    owner: "Dueño"
-
 stats:
   title: "Métricas de InterChat"
   shard:
@@ -1070,7 +987,6 @@ stats:
     statusReady: "Listo"
     statusProvisioning: "Aprovisionando..."
     current: "Shard Actual: #{id}"
-
 invite:
   title: "¡Hola!"
   description: "Gracias por elegir InterChat. ¿Necesitas ayuda? Únete a nuestro servidor de soporte. Usa los botones de abajo para invitar a nuestro bot a tu servidor y comenzar a conectar servidores."

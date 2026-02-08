@@ -127,7 +127,7 @@ setup:
       description: "**Browse** [interchat.dev/hubs](https://interchat.dev/hubs)\n**Or click** the button below to open the directory"
     privateHubs:
       title: "Private or Invite-only"
-      description: "**Ask the hub owner or manager** for an invite code\n**Run `/connection add<invite-code>`** in your server to join"
+      description: "**Ask the hub owner or manager** for an invite code\n**Run `/connection add <invite-code>`** in your server to join"
     footer: "You can join more hubs anytime, and you can be connected to multiple hubs at once in different channels."
   buttons:
     startWizard: "Start Setup Wizard"

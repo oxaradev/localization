@@ -79,7 +79,6 @@ common:
     missingArgument: "Argumen hilang: `{param}`."
     notAuthorized: "Anda tidak dapat menggunakan tombol ini."
     accessDenied: "Akses Ditolak"
-
 about:
   title: "Tentang InterChat"
   description: "InterChat menghubungkan komunitas Discord melalui diskusi lintas-server yang aktif. Pesan mengalir secara alami antar server secara real-time, membantu Anda membangun komunitas berbasis topik yang aktif."
@@ -98,7 +97,6 @@ about:
     dashboard: "Buka Dasbor"
     support: "Gabung Support"
     shardInfo: "Info Shard"
-
 botLanding:
   title: "👋 Halo!"
   description: |
@@ -110,43 +108,14 @@ botLanding:
     {dot} **Siap menjelajah?** Kunjungi [halaman penemuan](https://interchat.dev/hubs) kami untuk mencari dan menjadi bagian dari hub kami yang hidup.
 
     💝 **Tersesat? Butuh bantuan?** Kami menyambut Anda di [komunitas support](https://discord.gg/8DhUA4HNpD) kami. Tim kami dan komunitas kami akan dengan senang hati menawarkan bantuan mereka. Kami menawarkan dukungan dan bantuan sebanyak mungkin dalam masalah apa pun yang mungkin Anda miliki, jangan ragu untuk bergabung!
-
 setup:
-  embed:
-    description: "Gunakan modal untuk memasukkan detail hub Anda."
   welcome:
     title: "Selamat Datang di Pengaturan InterChat"
     description: "Mari hubungkan server Anda. Panduan ini akan memandu Anda membuat atau bergabung dengan hub."
-  editMessagePrompt: "{emoji} Silakan gunakan modal untuk mengedit pesan Anda."
   select:
     placeholder: "Pilih bahasa"
-    chooseOption: "Pilih opsi untuk memulai..."
-  options:
-    create:
-      label: "Buat Hub"
-      description: "Mulai komunitas InterChat Anda sendiri"
-    join:
-      label: "Gabung Hub"
-      description: "Terhubung ke komunitas yang sudah ada"
-    titleSaved: "{emoji} Informasi Hub Disimpan!"
-    previewTitle: "Berikut pratinjau hub Anda:"
-    name: "{emoji} Nama"
-    short: "{emoji} Nama Pendek"
-    description: "{emoji} Deskripsi"
   locale:
     successDescription: "{tick} Bahasa Anda telah diatur ke **{locale_name}**"
-  loading:
-    creatingHub: "{loading} Membuat Hub Anda..."
-    pleaseWait: "Mohon tunggu sementara kami menyiapkan ruang komunitas Anda."
-  create:
-    footer:
-      getStarted: "Klik 'Masukkan Informasi Hub' di bawah untuk memulai!"
-    whatYoullCreate:
-      title: "Apa yang Akan Anda Buat:"
-      description: "{dot} Ruang komunitas unik untuk server Anda\n{dot} Kontrol penuh atas aturan dan moderasi\n{dot} Pengaturan dan fitur kustom\n{dot} Pribadi secara default - hanya undangan"
-    youllNeed:
-      title: "Anda Membutuhkan:"
-      description: "{arrow_right} Nama hub yang kreatif\n{arrow_right} Deskripsi singkat\n{arrow_right} Deskripsi rinci\n{arrow_right} URL gambar logo"
   join:
     title: "Gabung Hub"
     description: "Gunakan direktori publik atau terhubung dengan kode undangan."
@@ -155,7 +124,7 @@ setup:
       description: "**Jelajahi** [interchat.dev/hubs](https://interchat.dev/hubs)\n**Atau klik** tombol di bawah untuk membuka direktori"
     privateHubs:
       title: "Pribadi atau Khusus Undangan"
-      description: "**Minta pemilik atau manajer hub** untuk kode undangan\n**Jalankan `/connection add<kode-undangan>`** di server Anda untuk bergabung"
+      description: "**Minta pemilik atau manajer hub** untuk kode undangan\n**Jalankan `/connection add <kode-undangan>`** di server Anda untuk bergabung"
     footer: "Anda dapat bergabung dengan lebih banyak hub kapan saja, dan Anda dapat terhubung ke beberapa hub sekaligus di channel yang berbeda."
   buttons:
     startWizard: "Mulai Panduan Pengaturan"
@@ -167,14 +136,10 @@ setup:
     joinHub: "Gabung Hub"
     useDefault: "Gunakan Default"
     skipForNow: "Lewati Sekarang"
-  errors:
-    hubCreationFailed: "{no} Pembuatan Hub Gagal"
-
 help:
   title: "Perintah InterChat"
   description: "Jelajahi berbagai perintah kami untuk membantu Anda dan komunitas Anda terhubung dengan orang lain."
   name: "Bantuan"
-
 preferences:
   title: "Preferensi Pengguna"
   description: "Edit pengaturan pribadi Anda agar InterChat bekerja untuk Anda. Ini bersifat GLOBAL dan bekerja di semua server yang Anda bagikan dengan InterChat."
@@ -219,7 +184,6 @@ preferences:
       disable: "Nonaktifkan"
   errors:
     noPreferences: "Anda belum memiliki preferensi yang diatur."
-
 appeal:
   title: "Pelanggaran yang Dapat Dibanding"
   description: "Pilih pelanggaran di bawah ini untuk mengajukan banding, atau lihat status banding yang ada."
@@ -278,7 +242,6 @@ appeal:
     recordFailed: "Gagal mencatat keputusan: {error}"
     notFoundOrDeleted: "Banding tidak ditemukan atau telah dihapus."
     updateFailed: "Gagal memperbarui banding. Silakan coba lagi nanti."
-
 report:
   title: "Lapor Pesan"
   footer: "Laporan membantu menjaga InterChat aman bagi semua orang"
@@ -312,7 +275,6 @@ report:
     notFoundOrDeleted: "Laporan tidak ditemukan atau telah dihapus."
     alreadyHandled: "Laporan ini sudah {status}."
     updateFailed: "Gagal memperbarui laporan. Silakan coba lagi nanti."
-
 hubConfig:
   general:
     placeholder: "Pilih pengaturan untuk dikonfigurasi..."
@@ -380,7 +342,6 @@ hubConfig:
       expiry:
         label: "Kedaluwarsa"
         placeholder: "1w, 3d, 12h (Biarkan kosong untuk tanpa kedaluwarsa)"
-
 moderation:
   panel:
     description: "Buka panel moderasi untuk pengguna, pesan, atau server"
@@ -406,11 +367,8 @@ moderation:
   delete:
     label: "Hapus"
     description: "Hapus pesan yang dipilih di semua hub yang terhubung"
-    noMessage: "Tidak ada pesan yang disediakan untuk dihapus."
     success: "Pesan telah dihapus dari semua hub yang terhubung."
     notInterChatMessage: "Pesan ini bukan pesan InterChat atau sudah dihapus."
-    failed: "Gagal menghapus pesan. Silakan coba lagi nanti."
-    notFound: "Pelanggaran tidak ditemukan."
   blacklist:
     label: "Daftar Hitam"
     description: "Keluarkan daftar hitam global interchat (pengguna/server)"
@@ -470,7 +428,6 @@ moderation:
     noHubSelected: "Tidak ada hub yang dipilih."
   errors:
     selectedHubNotFound: "Hub yang dipilih tidak ditemukan."
-    processingFailed: "Gagal memproses tindakan moderasi: {error}"
     unknownAction: "Tindakan tidak diketahui."
     unsupportedAction: "Rute tindakan tidak didukung."
     openPanelFailed: "Kesalahan tak terduga saat membuka panel mod. Silakan coba lagi nanti atau lapor ke staf."
@@ -482,7 +439,6 @@ moderation:
     hubNotFoundForMessage: "Hub tidak ditemukan untuk pesan ini."
     noModeratedHubs: "Anda tidak memiliki izin moderasi di hub mana pun."
     noTarget: "Harap tentukan target (pengguna/server) atau balas pesan."
-
 profanity:
   actions:
     editActions:
@@ -497,7 +453,6 @@ profanity:
     delete:
       label: "Hapus Aturan"
       description: "⚠️ Hapus aturan ini secara permanen"
-
 welcomeMessage:
   title: "Selamat datang di hub InterChat bernama **{hubName}**!"
   footer: "Terhubung ke {hubName}"
@@ -519,7 +474,6 @@ welcomeMessage:
   disconnectConfirm:
     title: "Putuskan dari Hub?"
     description: "Apakah Anda yakin ingin memutuskan sambungan dari **{hubName}**?"
-
 infractions:
   description: "Lihat pelanggaran di hub, difilter berdasarkan pengguna atau server."
   buttons:
@@ -543,7 +497,6 @@ infractions:
     moderator: "Moderator"
     issued: "Diterbitkan"
     evidence: "Bukti"
-
   evidence:
     content: "Konten"
     author: "Penulis"
@@ -564,14 +517,12 @@ infractions:
     noActive: "Tidak ditemukan {action} aktif."
     success: "{action} dicabut."
   delete:
-    notImplemented: "Penghapusan pesan belum diimplementasikan. Alasan dicatat: {reason}"
     notFound: "Pelanggaran tidak ditemukan."
     success: "Pelanggaran dihapus."
   blacklist:
     permissionDenied: "Anda tidak memiliki izin staf InterChat untuk mengeluarkan daftar hitam global."
     alreadyActive: "Target sudah memiliki daftar hitam global aktif."
     success: "{target} berhasil dimasukkan ke daftar hitam global."
-
 staff:
   get:
     description: "Dapatkan informasi tentang entitas InterChat"
@@ -633,7 +584,6 @@ staff:
       locale: "Bahasa"
       lastMessage: "Pesan Terakhir"
       lastVote: "Vote Terakhir"
-
     values:
       staff: "Staf"
       member: "Anggota"
@@ -693,10 +643,8 @@ staff:
     labels:
       user: "Pengguna"
       server: "Server"
-
     notFound: "Tidak ditemukan entri daftar hitam yang cocok."
     removed: "Entri daftar hitam dihapus."
-
 hub:
   lock:
     successTitle: "Hub Terkunci"
@@ -716,25 +664,6 @@ hub:
   create:
     title: "Buat Hub Anda"
     description: "Buat hub InterChat Anda sendiri untuk komunitas, teman Anda... atau siapa saja - daftarnya bisa sangat panjang. Silakan, lihat ke mana arahnya."
-  nextSteps:
-    created:
-      title: "Hub Berhasil Dibuat!"
-      description: |
-        Hub **{hubName}** Anda sudah siap! Inilah yang dapat Anda lakukan selanjutnya:
-        - Undang server pertama Anda menggunakan `/invite`
-        - Atur aturan dengan `/rules set`
-        - Sesuaikan pengaturan di [dasbor](https://interchat.dev/dashboard)
-        - Hubungkan channel dengan `/connection add <nama-hub>`
-    inviteLink:
-      title: "Berikutnya: Buat Tautan Undangan"
-      description: "Gunakan {hubInviteCommand} untuk membuat kode undangan bagi **{hubName}** dan bagikan dengan pemilik server lain."
-    shareHub:
-      title: "Bagikan Hub Anda"
-      description: "{dot} Posting tentang hub baru Anda di [Server Support]({supportInvite}) kami\n{dot} Bagikan dengan teman dan komunitas\n{dot} Gunakan media sosial untuk menyebarkan berita"
-    proTips:
-      title: "{dot} Tip Pro"
-      description: "{dot} Kunjungi [Dasbor]({website}) untuk pengaturan lanjutan\n{dot} Gunakan {hubVisibilityCommand} untuk membuat hub Anda publik\n{dot} Bergabunglah dengan [Server Support]({supportInvite}) kami untuk bantuan dan pembaruan"
-
   wizard:
     start: "Mulai Membuat Hub Anda"
     name:
@@ -762,6 +691,7 @@ hub:
         addLogoButton: "Tambah Logo"
         invalidUrl: "URL gambar tidak valid. Menggunakan avatar bot default sebagai gantinya."
       step3:
+        title: Hub Visibility
         description: |
           Pilih visibilitas hub Anda:
 
@@ -850,7 +780,6 @@ hub:
       uniqueConstraint: "Uh oh! Nama hub itu sudah diambil. Anda harus memilih yang lain."
       processingError: "Ada yang salah saat membuat hub Anda. Silakan coba lagi."
       troubleshooting: "Apa yang bisa Anda lakukan: • Periksa URL logo • Coba lagi • Hubungi support"
-
   delete:
     description: "Hub Anda telah dihapus."
   connect:
@@ -913,7 +842,6 @@ hub:
       searchFilter:
         label: "Filter"
         placeholder: "InterChat Central"
-
 rules:
   title: "Manajemen Aturan Hub"
   displayTitle: "Aturan {hubName}"
@@ -976,7 +904,6 @@ rules:
     currentRulesTitle: "Aturan Saat Ini ({current}/{max})"
     ruleSelected: "Aturan {number} Dipilih"
     currentRule: "Aturan Saat Ini:"
-
 connection:
   title: "Manajemen Koneksi"
   description: "Konfigurasikan, dan administrasi semua koneksi hub dalam server ini."
@@ -1005,7 +932,6 @@ connection:
         permissionsWebhook: "Saya tidak dapat menggunakan webhook, harap tinjau izin saya dan coba lagi."
         permissionsView: "Saya tidak dapat melihat channel, harap tinjau izin saya dan coba lagi."
         permissionsSend: "Saya tidak dapat mengirim pesan, harap tinjau izin saya dan coba lagi."
-
 messageInfo:
   tabs:
     message:
@@ -1040,29 +966,20 @@ messageInfo:
     server: "Server Tidak Diketahui"
   noBadges: "Tidak ada lencana untuk ditampilkan"
   noConnection: "Tidak ada informasi koneksi yang tersedia"
-
 leaderboard:
   staffTag: "Staf InterChat"
   userTag: "Pengguna"
   messagesColumn: "Pesan"
   voteCountColumn: "Jumlah Vote"
-
 profile:
   achievements:
     noneFound: "Tidak Ditemukan"
     noneFoundDescription: "Saya tidak dapat menemukan pencapaian apa pun untuk pengguna ini!"
     placeholder: "Pencapaian di sini"
-  badges:
-    noneFound: "Tidak Ditemukan"
-    noneFoundDescription: "Saya tidak dapat menemukan lencana apa pun untuk pengguna ini!"
-
 my:
   hubs:
     title: "Hub Anda"
     description: "Berikut adalah hub yang Anda miliki atau moderasi:"
-    position: "Posisi:"
-    owner: "Pemilik"
-
 stats:
   title: "Metrik InterChat"
   shard:
@@ -1070,7 +987,6 @@ stats:
     statusReady: "Siap"
     statusProvisioning: "Menyediakan..."
     current: "Shard Saat Ini: #{id}"
-
 invite:
   title: "Halo!"
   description: "Terima kasih telah memilih InterChat. Butuh bantuan? Bergabunglah dengan server support kami. Gunakan tombol di bawah untuk mengundang bot kami ke server Anda dan mulai menghubungkan server."
