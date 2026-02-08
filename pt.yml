@@ -893,7 +893,7 @@ connection:
     description: "Todas as conexões com essa guilda foram validadas. Veja abaixo para mais informações."
     responses:
       success:
-        fixed: "Conexão concertada!"
+        fixed: "Conexão consertada!"
         valid: "Nenhum problema encontrado."
       errors:
         channelDeleted: "O canal associado com esse hub foi deletado, Conexão removida."
