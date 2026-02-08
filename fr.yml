@@ -264,7 +264,7 @@ report:
   success:
     title: "Signalement envoyé"
     toStaff: "{tick} Votre rapport a été envoyé au personnel d'InterChat pour examen."
-    toHub: "{tick} Vous ne pouvez signaler que les messages envoyés via les hubs InterChat."
+    toHub: "{tick} Votre rapport a été envoyé aux modérateurs du hub pour examen."
     actionPast: "Report {action}."
   dm:
     resolved: "Thank you for your report. Our moderation team reviewed it and took appropriate action. We cannot share specific details to protect user privacy."
