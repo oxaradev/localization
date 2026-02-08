@@ -109,41 +109,13 @@ botLanding:
 
     💝 **खो गए हैं? सहायता चाहिए?** हम हमारे [support community](https://discord.gg/8DhUA4HNpD) में आपका स्वागत करते हैं। हमारी टीम और हमारा समुदाय अपनी मदद देने में प्रसन्न होगा। आपको जो भी समस्याएं हो सकती हैं, हम उनमें अधिक से अधिक सहायता और समर्थन प्रदान करते हैं, शामिल होने में संकोच न करें!
 setup:
-  embed:
-    description: "अपने Hub का विवरण दर्ज करने के लिए Modal का उपयोग करें।"
   welcome:
     title: "InterChat सेटअप में आपका स्वागत है"
     description: "आइए आपके सर्वर को कनेक्ट करें। यह विजार्ड आपको Hub बनाने या उसमें शामिल होने के माध्यम से मार्गदर्शन करेगा।"
-  editMessagePrompt: "{emoji} कृपया अपने संदेश को संपादित करने के लिए Modal का उपयोग करें।"
   select:
     placeholder: "एक भाषा चुनें"
-    chooseOption: "शुरू करने के लिए एक विकल्प चुनें..."
-  options:
-    create:
-      label: "एक Hub बनाएं"
-      description: "अपना खुद का InterChat समुदाय शुरू करें"
-    join:
-      label: "एक Hub में शामिल हों"
-      description: "एक मौजूदा समुदाय से जुड़ें"
-    titleSaved: "{emoji} Hub की जानकारी सहेज ली गई!"
-    previewTitle: "यहाँ आपके Hub का पूर्वावलोकन है:"
-    name: "{emoji} नाम"
-    short: "{emoji} संक्षिप्त नाम"
-    description: "{emoji} विवरण"
   locale:
     successDescription: "{tick} आपकी भाषा **{locale_name}** पर सेट कर दी गई है"
-  loading:
-    creatingHub: "{loading} आपका Hub बनाया जा रहा है..."
-    pleaseWait: "कृपया प्रतीक्षा करें जब तक हम आपका सामुदायिक स्थान सेट करते हैं।"
-  create:
-    footer:
-      getStarted: "शुरू करने के लिए नीचे 'Hub जानकारी दर्ज करें' पर क्लिक करें!"
-    whatYoullCreate:
-      title: "आप क्या बनाएंगे:"
-      description: "{dot} आपके सर्वरों के लिए एक अनूठा सामुदायिक स्थान\n{dot} नियमों और मॉडरेशन पर पूर्ण नियंत्रण\n{dot} कस्टम सेटिंग्स और सुविधाएं\n{dot} डिफ़ॉल्ट रूप से निजी - केवल आमंत्रण द्वारा"
-    youllNeed:
-      title: "आपको आवश्यकता होगी:"
-      description: "{arrow_right} रचनात्मक Hub नाम\n{arrow_right} संक्षिप्त विवरण\n{arrow_right} विस्तृत विवरण\n{arrow_right} लोगो इमेज URL"
   join:
     title: "एक Hub में शामिल हों"
     description: "सार्वजनिक निर्देशिका का उपयोग करें या एक आमंत्रण कोड के साथ जुड़ें।"
@@ -152,7 +124,7 @@ setup:
       description: "**ब्राउज़ करें** [interchat.dev/hubs](https://interchat.dev/hubs)\n**या निर्देशिका खोलने के लिए** नीचे दिए गए बटन पर क्लिक करें"
     privateHubs:
       title: "निजी या केवल-आमंत्रण (Invite-only)"
-      description: "**Hub मालिक या प्रबंधक से** आमंत्रण कोड मांगें\n**शामिल होने के लिए अपने सर्वर में** `/connect <invite-code>` चलाएं"
+      description: "**Hub मालिक या प्रबंधक से** आमंत्रण कोड मांगें\n**शामिल होने के लिए अपने सर्वर में** `/connection add<invite-code>` चलाएं"
     footer: "आप कभी भी और Hubs में शामिल हो सकते हैं, और आप अलग-अलग चैनलों में एक साथ कई Hubs से जुड़ सकते हैं।"
   buttons:
     startWizard: "सेटअप विजार्ड शुरू करें"
@@ -164,8 +136,6 @@ setup:
     joinHub: "Hub में शामिल हों"
     useDefault: "डिफ़ॉल्ट का उपयोग करें"
     skipForNow: "अभी के लिए छोड़ें"
-  errors:
-    hubCreationFailed: "{no} Hub निर्माण विफल"
 help:
   title: "InterChat कमांड्स"
   description: "आपको और आपके समुदाय को दूसरों के साथ जुड़ने में मदद करने के लिए हमारे कमांड्स की विस्तृत श्रृंखला का अन्वेषण करें।"
@@ -397,11 +367,8 @@ moderation:
   delete:
     label: "हटाएं (Delete)"
     description: "चयनित संदेश को सभी कनेक्टेड Hubs से हटाएं"
-    noMessage: "हटाने के लिए कोई संदेश प्रदान नहीं किया गया।"
     success: "संदेश सभी कनेक्टेड Hubs से हटा दिया गया है।"
     notInterChatMessage: "यह संदेश एक InterChat संदेश नहीं है या पहले ही हटा दिया गया है।"
-    failed: "संदेश हटाने में विफल। कृपया बाद में पुनः प्रयास करें।"
-    notFound: "उल्लंघन नहीं मिला।"
   blacklist:
     label: "ब्लैकलिस्ट"
     description: "एक InterChat व्यापी ब्लैकलिस्ट जारी करें (उपयोगकर्ता/सर्वर)"
@@ -461,7 +428,6 @@ moderation:
     noHubSelected: "कोई Hub नहीं चुना गया।"
   errors:
     selectedHubNotFound: "चयनित Hub नहीं मिला।"
-    processingFailed: "मॉडरेशन कार्रवाई संसाधित करने में विफल: {error}"
     unknownAction: "अज्ञात कार्रवाई।"
     unsupportedAction: "असमर्थित कार्रवाई मार्ग।"
     openPanelFailed: "Mod पैनल खोलते समय अप्रत्याशित त्रुटि। कृपया बाद में पुनः प्रयास करें या स्टाफ को रिपोर्ट करें।"
@@ -551,7 +517,6 @@ infractions:
     noActive: "कोई सक्रिय {action} नहीं मिला।"
     success: "{action} रद्द कर दिया गया।"
   delete:
-    notImplemented: "संदेश हटाना अभी तक लागू नहीं किया गया है। कारण रिकॉर्ड किया गया: {reason}"
     notFound: "उल्लंघन नहीं मिला।"
     success: "उल्लंघन हटा दिया गया।"
   blacklist:
@@ -699,24 +664,6 @@ hub:
   create:
     title: "अपना Hub बनाएं"
     description: "एक समुदाय, अपने दोस्तों... या किसी के लिए भी अपना खुद का InterChat Hub बनाएं - सूची बहुत लंबी हो सकती है। आगे बढ़ें, देखें कि यह आपको कहाँ ले जाता है।"
-  nextSteps:
-    created:
-      title: "Hub सफलतापूर्वक बनाया गया!"
-      description: |
-        आपका Hub **{hubName}** तैयार है! यहाँ बताया गया है कि आप आगे क्या कर सकते हैं:
-        - `/invite` का उपयोग करके अपने पहले सर्वर को आमंत्रित करें
-        - `/rules set` के साथ नियम सेट करें
-        - [dashboard](https://interchat.dev/dashboard) में सेटिंग्स कस्टमाइज़ करें
-        - `/connection add <hub-name>` के साथ चैनल कनेक्ट करें
-    inviteLink:
-      title: "अगला: आमंत्रण लिंक बनाएं"
-      description: "**{hubName}** के लिए आमंत्रण कोड जनरेट करने के लिए {hubInviteCommand} का उपयोग करें और उन्हें अन्य सर्वर मालिकों के साथ साझा करें।"
-    shareHub:
-      title: "अपना Hub साझा करें"
-      description: "{dot} अपने नए Hub के बारे में हमारे [Support Server]({supportInvite}) में पोस्ट करें\n{dot} दोस्तों और समुदायों के साथ साझा करें\n{dot} शब्द फैलाने के लिए सोशल मीडिया का उपयोग करें"
-    proTips:
-      title: "{dot} प्रो टिप्स"
-      description: "{dot} उन्नत सेटिंग्स के लिए [Dashboard]({website}) पर जाएं\n{dot} अपने Hub को सार्वजनिक बनाने के लिए {hubVisibilityCommand} का उपयोग करें\n{dot} मदद और अपडेट के लिए हमारे [Support Server]({supportInvite}) से जुड़ें"
   wizard:
     start: "अपना Hub बनाना शुरू करें"
     name:
@@ -1029,15 +976,10 @@ profile:
     noneFound: "कोई नहीं मिला"
     noneFoundDescription: "मुझे इस उपयोगकर्ता के लिए कोई उपलब्धियां नहीं मिलीं!"
     placeholder: "उपलब्धियां यहाँ"
-  badges:
-    noneFound: "कोई नहीं मिला"
-    noneFoundDescription: "मुझे इस उपयोगकर्ता के लिए कोई बैज नहीं मिले!"
 my:
   hubs:
     title: "आपके Hubs"
     description: "यहाँ वे Hubs हैं जिनके आप स्वामी हैं या मॉडरेट करते हैं:"
-    position: "पद:"
-    owner: "मालिक"
 stats:
   title: "InterChat मेट्रिक्स"
   shard:
