@@ -3,12 +3,25 @@ common:
     error: Fehler!
     success: Erfolg!
     cancelled: Abgebrochen!
+    feedback: Feedback Received
+    validationError: Validation Error
   labels:
     date: Datum
     loading: Lädt...
     pleaseWait: Bitte warten...
     lastActive: Zuletzt aktiv
     unknown: Unbekannt
+    unknownHub: Unknown Hub
+    language: Language
+    locked: Gesperrt
+    nsfw: NSFW
+    visibility: Visibility
+    "yes": "Yes"
+    "no": "No"
+    none: Keine
+    noneSpecified: None Specified
+    tryAgain: Please try again
+    noReason: No Reason
     roles:
       owner: Owner
       member: Mitglied
@@ -29,6 +42,21 @@ common:
     invite: InterChat einladen
     dashboard: Dashboard öffnen
     support: Support beitreten
+    edit: Edit
+    save: Save
+    close: Close
+    search: Search
+    jumpToMessage: Jump to Message
+    maybeLater: Maybe Later
+  pagination:
+    footer: "Page {current} of {total} • {count} total items"
+    errors:
+      firstPage: "You're already on the first page."
+      lastPage: "You're already on the last page."
+    page: Seite {current}/{total}
+    pageOf: Page {current} of {total}
+    alreadyFirst: Already on the first page.
+    alreadyLast: Already on the last page.
   placeholders:
     select: Wähle eine Option
     type: Tippe hier...
@@ -40,6 +68,8 @@ common:
     user: Nutzer
     server: Server
     hub: Hub
+    unknownUser: Unknown User
+    unknownServer: Unbekannter Server
   messages:
     notImplemented: Noch nicht implementiert.
     defaultSuccess: Action completed successfully.
@@ -50,19 +80,14 @@ common:
     notSpecified: Nicht angegeben
     interfacePermission: Du kannst diese Oberfläche nicht nutzen.
     hubUpdateFailed: Hub-Einstellungen konnten nicht aktualisiert werden.
-    hubConfigDescription: Passe deinen InterChat Hub für deine Community an. Wähle unten aus, was du konfigurieren möchtest.
-  none: Keine
-  pagination:
-    page: Seite {current}/{total}
-    pageOf: Page {current} of {total}
-    alreadyFirst: Already on the first page.
-    alreadyLast: Already on the last page.
+  footer:
+    submittedBy: "Submitted by {user}"
   states:
     enabled: Enabled
     disabled: Disabled
   fields:
-    id: '{type} ID'
-    name: '{type} Name'
+    id: "{type} ID"
+    name: "{type} Name"
     reason: Grund
     created: Erstellt
     status: Status
@@ -70,7 +95,7 @@ common:
   errors:
     notYourMenu: Das ist nicht dein Menü.
     cannotControlPagination: Du kannst diese Seitennavigation nicht steuern.
-    generic: Ein Fehler ist bei der Verarbeitung deiner Anfrage aufgetreten.
+    generic: Oops! Something went wrong while processing your request.
     invalidSelection: Ungültige Auswahl.
     interactionCheck: Du darfst diese Interaktion nicht nutzen, da du sie nicht aufgerufen hast.
     rateLimited: Du wirst rate-limited. Mach mal langsam.
@@ -79,23 +104,29 @@ common:
     invalidInvite: Diese Einladung ist ungültig oder abgelaufen.
     webhookError: Webhook konnte nicht erstellt werden.
     notConnected: Ich konnte keinen Hub finden, der mit diesem Kanal verbunden ist.
-    notConnectedServer: '{cross} Ich konnte keine Verbindungen für diesen Server finden.'
+    notConnectedServer: "{cross} Ich konnte keine Verbindungen für diesen Server finden."
     noInteraction: Dieser Befehl unterstützt nur Slash-Befehle.
     missingAppealReference: Fehlende Referenz für den Einspruch.
-    missingArgument: 'Fehlendes Argument: `{param}`.'
+    missingArgument: "Fehlendes Argument: `{param}`."
     accessDenied: Zugriff verweigert
+    invalidId: "{cross} Please provide a valid User ID or Server ID."
 about:
   title: Über InterChat
   description: InterChat verbindet Discord-Communities durch aktive serverübergreifende Diskussionen. Nachrichten fließen in Echtzeit ganz natürlich zwischen Servern und helfen dir, engagierte themenbezogene Communities aufzubauen.
   supportText: Brauchst du Hilfe? Tritt unserem Support-Server bei!
   features:
     title: Funktionen
-    list: '- Connect with other servers for active cross-server discussions - Messages flow naturally between servers in real-time - Build engaged topic-focused communities - Moderation tools to keep discussions healthy - Visual dashboard to manage your hubs, servers, and settings '
+    list: |
+      - Connect with other servers for active cross-server discussions
+      - Messages flow naturally between servers in real-time
+      - Build engaged topic-focused communities
+      - Moderation tools to keep discussions healthy
+      - Visual dashboard to manage your hubs, servers, and settings
   buttons:
     shardInfo: Shard Info
 botLanding:
   title: '👋 Hey da!'
-  description: '**I''m InterChat, and I''m pleased to be on your server on behalf of our team.** Together, we can connect your server with other remarkable communities from across Discord. Numerous, potentially thousands of servers located in one place, all filled with individuals eager to engage in conversation with you. 🚀 **Ready to start building new bridges with us?** {dot} **New here?** The `/setup` command provides a step-by-step guide to help you begin your journey. {dot} **Ready to explore?** Visit our [discovery page](https://interchat.dev/hubs) to locate and become part of our lively hubs. 💝 **Lost? Require assistance?** We welcome you to our [support community](https://discord.gg/8DhUA4HNpD). Our team and our community will be pleased to offer their help. We offer as much support and assistance in whatever issues you may have, don''t hesitate to join! '
+  description: "**I'm InterChat, and I'm pleased to be on your server on behalf of our team.** Together, we can connect your server with other remarkable communities from across Discord. Numerous, potentially thousands of servers located in one place, all filled with individuals eager to engage in conversation with you. 🚀 **Ready to start building new bridges with us?** {dot} **New here?** The `/setup` command provides a step-by-step guide to help you begin your journey. {dot} **Ready to explore?** Visit our [discovery page](https://interchat.dev/hubs) to locate and become part of our lively hubs. 💝 **Lost? Require assistance?** We welcome you to our [support community](https://discord.gg/8DhUA4HNpD). Our team and our community will be pleased to offer their help. We offer as much support and assistance in whatever issues you may have, don't hesitate to join! "
 setup:
   welcome:
     title: Willkommen beim InterChat Setup
@@ -103,16 +134,16 @@ setup:
   select:
     placeholder: Wähle eine Sprache
   locale:
-    successDescription: '{tick} Deine Sprache wurde auf **{locale_name}** gesetzt'
+    successDescription: "{tick} Deine Sprache wurde auf **{locale_name}** gesetzt"
   join:
     title: Einem Hub beitreten
     description: Nutze das öffentliche Verzeichnis oder verbinde dich mit einem Einladungscode.
     publicHubs:
       title: Öffentliche Hubs
-      description: '**Browse** [interchat.dev/hubs](https://interchat.dev/hubs) **Or click** the button below to open the directory'
+      description: "**Browse** [interchat.dev/hubs](https://interchat.dev/hubs) **Or click** the button below to open the directory"
     privateHubs:
       title: Privat oder nur auf Einladung
-      description: '**Ask the hub owner or manager** for an invite code **Run `/connection add <invite-code>`** in your server to join'
+      description: "**Ask the hub owner or manager** for an invite code **Run `/connection add <invite-code>`** in your server to join"
     footer: Du kannst jederzeit weiteren Hubs beitreten und gleichzeitig in verschiedenen Kanälen mit mehreren Hubs verbunden sein.
   buttons:
     startWizard: Setup-Assistent starten
@@ -121,6 +152,9 @@ setup:
     joinHub: Hub beitreten
     useDefault: Standard verwenden
     skipForNow: Vorerst überspringen
+  errors:
+    wizardOwnerOnly: "{x_icon} You can't use this setup wizard."
+  footer: "InterChat Setup • {guildName}"
 help:
   title: InterChat Befehle
   description: Entdecke unsere große Auswahl an Befehlen, die dir und deiner Community helfen, sich mit anderen zu verbinden.
@@ -129,7 +163,7 @@ preferences:
   title: Benutzereinstellungen
   description: Bearbeite deine persönlichen Einstellungen, damit InterChat für dich arbeitet. Diese sind GLOBAL und funktionieren auf allen Servern, die du mit InterChat teilst.
   replyMentions:
-    title: 'Einstellungen: Antwort-Erwähnungen'
+    title: "Einstellungen: Antwort-Erwähnungen"
     description: Du wirst jetzt **{status}**, wenn jemand auf deine Nachrichten antwortet. Du kannst dies unten mit dem Button umschalten oder mit dem Zurück-Button zum Menü zurückkehren.
     currentDescription: Aktuell wirst du **{status}**, wenn innerhalb deiner Nachrichten geantwortet wird. Du kannst dies unten mit dem Button umschalten oder mit dem Zurück-Button zum Menü zurückkehren.
     mentioned: erwähnt
@@ -143,7 +177,7 @@ preferences:
   select:
     category: Wähle eine Kategorie
   badges:
-    title: 'Einstellungen: Abzeichen'
+    title: "Einstellungen: Abzeichen"
     description: Deine Abzeichen sind nun in deinen Nachrichten **{status}**. Du kannst dies unten mit dem Button umschalten oder mit dem Zurück-Button zum Menü zurückkehren.
     currentDescription: Aktuell sind deine Abzeichen in deinen Nachrichten **{status}**. Du kannst dies unten mit dem Button umschalten oder mit dem Zurück-Button zum Menü zurückkehren.
     visible: sichtbar
@@ -152,7 +186,7 @@ preferences:
       show: Anzeigen
       hide: Verstecken
   voteReminders:
-    title: 'Einstellungen: Vote-Erinnerungen'
+    title: "Einstellungen: Vote-Erinnerungen"
     description: Schalte Vote-Erinnerungsbenachrichtigungen von InterChat an oder aus.
     enabled: aktiviert
     disabled: deaktiviert
@@ -183,7 +217,7 @@ appeal:
     q2: Erzähl uns von der Situation
     q3: Zusätzliche Informationen
   success:
-    submitted: '{tick} Dein Einspruch wurde zur Überprüfung eingereicht.'
+    submitted: "{tick} Dein Einspruch wurde zur Überprüfung eingereicht."
   viewInfractions:
     title: Kürzliche Nutzerverstöße
     empty: Keine Verstöße für diesen Nutzer gefunden.
@@ -192,14 +226,12 @@ appeal:
     rejectedBy: Abgelehnt von @{name}
     pending: Warte auf Antwort
     cooldown: Abklingzeit
-    canAppealAgain: Anfechtbar
     canAppeal: Anfechtbar
   constants:
-    unknownHub: Unbekannter Hub
     noReason: Kein Grund angegeben
   fields:
-    date: 'Datum:'
-    reason: 'Grund:'
+    date: "Datum:"
+    reason: "Grund:"
   actions:
     decisionTitle: Entscheidung über Einspruch
     reasonOptional:
@@ -208,7 +240,7 @@ appeal:
   dm:
     accepted: Dein Einspruch bezüglich einer Moderationsmaßnahme{hubName} wurde akzeptiert. Unser Team hat deinen Fall geprüft und entschieden, dass deinem Einspruch stattgegeben wird.
     declined: Dein Einspruch bezüglich einer Moderationsmaßnahme{hubName} wurde geprüft. Nach sorgfältiger Überlegung wurde dein Einspruch abgelehnt.
-    moderatorNote: 'Moderator-Notiz: {reason}'
+    moderatorNote: "Moderator-Notiz: {reason}"
   embed:
     noInfractions:
       title: Blitzsauber!
@@ -219,7 +251,7 @@ appeal:
   errors:
     nothingSelected: Nichts wurde ausgewählt.
     modalError: Einspruchs-Fenster konnte nicht geöffnet werden.
-    recordFailed: 'Entscheidung konnte nicht aufgezeichnet werden: {error}'
+    recordFailed: "Entscheidung konnte nicht aufgezeichnet werden: {error}"
     notFoundOrDeleted: Einspruch nicht gefunden oder wurde gelöscht.
     updateFailed: Einspruch konnte nicht aktualisiert werden. Bitte versuche es später erneut.
 report:
@@ -239,27 +271,27 @@ report:
       placeholder: Bitte beschreibe, warum du diese Nachricht meldest...
   success:
     title: Meldung eingereicht
-    toStaff: '{tick} Deine Meldung wurde zur Überprüfung an das InterChat-Team gesendet.'
-    toHub: '{tick} Deine Meldung wurde zur Überprüfung an die Hub-Moderatoren gesendet.'
+    toStaff: "{tick} Deine Meldung wurde zur Überprüfung an das InterChat-Team gesendet."
+    toHub: "{tick} Deine Meldung wurde zur Überprüfung an die Hub-Moderatoren gesendet."
   errors:
-    hubMessageOnly: '{x_icon} Du kannst nur Nachrichten melden, die über InterChat Hubs gesendet wurden.'
-    cannotReportSelf: '{x_icon} Du kannst deine eigenen Nachrichten nicht melden.'
+    hubMessageOnly: "{x_icon} Du kannst nur Nachrichten melden, die über InterChat Hubs gesendet wurden."
+    cannotReportSelf: "{x_icon} Du kannst deine eigenen Nachrichten nicht melden."
 hubConfig:
   general:
     placeholder: Select a setting to configure...
     summaryDescription: A summary of your hub's general settings. For more options, visit the [dashboard](https://interchat.dev/dashboard/hubs/{hubId}).
     hubIdentity: Hub Identity
     fields:
-      name: 'Name:'
-      description: 'Description:'
-      rating: 'Rating:'
-      visibility: 'Visibility:'
+      name: "Name:"
+      description: "Description:"
+      rating: "Rating:"
+      visibility: "Visibility:"
     editOnDashboard: Edit on Dashboard
-    noDescription: '*No description set.*'
+    noDescription: "*No description set.*"
     properties: Properties
     nsfw: '🔞 NSFW'
     familyFriendly: '✅ Family Friendly'
-    lastUpdated: 'Last Updated:'
+    lastUpdated: "Last Updated:"
     descriptionUpdated: Description Updated!
     descriptionSuccess: Your hub description has been successfully updated.
     nameUpdated: Name Updated!
@@ -268,13 +300,11 @@ hubConfig:
     welcomeUpdated: Welcome Message Updated!
     welcomeSuccess: Your hub welcome message has been successfully updated.
     nsfwUpdated: NSFW Setting Updated!
-    nsfwSuccess: 'Your hub is now: **{status}**'
     nsfwWarning: '⚠️ Important'
     nsfwWarningDesc: Your hub is now marked as NSFW and may be filtered from searches.
-    sfwConfirm: '✅ Family Friendly'
     sfwConfirmDesc: Your hub is now marked as safe for work and visible to all users.
     visibilityUpdated: Visibility Updated!
-    visibilitySuccess: 'Your hub is now: **{status}**'
+    visibilitySuccess: "Your hub is now: **{status}**"
     visibilityMeaning: ℹ️ What this means
     visibility:
       public: '🌐 Öffentlich'
@@ -308,7 +338,7 @@ hubConfig:
       label: Sichtbarkeit ändern
       description: Wechsle zwischen Öffentlich, Ungelistet oder Privat
       title: '🔐 Change Hub Visibility'
-      desc: 'Select the visibility level for your hub:'
+      desc: "Select the visibility level for your hub:"
     errors:
       nameCooldown: Name Change on Cooldown
       nameCooldownDesc: You can change your hub name again in **{days} days**.
@@ -360,10 +390,10 @@ hubConfig:
       apply: Apply Changes
     success:
       title: Modules Updated!
-      details: 'Successfully updated {count} module setting(s):'
+      details: "Successfully updated {count} module setting(s):"
     errors:
       noneSelected: No modules selected.
-      updateFailed: 'An error occurred: {error}'
+      updateFailed: "An error occurred: {error}"
   badges:
     owner:
       label: Owner Badge
@@ -403,8 +433,8 @@ hubConfig:
       apply: Apply Configuration
       clear: Clear Configuration
     success:
-      updated: '{type} configuration updated!'
-      cleared: '{type} configuration cleared!'
+      updated: "{type} configuration updated!"
+      cleared: "{type} configuration cleared!"
     errors:
       selectFirst: Please select a logging type first.
       updateFailed: Failed to update logging configuration.
@@ -454,6 +484,8 @@ hubConfig:
       success: Rule **{ruleName}** has been deleted.
       cancelled: Rule deletion cancelled.
 moderation:
+  footer:
+    actionedBy: "Actioned by {user}"
   actionNames:
     warned: Verwarnt
     muted: Stummgeschaltet
@@ -480,7 +512,7 @@ moderation:
     alreadyActive: Ziel hat bereits eine aktive globale Blacklist.
     success: '{target} wurde global geblacklistet.'
   success:
-    action: '{target} wurde {action} {prep} {hubName}'
+    action: "{target} wurde {action} {prep} {hubName}"
   actions:
     warn:
       label: Verwarnen
@@ -500,6 +532,9 @@ moderation:
     blacklist:
       label: Blacklist
       description: Erteile eine InterChat-weite Blacklist (Nutzer/Server)
+    history:
+      label: History
+      description: View infraction and report history for the target
     delete:
       label: Löschen
       description: Lösche die ausgewählte Nachricht in allen verbundenen Hubs
@@ -512,6 +547,8 @@ moderation:
       placeholder: z.B. 30m, 2h, 1d
   hubSelect:
     placeholder: Wähle einen Hub zum Moderieren...
+    noHubs: No hubs available
+    noHubsDesc: No hubs available for moderation
   hubSelection:
     title: Hub-Auswahl
     description: Wähle den Hub, den du moderieren möchtest.
@@ -520,23 +557,54 @@ moderation:
   targetSelection:
     title: Ziel-Auswahl
     description: Wen möchtest du {action}?
+    user: Act on User
+    server: Act on Server
   actionSelect:
     placeholder: Wähle eine Moderationsmaßnahme...
+  validators:
+    reasonTooShort: "Reason must be at least {min} characters long."
+    reasonTooLong: "Reason must be no more than {max} characters long."
+    durationRequired: "Duration is required for mute actions. Use format like '1d', '2h', '30m'."
+    durationNotNeeded: "Duration is only needed for mute actions."
+    durationTooShort: "Duration is too short."
+    durationTooLong: "Duration is too long."
+    invalidDurationFormat: "Invalid duration format. Use formats like '1h', '30m', '2d'."
+    noTarget: "No valid target specified for this action."
   history:
+    title: "{info_icon} Moderation History"
     noHubSelected: Kein Hub ausgewählt.
+    noTarget: "No target specified."
+    recentInfractions: "Recent Infractions ({count} total)"
+    noInfractions: "No infractions found."
+    recentReports: "Recent Reports ({count} total)"
+    noReports: "No reports found."
+    fetchFailed: "Failed to fetch moderation history."
+  report:
+    jumpToMessage: Jump to Message
+    notFound: "Report not found or deleted."
+    noHub: "Unable to determine hub for this report."
+    handledTitle: "Report Handled"
+    handledDesc: "Your report `{id}` has been reviewed and action has been taken."
+    handledFooter: "Thank you for helping keep the hub safe!"
   errors:
     selectedHubNotFound: Ausgewählter Hub nicht gefunden.
     unknownAction: Unbekannte Aktion.
     unsupportedAction: Nicht unterstützter Aktionsweg.
     openPanelFailed: Unerwarteter Fehler beim Öffnen des Mod-Panels. Bitte versuche es später erneut oder melde es dem Team.
     notModeratorForHub: Du bist kein Moderator für diesen Hub.
-    alreadyState: '{targetType} ist in diesem Hub bereits {state}.'
+    alreadyState: "{targetType} ist in diesem Hub bereits {state}."
     invalidHubData: Ungültige Hub-Daten.
     originalMessageNotFound: Ursprüngliche Nachricht nicht in der Datenbank gefunden.
     fetchAuthorOrServerFailed: Nachrichtenautor oder Server konnte nicht abgerufen werden.
     hubNotFoundForMessage: Hub für diese Nachricht nicht gefunden.
     noModeratedHubs: Du hast keine Moderationsrechte in irgendwelchen Hubs.
     noTarget: Bitte gib ein Ziel an (Nutzer/Server) oder antworte auf eine Nachricht.
+    actionProcessingFailed: "An error occurred while processing the action."
+    modalOpenFailed: "Failed to open the modal. Please try again."
+    notModerator: "You are not a moderator for any hubs."
+    noHubsAvailable: "No hubs are available for moderation."
+    webhooks:
+      noPermission: "You do not have permission to moderate this hub."
 welcomeMessage:
   title: Willkommen im InterChat Hub namens **{hubName}**!
   errorDm: Willkommensnachricht für den beigetretenen Hub konnte nicht gesendet werden. Stelle sicher, dass ich in {channel} Nachrichten senden darf.
@@ -606,9 +674,9 @@ staff:
       welcomeMessage: Willkommensnachricht
       description: Beschreibung
     values:
-      messagesThisWeek: '**{count}** diese Woche'
-      connectionsActive: '**{count}** aktiv'
-      upvotesTotal: '**{count}** gesamt'
+      messagesThisWeek: "**{count}** diese Woche"
+      connectionsActive: "**{count}** aktiv"
+      upvotesTotal: "**{count}** gesamt"
     badges:
       verified: Verifiziert
       partnered: Partner
@@ -624,8 +692,8 @@ staff:
       lastMessage: Letzte Nachricht
       updated: Aktualisiert
     values:
-      messagesTotal: '**{count}** gesamt'
-      connectionsActive: '**{count}** aktiv'
+      messagesTotal: "**{count}** gesamt"
+      connectionsActive: "**{count}** aktiv"
   user:
     inbox:
       title: Inbox
@@ -645,10 +713,10 @@ staff:
     values:
       staff: Team
       member: Mitglied
-      messagesSent: '**{count}** gesendet'
-      reputationPoints: '**{count}** Punkte'
-      votesCast: '**{count}** abgegeben'
-      hubJoinsTotal: '**{count}** gesamt'
+      messagesSent: "**{count}** gesendet"
+      reputationPoints: "**{count}** Punkte"
+      votesCast: "**{count}** abgegeben"
+      hubJoinsTotal: "**{count}** gesamt"
       notSet: Nicht gesetzt
       never: Nie
     sections:
@@ -661,21 +729,21 @@ staff:
       mentionOnReply: Erwähnung bei Antwort
       showNsfwHubs: NSFW Hubs anzeigen
     content:
-      hubs: '{count} Hubs'
-      modPositions: '{count} Mod-Positionen'
-      blockedWords: '{count} blockierte Wörter'
-      antiSwearRules: '{count} Anti-Fluch-Regeln'
+      hubs: "{count} Hubs"
+      modPositions: "{count} Mod-Positionen"
+      blockedWords: "{count} blockierte Wörter"
+      antiSwearRules: "{count} Anti-Fluch-Regeln"
     moderation:
-      infractionsReceived: '{count} Verstöße erhalten'
-      infractionsIssued: '{count} Verstöße ausgestellt'
-      blacklistsReceived: '{count} Blacklists erhalten'
-      blacklistsIssued: '{count} Blacklists ausgestellt'
+      infractionsReceived: "{count} Verstöße erhalten"
+      infractionsIssued: "{count} Verstöße ausgestellt"
+      blacklistsReceived: "{count} Blacklists erhalten"
+      blacklistsIssued: "{count} Blacklists ausgestellt"
     activity:
-      appeals: '{count} Einsprüche'
-      reviews: '{count} Bewertungen'
-      reportsMade: '{count} Meldungen gemacht'
-      reportsReceived: '{count} Meldungen erhalten'
-      achievements: '{count} Erfolge'
+      appeals: "{count} Einsprüche"
+      reviews: "{count} Bewertungen"
+      reportsMade: "{count} Meldungen gemacht"
+      reportsReceived: "{count} Meldungen erhalten"
+      achievements: "{count} Erfolge"
   blacklist:
     fields:
       expires: Läuft ab
@@ -684,14 +752,54 @@ staff:
 hub:
   lock:
     announceTitle: Hub gesperrt
-    announceDescription: 'This hub has been locked by a moderator. Only moderators can send messages now.'
+    announceDescription: "This hub has been locked by a moderator. Only moderators can send messages now."
   unlock:
     announceTitle: Hub entsperrt
-    announceDescription: 'This hub has been unlocked by a moderator. You can now send messages.'
+    announceDescription: "This hub has been unlocked. Invites and messages are now enabled."
+    successDescription: "**{hub}** has been unlocked. New members can now join and messages are allowed."
+  announcement:
+    webhookUsername: "{hubName} | Hub Announcement"
+    officialTitle: "{hubName} | Official Hub Announcement"
+    disclaimer: "This announcement was sent by hub officials - not InterChat staff"
+  rules:
+    buttons:
+      accept: Accept Rules
+    titles:
+      accepted: Rules Accepted
+      declined: Rules Not Accepted
+      changedMind: '💡 Changed your mind?'
+    messages:
+      accepted: "Thank you for accepting the rules for **{hubName}**!\n\nYou can now participate freely in this hub. Your messages will be shared across all connected servers."
+      declined: "You have chosen not to accept the rules for **{hubName}** at this time.\n\n**What this means:**\n- Your messages will not be shared across the hub\n- You can still read messages from other servers\n- You will see these rules again when you send your next message"
+      changedMind: "Send another message in this channel to see the rules again and accept them."
+    footer:
+      welcome: Welcome to the community!
+    errors:
+      failed: Something went wrong while processing your rule acceptance. Please try again.
+  invites:
+    title: Aktive Einladungen
+    noneFound: Keine gefunden!
+    inviteUses: "**Verwendungen:**"
+    inviteExpire: "**Läuft ab:**"
+    titles:
+      generated: Generated!
+    messages:
+      generated: "{tick} `{code}` can now be used {uses} time(s) to join your hub. Share it with your friends!"
+  info:
+    titles:
+      rules: Rules for {hubName}
+      stats: Stats for {hubName}
+    badges:
+      verified: This hub is an official verified hub.
+      partnered: This hub is an official partnered hub.
+    description: View information on this hub! Select an option from below.
+  buttons:
+    rules: Regeln
+    stats: Stats
   events:
     serverJoined:
       title: '🎉 Neuer Server beigetreten!'
-      description: '**{serverName}** ist dem Hub beigetreten! Lasst uns sie herzlich in unserer Community willkommen heißen.'
+      description: "**{serverName}** ist dem Hub beigetreten! Lasst uns sie herzlich in unserer Community willkommen heißen."
       footer: Willkommen im {hubName}!
   create:
     title: Erstelle deinen Hub
@@ -699,7 +807,6 @@ hub:
   wizard:
     start: Beginne mit der Erstellung deines Hubs
     name:
-      label: Hub Name
       placeholder: Mein toller Hub
     tagline:
       label: Hub Slogan
@@ -710,11 +817,11 @@ hub:
     steps:
       progress: Schritt {current}/{total}
       step1:
-        modalTitle: 'Schritt 1/7: Hub-Details'
+        modalTitle: "Schritt 1/7: Hub-Details"
       step2:
         title: Hub Logo
-        description: 'Add a logo for your hub! -# 💡 *Tip: Use an image URL (PNG, JPG, GIF, WEBP) or choose the default bot avatar.* '
-        modalTitle: 'Schritt 2/7: Logo'
+        description: "Add a logo for your hub! -# 💡 *Tip: Use an image URL (PNG, JPG, GIF, WEBP) or choose the default bot avatar.* "
+        modalTitle: "Schritt 2/7: Logo"
         logoUrlLabel: Logo URL
         logoUrlPlaceholder: https://beispiel.de/logo.png
         addLogoButton: Logo hinzufügen
@@ -728,54 +835,68 @@ hub:
       step4:
         title: Community-Regeln
         description: Lege Community-Richtlinien für deinen Hub fest.
-        requiredPublic: '**Erforderlich für öffentliche Hubs**'
+        requiredPublic: "**Erforderlich für öffentliche Hubs**"
         optional: Optional
-        tip: '-# 💡 *Tipp: Füge eine Regel pro Zeile hinzu. Du kannst bis zu 25 Regeln hinzufügen.*'
-        modalTitle: 'Schritt 4/7: Regeln'
+        tip: "-# 💡 *Tipp: Füge eine Regel pro Zeile hinzu. Du kannst bis zu 25 Regeln hinzufügen.*"
+        modalTitle: "Schritt 4/7: Regeln"
         rulesLabel: Hub-Regeln
-        rulesPlaceholder: '1. Be respectful 2. No spam 3. Follow Discord ToS'
+        rulesPlaceholder: |
+          1. Be respectful
+          2. No spam
+          3. Follow Discord ToS
         addRulesButton: Regeln hinzufügen
       step5:
         title: Willkommensnachricht
-        description: 'Create a welcome message for new members! -# 💡 *Tip: Keep it friendly and informative. Max 500 characters.*" '
-        modalTitle: 'Schritt 5/7: Willkommen'
+        description: |
+          Create a welcome message for new members!
+
+           -# 💡 *Tip: Keep it friendly and informative. Max 500 characters.*
+        modalTitle: "Schritt 5/7: Willkommen"
         welcomePlaceholder: Willkommen im {hubName} oder unserem Hub! Bitte lies die Regeln und hab Spaß!
         customMessageButton: Benutzerdefinierte Nachricht
       step6:
         title: Hub-Funktionen
-        description: 'Select features to enable for your hub! ✅ **Pre-selected**: Reactions, Spam Filter (recommended) -# 💡 *Tip: You can adjust these anytime in `/hub configure`.*" '
+        description: |
+          Select features to enable for your hub!
+
+          ✅ **Pre-selected**: Reactions, Spam Filter (recommended)
+
+
+          -# 💡 *Tip: You can adjust these anytime in `/hub configure`.*
         modulesPlaceholder: Wähle Module zum Aktivieren...
         continueButton: Weiter
       step7:
-        description: 'Optionally select a channel for moderation logs. Logs include: bans, warnings, reports, and other mod actions. -# 💡 *Tip: Choose a private staff channel. You can configure more log types later.*" '
+        description: |
+          Optionally select a channel for moderation logs.
+
+          Logs include: bans, warnings, reports, and other mod actions.
+
+          -# 💡 *Tip: Choose a private staff channel. You can configure more log types
+          later.*
         selectChannelButton: Kanal auswählen
         channelSelectTitle: Logging-Kanal auswählen
-        channelSelectDescription: 'Wähle einen Kanal für Moderations-Logs:'
+        channelSelectDescription: "Wähle einen Kanal für Moderations-Logs:"
         channelSelectPlaceholder: Wähle einen Logging-Kanal
     summary:
       title: Zusammenfassung der Hub-Konfiguration
-      description: 'Überprüfe deine Hub-Einstellungen vor dem Erstellen:'
+      description: "Überprüfe deine Hub-Einstellungen vor dem Erstellen:"
       nameAndDescription: Name & Beschreibung
-      visibilityPublic: '🌐 Öffentlich'
-      visibilityUnlisted: '👁️ Ungelistet'
-      visibilityPrivate: '🔒 Privat'
-      rulesCount: '{count} Regel(n) festgelegt'
+      rulesCount: "{count} Regel(n) festgelegt"
       rulesNone: Keine Regeln (kann später hinzugefügt werden)
       welcomeDefault: Standard-Willkommensnachricht
       featuresNone: Keine
-      loggingNone: Nicht konfiguriert
       footer: Bereit, deinen Hub zu erstellen?
     completion:
       loading: Erstelle deinen Hub...
       loadingDescription: Bitte warte, während wir alles einrichten...
       success: Hub erfolgreich erstellt!
-      successDescription: '{hubName} ist jetzt live! 🎉'
+      successDescription: "{hubName} ist jetzt live! 🎉"
       dashboardLink: Verwalte deinen Hub
       publicPageLink: Im Verzeichnis ansehen
       nextSteps: Was kommt als Nächstes?
-      step1: '**For Private Hubs: Create an Invite**: `/hub invites hub:{hubName}` *Invite servers to join your hub* **For Public Hubs: Share Your Hub**: Check out your hub''s [public page](https://interchat.dev/hubs/{hubId}) and use the link to join! *Share your hub with others or join it from here!* '
+      step1: "**For Private Hubs: Create an Invite**: `/hub invites hub:{hubName}` *Invite servers to join your hub* **For Public Hubs: Share Your Hub**: Check out your hub's [public page](https://interchat.dev/hubs/{hubId}) and use the link to join! *Share your hub with others or join it from here!* "
       step2: "**Advanced Settings**: `/hub configure {hubName}`\n   - Profanity filters\\ \\ (custom anti-swear rules)\n   - Hub team management\n   - Advanced logging\\ \\ options\n   - Hub announcements"
-      step3: '**Brauchst du Hilfe?**: [Tritt unserem Support-Server bei]({supportInvite})'
+      step3: "**Brauchst du Hilfe?**: [Tritt unserem Support-Server bei]({supportInvite})"
     cancelled:
       description: Dein Hub wurde nicht erstellt. Du kannst jederzeit mit `/hub create` neu beginnen.
     errors:
@@ -789,7 +910,7 @@ hub:
     success:
       title: Verbunden!
       description: Verbunden mit **{hubName}** - viel Spaß beim Chatten!
-      fieldValue: 'Verbundener Kanal: {channel}'
+      fieldValue: "Verbundener Kanal: {channel}"
     errors:
       alreadyConnected:
         title: Bereits mit diesem Hub verbunden
@@ -797,15 +918,10 @@ hub:
   disconnect:
     title: Getrennt!
     description: Vom Hub getrennt.
-    fieldValue: 'Zugehöriger Kanal: {channel}'
-  invites:
-    title: Aktive Einladungen
-    inviteUses: '**Verwendungen:**'
-    inviteExpire: '**Läuft ab:**'
-    noneFound: Keine gefunden!
+    fieldValue: "Zugehöriger Kanal: {channel}"
   announcements:
     title: Hub-Ankündigungen
-    description: 'Create a **one time** announcement that sends in all connected channels. -# To create **recurring** announcements please visit the hub configuration menu. '
+    description: "Create a **one time** announcement that sends in all connected channels. -# To create **recurring** announcements please visit the hub configuration menu. "
   config:
     title: Hub-Konfiguration
     description: Passe deinen InterChat Hub für deine Community an. Wähle unten aus, was du konfigurieren möchtest.
@@ -839,7 +955,7 @@ hub:
   all:
     title: InterChat Hubs
     description: Unten kannst du eine Liste all unserer Hubs durchsuchen! Schau sie dir an, sieh wen du findest.
-    filteredBy: 'Ergebnisse gefiltert nach: {filter}'
+    filteredBy: "Ergebnisse gefiltert nach: {filter}"
     errors:
       notFound: Oje! Ich konnte keine Hubs finden. Das soll wahrscheinlich nicht passieren. Bitte kontaktiere unser [Support-Team]({supportServer}).
       invalidFilter: Grillenzirpen... keine Hubs entsprechen deinem Filter.
@@ -985,7 +1101,7 @@ profile:
 my:
   hubs:
     title: Deine Hubs
-    description: 'Hier sind die Hubs, die du besitzt oder moderierst:'
+    description: "Hier sind die Hubs, die du besitzt oder moderierst:"
 stats:
   title: InterChat Statistics
   fields:
@@ -998,7 +1114,7 @@ stats:
     title: Shard Information
     statusReady: Bereit
     statusProvisioning: Provisioning
-    current: 'Current Shard: {id}'
+    current: "Current Shard: {id}"
 invite:
   title: Hey!
   description: Danke, dass du dich für InterChat entschieden hast. Brauchst du Hilfe? Tritt unserem Support-Server bei. Nutze die Buttons unten, um unseren Bot auf deinen Server einzuladen und Server zu verbinden.
@@ -1032,8 +1148,8 @@ broadcast:
   spam:
     mutedMessage: You have been temporarily muted for {minutes} minutes due to spam. Your mute expires at <t:{expiry}:F>.
     warningMessage: '⚠️ You are sending messages too quickly! Please slow down or you will be temporarily muted.'
-    autoMuteReason: 'Auto-Mute: Spam detected - exceeded {max} messages in {period} seconds'
-    autoWarnReason: 'Auto-Warn: Spam detected - exceeded {max} messages in {period} seconds'
+    autoMuteReason: "Auto-Mute: Spam detected - exceeded {max} messages in {period} seconds"
+    autoWarnReason: "Auto-Warn: Spam detected - exceeded {max} messages in {period} seconds"
   validation:
     accountAge:
       message: Your account is too new to send messages through InterChat. Please wait a few more days and try again.
@@ -1042,9 +1158,9 @@ broadcast:
       message: This hub is currently locked.
       reason: Hub is currently locked
     invites:
-      message: '🚫 Your message contains Discord invite links, which are not allowed in this hub.'
+      message: "🚫 Discord invite links are not allowed in this hub."
     nsfw:
-      message: '🚫 Your message was blocked by InterChat filters (Reason: NSFW detection)'
+      message: "🚫 Your message was blocked by InterChat filters (Reason: NSFW detection)"
     profanity:
       message: '🚫 Your message was blocked by the hub''s profanity filter.'
       reason: Profanity filter blocked message
@@ -1056,5 +1172,68 @@ broadcast:
     spam:
       reason: Spam detected
     accessRestriction:
-      prefix: 'Access restricted: '
+      prefix: "Access restricted: "
       reason: Active restriction
+blacklist:
+  add:
+    title: Add to Blocklist
+    type:
+      label: Type
+      description: Specify whether you are blocking a User or a Server.
+      options:
+        userDesc: Block a specific user.
+        serverDesc: Block an entire server.
+    id:
+      label: User or Server ID to Block
+      placeholder: Enter the User ID or Server ID you wish to block
+    reason:
+      label: Note (optional)
+      description: A small note helps you remember why you've blocked.
+      placeholder: E.g., Spammer, Annoying, Toxic etc.
+    messages:
+      success: "Blocked {id} with reason: {reason}"
+    errors:
+      selfBlock: "{cross} You cannot block this server itself."
+      selfUserBlock: "{cross} You cannot block yourself."
+      failed: "Failed to block {id}. They might already be blocked."
+  list:
+    filters:
+      all: "All ({count})"
+      users: Users
+      servers: Servers
+    empty:
+      all: "You're too nice! Block some servers/users to see them here."
+      users: "No blocked users found."
+      servers: "No blocked servers found."
+    instructions: "You can add servers or users to the blocklist using the \"Add to Blocklist\"\nbutton in the previous message."
+    errors:
+      notFound: "{cross} Item not found or already removed."
+      removeFailed: "{cross} Error removing item: {error}"
+commands:
+  suggestion:
+    title: Suggestion / Bug Report
+    overview:
+      label: Overview
+      placeholder: Briefly describe your suggestion or bug...
+    description:
+      label: Beschreibung
+      placeholder: Provide full details of your suggestion or bug...
+    category:
+      label: Category
+      options:
+        bug: Bug Report
+        bugDesc: Report an issue you've found
+        suggestion: Suggestion
+        suggestionDesc: Suggest a new feature or improvement
+    errorId:
+      label: Error ID (if applicable)
+      placeholder: Paste the error ID here...
+    messages:
+      submitted: Your feedback has been received and will be reviewed by the team.
+      success: "{tick} Thank you for your feedback! It has been submitted successfully."
+    errors:
+      internal: An error occurred while submitting your feedback. Please try again.
+  report:
+    title: Wie man meldet
+    description: "Right-click (or long press) on a message sent through InterChat and select **Apps → Report**."
+    loadingGif: The GIF above may take a moment to load.
