@@ -86,7 +86,9 @@ about:
   features:
     title: "Funcionalidades"
     list: |
-      - Conecte com outros servidores para conversas ativas entre servidores - Mensagens vao naturalmente entre servidores em tempo real - Ferramentas de moderaçao 
+      - Conecte com outros servidores para conversas ativas entre servidores
+      - Mensagens vao naturalmente entre servidores em tempo real
+      - Ferramentas de moderaçao
   buttons:
     vote: "Vote na top.gg"
     invite: "Convide o InterChat"
