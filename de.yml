@@ -109,41 +109,13 @@ botLanding:
 
     💝 **Verloren? Brauchst du Hilfe?** Wir heißen dich in unserer [Support-Community](https://discord.gg/8DhUA4HNpD) willkommen. Unser Team und unsere Community helfen dir gerne weiter. Wir bieten Unterstützung bei allen Problemen, zögere nicht beizutreten!
 setup:
-  embed:
-    description: "Benutze das Formular, um deine Hub-Details einzugeben."
   welcome:
     title: "Willkommen beim InterChat Setup"
     description: "Lass uns deinen Server verbinden. Dieser Assistent führt dich durch das Erstellen oder Beitreten eines Hubs."
-  editMessagePrompt: "{emoji} Bitte benutze das Formular, um deine Nachricht zu bearbeiten."
   select:
     placeholder: "Wähle eine Sprache"
-    chooseOption: "Wähle eine Option, um zu beginnen..."
-  options:
-    create:
-      label: "Hub erstellen"
-      description: "Starte deine eigene InterChat Community"
-    join:
-      label: "Hub beitreten"
-      description: "Verbinde dich mit einer bestehenden Community"
-    titleSaved: "{emoji} Hub-Informationen gespeichert!"
-    previewTitle: "Hier ist eine Vorschau deines Hubs:"
-    name: "{emoji} Name"
-    short: "{emoji} Kurzname"
-    description: "{emoji} Beschreibung"
   locale:
     successDescription: "{tick} Deine Sprache wurde auf **{locale_name}** gesetzt"
-  loading:
-    creatingHub: "{loading} Erstelle deinen Hub..."
-    pleaseWait: "Bitte warte, während wir deinen Community-Bereich einrichten."
-  create:
-    footer:
-      getStarted: "Klicke unten auf 'Hub-Informationen eingeben', um zu beginnen!"
-    whatYoullCreate:
-      title: "Was du erstellen wirst:"
-      description: "{dot} Einen einzigartigen Community-Bereich für deine Server\n{dot} Volle Kontrolle über Regeln und Moderation\n{dot} Benutzerdefinierte Einstellungen und Funktionen\n{dot} Standardmäßig privat - nur auf Einladung"
-    youllNeed:
-      title: "Was du brauchst:"
-      description: "{arrow_right} Einen kreativen Hub-Namen\n{arrow_right} Kurzbeschreibung\n{arrow_right} Detaillierte Beschreibung\n{arrow_right} Logo Bild-URL"
   join:
     title: "Einem Hub beitreten"
     description: "Nutze das öffentliche Verzeichnis oder verbinde dich mit einem Einladungscode."
@@ -152,7 +124,7 @@ setup:
       description: "**Durchstöbern** [interchat.dev/hubs](https://interchat.dev/hubs)\n**Oder klicke** auf den Button unten, um das Verzeichnis zu öffnen"
     privateHubs:
       title: "Privat oder nur auf Einladung"
-      description: "**Frage den Hub-Besitzer oder Manager** nach einem Einladungscode\n**Führe `/connect <invite-code>`** auf deinem Server aus, um beizutreten"
+      description: "**Frage den Hub-Besitzer oder Manager** nach einem Einladungscode\n**Führe `/connection add<invite-code>`** auf deinem Server aus, um beizutreten"
     footer: "Du kannst jederzeit weiteren Hubs beitreten und gleichzeitig in verschiedenen Kanälen mit mehreren Hubs verbunden sein."
   buttons:
     startWizard: "Setup-Assistent starten"
@@ -164,8 +136,6 @@ setup:
     joinHub: "Hub beitreten"
     useDefault: "Standard verwenden"
     skipForNow: "Vorerst überspringen"
-  errors:
-    hubCreationFailed: "{no} Hub-Erstellung fehlgeschlagen"
 help:
   title: "InterChat Befehle"
   description: "Entdecke unsere große Auswahl an Befehlen, die dir und deiner Community helfen, sich mit anderen zu verbinden."
@@ -397,11 +367,8 @@ moderation:
   delete:
     label: "Löschen"
     description: "Lösche die ausgewählte Nachricht in allen verbundenen Hubs"
-    noMessage: "Keine Nachricht zum Löschen angegeben."
     success: "Nachricht wurde aus allen verbundenen Hubs gelöscht."
     notInterChatMessage: "Diese Nachricht ist keine InterChat-Nachricht oder wurde bereits gelöscht."
-    failed: "Fehler beim Löschen der Nachricht. Bitte versuche es später erneut."
-    notFound: "Verstoß nicht gefunden."
   blacklist:
     label: "Blacklist"
     description: "Erteile eine InterChat-weite Blacklist (Nutzer/Server)"
@@ -461,7 +428,6 @@ moderation:
     noHubSelected: "Kein Hub ausgewählt."
   errors:
     selectedHubNotFound: "Ausgewählter Hub nicht gefunden."
-    processingFailed: "Fehler beim Verarbeiten der Moderationsmaßnahme: {error}"
     unknownAction: "Unbekannte Aktion."
     unsupportedAction: "Nicht unterstützter Aktionsweg."
     openPanelFailed: "Unerwarteter Fehler beim Öffnen des Mod-Panels. Bitte versuche es später erneut oder melde es dem Team."
@@ -551,7 +517,6 @@ infractions:
     noActive: "Kein aktiver {action} gefunden."
     success: "{action} widerrufen."
   delete:
-    notImplemented: "Nachrichtenlöschung noch nicht implementiert. Grund aufgezeichnet: {reason}"
     notFound: "Verstoß nicht gefunden."
     success: "Verstoß gelöscht."
   blacklist:
@@ -699,24 +664,6 @@ hub:
   create:
     title: "Erstelle deinen Hub"
     description: "Erstelle deinen eigenen InterChat Hub für eine Community, deine Freunde... oder irgendwen - die Liste könnte ewig weitergehen. Mach weiter, sieh wo es dich hinführt."
-  nextSteps:
-    created:
-      title: "Hub erfolgreich erstellt!"
-      description: |
-        Dein Hub **{hubName}** ist bereit! Hier ist, was du als nächstes tun kannst:
-        - Lade deinen ersten Server mit `/invite` ein
-        - Lege Regeln fest mit `/rules set`
-        - Passe Einstellungen im [Dashboard](https://interchat.dev/dashboard) an
-        - Verbinde Kanäle mit `/connection add <hub-name>`
-    inviteLink:
-      title: "Nächstes: Einladungslinks erstellen"
-      description: "Nutze {hubInviteCommand}, um Einladungscodes für **{hubName}** zu generieren und sie mit anderen Serverbesitzern zu teilen."
-    shareHub:
-      title: "Teile deinen Hub"
-      description: "{dot} Poste über deinen neuen Hub auf unserem [Support-Server]({supportInvite})\n{dot} Teile mit Freunden und Communities\n{dot} Nutze Social Media, um es zu verbreiten"
-    proTips:
-      title: "{dot} Profi-Tipps"
-      description: "{dot} Besuche das [Dashboard]({website}) für erweiterte Einstellungen\n{dot} Nutze {hubVisibilityCommand}, um deinen Hub öffentlich zu machen\n{dot} Tritt unserem [Support-Server]({supportInvite}) für Hilfe und Updates bei"
   wizard:
     start: "Beginne mit der Erstellung deines Hubs"
     name:
@@ -1029,15 +976,10 @@ profile:
     noneFound: "Keine gefunden"
     noneFoundDescription: "Ich konnte keine Erfolge für diesen Nutzer finden!"
     placeholder: "Erfolge hier"
-  badges:
-    noneFound: "Keine gefunden"
-    noneFoundDescription: "Ich konnte keine Abzeichen für diesen Nutzer finden!"
 my:
   hubs:
     title: "Deine Hubs"
     description: "Hier sind die Hubs, die du besitzt oder moderierst:"
-    position: "Position:"
-    owner: "Besitzer"
 stats:
   title: "InterChat Metriken"
   shard:
