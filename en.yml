@@ -112,41 +112,13 @@ botLanding:
     💝 **Lost? Require assistance?** We welcome you to our [support community](https://discord.gg/8DhUA4HNpD). Our team and our community will be pleased to offer their help. We offer as much support and assistance in whatever issues you may have, don't hesitate to join!
 
 setup:
-  embed:
-    description: "Use the modal to enter your hub details."
   welcome:
     title: "Welcome to InterChat Setup"
     description: "Let's get your server connected. This wizard will guide you through creating or joining a hub."
-  editMessagePrompt: "{emoji} Please use the modal to edit your message."
   select:
     placeholder: "Select a language"
-    chooseOption: "Choose an option to get started..."
-  options:
-    create:
-      label: "Create a Hub"
-      description: "Start your own InterChat community"
-    join:
-      label: "Join a Hub"
-      description: "Connect to an existing community"
-    titleSaved: "{emoji} Hub Information Saved!"
-    previewTitle: "Here's a preview of your hub:"
-    name: "{emoji} Name"
-    short: "{emoji} Short Name"
-    description: "{emoji} Description"
   locale:
     successDescription: "{tick} Your language has been set to **{locale_name}**"
-  loading:
-    creatingHub: "{loading} Creating Your Hub..."
-    pleaseWait: "Please wait while we set up your community space."
-  create:
-    footer:
-      getStarted: "Click 'Enter Hub Information' below to get started!"
-    whatYoullCreate:
-      title: "What You'll Create:"
-      description: "{dot} A unique community space for your servers\n{dot} Complete control over rules and moderation\n{dot} Custom settings and features\n{dot} Private by default - invite only"
-    youllNeed:
-      title: "You'll Need:"
-      description: "{arrow_right} Creative hub name\n{arrow_right} Brief description\n{arrow_right} Detailed description\n{arrow_right} Logo image URL"
   join:
     title: "Join a Hub"
     description: "Use the public directory or connect with an invite code."
@@ -155,7 +127,7 @@ setup:
       description: "**Browse** [interchat.dev/hubs](https://interchat.dev/hubs)\n**Or click** the button below to open the directory"
     privateHubs:
       title: "Private or Invite-only"
-      description: "**Ask the hub owner or manager** for an invite code\n**Run `/connect <invite-code>`** in your server to join"
+      description: "**Ask the hub owner or manager** for an invite code\n**Run `/connection add<invite-code>`** in your server to join"
     footer: "You can join more hubs anytime, and you can be connected to multiple hubs at once in different channels."
   buttons:
     startWizard: "Start Setup Wizard"
@@ -167,8 +139,7 @@ setup:
     joinHub: "Join Hub"
     useDefault: "Use Default"
     skipForNow: "Skip for Now"
-  errors:
-    hubCreationFailed: "{no} Hub Creation Failed"
+
 
 help:
   title: "InterChat Commands"
@@ -406,11 +377,8 @@ moderation:
   delete:
     label: "Delete"
     description: "Delete the selected message across all connected hubs"
-    noMessage: "No message provided to delete."
     success: "Message has been deleted from all connected hubs."
     notInterChatMessage: "This message is not an InterChat message or has already been deleted."
-    failed: "Failed to delete the message. Please try again later."
-    notFound: "Infraction not found."
   blacklist:
     label: "Blacklist"
     description: "Issue an interchat wide blacklist (user/server)"
@@ -470,7 +438,7 @@ moderation:
     noHubSelected: "No hub selected."
   errors:
     selectedHubNotFound: "Selected hub not found."
-    processingFailed: "Failed to process moderation action: {error}"
+
     unknownAction: "Unknown action."
     unsupportedAction: "Unsupported action route."
     openPanelFailed: "Unexpected error opening mod panel. Please try again later or report to staff."
@@ -564,7 +532,7 @@ infractions:
     noActive: "No active {action} found."
     success: "Revoked {action}."
   delete:
-    notImplemented: "Message delete not implemented yet. Reason recorded: {reason}"
+
     notFound: "Infraction not found."
     success: "Infraction deleted."
   blacklist:
@@ -716,24 +684,6 @@ hub:
   create:
     title: "Create Your Hub"
     description: "Create your own InterChat hub for a community, your friends... or anyone - the list could go on for ages. Go ahead, see where it takes you."
-  nextSteps:
-    created:
-      title: "Hub Created Successfully!"
-      description: |
-        Your hub **{hubName}** is ready! Here's what you can do next:
-        - Invite your first server using `/invite`
-        - Set rules with `/rules set`
-        - Customize settings in the [dashboard](https://interchat.dev/dashboard)
-        - Connect channels with `/connection add <hub-name>`
-    inviteLink:
-      title: "Next: Create Invite Links"
-      description: "Use {hubInviteCommand} to generate invite codes for **{hubName}** and share them with other server owners."
-    shareHub:
-      title: "Share Your Hub"
-      description: "{dot} Post about your new hub in our [Support Server]({supportInvite})\n{dot} Share with friends and communities\n{dot} Use social media to spread the word"
-    proTips:
-      title: "{dot} Pro Tips"
-      description: "{dot} Visit the [Dashboard]({website}) for advanced settings\n{dot} Use {hubVisibilityCommand} to make your hub public\n{dot} Join our [Support Server]({supportInvite}) for help and updates"
 
   wizard:
     start: "Start Creating Your Hub"
@@ -1053,16 +1003,13 @@ profile:
     noneFound: "None Found"
     noneFoundDescription: "I could not find any achievements for this user!"
     placeholder: "Achievements here"
-  badges:
-    noneFound: "None Found"
-    noneFoundDescription: "I could not find any badges for this user!"
+
 
 my:
   hubs:
     title: "Your Hubs"
     description: "Here are the hubs you own or moderate:"
-    position: "Position:"
-    owner: "Owner"
+
 
 stats:
   title: "InterChat Metrics"
