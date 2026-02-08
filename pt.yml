@@ -503,7 +503,7 @@ infractions:
     both: "Por favor, especifique um usuário ou um servidor, não ambos."
     missing: "Por favor, especifique um usuário ou um servidor."
   success:
-    action: "action} {target} {prep} {hubName}."
+    action: "{action} {target} {prep} {hubName}."
   revoke:
     noActive: "Nenhum {action} ativo encontrado."
     success: "{action} revogada."
