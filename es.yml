@@ -124,7 +124,7 @@ setup:
       description: "**Explora** [interchat.dev/hubs](https://interchat.dev/hubs)\n**O haz clic** en el botón de abajo para abrir el directorio"
     privateHubs:
       title: "Privados o Solo Invitación"
-      description: "**Pide al dueño o gerente del Hub** un código de invitación\n**Ejecuta `/connection add<código-invitación>`** en tu servidor para unirte"
+      description: "**Pide al dueño o gerente del Hub** un código de invitación\n**Ejecuta `/connection add <código-invitación>`** en tu servidor para unirte"
     footer: "Puedes unirte a más Hubs en cualquier momento, y puedes estar conectado a múltiples Hubs a la vez en diferentes canales."
   buttons:
     startWizard: "Iniciar Asistente"
