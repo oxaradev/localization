@@ -110,7 +110,7 @@ setup:
     description: "Use um diretório público ou conecte com um código de convite."
     publicHubs:
       title: "Hubs públicos"
-      description: "**Pesquise em** [interchat.dev/hubs]{https://interchat.dev/hubs} \n**Ou clique** no botão abaixo para\\ \\ abrir o diretório"
+      description: "**Pesquise em** [interchat.dev/hubs](https://interchat.dev/hubs) \n**Ou clique** no botão abaixo para abrir o diretório"
     privateHubs:
       title: "Privado ou Somente via convite"
       description: "**Ask the hub owner or manager** for an invite code\n**Run `/connection add<invite-code>`** in your server to join"
