@@ -3,12 +3,25 @@ common:
     error: เกิดข้อผิดพลาด!
     success: สำเร็จ!
     cancelled: ยกเลิกแล้ว!
+    feedback: Feedback Received
+    validationError: Validation Error
   labels:
     date: วันที่
     loading: กำลังโหลด...
     pleaseWait: โปรดรอสักครู่...
     lastActive: ใช้งานล่าสุด
     unknown: ไม่ทราบ
+    unknownHub: Unknown Hub
+    language: Language
+    locked: ล็อค
+    nsfw: NSFW
+    visibility: Visibility
+    "yes": "Yes"
+    "no": "No"
+    none: ไม่มี
+    noneSpecified: None Specified
+    tryAgain: Please try again
+    noReason: No Reason
     roles:
       owner: Owner
       member: Member
@@ -29,6 +42,21 @@ common:
     invite: เชิญ InterChat
     dashboard: เปิดแดชบอร์ด
     support: เข้าร่วม Support
+    edit: Edit
+    save: Save
+    close: Close
+    search: Search
+    jumpToMessage: Jump to Message
+    maybeLater: Maybe Later
+  pagination:
+    footer: "Page {current} of {total} • {count} total items"
+    errors:
+      firstPage: "You're already on the first page."
+      lastPage: "You're already on the last page."
+    page: หน้า {current}/{total}
+    pageOf: Page {current} of {total}
+    alreadyFirst: Already on the first page.
+    alreadyLast: Already on the last page.
   placeholders:
     select: เลือกตัวเลือก
     type: พิมพ์ที่นี่...
@@ -40,6 +68,8 @@ common:
     user: ผู้ใช้
     server: เซิร์ฟเวอร์
     hub: Hub
+    unknownUser: Unknown User
+    unknownServer: เซิร์ฟเวอร์ที่ไม่รู้จัก
   messages:
     notImplemented: ยังไม่เปิดใช้งาน
     defaultSuccess: Action completed successfully.
@@ -50,19 +80,14 @@ common:
     notSpecified: ไม่ได้ระบุ
     interfacePermission: คุณไม่สามารถใช้อินเทอร์เฟซนี้ได้
     hubUpdateFailed: การอัปเดตการตั้งค่า Hub ล้มเหลว
-    hubConfigDescription: ปรับแต่ง InterChat Hub สำหรับชุมชนของคุณ เลือกสิ่งที่คุณต้องการตั้งค่าด้านล่าง
-  none: ไม่มี
-  pagination:
-    page: หน้า {current}/{total}
-    pageOf: Page {current} of {total}
-    alreadyFirst: Already on the first page.
-    alreadyLast: Already on the last page.
+  footer:
+    submittedBy: "Submitted by {user}"
   states:
     enabled: Enabled
     disabled: Disabled
   fields:
-    id: 'ID {type}'
-    name: 'ชื่อ {type}'
+    id: "ID {type}"
+    name: "ชื่อ {type}"
     reason: เหตุผล
     created: สร้างเมื่อ
     status: สถานะ
@@ -70,7 +95,7 @@ common:
   errors:
     notYourMenu: นี่ไม่ใช่เมนูของคุณ
     cannotControlPagination: คุณไม่สามารถควบคุมการเปลี่ยนหน้านี้ได้
-    generic: เกิดข้อผิดพลาดขณะดำเนินการตามคำขอของคุณ
+    generic: Oops! Something went wrong while processing your request.
     invalidSelection: การเลือกไม่ถูกต้อง
     interactionCheck: คุณไม่สามารถใช้การโต้ตอบนี้ได้ เนื่องจากคุณไม่ใช่ผู้เรียกใช้งาน
     rateLimited: คุณถูกจำกัดความถี่ ใจเย็นๆ ก่อนนะ
@@ -79,23 +104,29 @@ common:
     invalidInvite: คำเชิญนี้ไม่ถูกต้องหรือหมดอายุแล้ว
     webhookError: สร้าง Webhook ล้มเหลว
     notConnected: ฉันไม่พบ Hub ที่เชื่อมต่อในช่องนี้
-    notConnectedServer: '{cross} ฉันไม่พบการเชื่อมต่อใดๆ สำหรับเซิร์ฟเวอร์นี้'
+    notConnectedServer: "{cross} ฉันไม่พบการเชื่อมต่อใดๆ สำหรับเซิร์ฟเวอร์นี้"
     noInteraction: คำสั่งนี้รองรับเฉพาะ Slash Commands เท่านั้น
     missingAppealReference: ไม่พบข้อมูลอ้างอิงสำหรับการอุทธรณ์
-    missingArgument: 'อาร์กิวเมนต์หายไป: `{param}`'
+    missingArgument: "อาร์กิวเมนต์หายไป: `{param}`"
     accessDenied: การเข้าถึงถูกปฏิเสธ
+    invalidId: "{cross} Please provide a valid User ID or Server ID."
 about:
   title: เกี่ยวกับ InterChat
   description: InterChat เชื่อมต่อชุมชน Discord ผ่านการสนทนาข้ามเซิร์ฟเวอร์ที่ใช้งานอยู่จริง ข้อความจะไหลเวียนระหว่างเซิร์ฟเวอร์อย่างเป็นธรรมชาติแบบเรียลไทม์ ช่วยให้คุณสร้างชุมชนที่เน้นหัวข้อสนทนาได้อย่างมีส่วนร่วม
   supportText: ต้องการความช่วยเหลือ? เข้าร่วมเซิร์ฟเวอร์สนับสนุนของเราเพื่อรับความช่วยเหลือ!
   features:
     title: ฟีเจอร์
-    list: '- Connect with other servers for active cross-server discussions - Messages flow naturally between servers in real-time - Build engaged topic-focused communities - Moderation tools to keep discussions healthy - Visual dashboard to manage your hubs, servers, and settings '
+    list: |
+      - Connect with other servers for active cross-server discussions
+      - Messages flow naturally between servers in real-time
+      - Build engaged topic-focused communities
+      - Moderation tools to keep discussions healthy
+      - Visual dashboard to manage your hubs, servers, and settings
   buttons:
     shardInfo: ข้อมูล Shard
 botLanding:
   title: '👋 สวัสดีครับ!'
-  description: '**I''m InterChat, and I''m pleased to be on your server on behalf of our team.** Together, we can connect your server with other remarkable communities from across Discord. Numerous, potentially thousands of servers located in one place, all filled with individuals eager to engage in conversation with you. 🚀 **Ready to start building new bridges with us?** {dot} **New here?** The `/setup` command provides a step-by-step guide to help you begin your journey. {dot} **Ready to explore?** Visit our [discovery page](https://interchat.dev/hubs) to locate and become part of our lively hubs. 💝 **Lost? Require assistance?** We welcome you to our [support community](https://discord.gg/8DhUA4HNpD). Our team and our community will be pleased to offer their help. We offer as much support and assistance in whatever issues you may have, don''t hesitate to join! '
+  description: "**I'm InterChat, and I'm pleased to be on your server on behalf of our team.** Together, we can connect your server with other remarkable communities from across Discord. Numerous, potentially thousands of servers located in one place, all filled with individuals eager to engage in conversation with you. 🚀 **Ready to start building new bridges with us?** {dot} **New here?** The `/setup` command provides a step-by-step guide to help you begin your journey. {dot} **Ready to explore?** Visit our [discovery page](https://interchat.dev/hubs) to locate and become part of our lively hubs. 💝 **Lost? Require assistance?** We welcome you to our [support community](https://discord.gg/8DhUA4HNpD). Our team and our community will be pleased to offer their help. We offer as much support and assistance in whatever issues you may have, don't hesitate to join! "
 setup:
   welcome:
     title: ยินดีต้อนรับสู่การตั้งค่า InterChat
@@ -103,16 +134,16 @@ setup:
   select:
     placeholder: เลือกภาษา
   locale:
-    successDescription: '{tick} ภาษาของคุณถูกตั้งค่าเป็น **{locale_name}**'
+    successDescription: "{tick} ภาษาของคุณถูกตั้งค่าเป็น **{locale_name}**"
   join:
     title: เข้าร่วม Hub
     description: ใช้ไดเรกทอรีสาธารณะหรือเชื่อมต่อด้วยรหัสเชิญ
     publicHubs:
       title: Hub สาธารณะ
-      description: '**Browse** [interchat.dev/hubs](https://interchat.dev/hubs) **Or click** the button below to open the directory'
+      description: "**Browse** [interchat.dev/hubs](https://interchat.dev/hubs) **Or click** the button below to open the directory"
     privateHubs:
       title: ส่วนตัว หรือ ต้องได้รับเชิญ
-      description: '**Ask the hub owner or manager** for an invite code **Run `/connection add <invite-code>`** in your server to join'
+      description: "**Ask the hub owner or manager** for an invite code **Run `/connection add <invite-code>`** in your server to join"
     footer: คุณสามารถเข้าร่วม Hub เพิ่มเติมได้ตลอดเวลา และสามารถเชื่อมต่อกับหลาย Hub พร้อมกันได้ในช่องทางต่างๆ
   buttons:
     startWizard: เริ่มวิซาร์ดการตั้งค่า
@@ -121,6 +152,9 @@ setup:
     joinHub: เข้าร่วม Hub
     useDefault: ใช้ค่าเริ่มต้น
     skipForNow: ข้ามไปก่อน
+  errors:
+    wizardOwnerOnly: "{x_icon} You can't use this setup wizard."
+  footer: "InterChat Setup • {guildName}"
 help:
   title: คำสั่ง InterChat
   description: สำรวจคำสั่งที่หลากหลายของเราเพื่อช่วยให้คุณและชุมชนของคุณเชื่อมต่อกับผู้อื่น
@@ -129,7 +163,7 @@ preferences:
   title: การตั้งค่าผู้ใช้
   description: แก้ไขการตั้งค่าส่วนตัวของคุณเพื่อให้ InterChat ทำงานตามที่คุณต้องการ การตั้งค่าเหล่านี้เป็นแบบ 'ทั่วโลก' และมีผลกับทุกเซิร์ฟเวอร์ที่คุณใช้ร่วมกับ InterChat
   replyMentions:
-    title: 'การตั้งค่า: การกล่าวถึงเมื่อตอบกลับ'
+    title: "การตั้งค่า: การกล่าวถึงเมื่อตอบกลับ"
     description: ตอนนี้คุณจะ **{status}** เมื่อมีคนตอบกลับข้อความของคุณ คุณสามารถสลับการตั้งค่านี้ได้โดยใช้ปุ่มด้านล่าง หรือกลับสู่เมนูด้วยปุ่มย้อนกลับ
     currentDescription: ปัจจุบันคุณ **{status}** เมื่อถูกตอบกลับในข้อความของคุณ คุณสามารถสลับการตั้งค่านี้ได้โดยใช้ปุ่มด้านล่าง หรือกลับสู่เมนูด้วยปุ่มย้อนกลับ
     mentioned: ถูกกล่าวถึง (Mention)
@@ -143,7 +177,7 @@ preferences:
   select:
     category: เลือกหมวดหมู่
   badges:
-    title: 'การตั้งค่า: ตราสัญลักษณ์ (Badges)'
+    title: "การตั้งค่า: ตราสัญลักษณ์ (Badges)"
     description: ตราสัญลักษณ์ของคุณตอนนี้ **{status}** ภายในข้อความของคุณ คุณสามารถสลับการตั้งค่านี้ได้โดยใช้ปุ่มด้านล่าง หรือกลับสู่เมนูด้วยปุ่มย้อนกลับ
     currentDescription: ปัจจุบันตราสัญลักษณ์ของคุณ **{status}** ภายในข้อความของคุณ คุณสามารถสลับการตั้งค่านี้ได้โดยใช้ปุ่มด้านล่าง หรือกลับสู่เมนูด้วยปุ่มย้อนกลับ
     visible: แสดงอยู่
@@ -152,7 +186,7 @@ preferences:
       show: แสดง
       hide: ซ่อน
   voteReminders:
-    title: 'การตั้งค่า: เตือนความจำการโหวต'
+    title: "การตั้งค่า: เตือนความจำการโหวต"
     description: เปิด/ปิด การแจ้งเตือนให้โหวตจาก InterChat
     enabled: เปิดใช้งาน
     disabled: ปิดใช้งาน
@@ -183,7 +217,7 @@ appeal:
     q2: เล่าสถานการณ์ให้เราฟัง
     q3: ข้อมูลเพิ่มเติม
   success:
-    submitted: '{tick} ส่งคำอุทธรณ์ของคุณเพื่อรับการตรวจสอบเรียบร้อยแล้ว'
+    submitted: "{tick} ส่งคำอุทธรณ์ของคุณเพื่อรับการตรวจสอบเรียบร้อยแล้ว"
   viewInfractions:
     title: การทำผิดกฎล่าสุดของผู้ใช้
     empty: ไม่พบการทำผิดกฎสำหรับผู้ใช้นี้
@@ -192,14 +226,12 @@ appeal:
     rejectedBy: ปฏิเสธโดย @{name}
     pending: รอการตอบกลับ
     cooldown: ติดคูลดาวน์
-    canAppealAgain: สามารถอุทธรณ์ได้
     canAppeal: สามารถอุทธรณ์ได้
   constants:
-    unknownHub: ไม่ทราบ Hub
     noReason: ไม่ได้ระบุเหตุผล
   fields:
-    date: 'วันที่:'
-    reason: 'เหตุผล:'
+    date: "วันที่:"
+    reason: "เหตุผล:"
   actions:
     decisionTitle: การตัดสินคำอุทธรณ์
     reasonOptional:
@@ -208,7 +240,7 @@ appeal:
   dm:
     accepted: คำอุทธรณ์ของคุณเกี่ยวกับการลงโทษใน {hubName} ได้รับการยอมรับ ทีมงานของเราได้ตรวจสอบกรณีของคุณและตัดสินว่าคำอุทธรณ์ของคุณมีน้ำหนักพอ
     declined: คำอุทธรณ์ของคุณเกี่ยวกับการลงโทษใน {hubName} ได้รับการตรวจสอบแล้ว หลังจากพิจารณาอย่างถี่ถ้วน คำอุทธรณ์ของคุณถูกปฏิเสธ
-    moderatorNote: 'บันทึกจากผู้ดูแล: {reason}'
+    moderatorNote: "บันทึกจากผู้ดูแล: {reason}"
   embed:
     noInfractions:
       title: ประวัติขาวสะอาด!
@@ -219,7 +251,7 @@ appeal:
   errors:
     nothingSelected: ไม่มีอะไรถูกเลือก
     modalError: ไม่สามารถเปิด Modal อุทธรณ์ได้
-    recordFailed: 'บันทึกการตัดสินใจล้มเหลว: {error}'
+    recordFailed: "บันทึกการตัดสินใจล้มเหลว: {error}"
     notFoundOrDeleted: ไม่พบคำอุทธรณ์หรืออาจถูกลบไปแล้ว
     updateFailed: อัปเดตคำอุทธรณ์ล้มเหลว โปรดลองใหม่ภายหลัง
 report:
@@ -239,27 +271,27 @@ report:
       placeholder: โปรดอธิบายเหตุผลที่คุณรายงานข้อความนี้...
   success:
     title: ส่งรายงานแล้ว
-    toStaff: '{tick} รายงานของคุณถูกส่งไปยังทีมงาน InterChat เพื่อตรวจสอบแล้ว'
-    toHub: '{tick} รายงานของคุณถูกส่งไปยังผู้ดูแล Hub เพื่อตรวจสอบแล้ว'
+    toStaff: "{tick} รายงานของคุณถูกส่งไปยังทีมงาน InterChat เพื่อตรวจสอบแล้ว"
+    toHub: "{tick} รายงานของคุณถูกส่งไปยังผู้ดูแล Hub เพื่อตรวจสอบแล้ว"
   errors:
-    hubMessageOnly: '{x_icon} คุณสามารถรายงานได้เฉพาะข้อความที่ส่งผ่าน InterChat Hubs เท่านั้น'
-    cannotReportSelf: '{x_icon} คุณไม่สามารถรายงานข้อความของตัวเองได้'
+    hubMessageOnly: "{x_icon} คุณสามารถรายงานได้เฉพาะข้อความที่ส่งผ่าน InterChat Hubs เท่านั้น"
+    cannotReportSelf: "{x_icon} คุณไม่สามารถรายงานข้อความของตัวเองได้"
 hubConfig:
   general:
     placeholder: Select a setting to configure...
     summaryDescription: A summary of your hub's general settings. For more options, visit the [dashboard](https://interchat.dev/dashboard/hubs/{hubId}).
     hubIdentity: Hub Identity
     fields:
-      name: 'Name:'
-      description: 'Description:'
-      rating: 'Rating:'
-      visibility: 'Visibility:'
+      name: "Name:"
+      description: "Description:"
+      rating: "Rating:"
+      visibility: "Visibility:"
     editOnDashboard: Edit on Dashboard
-    noDescription: '*No description set.*'
+    noDescription: "*No description set.*"
     properties: Properties
     nsfw: '🔞 NSFW'
     familyFriendly: '✅ Family Friendly'
-    lastUpdated: 'Last Updated:'
+    lastUpdated: "Last Updated:"
     descriptionUpdated: Description Updated!
     descriptionSuccess: Your hub description has been successfully updated.
     nameUpdated: Name Updated!
@@ -268,13 +300,11 @@ hubConfig:
     welcomeUpdated: Welcome Message Updated!
     welcomeSuccess: Your hub welcome message has been successfully updated.
     nsfwUpdated: NSFW Setting Updated!
-    nsfwSuccess: 'Your hub is now: **{status}**'
     nsfwWarning: '⚠️ Important'
     nsfwWarningDesc: Your hub is now marked as NSFW and may be filtered from searches.
-    sfwConfirm: '✅ Family Friendly'
     sfwConfirmDesc: Your hub is now marked as safe for work and visible to all users.
     visibilityUpdated: Visibility Updated!
-    visibilitySuccess: 'Your hub is now: **{status}**'
+    visibilitySuccess: "Your hub is now: **{status}**"
     visibilityMeaning: ℹ️ What this means
     visibility:
       public: '🌐 สาธารณะ'
@@ -308,7 +338,7 @@ hubConfig:
       label: เปลี่ยนการมองเห็น
       description: สลับระหว่าง สาธารณะ, ไม่แสดงในรายการ, หรือ ส่วนตัว
       title: '🔐 Change Hub Visibility'
-      desc: 'Select the visibility level for your hub:'
+      desc: "Select the visibility level for your hub:"
     errors:
       nameCooldown: Name Change on Cooldown
       nameCooldownDesc: You can change your hub name again in **{days} days**.
@@ -360,10 +390,10 @@ hubConfig:
       apply: Apply Changes
     success:
       title: Modules Updated!
-      details: 'Successfully updated {count} module setting(s):'
+      details: "Successfully updated {count} module setting(s):"
     errors:
       noneSelected: No modules selected.
-      updateFailed: 'An error occurred: {error}'
+      updateFailed: "An error occurred: {error}"
   badges:
     owner:
       label: Owner Badge
@@ -403,8 +433,8 @@ hubConfig:
       apply: Apply Configuration
       clear: Clear Configuration
     success:
-      updated: '{type} configuration updated!'
-      cleared: '{type} configuration cleared!'
+      updated: "{type} configuration updated!"
+      cleared: "{type} configuration cleared!"
     errors:
       selectFirst: Please select a logging type first.
       updateFailed: Failed to update logging configuration.
@@ -454,6 +484,8 @@ hubConfig:
       success: Rule **{ruleName}** has been deleted.
       cancelled: Rule deletion cancelled.
 moderation:
+  footer:
+    actionedBy: "Actioned by {user}"
   actionNames:
     warned: เตือนแล้ว
     muted: ปิดเสียงแล้ว
@@ -480,7 +512,7 @@ moderation:
     alreadyActive: เป้าหมายติดสถานะ Blacklist ทั่วโลกอยู่แล้ว
     success: Blacklist {target} ทั่วโลกแล้ว
   success:
-    action: '{target} ถูก {action} {prep} {hubName}'
+    action: "{target} ถูก {action} {prep} {hubName}"
   actions:
     warn:
       label: เตือน
@@ -500,6 +532,9 @@ moderation:
     blacklist:
       label: Blacklist
       description: ออกคำสั่ง Blacklist ทั่วทั้ง InterChat (ผู้ใช้/เซิร์ฟเวอร์)
+    history:
+      label: History
+      description: View infraction and report history for the target
     delete:
       label: ลบ
       description: ลบข้อความที่เลือกออกจาก Hub ที่เชื่อมต่อทั้งหมด
@@ -512,6 +547,8 @@ moderation:
       placeholder: เช่น 30m, 2h, 1d
   hubSelect:
     placeholder: เลือก Hub เพื่อจัดการ...
+    noHubs: No hubs available
+    noHubsDesc: No hubs available for moderation
   hubSelection:
     title: การเลือก Hub
     description: เลือก Hub ที่คุณต้องการจัดการ
@@ -520,23 +557,54 @@ moderation:
   targetSelection:
     title: เลือกเป้าหมาย
     description: คุณต้องการ {action} ใคร?
+    user: Act on User
+    server: Act on Server
   actionSelect:
     placeholder: เลือกการดำเนินการ...
+  validators:
+    reasonTooShort: "Reason must be at least {min} characters long."
+    reasonTooLong: "Reason must be no more than {max} characters long."
+    durationRequired: "Duration is required for mute actions. Use format like '1d', '2h', '30m'."
+    durationNotNeeded: "Duration is only needed for mute actions."
+    durationTooShort: "Duration is too short."
+    durationTooLong: "Duration is too long."
+    invalidDurationFormat: "Invalid duration format. Use formats like '1h', '30m', '2d'."
+    noTarget: "No valid target specified for this action."
   history:
+    title: "{info_icon} Moderation History"
     noHubSelected: ไม่ได้เลือก Hub
+    noTarget: "No target specified."
+    recentInfractions: "Recent Infractions ({count} total)"
+    noInfractions: "No infractions found."
+    recentReports: "Recent Reports ({count} total)"
+    noReports: "No reports found."
+    fetchFailed: "Failed to fetch moderation history."
+  report:
+    jumpToMessage: Jump to Message
+    notFound: "Report not found or deleted."
+    noHub: "Unable to determine hub for this report."
+    handledTitle: "Report Handled"
+    handledDesc: "Your report `{id}` has been reviewed and action has been taken."
+    handledFooter: "Thank you for helping keep the hub safe!"
   errors:
     selectedHubNotFound: ไม่พบ Hub ที่เลือก
     unknownAction: ไม่รู้จักการกระทำ
     unsupportedAction: เส้นทางการกระทำไม่รองรับ
     openPanelFailed: เกิดข้อผิดพลาดที่ไม่คาดคิดขณะเปิดแผง Mod โปรดลองใหม่หรือแจ้งทีมงาน
     notModeratorForHub: คุณไม่ใช่ Moderator สำหรับ Hub นี้
-    alreadyState: '{targetType} ถูก {state} ใน Hub นี้อยู่แล้ว'
+    alreadyState: "{targetType} ถูก {state} ใน Hub นี้อยู่แล้ว"
     invalidHubData: ข้อมูล Hub ไม่ถูกต้อง
     originalMessageNotFound: ไม่พบข้อความต้นฉบับในฐานข้อมูล
     fetchAuthorOrServerFailed: ไม่สามารถดึงข้อมูลผู้เขียนข้อความหรือเซิร์ฟเวอร์ได้
     hubNotFoundForMessage: ไม่พบ Hub สำหรับข้อความนี้
     noModeratedHubs: คุณไม่มีสิทธิ์ Moderation ใน Hub ใดๆ
     noTarget: โปรดระบุเป้าหมาย (ผู้ใช้/เซิร์ฟเวอร์) หรือตอบกลับข้อความ
+    actionProcessingFailed: "An error occurred while processing the action."
+    modalOpenFailed: "Failed to open the modal. Please try again."
+    notModerator: "You are not a moderator for any hubs."
+    noHubsAvailable: "No hubs are available for moderation."
+    webhooks:
+      noPermission: "You do not have permission to moderate this hub."
 welcomeMessage:
   title: ยินดีต้อนรับสู่ InterChat Hub ที่ชื่อว่า **{hubName}**!
   errorDm: ส่งข้อความต้อนรับสำหรับ Hub ที่คุณเข้าร่วมล้มเหลว ตรวจสอบให้แน่ใจว่าฉันมีสิทธิ์ส่งข้อความใน {channel}
@@ -606,9 +674,9 @@ staff:
       welcomeMessage: ข้อความต้อนรับ
       description: คำอธิบาย
     values:
-      messagesThisWeek: '**{count}** สัปดาห์นี้'
-      connectionsActive: '**{count}** ใช้งานอยู่'
-      upvotesTotal: '**{count}** ทั้งหมด'
+      messagesThisWeek: "**{count}** สัปดาห์นี้"
+      connectionsActive: "**{count}** ใช้งานอยู่"
+      upvotesTotal: "**{count}** ทั้งหมด"
     badges:
       verified: Verified
       partnered: Partnered
@@ -624,8 +692,8 @@ staff:
       lastMessage: ข้อความล่าสุด
       updated: อัปเดต
     values:
-      messagesTotal: '**{count}** ทั้งหมด'
-      connectionsActive: '**{count}** ใช้งานอยู่'
+      messagesTotal: "**{count}** ทั้งหมด"
+      connectionsActive: "**{count}** ใช้งานอยู่"
   user:
     inbox:
       title: Inbox
@@ -645,10 +713,10 @@ staff:
     values:
       staff: Staff
       member: Member
-      messagesSent: '**{count}** ส่งแล้ว'
-      reputationPoints: '**{count}** แต้ม'
-      votesCast: '**{count}** ครั้ง'
-      hubJoinsTotal: '**{count}** ทั้งหมด'
+      messagesSent: "**{count}** ส่งแล้ว"
+      reputationPoints: "**{count}** แต้ม"
+      votesCast: "**{count}** ครั้ง"
+      hubJoinsTotal: "**{count}** ทั้งหมด"
       notSet: ไม่ได้ตั้งค่า
       never: ไม่เคย
     sections:
@@ -661,21 +729,21 @@ staff:
       mentionOnReply: แจ้งเตือนเมื่อตอบกลับ
       showNsfwHubs: แสดง Hub NSFW
     content:
-      hubs: '{count} Hubs'
-      modPositions: '{count} ตำแหน่ง Mod'
-      blockedWords: '{count} คำที่ถูกบล็อก'
-      antiSwearRules: '{count} กฎห้ามคำหยาบ'
+      hubs: "{count} Hubs"
+      modPositions: "{count} ตำแหน่ง Mod"
+      blockedWords: "{count} คำที่ถูกบล็อก"
+      antiSwearRules: "{count} กฎห้ามคำหยาบ"
     moderation:
-      infractionsReceived: '{count} ครั้งที่ถูกลงโทษ'
-      infractionsIssued: '{count} ครั้งที่ลงโทษผู้อื่น'
-      blacklistsReceived: '{count} ครั้งที่โดน Blacklist'
-      blacklistsIssued: '{count} ครั้งที่สั่ง Blacklist'
+      infractionsReceived: "{count} ครั้งที่ถูกลงโทษ"
+      infractionsIssued: "{count} ครั้งที่ลงโทษผู้อื่น"
+      blacklistsReceived: "{count} ครั้งที่โดน Blacklist"
+      blacklistsIssued: "{count} ครั้งที่สั่ง Blacklist"
     activity:
-      appeals: '{count} การอุทธรณ์'
-      reviews: '{count} การรีวิว'
-      reportsMade: '{count} รายงานที่สร้าง'
-      reportsReceived: '{count} รายงานที่ได้รับ'
-      achievements: '{count} ความสำเร็จ'
+      appeals: "{count} การอุทธรณ์"
+      reviews: "{count} การรีวิว"
+      reportsMade: "{count} รายงานที่สร้าง"
+      reportsReceived: "{count} รายงานที่ได้รับ"
+      achievements: "{count} ความสำเร็จ"
   blacklist:
     fields:
       expires: หมดอายุ
@@ -684,14 +752,54 @@ staff:
 hub:
   lock:
     announceTitle: ล็อค Hub แล้ว
-    announceDescription: 'This hub has been locked by a moderator. Only moderators can send messages now.'
+    announceDescription: "This hub has been locked by a moderator. Only moderators can send messages now."
   unlock:
     announceTitle: ปลดล็อค Hub แล้ว
-    announceDescription: 'This hub has been unlocked by a moderator. You can now send messages.'
+    announceDescription: "This hub has been unlocked. Invites and messages are now enabled."
+    successDescription: "**{hub}** has been unlocked. New members can now join and messages are allowed."
+  announcement:
+    webhookUsername: "{hubName} | Hub Announcement"
+    officialTitle: "{hubName} | Official Hub Announcement"
+    disclaimer: "This announcement was sent by hub officials - not InterChat staff"
+  rules:
+    buttons:
+      accept: Accept Rules
+    titles:
+      accepted: Rules Accepted
+      declined: Rules Not Accepted
+      changedMind: '💡 Changed your mind?'
+    messages:
+      accepted: "Thank you for accepting the rules for **{hubName}**!\n\nYou can now participate freely in this hub. Your messages will be shared across all connected servers."
+      declined: "You have chosen not to accept the rules for **{hubName}** at this time.\n\n**What this means:**\n- Your messages will not be shared across the hub\n- You can still read messages from other servers\n- You will see these rules again when you send your next message"
+      changedMind: "Send another message in this channel to see the rules again and accept them."
+    footer:
+      welcome: Welcome to the community!
+    errors:
+      failed: Something went wrong while processing your rule acceptance. Please try again.
+  invites:
+    title: คำเชิญที่ใช้งานอยู่
+    noneFound: ไม่พบรายการ!
+    inviteUses: "**จำนวนการใช้:**"
+    inviteExpire: "**หมดอายุ:**"
+    titles:
+      generated: Generated!
+    messages:
+      generated: "{tick} `{code}` can now be used {uses} time(s) to join your hub. Share it with your friends!"
+  info:
+    titles:
+      rules: Rules for {hubName}
+      stats: Stats for {hubName}
+    badges:
+      verified: This hub is an official verified hub.
+      partnered: This hub is an official partnered hub.
+    description: View information on this hub! Select an option from below.
+  buttons:
+    rules: กฎระเบียบ
+    stats: Stats
   events:
     serverJoined:
       title: '🎉 เซิร์ฟเวอร์ใหม่เข้าร่วม!'
-      description: '**{serverName}** ได้เข้าร่วม Hub แล้ว! มาต้อนรับพวกเขาสู่ชุมชนของเรากันเถอะ'
+      description: "**{serverName}** ได้เข้าร่วม Hub แล้ว! มาต้อนรับพวกเขาสู่ชุมชนของเรากันเถอะ"
       footer: ยินดีต้อนรับสู่ {hubName}!
   create:
     title: สร้าง Hub ของคุณ
@@ -699,7 +807,6 @@ hub:
   wizard:
     start: เริ่มสร้าง Hub ของคุณ
     name:
-      label: ชื่อ Hub
       placeholder: Hub สุดเจ๋งของฉัน
     tagline:
       label: คำโปรยของ Hub
@@ -710,11 +817,11 @@ hub:
     steps:
       progress: ขั้นตอนที่ {current}/{total}
       step1:
-        modalTitle: 'ขั้นตอนที่ 1/7: รายละเอียด Hub'
+        modalTitle: "ขั้นตอนที่ 1/7: รายละเอียด Hub"
       step2:
         title: โลโก้ Hub
-        description: 'Add a logo for your hub! -# 💡 *Tip: Use an image URL (PNG, JPG, GIF, WEBP) or choose the default bot avatar.* '
-        modalTitle: 'ขั้นตอนที่ 2/7: โลโก้'
+        description: "Add a logo for your hub! -# 💡 *Tip: Use an image URL (PNG, JPG, GIF, WEBP) or choose the default bot avatar.* "
+        modalTitle: "ขั้นตอนที่ 2/7: โลโก้"
         logoUrlLabel: URL โลโก้
         logoUrlPlaceholder: https://example.com/logo.png
         addLogoButton: เพิ่มโลโก้
@@ -728,54 +835,68 @@ hub:
       step4:
         title: กฎของชุมชน
         description: กำหนดแนวทางปฏิบัติสำหรับ Hub ของคุณ
-        requiredPublic: '**จำเป็นสำหรับ Hub สาธารณะ**'
+        requiredPublic: "**จำเป็นสำหรับ Hub สาธารณะ**"
         optional: ไม่บังคับ
-        tip: '-# 💡 *คำแนะนำ: เพิ่มหนึ่งกฎต่อบรรทัด คุณสามารถเพิ่มกฎได้สูงสุด 25 ข้อ*'
-        modalTitle: 'ขั้นตอนที่ 4/7: กฎระเบียบ'
+        tip: "-# 💡 *คำแนะนำ: เพิ่มหนึ่งกฎต่อบรรทัด คุณสามารถเพิ่มกฎได้สูงสุด 25 ข้อ*"
+        modalTitle: "ขั้นตอนที่ 4/7: กฎระเบียบ"
         rulesLabel: กฎของ Hub
-        rulesPlaceholder: '1. Be respectful 2. No spam 3. Follow Discord ToS'
+        rulesPlaceholder: |
+          1. Be respectful
+          2. No spam
+          3. Follow Discord ToS
         addRulesButton: เพิ่มกฎ
       step5:
         title: ข้อความต้อนรับ
-        description: 'Create a welcome message for new members! -# 💡 *Tip: Keep it friendly and informative. Max 500 characters.*" '
-        modalTitle: 'ขั้นตอนที่ 5/7: ต้อนรับ'
+        description: |
+          Create a welcome message for new members!
+
+           -# 💡 *Tip: Keep it friendly and informative. Max 500 characters.*
+        modalTitle: "ขั้นตอนที่ 5/7: ต้อนรับ"
         welcomePlaceholder: ยินดีต้อนรับสู่ {hubName} หรือ Hub ของเรา! โปรดอ่านกฎและขอให้สนุก!
         customMessageButton: ข้อความที่กำหนดเอง
       step6:
         title: ฟีเจอร์ของ Hub
-        description: 'Select features to enable for your hub! ✅ **Pre-selected**: Reactions, Spam Filter (recommended) -# 💡 *Tip: You can adjust these anytime in `/hub configure`.*" '
+        description: |
+          Select features to enable for your hub!
+
+          ✅ **Pre-selected**: Reactions, Spam Filter (recommended)
+
+
+          -# 💡 *Tip: You can adjust these anytime in `/hub configure`.*
         modulesPlaceholder: เลือกโมดูลเพื่อเปิดใช้งาน...
         continueButton: ดำเนินการต่อ
       step7:
-        description: 'Optionally select a channel for moderation logs. Logs include: bans, warnings, reports, and other mod actions. -# 💡 *Tip: Choose a private staff channel. You can configure more log types later.*" '
+        description: |
+          Optionally select a channel for moderation logs.
+
+          Logs include: bans, warnings, reports, and other mod actions.
+
+          -# 💡 *Tip: Choose a private staff channel. You can configure more log types
+          later.*
         selectChannelButton: เลือกช่อง
         channelSelectTitle: เลือกช่องสำหรับบันทึก (Logging)
-        channelSelectDescription: 'เลือกช่องสำหรับบันทึก Moderation:'
+        channelSelectDescription: "เลือกช่องสำหรับบันทึก Moderation:"
         channelSelectPlaceholder: เลือกช่อง Logging
     summary:
       title: สรุปการตั้งค่า Hub
-      description: 'ตรวจสอบการตั้งค่า Hub ของคุณก่อนสร้าง:'
+      description: "ตรวจสอบการตั้งค่า Hub ของคุณก่อนสร้าง:"
       nameAndDescription: ชื่อ & คำอธิบาย
-      visibilityPublic: '🌐 สาธารณะ'
-      visibilityUnlisted: '👁️ ไม่แสดงในรายการ'
-      visibilityPrivate: '🔒 ส่วนตัว'
-      rulesCount: 'ตั้งไว้ {count} ข้อ'
+      rulesCount: "ตั้งไว้ {count} ข้อ"
       rulesNone: ไม่มีกฎ (เพิ่มได้ภายหลัง)
       welcomeDefault: ข้อความต้อนรับเริ่มต้น
       featuresNone: ไม่มี
-      loggingNone: ไม่ได้ตั้งค่า
       footer: พร้อมที่จะสร้าง Hub ของคุณหรือยัง?
     completion:
       loading: กำลังสร้าง Hub ของคุณ...
       loadingDescription: โปรดรอสักครู่ขณะที่เราตั้งค่าทุกอย่าง...
       success: สร้าง Hub สำเร็จแล้ว!
-      successDescription: '{hubName} เปิดใช้งานแล้ว! 🎉'
+      successDescription: "{hubName} เปิดใช้งานแล้ว! 🎉"
       dashboardLink: จัดการ Hub ของคุณ
       publicPageLink: ดูในไดเรกทอรี
       nextSteps: ทำอะไรต่อดี?
-      step1: '**For Private Hubs: Create an Invite**: `/hub invites hub:{hubName}` *Invite servers to join your hub* **For Public Hubs: Share Your Hub**: Check out your hub''s [public page](https://interchat.dev/hubs/{hubId}) and use the link to join! *Share your hub with others or join it from here!* '
+      step1: "**For Private Hubs: Create an Invite**: `/hub invites hub:{hubName}` *Invite servers to join your hub* **For Public Hubs: Share Your Hub**: Check out your hub's [public page](https://interchat.dev/hubs/{hubId}) and use the link to join! *Share your hub with others or join it from here!* "
       step2: "**Advanced Settings**: `/hub configure {hubName}`\n   - Profanity filters\\ \\ (custom anti-swear rules)\n   - Hub team management\n   - Advanced logging\\ \\ options\n   - Hub announcements"
-      step3: '**ต้องการความช่วยเหลือ?**: [เข้าร่วมเซิร์ฟเวอร์สนับสนุนของเรา]({supportInvite})'
+      step3: "**ต้องการความช่วยเหลือ?**: [เข้าร่วมเซิร์ฟเวอร์สนับสนุนของเรา]({supportInvite})"
     cancelled:
       description: Hub ของคุณไม่ได้ถูกสร้างขึ้น คุณสามารถเริ่มใหม่ได้ตลอดเวลาด้วย `/hub create`
     errors:
@@ -789,7 +910,7 @@ hub:
     success:
       title: เชื่อมต่อแล้ว!
       description: เชื่อมต่อกับ **{hubName}** แล้ว - เริ่มคุยได้เลย!
-      fieldValue: 'ช่องที่เชื่อมต่อ: {channel}'
+      fieldValue: "ช่องที่เชื่อมต่อ: {channel}"
     errors:
       alreadyConnected:
         title: เชื่อมต่อกับ Hub นี้อยู่แล้ว
@@ -797,15 +918,10 @@ hub:
   disconnect:
     title: ตัดการเชื่อมต่อแล้ว!
     description: ตัดการเชื่อมต่อจาก Hub แล้ว
-    fieldValue: 'ช่องที่เกี่ยวข้อง: {channel}'
-  invites:
-    title: คำเชิญที่ใช้งานอยู่
-    inviteUses: '**จำนวนการใช้:**'
-    inviteExpire: '**หมดอายุ:**'
-    noneFound: ไม่พบรายการ!
+    fieldValue: "ช่องที่เกี่ยวข้อง: {channel}"
   announcements:
     title: ประกาศ Hub
-    description: 'Create a **one time** announcement that sends in all connected channels. -# To create **recurring** announcements please visit the hub configuration menu. '
+    description: "Create a **one time** announcement that sends in all connected channels. -# To create **recurring** announcements please visit the hub configuration menu. "
   config:
     title: การตั้งค่า Hub
     description: ปรับแต่ง InterChat Hub สำหรับชุมชนของคุณ เลือกสิ่งที่คุณต้องการตั้งค่าด้านล่าง
@@ -839,7 +955,7 @@ hub:
   all:
     title: InterChat Hubs
     description: ด้านล่างนี้คุณจะสามารถค้นหาผ่านรายชื่อ Hub ทั้งหมดของเรา! ลองดูสิว่าคุณจะเจอใครบ้าง
-    filteredBy: 'ผลลัพธ์กรองโดย: {filter}'
+    filteredBy: "ผลลัพธ์กรองโดย: {filter}"
     errors:
       notFound: โอ๊ะโอ! ฉันไม่สามารถหา Hub ใดๆ ได้เลย มันคงไม่น่าจะเกิดขึ้น โปรดติดต่อ [ทีมสนับสนุน]({supportServer}) ของเรา
       invalidFilter: เงียบกริบ... ไม่มี Hub ไหนตรงกับตัวกรองของคุณ
@@ -985,7 +1101,7 @@ profile:
 my:
   hubs:
     title: Hub ของคุณ
-    description: 'นี่คือ Hub ที่คุณเป็นเจ้าของหรือดูแลอยู่:'
+    description: "นี่คือ Hub ที่คุณเป็นเจ้าของหรือดูแลอยู่:"
 stats:
   title: InterChat Statistics
   fields:
@@ -998,7 +1114,7 @@ stats:
     title: ข้อมูล Shard
     statusReady: พร้อมใช้งาน
     statusProvisioning: Provisioning
-    current: 'Current Shard: {id}'
+    current: "Current Shard: {id}"
 invite:
   title: เฮ้!
   description: ขอบคุณที่เลือก InterChat ต้องการความช่วยเหลือ? เข้าร่วมเซิร์ฟเวอร์สนับสนุนของเรา ใช้ปุ่มด้านล่างเพื่อเชิญบอทของเราไปยังเซิร์ฟเวอร์ของคุณและเริ่มเชื่อมต่อเซิร์ฟเวอร์ต่างๆ เข้าด้วยกัน
@@ -1032,8 +1148,8 @@ broadcast:
   spam:
     mutedMessage: You have been temporarily muted for {minutes} minutes due to spam. Your mute expires at <t:{expiry}:F>.
     warningMessage: '⚠️ You are sending messages too quickly! Please slow down or you will be temporarily muted.'
-    autoMuteReason: 'Auto-Mute: Spam detected - exceeded {max} messages in {period} seconds'
-    autoWarnReason: 'Auto-Warn: Spam detected - exceeded {max} messages in {period} seconds'
+    autoMuteReason: "Auto-Mute: Spam detected - exceeded {max} messages in {period} seconds"
+    autoWarnReason: "Auto-Warn: Spam detected - exceeded {max} messages in {period} seconds"
   validation:
     accountAge:
       message: Your account is too new to send messages through InterChat. Please wait a few more days and try again.
@@ -1042,9 +1158,9 @@ broadcast:
       message: This hub is currently locked.
       reason: Hub is currently locked
     invites:
-      message: '🚫 Your message contains Discord invite links, which are not allowed in this hub.'
+      message: "🚫 Discord invite links are not allowed in this hub."
     nsfw:
-      message: '🚫 Your message was blocked by InterChat filters (Reason: NSFW detection)'
+      message: "🚫 Your message was blocked by InterChat filters (Reason: NSFW detection)"
     profanity:
       message: '🚫 Your message was blocked by the hub''s profanity filter.'
       reason: Profanity filter blocked message
@@ -1056,5 +1172,68 @@ broadcast:
     spam:
       reason: Spam detected
     accessRestriction:
-      prefix: 'Access restricted: '
+      prefix: "Access restricted: "
       reason: Active restriction
+blacklist:
+  add:
+    title: Add to Blocklist
+    type:
+      label: Type
+      description: Specify whether you are blocking a User or a Server.
+      options:
+        userDesc: Block a specific user.
+        serverDesc: Block an entire server.
+    id:
+      label: User or Server ID to Block
+      placeholder: Enter the User ID or Server ID you wish to block
+    reason:
+      label: Note (optional)
+      description: A small note helps you remember why you've blocked.
+      placeholder: E.g., Spammer, Annoying, Toxic etc.
+    messages:
+      success: "Blocked {id} with reason: {reason}"
+    errors:
+      selfBlock: "{cross} You cannot block this server itself."
+      selfUserBlock: "{cross} You cannot block yourself."
+      failed: "Failed to block {id}. They might already be blocked."
+  list:
+    filters:
+      all: "All ({count})"
+      users: Users
+      servers: Servers
+    empty:
+      all: "You're too nice! Block some servers/users to see them here."
+      users: "No blocked users found."
+      servers: "No blocked servers found."
+    instructions: "You can add servers or users to the blocklist using the \"Add to Blocklist\"\nbutton in the previous message."
+    errors:
+      notFound: "{cross} Item not found or already removed."
+      removeFailed: "{cross} Error removing item: {error}"
+commands:
+  suggestion:
+    title: Suggestion / Bug Report
+    overview:
+      label: Overview
+      placeholder: Briefly describe your suggestion or bug...
+    description:
+      label: คำอธิบาย
+      placeholder: Provide full details of your suggestion or bug...
+    category:
+      label: Category
+      options:
+        bug: Bug Report
+        bugDesc: Report an issue you've found
+        suggestion: Suggestion
+        suggestionDesc: Suggest a new feature or improvement
+    errorId:
+      label: Error ID (if applicable)
+      placeholder: Paste the error ID here...
+    messages:
+      submitted: Your feedback has been received and will be reviewed by the team.
+      success: "{tick} Thank you for your feedback! It has been submitted successfully."
+    errors:
+      internal: An error occurred while submitting your feedback. Please try again.
+  report:
+    title: วิธีรายงาน
+    description: "Right-click (or long press) on a message sent through InterChat and select **Apps → Report**."
+    loadingGif: The GIF above may take a moment to load.
