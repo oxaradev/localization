@@ -739,7 +739,7 @@ hub:
       nextSteps: "O que vem a seguir?"
       step1: |
         **Para Hubs Privados: Crie um Convite**: `/hub invites hub:{hubName}` *Convide servidores para entrar no seu hub* **Para Hubs Públicos: Compartilhe Seu Hub**: Confira a [página pública](https://interchat.dev/hubs/{hubId}) do seu hub e use o link para entrar! *Compartilhe seu hub com outros ou entre nele por aqui!* 
-      step2: "**Configurações Avançadas**: `/hub configure {hubName}`\n   - Filtros de profanidade (regras personalizadas anti-palavrão)\n   -\\ \\ Gestão da equipe do Hub\n   - Opções avançadas de log\n   - Anúncios do Hub"
+      step2: "**Configurações Avançadas**: `/hub configure {hubName}`\n   - Filtros de profanidade (regras personalizadas anti-palavrão)\n   - Gestão da equipe do Hub\n   - Opções avançadas de log\n   - Anúncios do Hub"
       step3: "**Precisa de Ajuda?**: [Entre no nosso servidor de suporte]({supportInvite})"
     cancelled:
       description: "Seu hub não foi criado. Você pode recomeçar a qualquer momento com `/hub create`."
