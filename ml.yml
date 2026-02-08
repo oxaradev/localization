@@ -124,7 +124,7 @@ setup:
       description: "**ബ്രൗസ്** [interchat.dev/hubs](https://interchat.dev/hubs)\n**അല്ലെങ്കിൽ ഡയറക്ടറി തുറക്കാൻ താഴെയുള്ള ബട്ടൺ ക്ലിക്ക് ചെയ്യുക**"
     privateHubs:
       title: "സ്വകാര്യം അല്ലെങ്കിൽ ക്ഷണം മാത്രം"
-      description: "**Ask the hub owner or manager** for an invite code\n**Run `/connection add<invite-code>`** in your server to join"
+      description: "**ഹബ് ഉടമയെയോ മാനേജറെയോ സമീപിച്ച്** ഒരു ക്ഷണക്കോഡ് ചോദിക്കുക\n**നിങ്ങളുടെ സർവറിൽ `/connection add <invite-code>` റൺ ചെയ്ത്** ഹബ്ബിൽ ചേരുക"
     footer: "നിങ്ങൾക്ക് എപ്പോൾ വേണമെങ്കിലും കൂടുതൽ ഹബ്ബുകളിൽ ചേരാം, വ്യത്യസ്ത ചാനലുകളിലായി ഒരേസമയം ഒന്നിലധികം ഹബ്ബുകളിലേക്ക് കണക്റ്റുചെയ്യാനും കഴിയും."
   buttons:
     startWizard: "സജ്ജീകരണ വിസാർഡ് ആരംഭിക്കുക"
