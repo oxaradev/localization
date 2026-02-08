@@ -109,41 +109,13 @@ botLanding:
 
     💝 **หลงทาง? ต้องการความช่วยเหลือ?** เราขอเชิญคุณเข้าร่วม [ชุมชนสนับสนุน](https://discord.gg/8DhUA4HNpD) ทีมงานและชุมชนของเรายินดีที่จะให้ความช่วยเหลือ เราพร้อมสนับสนุนในทุกปัญหาที่คุณอาจพบ อย่าลังเลที่จะเข้าร่วม!
 setup:
-  embed:
-    description: "ใช้ Modal เพื่อกรอกรายละเอียด Hub ของคุณ"
   welcome:
     title: "ยินดีต้อนรับสู่การตั้งค่า InterChat"
     description: "มาเชื่อมต่อเซิร์ฟเวอร์ของคุณกันเถอะ วิซาร์ดนี้จะแนะนำคุณเกี่ยวกับการสร้างหรือเข้าร่วม Hub"
-  editMessagePrompt: "{emoji} โปรดใช้ Modal เพื่อแก้ไขข้อความของคุณ"
   select:
     placeholder: "เลือกภาษา"
-    chooseOption: "เลือกตัวเลือกเพื่อเริ่มต้น..."
-  options:
-    create:
-      label: "สร้าง Hub"
-      description: "เริ่มชุมชน InterChat ของคุณเอง"
-    join:
-      label: "เข้าร่วม Hub"
-      description: "เชื่อมต่อกับชุมชนที่มีอยู่แล้ว"
-    titleSaved: "{emoji} บันทึกข้อมูล Hub แล้ว!"
-    previewTitle: "นี่คือตัวอย่าง Hub ของคุณ:"
-    name: "{emoji} ชื่อ"
-    short: "{emoji} ชื่อย่อ"
-    description: "{emoji} คำอธิบาย"
   locale:
     successDescription: "{tick} ภาษาของคุณถูกตั้งค่าเป็น **{locale_name}**"
-  loading:
-    creatingHub: "{loading} กำลังสร้าง Hub ของคุณ..."
-    pleaseWait: "โปรดรอสักครู่ขณะที่เราตั้งค่าพื้นที่ชุมชนของคุณ"
-  create:
-    footer:
-      getStarted: "คลิก 'กรอกข้อมูล Hub' ด้านล่างเพื่อเริ่มต้น!"
-    whatYoullCreate:
-      title: "สิ่งที่คุณจะสร้าง:"
-      description: "{dot} พื้นที่ชุมชนที่ไม่เหมือนใครสำหรับเซิร์ฟเวอร์ของคุณ\n{dot} ควบคุมกฎและการดูแลความเรียบร้อยได้เต็มที่\n{dot} การตั้งค่าและฟีเจอร์ที่กำหนดเอง\n{dot} เป็นส่วนตัวโดยค่าเริ่มต้น - เข้าร่วมได้โดยการเชิญเท่านั้น"
-    youllNeed:
-      title: "สิ่งที่คุณต้องเตรียม:"
-      description: "{arrow_right} ชื่อ Hub ที่สร้างสรรค์\n{arrow_right} คำอธิบายโดยย่อ\n{arrow_right} คำอธิบายโดยละเอียด\n{arrow_right} URL รูปภาพโลโก้"
   join:
     title: "เข้าร่วม Hub"
     description: "ใช้ไดเรกทอรีสาธารณะหรือเชื่อมต่อด้วยรหัสเชิญ"
@@ -152,7 +124,7 @@ setup:
       description: "**ค้นหา** [interchat.dev/hubs](https://interchat.dev/hubs)\n**หรือคลิก** ปุ่มด้านล่างเพื่อเปิดไดเรกทอรี"
     privateHubs:
       title: "ส่วนตัว หรือ ต้องได้รับเชิญ"
-      description: "**ขอรหัสเชิญ** จากเจ้าของ Hub หรือผู้จัดการ\n**พิมพ์คำสั่ง `/connect <invite-code>`** ในเซิร์ฟเวอร์ของคุณเพื่อเข้าร่วม"
+      description: "**ขอรหัสเชิญ** จากเจ้าของ Hub หรือผู้จัดการ\n**พิมพ์คำสั่ง `/connection add<invite-code>`** ในเซิร์ฟเวอร์ของคุณเพื่อเข้าร่วม"
     footer: "คุณสามารถเข้าร่วม Hub เพิ่มเติมได้ตลอดเวลา และสามารถเชื่อมต่อกับหลาย Hub พร้อมกันได้ในช่องทางต่างๆ"
   buttons:
     startWizard: "เริ่มวิซาร์ดการตั้งค่า"
@@ -164,8 +136,6 @@ setup:
     joinHub: "เข้าร่วม Hub"
     useDefault: "ใช้ค่าเริ่มต้น"
     skipForNow: "ข้ามไปก่อน"
-  errors:
-    hubCreationFailed: "{no} การสร้าง Hub ล้มเหลว"
 help:
   title: "คำสั่ง InterChat"
   description: "สำรวจคำสั่งที่หลากหลายของเราเพื่อช่วยให้คุณและชุมชนของคุณเชื่อมต่อกับผู้อื่น"
@@ -397,11 +367,8 @@ moderation:
   delete:
     label: "ลบ"
     description: "ลบข้อความที่เลือกออกจาก Hub ที่เชื่อมต่อทั้งหมด"
-    noMessage: "ไม่ได้ระบุข้อความที่จะลบ"
     success: "ข้อความถูกลบออกจาก Hub ที่เชื่อมต่อทั้งหมดแล้ว"
     notInterChatMessage: "ข้อความนี้ไม่ใช่ข้อความ InterChat หรือถูกลบไปแล้ว"
-    failed: "ลบข้อความล้มเหลว โปรดลองใหม่ภายหลัง"
-    notFound: "ไม่พบข้อมูลการลงโทษ"
   blacklist:
     label: "Blacklist"
     description: "ออกคำสั่ง Blacklist ทั่วทั้ง InterChat (ผู้ใช้/เซิร์ฟเวอร์)"
@@ -461,7 +428,6 @@ moderation:
     noHubSelected: "ไม่ได้เลือก Hub"
   errors:
     selectedHubNotFound: "ไม่พบ Hub ที่เลือก"
-    processingFailed: "ดำเนินการ Moderation ล้มเหลว: {error}"
     unknownAction: "ไม่รู้จักการกระทำ"
     unsupportedAction: "เส้นทางการกระทำไม่รองรับ"
     openPanelFailed: "เกิดข้อผิดพลาดที่ไม่คาดคิดขณะเปิดแผง Mod โปรดลองใหม่หรือแจ้งทีมงาน"
@@ -551,7 +517,6 @@ infractions:
     noActive: "ไม่พบสถานะ {action} ที่ใช้งานอยู่"
     success: "ยกเลิก {action} แล้ว"
   delete:
-    notImplemented: "การลบข้อความยังไม่เปิดใช้งาน บันทึกเหตุผล: {reason}"
     notFound: "ไม่พบข้อมูลการลงโทษ"
     success: "ลบข้อมูลการลงโทษเรียบร้อยแล้ว"
   blacklist:
@@ -699,24 +664,6 @@ hub:
   create:
     title: "สร้าง Hub ของคุณ"
     description: "สร้าง InterChat Hub ของคุณเองสำหรับชุมชน, เพื่อนๆ... หรือใครก็ได้ - รายชื่ออาจยาวเหยียดเลยทีเดียว เอาล่ะ ลองดูสิว่าจะพาคุณไปถึงไหน"
-  nextSteps:
-    created:
-      title: "สร้าง Hub สำเร็จแล้ว!"
-      description: |
-        Hub **{hubName}** ของคุณพร้อมแล้ว! นี่คือสิ่งที่คุณทำได้ต่อไป:
-        - เชิญเซิร์ฟเวอร์แรกของคุณโดยใช้ `/invite`
-        - ตั้งกฎด้วย `/rules set`
-        - ปรับแต่งการตั้งค่าใน [dashboard](https://interchat.dev/dashboard)
-        - เชื่อมต่อช่องสนทนาด้วย `/connection add <hub-name>`
-    inviteLink:
-      title: "ถัดไป: สร้างลิงก์คำเชิญ"
-      description: "ใช้ {hubInviteCommand} เพื่อสร้างรหัสเชิญสำหรับ **{hubName}** และแชร์ให้กับเจ้าของเซิร์ฟเวอร์คนอื่นๆ"
-    shareHub:
-      title: "แชร์ Hub ของคุณ"
-      description: "{dot} โพสต์เกี่ยวกับ Hub ใหม่ของคุณใน [Support Server]({supportInvite}) ของเรา\n{dot} แชร์กับเพื่อนและชุมชนต่างๆ\n{dot} ใช้โซเชียลมีเดียเพื่อบอกต่อ"
-    proTips:
-      title: "{dot} เคล็ดลับมือโปร"
-      description: "{dot} เยี่ยมชม [Dashboard]({website}) เพื่อการตั้งค่าขั้นสูง\n{dot} ใช้ {hubVisibilityCommand} เพื่อทำให้ Hub ของคุณเป็นสาธารณะ\n{dot} เข้าร่วม [Support Server]({supportInvite}) ของเราเพื่อขอความช่วยเหลือและรับข่าวสารอัปเดต"
   wizard:
     start: "เริ่มสร้าง Hub ของคุณ"
     name:
@@ -1029,15 +976,10 @@ profile:
     noneFound: "ไม่พบข้อมูล"
     noneFoundDescription: "ฉันไม่พบความสำเร็จใดๆ สำหรับผู้ใช้นี้!"
     placeholder: "ความสำเร็จอยู่ที่นี่"
-  badges:
-    noneFound: "ไม่พบข้อมูล"
-    noneFoundDescription: "ฉันไม่พบตราสัญลักษณ์ใดๆ สำหรับผู้ใช้นี้!"
 my:
   hubs:
     title: "Hub ของคุณ"
     description: "นี่คือ Hub ที่คุณเป็นเจ้าของหรือดูแลอยู่:"
-    position: "ตำแหน่ง:"
-    owner: "เจ้าของ"
 stats:
   title: "สถิติ InterChat"
   shard:
