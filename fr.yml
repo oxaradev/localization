@@ -86,10 +86,10 @@ about:
   features:
     title: "Caractéristiques"
     list: |
-      - Connectez-vous à d'autres serveurs pour des discussions actives entre serveurs 
-      - Les messages circulent naturellement entre les serveurs en temps réel 
-      - Créez des communautés engagées et axées sur un sujet 
-      - Outils de modération pour des discussions dynamiques 
+      - Connectez-vous à d'autres serveurs pour des discussions actives entre serveurs
+      - Les messages circulent naturellement entre les serveurs en temps réel
+      - Créez des communautés engagées et axées sur un sujet
+      - Outils de modération pour des discussions dynamiques
       - Tableau de bord visuel pour gérer vos hubs, serveurs et paramètres
   buttons:
     vote: "Voter sur top.gg"
