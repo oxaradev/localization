@@ -98,7 +98,7 @@ about:
 botLanding:
   title: "👋 Olá!"
   description: |
-    **Sou InterChat e tenho o prazer de estar no seu servidor em nome de nossa equipe.** Juntos, podemos conectar seu servidor a outras comunidades notáveis de todo o Discord. Numerosos, potencialmente milhares de servidores localizados em um só lugar, todos cheios de pessoas ansiosas para conversar com você. 🚀 **Pronto para começar a construir novas pontes conosco?** {dot} **Novo aqui?** O comando '/setup' fornece um guia passo a passo para ajudá-lo a começar sua jornada. {dot} **Pronto para explorar?** Visite nossa [página de descoberta](https://interchat.dev/hubs) para localizar e fazer parte de nossos centros animados. {dot} **Talvez algo com o qual você esteja mais familiarizado?** Experimente nosso '/call' para conexões individuais. 💝 **Perdido? Precisa de ajuda?** Damos as boas-vindas à nossa [comunidade de suporte](https://discord.gg/8DhUA4HNpD). Nossa equipe e nossa comunidade terão prazer em oferecer sua ajuda. Oferecemos o máximo de suporte e assistência em quaisquer problemas que você possa ter, não hesite em participar! 
+    **Sou InterChat e tenho o prazer de estar no seu servidor em nome de nossa equipe.** Juntos, podemos conectar seu servidor a outras comunidades notáveis de todo o Discord. Numerosos, potencialmente milhares de servidores localizados em um só lugar, todos cheios de pessoas ansiosas para conversar com você. 🚀 **Pronto para começar a construir novas pontes conosco?** {dot} **Novo aqui?** O comando '/setup' fornece um guia passo a passo para ajudá-lo a começar sua jornada. {dot} **Pronto para explorar?** Visite nossa [página de descoberta](https://interchat.dev/hubs) para localizar e fazer parte de nossos centros animados. {dot} **Talvez algo com o qual você esteja mais familiarizado?** Experimente nosso '/call' para conexões individuais. 💝 **Perdido? Precisa de ajuda?** Damos as boas-vindas à nossa [comunidade de suporte](https://discord.gg/8DhUA4HNpD). Nossa equipe e nossa comunidade terão prazer em oferecer sua ajuda. Oferecemos o máximo de suporte e assistência em quaisquer problemas que você possa ter, não hesite em participar!
 setup:
   welcome:
     title: "Bem-vindo a configuração do InterChat"
@@ -503,7 +503,7 @@ infractions:
     both: "Por favor, especifique um usuário ou um servidor, não ambos."
     missing: "Por favor, especifique um usuário ou um servidor."
   success:
-    action: "{action} {target} {prep} {hubName}."
+    action: "action} {target} {prep} {hubName}."
   revoke:
     noActive: "Nenhum {action} ativo encontrado."
     success: "{action} revogada."
@@ -673,7 +673,7 @@ hub:
       step2:
         title: "Logo do Hub"
         description: |
-          Adicione um logo para o seu hub! -# 💡 *Dica: Use uma URL de imagem (PNG, JPG, GIF, WEBP) ou escolha o avatar padrão do bot.* 
+          Adicione um logo para o seu hub! -# 💡 *Dica: Use uma URL de imagem (PNG, JPG, GIF, WEBP) ou escolha o avatar padrão do bot.*
         modalTitle: "Passo 2/7: Logo"
         logoUrlLabel: "URL do Logo"
         logoUrlPlaceholder: "https://exemplo.com/logo.png"
@@ -682,7 +682,7 @@ hub:
       step3:
         title: Hub Visibility
         description: |
-          Escolha a visibilidade do seu hub: 🔓 **Público**: Descobrível no diretório de hubs, requer regras 👁️ **Não listado**: Não está no diretório, mas qualquer um pode entrar se souber o nome 🔒 **Privado**: Apenas convite, não listado publicamente -# 💡 *Dica: Você pode mudar isso depois nas configurações do hub.*" 
+          Escolha a visibilidade do seu hub: 🔓 **Público**: Descobrível no diretório de hubs, requer regras 👁️ **Não listado**: Não está no diretório, mas qualquer um pode entrar se souber o nome 🔒 **Privado**: Apenas convite, não listado publicamente -# 💡 *Dica: Você pode mudar isso depois nas configurações do hub.*"
         publicButton: "Hub Público"
         unlistedButton: "Não listado"
         privateButton: "Hub Privado"
@@ -699,19 +699,19 @@ hub:
       step5:
         title: "Mensagem de Boas-vindas"
         description: |
-          Crie uma mensagem de boas-vindas para novos membros! -# 💡 *Dica: Mantenha amigável e informativo. Máx 500 caracteres.*" 
+          Crie uma mensagem de boas-vindas para novos membros! -# 💡 *Dica: Mantenha amigável e informativo. Máx 500 caracteres.*"
         modalTitle: "Passo 5/7: Boas-vindas"
         welcomePlaceholder: "Bem-vindo ao {hubName} ou nosso hub! Por favor leia as regras e divirta-se!"
         customMessageButton: "Mensagem Personalizada"
       step6:
         title: "Funcionalidades do Hub"
         description: |
-          Selecione funcionalidades para ativar no seu hub! ✅ **Pré-selecionado**: Reações, Filtro de Spam (recomendado) -# 💡 *Dica: Você pode ajustar isso a qualquer momento em `/hub configure`.*" 
+          Selecione funcionalidades para ativar no seu hub! ✅ **Pré-selecionado**: Reações, Filtro de Spam (recomendado) -# 💡 *Dica: Você pode ajustar isso a qualquer momento em `/hub configure`.*"
         modulesPlaceholder: "Selecione módulos para ativar..."
         continueButton: "Continuar"
       step7:
         description: |
-          Opcionalmente selecione um canal para logs de moderação. Logs incluem: banimentos, avisos, reportes e outras ações de moderação. -# 💡 *Dica: Escolha um canal privado da equipe. Você pode configurar mais tipos de log depois.*" 
+          Opcionalmente selecione um canal para logs de moderação. Logs incluem: banimentos, avisos, reportes e outras ações de moderação. -# 💡 *Dica: Escolha um canal privado da equipe. Você pode configurar mais tipos de log depois.*"
         selectChannelButton: "Selecionar Canal"
         channelSelectTitle: "Selecionar Canal de Logs"
         channelSelectDescription: "Escolha um canal para logs de moderação:"
@@ -738,7 +738,7 @@ hub:
       publicPageLink: "Ver no diretório"
       nextSteps: "O que vem a seguir?"
       step1: |
-        **Para Hubs Privados: Crie um Convite**: `/hub invites hub:{hubName}` *Convide servidores para entrar no seu hub* **Para Hubs Públicos: Compartilhe Seu Hub**: Confira a [página pública](https://interchat.dev/hubs/{hubId}) do seu hub e use o link para entrar! *Compartilhe seu hub com outros ou entre nele por aqui!* 
+        **Para Hubs Privados: Crie um Convite**: `/hub invites hub:{hubName}` *Convide servidores para entrar no seu hub* **Para Hubs Públicos: Compartilhe Seu Hub**: Confira a [página pública](https://interchat.dev/hubs/{hubId}) do seu hub e use o link para entrar! *Compartilhe seu hub com outros ou entre nele por aqui!*
       step2: "**Configurações Avançadas**: `/hub configure {hubName}`\n   - Filtros de profanidade (regras personalizadas anti-palavrão)\n   - Gestão da equipe do Hub\n   - Opções avançadas de log\n   - Anúncios do Hub"
       step3: "**Precisa de Ajuda?**: [Entre no nosso servidor de suporte]({supportInvite})"
     cancelled:
@@ -774,7 +774,7 @@ hub:
   announcements:
     title: "Anúncios do Hub"
     description: |
-      Crie um anúncio de **uma vez** que envia em todos os canais conectados. -# Para criar anúncios **recorrentes** por favor visite o menu de configuração do hub. 
+      Crie um anúncio de **uma vez** que envia em todos os canais conectados. -# Para criar anúncios **recorrentes** por favor visite o menu de configuração do hub.
   config:
     title: "Configuração do Hub"
     description: "Personalize seu hub InterChat para sua comunidade. Escolha o que você gostaria de configurar abaixo."
