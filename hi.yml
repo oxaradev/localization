@@ -124,7 +124,7 @@ setup:
       description: "**ब्राउज़ करें** [interchat.dev/hubs](https://interchat.dev/hubs)\n**या निर्देशिका खोलने के लिए** नीचे दिए गए बटन पर क्लिक करें"
     privateHubs:
       title: "निजी या केवल-आमंत्रण (Invite-only)"
-      description: "**Hub मालिक या प्रबंधक से** आमंत्रण कोड मांगें\n**शामिल होने के लिए अपने सर्वर में** `/connection add<invite-code>` चलाएं"
+      description: "**Hub मालिक या प्रबंधक से** आमंत्रण कोड मांगें\n**शामिल होने के लिए अपने सर्वर में** `/connection add <invite-code>` चलाएं"
     footer: "आप कभी भी और Hubs में शामिल हो सकते हैं, और आप अलग-अलग चैनलों में एक साथ कई Hubs से जुड़ सकते हैं।"
   buttons:
     startWizard: "सेटअप विजार्ड शुरू करें"

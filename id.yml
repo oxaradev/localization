@@ -124,7 +124,7 @@ setup:
       description: "**Jelajahi** [interchat.dev/hubs](https://interchat.dev/hubs)\n**Atau klik** tombol di bawah untuk membuka direktori"
     privateHubs:
       title: "Pribadi atau Khusus Undangan"
-      description: "**Minta pemilik atau manajer hub** untuk kode undangan\n**Jalankan `/connection add<kode-undangan>`** di server Anda untuk bergabung"
+      description: "**Minta pemilik atau manajer hub** untuk kode undangan\n**Jalankan `/connection add <kode-undangan>`** di server Anda untuk bergabung"
     footer: "Anda dapat bergabung dengan lebih banyak hub kapan saja, dan Anda dapat terhubung ke beberapa hub sekaligus di channel yang berbeda."
   buttons:
     startWizard: "Mulai Panduan Pengaturan"
