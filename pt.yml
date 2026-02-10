@@ -142,17 +142,8 @@ about:
   buttons:
     shardInfo: Informações do Shard
 botLanding:
-  title: "👋 Olá!"
-  description: |
-    **Sou InterChat e tenho o prazer de estar no seu servidor em nome de nossa equipe.**
-    Juntos, podemos conectar seu servidor a outras comunidades notáveis de todo o Discord. Numerosos, potencialmente milhares de servidores localizados em um só lugar, todos cheios de pessoas ansiosas para conversar com você. 🚀
-
-     **Pronto para começar a construir novas pontes conosco?**
-     {dot} **Novo aqui?** O comando '/setup' fornece um guia passo a passo para ajudá-lo a começar sua jornada.
-     {dot} **Pronto para explorar?** Visite nossa [página de descoberta](https://interchat.dev/hubs) para localizar e fazer parte de nossos centros animados.
-     {dot} **Talvez algo com o qual você esteja mais familiarizado?** Experimente nosso '/call' para conexões individuais.
-
-     💝 **Perdido? Precisa de ajuda?** Damos as boas-vindas à nossa [comunidade de suporte](https://discord.gg/8DhUA4HNpD). Nossa equipe e nossa comunidade terão prazer em oferecer sua ajuda. Oferecemos o máximo de suporte e assistência em quaisquer problemas que você possa ter, não hesite em participar!
+  title: '👋 Olá!'
+  description: "**Sou InterChat e tenho o prazer de estar no seu servidor em nome de nossa equipe.**\nJuntos, podemos conectar seu servidor a outras comunidades notáveis de todo o Discord. Numerosos, potencialmente milhares de servidores localizados em um só lugar, todos cheios de pessoas ansiosas para conversar com você. 🚀\n\n **Pronto para começar a construir novas pontes conosco?**\n {dot} **Novo aqui?** O comando '/setup' fornece um guia passo a passo para ajudá-lo a começar sua jornada.\n {dot} **Pronto para explorar?** Visite nossa [página de descoberta](https://interchat.dev/hubs) para localizar e fazer parte de nossos centros animados.\n {dot} **Talvez algo com o qual você esteja mais familiarizado?** Experimente nosso '/call' para conexões individuais.\n\n 💝 **Perdido? Precisa de ajuda?** Damos as boas-vindas à nossa [comunidade de suporte](https://discord.gg/8DhUA4HNpD). Nossa equipe e nossa comunidade terão prazer em oferecer sua ajuda. Oferecemos o máximo de suporte e assistência em quaisquer problemas que você possa ter, não hesite em participar!"
 setup:
   welcome:
     title: Bem-vindo a configuração do InterChat
@@ -853,7 +844,7 @@ hub:
     serverJoined:
       title: '🎉 Um novo servidor entrou!'
       description: "**{serverName}** has joined the hub!"
-      footer: Bem-vindo a {hubName}! 
+      footer: Bem-vindo a {hubName}!
   create:
     title: Crie Seu Hub
     description: Create your own InterChat hub for a community.
