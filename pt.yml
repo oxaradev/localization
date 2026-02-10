@@ -142,8 +142,17 @@ about:
   buttons:
     shardInfo: Informações do Shard
 botLanding:
-  title: '👋 Olá!'
-  description: "**I'm InterChat, and I'm pleased to be on your server.**\n\nReady to start building new bridges?\n\n{dot} **New here?** The `/setup` command provides a step-by-step guide.\n{dot} **Ready to explore?** Visit our [discovery page](https://interchat.dev/hubs)."
+  title: "👋 Olá!"
+  description: |
+    **Sou InterChat e tenho o prazer de estar no seu servidor em nome de nossa equipe.**
+    Juntos, podemos conectar seu servidor a outras comunidades notáveis de todo o Discord. Numerosos, potencialmente milhares de servidores localizados em um só lugar, todos cheios de pessoas ansiosas para conversar com você. 🚀
+
+     **Pronto para começar a construir novas pontes conosco?**
+     {dot} **Novo aqui?** O comando '/setup' fornece um guia passo a passo para ajudá-lo a começar sua jornada.
+     {dot} **Pronto para explorar?** Visite nossa [página de descoberta](https://interchat.dev/hubs) para localizar e fazer parte de nossos centros animados.
+     {dot} **Talvez algo com o qual você esteja mais familiarizado?** Experimente nosso '/call' para conexões individuais.
+
+     💝 **Perdido? Precisa de ajuda?** Damos as boas-vindas à nossa [comunidade de suporte](https://discord.gg/8DhUA4HNpD). Nossa equipe e nossa comunidade terão prazer em oferecer sua ajuda. Oferecemos o máximo de suporte e assistência em quaisquer problemas que você possa ter, não hesite em participar!
 setup:
   welcome:
     title: Bem-vindo a configuração do InterChat
