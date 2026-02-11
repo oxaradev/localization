@@ -356,6 +356,7 @@ hubConfig:
       invalidNameDesc: Hub name cannot be empty.
       nameTaken: Name Already Taken
       nameTakenDesc: The name **{name}** is already used.
+    rulesCount: "{count}/{max} rules configured"
   permissions:
     remove:
       label: Entfernen
@@ -426,6 +427,8 @@ hubConfig:
     selectRole: Select a role for notifications (optional)...
     notConfigured: Nicht konfiguriert
     noRole: No role
+    role: Role
+    currentConfig: Current Configuration
     footerHint: Select a logging type above to configure
     configureTitle: Configure {type}
     configureDescription: Select a channel and optionally a role for notifications below.
@@ -438,7 +441,9 @@ hubConfig:
       messageModeration: Channel for message edit/delete logs
     success:
       updated: "{type} configuration updated!"
+      updatedDesc: "Logging for **{type}** has been updated successfully."
       cleared: "{type} configuration cleared!"
+      clearedDesc: "Logging for **{type}** has been cleared."
     errors:
       selectFirst: Please select a logging type first.
       updateFailed: Failed to update logging configuration.
@@ -794,6 +799,9 @@ hub:
       display:
         noRulesTitle: No Rules Set
         noRulesDescription: No rules have been set for this hub yet.
+        rulesCount: "{count} of {max} rules used"
+        ruleHeading: "Rule {number}"
+        truncated: Full text will be shown when editing
     accept:
       buttons:
         accept: Accept Rules
@@ -969,6 +977,12 @@ hub:
       logging:
         label: Logging-Konfiguration
         description: Konfiguriere Logging-Kanäle und Benachrichtigungsrollen für deinen Hub
+      automod:
+        label: AutoMod
+        description: Manage anti-swear rules, patterns, and safe list
+      badges:
+        label: Custom Badges
+        description: Configure custom badge visibility
       transfer:
         label: Besitz übertragen
         description: Übertrage den Besitz deines Hubs an eine andere Person
