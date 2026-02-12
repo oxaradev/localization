@@ -451,6 +451,7 @@ hubConfig:
         placeholder: abc123
       uses:
         label: उपयोग (Uses)
+        guidelines: "Please adhere to the guidelines @ {guidelinesUrl}"
         placeholder: अनंत के लिए मुझे खाली छोड़ दें
       expiry:
         label: समाप्ति (Expiry)

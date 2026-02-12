@@ -451,6 +451,7 @@ hubConfig:
         placeholder: abc123
       uses:
         label: ഉപയോഗങ്ങൾ
+        guidelines: "Please adhere to the guidelines @ {guidelinesUrl}"
         placeholder: അനന്തമായതിന് എന്നെ വെറുതെ വിടുക
       expiry:
         label: കാലാവധി

@@ -658,6 +658,7 @@ welcomeMessage:
     hubPageValue: "[View on InterChat]({hubUrl})"
   rules:
     title: "{rules_icon} {hubName} - Rules"
+    guidelines: "Please adhere to the guidelines @ {guidelinesUrl}"
   errors:
     disconnectPermission:
       title: "{x_icon} Permission Denied"

@@ -451,6 +451,7 @@ hubConfig:
         placeholder: abc123
       uses:
         label: Verwendungen
+        guidelines: "Please adhere to the guidelines @ {guidelinesUrl}"
         placeholder: Lass mich leer für unendlich
       expiry:
         label: Ablaufdatum

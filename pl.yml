@@ -423,6 +423,7 @@ hubConfig:
         placeholder: abc123
       uses:
         label: Uses
+        guidelines: "Please adhere to the guidelines @ {guidelinesUrl}"
         placeholder: Leave me blank for infinite
       expiry:
         label: Expiry
