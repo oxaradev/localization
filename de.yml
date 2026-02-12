@@ -150,7 +150,7 @@ about:
     shardInfo: Shard Info
 botLanding:
   title: '👋 Hey da!'
-  description: "**I'm InterChat, and I'm pleased to be on your server.**\n\nReady to start building new bridges?\n\n{dot} **Start here:** Run `/setup` to get connected.\n{dot} **Browse hubs:** Use `/hub discover` to find public hubs.\n{dot} **Join a hub:** Connect a channel with `/connection add hub:<name>` or `/connection add invite:<code>`.\n\n-# *Tip: You'll need **Manage Channels** (you) and I need **Manage Webhooks** + **Send Messages** in the target channel.*"
+  description: "**I'm InterChat, and I'm pleased to be on your server.**\n\nReady to start building new bridges?\n\n{dot} **New here?** The `/setup` command provides a step-by-step guide.\n{dot} **Ready to explore?** Visit our [discovery page](https://interchat.dev/hubs)."
 setup:
   welcome:
     title: Willkommen beim InterChat Setup
@@ -161,13 +161,13 @@ setup:
     successDescription: "{tick} Deine Sprache wurde auf **{locale_name}** gesetzt"
   join:
     title: Einem Hub beitreten
-    description: Join a hub by connecting a channel in your server.
+    description: Nutze das öffentliche Verzeichnis oder verbinde dich mit einem Einladungscode.
     publicHubs:
       title: Öffentliche Hubs
-      description: "**Browse in Discord:** Use `/hub discover`"
+      description: "**Browse** [interchat.dev/hubs](https://interchat.dev/hubs)"
     privateHubs:
       title: Privat oder nur auf Einladung
-      description: "**Ask the hub owner** for an invite code, then connect with `/connection add invite:<code>`"
+      description: "**Ask the hub owner** for an invite code or run `/connection add`"
     connectChannel:
       title: Connect a Channel
       description: "Run `/connection add` in the channel you want to use, then choose a hub.\n\nExamples:\n- `/connection add hub:MyHub`\n- `/connection add invite:abc123 channel:#general`"
@@ -646,6 +646,7 @@ welcomeMessage:
     hubPageValue: "[View on InterChat]({hubUrl})"
   rules:
     title: "{rules_icon} {hubName} - Rules"
+    guidelines: "Please adhere to the guidelines @ {guidelinesUrl}"
   errors:
     disconnectPermission:
       title: "{x_icon} Permission Denied"
@@ -979,7 +980,7 @@ hub:
     errors:
       alreadyConnected:
         title: Bereits mit diesem Hub verbunden
-        description: It looks like this server is already connected to this hub in {channel}.
+        description: It looks like this server is already connected to this hub.
       missingInput:
         title: Missing Information
         description: "Provide a hub name or an invite code.\n\nTry: `/connection add hub:MyHub` or `/connection add invite:abc123`"
