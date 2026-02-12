@@ -142,7 +142,7 @@ about:
   buttons:
     shardInfo: ഷാർഡ് വിവരം
 botLanding:
-  title: '👋 ഹേയ്!'
+  title: "👋 ഹേയ്!"
   description: "**I'm InterChat, and I'm pleased to be on your server.**\n\nReady to start building new bridges?\n\n{dot} **New here?** The `/setup` command provides a step-by-step guide.\n{dot} **Ready to explore?** Visit our [discovery page](https://interchat.dev/hubs)."
 setup:
   welcome:
@@ -256,8 +256,8 @@ appeal:
       title: സ്ക്വീക്കി ക്ലീൻ!
       description: അപ്പീൽ ചെയ്യാവുന്ന ലംഘനങ്ങളൊന്നും കണ്ടെത്തിയില്ല.
     footer:
-      canAppeal: '💡 നിങ്ങൾക്ക് {count} ലംഘനങ്ങൾക്കെതിരെ അപ്പീൽ നൽകാം. താഴെയുള്ള സെലക്ട് മെനു ഉപയോഗിക്കുക.'
-      checkLater: '💡 കൂൾഡൗണുകൾ അവസാനിക്കുമ്പോഴോ അപ്പീലുകൾ അവലോകനം ചെയ്യുമ്പോഴോ പിന്നീട് പരിശോധിക്കുക.'
+      canAppeal: "💡 നിങ്ങൾക്ക് {count} ലംഘനങ്ങൾക്കെതിരെ അപ്പീൽ നൽകാം. താഴെയുള്ള സെലക്ട് മെനു ഉപയോഗിക്കുക."
+      checkLater: "💡 കൂൾഡൗണുകൾ അവസാനിക്കുമ്പോഴോ അപ്പീലുകൾ അവലോകനം ചെയ്യുമ്പോഴോ പിന്നീട് പരിശോധിക്കുക."
   errors:
     nothingSelected: ഒന്നും തിരഞ്ഞെടുത്തിട്ടില്ല.
     modalError: അപ്പീൽ മോഡൽ തുറക്കുന്നതിൽ പരാജയപ്പെട്ടു.
@@ -299,29 +299,29 @@ hubConfig:
     editOnDashboard: Edit on Dashboard
     noDescription: "*No description set.*"
     properties: Properties
-    nsfw: '🔞 NSFW'
-    familyFriendly: '✅ Family Friendly'
+    nsfw: "🔞 NSFW"
+    familyFriendly: "✅ Family Friendly"
     lastUpdated: "Last Updated:"
     descriptionUpdated: Description Updated!
     descriptionSuccess: Your hub description has been successfully updated.
     nameUpdated: Name Updated!
     nameSuccess: Your hub has been renamed to **{name}**.
-    nameCooldownNote: '⚠️ Hub names can only be changed once every 10 days.'
+    nameCooldownNote: "⚠️ Hub names can only be changed once every 10 days."
     welcomeUpdated: Welcome Message Updated!
     welcomeSuccess: Your hub welcome message has been successfully updated.
     nsfwUpdated: NSFW Setting Updated!
-    nsfwWarning: '⚠️ Important'
+    nsfwWarning: "⚠️ Important"
     nsfwWarningDesc: Your hub is now marked as NSFW and may be filtered from searches.
     sfwConfirmDesc: Your hub is now marked as safe for work.
     visibilityUpdated: Visibility Updated!
     visibilitySuccess: "Your hub is now: **{status}**"
     visibilityMeaning: ℹ️ What this means
     visibility:
-      public: '🌐 പബ്ലിക്'
+      public: "🌐 പബ്ലിക്"
       publicDesc: Discoverable on the hub directory.
-      unlisted: '👁️ അൺലിസ്റ്റഡ്'
+      unlisted: "👁️ അൺലിസ്റ്റഡ്"
       unlistedDesc: Not in directory but anyone can join via ID/link.
-      private: '🔒 പ്രൈവറ്റ്'
+      private: "🔒 പ്രൈവറ്റ്"
       privateDesc: Invite-only, not listed publicly.
     editDescription:
       label: വിവരണം എഡിറ്റ് ചെയ്യുക
@@ -347,7 +347,7 @@ hubConfig:
     changeVisibility:
       label: വിസിബിലിറ്റി മാറ്റുക
       description: പബ്ലിക്, അൺലിസ്റ്റഡ് അല്ലെങ്കിൽ പ്രൈവറ്റ് എന്നിവയ്ക്കിടയിൽ മാറ്റുക
-      title: '🔐 Change Hub Visibility'
+      title: "🔐 Change Hub Visibility"
       desc: "Select the visibility level for your hub:"
     errors:
       nameCooldown: Name Change on Cooldown
@@ -499,8 +499,8 @@ moderation:
     mute: മ്യൂട്ട്
     ban: ബാൻ
   prep:
-    in: '-ൽ'
-    from: '-ൽ നിന്ന്'
+    in: "-ൽ"
+    from: "-ൽ നിന്ന്"
   permissions:
     managerRequired: മാനേജർ+ അനുമതികൾ ആവശ്യമാണ്.
   target:
@@ -508,7 +508,7 @@ moderation:
     missing: ദയവായി ഒരു ഉപയോക്താവിനെയോ സെർവറിനെയോ വ്യക്തമാക്കുക.
   revoke:
     noActive: സജീവമായ {action} ഒന്നും കണ്ടെത്തിയില്ല.
-    success: '{action} റദ്ദാക്കി.'
+    success: "{action} റദ്ദാക്കി."
   delete:
     success: ബന്ധിപ്പിച്ച എല്ലാ ഹബ്ബുകളിൽ നിന്നും സന്ദേശം ഇല്ലാതാക്കി.
     notInterChatMessage: ഈ സന്ദേശം ഒരു ഇന്റർചാറ്റ് സന്ദേശമല്ല അല്ലെങ്കിൽ ഇതിനകം ഇല്ലാതാക്കി.
@@ -611,7 +611,7 @@ moderation:
     webhooks:
       noPermission: "You do not have permission to moderate this hub."
 welcomeMessage:
-  title: '**{hubName}** എന്ന ഇന്റർചാറ്റ് ഹബ്ബിലേക്ക് സ്വാഗതം!'
+  title: "**{hubName}** എന്ന ഇന്റർചാറ്റ് ഹബ്ബിലേക്ക് സ്വാഗതം!"
   errorDm: Failed to send welcome message.
   introText: നിങ്ങൾ ഇപ്പോൾ സെർവറുകളുടെ ഒരു ശൃംഖലയിലേക്ക് കണക്റ്റുചെയ്‌തിരിക്കുന്നു. നിങ്ങൾ ഇവിടെ അയയ്‌ക്കുന്ന സന്ദേശങ്ങൾ ഈ ഹബ്ബിലെ എല്ലാവർക്കും ദൃശ്യമാകും.
   quickActions: ദ്രുത പ്രവർത്തനങ്ങൾ
@@ -623,10 +623,10 @@ welcomeMessage:
     support: പിന്തുണ (Support)
     disconnect: വിച്ഛേദിക്കുക (Disconnect)
   hubInfo:
-    connections: '🔗 കണക്ഷനുകൾ'
+    connections: "🔗 കണക്ഷനുകൾ"
   disconnectConfirm:
     title: ഹബ്ബിൽ നിന്ന് വിച്ഛേദിക്കണോ?
-    description: '**{hubName}**-ൽ നിന്ന് വിച്ഛേദിക്കണമെന്ന് നിങ്ങൾക്ക് ഉറപ്പാണോ?'
+    description: "**{hubName}**-ൽ നിന്ന് വിച്ഛേദിക്കണമെന്ന് നിങ്ങൾക്ക് ഉറപ്പാണോ?"
 infractions:
   description: ഉപയോക്താവോ സെർവറോ ഫിൽട്ടർ ചെയ്‌ത ഒരു ഹബ്ബിലെ ലംഘനങ്ങൾ കാണുക.
   buttons:
@@ -636,7 +636,7 @@ infractions:
     base: ലംഘനങ്ങൾ · {hubName}
     userList: ഉപയോക്തൃ ലംഘനങ്ങൾ · {hubName}
     serverList: സെർവർ ലംഘനങ്ങൾ · {hubName}
-    userSpecific: '{user}-ന്റെ ലംഘനങ്ങൾ · {hubName}'
+    userSpecific: "{user}-ന്റെ ലംഘനങ്ങൾ · {hubName}"
     serverSpecific: സെർവർ {serverId}-ന്റെ ലംഘനങ്ങൾ · {hubName}
   descriptions:
     base: ഈ ഹബ്ബിനായി കാണേണ്ട ലംഘനങ്ങൾ തിരഞ്ഞെടുക്കുക.
@@ -801,7 +801,7 @@ hub:
       titles:
         accepted: Rules Accepted
         declined: Rules Not Accepted
-        changedMind: '💡 Changed your mind?'
+        changedMind: "💡 Changed your mind?"
       messages:
         accepted: "Thank you for accepting the rules for **{hubName}**!"
         declined: "You have chosen not to accept the rules for **{hubName}** at this time."
@@ -843,9 +843,9 @@ hub:
     stats: Stats
   events:
     serverJoined:
-      title: '🎉 പുതിയ സെർവർ ചേർന്നു!'
+      title: "🎉 പുതിയ സെർവർ ചേർന്നു!"
       description: "**{serverName}** has joined the hub!"
-      footer: '{hubName}-ലേക്ക് സ്വാഗതം!'
+      footer: "{hubName}-ലേക്ക് സ്വാഗതം!"
   create:
     title: നിങ്ങളുടെ ഹബ് സൃഷ്ടിക്കുക
     description: Create your own InterChat hub for a community.
@@ -938,7 +938,7 @@ hub:
   connect:
     success:
       title: കണക്റ്റഡ്!
-      description: '**{hubName}**-ലേക്ക് കണക്റ്റുചെയ്‌തു - ചാറ്റിംഗ് തുടങ്ങാം!'
+      description: "**{hubName}**-ലേക്ക് കണക്റ്റുചെയ്‌തു - ചാറ്റിംഗ് തുടങ്ങാം!"
       fieldValue: "കണക്റ്റുചെയ്‌ത ചാനൽ: {channel}"
     errors:
       alreadyConnected:
@@ -1137,7 +1137,7 @@ badges:
 broadcast:
   spam:
     mutedMessage: You have been temporarily muted for {minutes} minutes due to spam.
-    warningMessage: '⚠️ You are sending messages too quickly!'
+    warningMessage: "⚠️ You are sending messages too quickly!"
     autoMuteReason: "Auto-Mute: Spam detected"
     autoWarnReason: "Auto-Warn: Spam detected"
   validation:
@@ -1152,10 +1152,10 @@ broadcast:
     nsfw:
       message: "🚫 Your message was blocked by InterChat filters (Reason: NSFW detection)"
     profanity:
-      message: '🚫 Your message was blocked by the hub''s profanity filter.'
+      message: "🚫 Your message was blocked by the hub's profanity filter."
       reason: Profanity filter blocked message
     videos:
-      message: '🚫 Video attachments are not allowed in this hub.'
+      message: "🚫 Video attachments are not allowed in this hub."
     messageLength:
       reason: Message Length
       message: Your message length is too long. Please shorten it.
@@ -1195,7 +1195,7 @@ blacklist:
       all: "You're too nice! Block some servers/users to see them here."
       users: "No blocked users found."
       servers: "No blocked servers found."
-    instructions: "You can add servers or users to the blocklist using the \"Add to Blocklist\" button."
+    instructions: 'You can add servers or users to the blocklist using the "Add to Blocklist" button.'
     errors:
       notFound: "{cross} Item not found or already removed."
       removeFailed: "{cross} Error removing item: {error}"

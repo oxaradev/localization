@@ -142,7 +142,7 @@ about:
   buttons:
     shardInfo: Shard Info
 botLanding:
-  title: '👋 Hey da!'
+  title: "👋 Hey da!"
   description: "**I'm InterChat, and I'm pleased to be on your server.**\n\nReady to start building new bridges?\n\n{dot} **New here?** The `/setup` command provides a step-by-step guide.\n{dot} **Ready to explore?** Visit our [discovery page](https://interchat.dev/hubs)."
 setup:
   welcome:
@@ -256,8 +256,8 @@ appeal:
       title: Blitzsauber!
       description: Keine anfechtbaren Verstöße gefunden.
     footer:
-      canAppeal: '💡 Du kannst gegen {count} Verstoß/Verstöße Einspruch erheben. Benutze das Auswahlmenü unten.'
-      checkLater: '💡 Schau später vorbei, wenn Abklingzeiten abgelaufen sind oder Einsprüche geprüft wurden.'
+      canAppeal: "💡 Du kannst gegen {count} Verstoß/Verstöße Einspruch erheben. Benutze das Auswahlmenü unten."
+      checkLater: "💡 Schau später vorbei, wenn Abklingzeiten abgelaufen sind oder Einsprüche geprüft wurden."
   errors:
     nothingSelected: Nichts wurde ausgewählt.
     modalError: Einspruchs-Fenster konnte nicht geöffnet werden.
@@ -299,29 +299,29 @@ hubConfig:
     editOnDashboard: Edit on Dashboard
     noDescription: "*No description set.*"
     properties: Properties
-    nsfw: '🔞 NSFW'
-    familyFriendly: '✅ Family Friendly'
+    nsfw: "🔞 NSFW"
+    familyFriendly: "✅ Family Friendly"
     lastUpdated: "Last Updated:"
     descriptionUpdated: Description Updated!
     descriptionSuccess: Your hub description has been successfully updated.
     nameUpdated: Name Updated!
     nameSuccess: Your hub has been renamed to **{name}**.
-    nameCooldownNote: '⚠️ Hub names can only be changed once every 10 days.'
+    nameCooldownNote: "⚠️ Hub names can only be changed once every 10 days."
     welcomeUpdated: Welcome Message Updated!
     welcomeSuccess: Your hub welcome message has been successfully updated.
     nsfwUpdated: NSFW Setting Updated!
-    nsfwWarning: '⚠️ Important'
+    nsfwWarning: "⚠️ Important"
     nsfwWarningDesc: Your hub is now marked as NSFW and may be filtered from searches.
     sfwConfirmDesc: Your hub is now marked as safe for work.
     visibilityUpdated: Visibility Updated!
     visibilitySuccess: "Your hub is now: **{status}**"
     visibilityMeaning: ℹ️ What this means
     visibility:
-      public: '🌐 Öffentlich'
+      public: "🌐 Öffentlich"
       publicDesc: Discoverable on the hub directory.
-      unlisted: '👁️ Ungelistet'
+      unlisted: "👁️ Ungelistet"
       unlistedDesc: Not in directory but anyone can join via ID/link.
-      private: '🔒 Privat'
+      private: "🔒 Privat"
       privateDesc: Invite-only, not listed publicly.
     editDescription:
       label: Beschreibung bearbeiten
@@ -347,7 +347,7 @@ hubConfig:
     changeVisibility:
       label: Sichtbarkeit ändern
       description: Wechsle zwischen Öffentlich, Ungelistet oder Privat
-      title: '🔐 Change Hub Visibility'
+      title: "🔐 Change Hub Visibility"
       desc: "Select the visibility level for your hub:"
     errors:
       nameCooldown: Name Change on Cooldown
@@ -508,14 +508,14 @@ moderation:
     missing: Bitte gib entweder einen Nutzer oder einen Server an.
   revoke:
     noActive: Kein aktiver {action} gefunden.
-    success: '{action} widerrufen.'
+    success: "{action} widerrufen."
   delete:
     success: Nachricht wurde aus allen verbundenen Hubs gelöscht.
     notInterChatMessage: Diese Nachricht ist keine InterChat-Nachricht oder wurde bereits gelöscht.
   blacklist:
     permissionDenied: Dir fehlen die InterChat-Team-Berechtigungen, um eine globale Blacklist zu erteilen.
     alreadyActive: Ziel hat bereits eine aktive globale Blacklist.
-    success: '{target} wurde global geblacklistet.'
+    success: "{target} wurde global geblacklistet."
   success:
     action: "{target} wurde {action} {prep} {hubName}"
   actions:
@@ -623,7 +623,7 @@ welcomeMessage:
     support: Support
     disconnect: Trennen
   hubInfo:
-    connections: '🔗 Verbindungen'
+    connections: "🔗 Verbindungen"
   disconnectConfirm:
     title: Vom Hub trennen?
     description: Bist du sicher, dass du die Verbindung zu **{hubName}** trennen möchtest?
@@ -801,7 +801,7 @@ hub:
       titles:
         accepted: Rules Accepted
         declined: Rules Not Accepted
-        changedMind: '💡 Changed your mind?'
+        changedMind: "💡 Changed your mind?"
       messages:
         accepted: "Thank you for accepting the rules for **{hubName}**!"
         declined: "You have chosen not to accept the rules for **{hubName}** at this time."
@@ -843,7 +843,7 @@ hub:
     stats: Stats
   events:
     serverJoined:
-      title: '🎉 Neuer Server beigetreten!'
+      title: "🎉 Neuer Server beigetreten!"
       description: "**{serverName}** has joined the hub!"
       footer: Willkommen im {hubName}!
   create:
@@ -1137,7 +1137,7 @@ badges:
 broadcast:
   spam:
     mutedMessage: You have been temporarily muted for {minutes} minutes due to spam.
-    warningMessage: '⚠️ You are sending messages too quickly!'
+    warningMessage: "⚠️ You are sending messages too quickly!"
     autoMuteReason: "Auto-Mute: Spam detected"
     autoWarnReason: "Auto-Warn: Spam detected"
   validation:
@@ -1152,10 +1152,10 @@ broadcast:
     nsfw:
       message: "🚫 Your message was blocked by InterChat filters (Reason: NSFW detection)"
     profanity:
-      message: '🚫 Your message was blocked by the hub''s profanity filter.'
+      message: "🚫 Your message was blocked by the hub's profanity filter."
       reason: Profanity filter blocked message
     videos:
-      message: '🚫 Video attachments are not allowed in this hub.'
+      message: "🚫 Video attachments are not allowed in this hub."
     messageLength:
       reason: Message Length
       message: Your message length is too long. Please shorten it.
@@ -1195,7 +1195,7 @@ blacklist:
       all: "You're too nice! Block some servers/users to see them here."
       users: "No blocked users found."
       servers: "No blocked servers found."
-    instructions: "You can add servers or users to the blocklist using the \"Add to Blocklist\" button."
+    instructions: 'You can add servers or users to the blocklist using the "Add to Blocklist" button.'
     errors:
       notFound: "{cross} Item not found or already removed."
       removeFailed: "{cross} Error removing item: {error}"

@@ -1,8 +1,8 @@
 common:
   titles:
-    error: '¡Error!'
-    success: '¡Éxito!'
-    cancelled: '¡Cancelado!'
+    error: "¡Error!"
+    success: "¡Éxito!"
+    cancelled: "¡Cancelado!"
     feedback: Feedback Received
     validationError: Validation Error
   labels:
@@ -130,7 +130,7 @@ common:
 about:
   title: Sobre InterChat
   description: InterChat connects Discord communities through active cross-server discussions. Messages flow naturally between servers in real-time.
-  supportText: '¿Necesitas ayuda? ¡Únete a nuestro servidor de soporte para asistencia!'
+  supportText: "¿Necesitas ayuda? ¡Únete a nuestro servidor de soporte para asistencia!"
   features:
     title: Características
     list: |
@@ -142,7 +142,7 @@ about:
   buttons:
     shardInfo: Info del Shard
 botLanding:
-  title: '👋 ¡Hola!'
+  title: "👋 ¡Hola!"
   description: "**I'm InterChat, and I'm pleased to be on your server.**\n\nReady to start building new bridges?\n\n{dot} **New here?** The `/setup` command provides a step-by-step guide.\n{dot} **Ready to explore?** Visit our [discovery page](https://interchat.dev/hubs)."
 setup:
   welcome:
@@ -204,8 +204,8 @@ preferences:
     enabled: activados
     disabled: desactivados
     dm:
-      title: '¡Es hora de votar por InterChat!'
-      description: '¡Tu apoyo ayuda a InterChat a crecer! ¡Vota en top.gg para ayudarnos!'
+      title: "¡Es hora de votar por InterChat!"
+      description: "¡Tu apoyo ayuda a InterChat a crecer! ¡Vota en top.gg para ayudarnos!"
       reminderInfo: You receive this reminder because you've voted before.
       disableConfirm:
         title: Recordatorios de Voto Desactivados
@@ -223,7 +223,7 @@ appeal:
     placeholder: Selecciona una infracción para apelar
   modal:
     title: Enviar Apelación
-    q1: '¿Por qué crees que esta acción fue incorrecta?'
+    q1: "¿Por qué crees que esta acción fue incorrecta?"
     q2: Cuéntanos sobre la situación
     q3: Información Adicional
   success:
@@ -253,11 +253,11 @@ appeal:
     moderatorNote: "Nota del moderador: {reason}"
   embed:
     noInfractions:
-      title: '¡Todo Limpio!'
+      title: "¡Todo Limpio!"
       description: No se encontraron infracciones apelables.
     footer:
-      canAppeal: '💡 Puedes apelar {count} infracción(es). Usa el menú de selección abajo.'
-      checkLater: '💡 Vuelve más tarde cuando los enfriamientos expiren o las apelaciones sean revisadas.'
+      canAppeal: "💡 Puedes apelar {count} infracción(es). Usa el menú de selección abajo."
+      checkLater: "💡 Vuelve más tarde cuando los enfriamientos expiren o las apelaciones sean revisadas."
   errors:
     nothingSelected: No se seleccionó nada.
     modalError: Fallo al abrir el modal de apelación.
@@ -299,29 +299,29 @@ hubConfig:
     editOnDashboard: Edit on Dashboard
     noDescription: "*No description set.*"
     properties: Properties
-    nsfw: '🔞 NSFW'
-    familyFriendly: '✅ Family Friendly'
+    nsfw: "🔞 NSFW"
+    familyFriendly: "✅ Family Friendly"
     lastUpdated: "Last Updated:"
     descriptionUpdated: Description Updated!
     descriptionSuccess: Your hub description has been successfully updated.
     nameUpdated: Name Updated!
     nameSuccess: Your hub has been renamed to **{name}**.
-    nameCooldownNote: '⚠️ Hub names can only be changed once every 10 days.'
+    nameCooldownNote: "⚠️ Hub names can only be changed once every 10 days."
     welcomeUpdated: Welcome Message Updated!
     welcomeSuccess: Your hub welcome message has been successfully updated.
     nsfwUpdated: NSFW Setting Updated!
-    nsfwWarning: '⚠️ Important'
+    nsfwWarning: "⚠️ Important"
     nsfwWarningDesc: Your hub is now marked as NSFW and may be filtered from searches.
     sfwConfirmDesc: Your hub is now marked as safe for work.
     visibilityUpdated: Visibility Updated!
     visibilitySuccess: "Your hub is now: **{status}**"
     visibilityMeaning: ℹ️ What this means
     visibility:
-      public: '🌐 Público'
+      public: "🌐 Público"
       publicDesc: Discoverable on the hub directory.
-      unlisted: '👁️ No Listado'
+      unlisted: "👁️ No Listado"
       unlistedDesc: Not in directory but anyone can join via ID/link.
-      private: '🔒 Privado'
+      private: "🔒 Privado"
       privateDesc: Invite-only, not listed publicly.
     editDescription:
       label: Editar Descripción
@@ -347,7 +347,7 @@ hubConfig:
     changeVisibility:
       label: Cambiar Visibilidad
       description: Cambia entre Público, No Listado, o Privado
-      title: '🔐 Change Hub Visibility'
+      title: "🔐 Change Hub Visibility"
       desc: "Select the visibility level for your hub:"
     errors:
       nameCooldown: Name Change on Cooldown
@@ -508,14 +508,14 @@ moderation:
     missing: Por favor especifica un usuario o un servidor.
   revoke:
     noActive: No se encontró {action} activo.
-    success: '{action} revocado.'
+    success: "{action} revocado."
   delete:
     success: El mensaje ha sido eliminado de todos los Hubs conectados.
     notInterChatMessage: Este mensaje no es un mensaje de InterChat o ya ha sido eliminado.
   blacklist:
     permissionDenied: Careces de permisos de staff de InterChat para emitir una lista negra global.
     alreadyActive: El objetivo ya tiene una lista negra global activa.
-    success: '{target} añadido a la lista negra global.'
+    success: "{target} añadido a la lista negra global."
   success:
     action: "{target} ha sido {action} {prep} {hubName}"
   actions:
@@ -561,7 +561,7 @@ moderation:
     fieldHubPrompt: Hub Seleccionado
   targetSelection:
     title: Selección de Objetivo
-    description: '¿A quién quieres aplicar {action}?'
+    description: "¿A quién quieres aplicar {action}?"
     user: Act on User
     server: Act on Server
   actionSelect:
@@ -611,7 +611,7 @@ moderation:
     webhooks:
       noPermission: "You do not have permission to moderate this hub."
 welcomeMessage:
-  title: '¡Bienvenido al Hub de InterChat llamado **{hubName}**!'
+  title: "¡Bienvenido al Hub de InterChat llamado **{hubName}**!"
   errorDm: Failed to send welcome message.
   introText: Ahora estás conectado a una red de servidores. Los mensajes que envíes aquí serán visibles para todos en este Hub.
   quickActions: Acciones Rápidas
@@ -623,10 +623,10 @@ welcomeMessage:
     support: Soporte
     disconnect: Desconectar
   hubInfo:
-    connections: '🔗 Conexiones'
+    connections: "🔗 Conexiones"
   disconnectConfirm:
-    title: '¿Desconectar del Hub?'
-    description: '¿Estás seguro de que quieres desconectarte de **{hubName}**?'
+    title: "¿Desconectar del Hub?"
+    description: "¿Estás seguro de que quieres desconectarte de **{hubName}**?"
 infractions:
   description: Ver infracciones en un Hub, filtradas por usuario o servidor.
   buttons:
@@ -801,7 +801,7 @@ hub:
       titles:
         accepted: Rules Accepted
         declined: Rules Not Accepted
-        changedMind: '💡 Changed your mind?'
+        changedMind: "💡 Changed your mind?"
       messages:
         accepted: "Thank you for accepting the rules for **{hubName}**!"
         declined: "You have chosen not to accept the rules for **{hubName}** at this time."
@@ -823,7 +823,7 @@ hub:
     disclaimer: "This announcement was sent by hub officials - not InterChat staff"
   invites:
     title: Invitaciones Activas
-    noneFound: '¡Ninguna encontrada!'
+    noneFound: "¡Ninguna encontrada!"
     inviteUses: "**Usos:**"
     inviteExpire: "**Expira:**"
     titles:
@@ -843,9 +843,9 @@ hub:
     stats: Stats
   events:
     serverJoined:
-      title: '🎉 ¡Nuevo Servidor Unido!'
+      title: "🎉 ¡Nuevo Servidor Unido!"
       description: "**{serverName}** has joined the hub!"
-      footer: '¡Bienvenido a {hubName}!'
+      footer: "¡Bienvenido a {hubName}!"
   create:
     title: Crea Tu Hub
     description: Create your own InterChat hub for a community.
@@ -914,15 +914,15 @@ hub:
       rulesNone: Sin reglas (puedes añadir más tarde)
       welcomeDefault: Mensaje de bienvenida predeterminado
       featuresNone: Ninguna
-      footer: '¿Listo para crear tu Hub?'
+      footer: "¿Listo para crear tu Hub?"
     completion:
       loading: Creando Tu Hub...
       loadingDescription: Por favor espera mientras configuramos todo...
-      success: '¡Hub Creado Exitosamente!'
+      success: "¡Hub Creado Exitosamente!"
       successDescription: "¡{hubName} está ahora en vivo! 🎉"
       dashboardLink: Gestiona tu Hub
       publicPageLink: Ver en directorio
-      nextSteps: '¿Qué sigue?'
+      nextSteps: "¿Qué sigue?"
       step1: "**For Private Hubs: Create an Invite**: `/hub invites hub:{hubName}`"
       step2: "**Advanced Settings**: `/hub configure {hubName}`"
       step3: "**¿Necesitas Ayuda?**: [Únete a nuestro servidor de soporte]({supportInvite})"
@@ -937,7 +937,7 @@ hub:
     description: Tu Hub ha sido eliminado.
   connect:
     success:
-      title: '¡Conectado!'
+      title: "¡Conectado!"
       description: Conectado a **{hubName}** - ¡a chatear!
       fieldValue: "Canal Conectado: {channel}"
     errors:
@@ -945,7 +945,7 @@ hub:
         title: Ya Conectado a este Hub
         description: It looks like this server is already connected to this hub.
   disconnect:
-    title: '¡Desconectado!'
+    title: "¡Desconectado!"
     description: Desconectado del Hub.
     fieldValue: "Canal Asociado: {channel}"
   announcements:
@@ -1026,7 +1026,7 @@ connection:
     description: All connections within this guild have been validated.
     responses:
       success:
-        fixed: '¡Conexión arreglada!'
+        fixed: "¡Conexión arreglada!"
         valid: No se encontraron problemas.
       errors:
         channelDeleted: The channel associated with this hub has been deleted.
@@ -1106,7 +1106,7 @@ stats:
     statusProvisioning: Provisioning
     current: "Current Shard: {id}"
 invite:
-  title: '¡Hola!'
+  title: "¡Hola!"
   description: Thanks for choosing InterChat. Need help? Join our support server.
 services:
   hub:
@@ -1137,7 +1137,7 @@ badges:
 broadcast:
   spam:
     mutedMessage: You have been temporarily muted for {minutes} minutes due to spam.
-    warningMessage: '⚠️ You are sending messages too quickly!'
+    warningMessage: "⚠️ You are sending messages too quickly!"
     autoMuteReason: "Auto-Mute: Spam detected"
     autoWarnReason: "Auto-Warn: Spam detected"
   validation:
@@ -1152,10 +1152,10 @@ broadcast:
     nsfw:
       message: "🚫 Your message was blocked by InterChat filters (Reason: NSFW detection)"
     profanity:
-      message: '🚫 Your message was blocked by the hub''s profanity filter.'
+      message: "🚫 Your message was blocked by the hub's profanity filter."
       reason: Profanity filter blocked message
     videos:
-      message: '🚫 Video attachments are not allowed in this hub.'
+      message: "🚫 Video attachments are not allowed in this hub."
     messageLength:
       reason: Message Length
       message: Your message length is too long. Please shorten it.
@@ -1195,7 +1195,7 @@ blacklist:
       all: "You're too nice! Block some servers/users to see them here."
       users: "No blocked users found."
       servers: "No blocked servers found."
-    instructions: "You can add servers or users to the blocklist using the \"Add to Blocklist\" button."
+    instructions: 'You can add servers or users to the blocklist using the "Add to Blocklist" button.'
     errors:
       notFound: "{cross} Item not found or already removed."
       removeFailed: "{cross} Error removing item: {error}"

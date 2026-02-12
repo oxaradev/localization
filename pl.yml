@@ -175,8 +175,7 @@ setup:
     description: Use the public directory or connect with an invite code.
     publicHubs:
       title: Public Hubs
-      description:
-        "**Browse** [interchat.dev/hubs](https://interchat.dev/hubs)
+      description: "**Browse** [interchat.dev/hubs](https://interchat.dev/hubs)
 
         **Or click** the button below to open the directory"
     privateHubs:
@@ -778,8 +777,7 @@ hub:
         {dot} Use social media to spread the word"
     proTips:
       title: "{dot} Pro Tips"
-      description:
-        "{dot} Visit the [Dashboard]({website}) for advanced settings
+      description: "{dot} Visit the [Dashboard]({website}) for advanced settings
 
         {dot} Use {hubVisibilityCommand} to make your hub public
 

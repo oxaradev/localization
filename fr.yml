@@ -142,7 +142,7 @@ about:
   buttons:
     shardInfo: Info partagée
 botLanding:
-  title: '👋 Hey there!'
+  title: "👋 Hey there!"
   description: "**I'm InterChat, and I'm pleased to be on your server.**\n\nReady to start building new bridges?\n\n{dot} **New here?** The `/setup` command provides a step-by-step guide.\n{dot} **Ready to explore?** Visit our [discovery page](https://interchat.dev/hubs)."
 setup:
   welcome:
@@ -256,8 +256,8 @@ appeal:
       title: Squeaky Clean!
       description: No appealable infractions found.
     footer:
-      canAppeal: '💡 You can appeal {count} infraction(s). Use the select menu below.'
-      checkLater: '💡 Check back later when cooldowns expire or appeals are reviewed.'
+      canAppeal: "💡 You can appeal {count} infraction(s). Use the select menu below."
+      checkLater: "💡 Check back later when cooldowns expire or appeals are reviewed."
   errors:
     nothingSelected: Nothing was selected.
     modalError: Failed to open appeal modal.
@@ -299,29 +299,29 @@ hubConfig:
     editOnDashboard: Edit on Dashboard
     noDescription: "*No description set.*"
     properties: Properties
-    nsfw: '🔞 NSFW'
-    familyFriendly: '✅ Family Friendly'
+    nsfw: "🔞 NSFW"
+    familyFriendly: "✅ Family Friendly"
     lastUpdated: "Last Updated:"
     descriptionUpdated: Description Updated!
     descriptionSuccess: Your hub description has been successfully updated.
     nameUpdated: Name Updated!
     nameSuccess: Your hub has been renamed to **{name}**.
-    nameCooldownNote: '⚠️ Hub names can only be changed once every 10 days.'
+    nameCooldownNote: "⚠️ Hub names can only be changed once every 10 days."
     welcomeUpdated: Welcome Message Updated!
     welcomeSuccess: Your hub welcome message has been successfully updated.
     nsfwUpdated: NSFW Setting Updated!
-    nsfwWarning: '⚠️ Important'
+    nsfwWarning: "⚠️ Important"
     nsfwWarningDesc: Your hub is now marked as NSFW and may be filtered from searches.
     sfwConfirmDesc: Your hub is now marked as safe for work.
     visibilityUpdated: Visibility Updated!
     visibilitySuccess: "Your hub is now: **{status}**"
     visibilityMeaning: ℹ️ What this means
     visibility:
-      public: '🌐 Public'
+      public: "🌐 Public"
       publicDesc: Discoverable on the hub directory.
-      unlisted: '👁️ Unlisted'
+      unlisted: "👁️ Unlisted"
       unlistedDesc: Not in directory but anyone can join via ID/link.
-      private: '🔒 Private'
+      private: "🔒 Private"
       privateDesc: Invite-only, not listed publicly.
     editDescription:
       label: Edit Description
@@ -347,7 +347,7 @@ hubConfig:
     changeVisibility:
       label: Change Visibility
       description: Switch between Public, Unlisted, or Private
-      title: '🔐 Change Hub Visibility'
+      title: "🔐 Change Hub Visibility"
       desc: "Select the visibility level for your hub:"
     errors:
       nameCooldown: Name Change on Cooldown
@@ -623,7 +623,7 @@ welcomeMessage:
     support: Support
     disconnect: Disconnect
   hubInfo:
-    connections: '🔗 Connections'
+    connections: "🔗 Connections"
   disconnectConfirm:
     title: Disconnect from Hub?
     description: Are you sure you want to disconnect from **{hubName}**?
@@ -801,7 +801,7 @@ hub:
       titles:
         accepted: Rules Accepted
         declined: Rules Not Accepted
-        changedMind: '💡 Changed your mind?'
+        changedMind: "💡 Changed your mind?"
       messages:
         accepted: "Thank you for accepting the rules for **{hubName}**!"
         declined: "You have chosen not to accept the rules for **{hubName}** at this time."
@@ -843,7 +843,7 @@ hub:
     stats: Stats
   events:
     serverJoined:
-      title: '🎉 Nouveau serveur rejoint !'
+      title: "🎉 Nouveau serveur rejoint !"
       description: "**{serverName}** has joined the hub!"
       footer: Bienvenue dans {hubName} !
   create:
@@ -1137,7 +1137,7 @@ badges:
 broadcast:
   spam:
     mutedMessage: You have been temporarily muted for {minutes} minutes due to spam.
-    warningMessage: '⚠️ You are sending messages too quickly!'
+    warningMessage: "⚠️ You are sending messages too quickly!"
     autoMuteReason: "Auto-Mute: Spam detected"
     autoWarnReason: "Auto-Warn: Spam detected"
   validation:
@@ -1152,10 +1152,10 @@ broadcast:
     nsfw:
       message: "🚫 Your message was blocked by InterChat filters (Reason: NSFW detection)"
     profanity:
-      message: '🚫 Your message was blocked by the hub''s profanity filter.'
+      message: "🚫 Your message was blocked by the hub's profanity filter."
       reason: Profanity filter blocked message
     videos:
-      message: '🚫 Video attachments are not allowed in this hub.'
+      message: "🚫 Video attachments are not allowed in this hub."
     messageLength:
       reason: Message Length
       message: Your message length is too long. Please shorten it.
@@ -1195,7 +1195,7 @@ blacklist:
       all: "You're too nice! Block some servers/users to see them here."
       users: "No blocked users found."
       servers: "No blocked servers found."
-    instructions: "You can add servers or users to the blocklist using the \"Add to Blocklist\" button."
+    instructions: 'You can add servers or users to the blocklist using the "Add to Blocklist" button.'
     errors:
       notFound: "{cross} Item not found or already removed."
       removeFailed: "{cross} Error removing item: {error}"

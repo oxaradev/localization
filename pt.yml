@@ -265,8 +265,8 @@ appeal:
       title: Limpinho por aqui!
       description: Nenhuma infração apelável encontrada.
     footer:
-      canAppeal: '💡 Você pode apelar {count} infração(ões). Use o menu abaixo.'
-      checkLater: '💡 Verifique mais tarde quando o tempo de espera expirar ou quando apelos forem avaliados.'
+      canAppeal: "💡 Você pode apelar {count} infração(ões). Use o menu abaixo."
+      checkLater: "💡 Verifique mais tarde quando o tempo de espera expirar ou quando apelos forem avaliados."
   errors:
     nothingSelected: Nada foi selecionado.
     modalError: Falha ao abrir o modal de apelo.
@@ -308,29 +308,29 @@ hubConfig:
     editOnDashboard: Edit on Dashboard
     noDescription: "*No description set.*"
     properties: Properties
-    nsfw: '🔞 NSFW'
-    familyFriendly: '✅ Family Friendly'
+    nsfw: "🔞 NSFW"
+    familyFriendly: "✅ Family Friendly"
     lastUpdated: "Last Updated:"
     descriptionUpdated: Description Updated!
     descriptionSuccess: Your hub description has been successfully updated.
     nameUpdated: Name Updated!
     nameSuccess: Your hub has been renamed to **{name}**.
-    nameCooldownNote: '⚠️ Hub names can only be changed once every 10 days.'
+    nameCooldownNote: "⚠️ Hub names can only be changed once every 10 days."
     welcomeUpdated: Welcome Message Updated!
     welcomeSuccess: Your hub welcome message has been successfully updated.
     nsfwUpdated: NSFW Setting Updated!
-    nsfwWarning: '⚠️ Important'
+    nsfwWarning: "⚠️ Important"
     nsfwWarningDesc: Your hub is now marked as NSFW and may be filtered from searches.
     sfwConfirmDesc: Your hub is now marked as safe for work.
     visibilityUpdated: Visibility Updated!
     visibilitySuccess: "Your hub is now: **{status}**"
     visibilityMeaning: ℹ️ What this means
     visibility:
-      public: '🌐 Público'
+      public: "🌐 Público"
       publicDesc: Discoverable on the hub directory.
-      unlisted: '👁️ Não listado'
+      unlisted: "👁️ Não listado"
       unlistedDesc: Not in directory but anyone can join via ID/link.
-      private: '🔒 Privado'
+      private: "🔒 Privado"
       privateDesc: Invite-only, not listed publicly.
     editDescription:
       label: Editar Descrição
@@ -356,7 +356,7 @@ hubConfig:
     changeVisibility:
       label: Mudar Visibilidade
       description: Alterne entre Público, Não listado ou Privado
-      title: '🔐 Change Hub Visibility'
+      title: "🔐 Change Hub Visibility"
       desc: "Select the visibility level for your hub:"
     errors:
       nameCooldown: Name Change on Cooldown
@@ -517,14 +517,14 @@ moderation:
     missing: Por favor, especifique um usuário ou um servidor.
   revoke:
     noActive: Nenhum {action} ativo encontrado.
-    success: '{action} revogada.'
+    success: "{action} revogada."
   delete:
     success: A mensagem foi deletada de todos os hub conectados.
     notInterChatMessage: Esta mensagem não é uma mensagem o InterChat ou já foi excluída.
   blacklist:
     permissionDenied: Você não tem permissões de equipe do InterChat para emitir uma blacklist global.
     alreadyActive: O alvo já tem uma blacklist global ativa
-    success: '{target} em blacklist globalmente.'
+    success: "{target} em blacklist globalmente."
   success:
     action: "{target} foi {action} {prep} {hubName}"
   actions:
@@ -632,7 +632,7 @@ welcomeMessage:
     support: Suporte
     disconnect: Desconectar
   hubInfo:
-    connections: '🔗 Conexões'
+    connections: "🔗 Conexões"
   disconnectConfirm:
     title: Desconectar do Hub?
     description: Você tem certeza que quer desconectar de **{hubName}**?
@@ -810,7 +810,7 @@ hub:
       titles:
         accepted: Rules Accepted
         declined: Rules Not Accepted
-        changedMind: '💡 Changed your mind?'
+        changedMind: "💡 Changed your mind?"
       messages:
         accepted: "Thank you for accepting the rules for **{hubName}**!"
         declined: "You have chosen not to accept the rules for **{hubName}** at this time."
@@ -852,9 +852,9 @@ hub:
     stats: Stats
   events:
     serverJoined:
-      title: '🎉 Um novo servidor entrou!'
+      title: "🎉 Um novo servidor entrou!"
       description: "**{serverName}** has joined the hub!"
-      footer: Bem-vindo a {hubName}! 
+      footer: Bem-vindo a {hubName}!
   create:
     title: Crie Seu Hub
     description: Create your own InterChat hub for a community.
@@ -1146,7 +1146,7 @@ badges:
 broadcast:
   spam:
     mutedMessage: You have been temporarily muted for {minutes} minutes due to spam.
-    warningMessage: '⚠️ You are sending messages too quickly!'
+    warningMessage: "⚠️ You are sending messages too quickly!"
     autoMuteReason: "Auto-Mute: Spam detected"
     autoWarnReason: "Auto-Warn: Spam detected"
   validation:
@@ -1161,10 +1161,10 @@ broadcast:
     nsfw:
       message: "🚫 Your message was blocked by InterChat filters (Reason: NSFW detection)"
     profanity:
-      message: '🚫 Your message was blocked by the hub''s profanity filter.'
+      message: "🚫 Your message was blocked by the hub's profanity filter."
       reason: Profanity filter blocked message
     videos:
-      message: '🚫 Video attachments are not allowed in this hub.'
+      message: "🚫 Video attachments are not allowed in this hub."
     messageLength:
       reason: Message Length
       message: Your message length is too long. Please shorten it.
@@ -1204,7 +1204,7 @@ blacklist:
       all: "You're too nice! Block some servers/users to see them here."
       users: "No blocked users found."
       servers: "No blocked servers found."
-    instructions: "You can add servers or users to the blocklist using the \"Add to Blocklist\" button."
+    instructions: 'You can add servers or users to the blocklist using the "Add to Blocklist" button.'
     errors:
       notFound: "{cross} Item not found or already removed."
       removeFailed: "{cross} Error removing item: {error}"

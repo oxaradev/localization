@@ -142,7 +142,7 @@ about:
   buttons:
     shardInfo: Info Shard
 botLanding:
-  title: '👋 Halo!'
+  title: "👋 Halo!"
   description: "**I'm InterChat, and I'm pleased to be on your server.**\n\nReady to start building new bridges?\n\n{dot} **New here?** The `/setup` command provides a step-by-step guide.\n{dot} **Ready to explore?** Visit our [discovery page](https://interchat.dev/hubs)."
 setup:
   welcome:
@@ -256,8 +256,8 @@ appeal:
       title: Bersih!
       description: Tidak ditemukan pelanggaran yang dapat dibanding.
     footer:
-      canAppeal: '💡 Anda dapat mengajukan banding atas {count} pelanggaran. Gunakan menu pilihan di bawah.'
-      checkLater: '💡 Periksa kembali nanti saat cooldown berakhir atau banding ditinjau.'
+      canAppeal: "💡 Anda dapat mengajukan banding atas {count} pelanggaran. Gunakan menu pilihan di bawah."
+      checkLater: "💡 Periksa kembali nanti saat cooldown berakhir atau banding ditinjau."
   errors:
     nothingSelected: Tidak ada yang dipilih.
     modalError: Gagal membuka modal banding.
@@ -299,29 +299,29 @@ hubConfig:
     editOnDashboard: Edit on Dashboard
     noDescription: "*No description set.*"
     properties: Properties
-    nsfw: '🔞 NSFW'
-    familyFriendly: '✅ Family Friendly'
+    nsfw: "🔞 NSFW"
+    familyFriendly: "✅ Family Friendly"
     lastUpdated: "Last Updated:"
     descriptionUpdated: Description Updated!
     descriptionSuccess: Your hub description has been successfully updated.
     nameUpdated: Name Updated!
     nameSuccess: Your hub has been renamed to **{name}**.
-    nameCooldownNote: '⚠️ Hub names can only be changed once every 10 days.'
+    nameCooldownNote: "⚠️ Hub names can only be changed once every 10 days."
     welcomeUpdated: Welcome Message Updated!
     welcomeSuccess: Your hub welcome message has been successfully updated.
     nsfwUpdated: NSFW Setting Updated!
-    nsfwWarning: '⚠️ Important'
+    nsfwWarning: "⚠️ Important"
     nsfwWarningDesc: Your hub is now marked as NSFW and may be filtered from searches.
     sfwConfirmDesc: Your hub is now marked as safe for work.
     visibilityUpdated: Visibility Updated!
     visibilitySuccess: "Your hub is now: **{status}**"
     visibilityMeaning: ℹ️ What this means
     visibility:
-      public: '🌐 Publik'
+      public: "🌐 Publik"
       publicDesc: Discoverable on the hub directory.
-      unlisted: '👁️ Tidak Terdaftar'
+      unlisted: "👁️ Tidak Terdaftar"
       unlistedDesc: Not in directory but anyone can join via ID/link.
-      private: '🔒 Pribadi'
+      private: "🔒 Pribadi"
       privateDesc: Invite-only, not listed publicly.
     editDescription:
       label: Edit Deskripsi
@@ -347,7 +347,7 @@ hubConfig:
     changeVisibility:
       label: Ubah Visibilitas
       description: Beralih antara Publik, Tidak Terdaftar, atau Pribadi
-      title: '🔐 Change Hub Visibility'
+      title: "🔐 Change Hub Visibility"
       desc: "Select the visibility level for your hub:"
     errors:
       nameCooldown: Name Change on Cooldown
@@ -508,14 +508,14 @@ moderation:
     missing: Harap tentukan pengguna atau server.
   revoke:
     noActive: Tidak ditemukan {action} aktif.
-    success: '{action} dicabut.'
+    success: "{action} dicabut."
   delete:
     success: Pesan telah dihapus dari semua hub yang terhubung.
     notInterChatMessage: Pesan ini bukan pesan InterChat atau sudah dihapus.
   blacklist:
     permissionDenied: Anda tidak memiliki izin staf InterChat untuk mengeluarkan daftar hitam global.
     alreadyActive: Target sudah memiliki daftar hitam global aktif.
-    success: '{target} berhasil dimasukkan ke daftar hitam global.'
+    success: "{target} berhasil dimasukkan ke daftar hitam global."
   success:
     action: "{target} telah {action} {prep} {hubName}"
   actions:
@@ -623,7 +623,7 @@ welcomeMessage:
     support: Bantuan
     disconnect: Putuskan
   hubInfo:
-    connections: '🔗 Koneksi'
+    connections: "🔗 Koneksi"
   disconnectConfirm:
     title: Putuskan dari Hub?
     description: Apakah Anda yakin ingin memutuskan sambungan dari **{hubName}**?
@@ -801,7 +801,7 @@ hub:
       titles:
         accepted: Rules Accepted
         declined: Rules Not Accepted
-        changedMind: '💡 Changed your mind?'
+        changedMind: "💡 Changed your mind?"
       messages:
         accepted: "Thank you for accepting the rules for **{hubName}**!"
         declined: "You have chosen not to accept the rules for **{hubName}** at this time."
@@ -843,7 +843,7 @@ hub:
     stats: Stats
   events:
     serverJoined:
-      title: '🎉 Server Baru Bergabung!'
+      title: "🎉 Server Baru Bergabung!"
       description: "**{serverName}** has joined the hub!"
       footer: Selamat datang di {hubName}!
   create:
@@ -1137,7 +1137,7 @@ badges:
 broadcast:
   spam:
     mutedMessage: You have been temporarily muted for {minutes} minutes due to spam.
-    warningMessage: '⚠️ You are sending messages too quickly!'
+    warningMessage: "⚠️ You are sending messages too quickly!"
     autoMuteReason: "Auto-Mute: Spam detected"
     autoWarnReason: "Auto-Warn: Spam detected"
   validation:
@@ -1152,10 +1152,10 @@ broadcast:
     nsfw:
       message: "🚫 Your message was blocked by InterChat filters (Reason: NSFW detection)"
     profanity:
-      message: '🚫 Your message was blocked by the hub''s profanity filter.'
+      message: "🚫 Your message was blocked by the hub's profanity filter."
       reason: Profanity filter blocked message
     videos:
-      message: '🚫 Video attachments are not allowed in this hub.'
+      message: "🚫 Video attachments are not allowed in this hub."
     messageLength:
       reason: Message Length
       message: Your message length is too long. Please shorten it.
@@ -1195,7 +1195,7 @@ blacklist:
       all: "You're too nice! Block some servers/users to see them here."
       users: "No blocked users found."
       servers: "No blocked servers found."
-    instructions: "You can add servers or users to the blocklist using the \"Add to Blocklist\" button."
+    instructions: 'You can add servers or users to the blocklist using the "Add to Blocklist" button.'
     errors:
       notFound: "{cross} Item not found or already removed."
       removeFailed: "{cross} Error removing item: {error}"

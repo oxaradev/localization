@@ -142,7 +142,7 @@ about:
   buttons:
     shardInfo: Shard इन्फो
 botLanding:
-  title: '👋 नमस्ते!'
+  title: "👋 नमस्ते!"
   description: "**I'm InterChat, and I'm pleased to be on your server.**\n\nReady to start building new bridges?\n\n{dot} **New here?** The `/setup` command provides a step-by-step guide.\n{dot} **Ready to explore?** Visit our [discovery page](https://interchat.dev/hubs)."
 setup:
   welcome:
@@ -232,8 +232,8 @@ appeal:
     title: हालिया उपयोगकर्ता उल्लंघन
     empty: इस उपयोगकर्ता के लिए कोई उल्लंघन नहीं मिला।
   status:
-    acceptedBy: '@{name} द्वारा स्वीकार किया गया'
-    rejectedBy: '@{name} द्वारा अस्वीकार किया गया'
+    acceptedBy: "@{name} द्वारा स्वीकार किया गया"
+    rejectedBy: "@{name} द्वारा अस्वीकार किया गया"
     pending: प्रतिक्रिया लंबित
     cooldown: कूलडाउन
     canAppeal: अपील करने योग्य
@@ -256,8 +256,8 @@ appeal:
       title: बिल्कुल साफ़!
       description: कोई अपील करने योग्य उल्लंघन नहीं मिला।
     footer:
-      canAppeal: '💡 आप {count} उल्लंघन(नों) की अपील कर सकते हैं। नीचे दिए गए चयन मेनू का उपयोग करें।'
-      checkLater: '💡 कूलडाउन समाप्त होने या अपील की समीक्षा होने पर बाद में देखें।'
+      canAppeal: "💡 आप {count} उल्लंघन(नों) की अपील कर सकते हैं। नीचे दिए गए चयन मेनू का उपयोग करें।"
+      checkLater: "💡 कूलडाउन समाप्त होने या अपील की समीक्षा होने पर बाद में देखें।"
   errors:
     nothingSelected: कुछ भी नहीं चुना गया था।
     modalError: अपील modal खोलने में विफल।
@@ -299,29 +299,29 @@ hubConfig:
     editOnDashboard: Edit on Dashboard
     noDescription: "*No description set.*"
     properties: Properties
-    nsfw: '🔞 NSFW'
-    familyFriendly: '✅ Family Friendly'
+    nsfw: "🔞 NSFW"
+    familyFriendly: "✅ Family Friendly"
     lastUpdated: "Last Updated:"
     descriptionUpdated: Description Updated!
     descriptionSuccess: Your hub description has been successfully updated.
     nameUpdated: Name Updated!
     nameSuccess: Your hub has been renamed to **{name}**.
-    nameCooldownNote: '⚠️ Hub names can only be changed once every 10 days.'
+    nameCooldownNote: "⚠️ Hub names can only be changed once every 10 days."
     welcomeUpdated: Welcome Message Updated!
     welcomeSuccess: Your hub welcome message has been successfully updated.
     nsfwUpdated: NSFW Setting Updated!
-    nsfwWarning: '⚠️ Important'
+    nsfwWarning: "⚠️ Important"
     nsfwWarningDesc: Your hub is now marked as NSFW and may be filtered from searches.
     sfwConfirmDesc: Your hub is now marked as safe for work.
     visibilityUpdated: Visibility Updated!
     visibilitySuccess: "Your hub is now: **{status}**"
     visibilityMeaning: ℹ️ What this means
     visibility:
-      public: '🌐 पब्लिक'
+      public: "🌐 पब्लिक"
       publicDesc: Discoverable on the hub directory.
-      unlisted: '👁️ अनलिस्टेड'
+      unlisted: "👁️ अनलिस्टेड"
       unlistedDesc: Not in directory but anyone can join via ID/link.
-      private: '🔒 प्राइवेट'
+      private: "🔒 प्राइवेट"
       privateDesc: Invite-only, not listed publicly.
     editDescription:
       label: विवरण संपादित करें
@@ -347,7 +347,7 @@ hubConfig:
     changeVisibility:
       label: दृश्यता (Visibility) बदलें
       description: पब्लिक, अनलिस्टेड या प्राइवेट के बीच स्विच करें
-      title: '🔐 Change Hub Visibility'
+      title: "🔐 Change Hub Visibility"
       desc: "Select the visibility level for your hub:"
     errors:
       nameCooldown: Name Change on Cooldown
@@ -508,7 +508,7 @@ moderation:
     missing: कृपया या तो एक उपयोगकर्ता या एक सर्वर निर्दिष्ट करें।
   revoke:
     noActive: कोई सक्रिय {action} नहीं मिला।
-    success: '{action} रद्द कर दिया गया।'
+    success: "{action} रद्द कर दिया गया।"
   delete:
     success: संदेश सभी कनेक्टेड Hubs से हटा दिया गया है।
     notInterChatMessage: यह संदेश एक InterChat संदेश नहीं है या पहले ही हटा दिया गया है।
@@ -611,7 +611,7 @@ moderation:
     webhooks:
       noPermission: "You do not have permission to moderate this hub."
 welcomeMessage:
-  title: '**{hubName}** नामक InterChat Hub में आपका स्वागत है!'
+  title: "**{hubName}** नामक InterChat Hub में आपका स्वागत है!"
   errorDm: Failed to send welcome message.
   introText: अब आप सर्वरों के एक नेटवर्क से जुड़े हैं। आपके द्वारा यहाँ भेजे गए संदेश इस Hub में सभी को दिखाई देंगे।
   quickActions: त्वरित कार्रवाई
@@ -623,7 +623,7 @@ welcomeMessage:
     support: Support
     disconnect: डिस्कनेक्ट करें
   hubInfo:
-    connections: '🔗 कनेक्शंस'
+    connections: "🔗 कनेक्शंस"
   disconnectConfirm:
     title: Hub से डिस्कनेक्ट करें?
     description: क्या आप वाकई **{hubName}** से डिस्कनेक्ट करना चाहते हैं?
@@ -636,7 +636,7 @@ infractions:
     base: उल्लंघन · {hubName}
     userList: उपयोगकर्ता उल्लंघन · {hubName}
     serverList: सर्वर उल्लंघन · {hubName}
-    userSpecific: '{user} के लिए उल्लंघन · {hubName}'
+    userSpecific: "{user} के लिए उल्लंघन · {hubName}"
     serverSpecific: सर्वर {serverId} के लिए उल्लंघन · {hubName}
   descriptions:
     base: चुनें कि इस Hub के लिए कौन से उल्लंघन देखने हैं।
@@ -801,7 +801,7 @@ hub:
       titles:
         accepted: Rules Accepted
         declined: Rules Not Accepted
-        changedMind: '💡 Changed your mind?'
+        changedMind: "💡 Changed your mind?"
       messages:
         accepted: "Thank you for accepting the rules for **{hubName}**!"
         declined: "You have chosen not to accept the rules for **{hubName}** at this time."
@@ -843,9 +843,9 @@ hub:
     stats: Stats
   events:
     serverJoined:
-      title: '🎉 नया सर्वर शामिल हुआ!'
+      title: "🎉 नया सर्वर शामिल हुआ!"
       description: "**{serverName}** has joined the hub!"
-      footer: '{hubName} में आपका स्वागत है!'
+      footer: "{hubName} में आपका स्वागत है!"
   create:
     title: अपना Hub बनाएं
     description: Create your own InterChat hub for a community.
@@ -938,7 +938,7 @@ hub:
   connect:
     success:
       title: कनेक्टेड!
-      description: '**{hubName}** से कनेक्टेड - चैटिंग शुरू करें!'
+      description: "**{hubName}** से कनेक्टेड - चैटिंग शुरू करें!"
       fieldValue: "कनेक्टेड चैनल: {channel}"
     errors:
       alreadyConnected:
@@ -1137,7 +1137,7 @@ badges:
 broadcast:
   spam:
     mutedMessage: You have been temporarily muted for {minutes} minutes due to spam.
-    warningMessage: '⚠️ You are sending messages too quickly!'
+    warningMessage: "⚠️ You are sending messages too quickly!"
     autoMuteReason: "Auto-Mute: Spam detected"
     autoWarnReason: "Auto-Warn: Spam detected"
   validation:
@@ -1152,10 +1152,10 @@ broadcast:
     nsfw:
       message: "🚫 Your message was blocked by InterChat filters (Reason: NSFW detection)"
     profanity:
-      message: '🚫 Your message was blocked by the hub''s profanity filter.'
+      message: "🚫 Your message was blocked by the hub's profanity filter."
       reason: Profanity filter blocked message
     videos:
-      message: '🚫 Video attachments are not allowed in this hub.'
+      message: "🚫 Video attachments are not allowed in this hub."
     messageLength:
       reason: Message Length
       message: Your message length is too long. Please shorten it.
@@ -1195,7 +1195,7 @@ blacklist:
       all: "You're too nice! Block some servers/users to see them here."
       users: "No blocked users found."
       servers: "No blocked servers found."
-    instructions: "You can add servers or users to the blocklist using the \"Add to Blocklist\" button."
+    instructions: 'You can add servers or users to the blocklist using the "Add to Blocklist" button.'
     errors:
       notFound: "{cross} Item not found or already removed."
       removeFailed: "{cross} Error removing item: {error}"
