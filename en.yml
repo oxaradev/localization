@@ -142,12 +142,19 @@ about:
       - Build engaged topic-focused communities
       - Moderation tools to keep discussions healthy
       - Visual dashboard to manage your hubs, servers, and settings
+  gettingStarted:
+    title: Getting Started
+    steps: |
+      - Run `/setup` to get connected
+      - Browse public hubs with `/hub discover`
+      - Join a hub in a channel with `/connection add hub:<name>`
+      - Join a private hub with `/connection add invite:<code>`
   buttons:
     shardInfo: Shard Info
 
 botLanding:
   title: 👋 Hey there!
-  description: "**I'm InterChat, and I'm pleased to be on your server.**\n\nReady to start building new bridges?\n\n{dot} **New here?** The `/setup` command provides a step-by-step guide.\n{dot} **Ready to explore?** Visit our [discovery page](https://interchat.dev/hubs)."
+  description: "**I'm InterChat, and I'm pleased to be on your server.**\n\nReady to start building new bridges?\n\n{dot} **Start here:** Run `/setup` to get connected.\n{dot} **Browse hubs:** Use `/hub discover` to find public hubs.\n{dot} **Join a hub:** Connect a channel with `/connection add hub:<name>` or `/connection add invite:<code>`.\n\n-# *Tip: You'll need **Manage Channels** (you) and I need **Manage Webhooks** + **Send Messages** in the target channel.*"
 
 setup:
   welcome:
@@ -159,13 +166,17 @@ setup:
     successDescription: "{tick} Your language has been set to **{locale_name}**"
   join:
     title: Join a Hub
-    description: Use the public directory or connect with an invite code.
+    description: Join a hub by connecting a channel in your server.
     publicHubs:
       title: Public Hubs
-      description: "**Browse** [interchat.dev/hubs](https://interchat.dev/hubs)"
+      description: "**Browse in Discord:** Use `/hub discover`"
     privateHubs:
       title: Private or Invite-only
-      description: "**Ask the hub owner** for an invite code or run `/connection add`"
+      description: "**Ask the hub owner** for an invite code, then connect with `/connection add invite:<code>`"
+    connectChannel:
+      title: Connect a Channel
+      description: "Run `/connection add` in the channel you want to use, then choose a hub.\n\nExamples:\n- `/connection add hub:MyHub`\n- `/connection add invite:abc123 channel:#general`"
+      permissionsHint: "Requires **Manage Channels** (you) and **Manage Webhooks** + **Send Messages** (me in the target channel)."
     footer: You can join more hubs anytime.
   buttons:
     startWizard: Start Setup Wizard
@@ -470,6 +481,9 @@ hubConfig:
       expiry:
         label: Expiry
         placeholder: 1w, 3d, 12h (Leave me blank for no expiry)
+    errors:
+      invalidUses: Please enter a whole number for uses (or leave blank).
+      invalidExpiry: "Invalid expiry format. Examples: 1w, 3d, 12h."
   automod:
     createRule:
       namePlaceholder: Enter rule name...
@@ -640,6 +654,17 @@ welcomeMessage:
     disconnect: Disconnect
   hubInfo:
     connections: 🔗 Connections
+    hubPageLabel: "{link_icon} Hub Page"
+    hubPageValue: "[View on InterChat]({hubUrl})"
+  rules:
+    title: "{rules_icon} {hubName} - Rules"
+  errors:
+    disconnectPermission:
+      title: "{x_icon} Permission Denied"
+      description: You need the **Manage Channels** permission to disconnect from a hub.
+  disconnect:
+    successDescription: Successfully disconnected from **{hubName}**.
+    cancelled: Disconnection cancelled.
   disconnectConfirm:
     title: Disconnect from Hub?
     description: Are you sure you want to disconnect from **{hubName}**?
@@ -852,6 +877,10 @@ hub:
       generated: Generated!
     messages:
       generated: "{tick} `{code}` can now be used {uses} time(s) to join your hub."
+      generatedUnlimited: "{tick} `{code}` can now be used to join your hub."
+      howToUse: "Next step: connect a channel with `/connection add invite:{code}`"
+    footer:
+      hub: "Hub: {hubName}"
   info:
     titles:
       rules: Rules for {hubName}
@@ -965,7 +994,25 @@ hub:
     errors:
       alreadyConnected:
         title: Already Connected to this hub
-        description: It looks like this server is already connected to this hub.
+        description: It looks like this server is already connected to this hub in {channel}.
+      missingInput:
+        title: Missing Information
+        description: "Provide a hub name or an invite code.\n\nTry: `/connection add hub:MyHub` or `/connection add invite:abc123`"
+      hubNotFound:
+        title: Hub Not Found
+        description: "I couldn't find that hub. Check the name, or use `/hub discover` to browse public hubs."
+      invalidInvite:
+        title: Invalid Invite
+        description: "That invite code is invalid or expired. Ask the hub owner for a new invite and try again."
+      channelNotSupported:
+        title: Unsupported Channel
+        description: "Choose a text channel, thread, or forum channel."
+      webhookPerms:
+        title: Missing Permissions
+        description: "I couldn't create webhooks in that channel. I need **Manage Webhooks** and **Send Messages** there."
+      locked:
+        title: Hub Locked
+        description: This hub is currently locked and cannot be joined.
   disconnect:
     title: Disconnected!
     description: Disconnected from hub.
@@ -1234,7 +1281,7 @@ blacklist:
       all: "You're too nice! Block some servers/users to see them here."
       users: "No blocked users found."
       servers: "No blocked servers found."
-    instructions: "You can add servers or users to the blocklist using the \"Add to Blocklist\" button."
+    instructions: 'You can add servers or users to the blocklist using the "Add to Blocklist" button.'
     errors:
       notFound: "{cross} Item not found or already removed."
       removeFailed: "{cross} Error removing item: {error}"
