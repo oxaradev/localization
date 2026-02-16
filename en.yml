@@ -918,7 +918,10 @@ hub:
         modalTitle: "Step 1/7: Hub Details"
       step2:
         title: Hub Logo
-        description: "Add a logo for your hub!\n\n-# 💡 *Tip: Use an image URL or choose the default bot avatar.*"
+        description: |
+          Add a logo for your hub!
+
+          -# 💡 *Tip: Use an image URL or choose the default bot avatar.*
         modalTitle: "Step 2/7: Logo"
         logoUrlLabel: Logo URL
         logoUrlPlaceholder: https://example.com/logo.png
