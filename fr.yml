@@ -175,6 +175,7 @@ setup:
     footer: You can join more hubs anytime.
   buttons:
     startWizard: Start Setup Wizard
+    connectHere: Connect Here
     createHub: Create Hub
     discoverHubs: Discover Public Hubs
     useDefault: Use Default
@@ -910,7 +911,14 @@ hub:
         invalidUrl: Invalid image URL. Using default bot avatar instead.
       step3:
         title: Hub Visibility
-        description: "Choose your hub's visibility:\n\n🔓 **Public**: Discoverable.\n👁️ **Unlisted**: Not in directory.\n🔒 **Private**: Invite-only.\n\n-# 💡 *Tip: You can change this later in hub settings.*"
+        description: |
+          Choose your hub's visibility:
+
+          🔓 **Public**: Discoverable.
+          👁️ **Unlisted**: Not in directory.
+          🔒 **Private**: Invite-only.
+
+          -# 💡 *Tip: You can change this later in hub settings.*
         publicButton: Public
         unlistedButton: Unlisted
         privateButton: Private
