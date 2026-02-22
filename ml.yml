@@ -886,7 +886,11 @@ hub:
       footer: '{hubName}-ലേക്ക് സ്വാഗതം!'
   create:
     title: നിങ്ങളുടെ ഹബ് സൃഷ്ടിക്കുക
-    description: Create your own InterChat hub for a community.
+    description: |
+      **A Hub connects multiple servers into one shared chat space.**
+      Once your server joins a hub, messages sent in connected channels appear across all participating servers.
+
+      Let's set one up in under a minute.
   wizard:
     start: നിങ്ങളുടെ ഹബ് സൃഷ്ടിക്കാൻ തുടങ്ങുക
     name:
@@ -897,60 +901,59 @@ hub:
     description:
       label: പൂർണ്ണ വിവരണം
       placeholder: നിങ്ങളുടെ ഹബ് വിശദമായി വിവരിക്കുക (20-1000 അക്ഷരങ്ങൾ)
+    visibility:
+      unlisted:
+        desc: Not in directory.
+      public:
+        desc: Discoverable.
+      private:
+        desc: Invite-only.
     steps:
       progress: സ്റ്റെപ്പ് {current}/{total}
       step1:
-        modalTitle: "സ്റ്റെപ്പ് 1/7: ഹബ് വിവരങ്ങൾ"
+        modalTitle: "Step 1/6: Hub Details"
+        visibilityLabel: Hub Visibility
+        visibilityPlaceholder: Select Hub Visibility...
       step2:
         title: ഹബ് ലോഗോ
-        description: "Add a logo for your hub!\n\n-# 💡 *Tip: Use an image URL or choose the default bot avatar.*"
-        modalTitle: "സ്റ്റെപ്പ് 2/7: ലോഗോ"
+        description: |
+          Add a logo for your hub!
+
+          -# 💡 *Tip: Use an image URL or choose the default bot avatar.*
+        modalTitle: "Step 2/6: Logo"
         logoUrlLabel: ലോഗോ URL
         logoUrlPlaceholder: https://example.com/logo.png
         addLogoButton: ലോഗോ ചേർക്കുക
         invalidUrl: അസാധുവായ ഇമേജ് URL. പകരം ഡിഫോൾട്ട് ബോട്ട് അവതാർ ഉപയോഗിക്കുന്നു.
       step3:
-        title: Hub Visibility
-        description: |
-          Choose your hub's visibility:
-
-          🔓 **Public**: Discoverable.
-          👁️ **Unlisted**: Not in directory.
-          🔒 **Private**: Invite-only.
-
-          -# 💡 *Tip: You can change this later in hub settings.*
-        publicButton: പബ്ലിക്
-        unlistedButton: അൺലിസ്റ്റഡ്
-        privateButton: പ്രൈവറ്റ്
-      step4:
-        title: കമ്മ്യൂണിറ്റി നിയമങ്ങൾ
-        description: നിങ്ങളുടെ ഹബ്ബിനായി കമ്മ്യൂണിറ്റി മാർഗ്ഗനിർദ്ദേശങ്ങൾ സജ്ജമാക്കുക.
-        requiredPublic: "**പബ്ലിക് ഹബ്ബുകൾക്ക് നിർബന്ധമാണ്**"
+        title: Community Rules
+        description: Set community guidelines for your hub.
+        requiredPublic: "**Required for public hubs**"
         optional: (Optional)
-        tip: "-# 💡 *ടിപ്പ്: ഓരോ വരിയിലും ഒരു നിയമം ചേർക്കുക. നിങ്ങൾക്ക് 25 നിയമങ്ങൾ വരെ ചേർക്കാം.*"
-        modalTitle: "സ്റ്റെപ്പ് 4/7: നിയമങ്ങൾ"
-        rulesLabel: ഹബ് നിയമങ്ങൾ
+        tip: "-# 💡 *Tip: Add one rule per line. You can add up to 25 rules.*"
+        modalTitle: "Step 3/6: Rules"
+        rulesLabel: Hub Rules
         rulesPlaceholder: |
           1. Be respectful
           2. No spam
           3. Follow Discord ToS
-        addRulesButton: നിയമങ്ങൾ ചേർക്കുക
-      step5:
+        addRulesButton: Add Rules
+      step4:
         title: സ്വാഗത സന്ദേശം
         description: "Create a welcome message for new members!\n-# 💡 *Tip: Keep it friendly and informative. Max 500 characters.*"
-        modalTitle: "സ്റ്റെപ്പ് 5/7: സ്വാഗതം"
+        modalTitle: "Step 4/6: Welcome"
         welcomePlaceholder: Welcome to {hubName} or our hub!
-        customMessageButton: കസ്റ്റം മെസ്സേജ്
-      step6:
-        title: ഹബ് ഫീച്ചറുകൾ
+        customMessageButton: Custom Message
+      step5:
+        title: Hub Features
         description: "Select features to enable for your hub!\n✅ **Pre-selected**: Reactions, Spam Filter (recommended)\n\n-# 💡 *Tip: You can adjust these anytime.*"
-        modulesPlaceholder: എനേബിൾ ചെയ്യാൻ മൊഡ്യൂളുകൾ തിരഞ്ഞെടുക്കുക...
-      step7:
+        modulesPlaceholder: Select modules to enable...
+      step6:
         description: "Optionally select a channel for moderation logs.\nLogs include: bans, warnings, reports, and other mod actions.\n-# 💡 *Tip: Choose a private staff channel.*"
-        selectChannelButton: ചാനൽ തിരഞ്ഞെടുക്കുക
-        channelSelectTitle: ലോഗിംഗ് ചാനൽ തിരഞ്ഞെടുക്കുക
-        channelSelectDescription: "മോഡറേഷൻ ലോഗുകൾക്കായി ഒരു ചാനൽ തിരഞ്ഞെടുക്കുക:"
-        channelSelectPlaceholder: ഒരു ലോഗിംഗ് ചാനൽ തിരഞ്ഞെടുക്കുക
+        selectChannelButton: Select Channel
+        channelSelectTitle: Select Logging Channel
+        channelSelectDescription: "Choose a channel for moderation logs:"
+        channelSelectPlaceholder: Select a logging channel
     summary:
       title: ഹബ് കോൺഫിഗറേഷൻ സംഗ്രഹം
       description: "സൃഷ്ടിക്കുന്നതിന് മുമ്പ് നിങ്ങളുടെ ഹബ് ക്രമീകരണങ്ങൾ അവലോകനം ചെയ്യുക:"
@@ -968,9 +971,12 @@ hub:
       dashboardLink: നിങ്ങളുടെ ഹബ് മാനേജ് ചെയ്യുക
       publicPageLink: ഡയറക്ടറിയിൽ കാണുക
       nextSteps: അടുത്തത് എന്താണ്?
-      step1: "**For Private Hubs: Create an Invite**: `/hub invites hub:{hubName}`"
-      step2: "**Advanced Settings**: `/hub configure {hubName}`"
-      step3: "**സഹായം ആവശ്യമുണ്ടോ?**: [ഞങ്ങളുടെ സപ്പോർട്ട് സെർവറിൽ ചേരുക]({supportInvite})"
+      nextStepsPrivate1: "**Create an Invite**: `/hub invites hub:{hubName}`"
+      nextStepsPrivate2: "**Share Code**: Send the invite code to the other server."
+      nextStepsPrivate3: "**Connect**: The other server runs `/connection add invite:<code>`"
+      nextStepsPublic: "**Connect Channels**: Run `/connection add hub:{hubName}` to join!"
+      advancedSettings: "**Advanced Settings**: `/hub configure {hubName}`"
+      needHelp: "**Need Help?**: [Join our support server]({supportInvite})"
     cancelled:
       description: Your hub was not created.
     errors:
