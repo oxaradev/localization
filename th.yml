@@ -886,7 +886,11 @@ hub:
       footer: ยินดีต้อนรับสู่ {hubName}!
   create:
     title: สร้าง Hub ของคุณ
-    description: Create your own InterChat hub for a community.
+    description: |
+      **A Hub connects multiple servers into one shared chat space.**
+      Once your server joins a hub, messages sent in connected channels appear across all participating servers.
+
+      Let's set one up in under a minute.
   wizard:
     start: เริ่มสร้าง Hub ของคุณ
     name:
@@ -897,60 +901,59 @@ hub:
     description:
       label: คำอธิบายฉบับเต็ม
       placeholder: อธิบาย Hub ของคุณโดยละเอียด (20-1000 ตัวอักษร)
+    visibility:
+      unlisted:
+        desc: Not in directory.
+      public:
+        desc: Discoverable.
+      private:
+        desc: Invite-only.
     steps:
       progress: ขั้นตอนที่ {current}/{total}
       step1:
-        modalTitle: "ขั้นตอนที่ 1/7: รายละเอียด Hub"
+        modalTitle: "Step 1/6: Hub Details"
+        visibilityLabel: Hub Visibility
+        visibilityPlaceholder: Select Hub Visibility...
       step2:
         title: โลโก้ Hub
-        description: "Add a logo for your hub!\n\n-# 💡 *Tip: Use an image URL or choose the default bot avatar.*"
-        modalTitle: "ขั้นตอนที่ 2/7: โลโก้"
+        description: |
+          Add a logo for your hub!
+
+          -# 💡 *Tip: Use an image URL or choose the default bot avatar.*
+        modalTitle: "Step 2/6: Logo"
         logoUrlLabel: URL โลโก้
         logoUrlPlaceholder: https://example.com/logo.png
         addLogoButton: เพิ่มโลโก้
         invalidUrl: URL รูปภาพไม่ถูกต้อง ใช้อวตารบอทเริ่มต้นแทน
       step3:
-        title: Hub Visibility
-        description: |
-          Choose your hub's visibility:
-
-          🔓 **Public**: Discoverable.
-          👁️ **Unlisted**: Not in directory.
-          🔒 **Private**: Invite-only.
-
-          -# 💡 *Tip: You can change this later in hub settings.*
-        publicButton: สาธารณะ
-        unlistedButton: ไม่แสดงในรายการ
-        privateButton: ส่วนตัว
-      step4:
-        title: กฎของชุมชน
-        description: กำหนดแนวทางปฏิบัติสำหรับ Hub ของคุณ
-        requiredPublic: "**จำเป็นสำหรับ Hub สาธารณะ**"
+        title: Community Rules
+        description: Set community guidelines for your hub.
+        requiredPublic: "**Required for public hubs**"
         optional: (Optional)
-        tip: "-# 💡 *คำแนะนำ: เพิ่มหนึ่งกฎต่อบรรทัด คุณสามารถเพิ่มกฎได้สูงสุด 25 ข้อ*"
-        modalTitle: "ขั้นตอนที่ 4/7: กฎระเบียบ"
-        rulesLabel: กฎของ Hub
+        tip: "-# 💡 *Tip: Add one rule per line. You can add up to 25 rules.*"
+        modalTitle: "Step 3/6: Rules"
+        rulesLabel: Hub Rules
         rulesPlaceholder: |
           1. Be respectful
           2. No spam
           3. Follow Discord ToS
-        addRulesButton: เพิ่มกฎ
-      step5:
+        addRulesButton: Add Rules
+      step4:
         title: ข้อความต้อนรับ
         description: "Create a welcome message for new members!\n-# 💡 *Tip: Keep it friendly and informative. Max 500 characters.*"
-        modalTitle: "ขั้นตอนที่ 5/7: ต้อนรับ"
+        modalTitle: "Step 4/6: Welcome"
         welcomePlaceholder: Welcome to {hubName} or our hub!
-        customMessageButton: ข้อความที่กำหนดเอง
-      step6:
-        title: ฟีเจอร์ของ Hub
+        customMessageButton: Custom Message
+      step5:
+        title: Hub Features
         description: "Select features to enable for your hub!\n✅ **Pre-selected**: Reactions, Spam Filter (recommended)\n\n-# 💡 *Tip: You can adjust these anytime.*"
-        modulesPlaceholder: เลือกโมดูลเพื่อเปิดใช้งาน...
-      step7:
+        modulesPlaceholder: Select modules to enable...
+      step6:
         description: "Optionally select a channel for moderation logs.\nLogs include: bans, warnings, reports, and other mod actions.\n-# 💡 *Tip: Choose a private staff channel.*"
-        selectChannelButton: เลือกช่อง
-        channelSelectTitle: เลือกช่องสำหรับบันทึก (Logging)
-        channelSelectDescription: "เลือกช่องสำหรับบันทึก Moderation:"
-        channelSelectPlaceholder: เลือกช่อง Logging
+        selectChannelButton: Select Channel
+        channelSelectTitle: Select Logging Channel
+        channelSelectDescription: "Choose a channel for moderation logs:"
+        channelSelectPlaceholder: Select a logging channel
     summary:
       title: สรุปการตั้งค่า Hub
       description: "ตรวจสอบการตั้งค่า Hub ของคุณก่อนสร้าง:"
@@ -968,9 +971,12 @@ hub:
       dashboardLink: จัดการ Hub ของคุณ
       publicPageLink: ดูในไดเรกทอรี
       nextSteps: ทำอะไรต่อดี?
-      step1: "**For Private Hubs: Create an Invite**: `/hub invites hub:{hubName}`"
-      step2: "**Advanced Settings**: `/hub configure {hubName}`"
-      step3: "**ต้องการความช่วยเหลือ?**: [เข้าร่วมเซิร์ฟเวอร์สนับสนุนของเรา]({supportInvite})"
+      nextStepsPrivate1: "**Create an Invite**: `/hub invites hub:{hubName}`"
+      nextStepsPrivate2: "**Share Code**: Send the invite code to the other server."
+      nextStepsPrivate3: "**Connect**: The other server runs `/connection add invite:<code>`"
+      nextStepsPublic: "**Connect Channels**: Run `/connection add hub:{hubName}` to join!"
+      advancedSettings: "**Advanced Settings**: `/hub configure {hubName}`"
+      needHelp: "**Need Help?**: [Join our support server]({supportInvite})"
     cancelled:
       description: Your hub was not created.
     errors:
