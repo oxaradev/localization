@@ -1,0 +1,3 @@
+[submodule "projects/locales"]
+	path = projects/locales
+	url = https://github.com/oxaradev/localization
