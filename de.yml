@@ -1302,3 +1302,40 @@ commands:
     title: Wie man meldet
     description: "Right-click on a message and select **Apps → Report**."
     loadingGif: The GIF above may take a moment to load.
+userphone:
+  commands:
+    start:
+      description: Start a userphone call and connect to another server
+    end:
+      description: End the current userphone call
+    block:
+      description: Block a user from connecting to you via userphone
+    unblock:
+      description: Unblock a user from userphone
+    report:
+      description: Report the user you are connected with
+  status:
+    alreadyInCall: "{cross} This channel is already in a userphone call. Use `/userphone end` to disconnect first."
+    connected: "{tick} **Connected!** You are now chatting with another server. Say hello!"
+    searching: "{loading} **Searching...** Waiting for another server to pick up. Hang tight!"
+    notInCall: "{cross} This channel is not in a userphone call."
+    ended: "{tick} **Call ended.** The userphone connection has been disconnected."
+    hungUp: "{info} **The other server has hung up.** The call has ended."
+    partnerDisconnected: "{info} **Partner disconnected.** The other server is no longer available."
+  block:
+    selfBlock: "{cross} You cannot block yourself."
+    alreadyBlocked: "{cross} You have already blocked {user}."
+    success: "{tick} Successfully blocked {user} from userphone calls."
+    unblockSuccess: "{tick} Successfully unblocked {user}."
+    notBlocked: "{cross} {user} is not blocked."
+  report:
+    success: "{tick} Your report has been submitted. Our staff will review it shortly."
+    noRecentCall: "{cross} No recent userphone call found to report. You can only report during or shortly after a call."
+  staff:
+    reports:
+      title: Pending Userphone Reports
+      empty: "{tick} No pending userphone reports at this time."
+      entry: "**Reporter:** <@{reporter}>\n**Reported:** <@{reported}>\n**Reason:** {reason}\n**Call ID:** {call_id}"
+      footer: "Showing {count} pending report(s)"
+      resolveSuccess: "{tick} Report `{id}` has been marked as resolved."
+      ignoreSuccess: "{tick} Report `{id}` has been marked as ignored."
