@@ -1227,3 +1227,87 @@ commands:
     title: Wie man meldet
     description: "Right-click on a message and select **Apps → Report**."
     loadingGif: The GIF above may take a moment to load.
+userphone:
+  tips:
+    friendly: Be friendly. A good hello goes a long way.
+    gifs: Images and GIFs can help break the ice.
+    report: If something feels off, use `/userphone report`.
+    hangup: Ready to leave? Use `/hangup` at any time.
+    shareFacts: Share a fun fact about your server or community.
+    askHobbies: Ask about hobbies, games, or favorite music.
+    shareJoke: A short joke can make the conversation easier.
+    worldwide: You might be talking to someone from anywhere in the world.
+    attachments: You can share images during the call.
+    checkStats: Curious how much you call? Try `/userphone stats`.
+  commands:
+    start:
+      description: Start a userphone call and connect to another server
+    end:
+      description: End the current userphone call
+    skip:
+      description: Skip the current call and look for a new partner
+    block:
+      description: Block a user from connecting to you via userphone
+    unblock:
+      description: Unblock a user from userphone
+    report:
+      description: Report the user you are connected with
+    stats:
+      description: View your userphone statistics
+  status:
+    alreadyInCall: "{cross} This channel is already in a userphone call. Use `/userphone end` to disconnect first."
+    alreadyInCallDuration: "{cross} This channel is already in a userphone call. Current duration: **{duration}**."
+    connected: "{tick} **Connected!** You are now chatting with another server. Say hello!"
+    searching: "{loading} **Searching...** Waiting for another server to pick up. Hang tight!"
+    notInCall: "{cross} This channel is not in a userphone call."
+    notInCallHint: "{cross} This channel is not in a userphone call. Use `/call` to start one."
+    ended: "{tick} **Call ended.** The userphone connection has been disconnected."
+    hungUp: "{info} **The other server has hung up.** The call has ended."
+    partnerDisconnected: "{info} **Partner disconnected.** The other server is no longer available."
+    skipped: "{info} **Call skipped.** The other server moved on to a new call."
+    searchingAfterSkip: "{loading} **Searching again...** Looking for a new server now."
+    waitingInQueue: Waiting in queue for a match...
+  embed:
+    skippedTitle: Call Skipped
+    duration: Duration
+    startNewCall: Use `/call` to start another call.
+    searchingTitle: Searching for a Call
+    matchNotification: We will notify you as soon as a match is found.
+    cancelHint: Use `/hangup` to cancel the search.
+    connectedTitle: Userphone Connected
+    howItWorks: How it works
+    sendMessages: Send messages here to chat with the other server.
+    imagesSupported: Images are supported during userphone calls.
+    hangupHint: Use `/hangup` to end the call.
+    skipHint: Use `/skip` to move to a new partner.
+    endedTitle: Call Ended
+    statsTitle: Your Userphone Stats
+    totalCalls: Total Calls
+    totalTalkTime: Total Talk Time
+    averageCall: Average Call Length
+  block:
+    selfBlock: "{cross} You cannot block yourself."
+    alreadyBlocked: "{cross} You have already blocked {user}."
+    success: "{tick} Successfully blocked {user} from userphone calls."
+    unblockSuccess: "{tick} Successfully unblocked {user}."
+    notBlocked: "{cross} {user} is not blocked."
+  report:
+    transcriptTitle: "Userphone transcript | Server: {server} | Channel: #{channel}"
+    transcriptAttachments: "Attachments:"
+    transcriptNoMessages: No recent user messages were available.
+    modalTitle: Report Userphone Call
+    reasonLabel: Reason for Report
+    reasonPlaceholder: Describe what happened during the call...
+    callEnded: The call has been ended automatically.
+    buttonLabel: Report User
+    success: "{tick} Your report has been submitted. Our staff will review it shortly."
+    noRecentCall: "{cross} No recent userphone call found to report. You can only report during or shortly after a call."
+  staff:
+    reports:
+      staffDescription: Review pending userphone reports
+      title: Pending Userphone Reports
+      empty: "{tick} No pending userphone reports at this time."
+      entry: "**Reporter:** <@{reporter}>\n**Reported:** <@{reported}>\n**Reason:** {reason}\n**Call ID:** {call_id}"
+      footer: "Showing {count} pending report(s)"
+      resolveSuccess: "{tick} Report `{id}` has been marked as resolved."
+      ignoreSuccess: "{tick} Report `{id}` has been marked as ignored."
