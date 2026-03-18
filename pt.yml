@@ -150,7 +150,26 @@ about:
     shardInfo: Informações do Shard
 botLanding:
   title: '👋 Olá!'
-  description: "**Sou InterChat e tenho o prazer de estar no seu servidor em nome de nossa equipe.**\nJuntos, podemos conectar seu servidor a outras comunidades notáveis de todo o Discord. Numerosos, potencialmente milhares de servidores localizados em um só lugar, todos cheios de pessoas ansiosas para conversar com você. 🚀\n\n **Pronto para começar a construir novas pontes conosco?**\n {dot} **Novo aqui?** O comando '/setup' fornece um guia passo a passo para ajudá-lo a começar sua jornada.\n {dot} **Pronto para explorar?** Visite nossa [página de descoberta](https://interchat.dev/hubs) para localizar e fazer parte de nossos centros animados.\n {dot} **Talvez algo com o qual você esteja mais familiarizado?** Experimente nosso '/call' para conexões individuais.\n\n 💝 **Perdido? Precisa de ajuda?** Damos as boas-vindas à nossa [comunidade de suporte](https://discord.gg/8DhUA4HNpD). Nossa equipe e nossa comunidade terão prazer em oferecer sua ajuda. Oferecemos o máximo de suporte e assistência em quaisquer problemas que você possa ter, não hesite em participar!"
+  description: |
+    **Sou InterChat e tenho o prazer de estar no seu servidor em nome de nossa equipe.**
+    Juntos, podemos conectar seu servidor a outras comunidades notáveis de todo o Discord. Numerosos, potencialmente milhares de servidores localizados em um só lugar, todos cheios de pessoas ansiosas para conversar com você. 🚀
+
+     **Pronto para começar a construir novas pontes conosco?**
+     {dot} **Novo aqui?** O comando '/setup' fornece um guia passo a passo para ajudá-lo a começar sua jornada.
+     {dot} **Pronto para explorar?** Visite nossa [página de descoberta](https://interchat.dev/hubs) para localizar e fazer parte de nossos centros animados.
+     {dot} **Talvez algo com o qual você esteja mais familiarizado?** Experimente nosso '/call' para conexões individuais.
+
+     💝 **Perdido? Precisa de ajuda?** Damos as boas-vindas à nossa [comunidade de suporte](https://discord.gg/8DhUA4HNpD). Nossa equipe e nossa comunidade terão prazer em oferecer sua ajuda. Oferecemos o máximo de suporte e assistência em quaisquer problemas que você possa ter, não hesite em participar!
+  hubs: |
+    **Hubs** - Multi-Server, always on connections. You can connect your channel to across server group (hubs) from our list of growing community hubs, and chat away with amazing people inside!
+  calls: |
+    **Calls** (BETA) - Private, one-on-one instant connections. Privacy-first by design. Built on Conversations stay private unless reported.
+    -# PS. Beta phase. If you're here early, you're shaping the future of it. Early adopters may also get rewards
+  closing: |
+    Plug into a Hub. Launch a Call. Turn your server into something bigger than itself.
+
+    Built by humans, for humans,
+    —Oxara Development
 setup:
   welcome:
     title: Bem-vindo a configuração do InterChat
@@ -174,7 +193,7 @@ setup:
       permissionsHint: "Requires **Manage Channels** (you) and **Manage Webhooks** + **Send Messages** (me in the target channel)."
     footer: You can join more hubs anytime.
   buttons:
-    startWizard: Iniciar Assistente de Configuração
+    getStarted: Iniciar Assistente de Configuração
     connectHere: Connect Here
     createHub: Criar Hub
     discoverHubs: Descobrir Hubs Públicos
@@ -887,10 +906,7 @@ hub:
   create:
     title: Crie Seu Hub
     description: |
-      **A Hub connects multiple servers into one shared chat space.**
-      Once your server joins a hub, messages sent in connected channels appear across all participating servers.
-
-      Let's set one up in under a minute.
+      Create your own InterChat hub for a community.
   wizard:
     start: Começar a Criar Seu Hub
     name:
@@ -911,7 +927,7 @@ hub:
     steps:
       progress: Passo {current}/{total}
       step1:
-        modalTitle: "Step 1/6: Hub Details"
+        modalTitle: "Passo 1/7: Detalhes do Hub"
         visibilityLabel: Hub Visibility
         visibilityPlaceholder: Select Hub Visibility...
       step2:
@@ -920,14 +936,14 @@ hub:
           Add a logo for your hub!
 
           -# 💡 *Tip: Use an image URL or choose the default bot avatar.*
-        modalTitle: "Step 2/6: Logo"
+        modalTitle: "Passo 2/7: Logo"
         logoUrlLabel: URL do Logo
         logoUrlPlaceholder: https://exemplo.com/logo.png
         addLogoButton: Adicionar Logo
         invalidUrl: URL de imagem inválida. Usando avatar padrão do bot.
       step3:
-        title: Community Rules
-        description: Set community guidelines for your hub.
+        title: Hub Visibility
+        description: "Choose your hub's visibility:\n\n🔓 **Public**: Discoverable.\n👁️ **Unlisted**: Not in directory.\n🔒 **Private**: Invite-only.\n\n-# 💡 *Tip: You can change this later in hub settings.*"
         requiredPublic: "**Required for public hubs**"
         optional: (Optional)
         tip: "-# 💡 *Tip: Add one rule per line. You can add up to 25 rules.*"
@@ -939,17 +955,17 @@ hub:
           3. Follow Discord ToS
         addRulesButton: Add Rules
       step4:
-        title: Mensagem de Boas-vindas
-        description: "Create a welcome message for new members!\n-# 💡 *Tip: Keep it friendly and informative. Max 500 characters.*"
-        modalTitle: "Step 4/6: Welcome"
+        title: Regras da Comunidade
+        description: "Defina diretrizes da comunidade para seu hub."
+        modalTitle: "Passo 4/7: Regras"
         welcomePlaceholder: Welcome to {hubName} or our hub!
         customMessageButton: Custom Message
       step5:
-        title: Hub Features
-        description: "Select features to enable for your hub!\n✅ **Pre-selected**: Reactions, Spam Filter (recommended)\n\n-# 💡 *Tip: You can adjust these anytime.*"
+        title: Mensagem de Boas-vindas
+        description: "Create a welcome message for new members!\n-# 💡 *Tip: Keep it friendly and informative. Max 500 characters.*"
         modulesPlaceholder: Select modules to enable...
       step6:
-        description: "Optionally select a channel for moderation logs.\nLogs include: bans, warnings, reports, and other mod actions.\n-# 💡 *Tip: Choose a private staff channel.*"
+        description: "Select features to enable for your hub!\n✅ **Pre-selected**: Reactions, Spam Filter (recommended)\n\n-# 💡 *Tip: You can adjust these anytime.*"
         selectChannelButton: Select Channel
         channelSelectTitle: Select Logging Channel
         channelSelectDescription: "Choose a channel for moderation logs:"
