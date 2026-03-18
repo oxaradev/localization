@@ -3,32 +3,32 @@ common:
     error: '¡Error!'
     success: '¡Éxito!'
     cancelled: '¡Cancelado!'
-    feedback: Feedback Received
-    validationError: Validation Error
+    feedback: Retroalimentación Recibida
+    validationError: Error de Validación
   labels:
     date: Fecha
     loading: Cargando...
     pleaseWait: Por favor espera...
     lastActive: Última actividad
     unknown: Desconocido
-    unknownHub: Unknown Hub
-    language: Language
+    unknownHub: Hub Desconocido
+    language: Idioma
     locked: Bloqueado
     nsfw: NSFW
-    visibility: Visibility
-    "yes": "Yes"
+    visibility: Visibilidad
+    "yes": "Sí"
     "no": "No"
     none: Ninguna
-    noneSpecified: None Specified
-    tryAgain: Please try again
-    noReason: No Reason
+    noneSpecified: Ninguno Especificado
+    tryAgain: Por favor inténtalo de nuevo
+    noReason: Ninguna Razón
     roles:
-      owner: Owner
+      owner: Dueño
       member: Miembro
       moderator: Moderador
-    note: Note
+    note: Anotación
     never: Nunca
-    lastUpdated: Last Updated
+    lastUpdated: Última Actualización
   buttons:
     back: Atrás
     next: Siguiente
@@ -42,53 +42,53 @@ common:
     invite: Invitar a InterChat
     dashboard: Abrir Dashboard
     support: Unirse al Soporte
-    edit: Edit
-    save: Save
-    apply: Apply Changes
-    close: Close
-    search: Search
-    jumpToMessage: Jump to Message
-    maybeLater: Maybe Later
-    show: Show
-    hide: Hide
-    enable: Enable
-    disable: Disable
-    continue: Continue
-    start: Start
-    stop: Stop
-    join: Join
-    accept: Accept
-    decline: Decline
+    edit: Editar
+    save: Guardar
+    apply: Aplicar Cambios
+    close: Cerrar
+    search: Buscar
+    jumpToMessage: Ir al Mensaje
+    maybeLater: Quizá Después
+    show: Mostrar
+    hide: Esconder
+    enable: Habilitar
+    disable: Deshabilitar
+    continue: Continuar
+    start: Empezar
+    stop: Parar
+    join: Unirse
+    accept: Aceptar
+    decline: Rechazar
   pagination:
-    footer: "Page {current} of {total} • {count} total items"
+    footer: "Página {current} de {total} • {count} ítems totales"
     errors:
-      firstPage: "You're already on the first page."
-      lastPage: "You're already on the last page."
+      firstPage: "Ya estás en la primera página."
+      lastPage: "Ya estás en la última página."
     page: Página {current}/{total}
-    pageOf: Page {current} of {total}
-    alreadyFirst: Already on the first page.
-    alreadyLast: Already on the last page.
+    pageOf: Página {current} de {total}
+    alreadyFirst: Ya estás en la primera página.
+    alreadyLast: Ya estás en la última página.
   placeholders:
     select: Selecciona una opción
     type: Escribe aquí...
-    selectModule: Select modules to toggle...
+    selectModule: Selecciona los módulos a modificar...
   visibility:
     public: Público
-    publicDesc: Discoverable on the hub directory.
+    publicDesc: Descubrible en el directorio de los hubs.
     private: Privado
-    privateDesc: Invite-only, not listed publicly.
+    privateDesc: Sólo invitación, no listado públicamente.
     unlisted: No listado
-    unlistedDesc: Not in directory but anyone can join via ID/link.
+    unlistedDesc: No está en el directorio pero cualquiera puede unirse vía ID/enlace.
   entities:
     user: Usuario
     server: Servidor
     hub: Hub
-    unknownUser: Unknown User
+    unknownUser: Usuario Desconocido
     unknownServer: Servidor Desconocido
   messages:
     notImplemented: Aún no implementado.
-    defaultSuccess: Action completed successfully.
-    actionCancelled: Action cancelled.
+    defaultSuccess: La acción se completó exitosamente.
+    actionCancelled: Acción cancelada.
     hubNotFound: Hub no encontrado. Por favor inténtalo de nuevo más tarde.
     serverNotFound: Servidor no encontrado.
     userNotFound: Usuario no encontrado.
@@ -96,10 +96,10 @@ common:
     interfacePermission: No puedes usar esta interfaz.
     hubUpdateFailed: Fallo al actualizar la configuración del Hub.
   footer:
-    submittedBy: "Submitted by {user}"
+    submittedBy: "Enviado por {user}"
   states:
-    enabled: Enabled
-    disabled: Disabled
+    enabled: Habilitado
+    disabled: Deshabilitado
   fields:
     id: "ID de {type}"
     name: "Nombre de {type}"
@@ -107,11 +107,11 @@ common:
     description: Descripción
     created: Creado
     status: Estado
-    channel: Channel
+    channel: Canal
   errors:
     notYourMenu: Este no es tu menú.
     cannotControlPagination: No puedes controlar esta paginación.
-    generic: Oops! Something went wrong while processing your request.
+    generic: '¡Ups! Ha ocurrido un error al procesar tu solicitud.'
     processing: An error occurred while processing your request. Please try again.
     invalidSelection: Selección inválida.
     interactionCheck: No puedes usar esta interacción, ya que no fuiste tú quien la invocó.
@@ -268,7 +268,7 @@ appeal:
     cooldown: En enfriamiento
     canAppeal: Apelable
   constants:
-    noReason: No Reason
+    noReason: Ninguna Razón
   fields:
     date: "Fecha:"
     reason: "Razón:"
@@ -338,9 +338,9 @@ hubConfig:
     nameSuccess: Your hub has been renamed to **{name}**.
     nameCooldownNote: '⚠️ Hub names can only be changed once every 10 days.'
     welcomeUpdated: Welcome Message Updated!
-    welcomeSuccess: Your hub welcome message has been successfully updated.
-    nsfwUpdated: NSFW Setting Updated!
-    nsfwWarning: '⚠️ Important'
+    welcomeSuccess: Tu mensaje de bienvenida del hub ha sido actualizado.
+    nsfwUpdated: '¡Se ha actualizado el ajuste NSFW!'
+    nsfwWarning: '⚠️ Importante'
     nsfwWarningDesc: Your hub is now marked as NSFW and may be filtered from searches.
     sfwConfirmDesc: Your hub is now marked as safe for work.
     visibilityUpdated: Visibility Updated!
@@ -348,11 +348,11 @@ hubConfig:
     visibilityMeaning: ℹ️ What this means
     visibility:
       public: '🌐 Público'
-      publicDesc: Discoverable on the hub directory.
+      publicDesc: Descubrible en el directorio de los hubs.
       unlisted: '👁️ No Listado'
-      unlistedDesc: Not in directory but anyone can join via ID/link.
+      unlistedDesc: No está en el directorio pero cualquiera puede unirse vía ID/enlace.
       private: '🔒 Privado'
-      privateDesc: Invite-only, not listed publicly.
+      privateDesc: Sólo invitación, no listado públicamente.
     editDescription:
       label: Editar Descripción
       description: Change your hub's description
@@ -623,7 +623,7 @@ moderation:
     noReports: "No reports found."
     fetchFailed: "Failed to fetch moderation history."
   report:
-    jumpToMessage: Jump to Message
+    jumpToMessage: Ir al Mensaje
     notFound: "Report not found or deleted."
     noHub: "Unable to determine hub for this report."
     handledTitle: "Report Handled"
@@ -815,7 +815,7 @@ hub:
           title: Add New Rule
           placeholder: Enter your new rule here...
       editRule:
-        label: Edit
+        label: Editar
         modal:
           title: Edit Rule
           placeholder: Enter your updated rule here...
@@ -1214,7 +1214,7 @@ services:
       noDescription: No description provided.
   moderation:
     defaults:
-      noReason: No Reason
+      noReason: Ninguna Razón
 support:
   priority:
     standard: Standard
