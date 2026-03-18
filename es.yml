@@ -341,11 +341,11 @@ hubConfig:
     welcomeSuccess: Tu mensaje de bienvenida del hub ha sido actualizado.
     nsfwUpdated: '¡Se ha actualizado el ajuste NSFW!'
     nsfwWarning: '⚠️ Importante'
-    nsfwWarningDesc: Your hub is now marked as NSFW and may be filtered from searches.
-    sfwConfirmDesc: Your hub is now marked as safe for work.
-    visibilityUpdated: Visibility Updated!
-    visibilitySuccess: "Your hub is now: **{status}**"
-    visibilityMeaning: ℹ️ What this means
+    nsfwWarningDesc: Tu hub ahora está marcado como NSFW y será filtrado en las búsquedas.
+    sfwConfirmDesc: Tu hub ha sido marcado como SFW.
+    visibilityUpdated: '¡Visibilidad Actualizada!'
+    visibilitySuccess: "Tu hub está ahora: **{status}**"
+    visibilityMeaning: ℹ️ Qué significa esto
     visibility:
       public: '🌐 Público'
       publicDesc: Descubrible en el directorio de los hubs.
@@ -355,38 +355,38 @@ hubConfig:
       privateDesc: Sólo invitación, no listado públicamente.
     editDescription:
       label: Editar Descripción
-      description: Change your hub's description
-      title: Edit Hub Description
-      labelInput: Hub Description
-      placeholder: Describe what your hub is about...
+      description: Cambiar la descripción de tu hub
+      title: Cambiar Descripción del Hub
+      labelInput: Descripción del Hub
+      placeholder: Describe de qué se trata tu hub...
     editName:
-      label: Edit Name
-      description: Change your hub's display name
-      title: Edit Hub Name
+      label: Editar Nombre
+      description: Cambiar el nombre de visualización de tu hub
+      title: Editar Nombre del Hub
       labelInput: Nombre del Hub
-      placeholder: Enter a new name for your hub...
+      placeholder: Introduce un nuevo nombre para tu hub...
     welcomeMessage:
       label: Mensaje de Bienvenida
-      description: Set a message sent to new members
-      title: Edit Welcome Message
+      description: Configura un mensaje enviado a nuevos miembros
+      title: Editar Mensaje de Bienvenida
       labelInput: Mensaje de Bienvenida
-      placeholder: Welcome! Enjoy your stay...
+      placeholder: '¡Bienvenido! Disfruta de tu estancia...'
     toggleNsfw:
       label: Alternar NSFW
-      description: Toggle between Safe for Work and NSFW
+      description: Alternar entre SFW y NSFW
     changeVisibility:
       label: Cambiar Visibilidad
       description: Cambia entre Público, No Listado, o Privado
-      title: '🔐 Change Hub Visibility'
-      desc: "Select the visibility level for your hub:"
+      title: '🔐 Cambiar Visibilidad del Hub'
+      desc: "Selecciona el nivel de visibilidad para tu hub:"
     errors:
-      nameCooldown: Name Change on Cooldown
-      nameCooldownDesc: You can change your hub name again in **{days} days**.
-      invalidName: Invalid Name
-      invalidNameDesc: Hub name cannot be empty.
-      nameTaken: Name Already Taken
-      nameTakenDesc: The name **{name}** is already used.
-    rulesCount: "{count}/{max} rules configured"
+      nameCooldown: Cambio de Nombre en Tiempo de Espera
+      nameCooldownDesc: Podrás cambiar el nombre de tu hub de nuevo en **{days} días**.
+      invalidName: Nombre Inválido
+      invalidNameDesc: El nombre del hub no puede estar vacío.
+      nameTaken: Nombre Ocupado
+      nameTakenDesc: El nombre **{name}** ya está en uso.
+    rulesCount: "{count}/{max} reglas configuradas"
   permissions:
     remove:
       label: Eliminar
@@ -415,34 +415,34 @@ hubConfig:
       label: Usar Apodos
       description: Mostrar apodos de usuario en lugar de nombres de usuario
     blockNsfw:
-      description: Block NSFW content even in NSFW hubs
+      description: Bloquear contenido NSFW a pesar de estar en hubs NSFW
     allowVideos:
-      description: Allow video attachments in messages
+      description: Permitir archivos de vídeo en mensajes
     blockAttachments:
-      description: Block file attachments in messages
+      description: Bloquear archivos adjuntos en mensajes
     blockTenorGifs:
-      description: Block Tenor GIFs in messages
-    title: Hub Modules
-    description: Configure additional features and moderation tools for your hub
-    enabled: Enabled **{module}**
-    disabled: Disabled **{module}**
+      description: Bloquear GIFs de Tenor en mensajes
+    title: Módulos del Hub
+    description: Configura características adicionales y herramientas de moderación para tu hub
+    enabled: '**{module}** habilitado'
+    disabled: '**{module}** deshabilitado'
     success:
-      title: Modules Updated!
-      details: "Successfully updated {count} module setting(s):"
+      title: '¡Módulos actualizados!'
+      details: "Se han actualizado {count} ajuste(s) del módulo:"
     errors:
-      noneSelected: No modules selected.
-      updateFailed: "An error occurred: {error}"
+      noneSelected: No se ha seleccionado ningún módulo.
+      updateFailed: "Ha ocurrido un error: {error}"
   badges:
     owner:
-      label: Owner Badge
-      description: This badge is displayed on the user who owns the hub.
+      label: Insignia de Dueño
+      description: Esta insignia se muestra en el usuario que posee la propiedad del hub.
     manager:
-      label: Manager Badge
-      description: This badge is displayed on the users who manage this hub.
+      label: Insignia de Gerente
+      description: Esta insignia se muestra en los usuarios que gestionan este hub.
     moderator:
-      label: Moderator Badge
-      description: This badge is displayed on the users who moderate this hub.
-    selectPlaceholder: Select a badge to configure
+      label: Insignia de Moderador
+      description: Esta insignia se muestra en los usuarios que moderan este hub.
+    selectPlaceholder: Selecciona una insignia a configurar
   logging:
     moderationLogs: Registros de Moderación
     joinLeaveLogs: Registros de Entrada/Salida
@@ -450,8 +450,8 @@ hubConfig:
     reportsChannel: Canal de Reportes
     networkAlerts: Alertas de Red
     messageModeration: Moderación de Mensajes
-    title: Hub Logging Configuration
-    description: Configure logging channels and notification roles.
+    title: Configuración de Logging del Hub
+    description: Configura los canales para logging y los roles de notificación.
     selectPlaceholder: Select logging type to configure...
     selectChannel: Select a channel for logging...
     selectRole: Select a role for notifications (optional)...
@@ -525,17 +525,17 @@ hubConfig:
       title: Delete Rule
       description: Are you sure you want to delete **{ruleName}**?
       success: Rule **{ruleName}** has been deleted.
-      cancelled: Rule deletion cancelled.
+      cancelled: Se ha cancelado el borrado de la regla.
 moderation:
   footer:
-    actionedBy: "Actioned by {user}"
+    actionedBy: "Accionado por {user}"
   actionNames:
     warned: Advertido
     muted: Silenciado
     banned: Baneado
   actionNouns:
     mute: silencio
-    ban: ban
+    ban: banear
   prep:
     in: en
     from: de
@@ -576,8 +576,8 @@ moderation:
       label: Lista negra
       description: Emitir una lista negra global en InterChat (usuario/servidor)
     history:
-      label: History
-      description: View infraction and report history for the target
+      label: Historia
+      description: Ver infracción e historial de denuncias para el objetivo de destino
     delete:
       label: Eliminar
       description: Eliminar el mensaje seleccionado en todos los Hubs conectados
@@ -587,11 +587,11 @@ moderation:
       placeholder: Ingresa una justificación concisa{optional}
     duration:
       label: Duración
-      placeholder: e.g. 30m, 2h, 1d
+      placeholder: por ejemplo, 30m, 2h, 1d
   hubSelect:
     placeholder: Selecciona un Hub para moderar...
-    noHubs: No hubs available
-    noHubsDesc: No hubs available for moderation
+    noHubs: No hay hubs disponibles
+    noHubsDesc: No hay hubs disponibles para la moderación
   hubSelection:
     title: Selección de Hub
     description: Selecciona el Hub que quieres moderar.
@@ -600,8 +600,8 @@ moderation:
   targetSelection:
     title: Selección de Objetivo
     description: '¿A quién quieres aplicar {action}?'
-    user: Act on User
-    server: Act on Server
+    user: Accionar en Usuario
+    server: Accionar en el Servidor
   actionSelect:
     placeholder: Selecciona una acción de moderación...
   validators:
