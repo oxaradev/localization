@@ -150,7 +150,23 @@ about:
     shardInfo: Shard Info
 botLanding:
   title: '👋 Hey da!'
-  description: "**I'm InterChat, and I'm pleased to be on your server.**\n\nReady to start building new bridges?\n\n{dot} **New here?** The `/setup` command provides a step-by-step guide.\n{dot} **Ready to explore?** Visit our [discovery page](https://interchat.dev/hubs)."
+  description: |
+    **I'm InterChat, and I'm pleased to be on your server.**
+
+    Ready to start building new bridges?
+
+    {dot} **New here?** The `/setup` command provides a step-by-step guide.
+    {dot} **Ready to explore?** Visit our [discovery page](https://interchat.dev/hubs).
+  hubs: |
+    **Hubs** - Multi-Server, always on connections. You can connect your channel to across server group (hubs) from our list of growing community hubs, and chat away with amazing people inside!
+  calls: |
+    **Calls** (BETA) - Private, one-on-one instant connections. Privacy-first by design. Built on Conversations stay private unless reported.
+    -# PS. Beta phase. If you're here early, you're shaping the future of it. Early adopters may also get rewards
+  closing: |
+    Plug into a Hub. Launch a Call. Turn your server into something bigger than itself.
+
+    Built by humans, for humans,
+    —Oxara Development
 setup:
   welcome:
     title: Willkommen beim InterChat Setup
@@ -174,7 +190,7 @@ setup:
       permissionsHint: "Requires **Manage Channels** (you) and **Manage Webhooks** + **Send Messages** (me in the target channel)."
     footer: You can join more hubs anytime.
   buttons:
-    startWizard: Setup-Assistent starten
+    getStarted: Setup-Assistent starten
     connectHere: Connect Here
     createHub: Hub erstellen
     discoverHubs: Öffentliche Hubs entdecken
@@ -887,10 +903,7 @@ hub:
   create:
     title: Erstelle deinen Hub
     description: |
-      **A Hub connects multiple servers into one shared chat space.**
-      Once your server joins a hub, messages sent in connected channels appear across all participating servers.
-
-      Let's set one up in under a minute.
+      Create your own InterChat hub for a community.
   wizard:
     start: Beginne mit der Erstellung deines Hubs
     name:
@@ -911,7 +924,7 @@ hub:
     steps:
       progress: Schritt {current}/{total}
       step1:
-        modalTitle: "Step 1/6: Hub Details"
+        modalTitle: "Schritt 1/7: Hub-Details"
         visibilityLabel: Hub Visibility
         visibilityPlaceholder: Select Hub Visibility...
       step2:
@@ -920,14 +933,14 @@ hub:
           Add a logo for your hub!
 
           -# 💡 *Tip: Use an image URL or choose the default bot avatar.*
-        modalTitle: "Step 2/6: Logo"
+        modalTitle: "Schritt 2/7: Logo"
         logoUrlLabel: Logo URL
         logoUrlPlaceholder: https://beispiel.de/logo.png
         addLogoButton: Logo hinzufügen
         invalidUrl: Ungültige Bild-URL. Verwende stattdessen Standard-Bot-Avatar.
       step3:
-        title: Community Rules
-        description: Set community guidelines for your hub.
+        title: Hub Visibility
+        description: "Choose your hub's visibility:\n\n🔓 **Public**: Discoverable.\n👁️ **Unlisted**: Not in directory.\n🔒 **Private**: Invite-only.\n\n-# 💡 *Tip: You can change this later in hub settings.*"
         requiredPublic: "**Required for public hubs**"
         optional: (Optional)
         tip: "-# 💡 *Tip: Add one rule per line. You can add up to 25 rules.*"
@@ -939,17 +952,17 @@ hub:
           3. Follow Discord ToS
         addRulesButton: Add Rules
       step4:
-        title: Willkommensnachricht
-        description: "Create a welcome message for new members!\n-# 💡 *Tip: Keep it friendly and informative. Max 500 characters.*"
-        modalTitle: "Step 4/6: Welcome"
+        title: Community-Regeln
+        description: "Lege Community-Richtlinien für deinen Hub fest."
+        modalTitle: "Schritt 4/7: Regeln"
         welcomePlaceholder: Welcome to {hubName} or our hub!
         customMessageButton: Custom Message
       step5:
-        title: Hub Features
-        description: "Select features to enable for your hub!\n✅ **Pre-selected**: Reactions, Spam Filter (recommended)\n\n-# 💡 *Tip: You can adjust these anytime.*"
+        title: Willkommensnachricht
+        description: "Create a welcome message for new members!\n-# 💡 *Tip: Keep it friendly and informative. Max 500 characters.*"
         modulesPlaceholder: Select modules to enable...
       step6:
-        description: "Optionally select a channel for moderation logs.\nLogs include: bans, warnings, reports, and other mod actions.\n-# 💡 *Tip: Choose a private staff channel.*"
+        description: "Select features to enable for your hub!\n✅ **Pre-selected**: Reactions, Spam Filter (recommended)\n\n-# 💡 *Tip: You can adjust these anytime.*"
         selectChannelButton: Select Channel
         channelSelectTitle: Select Logging Channel
         channelSelectDescription: "Choose a channel for moderation logs:"
