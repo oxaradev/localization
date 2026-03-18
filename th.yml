@@ -163,7 +163,7 @@ setup:
       description: "**Ask the hub owner** for an invite code or run `/connection add`"
     footer: You can join more hubs anytime.
   buttons:
-    startWizard: เริ่มวิซาร์ดการตั้งค่า
+    getStarted: เริ่มวิซาร์ดการตั้งค่า
     createHub: สร้าง Hub
     discoverHubs: ค้นหา Hub สาธารณะ
     useDefault: ใช้ค่าเริ่มต้น

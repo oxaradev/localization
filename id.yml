@@ -163,7 +163,7 @@ setup:
       description: "**Ask the hub owner** for an invite code or run `/connection add`"
     footer: You can join more hubs anytime.
   buttons:
-    startWizard: Mulai Panduan Pengaturan
+    getStarted: Mulai Panduan Pengaturan
     createHub: Buat Hub
     discoverHubs: Temukan Hub Publik
     useDefault: Gunakan Default

@@ -153,8 +153,21 @@ about:
     shardInfo: Shard Info
 
 botLanding:
-  title: 👋 Hey there!
-  description: "**I'm InterChat, and I'm pleased to be on your server.**\n\nReady to start building new bridges?\n\n{dot} **Start here:** Run `/setup` to get connected.\n{dot} **Browse hubs:** Use `/hub discover` to find public hubs.\n{dot} **Join a hub:** Connect a channel with `/connection add hub:<name>` or `/connection add invite:<code>`.\n\n-# *Tip: You'll need **Manage Channels** (you) and I need **Manage Webhooks** + **Send Messages** in the target channel.*"
+  title: Thank you for inviting InterChat {emoji}
+  description: |
+    We are so excited to see that you have decided to give our flagship bot InterChat a try!
+
+    We have two kinds of interfaces crafted for you:
+  hubs: |
+    **Hubs** - Multi-Server, always on connections. You can connect your channel to across server group (hubs) from our list of growing community hubs, and chat away with amazing people inside!
+  calls: |
+    **Calls** (BETA) - Private, one-on-one instant connections. Privacy-first by design. Built on Conversations stay private unless reported.
+    -# PS. Beta phase. If you're here early, you're shaping the future of it. Early adopters may also get rewards
+  closing: |
+    Plug into a Hub. Launch a Call. Turn your server into something bigger than itself.
+
+    Built by humans, for humans,
+    —Oxara Development
 
 setup:
   welcome:
@@ -179,7 +192,7 @@ setup:
       permissionsHint: "Requires **Manage Channels** (you) and **Manage Webhooks** + **Send Messages** (me in the target channel)."
     footer: You can join more hubs anytime.
   buttons:
-    startWizard: Start Setup Wizard
+    getStarted: Get Started
     connectHere: Connect Here
     createHub: Create Hub
     discoverHubs: Discover Public Hubs

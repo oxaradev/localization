@@ -172,7 +172,7 @@ setup:
       description: "**Ask the hub owner** for an invite code or run `/connection add`"
     footer: You can join more hubs anytime.
   buttons:
-    startWizard: Iniciar Assistente de Configuração
+    getStarted: Iniciar Assistente de Configuração
     createHub: Criar Hub
     discoverHubs: Descobrir Hubs Públicos
     useDefault: Usar Padrão

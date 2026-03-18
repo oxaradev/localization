@@ -163,7 +163,7 @@ setup:
       description: "**Ask the hub owner** for an invite code or run `/connection add`"
     footer: You can join more hubs anytime.
   buttons:
-    startWizard: सेटअप विजार्ड शुरू करें
+    getStarted: सेटअप विजार्ड शुरू करें
     createHub: Hub बनाएं
     discoverHubs: सार्वजनिक Hubs खोजें
     useDefault: डिफ़ॉल्ट का उपयोग करें
