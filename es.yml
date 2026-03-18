@@ -112,7 +112,7 @@ common:
     notYourMenu: Este no es tu menú.
     cannotControlPagination: No puedes controlar esta paginación.
     generic: '¡Ups! Ha ocurrido un error al procesar tu solicitud.'
-    processing: An error occurred while processing your request. Please try again.
+    processing: Hubo un error al procesar tu solicitud. Por favor inténtalo de nuevo.
     invalidSelection: Selección inválida.
     interactionCheck: No puedes usar esta interacción, ya que no fuiste tú quien la invocó.
     rateLimited: Estás siendo limitado por frecuencia. Tómatelo con calma.
@@ -126,26 +126,26 @@ common:
     missingAppealReference: Falta referencia de apelación.
     missingArgument: "Falta argumento: `{param}`."
     accessDenied: Acceso Denegado
-    invalidId: "{cross} Please provide a valid User ID or Server ID."
+    invalidId: "{cross} Por favor provée un ID de usuario válido o de servidor."
 about:
   title: Sobre InterChat
-  description: InterChat connects Discord communities through active cross-server discussions. Messages flow naturally between servers in real-time.
+  description: InterChat conecta a comunidades a través de discusiones entre servidores. Los mensajes fluyen naturalmente entre servidores en tiempo real.
   supportText: '¿Necesitas ayuda? ¡Únete a nuestro servidor de soporte para asistencia!'
   features:
     title: Características
     list: |
-      - Connect with other servers for active cross-server discussions
-      - Messages flow naturally between servers in real-time
-      - Build engaged topic-focused communities
-      - Moderation tools to keep discussions healthy
-      - Visual dashboard to manage your hubs, servers, and settings
+      - Conecta con otros servidores para discusiones proactivas entre servidores
+      - Los mensajes fluyen naturalmente entre los servidores en tiempo real
+      - Construye comunidades basadas en tópicos específicos
+      - Herramientas de moderación para mantener discusiones sanas
+      - Un dashboard visual para gestionar tus hubs, servidores, y ajustes
   gettingStarted:
-    title: Getting Started
+    title: Antes de Empezar
     steps: |
-      - Run `/setup` to get connected
-      - Browse public hubs with `/hub discover`
-      - Join a hub in a channel with `/connection add hub:<name>`
-      - Join a private hub with `/connection add invite:<code>`
+      - Ejecuta `/setup` para conectarte
+      - Busca hubs públicos con `/hub discover`
+      - Únete a un hub en un canal con `/connection add hub:<nombre>`
+      - Únete a un hub privado con `/connection add invite:<código>`
   buttons:
     shardInfo: Info del Shard
 botLanding:
@@ -159,16 +159,16 @@ botLanding:
     {dot} **Ready to explore?** Visit our [discovery page](https://interchat.dev/hubs).
   hubs: |
     ## {emoji} Hubs
-    Multi-Server, always on connections. You can connect your channel to across server group (hubs) from our list of growing community hubs, and chat away with amazing people inside!
+    Multiservidor, siempre conectados. ¡Puedes conectar tu canal a través grupos de servidores (hubs) de nuestra lista de hubs de comunidades crecientes y chatear con personas maravillosas dentro!
   calls: |
-    ## {emoji} Calls (BETA)
-    Private, one-on-one instant connections. Privacy-first by design, conversations stay private unless reported.
-    -# PS. Beta phase. If you're here early, you're shaping the future of it. Early adopters may also get rewards
+    ## {emoji} Llamadas (BETA)
+    Privado, conexiones 1:1 instantáneas. Privacy-first por diseño. Las conversaciones se mantienen privadas a menos que sean denunciadas.
+    -# PS. En fase beta. Si has llegado aquí en un período más temprano, estás dando forma a su futuro. Los 'early adopters' también tendrán recompensas
   closing: |
-    Plug into a Hub. Launch a Call. Turn your server into something bigger than itself.
+    Entra en un Hub. Lanza una Llamada. Torna tu servidor en algo más grande que ello mismo.
 
-    Built by humans, for humans.
-    —Oxara Development
+    Hecho por humanos, para humanos.
+    —Oxara Developmemt
 setup:
   welcome:
     title: Bienvenido a la Configuración de InterChat
@@ -187,27 +187,27 @@ setup:
       title: Privados o Solo Invitación
       description: "**Ask the hub owner** for an invite code or run `/connection add`"
     connectChannel:
-      title: Connect a Channel
-      description: "Run `/connection add` in the channel you want to use, then choose a hub.\n\nExamples:\n- `/connection add hub:MyHub`\n- `/connection add invite:abc123 channel:#general`"
-      permissionsHint: "Requires **Manage Channels** (you) and **Manage Webhooks** + **Send Messages** (me in the target channel)."
-    footer: You can join more hubs anytime.
+      title: Conectar un Canal
+      description: "Ejecuta `/connection add` en el canal que quieras usar y después escoge un hub.\n\nEjemplos:\n- `/connection add hub:MiHub`\n- `/connection add invite:abc123 channel:#general`"
+      permissionsHint: "Requiere **Administrar Canales** (tu) y **Administrar Webhooks** + **Enviar Mensajes** (yo en el canal de destino)."
+    footer: Puedes unirte a más hubs cuando quieras.
   buttons:
     getStarted: Iniciar Asistente
-    connectHere: Connect Here
+    connectHere: Conectar Aquí
     createHub: Crear Hub
     discoverHubs: Descubrir Hubs Públicos
     useDefault: Usar Predeterminado
     skipForNow: Omitir por Ahora
   errors:
-    wizardOwnerOnly: "{x_icon} You can't use this setup wizard."
-  footer: "InterChat Setup • {guildName}"
+    wizardOwnerOnly: "{x_icon} No puedes usar este asistente de instalación."
+  footer: "Instalación de InterChat • {guildName}"
 help:
   title: Comandos de InterChat
-  description: Explore our wide range of commands to help you connect with others.
+  description: Explora nuestra amplia gama de comandos para ayudarte a conectar con otros.
   name: Ayuda
 preferences:
   title: Preferencias de Usuario
-  description: Edit your personal global settings.
+  description: Edita tu configuración personal global.
   replyMentions:
     title: "Preferencias: Mencionar al Responder"
     description: You will now be **{status}** when someone replies to your messages.
@@ -833,7 +833,7 @@ hub:
       errors:
         ruleNotFound: Invalid rule selection.
         invalidRuleSelection: Invalid rule selection.
-        processingError: An error occurred while processing your request. Please try again.
+        processingError: Hubo un error al procesar tu solicitud. Por favor inténtalo de nuevo.
         refreshError: An error occurred while refreshing.
         deletionCancelled: Cancelled
         deletionCancelledDescription: Rule deletion has been cancelled.
