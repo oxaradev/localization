@@ -210,13 +210,13 @@ preferences:
   description: Edita tu configuración personal global.
   replyMentions:
     title: "Preferencias: Mencionar al Responder"
-    description: You will now be **{status}** when someone replies to your messages.
-    currentDescription: Currently you are **{status}** when replied to.
+    description: Ahora estarás **{status}** cuando alguien responda a tus mensajes.
+    currentDescription: Ahora mismo estás **{status}** cuando respondiste.
     mentioned: mencionado
     notMentioned: no mencionado
   general:
     title: Preferencias Generales
-    description: Configure general preferences within InterChat.
+    description: Configurar preferencias generales en InterChat.
   locale:
     title: Selección de Idioma
     description: Selecciona tu idioma preferido para InterChat.
@@ -224,8 +224,8 @@ preferences:
     category: Selecciona una categoría
   badges:
     title: "Preferencias: Insignias"
-    description: Your badges are now **{status}** within your messages.
-    currentDescription: Currently your badges are **{status}** within your messages.
+    description: Ahora tus insignias son **{status}** en tus mensajes.
+    currentDescription: Ahora tus insignias son **{status}** en tus mensajes.
     visible: visibles
     hidden: ocultas
   voteReminders:
@@ -236,15 +236,15 @@ preferences:
     dm:
       title: '¡Es hora de votar por InterChat!'
       description: '¡Tu apoyo ayuda a InterChat a crecer! ¡Vota en top.gg para ayudarnos!'
-      reminderInfo: You receive this reminder because you've voted before.
+      reminderInfo: Has recibido este recordatorio porque has votado previamente.
       disableConfirm:
         title: Recordatorios de Voto Desactivados
-        description: You will no longer receive vote reminder DMs.
+        description: Ya no recibirás recordatorios de votar por MD.
   errors:
     noPreferences: Aún no tienes ninguna preferencia establecida.
 appeal:
   title: Tus Infracciones Apelables
-  description: Select an infraction below to submit an appeal.
+  description: Selecciona una infracción abajo para enviar una apelación.
   noInfractions:
     title: Sin Infracciones Activas
     description: No tienes infracciones activas que puedan ser apeladas.
@@ -278,8 +278,8 @@ appeal:
       label: Razón (Opcional)
       placeholder: Explica tu decisión...
   dm:
-    accepted: Your appeal regarding a moderation action{hubName} has been accepted.
-    declined: Your appeal regarding a moderation action{hubName} has been declined.
+    accepted: Tu apelación respecto a una acción que se tomó en relación a la moderación, "{hubName}", ha sido aceptada.
+    declined: Tu apelación respecto a una acción que se tomó en relación a la moderación, "{hubName}", fue rechazada.
     moderatorNote: "Nota del moderador: {reason}"
   embed:
     noInfractions:
@@ -297,7 +297,7 @@ appeal:
 report:
   title: Reportar Mensaje
   footer: Los reportes ayudan a mantener InterChat seguro para todos
-  description: Report {user} to Hub Staff or InterChat Staff.
+  description: Denunciar a {user} al Hub Staff o al staff de InterChat.
   buttons:
     toStaff: Reportar al Staff
     toHub: Reportar al Hub
