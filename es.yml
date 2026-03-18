@@ -158,14 +158,16 @@ botLanding:
     {dot} **New here?** The `/setup` command provides a step-by-step guide.
     {dot} **Ready to explore?** Visit our [discovery page](https://interchat.dev/hubs).
   hubs: |
-    **Hubs** - Multi-Server, always on connections. You can connect your channel to across server group (hubs) from our list of growing community hubs, and chat away with amazing people inside!
+    ## {emoji} Hubs
+    Multi-Server, always on connections. You can connect your channel to across server group (hubs) from our list of growing community hubs, and chat away with amazing people inside!
   calls: |
-    **Calls** (BETA) - Private, one-on-one instant connections. Privacy-first by design. Built on Conversations stay private unless reported.
+    ## {emoji} Calls (BETA)
+    Private, one-on-one instant connections. Privacy-first by design, conversations stay private unless reported.
     -# PS. Beta phase. If you're here early, you're shaping the future of it. Early adopters may also get rewards
   closing: |
     Plug into a Hub. Launch a Call. Turn your server into something bigger than itself.
 
-    Built by humans, for humans,
+    Built by humans, for humans.
     —Oxara Development
 setup:
   welcome:
