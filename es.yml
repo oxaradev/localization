@@ -311,33 +311,33 @@ report:
       placeholder: Por favor describe por qué estás reportando este mensaje...
   success:
     title: Reporte Enviado
-    toStaff: "{tick} Your report has been sent to InterChat staff."
-    toHub: "{tick} Your report has been sent to hub moderators."
+    toStaff: "{tick} Tu denuncia se ha enviado al equipo de InterChat."
+    toHub: "{tick} Tu denuncia se ha enviado a los moderadores del hub."
   errors:
     hubMessageOnly: "{x_icon} Solo puedes reportar mensajes enviados a través de Hubs de InterChat."
     cannotReportSelf: "{x_icon} No puedes reportar tus propios mensajes."
 hubConfig:
   general:
-    placeholder: Select a setting to configure...
-    summaryDescription: A summary of your hub's general settings.
-    hubIdentity: Hub Identity
+    placeholder: Selecciona un ajuste para configurar...
+    summaryDescription: Un resumen de los ajustes generales de tu hub.
+    hubIdentity: Identidad del Hub
     fields:
-      name: "Name:"
-      description: "Description:"
-      rating: "Rating:"
-      visibility: "Visibility:"
-    editOnDashboard: Edit on Dashboard
-    noDescription: "*No description set.*"
-    properties: Properties
+      name: "Nombre:"
+      description: "Descripción:"
+      rating: "Reseña:"
+      visibility: "Visibilidad:"
+    editOnDashboard: Editar en el Dashboard
+    noDescription: "*Sin descripción.*"
+    properties: Propiedades
     nsfw: '🔞 NSFW'
     familyFriendly: '✅ Family Friendly'
-    lastUpdated: "Last Updated:"
-    descriptionUpdated: Description Updated!
-    descriptionSuccess: Your hub description has been successfully updated.
-    nameUpdated: Name Updated!
-    nameSuccess: Your hub has been renamed to **{name}**.
-    nameCooldownNote: '⚠️ Hub names can only be changed once every 10 days.'
-    welcomeUpdated: Welcome Message Updated!
+    lastUpdated: "Última Actualización:"
+    descriptionUpdated: '¡Descripción Actualizada!'
+    descriptionSuccess: Tu subscripción del hub ha sido actualizada.
+    nameUpdated: '¡Nombre Actualizado!'
+    nameSuccess: Tu hub ha sido renombrado a **{name}**.
+    nameCooldownNote: '⚠️ Los nombres de hubs sólo pueden ser moidificados una vez cada 10 días.'
+    welcomeUpdated: '¡Mensaje de Bienvenida Actualizado!'
     welcomeSuccess: Tu mensaje de bienvenida del hub ha sido actualizado.
     nsfwUpdated: '¡Se ha actualizado el ajuste NSFW!'
     nsfwWarning: '⚠️ Importante'
