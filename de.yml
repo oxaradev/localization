@@ -520,6 +520,7 @@ hubConfig:
       noneToRemove: No safe words to remove
       selectRemove: Select words to remove...
       removed: Removed {count} word(s) from the safe list.
+    proOnly: "Advanced AutoMod is available for Pro hubs only. Upgrade your hub to Pro to configure these rules."
     deleteRule:
       title: Delete Rule
       description: Are you sure you want to delete **{ruleName}**?
@@ -999,6 +1000,8 @@ hub:
       invalidInput: Du hast keine gültige Eingabe gemacht.
       uniqueConstraint: Uh oh! That hub name has already been taken.
       processingError: Something went wrong while creating your hub.
+      hubLimitUpgrade: Upgrade to Core, Plus or Pro to create up to 3 hubs.
+      hubLimitReached: You have reached the maximum number of hubs allowed for your current plan.
   delete:
     description: Dein Hub wurde gelöscht.
   connect:
@@ -1102,6 +1105,10 @@ connection:
   errors:
     notFound: Connection not found.
     serverOnly: This command can only be used in a server.
+    limitReached:
+      title: Connection limit reached
+      upgrade: Upgrade to Plus or Pro to unlock more connections per server.
+      disconnect: Disconnect an existing connection before adding a new one.
   fixAll:
     label: Alle Verbindungen reparieren
   manage:
@@ -1208,6 +1215,10 @@ services:
   moderation:
     defaults:
       noReason: No Reason
+support:
+  priority:
+    standard: Standard
+    premium: "{tier} (priority)"
 badges:
   developer:
     title: InterChat Developer
@@ -1246,6 +1257,11 @@ broadcast:
       reason: Profanity filter blocked message
     videos:
       message: '🚫 Video attachments are not allowed in this hub.'
+      premium: "🚫 Sending videos is available on Plus and Pro plans. Upgrade your plan to share videos through InterChat."
+    externalEmoji:
+      message: "Custom and external emojis are available on Plus and Pro plans. Upgrade your plan to use them in InterChat messages."
+    voice:
+      message: "Voice notes are available on Plus and Pro plans. Upgrade your plan to send voice messages through InterChat."
     messageLength:
       reason: Message Length
       message: Your message length is too long. Please shorten it.
