@@ -471,13 +471,13 @@ hubConfig:
       messageModeration: Canal para logs de mensajes editados/eliminados
     success:
       updated: "¡{type} de configuración actualizada!"
-      updatedDesc: "Logging for **{type}** has been updated successfully."
-      cleared: "{type} configuration cleared!"
-      clearedDesc: "Logging for **{type}** has been cleared."
+      updatedDesc: "Logging para **{type}** ha sido actualizado."
+      cleared: "¡{type} de configuración eliminada!"
+      clearedDesc: "Logging para **{type}** ha sido eliminado."
     errors:
-      selectFirst: Please select a logging type first.
-      updateFailed: Failed to update logging configuration.
-      clearFailed: Failed to clear logging configuration.
+      selectFirst: Por favor selecciona un tipo de logging primero.
+      updateFailed: No se pudo actualizar la configuración de logging.
+      clearFailed: No se pudo borrar la configuración de logging.
   invites:
     create:
       title: Entrada Requerida
@@ -491,40 +491,40 @@ hubConfig:
         label: Expiración
         placeholder: 1w, 3d, 12h (Déjame en blanco para sin expiración)
     errors:
-      invalidUses: Please enter a whole number for uses (or leave blank).
-      invalidExpiry: "Invalid expiry format. Examples: 1w, 3d, 12h."
+      invalidUses: Por favor introduce un número entero para `uses` (o déjalo vacío).
+      invalidExpiry: "El formato de `expiry` (expiración) es inválido. Ejemplos: 1w, 3d, 12h."
   automod:
     createRule:
-      namePlaceholder: Enter rule name...
-      actionDescription: What should happen when this rule is triggered?
-      actionPlaceholder: Select an action...
+      namePlaceholder: Introduce nombre de regla...
+      actionDescription: '¿Qué debería ocurrir cuando esta regla se ejecuta?'
+      actionPlaceholder: Selecciona una acción...
     actions:
-      delete: Delete Message
-      deleteDescription: Delete the message that triggered the rule
-      warn: Warn User
-      warnDescription: Issue a warning to the user
-      alert: Send Alert
-      alertDescription: Send an alert to the logging channel
-    ruleCreated: Rule '{name}' has been created successfully!
+      delete: Borrar Mensaje
+      deleteDescription: Borrar el mensaje desencadenante de la regla
+      warn: Avisar Usuario
+      warnDescription: Enviar un aviso a un usuario
+      alert: Enviar Alerta
+      alertDescription: Enviar una alerta al canal de logs
+    ruleCreated: '¡La regla ''{name}'' se ha creado con éxito!'
     errors:
-      createFailed: Failed to create rule. Please try again.
-      updatePatterns: Failed to update patterns.
-      addWhitelist: Failed to add to safe list.
+      createFailed: No se ha podido crear la regla. Por favor, inténtalo de nuevo más tarde.
+      updatePatterns: No se ha podido actualizar los patrones.
+      addWhitelist: Error al añadir a la lista segura (whitelist).
     editPatterns:
-      description: Enter patterns separated by commas. Use * for wildcards (e.g. bad*, *word*, *bad)
-      placeholder: Enter patterns...
-    patternsSaved: Saved {count} pattern{s}.
+      description: Introduce patrones separados por comas. Usa * para comodines (por ejemplo, a*, *b*, *c)
+      placeholder: Introduce patrones...
+    patternsSaved: Se ha(n) guardado {count} patrón/patrones.
     whitelist:
-      description: Enter a word to add to the safe list
-      added: Added '{word}' to the safe list.
-      noneToRemove: No safe words to remove
-      selectRemove: Select words to remove...
-      removed: Removed {count} word(s) from the safe list.
-    proOnly: "Advanced AutoMod is available for Pro hubs only. Upgrade your hub to Pro to configure these rules."
+      description: Introduce una palabra a añadir a la lista blanca
+      added: Se ha añadido '{word}' a la lista blanca.
+      noneToRemove: No hay palabras seguras para quitar
+      selectRemove: Selecciona palabras para remover...
+      removed: Se ha(n) quitado {count} palabra(s) de la lista blanca.
+    proOnly: "Advanced AutoMod (versión avanzada) solamente está disponible para los hubs Pro.\nActualiza tu hub a Pro para configurar estas reglas."
     deleteRule:
-      title: Delete Rule
-      description: Are you sure you want to delete **{ruleName}**?
-      success: Rule **{ruleName}** has been deleted.
+      title: Eliminar Regla
+      description: '¿Segurx que quieres eliminar **{ruleName}**?'
+      success: La regla **{ruleName}** ha sido eliminada.
       cancelled: Se ha cancelado el borrado de la regla.
 moderation:
   footer:
@@ -605,35 +605,35 @@ moderation:
   actionSelect:
     placeholder: Selecciona una acción de moderación...
   validators:
-    reasonTooShort: "Reason must be at least {min} characters long."
-    reasonTooLong: "Reason must be no more than {max} characters long."
-    durationRequired: "Duration is required for mute actions."
-    durationNotNeeded: "Duration is only needed for mute actions."
-    durationTooShort: "Duration is too short."
-    durationTooLong: "Duration is too long."
-    invalidDurationFormat: "Invalid duration format."
-    noTarget: "No valid target specified for this action."
+    reasonTooShort: "La razón debe tener por lo menos {min} caracteres."
+    reasonTooLong: "La razón no puede tener más de {max} caracteres."
+    durationRequired: "La duración es requerida para las acciones de muteo."
+    durationNotNeeded: "La duración solamente se necesita para las acciones de muteo."
+    durationTooShort: "La duración es demasiado corta."
+    durationTooLong: "La duración es demasiado larga."
+    invalidDurationFormat: "El formato de la duración no es válido."
+    noTarget: "No se ha especificado un objetivo válido para esta acción."
   history:
-    title: "{info_icon} Moderation History"
+    title: "{info_icon} Historial de Moderación"
     noHubSelected: Ningún Hub seleccionado.
-    noTarget: "No target specified."
-    recentInfractions: "Recent Infractions ({count} total)"
-    noInfractions: "No infractions found."
-    recentReports: "Recent Reports ({count} total)"
-    noReports: "No reports found."
-    fetchFailed: "Failed to fetch moderation history."
+    noTarget: "No se ha proporcionado un objetivo."
+    recentInfractions: "Infracciones Recientes ({count} total)"
+    noInfractions: "No se han encontrado infracciones."
+    recentReports: "Denuncias Recientes ({count} total)"
+    noReports: "No se ha encontrado ninguna denuncia."
+    fetchFailed: "Fallo al recuperar el historial de moderación."
   report:
     jumpToMessage: Ir al Mensaje
-    notFound: "Report not found or deleted."
-    noHub: "Unable to determine hub for this report."
-    handledTitle: "Report Handled"
-    handledDesc: "Your report `{id}` has been reviewed and action has been taken."
-    handledFooter: "Thank you for helping keep the hub safe!"
+    notFound: "La denuncia no fue encontrada o fue eliminada."
+    noHub: "No se pudo determinar el hub para esta denuncia."
+    handledTitle: "Denuncia Gestionada"
+    handledDesc: "Tu denuncia `{id}` ha sido revisada y se han tomado acciones."
+    handledFooter: "¡Gracias por ayudarnos a mantener el hub seguro!"
   errors:
     selectedHubNotFound: Hub seleccionado no encontrado.
     unknownAction: Acción desconocida.
     unsupportedAction: Ruta de acción no soportada.
-    openPanelFailed: Unexpected error opening mod panel.
+    openPanelFailed: Fallo inesperado al abrir el panel de moderación.
     notModeratorForHub: No eres moderador de este Hub.
     alreadyState: "{targetType} ya está {state} en este Hub."
     invalidHubData: Datos de Hub inválidos.
@@ -642,15 +642,15 @@ moderation:
     hubNotFoundForMessage: Hub no encontrado para este mensaje.
     noModeratedHubs: No tienes permisos de moderación en ningún Hub.
     noTarget: Por favor especifica un objetivo (usuario/servidor) o responde a un mensaje.
-    actionProcessingFailed: "An error occurred while processing the action."
-    modalOpenFailed: "Failed to open the modal. Please try again."
-    notModerator: "You are not a moderator for any hubs."
-    noHubsAvailable: "No hubs are available for moderation."
+    actionProcessingFailed: "Ha ocurrido un error al procesar la acción."
+    modalOpenFailed: "Error al abrir el modal. Por favor, inténtalo de nuevo."
+    notModerator: "No eres moderador de ningún hub."
+    noHubsAvailable: "No hay hubs disponibles de moderación."
     webhooks:
-      noPermission: "You do not have permission to moderate this hub."
+      noPermission: "No tienes permiso para moderar este hub."
 welcomeMessage:
   title: '¡Bienvenido al Hub de InterChat llamado **{hubName}**!'
-  errorDm: Failed to send welcome message.
+  errorDm: Fallo al enviar el mensaje de bienvenida.
   introText: Ahora estás conectado a una red de servidores. Los mensajes que envíes aquí serán visibles para todos en este Hub.
   quickActions: Acciones Rápidas
   buttons:
@@ -662,18 +662,18 @@ welcomeMessage:
     disconnect: Desconectar
   hubInfo:
     connections: '🔗 Conexiones'
-    hubPageLabel: "{link_icon} Hub Page"
-    hubPageValue: "[View on InterChat]({hubUrl})"
+    hubPageLabel: "{link_icon} Página del Hub"
+    hubPageValue: "[Visualizar en InterChat]({hubUrl})"
   rules:
-    title: "{rules_icon} {hubName} - Rules"
-    guidelines: "Please adhere to the guidelines @ {guidelinesUrl}"
+    title: "{rules_icon} {hubName} - Reglas"
+    guidelines: "Por favor adhiere a las reglas en {guidelinesUrl}"
   errors:
     disconnectPermission:
-      title: "{x_icon} Permission Denied"
-      description: You need the **Manage Channels** permission to disconnect from a hub.
+      title: "{x_icon} Permiso Denegado"
+      description: Necesitas el permiso de **Administrar Canales** para desconectarte de un hub.
   disconnect:
-    successDescription: Successfully disconnected from **{hubName}**.
-    cancelled: Disconnection cancelled.
+    successDescription: Desconectado de **{hubName}**.
+    cancelled: Desconexión cancelada.
   disconnectConfirm:
     title: '¿Desconectar del Hub?'
     description: '¿Estás seguro de que quieres desconectarte de **{hubName}**?'
@@ -693,8 +693,8 @@ infractions:
     userListEmpty: No se encontraron infracciones de usuario para este Hub.
     serverListEmpty: No se encontraron infracciones de servidor para este Hub.
   labels:
-    evidence: Evidence
-    issued: Issued
+    evidence: Evidencia
+    issued: Emitido
   evidence:
     content: Contenido
     author: Autor
@@ -751,10 +751,10 @@ staff:
       connectionsActive: "**{count}** activas"
   user:
     inbox:
-      title: Inbox
-      description: We found some messages from our team for you!
-      emptyTitle: All caught up!
-      emptyDescription: We couldn't find any new announcements for you.
+      title: Bandeja de Entrada
+      description: '¡Hemos encontrado algunos mensajes de nuestro equipo para ti!'
+      emptyTitle: '¡Todo al día!'
+      emptyDescription: No hemos encontrado ningún anuncio nuevo para ti.
     fields:
       name: Nombre
       messages: Mensajes
@@ -766,7 +766,7 @@ staff:
       lastMessage: Último Mensaje
       lastVote: Último Voto
     values:
-      staff: Staff
+      staff: Equipo
       member: Miembro
       messagesSent: "**{count}** enviados"
       reputationPoints: "**{count}** puntos"
@@ -807,36 +807,36 @@ staff:
 hub:
   rules:
     manage:
-      description: Manage your hub's community rules and guidelines below.
-      noRules: No rules have been set for this hub yet.
+      description: Gestiona las reglas de la comunidad de tu hub abajo.
+      noRules: Todavía no se han agregado reglas para este hub.
       addRule:
-        label: Add Rule
+        label: Añadir Regla
         modal:
-          title: Add New Rule
-          placeholder: Enter your new rule here...
+          title: Añadir Nueva Regla
+          placeholder: Introduce tu nueva regla aquí...
       editRule:
         label: Editar
         modal:
-          title: Edit Rule
-          placeholder: Enter your updated rule here...
+          title: Editar Regla
+          placeholder: Introduce tu regla actualizada aquí...
       deleteRule:
-        label: Delete Rule
-        confirmation: Are you sure you want to delete this rule?
+        label: Eliminar Regla
+        confirmation: '¿Segurx que quieres eliminar esta regla?'
       validation:
-        empty: Rule cannot be empty.
-        tooLong: Rule must be {maxLength} characters or less.
-        maxRules: Maximum of {maxRules} rules allowed.
+        empty: La regla no puede estar vacía.
+        tooLong: La regla debe tener {maxLength} o menos caracteres.
+        maxRules: Se ha alcanzado el límite de {maxRules} reglas.
       success:
-        added: Rule added successfully!
-        updated: Rule updated successfully!
-        deleted: Rule deleted successfully!
+        added: '¡Se ha agregado la regla!'
+        updated: '¡Se ha actualizado la regla!'
+        deleted: '¡Se ha eliminado la regla!'
       errors:
-        ruleNotFound: Invalid rule selection.
-        invalidRuleSelection: Invalid rule selection.
+        ruleNotFound: Selección de regla inválida.
+        invalidRuleSelection: Selección de regla inválida.
         processingError: Hubo un error al procesar tu solicitud. Por favor inténtalo de nuevo.
-        refreshError: An error occurred while refreshing.
-        deletionCancelled: Cancelled
-        deletionCancelledDescription: Rule deletion has been cancelled.
+        refreshError: Ha ocurrido un error durante la recarga.
+        deletionCancelled: Cancelado
+        deletionCancelledDescription: El borrado de la regla ha sido cancelado.
         noHub: This command must be used in a connected channel or specify a hub name.
         notConnected: This channel is not connected to any hub.
       warnings:
@@ -844,7 +844,7 @@ hub:
         deleteWarningDescription: This action cannot be undone.
       display:
         noRulesTitle: No Rules Set
-        noRulesDescription: No rules have been set for this hub yet.
+        noRulesDescription: Todavía no se han agregado reglas para este hub.
         rulesCount: "{count} of {max} rules used"
         ruleHeading: "Rule {number}"
         truncated: Full text will be shown when editing
