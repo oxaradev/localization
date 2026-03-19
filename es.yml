@@ -452,25 +452,25 @@ hubConfig:
     messageModeration: Moderación de Mensajes
     title: Configuración de Logging del Hub
     description: Configura los canales para logging y los roles de notificación.
-    selectPlaceholder: Select logging type to configure...
-    selectChannel: Select a channel for logging...
-    selectRole: Select a role for notifications (optional)...
+    selectPlaceholder: Selecciona el tipo de log a configurar...
+    selectChannel: Selecciona un canal para los logs...
+    selectRole: Selecciona un rol para las notificaciones (opcional)...
     notConfigured: No configurado
-    noRole: No role
-    role: Role
-    currentConfig: Current Configuration
-    footerHint: Select a logging type above to configure
-    configureTitle: Configure {type}
-    configureDescription: Select a channel and optionally a role for notifications below.
+    noRole: Ningún rol
+    role: Rol
+    currentConfig: Configuración Actual
+    footerHint: Selecciona un tipo de logging de arriba para configurar
+    configureTitle: Configurar {type}
+    configureDescription: Selecciona abajo un canal y opcionalmente un rol para las notificaciones.
     descriptions:
-      moderation: Channel for moderation actions (warns, bans, mutes)
-      joinLeave: Channel for hub connection events
-      appeals: Channel for appeal notifications
-      reports: Channel for user reports
-      networkAlerts: Channel for network-wide alerts and issues
-      messageModeration: Channel for message edit/delete logs
+      moderation: Canal para las acciones de moderación (avisos, baneos, mutes)
+      joinLeave: Canal para los eventos de cuando se conectan los hubs
+      appeals: Canal para notificaciones de apelaciones
+      reports: Canal para denuncias de usuarios
+      networkAlerts: Canal para alertas de red y problemas
+      messageModeration: Canal para logs de mensajes editados/eliminados
     success:
-      updated: "{type} configuration updated!"
+      updated: "¡{type} de configuración actualizada!"
       updatedDesc: "Logging for **{type}** has been updated successfully."
       cleared: "{type} configuration cleared!"
       clearedDesc: "Logging for **{type}** has been cleared."
