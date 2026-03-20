@@ -837,52 +837,52 @@ hub:
         refreshError: Ha ocurrido un error durante la recarga.
         deletionCancelled: Cancelado
         deletionCancelledDescription: El borrado de la regla ha sido cancelado.
-        noHub: This command must be used in a connected channel or specify a hub name.
-        notConnected: This channel is not connected to any hub.
+        noHub: Este comando debe ser usado en un canal conectado o un nombre de un hub específico.
+        notConnected: Este canal no está conectado a ningún hub.
       warnings:
-        deleteWarning: Warning
-        deleteWarningDescription: This action cannot be undone.
+        deleteWarning: Advertencia
+        deleteWarningDescription: Esta acción no se puede deshacer.
       display:
-        noRulesTitle: No Rules Set
+        noRulesTitle: No hay Reglas
         noRulesDescription: Todavía no se han agregado reglas para este hub.
-        rulesCount: "{count} of {max} rules used"
-        ruleHeading: "Rule {number}"
-        truncated: Full text will be shown when editing
+        rulesCount: "{count} de {max} reglas usadas"
+        ruleHeading: "Regla {number}"
+        truncated: El texto entero se mostrará al editarlo
     accept:
       buttons:
-        accept: Accept Rules
+        accept: Aceptar Reglas
       titles:
-        accepted: Rules Accepted
-        declined: Rules Not Accepted
-        changedMind: '💡 Changed your mind?'
+        accepted: Reglas Aceptadas
+        declined: Reglas No Aceptadas
+        changedMind: '¿Has cambiado de opinión?'
       messages:
-        accepted: "Thank you for accepting the rules for **{hubName}**!"
-        declined: "You have chosen not to accept the rules for **{hubName}** at this time."
-        changedMind: "Send another message in this channel to see the rules again and accept them."
+        accepted: "¡Gracias por aceptar las reglas de **{hubName}**!"
+        declined: "Has elegido no aceptar las reglas de **{hubName}** en este momento."
+        changedMind: "Envía otro mensaje en este canal para ver las reglas otra vez y aceptarlas."
       footer:
-        welcome: Welcome to the community!
+        welcome: '¡Bienvenidx a la comunidad!'
       errors:
-        failed: Something went wrong while processing your rule acceptance.
+        failed: Algo ha ocurrido al procesar la aceptación de tu norma.
   lock:
     announceTitle: Hub Bloqueado
-    announceDescription: "This hub has been locked by a moderator.\n\nOnly moderators can send messages now."
+    announceDescription: "Este hub ha sido bloqueado por un moderador.\n\nSólo los moderadores pueden enviar mensajes ahora."
   unlock:
     announceTitle: Hub Desbloqueado
-    announceDescription: "This hub has been unlocked. Invites and messages are now enabled."
-    successDescription: "**{hub}** has been unlocked. New members can now join."
+    announceDescription: "Este hub ha sido desbloqueado. Las invitaciones y los mensajes están ahora habilitadxs."
+    successDescription: "**{hub}** ha sido desbloqueado. Nuevos miembros pueden unirse ahora."
   announcement:
-    webhookUsername: "{hubName} | Hub Announcement"
-    officialTitle: "{hubName} | Official Hub Announcement"
-    disclaimer: "This announcement was sent by hub officials - not InterChat staff"
+    webhookUsername: "{hubName} | Anuncio del Hub"
+    officialTitle: "{hubName} | Anuncio Oficial del Hub"
+    disclaimer: "Este anuncio fue enviado por los oficiales del hub - no el equipo de InterChat"
   invites:
     title: Invitaciones Activas
     noneFound: '¡Ninguna encontrada!'
     inviteUses: "**Usos:**"
     inviteExpire: "**Expira:**"
     titles:
-      generated: Generated!
+      generated: '¡Generado!'
     messages:
-      generated: "{tick} `{code}` can now be used {uses} time(s) to join your hub."
+      generated: "{tick} `{code}` puede ahora ser usado {uses} vez/veces para unirse a tu hub."
       generatedUnlimited: "{tick} `{code}` can now be used to join your hub."
       howToUse: "Next step: connect a channel with `/connection add invite:{code}`"
     footer:
