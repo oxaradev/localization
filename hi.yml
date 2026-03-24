@@ -12,12 +12,12 @@ common:
     lastActive: अंतिम बार सक्रिय
     unknown: अज्ञात
     unknownHub: Unknown Hub
-    language: Language
+    language: भाषा 
     locked: Locked
     nsfw: NSFW
     visibility: Visibility
-    "yes": "Yes"
-    "no": "No"
+    "yes": "हाँ"
+    "no": "नहीं"
     none: कोई नहीं
     noneSpecified: None Specified
     tryAgain: Please try again
