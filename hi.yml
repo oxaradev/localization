@@ -65,9 +65,9 @@ common:
       firstPage: "आप पहले से ही पहले पृष्ठ पर हैं।"
       lastPage: "आप पहले से ही अंतिम पृष्ठ पर हैं।"
     page: पेज {current}/{total}
-    pageOf: Page {current} of {total}
-    alreadyFirst: Already on the first page.
-    alreadyLast: Already on the last page.
+    pageOf: '{total} में से पृष्ठ {current}'
+    alreadyFirst: पहले से ही पहले पृष्ठ पर हैं।
+    alreadyLast: पहले से ही अंतिम पृष्ठ पर हैं।
   placeholders:
     select: एक विकल्प चुनें
     type: यहाँ टाइप करें...
