@@ -3,32 +3,32 @@ common:
     error: त्रुटि (Error)!
     success: सफल!
     cancelled: रद्द किया गया!
-    feedback: Feedback Received
-    validationError: Validation Error
+    feedback: सुझाव प्राप्त हुई
+    validationError: मान्यता त्रुटि
   labels:
     date: दिनांक
     loading: लोड हो रहा है...
     pleaseWait: कृपया प्रतीक्षा करें...
     lastActive: अंतिम बार सक्रिय
     unknown: अज्ञात
-    unknownHub: Unknown Hub
+    unknownHub: अज्ञात हब
     language: भाषा 
-    locked: Locked
+    locked: लॉक्ड
     nsfw: NSFW
-    visibility: Visibility
+    visibility: दृश्यमान
     "yes": "हाँ"
     "no": "नहीं"
     none: कोई नहीं
-    noneSpecified: None Specified
-    tryAgain: Please try again
-    noReason: No Reason
+    noneSpecified: निर्दिष्ट नहीं
+    tryAgain: कृपया दोबारा प्रयास करें
+    noReason: कोई कारण नहीं
     roles:
-      owner: Owner
+      owner: मालिक
       member: सदस्य
       moderator: मॉडरेटर
-    note: Note
+    note: नोट
     never: कभी नहीं
-    lastUpdated: Last Updated
+    lastUpdated: पिछला अपडेट
   buttons:
     back: वापस (Back)
     next: अगला (Next)
@@ -42,28 +42,28 @@ common:
     invite: InterChat को आमंत्रित करें
     dashboard: डैशबोर्ड खोलें
     support: Support से जुड़ें
-    edit: Edit
-    save: Save
-    apply: Apply Changes
-    close: Close
-    search: Search
-    jumpToMessage: Jump to Message
-    maybeLater: Maybe Later
-    show: Show
-    hide: Hide
-    enable: Enable
-    disable: Disable
-    continue: Continue
-    start: Start
-    stop: Stop
-    join: Join
-    accept: Accept
-    decline: Decline
+    edit: बदलें
+    save: सेव करें
+    apply: बदलाव लागू करें
+    close: बंद करे
+    search: खोजें
+    jumpToMessage: संदेश पर जाएं
+    maybeLater: शायद बाद में
+    show: दिखाएं
+    hide: छिपाएं
+    enable: सक्षम
+    disable: अक्षम
+    continue: जारी रखें
+    start: शुरु
+    stop: रुकें
+    join: जुड़ें
+    accept: स्वीकार
+    decline: इनकार
   pagination:
-    footer: "Page {current} of {total} • {count} total items"
+    footer: "{total} में से पृष्ठ {current} • कुल {count} आइटम"
     errors:
-      firstPage: "You're already on the first page."
-      lastPage: "You're already on the last page."
+      firstPage: "आप पहले से ही पहले पृष्ठ पर हैं।"
+      lastPage: "आप पहले से ही अंतिम पृष्ठ पर हैं।"
     page: पेज {current}/{total}
     pageOf: Page {current} of {total}
     alreadyFirst: Already on the first page.
@@ -268,7 +268,7 @@ appeal:
     cooldown: कूलडाउन
     canAppeal: अपील करने योग्य
   constants:
-    noReason: No Reason
+    noReason: कोई कारण नहीं
   fields:
     date: "दिनांक:"
     reason: "कारण:"
@@ -623,7 +623,7 @@ moderation:
     noReports: "No reports found."
     fetchFailed: "Failed to fetch moderation history."
   report:
-    jumpToMessage: Jump to Message
+    jumpToMessage: संदेश पर जाएं
     notFound: "Report not found or deleted."
     noHub: "Unable to determine hub for this report."
     handledTitle: "Report Handled"
@@ -736,7 +736,7 @@ staff:
       verified: Verified
       partnered: Partnered
       featured: Featured
-      locked: Locked
+      locked: लॉक्ड
       nsfw: NSFW
   server:
     fields:
@@ -815,7 +815,7 @@ hub:
           title: Add New Rule
           placeholder: Enter your new rule here...
       editRule:
-        label: Edit
+        label: बदलें
         modal:
           title: Edit Rule
           placeholder: Enter your updated rule here...
@@ -1214,7 +1214,7 @@ services:
       noDescription: No description provided.
   moderation:
     defaults:
-      noReason: No Reason
+      noReason: कोई कारण नहीं
 support:
   priority:
     standard: Standard
