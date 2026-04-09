@@ -1254,12 +1254,12 @@ broadcast:
       message: "🚫 Tu mensaje fue bloqueado por los filtros de InterChat (razón: detección de NSFW)"
     profanity:
       message: '🚫 Tu mensaje fue bloqueado por el filtro de profanidad del hub.'
-      reason: Profanity filter blocked message
+      reason: Mensaje bloqueado por el filtro de profanidad
     videos:
-      message: '🚫 Video attachments are not allowed in this hub.'
-      premium: "🚫 Sending videos is available on Plus and Pro plans. Upgrade your plan to share videos through InterChat."
+      message: '🚫 Los vídeos adjuntos no están permitidos en este hub.'
+      premium: "🚫 El envío de vídeos está disponible en planes Plus y Pro. Actualiza tu plan para compartir vídeos a través de InterChat."
     externalEmoji:
-      message: "Custom and external emojis are available on Plus and Pro plans. Upgrade your plan to use them in InterChat messages."
+      message: "Los emojis personalizados y externos están disponibles en los planes Plus y Pro. Mejora tu plan para usarlos en los mensajes de InterChat."
     voice:
       message: "Voice notes are available on Plus and Pro plans. Upgrade your plan to send voice messages through InterChat."
     messageLength:
