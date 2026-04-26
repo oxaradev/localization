@@ -139,11 +139,36 @@ about:
       - Build engaged topic-focused communities
       - Moderation tools to keep discussions healthy
       - Visual dashboard to manage your hubs, servers, and settings
+  gettingStarted:
+    title: Getting Started
+    steps: |
+      - Run `/setup` to get connected
+      - Browse public hubs with `/hub discover`
+      - Join a hub in a channel with `/connection add hub:<name>`
+      - Join a private hub with `/connection add invite:<code>`
   buttons:
     shardInfo: Shard Info
 botLanding:
-  title: "👋 Hey da!"
-  description: "**I'm InterChat, and I'm pleased to be on your server.**\n\nReady to start building new bridges?\n\n{dot} **New here?** The `/setup` command provides a step-by-step guide.\n{dot} **Ready to explore?** Visit our [discovery page](https://interchat.dev/hubs)."
+  title: '👋 Hey da!'
+  description: |
+    **I'm InterChat, and I'm pleased to be on your server.**
+
+    Ready to start building new bridges?
+
+    {dot} **New here?** The `/setup` command provides a step-by-step guide.
+    {dot} **Ready to explore?** Visit our [discovery page](https://interchat.dev/hubs).
+  hubs: |
+    ## {emoji} Hubs
+    Multi-Server, always on connections. You can connect your channel to across server group (hubs) from our list of growing community hubs, and chat away with amazing people inside!
+  calls: |
+    ## {emoji} Calls (BETA)
+    Private, one-on-one instant connections. Privacy-first by design, conversations stay private unless reported.
+    -# PS. Beta phase. If you're here early, you're shaping the future of it. Early adopters may also get rewards
+  closing: |
+    Plug into a Hub. Launch a Call. Turn your server into something bigger than itself.
+
+    Built by humans, for humans.
+    —Oxara Development
 setup:
   welcome:
     title: Willkommen beim InterChat Setup
@@ -161,9 +186,14 @@ setup:
     privateHubs:
       title: Privat oder nur auf Einladung
       description: "**Ask the hub owner** for an invite code or run `/connection add`"
+    connectChannel:
+      title: Connect a Channel
+      description: "Run `/connection add` in the channel you want to use, then choose a hub.\n\nExamples:\n- `/connection add hub:MyHub`\n- `/connection add invite:abc123 channel:#general`"
+      permissionsHint: "Requires **Manage Channels** (you) and **Manage Webhooks** + **Send Messages** (me in the target channel)."
     footer: You can join more hubs anytime.
   buttons:
     getStarted: Setup-Assistent starten
+    connectHere: Connect Here
     createHub: Hub erstellen
     discoverHubs: Öffentliche Hubs entdecken
     useDefault: Standard verwenden
@@ -256,8 +286,8 @@ appeal:
       title: Blitzsauber!
       description: Keine anfechtbaren Verstöße gefunden.
     footer:
-      canAppeal: "💡 Du kannst gegen {count} Verstoß/Verstöße Einspruch erheben. Benutze das Auswahlmenü unten."
-      checkLater: "💡 Schau später vorbei, wenn Abklingzeiten abgelaufen sind oder Einsprüche geprüft wurden."
+      canAppeal: '💡 Du kannst gegen {count} Verstoß/Verstöße Einspruch erheben. Benutze das Auswahlmenü unten.'
+      checkLater: '💡 Schau später vorbei, wenn Abklingzeiten abgelaufen sind oder Einsprüche geprüft wurden.'
   errors:
     nothingSelected: Nichts wurde ausgewählt.
     modalError: Einspruchs-Fenster konnte nicht geöffnet werden.
@@ -299,29 +329,29 @@ hubConfig:
     editOnDashboard: Edit on Dashboard
     noDescription: "*No description set.*"
     properties: Properties
-    nsfw: "🔞 NSFW"
-    familyFriendly: "✅ Family Friendly"
+    nsfw: '🔞 NSFW'
+    familyFriendly: '✅ Family Friendly'
     lastUpdated: "Last Updated:"
     descriptionUpdated: Description Updated!
     descriptionSuccess: Your hub description has been successfully updated.
     nameUpdated: Name Updated!
     nameSuccess: Your hub has been renamed to **{name}**.
-    nameCooldownNote: "⚠️ Hub names can only be changed once every 10 days."
+    nameCooldownNote: '⚠️ Hub names can only be changed once every 10 days.'
     welcomeUpdated: Welcome Message Updated!
     welcomeSuccess: Your hub welcome message has been successfully updated.
     nsfwUpdated: NSFW Setting Updated!
-    nsfwWarning: "⚠️ Important"
+    nsfwWarning: '⚠️ Important'
     nsfwWarningDesc: Your hub is now marked as NSFW and may be filtered from searches.
     sfwConfirmDesc: Your hub is now marked as safe for work.
     visibilityUpdated: Visibility Updated!
     visibilitySuccess: "Your hub is now: **{status}**"
     visibilityMeaning: ℹ️ What this means
     visibility:
-      public: "🌐 Öffentlich"
+      public: '🌐 Öffentlich'
       publicDesc: Discoverable on the hub directory.
-      unlisted: "👁️ Ungelistet"
+      unlisted: '👁️ Ungelistet'
       unlistedDesc: Not in directory but anyone can join via ID/link.
-      private: "🔒 Privat"
+      private: '🔒 Privat'
       privateDesc: Invite-only, not listed publicly.
     editDescription:
       label: Beschreibung bearbeiten
@@ -347,7 +377,7 @@ hubConfig:
     changeVisibility:
       label: Sichtbarkeit ändern
       description: Wechsle zwischen Öffentlich, Ungelistet oder Privat
-      title: "🔐 Change Hub Visibility"
+      title: '🔐 Change Hub Visibility'
       desc: "Select the visibility level for your hub:"
     errors:
       nameCooldown: Name Change on Cooldown
@@ -356,6 +386,7 @@ hubConfig:
       invalidNameDesc: Hub name cannot be empty.
       nameTaken: Name Already Taken
       nameTakenDesc: The name **{name}** is already used.
+    rulesCount: "{count}/{max} rules configured"
   permissions:
     remove:
       label: Entfernen
@@ -426,6 +457,8 @@ hubConfig:
     selectRole: Select a role for notifications (optional)...
     notConfigured: Nicht konfiguriert
     noRole: No role
+    role: Role
+    currentConfig: Current Configuration
     footerHint: Select a logging type above to configure
     configureTitle: Configure {type}
     configureDescription: Select a channel and optionally a role for notifications below.
@@ -438,7 +471,9 @@ hubConfig:
       messageModeration: Channel for message edit/delete logs
     success:
       updated: "{type} configuration updated!"
+      updatedDesc: "Logging for **{type}** has been updated successfully."
       cleared: "{type} configuration cleared!"
+      clearedDesc: "Logging for **{type}** has been cleared."
     errors:
       selectFirst: Please select a logging type first.
       updateFailed: Failed to update logging configuration.
@@ -451,11 +486,13 @@ hubConfig:
         placeholder: abc123
       uses:
         label: Verwendungen
-        guidelines: "Please adhere to the guidelines @ {guidelinesUrl}"
         placeholder: Lass mich leer für unendlich
       expiry:
         label: Ablaufdatum
         placeholder: 1w, 3d, 12h (Lass mich leer für kein Ablaufdatum)
+    errors:
+      invalidUses: Please enter a whole number for uses (or leave blank).
+      invalidExpiry: "Invalid expiry format. Examples: 1w, 3d, 12h."
   automod:
     createRule:
       namePlaceholder: Enter rule name...
@@ -483,6 +520,7 @@ hubConfig:
       noneToRemove: No safe words to remove
       selectRemove: Select words to remove...
       removed: Removed {count} word(s) from the safe list.
+    proOnly: "Advanced AutoMod is available for Pro hubs only. Upgrade your hub to Pro to configure these rules."
     deleteRule:
       title: Delete Rule
       description: Are you sure you want to delete **{ruleName}**?
@@ -508,14 +546,14 @@ moderation:
     missing: Bitte gib entweder einen Nutzer oder einen Server an.
   revoke:
     noActive: Kein aktiver {action} gefunden.
-    success: "{action} widerrufen."
+    success: '{action} widerrufen.'
   delete:
     success: Nachricht wurde aus allen verbundenen Hubs gelöscht.
     notInterChatMessage: Diese Nachricht ist keine InterChat-Nachricht oder wurde bereits gelöscht.
   blacklist:
     permissionDenied: Dir fehlen die InterChat-Team-Berechtigungen, um eine globale Blacklist zu erteilen.
     alreadyActive: Ziel hat bereits eine aktive globale Blacklist.
-    success: "{target} wurde global geblacklistet."
+    success: '{target} wurde global geblacklistet.'
   success:
     action: "{target} wurde {action} {prep} {hubName}"
   actions:
@@ -623,7 +661,19 @@ welcomeMessage:
     support: Support
     disconnect: Trennen
   hubInfo:
-    connections: "🔗 Verbindungen"
+    connections: '🔗 Verbindungen'
+    hubPageLabel: "{link_icon} Hub Page"
+    hubPageValue: "[View on InterChat]({hubUrl})"
+  rules:
+    title: "{rules_icon} {hubName} - Rules"
+    guidelines: "Please adhere to the guidelines @ {guidelinesUrl}"
+  errors:
+    disconnectPermission:
+      title: "{x_icon} Permission Denied"
+      description: You need the **Manage Channels** permission to disconnect from a hub.
+  disconnect:
+    successDescription: Successfully disconnected from **{hubName}**.
+    cancelled: Disconnection cancelled.
   disconnectConfirm:
     title: Vom Hub trennen?
     description: Bist du sicher, dass du die Verbindung zu **{hubName}** trennen möchtest?
@@ -795,13 +845,16 @@ hub:
       display:
         noRulesTitle: No Rules Set
         noRulesDescription: No rules have been set for this hub yet.
+        rulesCount: "{count} of {max} rules used"
+        ruleHeading: "Rule {number}"
+        truncated: Full text will be shown when editing
     accept:
       buttons:
         accept: Accept Rules
       titles:
         accepted: Rules Accepted
         declined: Rules Not Accepted
-        changedMind: "💡 Changed your mind?"
+        changedMind: '💡 Changed your mind?'
       messages:
         accepted: "Thank you for accepting the rules for **{hubName}**!"
         declined: "You have chosen not to accept the rules for **{hubName}** at this time."
@@ -830,6 +883,10 @@ hub:
       generated: Generated!
     messages:
       generated: "{tick} `{code}` can now be used {uses} time(s) to join your hub."
+      generatedUnlimited: "{tick} `{code}` can now be used to join your hub."
+      howToUse: "Next step: connect a channel with `/connection add invite:{code}`"
+    footer:
+      hub: "Hub: {hubName}"
   info:
     titles:
       rules: Rules for {hubName}
@@ -843,12 +900,13 @@ hub:
     stats: Stats
   events:
     serverJoined:
-      title: "🎉 Neuer Server beigetreten!"
+      title: '🎉 Neuer Server beigetreten!'
       description: "**{serverName}** has joined the hub!"
       footer: Willkommen im {hubName}!
   create:
     title: Erstelle deinen Hub
-    description: Create your own InterChat hub for a community.
+    description: |
+      Create your own InterChat hub for a community.
   wizard:
     start: Beginne mit der Erstellung deines Hubs
     name:
@@ -859,13 +917,25 @@ hub:
     description:
       label: Vollständige Beschreibung
       placeholder: Beschreibe deinen Hub im Detail (20-1000 Zeichen)
+    visibility:
+      unlisted:
+        desc: Not in directory.
+      public:
+        desc: Discoverable.
+      private:
+        desc: Invite-only.
     steps:
       progress: Schritt {current}/{total}
       step1:
         modalTitle: "Schritt 1/7: Hub-Details"
+        visibilityLabel: Hub Visibility
+        visibilityPlaceholder: Select Hub Visibility...
       step2:
         title: Hub Logo
-        description: "Add a logo for your hub!\n\n-# 💡 *Tip: Use an image URL or choose the default bot avatar.*"
+        description: |
+          Add a logo for your hub!
+
+          -# 💡 *Tip: Use an image URL or choose the default bot avatar.*
         modalTitle: "Schritt 2/7: Logo"
         logoUrlLabel: Logo URL
         logoUrlPlaceholder: https://beispiel.de/logo.png
@@ -874,38 +944,32 @@ hub:
       step3:
         title: Hub Visibility
         description: "Choose your hub's visibility:\n\n🔓 **Public**: Discoverable.\n👁️ **Unlisted**: Not in directory.\n🔒 **Private**: Invite-only.\n\n-# 💡 *Tip: You can change this later in hub settings.*"
-        publicButton: Öffentlich
-        unlistedButton: Ungelistet
-        privateButton: Privat
-      step4:
-        title: Community-Regeln
-        description: Lege Community-Richtlinien für deinen Hub fest.
-        requiredPublic: "**Erforderlich für öffentliche Hubs**"
+        requiredPublic: "**Required for public hubs**"
         optional: (Optional)
-        tip: "-# 💡 *Tipp: Füge eine Regel pro Zeile hinzu. Du kannst bis zu 25 Regeln hinzufügen.*"
-        modalTitle: "Schritt 4/7: Regeln"
-        rulesLabel: Hub-Regeln
+        tip: "-# 💡 *Tip: Add one rule per line. You can add up to 25 rules.*"
+        modalTitle: "Step 3/6: Rules"
+        rulesLabel: Hub Rules
         rulesPlaceholder: |
           1. Be respectful
           2. No spam
           3. Follow Discord ToS
-        addRulesButton: Regeln hinzufügen
+        addRulesButton: Add Rules
+      step4:
+        title: Community-Regeln
+        description: "Lege Community-Richtlinien für deinen Hub fest."
+        modalTitle: "Schritt 4/7: Regeln"
+        welcomePlaceholder: Welcome to {hubName} or our hub!
+        customMessageButton: Custom Message
       step5:
         title: Willkommensnachricht
         description: "Create a welcome message for new members!\n-# 💡 *Tip: Keep it friendly and informative. Max 500 characters.*"
-        modalTitle: "Schritt 5/7: Willkommen"
-        welcomePlaceholder: Welcome to {hubName} or our hub!
-        customMessageButton: Benutzerdefinierte Nachricht
+        modulesPlaceholder: Select modules to enable...
       step6:
-        title: Hub-Funktionen
         description: "Select features to enable for your hub!\n✅ **Pre-selected**: Reactions, Spam Filter (recommended)\n\n-# 💡 *Tip: You can adjust these anytime.*"
-        modulesPlaceholder: Wähle Module zum Aktivieren...
-      step7:
-        description: "Optionally select a channel for moderation logs.\nLogs include: bans, warnings, reports, and other mod actions.\n-# 💡 *Tip: Choose a private staff channel.*"
-        selectChannelButton: Kanal auswählen
-        channelSelectTitle: Logging-Kanal auswählen
-        channelSelectDescription: "Wähle einen Kanal für Moderations-Logs:"
-        channelSelectPlaceholder: Wähle einen Logging-Kanal
+        selectChannelButton: Select Channel
+        channelSelectTitle: Select Logging Channel
+        channelSelectDescription: "Choose a channel for moderation logs:"
+        channelSelectPlaceholder: Select a logging channel
     summary:
       title: Zusammenfassung der Hub-Konfiguration
       description: "Überprüfe deine Hub-Einstellungen vor dem Erstellen:"
@@ -923,9 +987,12 @@ hub:
       dashboardLink: Verwalte deinen Hub
       publicPageLink: Im Verzeichnis ansehen
       nextSteps: Was kommt als Nächstes?
-      step1: "**For Private Hubs: Create an Invite**: `/hub invites hub:{hubName}`"
-      step2: "**Advanced Settings**: `/hub configure {hubName}`"
-      step3: "**Brauchst du Hilfe?**: [Tritt unserem Support-Server bei]({supportInvite})"
+      nextStepsPrivate1: "**Create an Invite**: `/hub manage invites hub:{hubName}`"
+      nextStepsPrivate2: "**Share Code**: Send the invite code to the other server."
+      nextStepsPrivate3: "**Connect**: The other server runs `/connection add invite:<code>`"
+      nextStepsPublic: "**Connect Channels**: Run `/connection add hub:{hubName}` to join!"
+      advancedSettings: "**Advanced Settings**: `/hub config {hubName}`"
+      needHelp: "**Need Help?**: [Join our support server]({supportInvite})"
     cancelled:
       description: Your hub was not created.
     errors:
@@ -933,6 +1000,8 @@ hub:
       invalidInput: Du hast keine gültige Eingabe gemacht.
       uniqueConstraint: Uh oh! That hub name has already been taken.
       processingError: Something went wrong while creating your hub.
+      hubLimitUpgrade: Upgrade to Core, Plus or Pro to create up to 3 hubs.
+      hubLimitReached: You have reached the maximum number of hubs allowed for your current plan.
   delete:
     description: Dein Hub wurde gelöscht.
   connect:
@@ -944,6 +1013,24 @@ hub:
       alreadyConnected:
         title: Bereits mit diesem Hub verbunden
         description: It looks like this server is already connected to this hub.
+      missingInput:
+        title: Missing Information
+        description: "Provide a hub name or an invite code.\n\nTry: `/connection add hub:MyHub` or `/connection add invite:abc123`"
+      hubNotFound:
+        title: Hub Not Found
+        description: "I couldn't find that hub. Check the name, or use `/hub discover` to browse public hubs."
+      invalidInvite:
+        title: Invalid Invite
+        description: "That invite code is invalid or expired. Ask the hub owner for a new invite and try again."
+      channelNotSupported:
+        title: Unsupported Channel
+        description: "Choose a text channel, thread, or forum channel."
+      webhookPerms:
+        title: Missing Permissions
+        description: "I couldn't create webhooks in that channel. I need **Manage Webhooks** and **Send Messages** there."
+      locked:
+        title: Hub gesperrt
+        description: This hub is currently locked and cannot be joined.
   disconnect:
     title: Getrennt!
     description: Vom Hub getrennt.
@@ -970,6 +1057,12 @@ hub:
       logging:
         label: Logging-Konfiguration
         description: Konfiguriere Logging-Kanäle und Benachrichtigungsrollen für deinen Hub
+      automod:
+        label: AutoMod
+        description: Manage anti-swear rules, patterns, and safe list
+      badges:
+        label: Custom Badges
+        description: Configure custom badge visibility
       transfer:
         label: Besitz übertragen
         description: Übertrage den Besitz deines Hubs an eine andere Person
@@ -1012,6 +1105,10 @@ connection:
   errors:
     notFound: Connection not found.
     serverOnly: This command can only be used in a server.
+    limitReached:
+      title: Connection limit reached
+      upgrade: Upgrade to Plus or Pro to unlock more connections per server.
+      disconnect: Disconnect an existing connection before adding a new one.
   fixAll:
     label: Alle Verbindungen reparieren
   manage:
@@ -1118,6 +1215,10 @@ services:
   moderation:
     defaults:
       noReason: No Reason
+support:
+  priority:
+    standard: Standard
+    premium: "{tier} (priority)"
 badges:
   developer:
     title: InterChat Developer
@@ -1137,7 +1238,7 @@ badges:
 broadcast:
   spam:
     mutedMessage: You have been temporarily muted for {minutes} minutes due to spam.
-    warningMessage: "⚠️ You are sending messages too quickly!"
+    warningMessage: '⚠️ You are sending messages too quickly!'
     autoMuteReason: "Auto-Mute: Spam detected"
     autoWarnReason: "Auto-Warn: Spam detected"
   validation:
@@ -1152,10 +1253,15 @@ broadcast:
     nsfw:
       message: "🚫 Your message was blocked by InterChat filters (Reason: NSFW detection)"
     profanity:
-      message: "🚫 Your message was blocked by the hub's profanity filter."
+      message: '🚫 Your message was blocked by the hub''s profanity filter.'
       reason: Profanity filter blocked message
     videos:
-      message: "🚫 Video attachments are not allowed in this hub."
+      message: '🚫 Video attachments are not allowed in this hub.'
+      premium: "🚫 Sending videos is available on Plus and Pro plans. Upgrade your plan to share videos through InterChat."
+    externalEmoji:
+      message: "Custom and external emojis are available on Plus and Pro plans. Upgrade your plan to use them in InterChat messages."
+    voice:
+      message: "Voice notes are available on Plus and Pro plans. Upgrade your plan to send voice messages through InterChat."
     messageLength:
       reason: Message Length
       message: Your message length is too long. Please shorten it.
@@ -1227,3 +1333,88 @@ commands:
     title: Wie man meldet
     description: "Right-click on a message and select **Apps → Report**."
     loadingGif: The GIF above may take a moment to load.
+userphone:
+  tips:
+    friendly: Be friendly. A good hello goes a long way.
+    gifs: Images and GIFs can help break the ice.
+    report: If something feels off, use `/userphone report`.
+    hangup: Ready to leave? Use `/hangup` at any time.
+    shareFacts: Share a fun fact about your server or community.
+    askHobbies: Ask about hobbies, games, or favorite music.
+    shareJoke: A short joke can make the conversation easier.
+    worldwide: You might be talking to someone from anywhere in the world.
+    attachments: You can share images during the call.
+    checkStats: Curious how much you call? Try `/userphone stats`.
+  commands:
+    start:
+      description: Start a userphone call and connect to another server
+    end:
+      description: End the current userphone call
+    skip:
+      description: Skip the current call and look for a new partner
+    block:
+      description: Block a user from connecting to you via userphone
+    unblock:
+      description: Unblock a user from userphone
+    report:
+      description: Report the user you are connected with
+    stats:
+      description: View your userphone statistics
+  status:
+    alreadyInCall: "{cross} This channel is already in a userphone call. Use `/userphone end` to disconnect first."
+    alreadyInCallDuration: "{cross} This channel is already in a userphone call. Current duration: **{duration}**."
+    connected: "{tick} **Connected!** You are now chatting with another server. Say hello!"
+    searching: "{loading} **Searching...** Waiting for another server to pick up. Hang tight!"
+    notInCall: "{cross} This channel is not in a userphone call."
+    notInCallHint: "{cross} This channel is not in a userphone call. Use `/call` to start one."
+    ended: "{tick} Call ended."
+    disconnected: The userphone connection has been disconnected.
+    hungUp: "{info} **The other server has hung up.** The call has ended."
+    partnerDisconnected: "{info} **Partner disconnected.** The other server is no longer available."
+    skipped: "{info} **Call skipped.** The other server moved on to a new call."
+    searchingAfterSkip: "{loading} **Searching again...** Looking for a new server now."
+    waitingInQueue: Waiting in queue for a match...
+  embed:
+    skippedTitle: Call Skipped
+    duration: Dauer
+    startNewCall: Use `/call` to start another call.
+    searchingTitle: Searching for a Call
+    matchNotification: We will notify you as soon as a match is found.
+    cancelHint: Use `/hangup` to cancel the search.
+    connectedTitle: Userphone Connected
+    howItWorks: How it works
+    sendMessages: Send messages here to chat with the other server.
+    imagesSupported: Images are supported during userphone calls.
+    hangupHint: Use `/hangup` to end the call.
+    skipHint: Use `/skip` to move to a new partner.
+    endedTitle: Call Ended
+    statsTitle: Your Userphone Stats
+    totalCalls: Total Calls
+    totalTalkTime: Total Talk Time
+    averageCall: Average Call Length
+  block:
+    selfBlock: "{cross} You cannot block yourself."
+    alreadyBlocked: "{cross} You have already blocked {user}."
+    success: "{tick} Successfully blocked {user} from userphone calls."
+    unblockSuccess: "{tick} Successfully unblocked {user}."
+    notBlocked: "{cross} {user} is not blocked."
+  report:
+    transcriptTitle: "Userphone transcript | Server: {server} | Channel: #{channel}"
+    transcriptAttachments: "Attachments:"
+    transcriptNoMessages: No recent user messages were available.
+    modalTitle: Report Userphone Call
+    reasonLabel: Grund für die Meldung
+    reasonPlaceholder: Describe what happened during the call...
+    callEnded: The call has been ended automatically.
+    buttonLabel: Report User
+    success: "{tick} Your report has been submitted. Our staff will review it shortly."
+    noRecentCall: "{cross} No recent userphone call found to report. You can only report during or shortly after a call."
+  staff:
+    reports:
+      staffDescription: Review pending userphone reports
+      title: Pending Userphone Reports
+      empty: "{tick} No pending userphone reports at this time."
+      entry: "**Reporter:** <@{reporter}>\n**Reported:** <@{reported}>\n**Reason:** {reason}\n**Call ID:** {call_id}"
+      footer: "Showing {count} pending report(s)"
+      resolveSuccess: "{tick} Report `{id}` has been marked as resolved."
+      ignoreSuccess: "{tick} Report `{id}` has been marked as ignored."
