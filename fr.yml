@@ -149,26 +149,37 @@ about:
   buttons:
     shardInfo: Info partagée
 botLanding:
-  title: '👋 Hey there!'
+  title: Welcome to InterChat! 🌐
   description: |
-    **I'm InterChat, and I'm pleased to be on your server.**
+    Thank you for inviting InterChat. You now have 13,000+ Discord servers worldwide to chat with at your fingertips!
 
-    Ready to start building new bridges?
+    ## What is InterChat?
 
-    {dot} **New here?** The `/setup` command provides a step-by-step guide.
-    {dot} **Ready to explore?** Visit our [discovery page](https://interchat.dev/hubs).
+    InterChat is the largest cross-server communication bot on Discord. Chat with people from thousands of communities, without anyone leaving their server. We offer two ways to connect:
   hubs: |
-    ## {emoji} Hubs
-    Multi-Server, always on connections. You can connect your channel to across server group (hubs) from our list of growing community hubs, and chat away with amazing people inside!
-  calls: |
-    ## {emoji} Calls (BETA)
-    Private, one-on-one instant connections. Privacy-first by design, conversations stay private unless reported.
-    -# PS. Beta phase. If you're here early, you're shaping the future of it. Early adopters may also get rewards
-  closing: |
-    Plug into a Hub. Launch a Call. Turn your server into something bigger than itself.
+    ## ⭐ Hubs — Always-On Communities
+    Connect a channel to a Hub and chat with hundreds of servers at once. The connection stays active 24/7, creating a permanent portal between communities.
 
-    Built by humans, for humans.
-    —Oxara Development
+    ✦ Strict 24/7 moderation
+    ✦ Active topic-based channels
+    ✦ Best for long-term engagement
+
+    Use `/connection add` to get started
+  calls: |
+    ## 📞 Calls & Group Calls — Instant Cross-Server Calls
+     Start a live conversation with up to 5 servers simultaneously. No invites, no setup. Instant connection.
+
+     ✦ 1:1 Calls
+     ✦ Group calls with up to 4 servers per call
+     ✦ Built-in moderation tools
+     ✦ Perfect for events & quick chats
+
+     Use `/call` to get started
+  closing: |
+    ## Trusted by communities across Discord
+    InterChat powers real-time conversations across 13,000+ servers. Join the network and connect with communities worldwide!
+
+    -# Made with ❤️ by the InterChat Team
 setup:
   welcome:
     title: Bienvenue dans la configuration d'InterChat
