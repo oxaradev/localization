@@ -923,8 +923,8 @@ hub:
       dashboardLink: จัดการ Hub ของคุณ
       publicPageLink: ดูในไดเรกทอรี
       nextSteps: ทำอะไรต่อดี?
-      step1: "**For Private Hubs: Create an Invite**: `/hub invites hub:{hubName}`"
-      step2: "**Advanced Settings**: `/hub configure {hubName}`"
+      step1: "**For Private Hubs: Create an Invite**: `/hub manage invites hub:{hubName}`"
+      step2: "**Advanced Settings**: `/hub config {hubName}`"
       step3: "**ต้องการความช่วยเหลือ?**: [เข้าร่วมเซิร์ฟเวอร์สนับสนุนของเรา]({supportInvite})"
     cancelled:
       description: Your hub was not created.

@@ -923,8 +923,8 @@ hub:
       dashboardLink: अपना Hub प्रबंधित करें
       publicPageLink: निर्देशिका पर देखें
       nextSteps: आगे क्या?
-      step1: "**For Private Hubs: Create an Invite**: `/hub invites hub:{hubName}`"
-      step2: "**Advanced Settings**: `/hub configure {hubName}`"
+      step1: "**For Private Hubs: Create an Invite**: `/hub manage invites hub:{hubName}`"
+      step2: "**Advanced Settings**: `/hub config {hubName}`"
       step3: "**मदद चाहिए?**: [हमारे सपोर्ट सर्वर से जुड़ें]({supportInvite})"
     cancelled:
       description: Your hub was not created.

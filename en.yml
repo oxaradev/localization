@@ -1002,11 +1002,11 @@ hub:
       dashboardLink: Manage your hub
       publicPageLink: View on directory
       nextSteps: What's Next?
-      nextStepsPrivate1: "**Create an Invite**: `/hub invites hub:{hubName}`"
+      nextStepsPrivate1: "**Create an Invite**: `/hub manage invites hub:{hubName}`"
       nextStepsPrivate2: "**Share Code**: Send the invite code to the other server."
       nextStepsPrivate3: "**Connect**: The other server runs `/connection add invite:<code>`"
       nextStepsPublic: "**Connect Channels**: Run `/connection add hub:{hubName}` to join!"
-      advancedSettings: "**Advanced Settings**: `/hub configure {hubName}`"
+      advancedSettings: "**Advanced Settings**: `/hub config {hubName}`"
       needHelp: "**Need Help?**: [Join our support server]({supportInvite})"
     cancelled:
       description: Your hub was not created.
@@ -1396,7 +1396,8 @@ userphone:
     searching: "{loading} **Searching...** Waiting for another server to pick up. Hang tight!"
     notInCall: "{cross} This channel is not in a userphone call."
     notInCallHint: "{cross} This channel is not in a userphone call. Use `/call` to start one."
-    ended: "{tick} **Call ended.** The userphone connection has been disconnected."
+    ended: "{tick} Call ended."
+    disconnected: The userphone connection has been disconnected.
     hungUp: "{info} **The other server has hung up.** The call has ended."
     partnerDisconnected: "{info} **Partner disconnected.** The other server is no longer available."
     skipped: "{info} **Call skipped.** The other server moved on to a new call."

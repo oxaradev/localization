@@ -923,8 +923,8 @@ hub:
       dashboardLink: Manage your hub
       publicPageLink: View on directory
       nextSteps: What's Next?
-      step1: "**For Private Hubs: Create an Invite**: `/hub invites hub:{hubName}`"
-      step2: "**Advanced Settings**: `/hub configure {hubName}`"
+      step1: "**For Private Hubs: Create an Invite**: `/hub manage invites hub:{hubName}`"
+      step2: "**Advanced Settings**: `/hub config {hubName}`"
       step3: "**Need Help?**: [Join our support server]({supportInvite})"
     cancelled:
       description: Your hub was not created.

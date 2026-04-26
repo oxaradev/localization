@@ -932,8 +932,8 @@ hub:
       dashboardLink: Gerencie seu hub
       publicPageLink: Ver no diretório
       nextSteps: O que vem a seguir?
-      step1: "**For Private Hubs: Create an Invite**: `/hub invites hub:{hubName}`"
-      step2: "**Advanced Settings**: `/hub configure {hubName}`"
+      step1: "**For Private Hubs: Create an Invite**: `/hub manage invites hub:{hubName}`"
+      step2: "**Advanced Settings**: `/hub config {hubName}`"
       step3: "**Precisa de Ajuda?**: [Entre no nosso servidor de suporte]({supportInvite})"
     cancelled:
       description: Your hub was not created.

@@ -859,7 +859,7 @@ hub:
           ✅ **Pre-selected**: Reactions, Spam Filter (recommended)
 
 
-          -# 💡 *Tip: You can adjust these anytime in `/hub configure`.*"
+          -# 💡 *Tip: You can adjust these anytime in `/hub config`.*"
 
           '
         modulesPlaceholder: Select modules to enable...
@@ -899,7 +899,7 @@ hub:
       publicPageLink: View on directory
       nextSteps: What's Next?
       step1:
-        "**For Private Hubs: Create an Invite**: `/hub invites hub:{hubName}`
+        "**For Private Hubs: Create an Invite**: `/hub manage invites hub:{hubName}`
 
         *Invite servers to join your hub*
 
@@ -911,7 +911,7 @@ hub:
 
         "
       step2:
-        "**Advanced Settings**: `/hub configure {hubName}`\n   - Profanity filters (custom anti-swear rules)\n   -\
+        "**Advanced Settings**: `/hub config {hubName}`\n   - Profanity filters (custom anti-swear rules)\n   -\
         \ Hub team management\n   - Advanced logging options\n   - Hub announcements"
       step3: "**Need Help?**: [Join our support server]({supportInvite})"
     cancelled:

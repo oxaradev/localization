@@ -923,8 +923,8 @@ hub:
       dashboardLink: Kelola hub Anda
       publicPageLink: Lihat di direktori
       nextSteps: Apa Selanjutnya?
-      step1: "**For Private Hubs: Create an Invite**: `/hub invites hub:{hubName}`"
-      step2: "**Advanced Settings**: `/hub configure {hubName}`"
+      step1: "**For Private Hubs: Create an Invite**: `/hub manage invites hub:{hubName}`"
+      step2: "**Advanced Settings**: `/hub config {hubName}`"
       step3: "**Butuh Bantuan?**: [Gabung server support kami]({supportInvite})"
     cancelled:
       description: Your hub was not created.

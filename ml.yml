@@ -923,8 +923,8 @@ hub:
       dashboardLink: നിങ്ങളുടെ ഹബ് മാനേജ് ചെയ്യുക
       publicPageLink: ഡയറക്ടറിയിൽ കാണുക
       nextSteps: അടുത്തത് എന്താണ്?
-      step1: "**For Private Hubs: Create an Invite**: `/hub invites hub:{hubName}`"
-      step2: "**Advanced Settings**: `/hub configure {hubName}`"
+      step1: "**For Private Hubs: Create an Invite**: `/hub manage invites hub:{hubName}`"
+      step2: "**Advanced Settings**: `/hub config {hubName}`"
       step3: "**സഹായം ആവശ്യമുണ്ടോ?**: [ഞങ്ങളുടെ സപ്പോർട്ട് സെർവറിൽ ചേരുക]({supportInvite})"
     cancelled:
       description: Your hub was not created.
