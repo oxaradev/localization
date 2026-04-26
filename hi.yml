@@ -3,32 +3,32 @@ common:
     error: त्रुटि (Error)!
     success: सफल!
     cancelled: रद्द किया गया!
-    feedback: Feedback Received
-    validationError: Validation Error
+    feedback: सुझाव प्राप्त हुई
+    validationError: मान्यता त्रुटि
   labels:
     date: दिनांक
     loading: लोड हो रहा है...
     pleaseWait: कृपया प्रतीक्षा करें...
     lastActive: अंतिम बार सक्रिय
     unknown: अज्ञात
-    unknownHub: Unknown Hub
-    language: Language
-    locked: Locked
+    unknownHub: अज्ञात हब
+    language: भाषा 
+    locked: लॉक्ड
     nsfw: NSFW
-    visibility: Visibility
-    "yes": "Yes"
-    "no": "No"
+    visibility: दृश्यमान
+    "yes": "हाँ"
+    "no": "नहीं"
     none: कोई नहीं
-    noneSpecified: None Specified
-    tryAgain: Please try again
-    noReason: No Reason
+    noneSpecified: निर्दिष्ट नहीं
+    tryAgain: कृपया दोबारा प्रयास करें
+    noReason: कोई कारण नहीं
     roles:
-      owner: Owner
+      owner: मालिक
       member: सदस्य
       moderator: मॉडरेटर
-    note: Note
+    note: नोट
     never: कभी नहीं
-    lastUpdated: Last Updated
+    lastUpdated: पिछला अपडेट
   buttons:
     back: वापस (Back)
     next: अगला (Next)
@@ -42,32 +42,32 @@ common:
     invite: InterChat को आमंत्रित करें
     dashboard: डैशबोर्ड खोलें
     support: Support से जुड़ें
-    edit: Edit
-    save: Save
-    apply: Apply Changes
-    close: Close
-    search: Search
-    jumpToMessage: Jump to Message
-    maybeLater: Maybe Later
-    show: Show
-    hide: Hide
-    enable: Enable
-    disable: Disable
-    continue: Continue
-    start: Start
-    stop: Stop
-    join: Join
-    accept: Accept
-    decline: Decline
+    edit: बदलें
+    save: सेव करें
+    apply: बदलाव लागू करें
+    close: बंद करे
+    search: खोजें
+    jumpToMessage: संदेश पर जाएं
+    maybeLater: शायद बाद में
+    show: दिखाएं
+    hide: छिपाएं
+    enable: सक्षम
+    disable: अक्षम
+    continue: जारी रखें
+    start: शुरु
+    stop: रुकें
+    join: जुड़ें
+    accept: स्वीकार
+    decline: इनकार
   pagination:
-    footer: "Page {current} of {total} • {count} total items"
+    footer: "{total} में से पृष्ठ {current} • कुल {count} आइटम"
     errors:
-      firstPage: "You're already on the first page."
-      lastPage: "You're already on the last page."
+      firstPage: "आप पहले से ही पहले पृष्ठ पर हैं।"
+      lastPage: "आप पहले से ही अंतिम पृष्ठ पर हैं।"
     page: पेज {current}/{total}
-    pageOf: Page {current} of {total}
-    alreadyFirst: Already on the first page.
-    alreadyLast: Already on the last page.
+    pageOf: '{total} में से पृष्ठ {current}'
+    alreadyFirst: पहले से ही पहले पृष्ठ पर हैं।
+    alreadyLast: पहले से ही अंतिम पृष्ठ पर हैं।
   placeholders:
     select: एक विकल्प चुनें
     type: यहाँ टाइप करें...
@@ -139,11 +139,36 @@ about:
       - Build engaged topic-focused communities
       - Moderation tools to keep discussions healthy
       - Visual dashboard to manage your hubs, servers, and settings
+  gettingStarted:
+    title: Getting Started
+    steps: |
+      - Run `/setup` to get connected
+      - Browse public hubs with `/hub discover`
+      - Join a hub in a channel with `/connection add hub:<name>`
+      - Join a private hub with `/connection add invite:<code>`
   buttons:
     shardInfo: Shard इन्फो
 botLanding:
-  title: "👋 नमस्ते!"
-  description: "**I'm InterChat, and I'm pleased to be on your server.**\n\nReady to start building new bridges?\n\n{dot} **New here?** The `/setup` command provides a step-by-step guide.\n{dot} **Ready to explore?** Visit our [discovery page](https://interchat.dev/hubs)."
+  title: '👋 नमस्ते!'
+  description: |
+    **I'm InterChat, and I'm pleased to be on your server.**
+
+    Ready to start building new bridges?
+
+    {dot} **New here?** The `/setup` command provides a step-by-step guide.
+    {dot} **Ready to explore?** Visit our [discovery page](https://interchat.dev/hubs).
+  hubs: |
+    ## {emoji} Hubs
+    Multi-Server, always on connections. You can connect your channel to across server group (hubs) from our list of growing community hubs, and chat away with amazing people inside!
+  calls: |
+    ## {emoji} Calls (BETA)
+    Private, one-on-one instant connections. Privacy-first by design, conversations stay private unless reported.
+    -# PS. Beta phase. If you're here early, you're shaping the future of it. Early adopters may also get rewards
+  closing: |
+    Plug into a Hub. Launch a Call. Turn your server into something bigger than itself.
+
+    Built by humans, for humans.
+    —Oxara Development
 setup:
   welcome:
     title: InterChat सेटअप में आपका स्वागत है
@@ -161,9 +186,14 @@ setup:
     privateHubs:
       title: निजी या केवल-आमंत्रण (Invite-only)
       description: "**Ask the hub owner** for an invite code or run `/connection add`"
+    connectChannel:
+      title: Connect a Channel
+      description: "Run `/connection add` in the channel you want to use, then choose a hub.\n\nExamples:\n- `/connection add hub:MyHub`\n- `/connection add invite:abc123 channel:#general`"
+      permissionsHint: "Requires **Manage Channels** (you) and **Manage Webhooks** + **Send Messages** (me in the target channel)."
     footer: You can join more hubs anytime.
   buttons:
     getStarted: सेटअप विजार्ड शुरू करें
+    connectHere: Connect Here
     createHub: Hub बनाएं
     discoverHubs: सार्वजनिक Hubs खोजें
     useDefault: डिफ़ॉल्ट का उपयोग करें
@@ -232,13 +262,13 @@ appeal:
     title: हालिया उपयोगकर्ता उल्लंघन
     empty: इस उपयोगकर्ता के लिए कोई उल्लंघन नहीं मिला।
   status:
-    acceptedBy: "@{name} द्वारा स्वीकार किया गया"
-    rejectedBy: "@{name} द्वारा अस्वीकार किया गया"
+    acceptedBy: '@{name} द्वारा स्वीकार किया गया'
+    rejectedBy: '@{name} द्वारा अस्वीकार किया गया'
     pending: प्रतिक्रिया लंबित
     cooldown: कूलडाउन
     canAppeal: अपील करने योग्य
   constants:
-    noReason: No Reason
+    noReason: कोई कारण नहीं
   fields:
     date: "दिनांक:"
     reason: "कारण:"
@@ -256,8 +286,8 @@ appeal:
       title: बिल्कुल साफ़!
       description: कोई अपील करने योग्य उल्लंघन नहीं मिला।
     footer:
-      canAppeal: "💡 आप {count} उल्लंघन(नों) की अपील कर सकते हैं। नीचे दिए गए चयन मेनू का उपयोग करें।"
-      checkLater: "💡 कूलडाउन समाप्त होने या अपील की समीक्षा होने पर बाद में देखें।"
+      canAppeal: '💡 आप {count} उल्लंघन(नों) की अपील कर सकते हैं। नीचे दिए गए चयन मेनू का उपयोग करें।'
+      checkLater: '💡 कूलडाउन समाप्त होने या अपील की समीक्षा होने पर बाद में देखें।'
   errors:
     nothingSelected: कुछ भी नहीं चुना गया था।
     modalError: अपील modal खोलने में विफल।
@@ -299,29 +329,29 @@ hubConfig:
     editOnDashboard: Edit on Dashboard
     noDescription: "*No description set.*"
     properties: Properties
-    nsfw: "🔞 NSFW"
-    familyFriendly: "✅ Family Friendly"
+    nsfw: '🔞 NSFW'
+    familyFriendly: '✅ Family Friendly'
     lastUpdated: "Last Updated:"
     descriptionUpdated: Description Updated!
     descriptionSuccess: Your hub description has been successfully updated.
     nameUpdated: Name Updated!
     nameSuccess: Your hub has been renamed to **{name}**.
-    nameCooldownNote: "⚠️ Hub names can only be changed once every 10 days."
+    nameCooldownNote: '⚠️ Hub names can only be changed once every 10 days.'
     welcomeUpdated: Welcome Message Updated!
     welcomeSuccess: Your hub welcome message has been successfully updated.
     nsfwUpdated: NSFW Setting Updated!
-    nsfwWarning: "⚠️ Important"
+    nsfwWarning: '⚠️ Important'
     nsfwWarningDesc: Your hub is now marked as NSFW and may be filtered from searches.
     sfwConfirmDesc: Your hub is now marked as safe for work.
     visibilityUpdated: Visibility Updated!
     visibilitySuccess: "Your hub is now: **{status}**"
     visibilityMeaning: ℹ️ What this means
     visibility:
-      public: "🌐 पब्लिक"
+      public: '🌐 पब्लिक'
       publicDesc: Discoverable on the hub directory.
-      unlisted: "👁️ अनलिस्टेड"
+      unlisted: '👁️ अनलिस्टेड'
       unlistedDesc: Not in directory but anyone can join via ID/link.
-      private: "🔒 प्राइवेट"
+      private: '🔒 प्राइवेट'
       privateDesc: Invite-only, not listed publicly.
     editDescription:
       label: विवरण संपादित करें
@@ -347,7 +377,7 @@ hubConfig:
     changeVisibility:
       label: दृश्यता (Visibility) बदलें
       description: पब्लिक, अनलिस्टेड या प्राइवेट के बीच स्विच करें
-      title: "🔐 Change Hub Visibility"
+      title: '🔐 Change Hub Visibility'
       desc: "Select the visibility level for your hub:"
     errors:
       nameCooldown: Name Change on Cooldown
@@ -356,6 +386,7 @@ hubConfig:
       invalidNameDesc: Hub name cannot be empty.
       nameTaken: Name Already Taken
       nameTakenDesc: The name **{name}** is already used.
+    rulesCount: "{count}/{max} rules configured"
   permissions:
     remove:
       label: हटाएं
@@ -426,6 +457,8 @@ hubConfig:
     selectRole: Select a role for notifications (optional)...
     notConfigured: कॉन्फ़िगर नहीं किया गया
     noRole: No role
+    role: Role
+    currentConfig: Current Configuration
     footerHint: Select a logging type above to configure
     configureTitle: Configure {type}
     configureDescription: Select a channel and optionally a role for notifications below.
@@ -438,7 +471,9 @@ hubConfig:
       messageModeration: Channel for message edit/delete logs
     success:
       updated: "{type} configuration updated!"
+      updatedDesc: "Logging for **{type}** has been updated successfully."
       cleared: "{type} configuration cleared!"
+      clearedDesc: "Logging for **{type}** has been cleared."
     errors:
       selectFirst: Please select a logging type first.
       updateFailed: Failed to update logging configuration.
@@ -451,11 +486,13 @@ hubConfig:
         placeholder: abc123
       uses:
         label: उपयोग (Uses)
-        guidelines: "Please adhere to the guidelines @ {guidelinesUrl}"
         placeholder: अनंत के लिए मुझे खाली छोड़ दें
       expiry:
         label: समाप्ति (Expiry)
         placeholder: 1w, 3d, 12h (कोई समाप्ति नहीं के लिए मुझे खाली छोड़ दें)
+    errors:
+      invalidUses: Please enter a whole number for uses (or leave blank).
+      invalidExpiry: "Invalid expiry format. Examples: 1w, 3d, 12h."
   automod:
     createRule:
       namePlaceholder: Enter rule name...
@@ -483,6 +520,7 @@ hubConfig:
       noneToRemove: No safe words to remove
       selectRemove: Select words to remove...
       removed: Removed {count} word(s) from the safe list.
+    proOnly: "Advanced AutoMod is available for Pro hubs only. Upgrade your hub to Pro to configure these rules."
     deleteRule:
       title: Delete Rule
       description: Are you sure you want to delete **{ruleName}**?
@@ -508,7 +546,7 @@ moderation:
     missing: कृपया या तो एक उपयोगकर्ता या एक सर्वर निर्दिष्ट करें।
   revoke:
     noActive: कोई सक्रिय {action} नहीं मिला।
-    success: "{action} रद्द कर दिया गया।"
+    success: '{action} रद्द कर दिया गया।'
   delete:
     success: संदेश सभी कनेक्टेड Hubs से हटा दिया गया है।
     notInterChatMessage: यह संदेश एक InterChat संदेश नहीं है या पहले ही हटा दिया गया है।
@@ -585,7 +623,7 @@ moderation:
     noReports: "No reports found."
     fetchFailed: "Failed to fetch moderation history."
   report:
-    jumpToMessage: Jump to Message
+    jumpToMessage: संदेश पर जाएं
     notFound: "Report not found or deleted."
     noHub: "Unable to determine hub for this report."
     handledTitle: "Report Handled"
@@ -611,7 +649,7 @@ moderation:
     webhooks:
       noPermission: "You do not have permission to moderate this hub."
 welcomeMessage:
-  title: "**{hubName}** नामक InterChat Hub में आपका स्वागत है!"
+  title: '**{hubName}** नामक InterChat Hub में आपका स्वागत है!'
   errorDm: Failed to send welcome message.
   introText: अब आप सर्वरों के एक नेटवर्क से जुड़े हैं। आपके द्वारा यहाँ भेजे गए संदेश इस Hub में सभी को दिखाई देंगे।
   quickActions: त्वरित कार्रवाई
@@ -623,7 +661,19 @@ welcomeMessage:
     support: Support
     disconnect: डिस्कनेक्ट करें
   hubInfo:
-    connections: "🔗 कनेक्शंस"
+    connections: '🔗 कनेक्शंस'
+    hubPageLabel: "{link_icon} Hub Page"
+    hubPageValue: "[View on InterChat]({hubUrl})"
+  rules:
+    title: "{rules_icon} {hubName} - Rules"
+    guidelines: "Please adhere to the guidelines @ {guidelinesUrl}"
+  errors:
+    disconnectPermission:
+      title: "{x_icon} Permission Denied"
+      description: You need the **Manage Channels** permission to disconnect from a hub.
+  disconnect:
+    successDescription: Successfully disconnected from **{hubName}**.
+    cancelled: Disconnection cancelled.
   disconnectConfirm:
     title: Hub से डिस्कनेक्ट करें?
     description: क्या आप वाकई **{hubName}** से डिस्कनेक्ट करना चाहते हैं?
@@ -636,7 +686,7 @@ infractions:
     base: उल्लंघन · {hubName}
     userList: उपयोगकर्ता उल्लंघन · {hubName}
     serverList: सर्वर उल्लंघन · {hubName}
-    userSpecific: "{user} के लिए उल्लंघन · {hubName}"
+    userSpecific: '{user} के लिए उल्लंघन · {hubName}'
     serverSpecific: सर्वर {serverId} के लिए उल्लंघन · {hubName}
   descriptions:
     base: चुनें कि इस Hub के लिए कौन से उल्लंघन देखने हैं।
@@ -686,7 +736,7 @@ staff:
       verified: Verified
       partnered: Partnered
       featured: Featured
-      locked: Locked
+      locked: लॉक्ड
       nsfw: NSFW
   server:
     fields:
@@ -765,7 +815,7 @@ hub:
           title: Add New Rule
           placeholder: Enter your new rule here...
       editRule:
-        label: Edit
+        label: बदलें
         modal:
           title: Edit Rule
           placeholder: Enter your updated rule here...
@@ -795,13 +845,16 @@ hub:
       display:
         noRulesTitle: No Rules Set
         noRulesDescription: No rules have been set for this hub yet.
+        rulesCount: "{count} of {max} rules used"
+        ruleHeading: "Rule {number}"
+        truncated: Full text will be shown when editing
     accept:
       buttons:
         accept: Accept Rules
       titles:
         accepted: Rules Accepted
         declined: Rules Not Accepted
-        changedMind: "💡 Changed your mind?"
+        changedMind: '💡 Changed your mind?'
       messages:
         accepted: "Thank you for accepting the rules for **{hubName}**!"
         declined: "You have chosen not to accept the rules for **{hubName}** at this time."
@@ -830,6 +883,10 @@ hub:
       generated: Generated!
     messages:
       generated: "{tick} `{code}` can now be used {uses} time(s) to join your hub."
+      generatedUnlimited: "{tick} `{code}` can now be used to join your hub."
+      howToUse: "Next step: connect a channel with `/connection add invite:{code}`"
+    footer:
+      hub: "Hub: {hubName}"
   info:
     titles:
       rules: Rules for {hubName}
@@ -843,12 +900,13 @@ hub:
     stats: Stats
   events:
     serverJoined:
-      title: "🎉 नया सर्वर शामिल हुआ!"
+      title: '🎉 नया सर्वर शामिल हुआ!'
       description: "**{serverName}** has joined the hub!"
-      footer: "{hubName} में आपका स्वागत है!"
+      footer: '{hubName} में आपका स्वागत है!'
   create:
     title: अपना Hub बनाएं
-    description: Create your own InterChat hub for a community.
+    description: |
+      Create your own InterChat hub for a community.
   wizard:
     start: अपना Hub बनाना शुरू करें
     name:
@@ -859,13 +917,25 @@ hub:
     description:
       label: पूर्ण विवरण
       placeholder: अपने Hub का विस्तार से वर्णन करें (20-1000 वर्ण)
+    visibility:
+      unlisted:
+        desc: Not in directory.
+      public:
+        desc: Discoverable.
+      private:
+        desc: Invite-only.
     steps:
       progress: चरण {current}/{total}
       step1:
         modalTitle: "चरण 1/7: Hub विवरण"
+        visibilityLabel: Hub Visibility
+        visibilityPlaceholder: Select Hub Visibility...
       step2:
         title: Hub लोगो
-        description: "Add a logo for your hub!\n\n-# 💡 *Tip: Use an image URL or choose the default bot avatar.*"
+        description: |
+          Add a logo for your hub!
+
+          -# 💡 *Tip: Use an image URL or choose the default bot avatar.*
         modalTitle: "चरण 2/7: लोगो"
         logoUrlLabel: लोगो URL
         logoUrlPlaceholder: https://example.com/logo.png
@@ -874,38 +944,32 @@ hub:
       step3:
         title: Hub Visibility
         description: "Choose your hub's visibility:\n\n🔓 **Public**: Discoverable.\n👁️ **Unlisted**: Not in directory.\n🔒 **Private**: Invite-only.\n\n-# 💡 *Tip: You can change this later in hub settings.*"
-        publicButton: सार्वजनिक (Public)
-        unlistedButton: अनलिस्टेड
-        privateButton: निजी (Private)
-      step4:
-        title: समुदाय के नियम
-        description: अपने Hub के लिए समुदाय दिशानिर्देश सेट करें।
-        requiredPublic: "**सार्वजनिक Hubs के लिए आवश्यक**"
+        requiredPublic: "**Required for public hubs**"
         optional: (Optional)
-        tip: "-# 💡 *टिप: प्रति पंक्ति एक नियम जोड़ें। आप 25 नियमों तक जोड़ सकते हैं।*"
-        modalTitle: "चरण 4/7: नियम"
-        rulesLabel: Hub नियम
+        tip: "-# 💡 *Tip: Add one rule per line. You can add up to 25 rules.*"
+        modalTitle: "Step 3/6: Rules"
+        rulesLabel: Hub Rules
         rulesPlaceholder: |
           1. Be respectful
           2. No spam
           3. Follow Discord ToS
-        addRulesButton: नियम जोड़ें
+        addRulesButton: Add Rules
+      step4:
+        title: समुदाय के नियम
+        description: "अपने Hub के लिए समुदाय दिशानिर्देश सेट करें।"
+        modalTitle: "चरण 4/7: नियम"
+        welcomePlaceholder: Welcome to {hubName} or our hub!
+        customMessageButton: Custom Message
       step5:
         title: स्वागत संदेश
         description: "Create a welcome message for new members!\n-# 💡 *Tip: Keep it friendly and informative. Max 500 characters.*"
-        modalTitle: "चरण 5/7: स्वागत"
-        welcomePlaceholder: Welcome to {hubName} or our hub!
-        customMessageButton: कस्टम संदेश
+        modulesPlaceholder: Select modules to enable...
       step6:
-        title: Hub विशेषताएं
         description: "Select features to enable for your hub!\n✅ **Pre-selected**: Reactions, Spam Filter (recommended)\n\n-# 💡 *Tip: You can adjust these anytime.*"
-        modulesPlaceholder: सक्षम करने के लिए मॉड्यूल चुनें...
-      step7:
-        description: "Optionally select a channel for moderation logs.\nLogs include: bans, warnings, reports, and other mod actions.\n-# 💡 *Tip: Choose a private staff channel.*"
-        selectChannelButton: चैनल चुनें
-        channelSelectTitle: लॉगिंग चैनल चुनें
-        channelSelectDescription: "मॉडरेशन लॉग्स के लिए एक चैनल चुनें:"
-        channelSelectPlaceholder: एक लॉगिंग चैनल चुनें
+        selectChannelButton: Select Channel
+        channelSelectTitle: Select Logging Channel
+        channelSelectDescription: "Choose a channel for moderation logs:"
+        channelSelectPlaceholder: Select a logging channel
     summary:
       title: Hub कॉन्फ़िगरेशन सारांश
       description: "बनाने से पहले अपनी Hub सेटिंग्स की समीक्षा करें:"
@@ -923,9 +987,12 @@ hub:
       dashboardLink: अपना Hub प्रबंधित करें
       publicPageLink: निर्देशिका पर देखें
       nextSteps: आगे क्या?
-      step1: "**For Private Hubs: Create an Invite**: `/hub invites hub:{hubName}`"
-      step2: "**Advanced Settings**: `/hub configure {hubName}`"
-      step3: "**मदद चाहिए?**: [हमारे सपोर्ट सर्वर से जुड़ें]({supportInvite})"
+      nextStepsPrivate1: "**Create an Invite**: `/hub manage invites hub:{hubName}`"
+      nextStepsPrivate2: "**Share Code**: Send the invite code to the other server."
+      nextStepsPrivate3: "**Connect**: The other server runs `/connection add invite:<code>`"
+      nextStepsPublic: "**Connect Channels**: Run `/connection add hub:{hubName}` to join!"
+      advancedSettings: "**Advanced Settings**: `/hub config {hubName}`"
+      needHelp: "**Need Help?**: [Join our support server]({supportInvite})"
     cancelled:
       description: Your hub was not created.
     errors:
@@ -933,17 +1000,37 @@ hub:
       invalidInput: आपने वैध इनपुट प्रदान नहीं किया है।
       uniqueConstraint: Uh oh! That hub name has already been taken.
       processingError: Something went wrong while creating your hub.
+      hubLimitUpgrade: Upgrade to Core, Plus or Pro to create up to 3 hubs.
+      hubLimitReached: You have reached the maximum number of hubs allowed for your current plan.
   delete:
     description: आपका Hub हटा दिया गया है।
   connect:
     success:
       title: कनेक्टेड!
-      description: "**{hubName}** से कनेक्टेड - चैटिंग शुरू करें!"
+      description: '**{hubName}** से कनेक्टेड - चैटिंग शुरू करें!'
       fieldValue: "कनेक्टेड चैनल: {channel}"
     errors:
       alreadyConnected:
         title: इस Hub से पहले ही कनेक्टेड है
         description: It looks like this server is already connected to this hub.
+      missingInput:
+        title: Missing Information
+        description: "Provide a hub name or an invite code.\n\nTry: `/connection add hub:MyHub` or `/connection add invite:abc123`"
+      hubNotFound:
+        title: Hub Not Found
+        description: "I couldn't find that hub. Check the name, or use `/hub discover` to browse public hubs."
+      invalidInvite:
+        title: Invalid Invite
+        description: "That invite code is invalid or expired. Ask the hub owner for a new invite and try again."
+      channelNotSupported:
+        title: Unsupported Channel
+        description: "Choose a text channel, thread, or forum channel."
+      webhookPerms:
+        title: Missing Permissions
+        description: "I couldn't create webhooks in that channel. I need **Manage Webhooks** and **Send Messages** there."
+      locked:
+        title: Hub लॉक किया गया
+        description: This hub is currently locked and cannot be joined.
   disconnect:
     title: डिस्कनेक्टेड!
     description: Hub से डिस्कनेक्ट हो गया।
@@ -970,6 +1057,12 @@ hub:
       logging:
         label: लॉगिंग कॉन्फ़िगरेशन
         description: अपने Hub के लिए लॉगिंग चैनल और नोटिफिकेशन रोल कॉन्फ़िगर करें
+      automod:
+        label: AutoMod
+        description: Manage anti-swear rules, patterns, and safe list
+      badges:
+        label: Custom Badges
+        description: Configure custom badge visibility
       transfer:
         label: स्वामित्व (Ownership) हस्तांतरण
         description: अपने Hub का स्वामित्व किसी अन्य व्यक्ति को हस्तांतरित करें
@@ -1012,6 +1105,10 @@ connection:
   errors:
     notFound: Connection not found.
     serverOnly: This command can only be used in a server.
+    limitReached:
+      title: Connection limit reached
+      upgrade: Upgrade to Plus or Pro to unlock more connections per server.
+      disconnect: Disconnect an existing connection before adding a new one.
   fixAll:
     label: सभी कनेक्शंस ठीक करें
   manage:
@@ -1117,7 +1214,11 @@ services:
       noDescription: No description provided.
   moderation:
     defaults:
-      noReason: No Reason
+      noReason: कोई कारण नहीं
+support:
+  priority:
+    standard: Standard
+    premium: "{tier} (priority)"
 badges:
   developer:
     title: InterChat Developer
@@ -1137,7 +1238,7 @@ badges:
 broadcast:
   spam:
     mutedMessage: You have been temporarily muted for {minutes} minutes due to spam.
-    warningMessage: "⚠️ You are sending messages too quickly!"
+    warningMessage: '⚠️ You are sending messages too quickly!'
     autoMuteReason: "Auto-Mute: Spam detected"
     autoWarnReason: "Auto-Warn: Spam detected"
   validation:
@@ -1152,10 +1253,15 @@ broadcast:
     nsfw:
       message: "🚫 Your message was blocked by InterChat filters (Reason: NSFW detection)"
     profanity:
-      message: "🚫 Your message was blocked by the hub's profanity filter."
+      message: '🚫 Your message was blocked by the hub''s profanity filter.'
       reason: Profanity filter blocked message
     videos:
-      message: "🚫 Video attachments are not allowed in this hub."
+      message: '🚫 Video attachments are not allowed in this hub.'
+      premium: "🚫 Sending videos is available on Plus and Pro plans. Upgrade your plan to share videos through InterChat."
+    externalEmoji:
+      message: "Custom and external emojis are available on Plus and Pro plans. Upgrade your plan to use them in InterChat messages."
+    voice:
+      message: "Voice notes are available on Plus and Pro plans. Upgrade your plan to send voice messages through InterChat."
     messageLength:
       reason: Message Length
       message: Your message length is too long. Please shorten it.
@@ -1227,3 +1333,88 @@ commands:
     title: रिपोर्ट कैसे करें
     description: "Right-click on a message and select **Apps → Report**."
     loadingGif: The GIF above may take a moment to load.
+userphone:
+  tips:
+    friendly: Be friendly. A good hello goes a long way.
+    gifs: Images and GIFs can help break the ice.
+    report: If something feels off, use `/userphone report`.
+    hangup: Ready to leave? Use `/hangup` at any time.
+    shareFacts: Share a fun fact about your server or community.
+    askHobbies: Ask about hobbies, games, or favorite music.
+    shareJoke: A short joke can make the conversation easier.
+    worldwide: You might be talking to someone from anywhere in the world.
+    attachments: You can share images during the call.
+    checkStats: Curious how much you call? Try `/userphone stats`.
+  commands:
+    start:
+      description: Start a userphone call and connect to another server
+    end:
+      description: End the current userphone call
+    skip:
+      description: Skip the current call and look for a new partner
+    block:
+      description: Block a user from connecting to you via userphone
+    unblock:
+      description: Unblock a user from userphone
+    report:
+      description: Report the user you are connected with
+    stats:
+      description: View your userphone statistics
+  status:
+    alreadyInCall: "{cross} This channel is already in a userphone call. Use `/userphone end` to disconnect first."
+    alreadyInCallDuration: "{cross} This channel is already in a userphone call. Current duration: **{duration}**."
+    connected: "{tick} **Connected!** You are now chatting with another server. Say hello!"
+    searching: "{loading} **Searching...** Waiting for another server to pick up. Hang tight!"
+    notInCall: "{cross} This channel is not in a userphone call."
+    notInCallHint: "{cross} This channel is not in a userphone call. Use `/call` to start one."
+    ended: "{tick} Call ended."
+    disconnected: The userphone connection has been disconnected.
+    hungUp: "{info} **The other server has hung up.** The call has ended."
+    partnerDisconnected: "{info} **Partner disconnected.** The other server is no longer available."
+    skipped: "{info} **Call skipped.** The other server moved on to a new call."
+    searchingAfterSkip: "{loading} **Searching again...** Looking for a new server now."
+    waitingInQueue: Waiting in queue for a match...
+  embed:
+    skippedTitle: Call Skipped
+    duration: अवधि
+    startNewCall: Use `/call` to start another call.
+    searchingTitle: Searching for a Call
+    matchNotification: We will notify you as soon as a match is found.
+    cancelHint: Use `/hangup` to cancel the search.
+    connectedTitle: Userphone Connected
+    howItWorks: How it works
+    sendMessages: Send messages here to chat with the other server.
+    imagesSupported: Images are supported during userphone calls.
+    hangupHint: Use `/hangup` to end the call.
+    skipHint: Use `/skip` to move to a new partner.
+    endedTitle: Call Ended
+    statsTitle: Your Userphone Stats
+    totalCalls: Total Calls
+    totalTalkTime: Total Talk Time
+    averageCall: Average Call Length
+  block:
+    selfBlock: "{cross} You cannot block yourself."
+    alreadyBlocked: "{cross} You have already blocked {user}."
+    success: "{tick} Successfully blocked {user} from userphone calls."
+    unblockSuccess: "{tick} Successfully unblocked {user}."
+    notBlocked: "{cross} {user} is not blocked."
+  report:
+    transcriptTitle: "Userphone transcript | Server: {server} | Channel: #{channel}"
+    transcriptAttachments: "Attachments:"
+    transcriptNoMessages: No recent user messages were available.
+    modalTitle: Report Userphone Call
+    reasonLabel: रिपोर्ट का कारण
+    reasonPlaceholder: Describe what happened during the call...
+    callEnded: The call has been ended automatically.
+    buttonLabel: Report User
+    success: "{tick} Your report has been submitted. Our staff will review it shortly."
+    noRecentCall: "{cross} No recent userphone call found to report. You can only report during or shortly after a call."
+  staff:
+    reports:
+      staffDescription: Review pending userphone reports
+      title: Pending Userphone Reports
+      empty: "{tick} No pending userphone reports at this time."
+      entry: "**Reporter:** <@{reporter}>\n**Reported:** <@{reported}>\n**Reason:** {reason}\n**Call ID:** {call_id}"
+      footer: "Showing {count} pending report(s)"
+      resolveSuccess: "{tick} Report `{id}` has been marked as resolved."
+      ignoreSuccess: "{tick} Report `{id}` has been marked as ignored."
