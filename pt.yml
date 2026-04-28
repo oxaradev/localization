@@ -1374,7 +1374,7 @@ userphone:
     alreadyInCall: "{cross} This channel is already in a userphone call. Use `/userphone end` to disconnect first."
     alreadyInCallDuration: "{cross} This channel is already in a userphone call. Current duration: **{duration}**."
     connected: "{tick} **Connected!** You are now chatting with another server. Say hello!"
-    searching: "{loading} **Searching...** Waiting for another server to pick up. Hang tight!"
+    searching: "**Searching...** Waiting for another server to pick up. Hang tight!"
     notInCall: "{cross} This channel is not in a userphone call."
     notInCallHint: "{cross} This channel is not in a userphone call. Use `/call` to start one."
     ended: "{tick} Call ended."
