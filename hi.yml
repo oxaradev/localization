@@ -326,6 +326,7 @@ report:
   errors:
     hubMessageOnly: "{x_icon} आप केवल InterChat Hubs के माध्यम से भेजे गए संदेशों की रिपोर्ट कर सकते हैं।"
     cannotReportSelf: "{x_icon} आप अपने स्वयं के संदेशों की रिपोर्ट नहीं कर सकते।"
+    outOfScope: "{x_icon} This message cannot be reported. You can only report messages sent inside InterChat Hubs and Calls."
 hubConfig:
   general:
     placeholder: Select a setting to configure...
