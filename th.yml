@@ -990,6 +990,7 @@ hub:
       welcomeDefault: ข้อความต้อนรับเริ่มต้น
       featuresNone: ไม่มี
       footer: พร้อมที่จะสร้าง Hub ของคุณหรือยัง?
+      dashboardNotice: Icon, rules, modules, and logging can be configured in the dashboard after creation.
     completion:
       loading: กำลังสร้าง Hub ของคุณ...
       loadingDescription: โปรดรอสักครู่ขณะที่เราตั้งค่าทุกอย่าง...
