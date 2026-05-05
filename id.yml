@@ -990,6 +990,7 @@ hub:
       welcomeDefault: Pesan selamat datang default
       featuresNone: Tidak ada
       footer: Siap membuat hub Anda?
+      dashboardNotice: Icon, rules, modules, and logging can be configured in the dashboard after creation.
     completion:
       loading: Membuat Hub Anda...
       loadingDescription: Mohon tunggu sementara kami menyiapkan semuanya...
