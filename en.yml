@@ -1377,17 +1377,6 @@ commands:
     loadingGif: The GIF above may take a moment to load.
 
 userphone:
-  tips:
-    friendly: Be friendly. A good hello goes a long way.
-    gifs: Images and GIFs can help break the ice.
-    report: If something feels off, use `/userphone report`.
-    hangup: Ready to leave? Use `/hangup` at any time.
-    shareFacts: Share a fun fact about your server or community.
-    askHobbies: Ask about hobbies, games, or favorite music.
-    shareJoke: A short joke can make the conversation easier.
-    worldwide: You might be talking to someone from anywhere in the world.
-    attachments: You can share images during the call.
-    checkStats: Curious how much you call? Try `/userphone stats`.
   commands:
     start:
       description: Start a userphone call and connect to another server
