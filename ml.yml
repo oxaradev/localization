@@ -990,6 +990,7 @@ hub:
       welcomeDefault: ഡിഫോൾട്ട് സ്വാഗത സന്ദേശം
       featuresNone: ഒന്നുമില്ല
       footer: നിങ്ങളുടെ ഹബ് സൃഷ്ടിക്കാൻ തയ്യാറാണോ?
+      dashboardNotice: Icon, rules, modules, and logging can be configured in the dashboard after creation.
     completion:
       loading: നിങ്ങളുടെ ഹബ് സൃഷ്‌ടിക്കുന്നു...
       loadingDescription: ഞങ്ങൾ എല്ലാം സജ്ജീകരിക്കുന്നതുവരെ ദയവായി കാത്തിരിക്കൂ...
