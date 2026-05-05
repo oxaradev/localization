@@ -990,6 +990,7 @@ hub:
       welcomeDefault: डिफ़ॉल्ट स्वागत संदेश
       featuresNone: कोई नहीं
       footer: अपना Hub बनाने के लिए तैयार हैं?
+      dashboardNotice: Icon, rules, modules, and logging can be configured in the dashboard after creation.
     completion:
       loading: आपका Hub बनाया जा रहा है...
       loadingDescription: कृपया प्रतीक्षा करें जब तक हम सब कुछ सेट करते हैं...
