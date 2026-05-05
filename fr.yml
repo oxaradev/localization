@@ -990,6 +990,7 @@ hub:
       welcomeDefault: Default welcome message
       featuresNone: None
       footer: Ready to create your hub?
+      dashboardNotice: Icon, rules, modules, and logging can be configured in the dashboard after creation.
     completion:
       loading: Creating Your Hub...
       loadingDescription: Please wait while we set everything up...
