@@ -1379,10 +1379,10 @@ userphone:
     skippedTitle: Call Skipped
     duration: Duración
     startNewCall: Use `/call` to start another call.
-    searchingTitle: Searching for a Call
+    searchingTitle: Searching for a Call (BETA)
     matchNotification: We will notify you as soon as a match is found.
     cancelHint: Use `/hangup` to cancel the search.
-    connectedTitle: Userphone Connected
+    connectedTitle: Userphone Connected (BETA)
     howItWorks: How it works
     sendMessages: Send messages here to chat with the other server.
     imagesSupported: Images are supported during userphone calls.
