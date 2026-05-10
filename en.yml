@@ -1200,7 +1200,10 @@ leaderboard:
   noActivity: No Activity
   noActivityDescription: No activity recorded for this period.
   messages: messages
+  calls: calls
   selectPeriod: Select time period
+  selectType: Select leaderboard type
+  yourRank: Your Rank
   periods:
     thisMonth: This Month
     thisMonth.description: Current month statistics
@@ -1215,6 +1218,7 @@ leaderboard:
     alreadyShowingUsers: Already showing users leaderboard.
     alreadyShowingServers: Already showing servers leaderboard.
     alreadyShowingPeriod: Already showing this time period.
+    alreadyShowingType: Already showing this leaderboard type.
 
 profile:
   achievements:
