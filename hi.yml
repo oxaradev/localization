@@ -143,7 +143,7 @@ about:
     shardInfo: Shard इन्फो
 botLanding:
   title: "👋 नमस्ते!"
-  description: "**I'm InterChat, and I'm pleased to be on your server.**\n\nReady to start building new bridges?\n\n{dot} **New here?** The `/setup` command provides a step-by-step guide.\n{dot} **Ready to explore?** Visit our [discovery page](https://interchat.dev/hubs)."
+  description: "**I'm InterChat, and I'm pleased to be on your server.**\n\nReady to start building new bridges?\n\n{dot} **New here?** The `/setup` command provides a step-by-step guide.\n{dot} **Ready to explore?** Visit our [discovery page](https://interchat.fun/hubs)."
 setup:
   welcome:
     title: InterChat सेटअप में आपका स्वागत है
@@ -157,7 +157,7 @@ setup:
     description: सार्वजनिक निर्देशिका का उपयोग करें या एक आमंत्रण कोड के साथ जुड़ें।
     publicHubs:
       title: सार्वजनिक (Public) Hubs
-      description: "**Browse** [interchat.dev/hubs](https://interchat.dev/hubs)"
+      description: "**Browse** [interchat.fun/hubs](https://interchat.fun/hubs)"
     privateHubs:
       title: निजी या केवल-आमंत्रण (Invite-only)
       description: "**Ask the hub owner** for an invite code or run `/connection add`"

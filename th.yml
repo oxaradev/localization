@@ -143,7 +143,7 @@ about:
     shardInfo: ข้อมูล Shard
 botLanding:
   title: "👋 สวัสดีครับ!"
-  description: "**I'm InterChat, and I'm pleased to be on your server.**\n\nReady to start building new bridges?\n\n{dot} **New here?** The `/setup` command provides a step-by-step guide.\n{dot} **Ready to explore?** Visit our [discovery page](https://interchat.dev/hubs)."
+  description: "**I'm InterChat, and I'm pleased to be on your server.**\n\nReady to start building new bridges?\n\n{dot} **New here?** The `/setup` command provides a step-by-step guide.\n{dot} **Ready to explore?** Visit our [discovery page](https://interchat.fun/hubs)."
 setup:
   welcome:
     title: ยินดีต้อนรับสู่การตั้งค่า InterChat
@@ -157,7 +157,7 @@ setup:
     description: ใช้ไดเรกทอรีสาธารณะหรือเชื่อมต่อด้วยรหัสเชิญ
     publicHubs:
       title: Hub สาธารณะ
-      description: "**Browse** [interchat.dev/hubs](https://interchat.dev/hubs)"
+      description: "**Browse** [interchat.fun/hubs](https://interchat.fun/hubs)"
     privateHubs:
       title: ส่วนตัว หรือ ต้องได้รับเชิญ
       description: "**Ask the hub owner** for an invite code or run `/connection add`"

@@ -143,7 +143,7 @@ about:
     shardInfo: Info del Shard
 botLanding:
   title: "👋 ¡Hola!"
-  description: "**I'm InterChat, and I'm pleased to be on your server.**\n\nReady to start building new bridges?\n\n{dot} **New here?** The `/setup` command provides a step-by-step guide.\n{dot} **Ready to explore?** Visit our [discovery page](https://interchat.dev/hubs)."
+  description: "**I'm InterChat, and I'm pleased to be on your server.**\n\nReady to start building new bridges?\n\n{dot} **New here?** The `/setup` command provides a step-by-step guide.\n{dot} **Ready to explore?** Visit our [discovery page](https://interchat.fun/hubs)."
 setup:
   welcome:
     title: Bienvenido a la Configuración de InterChat
@@ -157,7 +157,7 @@ setup:
     description: Usa el directorio público o conéctate con un código de invitación.
     publicHubs:
       title: Hubs Públicos
-      description: "**Browse** [interchat.dev/hubs](https://interchat.dev/hubs)"
+      description: "**Browse** [interchat.fun/hubs](https://interchat.fun/hubs)"
     privateHubs:
       title: Privados o Solo Invitación
       description: "**Ask the hub owner** for an invite code or run `/connection add`"

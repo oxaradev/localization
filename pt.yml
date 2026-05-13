@@ -149,7 +149,7 @@ botLanding:
 
      **Pronto para começar a construir novas pontes conosco?**
      {dot} **Novo aqui?** O comando '/setup' fornece um guia passo a passo para ajudá-lo a começar sua jornada.
-     {dot} **Pronto para explorar?** Visite nossa [página de descoberta](https://interchat.dev/hubs) para localizar e fazer parte de nossos centros animados.
+     {dot} **Pronto para explorar?** Visite nossa [página de descoberta](https://interchat.fun/hubs) para localizar e fazer parte de nossos centros animados.
      {dot} **Talvez algo com o qual você esteja mais familiarizado?** Experimente nosso '/call' para conexões individuais.
 
      💝 **Perdido? Precisa de ajuda?** Damos as boas-vindas à nossa [comunidade de suporte](https://discord.gg/8DhUA4HNpD). Nossa equipe e nossa comunidade terão prazer em oferecer sua ajuda. Oferecemos o máximo de suporte e assistência em quaisquer problemas que você possa ter, não hesite em participar!
@@ -166,7 +166,7 @@ setup:
     description: Use um diretório público ou conecte com um código de convite.
     publicHubs:
       title: Hubs públicos
-      description: "**Browse** [interchat.dev/hubs](https://interchat.dev/hubs)"
+      description: "**Browse** [interchat.fun/hubs](https://interchat.fun/hubs)"
     privateHubs:
       title: Privado ou Somente via convite
       description: "**Ask the hub owner** for an invite code or run `/connection add`"

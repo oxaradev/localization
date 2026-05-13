@@ -117,7 +117,7 @@ botLanding:
 
     {dot} **New here?** The `/setup` command provides a step-by-step guide to help you begin your journey.
 
-    {dot} **Ready to explore?** Visit our [discovery page](https://interchat.dev/hubs) to locate and become part of our
+    {dot} **Ready to explore?** Visit our [discovery page](https://interchat.fun/hubs) to locate and become part of our
     lively hubs.
 
     {dot} **Perhaps something you're more familiar with?** Try our `/call` for one on one connections.
@@ -175,7 +175,7 @@ setup:
     description: Use the public directory or connect with an invite code.
     publicHubs:
       title: Public Hubs
-      description: "**Browse** [interchat.dev/hubs](https://interchat.dev/hubs)
+      description: "**Browse** [interchat.fun/hubs](https://interchat.fun/hubs)
 
         **Or click** the button below to open the directory"
     privateHubs:
@@ -904,7 +904,7 @@ hub:
         *Invite servers to join your hub*
 
 
-        **For Public Hubs: Share Your Hub**: Check out your hub's [public page](https://interchat.dev/hubs/{hubId}) and
+        **For Public Hubs: Share Your Hub**: Check out your hub's [public page](https://interchat.fun/hubs/{hubId}) and
         use the link to join!
 
         *Share your hub with others or join it from here!*
