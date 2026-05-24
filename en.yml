@@ -146,9 +146,9 @@ about:
     title: Getting Started
     steps: |
       - Run `/setup` to get connected
-      - Browse public hubs with `/hub discover`
-      - Join a hub in a channel with `/connection add hub:<name>`
-      - Join a private hub with `/connection add invite:<code>`
+      - Browse public hubs with `/hub directory`
+      - Join a hub in a channel with `/hub connect hub:<name>`
+      - Join a private hub with `/hub connect invite:<code>`
   buttons:
     shardInfo: Shard Info
 
@@ -167,7 +167,7 @@ botLanding:
     ✦ Active topic-based channels
     ✦ Best for long-term engagement
 
-    Use `/connection add` to get started
+    Use `/hub connect` to get started
   calls: |
      ## 📞 Calls & Group Calls — Instant Cross-Server Calls
       Start a live conversation with up to 5 servers simultaneously. No invites, no setup. Instant connection.
@@ -197,13 +197,13 @@ setup:
     description: Join a hub by connecting a channel in your server.
     publicHubs:
       title: Public Hubs
-      description: "**Browse in Discord:** Use `/hub discover`"
+      description: "**Browse in Discord:** Use `/hub directory`"
     privateHubs:
       title: Private or Invite-only
-      description: "**Ask the hub owner** for an invite code, then connect with `/connection add invite:<code>`"
+      description: "**Ask the hub owner** for an invite code, then connect with `/hub connect invite:<code>`"
     connectChannel:
       title: Connect a Channel
-      description: "Run `/connection add` in the channel you want to use, then choose a hub.\n\nExamples:\n- `/connection add hub:MyHub`\n- `/connection add invite:abc123 channel:#general`"
+      description: "Run `/hub connect` in the channel you want to use, then choose a hub.\n\nExamples:\n- `/hub connect hub:MyHub`\n- `/hub connect invite:abc123 channel:#general`"
       permissionsHint: "Requires **Manage Channels** (you) and **Manage Webhooks** + **Send Messages** (me in the target channel)."
     footer: You can join more hubs anytime.
   buttons:
@@ -910,7 +910,7 @@ hub:
     messages:
       generated: "{tick} `{code}` can now be used {uses} time(s) to join your hub."
       generatedUnlimited: "{tick} `{code}` can now be used to join your hub."
-      howToUse: "Next step: connect a channel with `/connection add invite:{code}`"
+      howToUse: "Next step: connect a channel with `/hub connect invite:{code}`"
     footer:
       hub: "Hub: {hubName}"
   info:
@@ -921,9 +921,23 @@ hub:
       verified: This hub is an official verified hub.
       partnered: This hub is an official partnered hub.
     description: View information on this hub! Select an option from below.
+    noRules: No rules have been set for this hub.
+    noDescription: No description provided.
   buttons:
     rules: Rules
     stats: Stats
+    connect: Connect
+    report: Report
+  servers:
+    title: Connected Servers
+    empty: No servers are connected to this hub.
+    confirm:
+      title: Disconnect Server
+    errors:
+      noPermission: You must be a hub admin to view this.
+  disconnect:
+    errors:
+      notConnected: This channel isn't connected to any hub.
   events:
     serverJoined:
       title: 🎉 New Server Joined!
@@ -1017,11 +1031,11 @@ hub:
       dashboardLink: Manage your hub
       publicPageLink: View on directory
       nextSteps: What's Next?
-      nextStepsPrivate1: "**Create an Invite**: `/hub manage invites hub:{hubName}`"
+      nextStepsPrivate1: "**Create an Invite**: `/hub invite hub:{hubName}`"
       nextStepsPrivate2: "**Share Code**: Send the invite code to the other server."
-      nextStepsPrivate3: "**Connect**: The other server runs `/connection add invite:<code>`"
-      nextStepsPublic: "**Connect Channels**: Run `/connection add hub:{hubName}` to join!"
-      advancedSettings: "**Advanced Settings**: `/hub config {hubName}`"
+      nextStepsPrivate3: "**Connect**: The other server runs `/hub connect invite:<code>`"
+      nextStepsPublic: "**Connect Channels**: Run `/hub connect hub:{hubName}` to join!"
+      advancedSettings: "**Advanced Settings**: `/hub manage {hubName}`"
       needHelp: "**Need Help?**: [Join our support server]({supportInvite})"
     cancelled:
       description: Your hub was not created.
@@ -1045,10 +1059,10 @@ hub:
         description: It looks like this server is already connected to this hub in {channel}.
       missingInput:
         title: Missing Information
-        description: "Provide a hub name or an invite code.\n\nTry: `/connection add hub:MyHub` or `/connection add invite:abc123`"
+        description: "Provide a hub name or an invite code.\n\nTry: `/hub connect hub:MyHub` or `/hub connect invite:abc123`"
       hubNotFound:
         title: Hub Not Found
-        description: "I couldn't find that hub. Check the name, or use `/hub discover` to browse public hubs."
+        description: "I couldn't find that hub. Check the name, or use `/hub directory` to browse public hubs."
       invalidInvite:
         title: Invalid Invite
         description: "That invite code is invalid or expired. Ask the hub owner for a new invite and try again."
@@ -1071,6 +1085,13 @@ hub:
   config:
     title: Hub Configuration
     description: Customize your InterChat hub for your community.
+    catalog:
+      editInfo: Edit Info
+      appearance: Appearance
+      settings: Settings
+      invites: Invites
+      moderators: Moderators
+      deleteHub: Delete Hub
     options:
       general:
         label: General Settings
@@ -1116,6 +1137,11 @@ hub:
       searchFilter:
         label: Filter
         placeholder: InterChat Central
+
+server:
+  settings:
+    title: Server Settings
+    comingSoon: Advanced server settings (language, default filters, fallback channel) will be available in a future update.
 
 connection:
   title: Connection Management
