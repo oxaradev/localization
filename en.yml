@@ -38,6 +38,7 @@ common:
     create: Create
     refresh: Refresh
     delete: Delete
+    open: Open
     vote: Vote on top.gg
     invite: Invite InterChat
     dashboard: Open Dashboard
@@ -902,6 +903,7 @@ hub:
     disclaimer: "This announcement was sent by hub officials - not InterChat staff"
   invites:
     title: Active Invites
+    description: Create and manage invite codes for your hub
     noneFound: None found!
     inviteUses: "**Uses:**"
     inviteExpire: "**Expires:**"
