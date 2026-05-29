@@ -1187,7 +1187,8 @@ connection:
       errors:
         channelDeleted: The channel associated with this hub has been deleted.
         permissionsWebhook: I am unable to use webhooks.
-        permissionsSend: I am unable to send messages.
+        permissionsSend: Bot Missing Permissions! I am unable to send messages in that channel.
+        permissionsGeneral: I'm missing permissions in that channel. Ensure I have `Manage Webhooks`, `View Channel` and `Send Message` permissions.
 
 messageInfo:
   tabs:
@@ -1428,24 +1429,24 @@ userphone:
   status:
     alreadyInCall: "{cross} This channel is already in a userphone call. Use `/userphone end` to disconnect first."
     alreadyInCallDuration: "{cross} This channel is already in a userphone call. Current duration: **{duration}**."
-    connected: "{tick} **Connected!** You are now chatting with another server. Say hello!"
-    searching: "**Searching...** Waiting for another server to pick up. Hang tight!"
+    connected: "{tick} **Connected!** You're now chatting with another server. Say hi! 👋"
+    searching: "**Searching...** Looking for someone to connect with. Hang tight!"
     notInCall: "{cross} This channel is not in a userphone call."
-    notInCallHint: "{cross} This channel is not in a userphone call. Use `/call` to start one."
-    ended: "{tick} Call ended."
-    disconnected: The userphone connection has been disconnected.
-    hungUp: "{info} **The other server has hung up.** The call has ended."
-    partnerDisconnected: "{info} **Partner disconnected.** The other server is no longer available."
-    skipped: "{info} **Call skipped.** The other server moved on to a new call."
-    searchingAfterSkip: "{loading} **Searching again...** Looking for a new server now."
+    notInCallHint: "{cross} You're not in a call. Use `/call` to start one!"
+    ended: "{tick} Call ended. Thanks for chatting!"
+    disconnected: You've been disconnected from the call.
+    hungUp: "{info} **They hung up.** The call has ended."
+    partnerDisconnected: "{info} **Your partner disconnected.** They're no longer available."
+    skipped: "{info} **Skipped!** Your partner moved on to a new call."
+    searchingAfterSkip: "{loading} **Searching again...** Looking for a new partner now!"
     waitingInQueue: Waiting in queue for a match...
   embed:
     skippedTitle: Call Skipped
     duration: Duration
-    startNewCall: Use `/call` to start another call.
+    startNewCall: Want to chat more? Use `/call` to start another!
     searchingTitle: Searching for a Call
     matchNotification: We will notify you as soon as a match is found.
-    cancelHint: Use `/hangup` to cancel the search.
+    cancelHint: Use `/hangup` to stop searching.
     connectedTitle: Userphone Connected
     howItWorks: How it works
     sendMessages: Send messages here to chat with the other server.

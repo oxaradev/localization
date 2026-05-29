@@ -1031,7 +1031,8 @@ connection:
       errors:
         channelDeleted: The channel associated with this hub has been deleted.
         permissionsWebhook: I am unable to use webhooks.
-        permissionsSend: I am unable to send messages.
+        permissionsSend: Bot Missing Permissions! I am unable to send messages in that channel.
+        permissionsGeneral: I'm missing permissions in that channel. Ensure I have `Manage Webhooks`, `View Channel` and `Send Message` permissions.
 messageInfo:
   tabs:
     message:
