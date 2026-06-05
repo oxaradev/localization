@@ -29,6 +29,8 @@ common:
     note: Note
     never: Never
     lastUpdated: Last Updated
+    enabled: Enabled
+    disabled: Disabled
   buttons:
     back: &btn_back Back
     next: &btn_next Next
@@ -1140,11 +1142,6 @@ hub:
         label: Filter
         placeholder: InterChat Central
 
-server:
-  settings:
-    title: Server Settings
-    comingSoon: Advanced server settings (language, default filters, fallback channel) will be available in a future update.
-
 connection:
   title: Connection Management
   description: Configure, and administrate all hub connections within this server.
@@ -1483,4 +1480,25 @@ userphone:
       entry: "**Reporter:** <@{reporter}>\n**Reported:** <@{reported}>\n**Reason:** {reason}\n**Call ID:** {call_id}"
       footer: "Showing {count} pending report(s)"
       resolveSuccess: "{tick} Report `{id}` has been marked as resolved."
+
+server:
+  settings:
+    title: Server Settings
+    comingSoon: Advanced server settings (language, default filters, fallback channel) will be available in a future update.
+  userphone:
+    title: Userphone Settings
+    sectionDescription: Configure how your server behaves in calls.
+    buttonLabel: Userphone Settings
+    hideServerName:
+      title: Hide Server Name
+      description: Hide your server name from the webhook username in calls.
+    pingOnMatch:
+      title: Ping on Match
+      description: Send a ping in your channel when a 1v1 call match is found.
+    autoRequeueOnSkip:
+      title: Auto Requeue on Skip
+      description: Automatically start a new call when the other side skips. Only works if you were recently active in the call.
+    autoRequeueOnHangup:
+      title: Auto Requeue on Hangup
+      description: Automatically start a new call when the other side hangs up. Only works if you were recently active in the call.
       ignoreSuccess: "{tick} Report `{id}` has been marked as ignored."
