@@ -1499,7 +1499,7 @@ server:
     buttonLabel: Userphone Settings
     hideServerName:
       title: Hide Server Name
-      description: Hides partner's server name from the webhook username in calls.
+      description: Hides other servers' names from the webhook username in **group calls**. (Always hidden in 1v1 calls).
     pingOnMatch:
       title: Ping on Match
       description: Send a ping in your channel when a 1v1 call match is found.
