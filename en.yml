@@ -1235,6 +1235,7 @@ leaderboard:
   noActivityDescription: No activity recorded for this period.
   messages: messages
   calls: calls
+  votes: votes
   selectPeriod: Select time period
   selectType: Select leaderboard type
   yourRank: Your Rank
@@ -1248,6 +1249,8 @@ leaderboard:
   buttons:
     users: Users
     servers: Servers
+    calls: Calls
+    votes: Votes
   errors:
     alreadyShowingUsers: Already showing users leaderboard.
     alreadyShowingServers: Already showing servers leaderboard.
