@@ -462,12 +462,14 @@ hubConfig:
       actionDescription: What should happen when this rule is triggered?
       actionPlaceholder: Select an action...
     actions:
-      delete: Delete Message
-      deleteDescription: Delete the message that triggered the rule
+      delete: संदेश ब्लॉक करें
+      deleteDescription: संदेश को रिले होने से रोकें (ब्लॉक करें)
       warn: Warn User
       warnDescription: Issue a warning to the user
       alert: Send Alert
       alertDescription: Send an alert to the logging channel
+      censor: संदेश सेंसर करें
+      censorDescription: हैशटैग (#) के साथ मेल खाने वाले शब्द को सेंसर करें
     ruleCreated: Rule '{name}' has been created successfully!
     errors:
       createFailed: Failed to create rule. Please try again.

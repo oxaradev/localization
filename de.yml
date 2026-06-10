@@ -462,12 +462,14 @@ hubConfig:
       actionDescription: What should happen when this rule is triggered?
       actionPlaceholder: Select an action...
     actions:
-      delete: Delete Message
-      deleteDescription: Delete the message that triggered the rule
+      delete: Nachricht blockieren
+      deleteDescription: Blockiert die Nachricht von der Weiterleitung
       warn: Warn User
       warnDescription: Issue a warning to the user
       alert: Send Alert
       alertDescription: Send an alert to the logging channel
+      censor: Nachricht zensieren
+      censorDescription: Zensiert das übereinstimmende Wort mit Rauten (#)
     ruleCreated: Rule '{name}' has been created successfully!
     errors:
       createFailed: Failed to create rule. Please try again.

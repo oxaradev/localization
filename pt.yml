@@ -471,12 +471,14 @@ hubConfig:
       actionDescription: What should happen when this rule is triggered?
       actionPlaceholder: Select an action...
     actions:
-      delete: Delete Message
-      deleteDescription: Delete the message that triggered the rule
+      delete: Bloquear Mensagem
+      deleteDescription: Bloqueia a mensagem de ser retransmitida
       warn: Warn User
       warnDescription: Issue a warning to the user
       alert: Send Alert
       alertDescription: Send an alert to the logging channel
+      censor: Censurar Mensagem
+      censorDescription: Censura a palavra correspondente com hashtags (#)
     ruleCreated: Rule '{name}' has been created successfully!
     errors:
       createFailed: Failed to create rule. Please try again.

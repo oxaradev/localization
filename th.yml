@@ -462,12 +462,14 @@ hubConfig:
       actionDescription: What should happen when this rule is triggered?
       actionPlaceholder: Select an action...
     actions:
-      delete: Delete Message
-      deleteDescription: Delete the message that triggered the rule
+      delete: บล็อกข้อความ
+      deleteDescription: บล็อกไม่ให้ส่งต่อข้อความที่ทริกเกอร์กฎนี้
       warn: Warn User
       warnDescription: Issue a warning to the user
       alert: Send Alert
       alertDescription: Send an alert to the logging channel
+      censor: เซ็นเซอร์ข้อความ
+      censorDescription: เซ็นเซอร์คำที่ตรงกันด้วยเครื่องหมายสี่เหลี่ยม (#)
     ruleCreated: Rule '{name}' has been created successfully!
     errors:
       createFailed: Failed to create rule. Please try again.
