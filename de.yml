@@ -20,7 +20,7 @@ common:
     "no": "No"
     none: Keine
     noneSpecified: None Specified
-    tryAgain: Please try again
+    tryAgain: Bitte nochmal versuchen
     noReason: No Reason
     roles:
       owner: Owner
@@ -28,7 +28,7 @@ common:
       moderator: Moderator
     note: Note
     never: Nie
-    lastUpdated: Last Updated
+    lastUpdated:
     enabled: Enabled
     disabled: Disabled
   buttons:
