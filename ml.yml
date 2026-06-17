@@ -549,11 +549,7 @@ moderation:
     warnTitle: "⚠️ You have been Warned"
     muteTitle: "🔇 You have been Muted"
     banTitle: "🔨 You have been Banned"
-    unmuteTitle: "🔊 You have been Unmuted"
-    unbanTitle: "🔊 You have been Unbanned"
-    fieldAction: "Action"
     fieldReason: "കാരണം"
-    fieldDuration: "കാലാവധി"
     fieldExpires: "അവസാനിക്കുന്നത്"
     appealHint: "If you believe this was an error, you can submit an appeal using `/appeal` in any server connected to this hub."
   footer:
@@ -816,7 +812,7 @@ staff:
       hubs: "{count} ഹബ്ബുകൾ"
       modPositions: "{count} മോഡ് സ്ഥാനങ്ങൾ"
       blockedWords: "{count} തടയപ്പെട്ട വാക്കുകൾ"
-      antiSwearRules: "{count} ആന്റി-സ്വെയർ നിയമങ്ങൾ"
+      automodRules: "{count} automod rules"
     moderation:
       infractionsReceived: "{count} ലംഘനങ്ങൾ ലഭിച്ചു"
       infractionsIssued: "{count} ലംഘനങ്ങൾ നൽകി"
@@ -1234,12 +1230,12 @@ messageInfo:
   noBadges: പ്രദർശിപ്പിക്കാൻ ബാഡ്ജുകളില്ല
   noConnection: കണക്ഷൻ വിവരങ്ങളൊന്നും ലഭ്യമല്ല
 leaderboard:
+  votes: votes
   title: Leaderboard
   noActivity: No Activity
   noActivityDescription: No activity recorded for this period.
   messages: messages
   calls: calls
-  votes: votes
   selectPeriod: Select time period
   selectType: Select leaderboard type
   yourRank: Your Rank
