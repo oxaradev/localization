@@ -529,6 +529,8 @@ hubConfig:
       warnDescription: Issue a warning to the user
       alert: Send Alert
       alertDescription: Send an alert to the logging channel
+      censor: Censor Message
+      censorDescription: Censors the matched word with hashes (#)
     ruleCreated: Rule '{name}' has been created successfully!
     errors:
       createFailed: Failed to create rule. Please try again.
@@ -673,6 +675,15 @@ moderation:
     noHubsAvailable: "No hubs are available for moderation."
     webhooks:
       noPermission: "You do not have permission to moderate this hub."
+  notifications:
+    title: "Moderation Notice"
+    description: "You have received new moderation actions in **{hubName}**."
+    warnTitle: "⚠️ Warning"
+    muteTitle: "🔇 Muted"
+    banTitle: "🔨 Banned"
+    fieldReason: "Reason"
+    fieldExpires: "Expires"
+    appealHint: "You can appeal this action"
 
 welcomeMessage:
   title: Welcome to the InterChat hub called **{hubName}**!
@@ -815,7 +826,7 @@ staff:
       hubs: "{count} hubs"
       modPositions: "{count} mod positions"
       blockedWords: "{count} blocked words"
-      antiSwearRules: "{count} anti-swear rules"
+      automodRules: "{count} automod rules"
     moderation:
       infractionsReceived: "{count} infractions received"
       infractionsIssued: "{count} infractions issued"
@@ -1230,6 +1241,8 @@ messageInfo:
   noConnection: No connection information available
 
 leaderboard:
+  votes: "{count} votes"
+  votes: "{count} votes"
   title: Leaderboard
   noActivity: No Activity
   noActivityDescription: No activity recorded for this period.
@@ -1248,6 +1261,8 @@ leaderboard:
   buttons:
     users: Users
     servers: Servers
+    votes: Votes
+    calls: Calls
   errors:
     alreadyShowingUsers: Already showing users leaderboard.
     alreadyShowingServers: Already showing servers leaderboard.
