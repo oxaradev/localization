@@ -523,8 +523,8 @@ hubConfig:
       actionDescription: What should happen when this rule is triggered?
       actionPlaceholder: Select an action...
     actions:
-      delete: Delete Message
-      deleteDescription: Delete the message that triggered the rule
+      delete: Block Message
+      deleteDescription: Block the message from being relayed
       warn: Warn User
       warnDescription: Issue a warning to the user
       alert: Send Alert
@@ -554,6 +554,19 @@ hubConfig:
       cancelled: Rule deletion cancelled.
 
 moderation:
+  notifications:
+    title: "Moderation Notice"
+    description: "You have received a moderation action in the hub **{hubName}**."
+    warnTitle: "⚠️ You have been Warned"
+    muteTitle: "🔇 You have been Muted"
+    banTitle: "🔨 You have been Banned"
+    unmuteTitle: "🔊 You have been Unmuted"
+    unbanTitle: "🔊 You have been Unbanned"
+    fieldAction: "Action"
+    fieldReason: "Reason"
+    fieldDuration: "Duration"
+    fieldExpires: "Expires"
+    appealHint: "If you believe this was an error, you can submit an appeal using `/appeal` in any server connected to this hub."
   footer:
     actionedBy: "Actioned by {user}"
   actionNames:
@@ -1248,6 +1261,7 @@ leaderboard:
   noActivityDescription: No activity recorded for this period.
   messages: messages
   calls: calls
+  votes: votes
   selectPeriod: Select time period
   selectType: Select leaderboard type
   yourRank: Your Rank
@@ -1261,8 +1275,8 @@ leaderboard:
   buttons:
     users: Users
     servers: Servers
-    votes: Votes
     calls: Calls
+    votes: Votes
   errors:
     alreadyShowingUsers: Already showing users leaderboard.
     alreadyShowingServers: Already showing servers leaderboard.
@@ -1514,7 +1528,7 @@ server:
     buttonLabel: Userphone Settings
     hideServerName:
       title: Hide Server Name
-      description: Hides partner's server name from the webhook username in calls.
+      description: Hides other servers' names from the webhook username in **group calls**. (Always hidden in 1v1 calls).
     pingOnMatch:
       title: Ping on Match
       description: Send a ping in your channel when a 1v1 call match is found.
