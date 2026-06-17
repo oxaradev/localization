@@ -549,11 +549,7 @@ moderation:
     warnTitle: "⚠️ You have been Warned"
     muteTitle: "🔇 You have been Muted"
     banTitle: "🔨 You have been Banned"
-    unmuteTitle: "🔊 You have been Unmuted"
-    unbanTitle: "🔊 You have been Unbanned"
-    fieldAction: "Action"
     fieldReason: "Reason"
-    fieldDuration: "Duration"
     fieldExpires: "Expires"
     appealHint: "If you believe this was an error, you can submit an appeal using `/appeal` in any server connected to this hub."
   footer:
@@ -816,7 +812,7 @@ staff:
       hubs: "{count} hubs"
       modPositions: "{count} mod positions"
       blockedWords: "{count} blocked words"
-      antiSwearRules: "{count} anti-swear rules"
+      automodRules: "{count} automod rules"
     moderation:
       infractionsReceived: "{count} infractions received"
       infractionsIssued: "{count} infractions issued"
@@ -1234,12 +1230,12 @@ messageInfo:
   noBadges: No badges to display
   noConnection: No connection information available
 leaderboard:
+  votes: votes
   title: Leaderboard
   noActivity: No Activity
   noActivityDescription: No activity recorded for this period.
   messages: messages
   calls: calls
-  votes: votes
   selectPeriod: Select time period
   selectType: Select leaderboard type
   yourRank: Your Rank
