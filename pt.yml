@@ -327,6 +327,9 @@ report:
     reason:
       label: Motivo do Reporte
       placeholder: Por favor, descreva por que você está reportando esta mensagem...
+    context:
+      label: Context (Entire call history is sent)
+      placeholder: Add any additional context or details for staff...
   success:
     title: Reporte enviado
     toStaff: "{tick} Your report has been sent to InterChat staff."
@@ -335,6 +338,7 @@ report:
     hubMessageOnly: "{x_icon} Você só pode reportar mensgens que foram enviadas a partir dos hubs do InterChat."
     cannotReportSelf: "{x_icon} Você não pode reportar suas próprias mensagens."
     outOfScope: "{x_icon} This message cannot be reported. You can only report messages sent inside InterChat Hubs and Calls."
+    alreadyReportedCall: "{x_icon} You have already reported this call. When you submit a report, the entire call history is sent to staff, so there is no need to report multiple times."
 hubConfig:
   general:
     placeholder: Select a setting to configure...
