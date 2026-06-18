@@ -324,6 +324,9 @@ report:
     reason:
       label: เหตุผลในการรายงาน
       placeholder: โปรดอธิบายเหตุผลที่คุณรายงานข้อความนี้...
+    context:
+      label: Context (Entire call history is sent)
+      placeholder: Add any additional context or details for staff...
   success:
     title: ส่งรายงานแล้ว
     toStaff: "{tick} Your report has been sent to InterChat staff."
@@ -332,6 +335,7 @@ report:
     hubMessageOnly: "{x_icon} คุณสามารถรายงานได้เฉพาะข้อความที่ส่งผ่าน InterChat Hubs เท่านั้น"
     cannotReportSelf: "{x_icon} คุณไม่สามารถรายงานข้อความของตัวเองได้"
     outOfScope: "{x_icon} This message cannot be reported. You can only report messages sent inside InterChat Hubs and Calls."
+    alreadyReportedCall: "{x_icon} You have already reported this call. When you submit a report, the entire call history is sent to staff, so there is no need to report multiple times."
 hubConfig:
   general:
     placeholder: Select a setting to configure...
