@@ -1163,14 +1163,6 @@ hub:
         label: Filter
         placeholder: InterChat Central
 
-server:
-  settings:
-    title: Server Settings
-    comingSoon: Advanced server settings (language, default filters, fallback channel) will be available in a future update.
-  automod:
-    title: "Server Profanity Filter"
-    sectionDescription: "Configure bad word filters specifically for this server in calls."
-    buttonLabel: "Profanity Filter"
 connection:
   title: Connection Management
   description: Configure, and administrate all hub connections within this server.
@@ -1519,6 +1511,10 @@ server:
   settings:
     title: Server Settings
     comingSoon: Advanced server settings (language, default filters, fallback channel) will be available in a future update.
+  automod:
+    title: "Server Profanity Filter"
+    sectionDescription: "Configure bad word filters specifically for this server in calls."
+    buttonLabel: "Profanity Filter"
   userphone:
     title: Userphone Settings
     sectionDescription: Configure how your server behaves in calls.
