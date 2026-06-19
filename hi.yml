@@ -152,36 +152,25 @@ about:
   buttons:
     shardInfo: Shard इन्फो
 botLanding:
-  title: '👋 नमस्ते!'
+  title: Your server, connected. 🌐 Let's go cross-server!
   description: |
-    **I'm InterChat, and I'm pleased to be on your server.**
+    Hi, I'm InterChat. With me, you can have conversations with people all around discord, all from the comfort of this server. Cool? Wait until you hear what I do:
 
-    Ready to start building new bridges?
+    ## :telephone: 1:1 Calls & Group calls
+    With the tap of one command you instantly get connected to another server, or multiple servers (in group calls!). Instant gratification at your fing
 
-    {dot} **New here?** The `/setup` command provides a step-by-step guide.
-    {dot} **Ready to explore?** Visit our [discovery page](https://interchat.fun/hubs).
+    Use `/call`, `/skip`, `/hangup`. And rank higher in `/leaderboard` :sunglasses:
   hubs: |
-    ## ⭐ Hubs — Always-On Communities
-    Connect a channel to a Hub and chat with 10+ servers at once. The connection stays active 24/7, creating a persistent portal between communities.
+    ## 🏡 Hubs (where we stand out the most! ✨)
+    So you've seen calls, but *what if* you could make **cross-server** communities? It works by connecting multiple servers into one space!
 
-    ✦ Strict 24/7 moderation
-    ✦ Active topic-based channels
-    ✦ Best for long-term engagement
-
-    Use `/hub connect` to get started
-  calls: |
-    ## 📞 Calls & Group Calls — Instant Cross-Server Calls
-     Start a live conversation with up to 5 servers simultaneously. No invites, no setup. Instant connection.
-
-     ✦ 1:1 Calls
-     ✦ Group calls with up to 4 servers per call
-     ✦ Built-in moderation tools
-     ✦ Perfect for events & quick chats
-
-     Use `/call` to get started
+    - 📌 **Create:** `/hub create` (Make your own hub)
+    - 🧭 **Explore:** `/hub directory` (Find public hubs)
+    - 🔗 **Connect:** `/hub connect` (Join an existing hub)
+    - ⚙️ **Manage:** `/hub manage` (Admin settings)
+    > Use `/help` for the full list.
   closing: |
-    ## Trusted by communities across Discord
-    InterChat powers real-time conversations across 13,000+ servers. Join the network and connect with communities worldwide!
+    **What are you waiting for? Let me show you around! Type `/call` or `/hub directory` to get started.**
 
     -# Made with ❤️ by the InterChat Team
 setup:
@@ -1137,27 +1126,6 @@ hub:
       searchFilter:
         label: फ़िल्टर
         placeholder: InterChat Central
-server:
-  settings:
-    title: Server Settings
-    comingSoon: Advanced server settings (language, default filters, fallback channel) will be available in a future update.
-  userphone:
-    title: Userphone Settings
-    sectionDescription: Configure how your server behaves in calls.
-    buttonLabel: Userphone Settings
-    hideServerName:
-      title: Hide Server Name
-      description: Hides other servers' names from the webhook username in **group calls**. (Always hidden in 1v1 calls).
-    pingOnMatch:
-      title: Ping on Match
-      description: Send a ping in your channel when a 1v1 call match is found.
-    autoRequeueOnSkip:
-      title: Auto Requeue on Skip
-      description: Automatically start a new call when the other side skips. Only works if you were recently active in the call.
-    autoRequeueOnHangup:
-      title: Auto Requeue on Hangup
-      description: Automatically start a new call when the other side hangs up. Only works if you were recently active in the call.
-      ignoreSuccess: "{tick} Report `{id}` has been marked as ignored."
 connection:
   title: कनेक्शन प्रबंधन
   description: इस सर्वर के भीतर सभी Hub कनेक्शनों को कॉन्फ़िगर और प्रशासित करें।
@@ -1486,3 +1454,28 @@ userphone:
       entry: "**Reporter:** <@{reporter}>\n**Reported:** <@{reported}>\n**Reason:** {reason}\n**Call ID:** {call_id}"
       footer: "Showing {count} pending report(s)"
       resolveSuccess: "{tick} Report `{id}` has been marked as resolved."
+server:
+  settings:
+    title: Server Settings
+    comingSoon: Advanced server settings (language, default filters, fallback channel) will be available in a future update.
+  automod:
+    title: "Server Profanity Filter"
+    sectionDescription: "Configure bad word filters specifically for this server in calls."
+    buttonLabel: "Profanity Filter"
+  userphone:
+    title: Userphone Settings
+    sectionDescription: Configure how your server behaves in calls.
+    buttonLabel: Userphone Settings
+    hideServerName:
+      title: Hide Server Name
+      description: Hides other servers' names from the webhook username in **group calls**. (Always hidden in 1v1 calls).
+    pingOnMatch:
+      title: Ping on Match
+      description: Send a ping in your channel when a 1v1 call match is found.
+    autoRequeueOnSkip:
+      title: Auto Requeue on Skip
+      description: Automatically start a new call when the other side skips. Only works if you were recently active in the call.
+    autoRequeueOnHangup:
+      title: Auto Requeue on Hangup
+      description: Automatically start a new call when the other side hangs up. Only works if you were recently active in the call.
+      ignoreSuccess: "{tick} Report `{id}` has been marked as ignored."
