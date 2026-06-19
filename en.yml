@@ -156,36 +156,28 @@ about:
     shardInfo: Shard Info
 
 botLanding:
-  title: Welcome to InterChat! 🌐
+  title: Ooh such nice place here. 👀 Let's make it even more lively!
   description: |
-    Thank you for inviting InterChat. You now have 13,000+ Discord servers worldwide to chat with at your fingertips!
-    ## What is InterChat?
+    Hi, I'm InterChat. With me, you can have conversations with people all around discord, all from the comfort of this server. Cool? Wait until you hear what I do:
 
-    InterChat is the largest cross-server communication bot on Discord. Chat with people from thousands of communities, without anyone leaving their server. We offer two ways to connect:
+    ## :telephone: 1:1 Calls & Group calls
+    With the tap of one command you instantly get connected to another server, or multiple servers (in group calls!). Instant gratification at your fing
+Use `/call`, `/skip`, `/hangup`. And rank higher in `/leaderboard` :sunglasses:
   hubs: |
-    ## ⭐ Hubs — Always-On Communities
-    Connect a channel to a Hub and chat with 10+ servers at once. The connection stays active 24/7, creating a persistent portal between communities.
+    ## 🏡 Hubs (where we stand out the most! ✨)
+    So you've seen calls, but *what if* you could make **cross-server** communities? It works by connecting multiple servers into one space!
 
-    ✦ Strict 24/7 moderation
-    ✦ Active topic-based channels
-    ✦ Best for long-term engagement
+    - 📌 **Create:** `/hub create` (Make your own hub)
+    - 🧭 **Explore:** `/hub directory` (Find public hubs)
+    - 🔗 **Connect:** `/hub connect` (Join an existing hub)
+    - ⚙️ **Manage:** `/hub manage` (Admin settings)
+    > Use `/help` for the full list.
 
-    Use `/hub connect` to get started
-  calls: |
-     ## 📞 Calls & Group Calls — Instant Cross-Server Calls
-      Start a live conversation with up to 5 servers simultaneously. No invites, no setup. Instant connection.
 
-      ✦ 1:1 Calls
-      ✦ Group calls with up to 4 servers per call
-      ✦ Built-in moderation tools
-      ✦ Perfect for events & quick chats
-
-      Use `/call` to get started
   closing: |
-    ## Trusted by communities across Discord
-    InterChat powers real-time conversations across 13,000+ servers. Join the network and connect with communities worldwide!
+    **What are you waiting for? Let me show you around! Type `/call` or `/hub directory` to get started.**
 
-    -# Made with ❤️ by the InterChat Team
+    -# Made with ❤️ by the zev & Chanakan
 
 setup:
   welcome:
