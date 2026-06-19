@@ -162,7 +162,8 @@ botLanding:
 
     ## :telephone: 1:1 Calls & Group calls
     With the tap of one command you instantly get connected to another server, or multiple servers (in group calls!). Instant gratification at your fing
-Use `/call`, `/skip`, `/hangup`. And rank higher in `/leaderboard` :sunglasses:
+
+    Use `/call`, `/skip`, `/hangup`. And rank higher in `/leaderboard` :sunglasses:
   hubs: |
     ## 🏡 Hubs (where we stand out the most! ✨)
     So you've seen calls, but *what if* you could make **cross-server** communities? It works by connecting multiple servers into one space!
