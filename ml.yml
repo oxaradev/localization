@@ -132,23 +132,30 @@ common:
     invalidId: "{cross} Please provide a valid User ID or Server ID."
 about:
   title: ഇന്റർചാറ്റിനെക്കുറിച്ച്
-  description: InterChat connects Discord communities through active cross-server discussions. Messages flow naturally between servers in real-time.
-  supportText: സഹായം ആവശ്യമുണ്ടോ? സഹായത്തിനായി ഞങ്ങളുടെ പിന്തുണ സെർവറിൽ ചേരൂ!
-  features:
-    title: ഫീച്ചറുകൾ
-    list: |
-      - Connect with other servers for active cross-server discussions
-      - Messages flow naturally between servers in real-time
-      - Build engaged topic-focused communities
-      - Moderation tools to keep discussions healthy
-      - Visual dashboard to manage your hubs, servers, and settings
-  gettingStarted:
-    title: Getting Started
-    steps: |
-      - Run `/setup` to get connected
-      - Browse public hubs with `/hub directory`
-      - Join a hub in a channel with `/hub connect hub:<name>`
-      - Join a private hub with `/hub connect invite:<code>`
+  description: |
+    InterChat is the all-in-one cross-server chatting provider on Discord! From 1-on-1 “userphone” calls/groupcalls to "always-on" hub spaces managed by you.
+
+    ## What do we offer?
+    - **Hubs:** persistent cross-server rooms with AutoMod, granular moderator roles, audit logs, announcements (+ scheduling), public discovery, custom badges, leaderboards, a web dashboard, etc.
+    - **Calls:** one-to-one or group bridges with per-server profanity filters
+    - **Leaderboards:** compete for top spot across hubs or calls
+    - **Moderation tools:** dedicated commands for hub staff & InterChat staff
+    - **Modern web dashboard:** manage everything from the browser
+    - **Earnable badges:** show off your activity in calls & hubs
+    - **Premium:** higher limits & fun perks
+    ## Who is InterChat for?
+    - The bored and the curious, anyone who wants random, lively conversations.
+    - Server owners who want to build lasting bridges (gaming clans, study groups, partnerships, etc.).
+    ## Getting Started:
+    ### Calls
+    Use `/call` to instantly connect your channel with another server.
+    ### Hubs
+    1. Choose a channel you want linked **at all times**.
+    2. Browse `/hub directory` to find a hub you like (they're made by users just like you!).
+    3. Click **Join**, you're now connected to all servers in that hub.
+      Already know the hub? Use `/hub connect` with its name or invite code.
+    ## Useful Links
+  closingText: '-# Made with ❤️ by InterChat Development'
   buttons:
     shardInfo: ഷാർഡ് വിവരം
 botLanding:
@@ -172,7 +179,7 @@ botLanding:
   closing: |
     **What are you waiting for? Let me show you around! Type `/call` or `/hub directory` to get started.**
 
-    -# Made with ❤️ by the InterChat Team
+    -# Made with ❤️ by InterChat Development
 setup:
   welcome:
     title: ഇന്റർചാറ്റ് സജ്ജീകരണത്തിലേക്ക് സ്വാഗതം
