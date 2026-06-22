@@ -181,27 +181,10 @@ botLanding:
 
     -# Made with ❤️ by InterChat Development
 setup:
-  welcome:
-    title: Bienvenido a la Configuración de InterChat
-    description: Vamos a conectar tu servidor. Este asistente te guiará para crear o unirte a un Hub.
   select:
     placeholder: Selecciona un idioma
   locale:
     successDescription: "{tick} Tu idioma ha sido configurado a **{locale_name}**"
-  join:
-    title: Unirse a un Hub
-    description: Usa el directorio público o conéctate con un código de invitación.
-    publicHubs:
-      title: Hubs Públicos
-      description: "**Browse** [interchat.fun/hubs](https://interchat.fun/hubs)"
-    privateHubs:
-      title: Privados o Solo Invitación
-      description: "**Ask the hub owner** for an invite code or run `/connection add`"
-    connectChannel:
-      title: Conectar un Canal
-      description: "Run `/hub connect` in the channel you want to use, then choose a hub.\n\nExamples:\n- `/hub connect hub:MyHub`\n- `/hub connect invite:abc123 channel:#general`"
-      permissionsHint: "Requiere **Administrar Canales** (tu) y **Administrar Webhooks** + **Enviar Mensajes** (yo en el canal de destino)."
-    footer: Puedes unirte a más hubs cuando quieras.
   buttons:
     getStarted: Iniciar Asistente
     connectHere: Conectar Aquí
@@ -209,9 +192,6 @@ setup:
     discoverHubs: Descubrir Hubs Públicos
     useDefault: Usar Predeterminado
     skipForNow: Omitir por Ahora
-  errors:
-    wizardOwnerOnly: "{x_icon} No puedes usar este asistente de instalación."
-  footer: "Instalación de InterChat • {guildName}"
 help:
   title: Comandos de InterChat
   description: Explora nuestra amplia gama de comandos para ayudarte a conectar con otros.
@@ -947,19 +927,35 @@ hub:
       description: "¡**{serverName}** se ha unido al hub!"
       footer: '¡Bienvenido a {hubName}!'
   create:
-    title: Crea Tu Hub
-    description: |
-      Create your own InterChat hub for a community.
+    title: Let's Get You Started!
+    description: Pick a name, short-description, description & visibility for your hub.
+    whatsAHub: |
+      ## ❓ What's a Hub, anyway?
+      Think of a Hub as a **room** created by someone.
+      ## 🤨 Okay... how does this "room" work?
+      In real life, a room needs people. In InterChat, multiple servers join the same Hub through a channel in each server.
+      ## 🤔 "Joined"? What's actually connected?
+      Let's zoom in.
+
+      Imagine you're in **Server A**, and there's a channel called **#global** that's connected to a Hub.
+
+      When you send a message in **#global**, that message is forwarded to every other server connected to the same Hub.
+
+      Their messages are then forwarded back to your **#global** channel too.
+      ## 👏 That's it.
+      Hubs are a surprisingly simple concept.
+
+      Let's get started!
   wizard:
-    start: Comenzar a Crear Tu Hub
+    start: Start
     name:
-      placeholder: Mi Hub Asombroso
+      description: Pick a unique name for your hub. Max 100 chars.
     tagline:
       label: Eslogan del Hub
-      placeholder: Un resumen de una oración de tu Hub
+      description: A one-sentence summary of your hub
     description:
       label: Descripción Completa
-      placeholder: Describe tu Hub en detalle (20-1000 caracteres)
+      description: Describe your hub in detail (20-1000 characters)
     visibility:
       unlisted:
         desc: No está en el directorio.
@@ -970,7 +966,7 @@ hub:
     steps:
       progress: Paso {current}/{total}
       step1:
-        modalTitle: "Paso 1/7: Detalles del Hub"
+        modalTitle: "Hub Details"
         visibilityLabel: Visibilidad del Hub
         visibilityPlaceholder: Cambiar Visibilidad del Hub...
       step2:
@@ -1041,6 +1037,7 @@ hub:
       description: Tu hub no ha sido creado.
     errors:
       cantUseWizard: No puedes usar este asistente.
+      nameAlreadyExists: This name in already in use! Pick a new one.
       invalidInput: No has proporcionado una entrada válida.
       uniqueConstraint: '¡Vaya! Ese nombre de hub ya existe.'
       processingError: Algo ha ido mal al crear tu hub.
