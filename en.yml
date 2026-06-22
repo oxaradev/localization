@@ -187,27 +187,10 @@ botLanding:
     -# Made with ❤️ by InterChat Development
 
 setup:
-  welcome:
-    title: Welcome to InterChat Setup
-    description: Let's get your server connected. This wizard will guide you through creating or joining a hub.
   select:
     placeholder: Select a language
   locale:
     successDescription: "{tick} Your language has been set to **{locale_name}**"
-  join:
-    title: Join a Hub
-    description: Join a hub by connecting a channel in your server.
-    publicHubs:
-      title: Public Hubs
-      description: "**Browse in Discord:** Use `/hub directory`"
-    privateHubs:
-      title: Private or Invite-only
-      description: "**Ask the hub owner** for an invite code, then connect with `/hub connect invite:<code>`"
-    connectChannel:
-      title: Connect a Channel
-      description: "Run `/hub connect` in the channel you want to use, then choose a hub.\n\nExamples:\n- `/hub connect hub:MyHub`\n- `/hub connect invite:abc123 channel:#general`"
-      permissionsHint: "Requires **Manage Channels** (you) and **Manage Webhooks** + **Send Messages** (me in the target channel)."
-    footer: You can join more hubs anytime.
   buttons:
     getStarted: Get Started
     connectHere: Connect Here
@@ -215,9 +198,6 @@ setup:
     discoverHubs: Discover Public Hubs
     useDefault: Use Default
     skipForNow: Skip for Now
-  errors:
-    wizardOwnerOnly: "{x_icon} You can't use this setup wizard."
-  footer: "InterChat Setup • {guildName}"
 
 help:
   title: InterChat Commands
