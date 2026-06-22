@@ -975,22 +975,36 @@ hub:
       description: "**{serverName}** has joined the hub!"
       footer: Welcome to {hubName}!
   create:
-    title: Create Your Hub
-    description: |
-      **A Hub connects multiple servers into one shared chat space.**
-      Once your server joins a hub, messages sent in connected channels appear across all participating servers.
+    title: Let's Get You Started!
+    description: Pick a name, short-description, description & visibility for your hub.
+    whatsAHub: |
+      ## ❓ What's a Hub, anyway?
+      Think of a Hub as a **room** created by someone.
+      ## 🤨 Okay... how does this "room" work?
+      In real life, a room needs people. In InterChat, multiple servers join the same Hub through a channel in each server.
+      ## 🤔 "Joined"? What's actually connected?
+      Let's zoom in.
 
-      Let's set one up in under a minute.
+      Imagine you're in **Server A**, and there's a channel called **#global** that's connected to a Hub.
+
+      When you send a message in **#global**, that message is forwarded to every other server connected to the same Hub.
+
+      Their messages are then forwarded back to your **#global** channel too.
+      ## 👏 That's it.
+      Hubs are a surprisingly simple concept.
+
+      Let's get started!
+
   wizard:
-    start: Start Creating Your Hub
+    start: Start
     name:
-      placeholder: My Amazing Hub
+      description: Pick a unique name for your hub. Max 100 chars.
     tagline:
       label: Hub Tagline
-      placeholder: A one-sentence summary of your hub
+      description: A one-sentence summary of your hub
     description:
       label: Full Description
-      placeholder: Describe your hub in detail (20-1000 characters)
+      description: Describe your hub in detail (20-1000 characters)
     visibility:
       unlisted:
         desc: Not in directory.
@@ -1001,7 +1015,7 @@ hub:
     steps:
       progress: Step {current}/{total}
       step1:
-        modalTitle: "Step 1/6: Hub Details"
+        modalTitle: "Hub Details"
         visibilityLabel: Hub Visibility
         visibilityPlaceholder: Select Hub Visibility...
       step2:
@@ -1072,6 +1086,7 @@ hub:
       description: Your hub was not created.
     errors:
       cantUseWizard: You can't use this wizard.
+      nameAlreadyExists: This name in already in use! Pick a new one.
       invalidInput: *err_invalid_input
       uniqueConstraint: Uh oh! That hub name has already been taken.
       processingError: Something went wrong while creating your hub.
