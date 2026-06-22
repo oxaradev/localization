@@ -181,27 +181,10 @@ botLanding:
 
     -# Made with ❤️ by InterChat Development
 setup:
-  welcome:
-    title: ഇന്റർചാറ്റ് സജ്ജീകരണത്തിലേക്ക് സ്വാഗതം
-    description: നിങ്ങളുടെ സെർവറുമായി ബന്ധിപ്പിക്കാം. ഒരു ഹബ് സൃഷ്ടിക്കുന്നതിനോ ചേരുന്നതിനോ ഈ വിസാർഡ് നിങ്ങളെ നയിക്കും.
   select:
     placeholder: ഒരു ഭാഷ തിരഞ്ഞെടുക്കുക
   locale:
     successDescription: "{tick} നിങ്ങളുടെ ഭാഷ ഇതായി സജ്ജീകരിച്ചിരിക്കുന്നു **{locale_name}**"
-  join:
-    title: ഒരു ഹബ്ബിൽ ചേരുക
-    description: പബ്ലിക് ഡയറക്ടറി ഉപയോഗിക്കുകയോ ഒരു ക്ഷണ കോഡ് ഉപയോഗിച്ച് ബന്ധിപ്പിക്കുകയോ ചെയ്യുക.
-    publicHubs:
-      title: പൊതു ഹബ്ബുകൾ (Public)
-      description: "**Browse in Discord:** Use `/hub directory`"
-    privateHubs:
-      title: സ്വകാര്യം അല്ലെങ്കിൽ ക്ഷണം മാത്രം
-      description: "**Ask the hub owner** for an invite code, then connect with `/hub connect invite:<code>`"
-    connectChannel:
-      title: Connect a Channel
-      description: "Run `/hub connect` in the channel you want to use, then choose a hub.\n\nExamples:\n- `/hub connect hub:MyHub`\n- `/hub connect invite:abc123 channel:#general`"
-      permissionsHint: "Requires **Manage Channels** (you) and **Manage Webhooks** + **Send Messages** (me in the target channel)."
-    footer: You can join more hubs anytime.
   buttons:
     getStarted: സജ്ജീകരണ വിസാർഡ് ആരംഭിക്കുക
     connectHere: Connect Here
@@ -209,9 +192,6 @@ setup:
     discoverHubs: പബ്ലിക് ഹബ്ബുകൾ കണ്ടെത്തുക
     useDefault: ഡിഫോൾട്ട് ഉപയോഗിക്കുക
     skipForNow: തൽക്കാലം ഒഴിവാക്കുക
-  errors:
-    wizardOwnerOnly: "{x_icon} You can't use this setup wizard."
-  footer: "InterChat Setup • {guildName}"
 help:
   title: ഇന്റർചാറ്റ് കമാൻഡുകൾ
   description: Explore our wide range of commands to help you connect with others.
@@ -947,19 +927,35 @@ hub:
       description: "**{serverName}** has joined the hub!"
       footer: '{hubName}-ലേക്ക് സ്വാഗതം!'
   create:
-    title: നിങ്ങളുടെ ഹബ് സൃഷ്ടിക്കുക
-    description: |
-      Create your own InterChat hub for a community.
+    title: Let's Get You Started!
+    description: Pick a name, short-description, description & visibility for your hub.
+    whatsAHub: |
+      ## ❓ What's a Hub, anyway?
+      Think of a Hub as a **room** created by someone.
+      ## 🤨 Okay... how does this "room" work?
+      In real life, a room needs people. In InterChat, multiple servers join the same Hub through a channel in each server.
+      ## 🤔 "Joined"? What's actually connected?
+      Let's zoom in.
+
+      Imagine you're in **Server A**, and there's a channel called **#global** that's connected to a Hub.
+
+      When you send a message in **#global**, that message is forwarded to every other server connected to the same Hub.
+
+      Their messages are then forwarded back to your **#global** channel too.
+      ## 👏 That's it.
+      Hubs are a surprisingly simple concept.
+
+      Let's get started!
   wizard:
-    start: നിങ്ങളുടെ ഹബ് സൃഷ്ടിക്കാൻ തുടങ്ങുക
+    start: Start
     name:
-      placeholder: എന്റെ അത്ഭുതകരമായ ഹബ്
+      description: Pick a unique name for your hub. Max 100 chars.
     tagline:
       label: ഹബ് ടാഗ്‌ലൈൻ
-      placeholder: നിങ്ങളുടെ ഹബ്ബിന്റെ ഒറ്റവരി സംഗ്രഹം
+      description: A one-sentence summary of your hub
     description:
       label: പൂർണ്ണ വിവരണം
-      placeholder: നിങ്ങളുടെ ഹബ് വിശദമായി വിവരിക്കുക (20-1000 അക്ഷരങ്ങൾ)
+      description: Describe your hub in detail (20-1000 characters)
     visibility:
       unlisted:
         desc: Not in directory.
@@ -970,7 +966,7 @@ hub:
     steps:
       progress: സ്റ്റെപ്പ് {current}/{total}
       step1:
-        modalTitle: "സ്റ്റെപ്പ് 1/7: ഹബ് വിവരങ്ങൾ"
+        modalTitle: "Hub Details"
         visibilityLabel: Hub Visibility
         visibilityPlaceholder: Select Hub Visibility...
       step2:
@@ -1041,6 +1037,7 @@ hub:
       description: Your hub was not created.
     errors:
       cantUseWizard: നിങ്ങൾക്ക് ഈ വിസാർഡ് ഉപയോഗിക്കാൻ കഴിയില്ല.
+      nameAlreadyExists: This name in already in use! Pick a new one.
       invalidInput: നിങ്ങൾ സാധുവായ ഒരു ഇൻപുട്ട് നൽകിയിട്ടില്ല.
       uniqueConstraint: Uh oh! That hub name has already been taken.
       processingError: Something went wrong while creating your hub.
