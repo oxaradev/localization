@@ -181,27 +181,10 @@ botLanding:
 
     -# Made with ❤️ by InterChat Development
 setup:
-  welcome:
-    title: InterChat सेटअप में आपका स्वागत है
-    description: आइए आपके सर्वर को कनेक्ट करें। यह विजार्ड आपको Hub बनाने या उसमें शामिल होने के माध्यम से मार्गदर्शन करेगा।
   select:
     placeholder: एक भाषा चुनें
   locale:
     successDescription: "{tick} आपकी भाषा **{locale_name}** पर सेट कर दी गई है"
-  join:
-    title: एक Hub में शामिल हों
-    description: सार्वजनिक निर्देशिका का उपयोग करें या एक आमंत्रण कोड के साथ जुड़ें।
-    publicHubs:
-      title: सार्वजनिक (Public) Hubs
-      description: "**Browse** [interchat.fun/hubs](https://interchat.fun/hubs)"
-    privateHubs:
-      title: निजी या केवल-आमंत्रण (Invite-only)
-      description: "**Ask the hub owner** for an invite code or run `/connection add`"
-    connectChannel:
-      title: Connect a Channel
-      description: "Run `/hub connect` in the channel you want to use, then choose a hub.\n\nExamples:\n- `/hub connect hub:MyHub`\n- `/hub connect invite:abc123 channel:#general`"
-      permissionsHint: "Requires **Manage Channels** (you) and **Manage Webhooks** + **Send Messages** (me in the target channel)."
-    footer: You can join more hubs anytime.
   buttons:
     getStarted: सेटअप विजार्ड शुरू करें
     connectHere: Connect Here
@@ -209,9 +192,6 @@ setup:
     discoverHubs: सार्वजनिक Hubs खोजें
     useDefault: डिफ़ॉल्ट का उपयोग करें
     skipForNow: अभी के लिए छोड़ें
-  errors:
-    wizardOwnerOnly: "{x_icon} You can't use this setup wizard."
-  footer: "InterChat Setup • {guildName}"
 help:
   title: InterChat कमांड्स
   description: Explore our wide range of commands to help you connect with others.
@@ -947,19 +927,35 @@ hub:
       description: "**{serverName}** has joined the hub!"
       footer: '{hubName} में आपका स्वागत है!'
   create:
-    title: अपना Hub बनाएं
-    description: |
-      Create your own InterChat hub for a community.
+    title: Let's Get You Started!
+    description: Pick a name, short-description, description & visibility for your hub.
+    whatsAHub: |
+      ## ❓ What's a Hub, anyway?
+      Think of a Hub as a **room** created by someone.
+      ## 🤨 Okay... how does this "room" work?
+      In real life, a room needs people. In InterChat, multiple servers join the same Hub through a channel in each server.
+      ## 🤔 "Joined"? What's actually connected?
+      Let's zoom in.
+
+      Imagine you're in **Server A**, and there's a channel called **#global** that's connected to a Hub.
+
+      When you send a message in **#global**, that message is forwarded to every other server connected to the same Hub.
+
+      Their messages are then forwarded back to your **#global** channel too.
+      ## 👏 That's it.
+      Hubs are a surprisingly simple concept.
+
+      Let's get started!
   wizard:
-    start: अपना Hub बनाना शुरू करें
+    start: Start
     name:
-      placeholder: मेरा अद्भुत Hub
+      description: Pick a unique name for your hub. Max 100 chars.
     tagline:
       label: Hub टैगलाइन
-      placeholder: अपने Hub का एक-वाक्य सारांश
+      description: A one-sentence summary of your hub
     description:
       label: पूर्ण विवरण
-      placeholder: अपने Hub का विस्तार से वर्णन करें (20-1000 वर्ण)
+      description: Describe your hub in detail (20-1000 characters)
     visibility:
       unlisted:
         desc: Not in directory.
@@ -970,7 +966,7 @@ hub:
     steps:
       progress: चरण {current}/{total}
       step1:
-        modalTitle: "चरण 1/7: Hub विवरण"
+        modalTitle: "Hub Details"
         visibilityLabel: Hub Visibility
         visibilityPlaceholder: Select Hub Visibility...
       step2:
@@ -1041,6 +1037,7 @@ hub:
       description: Your hub was not created.
     errors:
       cantUseWizard: आप इस विजार्ड का उपयोग नहीं कर सकते।
+      nameAlreadyExists: This name in already in use! Pick a new one.
       invalidInput: आपने वैध इनपुट प्रदान नहीं किया है।
       uniqueConstraint: Uh oh! That hub name has already been taken.
       processingError: Something went wrong while creating your hub.
