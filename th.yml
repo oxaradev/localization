@@ -181,27 +181,10 @@ botLanding:
 
     -# Made with ❤️ by InterChat Development
 setup:
-  welcome:
-    title: ยินดีต้อนรับสู่การตั้งค่า InterChat
-    description: มาเชื่อมต่อเซิร์ฟเวอร์ของคุณกันเถอะ วิซาร์ดนี้จะแนะนำคุณเกี่ยวกับการสร้างหรือเข้าร่วม Hub
   select:
     placeholder: เลือกภาษา
   locale:
     successDescription: "{tick} ภาษาของคุณถูกตั้งค่าเป็น **{locale_name}**"
-  join:
-    title: เข้าร่วม Hub
-    description: ใช้ไดเรกทอรีสาธารณะหรือเชื่อมต่อด้วยรหัสเชิญ
-    publicHubs:
-      title: Hub สาธารณะ
-      description: "**Browse** [interchat.fun/hubs](https://interchat.fun/hubs)"
-    privateHubs:
-      title: ส่วนตัว หรือ ต้องได้รับเชิญ
-      description: "**Ask the hub owner** for an invite code or run `/connection add`"
-    connectChannel:
-      title: Connect a Channel
-      description: "Run `/hub connect` in the channel you want to use, then choose a hub.\n\nExamples:\n- `/hub connect hub:MyHub`\n- `/hub connect invite:abc123 channel:#general`"
-      permissionsHint: "Requires **Manage Channels** (you) and **Manage Webhooks** + **Send Messages** (me in the target channel)."
-    footer: You can join more hubs anytime.
   buttons:
     getStarted: เริ่มวิซาร์ดการตั้งค่า
     connectHere: Connect Here
@@ -209,9 +192,6 @@ setup:
     discoverHubs: ค้นหา Hub สาธารณะ
     useDefault: ใช้ค่าเริ่มต้น
     skipForNow: ข้ามไปก่อน
-  errors:
-    wizardOwnerOnly: "{x_icon} You can't use this setup wizard."
-  footer: "InterChat Setup • {guildName}"
 help:
   title: คำสั่ง InterChat
   description: Explore our wide range of commands to help you connect with others.
@@ -947,19 +927,35 @@ hub:
       description: "**{serverName}** has joined the hub!"
       footer: ยินดีต้อนรับสู่ {hubName}!
   create:
-    title: สร้าง Hub ของคุณ
-    description: |
-      Create your own InterChat hub for a community.
+    title: Let's Get You Started!
+    description: Pick a name, short-description, description & visibility for your hub.
+    whatsAHub: |
+      ## ❓ What's a Hub, anyway?
+      Think of a Hub as a **room** created by someone.
+      ## 🤨 Okay... how does this "room" work?
+      In real life, a room needs people. In InterChat, multiple servers join the same Hub through a channel in each server.
+      ## 🤔 "Joined"? What's actually connected?
+      Let's zoom in.
+
+      Imagine you're in **Server A**, and there's a channel called **#global** that's connected to a Hub.
+
+      When you send a message in **#global**, that message is forwarded to every other server connected to the same Hub.
+
+      Their messages are then forwarded back to your **#global** channel too.
+      ## 👏 That's it.
+      Hubs are a surprisingly simple concept.
+
+      Let's get started!
   wizard:
-    start: เริ่มสร้าง Hub ของคุณ
+    start: Start
     name:
-      placeholder: Hub สุดเจ๋งของฉัน
+      description: Pick a unique name for your hub. Max 100 chars.
     tagline:
       label: คำโปรยของ Hub
-      placeholder: สรุปเกี่ยวกับ Hub ของคุณในประโยคเดียว
+      description: A one-sentence summary of your hub
     description:
       label: คำอธิบายฉบับเต็ม
-      placeholder: อธิบาย Hub ของคุณโดยละเอียด (20-1000 ตัวอักษร)
+      description: Describe your hub in detail (20-1000 characters)
     visibility:
       unlisted:
         desc: Not in directory.
@@ -970,7 +966,7 @@ hub:
     steps:
       progress: ขั้นตอนที่ {current}/{total}
       step1:
-        modalTitle: "ขั้นตอนที่ 1/7: รายละเอียด Hub"
+        modalTitle: "Hub Details"
         visibilityLabel: Hub Visibility
         visibilityPlaceholder: Select Hub Visibility...
       step2:
@@ -1041,6 +1037,7 @@ hub:
       description: Your hub was not created.
     errors:
       cantUseWizard: คุณไม่สามารถใช้วิซาร์ดนี้ได้
+      nameAlreadyExists: This name in already in use! Pick a new one.
       invalidInput: คุณระบุข้อมูลไม่ถูกต้อง
       uniqueConstraint: Uh oh! That hub name has already been taken.
       processingError: Something went wrong while creating your hub.
