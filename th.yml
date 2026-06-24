@@ -132,80 +132,59 @@ common:
     invalidId: "{cross} Please provide a valid User ID or Server ID."
 about:
   title: เกี่ยวกับ InterChat
-  description: InterChat connects Discord communities through active cross-server discussions. Messages flow naturally between servers in real-time.
-  supportText: ต้องการความช่วยเหลือ? เข้าร่วมเซิร์ฟเวอร์สนับสนุนของเราเพื่อรับความช่วยเหลือ!
-  features:
-    title: ฟีเจอร์
-    list: |
-      - Connect with other servers for active cross-server discussions
-      - Messages flow naturally between servers in real-time
-      - Build engaged topic-focused communities
-      - Moderation tools to keep discussions healthy
-      - Visual dashboard to manage your hubs, servers, and settings
-  gettingStarted:
-    title: Getting Started
-    steps: |
-      - Run `/setup` to get connected
-      - Browse public hubs with `/hub directory`
-      - Join a hub in a channel with `/hub connect hub:<name>`
-      - Join a private hub with `/hub connect invite:<code>`
+  description: |
+    InterChat is the all-in-one cross-server chatting provider on Discord! From 1-on-1 “userphone” calls/groupcalls to "always-on" hub spaces managed by you.
+
+    ## What do we offer?
+    - **Hubs:** persistent cross-server rooms with AutoMod, granular moderator roles, audit logs, announcements (+ scheduling), public discovery, custom badges, leaderboards, a web dashboard, etc.
+    - **Calls:** one-to-one or group bridges with per-server profanity filters
+    - **Leaderboards:** compete for top spot across hubs or calls
+    - **Moderation tools:** dedicated commands for hub staff & InterChat staff
+    - **Modern web dashboard:** manage everything from the browser
+    - **Earnable badges:** show off your activity in calls & hubs
+    - **Premium:** higher limits & fun perks
+    ## Who is InterChat for?
+    - The bored and the curious, anyone who wants random, lively conversations.
+    - Server owners who want to build lasting bridges (gaming clans, study groups, partnerships, etc.).
+    ## Getting Started:
+    ### Calls
+    Use `/call` to instantly connect your channel with another server.
+    ### Hubs
+    1. Choose a channel you want linked **at all times**.
+    2. Browse `/hub directory` to find a hub you like (they're made by users just like you!).
+    3. Click **Join**, you're now connected to all servers in that hub.
+      Already know the hub? Use `/hub connect` with its name or invite code.
+    ## Useful Links
+  closingText: '-# Made with ❤️ by InterChat Development'
   buttons:
     shardInfo: ข้อมูล Shard
 botLanding:
-  title: '👋 สวัสดีครับ!'
+  title: Your server, connected. 🌐 Let's go cross-server!
   description: |
-    **I'm InterChat, and I'm pleased to be on your server.**
+    Hi, I'm InterChat. With me, you can have conversations with people all around discord, all from the comfort of this server. Cool? Wait until you hear what I do:
 
-    Ready to start building new bridges?
+    ## :telephone: 1:1 Calls & Group calls
+    With the tap of one command you instantly get connected to another server, or multiple servers (in group calls!). Instant gratification at your fing
 
-    {dot} **New here?** The `/setup` command provides a step-by-step guide.
-    {dot} **Ready to explore?** Visit our [discovery page](https://interchat.fun/hubs).
+    Use `/call`, `/skip`, `/hangup`. And rank higher in `/leaderboard` :sunglasses:
   hubs: |
-    ## ⭐ Hubs — Always-On Communities
-    Connect a channel to a Hub and chat with 10+ servers at once. The connection stays active 24/7, creating a persistent portal between communities.
+    ## 🏡 Hubs (where we stand out the most! ✨)
+    So you've seen calls, but *what if* you could make **cross-server** communities? It works by connecting multiple servers into one space!
 
-    ✦ Strict 24/7 moderation
-    ✦ Active topic-based channels
-    ✦ Best for long-term engagement
-
-    Use `/hub connect` to get started
-  calls: |
-    ## 📞 Calls & Group Calls — Instant Cross-Server Calls
-     Start a live conversation with up to 5 servers simultaneously. No invites, no setup. Instant connection.
-
-     ✦ 1:1 Calls
-     ✦ Group calls with up to 4 servers per call
-     ✦ Built-in moderation tools
-     ✦ Perfect for events & quick chats
-
-     Use `/call` to get started
+    - 📌 **Create:** `/hub create` (Make your own hub)
+    - 🧭 **Explore:** `/hub directory` (Find public hubs)
+    - 🔗 **Connect:** `/hub connect` (Join an existing hub)
+    - ⚙️ **Manage:** `/hub manage` (Admin settings)
+    > Use `/help` for the full list.
   closing: |
-    ## Trusted by communities across Discord
-    InterChat powers real-time conversations across 13,000+ servers. Join the network and connect with communities worldwide!
+    **What are you waiting for? Let me show you around! Type `/call` or `/hub directory` to get started.**
 
-    -# Made with ❤️ by the InterChat Team
+    -# Made with ❤️ by InterChat Development
 setup:
-  welcome:
-    title: ยินดีต้อนรับสู่การตั้งค่า InterChat
-    description: มาเชื่อมต่อเซิร์ฟเวอร์ของคุณกันเถอะ วิซาร์ดนี้จะแนะนำคุณเกี่ยวกับการสร้างหรือเข้าร่วม Hub
   select:
     placeholder: เลือกภาษา
   locale:
     successDescription: "{tick} ภาษาของคุณถูกตั้งค่าเป็น **{locale_name}**"
-  join:
-    title: เข้าร่วม Hub
-    description: ใช้ไดเรกทอรีสาธารณะหรือเชื่อมต่อด้วยรหัสเชิญ
-    publicHubs:
-      title: Hub สาธารณะ
-      description: "**Browse** [interchat.fun/hubs](https://interchat.fun/hubs)"
-    privateHubs:
-      title: ส่วนตัว หรือ ต้องได้รับเชิญ
-      description: "**Ask the hub owner** for an invite code or run `/connection add`"
-    connectChannel:
-      title: Connect a Channel
-      description: "Run `/hub connect` in the channel you want to use, then choose a hub.\n\nExamples:\n- `/hub connect hub:MyHub`\n- `/hub connect invite:abc123 channel:#general`"
-      permissionsHint: "Requires **Manage Channels** (you) and **Manage Webhooks** + **Send Messages** (me in the target channel)."
-    footer: You can join more hubs anytime.
   buttons:
     getStarted: เริ่มวิซาร์ดการตั้งค่า
     connectHere: Connect Here
@@ -213,9 +192,6 @@ setup:
     discoverHubs: ค้นหา Hub สาธารณะ
     useDefault: ใช้ค่าเริ่มต้น
     skipForNow: ข้ามไปก่อน
-  errors:
-    wizardOwnerOnly: "{x_icon} You can't use this setup wizard."
-  footer: "InterChat Setup • {guildName}"
 help:
   title: คำสั่ง InterChat
   description: Explore our wide range of commands to help you connect with others.
@@ -324,6 +300,9 @@ report:
     reason:
       label: เหตุผลในการรายงาน
       placeholder: โปรดอธิบายเหตุผลที่คุณรายงานข้อความนี้...
+    context:
+      label: Context (Entire call history is sent)
+      placeholder: Add any additional context or details for staff...
   success:
     title: ส่งรายงานแล้ว
     toStaff: "{tick} Your report has been sent to InterChat staff."
@@ -332,6 +311,7 @@ report:
     hubMessageOnly: "{x_icon} คุณสามารถรายงานได้เฉพาะข้อความที่ส่งผ่าน InterChat Hubs เท่านั้น"
     cannotReportSelf: "{x_icon} คุณไม่สามารถรายงานข้อความของตัวเองได้"
     outOfScope: "{x_icon} This message cannot be reported. You can only report messages sent inside InterChat Hubs and Calls."
+    alreadyReportedCall: "{x_icon} You have already reported this call. When you submit a report, the entire call history is sent to staff, so there is no need to report multiple times."
 hubConfig:
   general:
     placeholder: Select a setting to configure...
@@ -551,11 +531,7 @@ moderation:
     warnTitle: "⚠️ You have been Warned"
     muteTitle: "🔇 You have been Muted"
     banTitle: "🔨 You have been Banned"
-    unmuteTitle: "🔊 You have been Unmuted"
-    unbanTitle: "🔊 You have been Unbanned"
-    fieldAction: "Action"
     fieldReason: "เหตุผล"
-    fieldDuration: "ระยะเวลา"
     fieldExpires: "หมดอายุ"
     appealHint: "If you believe this was an error, you can submit an appeal using `/appeal` in any server connected to this hub."
   footer:
@@ -818,7 +794,7 @@ staff:
       hubs: "{count} Hubs"
       modPositions: "{count} ตำแหน่ง Mod"
       blockedWords: "{count} คำที่ถูกบล็อก"
-      antiSwearRules: "{count} กฎห้ามคำหยาบ"
+      automodRules: "{count} automod rules"
     moderation:
       infractionsReceived: "{count} ครั้งที่ถูกลงโทษ"
       infractionsIssued: "{count} ครั้งที่ลงโทษผู้อื่น"
@@ -951,19 +927,35 @@ hub:
       description: "**{serverName}** has joined the hub!"
       footer: ยินดีต้อนรับสู่ {hubName}!
   create:
-    title: สร้าง Hub ของคุณ
-    description: |
-      Create your own InterChat hub for a community.
+    title: Let's Get You Started!
+    description: Pick a name, short-description, description & visibility for your hub.
+    whatsAHub: |
+      ## ❓ What's a Hub, anyway?
+      Think of a Hub as a **room** created by someone.
+      ## 🤨 Okay... how does this "room" work?
+      In real life, a room needs people. In InterChat, multiple servers join the same Hub through a channel in each server.
+      ## 🤔 "Joined"? What's actually connected?
+      Let's zoom in.
+
+      Imagine you're in **Server A**, and there's a channel called **#global** that's connected to a Hub.
+
+      When you send a message in **#global**, that message is forwarded to every other server connected to the same Hub.
+
+      Their messages are then forwarded back to your **#global** channel too.
+      ## 👏 That's it.
+      Hubs are a surprisingly simple concept.
+
+      Let's get started!
   wizard:
-    start: เริ่มสร้าง Hub ของคุณ
+    start: Start
     name:
-      placeholder: Hub สุดเจ๋งของฉัน
+      description: Pick a unique name for your hub. Max 100 chars.
     tagline:
       label: คำโปรยของ Hub
-      placeholder: สรุปเกี่ยวกับ Hub ของคุณในประโยคเดียว
+      description: A one-sentence summary of your hub
     description:
       label: คำอธิบายฉบับเต็ม
-      placeholder: อธิบาย Hub ของคุณโดยละเอียด (20-1000 ตัวอักษร)
+      description: Describe your hub in detail (20-1000 characters)
     visibility:
       unlisted:
         desc: Not in directory.
@@ -974,7 +966,7 @@ hub:
     steps:
       progress: ขั้นตอนที่ {current}/{total}
       step1:
-        modalTitle: "ขั้นตอนที่ 1/7: รายละเอียด Hub"
+        modalTitle: "Hub Details"
         visibilityLabel: Hub Visibility
         visibilityPlaceholder: Select Hub Visibility...
       step2:
@@ -1045,6 +1037,7 @@ hub:
       description: Your hub was not created.
     errors:
       cantUseWizard: คุณไม่สามารถใช้วิซาร์ดนี้ได้
+      nameAlreadyExists: This name in already in use! Pick a new one.
       invalidInput: คุณระบุข้อมูลไม่ถูกต้อง
       uniqueConstraint: Uh oh! That hub name has already been taken.
       processingError: Something went wrong while creating your hub.
@@ -1137,27 +1130,6 @@ hub:
       searchFilter:
         label: ตัวกรอง
         placeholder: InterChat Central
-server:
-  settings:
-    title: Server Settings
-    comingSoon: Advanced server settings (language, default filters, fallback channel) will be available in a future update.
-  userphone:
-    title: Userphone Settings
-    sectionDescription: Configure how your server behaves in calls.
-    buttonLabel: Userphone Settings
-    hideServerName:
-      title: Hide Server Name
-      description: Hides other servers' names from the webhook username in **group calls**. (Always hidden in 1v1 calls).
-    pingOnMatch:
-      title: Ping on Match
-      description: Send a ping in your channel when a 1v1 call match is found.
-    autoRequeueOnSkip:
-      title: Auto Requeue on Skip
-      description: Automatically start a new call when the other side skips. Only works if you were recently active in the call.
-    autoRequeueOnHangup:
-      title: Auto Requeue on Hangup
-      description: Automatically start a new call when the other side hangs up. Only works if you were recently active in the call.
-      ignoreSuccess: "{tick} Report `{id}` has been marked as ignored."
 connection:
   title: การจัดการการเชื่อมต่อ
   description: กำหนดค่าและบริหารจัดการการเชื่อมต่อ Hub ทั้งหมดภายในเซิร์ฟเวอร์นี้
@@ -1236,12 +1208,12 @@ messageInfo:
   noBadges: ไม่มีตราสัญลักษณ์ที่จะแสดง
   noConnection: ไม่มีข้อมูลการเชื่อมต่อ
 leaderboard:
+  votes: votes
   title: Leaderboard
   noActivity: No Activity
   noActivityDescription: No activity recorded for this period.
   messages: messages
   calls: calls
-  votes: votes
   selectPeriod: Select time period
   selectType: Select leaderboard type
   yourRank: Your Rank
@@ -1486,3 +1458,28 @@ userphone:
       entry: "**Reporter:** <@{reporter}>\n**Reported:** <@{reported}>\n**Reason:** {reason}\n**Call ID:** {call_id}"
       footer: "Showing {count} pending report(s)"
       resolveSuccess: "{tick} Report `{id}` has been marked as resolved."
+server:
+  settings:
+    title: Server Settings
+    comingSoon: Advanced server settings (language, default filters, fallback channel) will be available in a future update.
+  automod:
+    title: "Server Profanity Filter"
+    sectionDescription: "Configure bad word filters specifically for this server in calls."
+    buttonLabel: "Profanity Filter"
+  userphone:
+    title: Userphone Settings
+    sectionDescription: Configure how your server behaves in calls.
+    buttonLabel: Userphone Settings
+    hideServerName:
+      title: Hide Server Name
+      description: Hides other servers' names from the webhook username in **group calls**. (Always hidden in 1v1 calls).
+    pingOnMatch:
+      title: Ping on Match
+      description: Send a ping in your channel when a 1v1 call match is found.
+    autoRequeueOnSkip:
+      title: Auto Requeue on Skip
+      description: Automatically start a new call when the other side skips. Only works if you were recently active in the call.
+    autoRequeueOnHangup:
+      title: Auto Requeue on Hangup
+      description: Automatically start a new call when the other side hangs up. Only works if you were recently active in the call.
+      ignoreSuccess: "{tick} Report `{id}` has been marked as ignored."
