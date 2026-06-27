@@ -112,6 +112,7 @@ common:
     status: Status
     channel: Channel
   errors:
+    commandNotFound: Command not found.
     notYourMenu: This isn't your menu.
     cannotControlPagination: You cannot control this pagination.
     generic: &err_generic Oops! Something went wrong while processing your request.
