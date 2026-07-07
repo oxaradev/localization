@@ -112,6 +112,7 @@ common:
     status: Status
     channel: Channel
   errors:
+    commandNotFound: Command not found.
     notYourMenu: Este menu não é seu.
     cannotControlPagination: Você não pode controlar esta paginação.
     generic: Oops! Something went wrong while processing your request.
@@ -531,7 +532,11 @@ moderation:
     warnTitle: "⚠️ You have been Warned"
     muteTitle: "🔇 You have been Muted"
     banTitle: "🔨 You have been Banned"
+    unmuteTitle: "🔊 You have been Unmuted"
+    unbanTitle: "🔊 You have been Unbanned"
+    fieldAction: "Action"
     fieldReason: "Motivo"
+    fieldDuration: "Duração"
     fieldExpires: "Expira em"
     appealHint: "If you believe this was an error, you can submit an appeal using `/appeal` in any server connected to this hub."
   footer:
@@ -921,6 +926,8 @@ hub:
     title: Desconectado!
     description: Desconectado do hub.
     fieldValue: "Canal Associado: {channel}"
+    errors:
+      notConnected: This channel isn't connected to any hub.
   events:
     serverJoined:
       title: '🎉 Um novo servidor entrou!'
@@ -1208,12 +1215,13 @@ messageInfo:
   noBadges: Nenhuma insígnia para exibir
   noConnection: Nenhuma informação de conexão disponível
 leaderboard:
-  votes: votes
   title: Leaderboard
   noActivity: No Activity
   noActivityDescription: No activity recorded for this period.
   messages: messages
   calls: calls
+  votes: votes
+  streak: day streak
   selectPeriod: Select time period
   selectType: Select leaderboard type
   yourRank: Your Rank
@@ -1229,6 +1237,7 @@ leaderboard:
     servers: Servers
     calls: Calls
     votes: Votos
+    streaks: Streaks
   errors:
     alreadyShowingUsers: Already showing users leaderboard.
     alreadyShowingServers: Already showing servers leaderboard.
