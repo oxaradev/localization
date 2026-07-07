@@ -112,6 +112,7 @@ common:
     status: स्थिति
     channel: Channel
   errors:
+    commandNotFound: Command not found.
     notYourMenu: यह आपका मेनू नहीं है।
     cannotControlPagination: आप इस पेजिनेशन को नियंत्रित नहीं कर सकते।
     generic: Oops! Something went wrong while processing your request.
@@ -531,7 +532,11 @@ moderation:
     warnTitle: "⚠️ You have been Warned"
     muteTitle: "🔇 You have been Muted"
     banTitle: "🔨 You have been Banned"
+    unmuteTitle: "🔊 You have been Unmuted"
+    unbanTitle: "🔊 You have been Unbanned"
+    fieldAction: "Action"
     fieldReason: "कारण"
+    fieldDuration: "अवधि"
     fieldExpires: "समाप्त होता है"
     appealHint: "If you believe this was an error, you can submit an appeal using `/appeal` in any server connected to this hub."
   footer:
@@ -921,6 +926,8 @@ hub:
     title: डिस्कनेक्टेड!
     description: Hub से डिस्कनेक्ट हो गया।
     fieldValue: "संबंधित चैनल: {channel}"
+    errors:
+      notConnected: This channel isn't connected to any hub.
   events:
     serverJoined:
       title: '🎉 नया सर्वर शामिल हुआ!'
@@ -1208,12 +1215,13 @@ messageInfo:
   noBadges: प्रदर्शित करने के लिए कोई बैज नहीं
   noConnection: कोई कनेक्शन जानकारी उपलब्ध नहीं
 leaderboard:
-  votes: votes
   title: Leaderboard
   noActivity: No Activity
   noActivityDescription: No activity recorded for this period.
   messages: messages
   calls: calls
+  votes: votes
+  streak: day streak
   selectPeriod: Select time period
   selectType: Select leaderboard type
   yourRank: Your Rank
@@ -1229,6 +1237,7 @@ leaderboard:
     servers: Servers
     calls: Calls
     votes: वोट्स
+    streaks: Streaks
   errors:
     alreadyShowingUsers: Already showing users leaderboard.
     alreadyShowingServers: Already showing servers leaderboard.
