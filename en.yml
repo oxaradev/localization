@@ -181,7 +181,6 @@ botLanding:
     - ⚙️ **Manage:** `/hub manage` (Admin settings)
     > Use `/help` for the full list.
 
-
   closing: |
     **What are you waiting for? Let me show you around! Type `/call` or `/hub directory` to get started.**
 
@@ -672,16 +671,6 @@ moderation:
     noHubsAvailable: "No hubs are available for moderation."
     webhooks:
       noPermission: "You do not have permission to moderate this hub."
-  notifications:
-    title: "Moderation Notice"
-    description: "You have received new moderation actions in **{hubName}**."
-    warnTitle: "⚠️ Warning"
-    muteTitle: "🔇 Muted"
-    banTitle: "🔨 Banned"
-    fieldReason: "Reason"
-    fieldExpires: "Expires"
-    appealHint: "You can appeal this action"
-
 welcomeMessage:
   title: Welcome to the InterChat hub called **{hubName}**!
   errorDm: Failed to send welcome message.
@@ -948,6 +937,10 @@ hub:
     errors:
       noPermission: You must be a hub admin to view this.
   disconnect:
+    title: Disconnected!
+    description: Disconnected from hub.
+    fieldValue: "Associated Channel: {channel}"
+
     errors:
       notConnected: This channel isn't connected to any hub.
   events:
@@ -1102,10 +1095,6 @@ hub:
       locked:
         title: Hub Locked
         description: This hub is currently locked and cannot be joined.
-  disconnect:
-    title: Disconnected!
-    description: Disconnected from hub.
-    fieldValue: "Associated Channel: {channel}"
   announcements:
     title: Hub Announcements
     description: "Create a **one time** announcement that sends in all connected channels."
@@ -1245,14 +1234,13 @@ messageInfo:
   noConnection: No connection information available
 
 leaderboard:
-  votes: "{count} votes"
-  votes: "{count} votes"
   title: Leaderboard
   noActivity: No Activity
   noActivityDescription: No activity recorded for this period.
   messages: messages
   calls: calls
   votes: votes
+  streak: day streak
   selectPeriod: Select time period
   selectType: Select leaderboard type
   yourRank: Your Rank
@@ -1268,6 +1256,7 @@ leaderboard:
     servers: Servers
     calls: Calls
     votes: Votes
+    streaks: Streaks
   errors:
     alreadyShowingUsers: Already showing users leaderboard.
     alreadyShowingServers: Already showing servers leaderboard.
