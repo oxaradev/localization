@@ -112,6 +112,7 @@ common:
     status: Status
     channel: Channel
   errors:
+    commandNotFound: Command not found.
     notYourMenu: Ini bukan menu Anda.
     cannotControlPagination: Anda tidak dapat mengontrol paginasi ini.
     generic: Oops! Something went wrong while processing your request.
@@ -531,7 +532,11 @@ moderation:
     warnTitle: "⚠️ You have been Warned"
     muteTitle: "🔇 You have been Muted"
     banTitle: "🔨 You have been Banned"
+    unmuteTitle: "🔊 You have been Unmuted"
+    unbanTitle: "🔊 You have been Unbanned"
+    fieldAction: "Action"
     fieldReason: "Alasan"
+    fieldDuration: "Durasi"
     fieldExpires: "Kedaluwarsa"
     appealHint: "If you believe this was an error, you can submit an appeal using `/appeal` in any server connected to this hub."
   footer:
@@ -921,6 +926,8 @@ hub:
     title: Terputus!
     description: Terputus dari hub.
     fieldValue: "Channel Terkait: {channel}"
+    errors:
+      notConnected: This channel isn't connected to any hub.
   events:
     serverJoined:
       title: '🎉 Server Baru Bergabung!'
@@ -1208,12 +1215,13 @@ messageInfo:
   noBadges: Tidak ada lencana untuk ditampilkan
   noConnection: Tidak ada informasi koneksi yang tersedia
 leaderboard:
-  votes: votes
   title: Leaderboard
   noActivity: No Activity
   noActivityDescription: No activity recorded for this period.
   messages: messages
   calls: calls
+  votes: votes
+  streak: day streak
   selectPeriod: Select time period
   selectType: Select leaderboard type
   yourRank: Your Rank
@@ -1229,6 +1237,7 @@ leaderboard:
     servers: Servers
     calls: Calls
     votes: Vote
+    streaks: Streaks
   errors:
     alreadyShowingUsers: Already showing users leaderboard.
     alreadyShowingServers: Already showing servers leaderboard.
