@@ -112,6 +112,7 @@ common:
     status: สถานะ
     channel: Channel
   errors:
+    commandNotFound: Command not found.
     notYourMenu: นี่ไม่ใช่เมนูของคุณ
     cannotControlPagination: คุณไม่สามารถควบคุมการเปลี่ยนหน้านี้ได้
     generic: Oops! Something went wrong while processing your request.
@@ -531,7 +532,11 @@ moderation:
     warnTitle: "⚠️ You have been Warned"
     muteTitle: "🔇 You have been Muted"
     banTitle: "🔨 You have been Banned"
+    unmuteTitle: "🔊 You have been Unmuted"
+    unbanTitle: "🔊 You have been Unbanned"
+    fieldAction: "Action"
     fieldReason: "เหตุผล"
+    fieldDuration: "ระยะเวลา"
     fieldExpires: "หมดอายุ"
     appealHint: "If you believe this was an error, you can submit an appeal using `/appeal` in any server connected to this hub."
   footer:
@@ -921,6 +926,8 @@ hub:
     title: ตัดการเชื่อมต่อแล้ว!
     description: ตัดการเชื่อมต่อจาก Hub แล้ว
     fieldValue: "ช่องที่เกี่ยวข้อง: {channel}"
+    errors:
+      notConnected: This channel isn't connected to any hub.
   events:
     serverJoined:
       title: '🎉 เซิร์ฟเวอร์ใหม่เข้าร่วม!'
@@ -1208,12 +1215,13 @@ messageInfo:
   noBadges: ไม่มีตราสัญลักษณ์ที่จะแสดง
   noConnection: ไม่มีข้อมูลการเชื่อมต่อ
 leaderboard:
-  votes: votes
   title: Leaderboard
   noActivity: No Activity
   noActivityDescription: No activity recorded for this period.
   messages: messages
   calls: calls
+  votes: votes
+  streak: day streak
   selectPeriod: Select time period
   selectType: Select leaderboard type
   yourRank: Your Rank
@@ -1229,6 +1237,7 @@ leaderboard:
     servers: Servers
     calls: Calls
     votes: โหวต
+    streaks: Streaks
   errors:
     alreadyShowingUsers: Already showing users leaderboard.
     alreadyShowingServers: Already showing servers leaderboard.

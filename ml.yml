@@ -112,6 +112,7 @@ common:
     status: നില
     channel: Channel
   errors:
+    commandNotFound: Command not found.
     notYourMenu: ഇത് നിങ്ങളുടെ മെനുവല്ല.
     cannotControlPagination: നിങ്ങൾക്ക് ഈ പേജിനേഷൻ നിയന്ത്രിക്കാനാവില്ല.
     generic: Oops! Something went wrong while processing your request.
@@ -531,7 +532,11 @@ moderation:
     warnTitle: "⚠️ You have been Warned"
     muteTitle: "🔇 You have been Muted"
     banTitle: "🔨 You have been Banned"
+    unmuteTitle: "🔊 You have been Unmuted"
+    unbanTitle: "🔊 You have been Unbanned"
+    fieldAction: "Action"
     fieldReason: "കാരണം"
+    fieldDuration: "കാലാവധി"
     fieldExpires: "അവസാനിക്കുന്നത്"
     appealHint: "If you believe this was an error, you can submit an appeal using `/appeal` in any server connected to this hub."
   footer:
@@ -921,6 +926,8 @@ hub:
     title: വിച്ഛേദിച്ചു!
     description: ഹബ്ബിൽ നിന്ന് വിച്ഛേദിച്ചു.
     fieldValue: "ബന്ധപ്പെട്ട ചാനൽ: {channel}"
+    errors:
+      notConnected: This channel isn't connected to any hub.
   events:
     serverJoined:
       title: '🎉 പുതിയ സെർവർ ചേർന്നു!'
@@ -1208,12 +1215,13 @@ messageInfo:
   noBadges: പ്രദർശിപ്പിക്കാൻ ബാഡ്ജുകളില്ല
   noConnection: കണക്ഷൻ വിവരങ്ങളൊന്നും ലഭ്യമല്ല
 leaderboard:
-  votes: votes
   title: Leaderboard
   noActivity: No Activity
   noActivityDescription: No activity recorded for this period.
   messages: messages
   calls: calls
+  votes: votes
+  streak: day streak
   selectPeriod: Select time period
   selectType: Select leaderboard type
   yourRank: Your Rank
@@ -1229,6 +1237,7 @@ leaderboard:
     servers: Servers
     calls: Calls
     votes: വോട്ടുകൾ
+    streaks: Streaks
   errors:
     alreadyShowingUsers: Already showing users leaderboard.
     alreadyShowingServers: Already showing servers leaderboard.
