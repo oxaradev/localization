@@ -125,7 +125,7 @@ common:
     invalidInvite: Esta invitación es inválida o ha expirado.
     webhookError: Fallo al crear el webhook.
     notConnected: No pude encontrar un Hub conectado en este canal.
-    notConnectedServer: "{cross} No pude encontrar ninguna conexión para este servidor."
+    notConnectedServer: "I could not find any connections for this server."
     noInteraction: Este comando solo soporta comandos de barra (slash commands).
     missingAppealReference: Falta referencia de apelación.
     missingArgument: "Falta argumento: `{param}`."
