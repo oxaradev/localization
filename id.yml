@@ -125,7 +125,7 @@ common:
     invalidInvite: Undangan ini tidak valid atau kedaluwarsa.
     webhookError: Gagal membuat webhook.
     notConnected: Saya tidak dapat menemukan hub yang terhubung di channel ini.
-    notConnectedServer: "{cross} Saya tidak dapat menemukan koneksi apa pun untuk server ini."
+    notConnectedServer: "I could not find any connections for this server."
     noInteraction: Perintah ini hanya mendukung slash command.
     missingAppealReference: Referensi banding hilang.
     missingArgument: "Argumen hilang: `{param}`."
