@@ -125,7 +125,7 @@ common:
     invalidInvite: यह आमंत्रण (invite) अमान्य या समाप्त हो गया है।
     webhookError: वेबहुक बनाने में विफल।
     notConnected: मुझे इस चैनल में कोई कनेक्टेड Hub नहीं मिला।
-    notConnectedServer: "{cross} मुझे इस सर्वर के लिए कोई कनेक्शन नहीं मिला।"
+    notConnectedServer: "I could not find any connections for this server."
     noInteraction: यह कमांड केवल स्लैश कमांड का समर्थन करता है।
     missingAppealReference: अपील संदर्भ गायब है।
     missingArgument: "तर्क (argument) गायब है: `{param}`."
