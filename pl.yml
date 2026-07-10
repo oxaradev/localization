@@ -73,7 +73,7 @@ common:
     invalidInvite: To zaproszenie jest nieważne, albo przeterminowane.
     webhookError: Failed to create webhook.
     notConnected: I could not find a hub connected in this channel.
-    notConnectedServer: "{cross} I could not find any connections for this server."
+    notConnectedServer: "I could not find any connections for this server."
     noInteraction: This command only supports slash commands.
     missingAppealReference: Missing appeal reference.
     missingArgument: "Missing argument: `{param}`."
