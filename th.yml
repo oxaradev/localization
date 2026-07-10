@@ -125,7 +125,7 @@ common:
     invalidInvite: คำเชิญนี้ไม่ถูกต้องหรือหมดอายุแล้ว
     webhookError: สร้าง Webhook ล้มเหลว
     notConnected: ฉันไม่พบ Hub ที่เชื่อมต่อในช่องนี้
-    notConnectedServer: "{cross} ฉันไม่พบการเชื่อมต่อใดๆ สำหรับเซิร์ฟเวอร์นี้"
+    notConnectedServer: "I could not find any connections for this server."
     noInteraction: คำสั่งนี้รองรับเฉพาะ Slash Commands เท่านั้น
     missingAppealReference: ไม่พบข้อมูลอ้างอิงสำหรับการอุทธรณ์
     missingArgument: "อาร์กิวเมนต์หายไป: `{param}`"
