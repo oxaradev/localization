@@ -125,7 +125,7 @@ common:
     invalidInvite: ഈ ക്ഷണം അസാധുവാണ്, അല്ലെങ്കിൽ കാലഹരണപ്പെട്ടു.
     webhookError: വെബ്‌ഹുക്ക് സൃഷ്ടിക്കുന്നതിൽ പരാജയപ്പെട്ടു.
     notConnected: ഈ ചാനലിൽ കണക്റ്റ് ചെയ്ത ഹബ്ബ് എനിക്ക് കണ്ടെത്താനായില്ല.
-    notConnectedServer: "{cross} ഈ സെർവറിനുള്ള കണക്ഷനുകളൊന്നും എനിക്ക് കണ്ടെത്താൻ കഴിഞ്ഞില്ല."
+    notConnectedServer: "I could not find any connections for this server."
     noInteraction: ഈ കമാൻഡ് സ്ലാഷ് കമാൻഡുകൾ മാത്രമേ പിന്തുണയ്ക്കൂ.
     missingAppealReference: അപ്പീൽ റഫറൻസ് വിട്ടുപോയിരിക്കുന്നു.
     missingArgument: "വിട്ടുപോയ ആർഗ്യുമെന്റ്: `{param}`."
