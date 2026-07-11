@@ -289,7 +289,7 @@ appeal:
 report:
   title: റിപ്പോർട്ട് സന്ദേശം
   footer: ഇന്റർചാറ്റ് എല്ലാവർക്കും സുരക്ഷിതമായി നിലനിർത്താൻ റിപ്പോർട്ടുകൾ സഹായിക്കുന്നു
-  description: Report {user} to Hub Staff or InterChat Staff.
+  prompt: Report this message to our moderation team.
   buttons:
     toStaff: സ്റ്റാഫിനെ അറിയിക്കുക
     toHub: ഹബ്ബിനെ അറിയിക്കുക
