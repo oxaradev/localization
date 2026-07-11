@@ -298,7 +298,7 @@ appeal:
 report:
   title: Report Message
   footer: Reports help keep InterChat safe for everyone
-  description: Report {user} to Hub Staff or InterChat Staff.
+  prompt: Report this message to our moderation team.
   buttons:
     toStaff: Report to Staff
     toHub: Report to Hub
