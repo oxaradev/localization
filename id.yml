@@ -289,7 +289,7 @@ appeal:
 report:
   title: Lapor Pesan
   footer: Laporan membantu menjaga InterChat aman bagi semua orang
-  description: Report {user} to Hub Staff or InterChat Staff.
+  prompt: Report this message to our moderation team.
   buttons:
     toStaff: Lapor ke Staf
     toHub: Lapor ke Hub
