@@ -289,7 +289,7 @@ appeal:
 report:
   title: รายงานข้อความ
   footer: การรายงานช่วยให้ InterChat ปลอดภัยสำหรับทุกคน
-  description: Report {user} to Hub Staff or InterChat Staff.
+  prompt: Report this message to our moderation team.
   buttons:
     toStaff: รายงานไปยังทีมงาน
     toHub: รายงานไปยัง Hub
