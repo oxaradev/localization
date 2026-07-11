@@ -289,7 +289,7 @@ appeal:
 report:
   title: मैसेज रिपोर्ट करें
   footer: रिपोर्ट्स InterChat को सभी के लिए सुरक्षित रखने में मदद करती हैं
-  description: Report {user} to Hub Staff or InterChat Staff.
+  prompt: Report this message to our moderation team.
   buttons:
     toStaff: Staff को रिपोर्ट करें
     toHub: Hub को रिपोर्ट करें
