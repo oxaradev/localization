@@ -289,7 +289,7 @@ appeal:
 report:
   title: Reportar mensagem
   footer: Reportes ajudam a manter o InterChat seguro para todos
-  description: Report {user} to Hub Staff or InterChat Staff.
+  prompt: Report this message to our moderation team.
   buttons:
     toStaff: Reportar à Equipe
     toHub: Reportar ao Hub
