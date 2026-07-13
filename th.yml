@@ -1079,6 +1079,9 @@ hub:
       locked:
         title: ล็อค Hub แล้ว
         description: This hub is currently locked and cannot be joined.
+      missingPermissions:
+        title: Missing Permissions
+        description: "You need the **Manage Messages** permission in this server to connect a channel to a hub."
   announcements:
     title: ประกาศ Hub
     description: "Create a **one time** announcement that sends in all connected channels."
