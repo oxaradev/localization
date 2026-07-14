@@ -92,7 +92,7 @@ common:
     notImplemented: Aún no implementado.
     defaultSuccess: La acción se completó exitosamente.
     actionCancelled: Acción cancelada.
-    hubNotFound: Hub no encontrado. Por favor inténtalo de nuevo más tarde.
+    hubNotFound: "Hub not found. Use `/hub directory` to find a hub, or `/hub create` to start your own."
     serverNotFound: Servidor no encontrado.
     userNotFound: Usuario no encontrado.
     notSpecified: No especificado
@@ -162,23 +162,23 @@ about:
 botLanding:
   title: Your server, connected. 🌐 Let's go cross-server!
   description: |
-    Hi, I'm InterChat. With me, you can have conversations with people all around discord, all from the comfort of this server. Cool? Wait until you hear what I do:
+    Hi, I'm InterChat. I connect this server to conversations across Discord.
 
-    ## :telephone: 1:1 Calls & Group calls
-    With the tap of one command you instantly get connected to another server, or multiple servers (in group calls!). Instant gratification at your fing
+    ## 📞 1:1 calls and group calls
+    Start a call and connect with another server in seconds. Group calls bring several servers into the same conversation.
 
-    Use `/call`, `/skip`, `/hangup`. And rank higher in `/leaderboard` :sunglasses:
+    Use `/call`, `/skip`, and `/hangup`. Every call can move you up `/leaderboard`. 😎
   hubs: |
-    ## 🏡 Hubs (where we stand out the most! ✨)
-    So you've seen calls, but *what if* you could make **cross-server** communities? It works by connecting multiple servers into one space!
+    ## 🏡 Hubs
+    Hubs are persistent, **cross-server** communities. Connect several servers to one shared space that stays open between conversations.
 
-    - 📌 **Create:** `/hub create` (Make your own hub)
-    - 🧭 **Explore:** `/hub directory` (Find public hubs)
-    - 🔗 **Connect:** `/hub connect` (Join an existing hub)
-    - ⚙️ **Manage:** `/hub manage` (Admin settings)
-    > Use `/help` for the full list.
+    - 📌 **Create:** `/hub create` — make your own hub
+    - 🧭 **Explore:** `/hub directory` — find public hubs
+    - 🔗 **Connect:** `/hub connect` — join an existing hub
+    - ⚙️ **Manage:** `/hub manage` — open your hub settings
+    > Use `/help` to see every command.
   closing: |
-    **What are you waiting for? Let me show you around! Type `/call` or `/hub directory` to get started.**
+    **Ready to meet another server? Try a call, discover a hub, or create your own below.**
 
     -# Made with ❤️ by InterChat Development
 setup:
@@ -187,12 +187,14 @@ setup:
   locale:
     successDescription: "{tick} Tu idioma ha sido configurado a **{locale_name}**"
   buttons:
+    tryCallNow: Try a Call Now
     getStarted: Iniciar Asistente
     connectHere: Conectar Aquí
-    createHub: Crear Hub
+    createHub: Create Hub (/hub create)
     discoverHubs: Descubrir Hubs Públicos
     useDefault: Usar Predeterminado
     skipForNow: Omitir por Ahora
+  skipped: No problem. You can start any time with `/call` or `/hub directory`.
 help:
   title: Comandos de InterChat
   description: Explora nuestra amplia gama de comandos para ayudarte a conectar con otros.
@@ -676,6 +678,7 @@ welcomeMessage:
     connections: '🔗 Conexiones'
     hubPageLabel: "{link_icon} Página del Hub"
     hubPageValue: "[Visualizar en InterChat]({hubUrl})"
+    createHint: "Want to start your own? Use `/hub create`."
   rules:
     title: "{rules_icon} {hubName} - Reglas"
     guidelines: "Por favor adhiere a las reglas en {guidelinesUrl}"
@@ -849,8 +852,8 @@ hub:
         refreshError: Ha ocurrido un error durante la recarga.
         deletionCancelled: Cancelado
         deletionCancelledDescription: El borrado de la regla ha sido cancelado.
-        noHub: Este comando debe ser usado en un canal conectado o un nombre de un hub específico.
-        notConnected: Este canal no está conectado a ningún hub.
+        noHub: "This command needs a connected channel or a hub name. Browse with `/hub directory`, or create your own with `/hub create`."
+        notConnected: "This channel is not connected to a hub yet. Browse with `/hub directory`, or create your own with `/hub create`."
       warnings:
         deleteWarning: Advertencia
         deleteWarningDescription: Esta acción no se puede deshacer.
@@ -935,7 +938,8 @@ hub:
       footer: '¡Bienvenido a {hubName}!'
   create:
     title: Let's Get You Started!
-    description: Pick a name, short-description, description & visibility for your hub.
+    description: Create a shared channel between servers.
+    nextStep: You can connect this channel now or finish setup later.
     whatsAHub: |
       ## ❓ What's a Hub, anyway?
       Think of a Hub as a **room** created by someone.
@@ -955,11 +959,15 @@ hub:
       Let's get started!
   wizard:
     start: Start
+    buttons:
+      createAndConnect: Create and Connect
+      createOnly: Create Hub Only
+      learn: How Hubs Work
     name:
       description: Pick a unique name for your hub. Max 100 chars.
     tagline:
       label: Eslogan del Hub
-      description: A one-sentence summary of your hub
+      description: Optional one-sentence summary of your hub
     description:
       label: Descripción Completa
       description: Describe your hub in detail (20-1000 characters)
@@ -1020,6 +1028,9 @@ hub:
       title: Resumen de Configuración del Hub
       description: "Revisa la configuración de tu Hub antes de crear:"
       nameAndDescription: Nombre y Descripción
+      connection: First Step
+      connectNow: Connect this channel after creation
+      connectLater: Create the hub first; connect a channel later
       rulesCount: "{count} regla(s) establecida(s)"
       rulesNone: Sin reglas (puedes añadir más tarde)
       welcomeDefault: Mensaje de bienvenida predeterminado
@@ -1031,6 +1042,11 @@ hub:
       loadingDescription: Por favor espera mientras configuramos todo...
       success: '¡Hub Creado Exitosamente!'
       successDescription: "¡{hubName} está ahora en vivo! 🎉"
+      nextStepsTitle: '¿Qué sigue?'
+      nextStepsDescription: Add rules, a welcome message, modules, and moderation logging whenever you're ready.
+      connectNowHint: This channel is being connected now. Messages sent here will be visible to everyone in the hub.
+      connectFailedHint: "Your hub was created, but this channel could not be connected. Use `/hub connect hub:{hubName}` after checking the bot's channel permissions."
+      connectLaterHint: "When you're ready, connect a channel with `/hub connect hub:{hubName}`."
       dashboardLink: Gestiona tu Hub
       publicPageLink: Ver en directorio
       nextSteps: '¿Qué sigue?'
@@ -1063,7 +1079,7 @@ hub:
         description: It looks like this server is already connected to this hub.
       missingInput:
         title: Información Faltante
-        description: "Provide a hub name or an invite code.\n\nTry: `/hub connect hub:MyHub` or `/hub connect invite:abc123`"
+        description: "Provide a hub name or an invite code.\n\nTry: `/hub connect hub:MyHub` or `/hub connect invite:abc123`. Want to start your own? Use `/hub create`."
       hubNotFound:
         title: Hub No Encontrado
         description: "I couldn't find that hub. Check the name, or use `/hub directory` to browse public hubs."
@@ -1131,10 +1147,11 @@ hub:
   all:
     title: Hubs de InterChat
     description: Search through a list of all our hubs!
+    createHint: "Want your own shared channel? Use `/hub create`."
     filteredBy: "Resultados filtrados por: {filter}"
     errors:
-      notFound: Uh oh! I was unable to find any hubs.
-      invalidFilter: Grillos... ningún Hub coincide con tu filtro.
+      notFound: "Uh oh! I was unable to find any hubs. You can create your own with `/hub create`."
+      invalidFilter: "Crickets... no hubs match your filter. Want your own? Use `/hub create`."
     modal:
       title: Filtro de Búsqueda
       searchFilter:
