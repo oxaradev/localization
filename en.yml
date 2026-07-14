@@ -92,7 +92,7 @@ common:
     notImplemented: Not implemented yet.
     defaultSuccess: Action completed successfully.
     actionCancelled: &msg_cancelled Action cancelled.
-    hubNotFound: Hub not found. Please try again later.
+    hubNotFound: "Hub not found. Use `/hub directory` to find a hub, or `/hub create` to start your own."
     serverNotFound: Server not found.
     userNotFound: User not found.
     notSpecified: Not specified
@@ -195,7 +195,7 @@ setup:
     tryCallNow: Try a Call Now
     getStarted: Get Started
     connectHere: Connect Here
-    createHub: Create Hub
+    createHub: Create Hub (/hub create)
     discoverHubs: Discover Public Hubs
     useDefault: Use Default
     skipForNow: Skip for Now
@@ -689,6 +689,7 @@ welcomeMessage:
     connections: 🔗 Connections
     hubPageLabel: "{link_icon} Hub Page"
     hubPageValue: "[View on InterChat]({hubUrl})"
+    createHint: "Want to start your own? Use `/hub create`."
   rules:
     title: "{rules_icon} {hubName} - Rules"
     guidelines: "Please adhere to the guidelines @ {guidelinesUrl}"
@@ -865,8 +866,8 @@ hub:
         refreshError: An error occurred while refreshing.
         deletionCancelled: Cancelled
         deletionCancelledDescription: Rule deletion has been cancelled.
-        noHub: This command must be used in a connected channel or specify a hub name.
-        notConnected: This channel is not connected to any hub.
+        noHub: "This command needs a connected channel or a hub name. Browse with `/hub directory`, or create your own with `/hub create`."
+        notConnected: "This channel is not connected to a hub yet. Browse with `/hub directory`, or create your own with `/hub create`."
       warnings:
         deleteWarning: Warning
         deleteWarningDescription: This action cannot be undone.
@@ -952,7 +953,8 @@ hub:
       footer: Welcome to {hubName}!
   create:
     title: Let's Get You Started!
-    description: Pick a name, short-description, description & visibility for your hub.
+    description: Create a shared channel between servers.
+    nextStep: You can connect this channel now or finish setup later.
     whatsAHub: |
       ## ❓ What's a Hub, anyway?
       Think of a Hub as a **room** created by someone.
@@ -973,11 +975,15 @@ hub:
 
   wizard:
     start: Start
+    buttons:
+      createAndConnect: Create and Connect
+      createOnly: Create Hub Only
+      learn: How Hubs Work
     name:
       description: Pick a unique name for your hub. Max 100 chars.
     tagline:
       label: Hub Tagline
-      description: A one-sentence summary of your hub
+      description: Optional one-sentence summary of your hub
     description:
       label: Full Description
       description: Describe your hub in detail (20-1000 characters)
@@ -1038,6 +1044,9 @@ hub:
       title: Hub Configuration Summary
       description: "Review your hub settings before creating:"
       nameAndDescription: Name & Description
+      connection: First Step
+      connectNow: Connect this channel after creation
+      connectLater: Create the hub first; connect a channel later
       rulesCount: "{count} rule(s) set"
       rulesNone: No rules (can add later)
       welcomeDefault: Default welcome message
@@ -1049,6 +1058,11 @@ hub:
       loadingDescription: Please wait while we set everything up...
       success: Hub Created Successfully!
       successDescription: "{hubName} is now live! 🎉"
+      nextStepsTitle: What's Next?
+      nextStepsDescription: Add rules, a welcome message, modules, and moderation logging whenever you're ready.
+      connectNowHint: This channel is being connected now. Messages sent here will be visible to everyone in the hub.
+      connectFailedHint: "Your hub was created, but this channel could not be connected. Use `/hub connect hub:{hubName}` after checking the bot's channel permissions."
+      connectLaterHint: "When you're ready, connect a channel with `/hub connect hub:{hubName}`."
       dashboardLink: Manage your hub
       publicPageLink: View on directory
       nextSteps: What's Next?
@@ -1081,7 +1095,7 @@ hub:
         description: It looks like this server is already connected to this hub in {channel}.
       missingInput:
         title: Missing Information
-        description: "Provide a hub name or an invite code.\n\nTry: `/hub connect hub:MyHub` or `/hub connect invite:abc123`"
+        description: "Provide a hub name or an invite code.\n\nTry: `/hub connect hub:MyHub` or `/hub connect invite:abc123`. Want to start your own? Use `/hub create`."
       hubNotFound:
         title: Hub Not Found
         description: "I couldn't find that hub. Check the name, or use `/hub directory` to browse public hubs."
@@ -1149,10 +1163,11 @@ hub:
   all:
     title: InterChat Hubs
     description: Search through a list of all our hubs!
+    createHint: "Want your own shared channel? Use `/hub create`."
     filteredBy: "Results filtered by: {filter}"
     errors:
-      notFound: Uh oh! I was unable to find any hubs.
-      invalidFilter: Crickets... no hubs match your filter.
+      notFound: "Uh oh! I was unable to find any hubs. You can create your own with `/hub create`."
+      invalidFilter: "Crickets... no hubs match your filter. Want your own? Use `/hub create`."
     modal:
       title: Search Filter
       searchFilter:
