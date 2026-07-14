@@ -92,7 +92,7 @@ common:
     notImplemented: ยังไม่เปิดใช้งาน
     defaultSuccess: Action completed successfully.
     actionCancelled: Action cancelled.
-    hubNotFound: ไม่พบ Hub โปรดลองใหม่ภายหลัง
+    hubNotFound: "Hub not found. Use `/hub directory` to find a hub, or `/hub create` to start your own."
     serverNotFound: ไม่พบเซิร์ฟเวอร์
     userNotFound: ไม่พบผู้ใช้
     notSpecified: ไม่ได้ระบุ
@@ -162,23 +162,23 @@ about:
 botLanding:
   title: Your server, connected. 🌐 Let's go cross-server!
   description: |
-    Hi, I'm InterChat. With me, you can have conversations with people all around discord, all from the comfort of this server. Cool? Wait until you hear what I do:
+    Hi, I'm InterChat. I connect this server to conversations across Discord.
 
-    ## :telephone: 1:1 Calls & Group calls
-    With the tap of one command you instantly get connected to another server, or multiple servers (in group calls!). Instant gratification at your fing
+    ## 📞 1:1 calls and group calls
+    Start a call and connect with another server in seconds. Group calls bring several servers into the same conversation.
 
-    Use `/call`, `/skip`, `/hangup`. And rank higher in `/leaderboard` :sunglasses:
+    Use `/call`, `/skip`, and `/hangup`. Every call can move you up `/leaderboard`. 😎
   hubs: |
-    ## 🏡 Hubs (where we stand out the most! ✨)
-    So you've seen calls, but *what if* you could make **cross-server** communities? It works by connecting multiple servers into one space!
+    ## 🏡 Hubs
+    Hubs are persistent, **cross-server** communities. Connect several servers to one shared space that stays open between conversations.
 
-    - 📌 **Create:** `/hub create` (Make your own hub)
-    - 🧭 **Explore:** `/hub directory` (Find public hubs)
-    - 🔗 **Connect:** `/hub connect` (Join an existing hub)
-    - ⚙️ **Manage:** `/hub manage` (Admin settings)
-    > Use `/help` for the full list.
+    - 📌 **Create:** `/hub create` — make your own hub
+    - 🧭 **Explore:** `/hub directory` — find public hubs
+    - 🔗 **Connect:** `/hub connect` — join an existing hub
+    - ⚙️ **Manage:** `/hub manage` — open your hub settings
+    > Use `/help` to see every command.
   closing: |
-    **What are you waiting for? Let me show you around! Type `/call` or `/hub directory` to get started.**
+    **Ready to meet another server? Try a call, discover a hub, or create your own below.**
 
     -# Made with ❤️ by InterChat Development
 setup:
@@ -187,12 +187,14 @@ setup:
   locale:
     successDescription: "{tick} ภาษาของคุณถูกตั้งค่าเป็น **{locale_name}**"
   buttons:
+    tryCallNow: Try a Call Now
     getStarted: เริ่มวิซาร์ดการตั้งค่า
     connectHere: Connect Here
-    createHub: สร้าง Hub
+    createHub: Create Hub (/hub create)
     discoverHubs: ค้นหา Hub สาธารณะ
     useDefault: ใช้ค่าเริ่มต้น
     skipForNow: ข้ามไปก่อน
+  skipped: No problem. You can start any time with `/call` or `/hub directory`.
 help:
   title: คำสั่ง InterChat
   description: Explore our wide range of commands to help you connect with others.
@@ -676,6 +678,7 @@ welcomeMessage:
     connections: '🔗 การเชื่อมต่อ'
     hubPageLabel: "{link_icon} Hub Page"
     hubPageValue: "[View on InterChat]({hubUrl})"
+    createHint: "Want to start your own? Use `/hub create`."
   rules:
     title: "{rules_icon} {hubName} - Rules"
     guidelines: "Please adhere to the guidelines @ {guidelinesUrl}"
@@ -849,8 +852,8 @@ hub:
         refreshError: An error occurred while refreshing.
         deletionCancelled: Cancelled
         deletionCancelledDescription: Rule deletion has been cancelled.
-        noHub: This command must be used in a connected channel or specify a hub name.
-        notConnected: This channel is not connected to any hub.
+        noHub: "This command needs a connected channel or a hub name. Browse with `/hub directory`, or create your own with `/hub create`."
+        notConnected: "This channel is not connected to a hub yet. Browse with `/hub directory`, or create your own with `/hub create`."
       warnings:
         deleteWarning: Warning
         deleteWarningDescription: This action cannot be undone.
@@ -935,7 +938,8 @@ hub:
       footer: ยินดีต้อนรับสู่ {hubName}!
   create:
     title: Let's Get You Started!
-    description: Pick a name, short-description, description & visibility for your hub.
+    description: Create a shared channel between servers.
+    nextStep: You can connect this channel now or finish setup later.
     whatsAHub: |
       ## ❓ What's a Hub, anyway?
       Think of a Hub as a **room** created by someone.
@@ -955,11 +959,15 @@ hub:
       Let's get started!
   wizard:
     start: Start
+    buttons:
+      createAndConnect: Create and Connect
+      createOnly: Create Hub Only
+      learn: How Hubs Work
     name:
       description: Pick a unique name for your hub. Max 100 chars.
     tagline:
       label: คำโปรยของ Hub
-      description: A one-sentence summary of your hub
+      description: Optional one-sentence summary of your hub
     description:
       label: คำอธิบายฉบับเต็ม
       description: Describe your hub in detail (20-1000 characters)
@@ -1020,6 +1028,9 @@ hub:
       title: สรุปการตั้งค่า Hub
       description: "ตรวจสอบการตั้งค่า Hub ของคุณก่อนสร้าง:"
       nameAndDescription: ชื่อ & คำอธิบาย
+      connection: First Step
+      connectNow: Connect this channel after creation
+      connectLater: Create the hub first; connect a channel later
       rulesCount: "ตั้งไว้ {count} ข้อ"
       rulesNone: ไม่มีกฎ (เพิ่มได้ภายหลัง)
       welcomeDefault: ข้อความต้อนรับเริ่มต้น
@@ -1031,6 +1042,11 @@ hub:
       loadingDescription: โปรดรอสักครู่ขณะที่เราตั้งค่าทุกอย่าง...
       success: สร้าง Hub สำเร็จแล้ว!
       successDescription: "{hubName} เปิดใช้งานแล้ว! 🎉"
+      nextStepsTitle: ทำอะไรต่อดี?
+      nextStepsDescription: Add rules, a welcome message, modules, and moderation logging whenever you're ready.
+      connectNowHint: This channel is being connected now. Messages sent here will be visible to everyone in the hub.
+      connectFailedHint: "Your hub was created, but this channel could not be connected. Use `/hub connect hub:{hubName}` after checking the bot's channel permissions."
+      connectLaterHint: "When you're ready, connect a channel with `/hub connect hub:{hubName}`."
       dashboardLink: จัดการ Hub ของคุณ
       publicPageLink: ดูในไดเรกทอรี
       nextSteps: ทำอะไรต่อดี?
@@ -1063,7 +1079,7 @@ hub:
         description: It looks like this server is already connected to this hub.
       missingInput:
         title: Missing Information
-        description: "Provide a hub name or an invite code.\n\nTry: `/hub connect hub:MyHub` or `/hub connect invite:abc123`"
+        description: "Provide a hub name or an invite code.\n\nTry: `/hub connect hub:MyHub` or `/hub connect invite:abc123`. Want to start your own? Use `/hub create`."
       hubNotFound:
         title: Hub Not Found
         description: "I couldn't find that hub. Check the name, or use `/hub directory` to browse public hubs."
@@ -1131,10 +1147,11 @@ hub:
   all:
     title: InterChat Hubs
     description: Search through a list of all our hubs!
+    createHint: "Want your own shared channel? Use `/hub create`."
     filteredBy: "ผลลัพธ์กรองโดย: {filter}"
     errors:
-      notFound: Uh oh! I was unable to find any hubs.
-      invalidFilter: เงียบกริบ... ไม่มี Hub ไหนตรงกับตัวกรองของคุณ
+      notFound: "Uh oh! I was unable to find any hubs. You can create your own with `/hub create`."
+      invalidFilter: "Crickets... no hubs match your filter. Want your own? Use `/hub create`."
     modal:
       title: ตัวกรองการค้นหา
       searchFilter:
