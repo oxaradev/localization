@@ -957,12 +957,44 @@ hub:
       Hubs are a surprisingly simple concept.
 
       Let's get started!
+  home:
+    title: "{hubName} — Hub Home"
+    nextSteps: Your next steps
+    status:
+      noChannels: "Your hub is created. Connect its first channel to give it a home."
+      oneChannel: "One server is connected. Your hub is ready for another community to join."
+      live: "Your hub is live with {count} connected servers. Messages can now travel between communities."
+    tasks:
+      channel:
+        title: Connect your first channel
+        description: Pick the channel where your community will meet other servers.
+        complete: First channel connected
+        completeDescription: "{count} connected server(s). You can add more whenever you are ready."
+      rules:
+        title: Set community rules
+        description: Give new communities clear expectations before they join.
+        complete: Community rules are ready
+        completeDescription: "{count} rule(s) will appear when a server joins."
+      invite:
+        title: Invite your first server
+        description: A second connected server is what turns this into a cross-server conversation.
+        liveTitle: Your hub is live
+        liveDescription: Keep growing when it feels right—create an invite for another community.
+    buttons:
+      connect: Connect here
+      invite: Create invite
+      rules: Set rules
+      servers: Connected servers
+      settings: All settings
   wizard:
     start: Start
     buttons:
+      details: Add hub details
       createAndConnect: Create and Connect
       createOnly: Create Hub Only
       learn: How Hubs Work
+      connectHere: Connect this channel
+      connectLater: Create without connecting
     name:
       description: Pick a unique name for your hub. Max 100 chars.
     tagline:
@@ -972,14 +1004,23 @@ hub:
       label: Vollständige Beschreibung
       description: Describe your hub in detail (20-1000 characters)
     visibility:
+      title: Who can find this hub?
       unlisted:
+        label: Ungelistet
         desc: Not in directory.
       public:
+        label: Öffentlich
         desc: Discoverable.
       private:
+        label: Privat
         desc: Invite-only.
+    connection:
+      title: Give your hub a home
+      description: Connect this channel now, or finish that step from Hub Home later.
     steps:
       progress: Schritt {current}/{total}
+      basics: Step 1 of 3 · Start with the basics
+      access: Step 2 of 3 · Choose access and your first channel
       step1:
         modalTitle: "Hub Details"
         visibilityLabel: Hub Visibility
