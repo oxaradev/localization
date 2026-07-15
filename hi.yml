@@ -1270,6 +1270,59 @@ my:
   hubs:
     title: आपके Hubs
     description: "यहाँ वे Hubs हैं जिनके आप स्वामी हैं या मॉडरेट करते हैं:"
+  activity:
+    day: "{count} day"
+    days: "{count} days"
+    unranked: Unranked
+    closed: Activity dashboard closed.
+    utcFooter: Daily streaks use UTC.
+    tabs:
+      overview: Overview
+      hubs: Hubs
+      calls: Calls
+    timeline:
+      day: "DAY {count}"
+      today: TODAY
+    overview:
+      title: KEEP THE CONNECTION GOING
+      securedTitle: TODAY'S CONNECTION IS COMPLETE
+      startTitle: START A NEW CONNECTION
+      securedSummary: "Your streak is {streak}. Come back tomorrow to keep it moving."
+      activeSummary: "Your streak is {streak}. One more active day keeps it alive."
+      freezeSummary: "Your {streak} streak can still be saved. Qualify today to use one freeze."
+      inactiveSummary: "Your previous streak was {streak}. Qualify today to start again."
+      newSummary: One active day starts your first InterChat streak.
+      stats: "❄️ {freezes} freezes · Best streak: {best}\n🏆 Streak rank: {rank}"
+    path:
+      title: TODAY'S PATH
+      hubs: "Send Hub messages  **{current}/{threshold}**"
+      call: Complete a 60+ second Call
+      unavailable: Hub message progress is temporarily unavailable
+      secured: Today's streak is secured
+      tomorrow: Your next streak window begins tomorrow.
+      freeze: Qualifying today will use one freeze and preserve your streak.
+      nextMessages: "Your next move: send {count} more Hub messages."
+      nextStart: "Send 5 Hub messages or complete a 60+ second Call."
+      nextUnavailable: A 60+ second Call still qualifies today.
+    hubs:
+      title: YOUR HUB PASSPORT
+      messages: "{count} messages"
+      places: PLACES YOUR WORDS HAVE VISITED
+      homeBase: YOUR HOME BASE
+      homeStats: "{count} messages · {share}% of this month"
+      otherPlaces: OTHER PLACES
+      empty: Send accepted Hub messages and the places you visit will appear here.
+      summary: "{count} active Hubs this month\n🏆 Global message rank: {rank}"
+      delay: Counts may be delayed by about 30 seconds.
+    calls:
+      title: KEEP THE CONVERSATION GOING
+      completed: COMPLETED CALLS
+      status: CONNECTION STATUS
+      qualifies: One qualifying Call secures today's streak.
+      currentStreak: Current streak
+      previousStreak: Previous streak
+      stats: "🏆 Call rank: {rank}\n🔥 {streakLabel}: {streak}\n❄️ Freezes available: {freezes}"
+      shared: Calls and Hub messages share one streak.
 stats:
   title: InterChat Statistics
   fields:
@@ -1512,3 +1565,12 @@ server:
       title: Auto Requeue on Hangup
       description: Automatically start a new call when the other side hangs up. Only works if you were recently active in the call.
       ignoreSuccess: "{tick} Report `{id}` has been marked as ignored."
+    lobbyChannels:
+      title: Allowed Lobby Channels
+      description: Restrict call, skip, and hangup to selected text channels. When no channels are selected, these commands work everywhere.
+      selectPlaceholder: Select text channels
+      currentlyAllowed: Commands currently allowed in
+      everywhere: Lobby commands work in every text channel when no channels are selected.
+      unsaved: Unsaved changes — press Save Changes to apply them.
+      saved: Lobby channel restrictions saved.
+      manageChannelsRequired: You need the Manage Channels permission to edit lobby channels.
