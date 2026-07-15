@@ -995,7 +995,7 @@ hub:
         title: Invite your first server
         description: A second connected server is what turns this into a cross-server conversation.
         liveTitle: Your hub is live
-        liveDescription: Keep growing when it feels right—create an invite for another community.
+        liveDescription: Keep growing when it feels right, create an invite for another community.
     buttons:
       connect: Connect here
       invite: Create invite
