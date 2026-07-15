@@ -1596,3 +1596,12 @@ server:
       title: Auto Requeue on Hangup
       description: Automatically start a new call when the other side hangs up. Only works if you were recently active in the call.
       ignoreSuccess: "{tick} Report `{id}` has been marked as ignored."
+    lobbyChannels:
+      title: Allowed Lobby Channels
+      description: Restrict call, skip, and hangup to selected text channels. When no channels are selected, these commands work everywhere.
+      selectPlaceholder: Select text channels
+      currentlyAllowed: Commands currently allowed in
+      everywhere: Lobby commands work in every text channel when no channels are selected.
+      unsaved: Unsaved changes — press Save Changes to apply them.
+      saved: Lobby channel restrictions saved.
+      manageChannelsRequired: You need the Manage Channels permission to edit lobby channels.
