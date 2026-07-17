@@ -199,6 +199,85 @@ help:
   title: ഇന്റർചാറ്റ് കമാൻഡുകൾ
   description: Explore our wide range of commands to help you connect with others.
   name: സഹായം
+  browserDescription: Start here if you are new, or choose a category to browse every available command.
+  gettingStarted: Getting started
+  categorySummary: "{count} command(s) · page {page}/{pages}"
+  select:
+    category: Choose a command category
+  buttons:
+    view: View
+    home: Home
+  expired:
+    title: Help session expired
+    description: Run {command} again to open a fresh command guide.
+    button: Expired
+  categories:
+    startHere: Start Here
+    calls: Calls & Social
+    hubs: Hubs
+    account: Account
+    server: Server Setup
+    moderation: മോഡറേഷൻ
+    safety: Safety
+    other: Other
+  commandTypes:
+    hybrid: Hybrid
+    prefix: Prefix
+    slash: Slash
+  fields:
+    slashUsage: Slash usage
+    prefixUsage: Prefix usage
+    commandType: Command type
+    aliases: Aliases
+    userPermissions: User permissions
+    botPermissions: Bot permissions
+    hubPermission: Hub permission
+    availability: Availability
+    subcommands: Subcommands
+    options: Options
+    examples: Examples
+  availability:
+    serverOnly: Server channels only
+    nsfwOnly: NSFW channels only
+  option:
+    required: required
+    optional: optional
+    default: Default
+    choices: Choices
+    range: Range
+    length: Length
+    channels: Channels
+    autocomplete: "Autocomplete: enabled"
+    to: to
+  types:
+    subcommand: Subcommand
+    subcommandGroup: Subcommand group
+    string: String
+    integer: Integer
+    boolean: Boolean
+    user: ഉപയോക്താവ്
+    member: മെമ്പർ
+    channel: Channel
+    textChannel: Text channel
+    voiceChannel: Voice channel
+    role: Role
+    mentionable: Mentionable
+    number: Number
+    attachment: Attachment
+  recovery:
+    tooManyArguments: Too many arguments were provided. Remove the extra values and try again.
+    badArgument: One of the arguments could not be understood. Check its type and try again.
+    parsingError: The command arguments could not be parsed. Check the usage below and try again.
+    userPermissions: You need {permissions} permission(s) to run this command.
+    botPermissions: I need {permissions} permission(s) to run this command.
+    serverOnly: This command can only be used inside a server.
+    missingRole: You do not have the role required to run this command.
+    missingSubcommand: Choose one of the subcommands listed below.
+    unknownSubcommand: "Unknown subcommand: `{subcommand}`. Choose one of the available subcommands below."
+    hubPermission: "{error} Check the hub permission listed below."
+    invalidInput: "{error} Check the accepted argument types and choices below."
+    commandNotFound: That command or subcommand was not found. Here is the closest available help page.
+    generic: The command could not be used. Check the usage and requirements below.
 preferences:
   title: ഉപയോക്തൃ മുൻഗണനകൾ
   description: Edit your personal global settings.
