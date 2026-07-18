@@ -143,7 +143,6 @@ about:
     - **Moderation tools:** dedicated commands for hub staff & InterChat staff
     - **Modern web dashboard:** manage everything from the browser
     - **Earnable badges:** show off your activity in calls & hubs
-    - **Premium:** higher limits & fun perks
     ## Who is InterChat for?
     - The bored and the curious, anyone who wants random, lively conversations.
     - Server owners who want to build lasting bridges (gaming clans, study groups, partnerships, etc.).
@@ -1279,7 +1278,6 @@ services:
 support:
   priority:
     standard: Standard
-    premium: "{tier} (priority)"
 badges:
   developer:
     title: InterChat Developer
@@ -1318,11 +1316,6 @@ broadcast:
       reason: Profanity filter blocked message
     videos:
       message: '🚫 Video attachments are not allowed in this hub.'
-      premium: "🚫 Sending videos is available on Plus and Pro plans. Upgrade your plan to share videos through InterChat."
-    externalEmoji:
-      message: "Custom and external emojis are available on Plus and Pro plans. Upgrade your plan to use them in InterChat messages."
-    voice:
-      message: "Voice notes are available on Plus and Pro plans. Upgrade your plan to send voice messages through InterChat."
     messageLength:
       reason: Message Length
       message: Your message length is too long. Please shorten it.

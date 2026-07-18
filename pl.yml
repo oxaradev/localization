@@ -661,7 +661,6 @@ staff:
     values:
       messagesTotal: "**{count}** total"
       connectionsActive: "**{count}** active"
-      premium: Premium
       standard: Standard
   user:
     fields:
