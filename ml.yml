@@ -92,7 +92,7 @@ common:
     notImplemented: ഇതുവരെ നടപ്പിലാക്കിയിട്ടില്ല.
     defaultSuccess: Action completed successfully.
     actionCancelled: Action cancelled.
-    hubNotFound: "Hub not found. Use `/hub directory` to find a hub, or `/hub create` to start your own."
+    hubNotFound: "ഹബ് കണ്ടെത്തിയില്ല. ദയവായി പിന്നീട് വീണ്ടും ശ്രമിക്കുക."
     serverNotFound: സെർവർ കണ്ടെത്തിയില്ല.
     userNotFound: ഉപയോക്താവിനെ കണ്ടെത്തിയില്ല.
     notSpecified: വ്യക്തമാക്കിയിട്ടില്ല
@@ -125,7 +125,7 @@ common:
     invalidInvite: ഈ ക്ഷണം അസാധുവാണ്, അല്ലെങ്കിൽ കാലഹരണപ്പെട്ടു.
     webhookError: വെബ്‌ഹുക്ക് സൃഷ്ടിക്കുന്നതിൽ പരാജയപ്പെട്ടു.
     notConnected: ഈ ചാനലിൽ കണക്റ്റ് ചെയ്ത ഹബ്ബ് എനിക്ക് കണ്ടെത്താനായില്ല.
-    notConnectedServer: "I could not find any connections for this server."
+    notConnectedServer: "{cross} ഈ സെർവറിനുള്ള കണക്ഷനുകളൊന്നും എനിക്ക് കണ്ടെത്താൻ കഴിഞ്ഞില്ല."
     noInteraction: ഈ കമാൻഡ് സ്ലാഷ് കമാൻഡുകൾ മാത്രമേ പിന്തുണയ്ക്കൂ.
     missingAppealReference: അപ്പീൽ റഫറൻസ് വിട്ടുപോയിരിക്കുന്നു.
     missingArgument: "വിട്ടുപോയ ആർഗ്യുമെന്റ്: `{param}`."
@@ -143,7 +143,6 @@ about:
     - **Moderation tools:** dedicated commands for hub staff & InterChat staff
     - **Modern web dashboard:** manage everything from the browser
     - **Earnable badges:** show off your activity in calls & hubs
-    - **Premium:** higher limits & fun perks
     ## Who is InterChat for?
     - The bored and the curious, anyone who wants random, lively conversations.
     - Server owners who want to build lasting bridges (gaming clans, study groups, partnerships, etc.).
@@ -162,23 +161,23 @@ about:
 botLanding:
   title: Your server, connected. 🌐 Let's go cross-server!
   description: |
-    Hi, I'm InterChat. I connect this server to conversations across Discord.
+    Hi, I'm InterChat. With me, you can have conversations with people all around discord, all from the comfort of this server. Cool? Wait until you hear what I do:
 
-    ## 📞 1:1 calls and group calls
-    Start a call and connect with another server in seconds. Group calls bring several servers into the same conversation.
+    ## :telephone: 1:1 Calls & Group calls
+    With the tap of one command you instantly get connected to another server, or multiple servers (in group calls!). Instant gratification at your fing
 
-    Use `/call`, `/skip`, and `/hangup`. Every call can move you up `/leaderboard`. 😎
+    Use `/call`, `/skip`, `/hangup`. And rank higher in `/leaderboard` :sunglasses:
   hubs: |
-    ## 🏡 Hubs
-    Hubs are persistent, **cross-server** communities. Connect several servers to one shared space that stays open between conversations.
+    ## 🏡 Hubs (where we stand out the most! ✨)
+    So you've seen calls, but *what if* you could make **cross-server** communities? It works by connecting multiple servers into one space!
 
-    - 📌 **Create:** `/hub create` — make your own hub
-    - 🧭 **Explore:** `/hub directory` — find public hubs
-    - 🔗 **Connect:** `/hub connect` — join an existing hub
-    - ⚙️ **Manage:** `/hub manage` — open your hub settings
-    > Use `/help` to see every command.
+    - 📌 **Create:** `/hub create` (Make your own hub)
+    - 🧭 **Explore:** `/hub directory` (Find public hubs)
+    - 🔗 **Connect:** `/hub connect` (Join an existing hub)
+    - ⚙️ **Manage:** `/hub manage` (Admin settings)
+    > Use `/help` for the full list.
   closing: |
-    **Ready to meet another server? Try a call, discover a hub, or create your own below.**
+    **What are you waiting for? Let me show you around! Type `/call` or `/hub directory` to get started.**
 
     -# Made with ❤️ by InterChat Development
 setup:
@@ -190,7 +189,7 @@ setup:
     tryCallNow: Try a Call Now
     getStarted: സജ്ജീകരണ വിസാർഡ് ആരംഭിക്കുക
     connectHere: Connect Here
-    createHub: Create Hub (/hub create)
+    createHub: ഹബ് സൃഷ്ടിക്കുക
     discoverHubs: പബ്ലിക് ഹബ്ബുകൾ കണ്ടെത്തുക
     useDefault: ഡിഫോൾട്ട് ഉപയോഗിക്കുക
     skipForNow: തൽക്കാലം ഒഴിവാക്കുക
@@ -931,8 +930,8 @@ hub:
         refreshError: An error occurred while refreshing.
         deletionCancelled: Cancelled
         deletionCancelledDescription: Rule deletion has been cancelled.
-        noHub: "This command needs a connected channel or a hub name. Browse with `/hub directory`, or create your own with `/hub create`."
-        notConnected: "This channel is not connected to a hub yet. Browse with `/hub directory`, or create your own with `/hub create`."
+        noHub: "This command must be used in a connected channel or specify a hub name."
+        notConnected: "This channel is not connected to any hub."
       warnings:
         deleteWarning: Warning
         deleteWarningDescription: This action cannot be undone.
@@ -1017,7 +1016,7 @@ hub:
       footer: '{hubName}-ലേക്ക് സ്വാഗതം!'
   create:
     title: Let's Get You Started!
-    description: Create a shared channel between servers.
+    description: Pick a name, short-description, description & visibility for your hub.
     nextStep: You can connect this channel now or finish setup later.
     whatsAHub: |
       ## ❓ What's a Hub, anyway?
@@ -1078,7 +1077,7 @@ hub:
       description: Pick a unique name for your hub. Max 100 chars.
     tagline:
       label: ഹബ് ടാഗ്‌ലൈൻ
-      description: Optional one-sentence summary of your hub
+      description: A one-sentence summary of your hub
     description:
       label: പൂർണ്ണ വിവരണം
       description: Describe your hub in detail (20-1000 characters)
@@ -1199,7 +1198,7 @@ hub:
         description: It looks like this server is already connected to this hub.
       missingInput:
         title: Missing Information
-        description: "Provide a hub name or an invite code.\n\nTry: `/hub connect hub:MyHub` or `/hub connect invite:abc123`. Want to start your own? Use `/hub create`."
+        description: "Provide a hub name or an invite code.\n\nTry: `/hub connect hub:MyHub` or `/hub connect invite:abc123`"
       hubNotFound:
         title: Hub Not Found
         description: "I couldn't find that hub. Check the name, or use `/hub directory` to browse public hubs."
@@ -1270,8 +1269,8 @@ hub:
     createHint: "Want your own shared channel? Use `/hub create`."
     filteredBy: "ഫലങ്ങൾ ഫിൽട്ടർ ചെയ്തത്: {filter}"
     errors:
-      notFound: "Uh oh! I was unable to find any hubs. You can create your own with `/hub create`."
-      invalidFilter: "Crickets... no hubs match your filter. Want your own? Use `/hub create`."
+      notFound: "Uh oh! I was unable to find any hubs."
+      invalidFilter: "ഒന്നും മിണ്ടുന്നില്ല... നിങ്ങളുടെ ഫിൽട്ടറുമായി പൊരുത്തപ്പെടുന്ന ഹബ്ബുകളൊന്നുമില്ല."
     modal:
       title: സെർച്ച് ഫിൽട്ടർ
       searchFilter:
@@ -1472,7 +1471,6 @@ services:
 support:
   priority:
     standard: Standard
-    premium: "{tier} (priority)"
 badges:
   developer:
     title: InterChat Developer
@@ -1511,11 +1509,6 @@ broadcast:
       reason: Profanity filter blocked message
     videos:
       message: '🚫 Video attachments are not allowed in this hub.'
-      premium: "🚫 Sending videos is available on Plus and Pro plans. Upgrade your plan to share videos through InterChat."
-    externalEmoji:
-      message: "Custom and external emojis are available on Plus and Pro plans. Upgrade your plan to use them in InterChat messages."
-    voice:
-      message: "Voice notes are available on Plus and Pro plans. Upgrade your plan to send voice messages through InterChat."
     messageLength:
       reason: Message Length
       message: Your message length is too long. Please shorten it.
