@@ -92,7 +92,7 @@ common:
     notImplemented: Belum diimplementasikan.
     defaultSuccess: Action completed successfully.
     actionCancelled: Action cancelled.
-    hubNotFound: "Hub not found. Use `/hub directory` to find a hub, or `/hub create` to start your own."
+    hubNotFound: "Hub tidak ditemukan. Silakan coba lagi nanti."
     serverNotFound: Server tidak ditemukan.
     userNotFound: Pengguna tidak ditemukan.
     notSpecified: Tidak ditentukan
@@ -125,7 +125,7 @@ common:
     invalidInvite: Undangan ini tidak valid atau kedaluwarsa.
     webhookError: Gagal membuat webhook.
     notConnected: Saya tidak dapat menemukan hub yang terhubung di channel ini.
-    notConnectedServer: "I could not find any connections for this server."
+    notConnectedServer: "{cross} Saya tidak dapat menemukan koneksi apa pun untuk server ini."
     noInteraction: Perintah ini hanya mendukung slash command.
     missingAppealReference: Referensi banding hilang.
     missingArgument: "Argumen hilang: `{param}`."
@@ -143,7 +143,6 @@ about:
     - **Moderation tools:** dedicated commands for hub staff & InterChat staff
     - **Modern web dashboard:** manage everything from the browser
     - **Earnable badges:** show off your activity in calls & hubs
-    - **Premium:** higher limits & fun perks
     ## Who is InterChat for?
     - The bored and the curious, anyone who wants random, lively conversations.
     - Server owners who want to build lasting bridges (gaming clans, study groups, partnerships, etc.).
@@ -162,23 +161,23 @@ about:
 botLanding:
   title: Your server, connected. 🌐 Let's go cross-server!
   description: |
-    Hi, I'm InterChat. I connect this server to conversations across Discord.
+    Hi, I'm InterChat. With me, you can have conversations with people all around discord, all from the comfort of this server. Cool? Wait until you hear what I do:
 
-    ## 📞 1:1 calls and group calls
-    Start a call and connect with another server in seconds. Group calls bring several servers into the same conversation.
+    ## :telephone: 1:1 Calls & Group calls
+    With the tap of one command you instantly get connected to another server, or multiple servers (in group calls!). Instant gratification at your fing
 
-    Use `/call`, `/skip`, and `/hangup`. Every call can move you up `/leaderboard`. 😎
+    Use `/call`, `/skip`, `/hangup`. And rank higher in `/leaderboard` :sunglasses:
   hubs: |
-    ## 🏡 Hubs
-    Hubs are persistent, **cross-server** communities. Connect several servers to one shared space that stays open between conversations.
+    ## 🏡 Hubs (where we stand out the most! ✨)
+    So you've seen calls, but *what if* you could make **cross-server** communities? It works by connecting multiple servers into one space!
 
-    - 📌 **Create:** `/hub create` — make your own hub
-    - 🧭 **Explore:** `/hub directory` — find public hubs
-    - 🔗 **Connect:** `/hub connect` — join an existing hub
-    - ⚙️ **Manage:** `/hub manage` — open your hub settings
-    > Use `/help` to see every command.
+    - 📌 **Create:** `/hub create` (Make your own hub)
+    - 🧭 **Explore:** `/hub directory` (Find public hubs)
+    - 🔗 **Connect:** `/hub connect` (Join an existing hub)
+    - ⚙️ **Manage:** `/hub manage` (Admin settings)
+    > Use `/help` for the full list.
   closing: |
-    **Ready to meet another server? Try a call, discover a hub, or create your own below.**
+    **What are you waiting for? Let me show you around! Type `/call` or `/hub directory` to get started.**
 
     -# Made with ❤️ by InterChat Development
 setup:
@@ -190,7 +189,7 @@ setup:
     tryCallNow: Try a Call Now
     getStarted: Mulai Panduan Pengaturan
     connectHere: Connect Here
-    createHub: Create Hub (/hub create)
+    createHub: Buat Hub
     discoverHubs: Temukan Hub Publik
     useDefault: Gunakan Default
     skipForNow: Lewati Sekarang
@@ -931,8 +930,8 @@ hub:
         refreshError: An error occurred while refreshing.
         deletionCancelled: Cancelled
         deletionCancelledDescription: Rule deletion has been cancelled.
-        noHub: "This command needs a connected channel or a hub name. Browse with `/hub directory`, or create your own with `/hub create`."
-        notConnected: "This channel is not connected to a hub yet. Browse with `/hub directory`, or create your own with `/hub create`."
+        noHub: "This command must be used in a connected channel or specify a hub name."
+        notConnected: "This channel is not connected to any hub."
       warnings:
         deleteWarning: Warning
         deleteWarningDescription: This action cannot be undone.
@@ -1017,7 +1016,7 @@ hub:
       footer: Selamat datang di {hubName}!
   create:
     title: Let's Get You Started!
-    description: Create a shared channel between servers.
+    description: Pick a name, short-description, description & visibility for your hub.
     nextStep: You can connect this channel now or finish setup later.
     whatsAHub: |
       ## ❓ What's a Hub, anyway?
@@ -1078,7 +1077,7 @@ hub:
       description: Pick a unique name for your hub. Max 100 chars.
     tagline:
       label: Tagline Hub
-      description: Optional one-sentence summary of your hub
+      description: A one-sentence summary of your hub
     description:
       label: Deskripsi Lengkap
       description: Describe your hub in detail (20-1000 characters)
@@ -1199,7 +1198,7 @@ hub:
         description: It looks like this server is already connected to this hub.
       missingInput:
         title: Missing Information
-        description: "Provide a hub name or an invite code.\n\nTry: `/hub connect hub:MyHub` or `/hub connect invite:abc123`. Want to start your own? Use `/hub create`."
+        description: "Provide a hub name or an invite code.\n\nTry: `/hub connect hub:MyHub` or `/hub connect invite:abc123`"
       hubNotFound:
         title: Hub Not Found
         description: "I couldn't find that hub. Check the name, or use `/hub directory` to browse public hubs."
@@ -1270,8 +1269,8 @@ hub:
     createHint: "Want your own shared channel? Use `/hub create`."
     filteredBy: "Hasil difilter oleh: {filter}"
     errors:
-      notFound: "Uh oh! I was unable to find any hubs. You can create your own with `/hub create`."
-      invalidFilter: "Crickets... no hubs match your filter. Want your own? Use `/hub create`."
+      notFound: "Uh oh! I was unable to find any hubs."
+      invalidFilter: "Jangkrik... tidak ada hub yang cocok dengan filter Anda."
     modal:
       title: Filter Pencarian
       searchFilter:
@@ -1472,7 +1471,6 @@ services:
 support:
   priority:
     standard: Standard
-    premium: "{tier} (priority)"
 badges:
   developer:
     title: InterChat Developer
@@ -1511,11 +1509,6 @@ broadcast:
       reason: Profanity filter blocked message
     videos:
       message: '🚫 Video attachments are not allowed in this hub.'
-      premium: "🚫 Sending videos is available on Plus and Pro plans. Upgrade your plan to share videos through InterChat."
-    externalEmoji:
-      message: "Custom and external emojis are available on Plus and Pro plans. Upgrade your plan to use them in InterChat messages."
-    voice:
-      message: "Voice notes are available on Plus and Pro plans. Upgrade your plan to send voice messages through InterChat."
     messageLength:
       reason: Message Length
       message: Your message length is too long. Please shorten it.
