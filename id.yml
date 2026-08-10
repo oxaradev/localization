@@ -1458,6 +1458,45 @@ stats:
 invite:
   title: Halo!
   description: Thanks for choosing InterChat. Need help? Join our support server.
+rules:
+  select:
+    placeholder: Select a section
+  sections:
+    overview:
+      label: Overview
+      title: InterChat Rules
+      body: |
+        InterChat connects you with people and servers across Discord — through **Hubs** and **Calls**. Everyone using InterChat, including in Calls, is expected to follow these rules.
+
+        Use the menu below to browse **Conduct**, **Safety**, and **Content** rules.
+    conduct:
+      label: Conduct
+      title: Community Conduct
+      body: |
+        - 🚫 **No spam or flooding** — repetitive messages, walls of text, or excessive emoji meant to disrupt a conversation aren't allowed.
+        - 🤝 **Respectful disagreement is welcome** — debate and friendly banter are fine. Sustained insults, name-calling, and targeted harassment are not.
+        - 🎯 **No harassment** — don't direct repeated personal attacks, humiliation, or pile-ons at someone.
+        - 🚨 **No false or malicious reports** — don't file reports you know are untrue, or use reporting to harass someone.
+        - 🔁 **Don't evade moderation** — trying to get around an active ban or blacklist (e.g. with an alt account) is its own violation.
+    safety:
+      label: Safety
+      title: Safety
+      body: |
+        - ⚔️ **No threats or encouragement of violence**, including sexual threats.
+        - 💔 **No encouraging self-harm.**
+        - 🕵️ **No doxxing** — don't share someone's private information (real name, address, phone number, photos, etc.), or threaten to.
+        - 🔞 **Zero tolerance for CSAM and child sexualization** — this leads to immediate, permanent removal from InterChat.
+    content:
+      label: Konten
+      title: Konten
+      body: |
+        - 🔞 **No NSFW or explicit sexual content**, text or otherwise.
+        - 😏 **Keep suggestive or sexual behavior out of public InterChat conversations.**
+        - 🗯️ **No hate speech or discriminatory abuse**, including slurs targeting someone's identity, ethnicity, religion, gender, or nationality.
+        - 🪪 **No abusive usernames, nicknames, or server names.**
+  enforcement:
+    title: Enforcement
+    body: Moderation considers severity, context, repetition, and history. Serious violations — like those under Safety — can result in immediate removal from InterChat.
 services:
   hub:
     validation:
