@@ -181,6 +181,71 @@ botLanding:
 
     -# Made with ❤️ by InterChat Development
 setup:
+  welcome:
+    title: Welcome to InterChat 👋
+    description: |
+      I connect this server to people and communities across Discord.
+
+      A server manager can choose a channel and get the first conversation running in a few clicks.
+    promise: "**No command list. No webhook setup. I’ll handle the technical work.**"
+  dm:
+    title: InterChat needs a channel
+    description: "I joined **{server}**, but I couldn’t find a channel where I can post the setup guide."
+    instructions: Open the server, let InterChat **View Channel** and **Send Messages** somewhere, then run `/setup`.
+  home:
+    title: "Let’s get {server} talking"
+    description: Choose the result you want. I’ll walk you through the rest and check everything before making changes.
+    resume: You can reopen this guide any time with `/setup`.
+  goals:
+    call:
+      title: Meet another server now
+      description: Start a temporary, private 1-on-1 text chat.
+      button: Start a call
+    join:
+      title: Join a community
+      description: Connect one channel to a Hub that stays open.
+      button: Find a Hub
+    create:
+      title: Build your own community
+      description: Create a Hub, choose who can find it, and connect a channel.
+      button: Create a Hub
+  channel:
+    placeholder: Choose a text channel
+    createPlaceholder: Choose a channel to connect
+    callTitle: Where should the call happen?
+    callDescription: Pick the channel where people will chat. I’ll create and manage the webhook automatically.
+    joinTitle: Which channel should join the Hub?
+    joinDescription: Messages in this channel will be shared with the Hub you choose next.
+    selected: "I’ll connect {channel} when the Hub is ready."
+  permissions:
+    title: One permission fix needed
+    description: "I’m missing these permissions in {channel}:"
+    instructions: Open the channel settings, grant these permissions to InterChat, then press **Check again**.
+    recheck: Check again
+    chooseAnother: Choose another channel
+  call:
+    readyTitle: Ready to meet another server
+    readyDescription: "{channel} passed every check. Nothing will be posted elsewhere."
+    whatHappens: I’ll start matchmaking and post the call controls in that channel. You can leave any time with `/hangup`.
+    start: Start matching
+    startedTitle: Your call is live
+    startedDescription: "I started matchmaking in {channel}. Head there and say hello when another server joins."
+  create:
+    title: Name your new Hub
+    nameLabel: Hub name
+    nameDescription: Pick a short, unique name people will recognize.
+    namePlaceholder: Gaming Lounge
+    taglineLabel: One-line description
+    taglineDescription: Tell people what this community is for.
+    taglinePlaceholder: A relaxed place to meet other gaming servers
+  directory:
+    connecting: "Choose a Hub below. I’ll connect it to {channel}."
+  errors:
+    serverOnly: Setup only works inside a server.
+    managerRequired: You need **Manage Server** or **Manage Channels** to set up InterChat here.
+    manageChannelsRequired: You need **Manage Channels** to connect or create a Hub. You can still start a Call.
+    textChannelRequired: Choose a standard server text channel.
+    callsUnavailable: Calls are still starting up. Try again in a few seconds.
   select:
     placeholder: Wähle eine Sprache
   locale:
