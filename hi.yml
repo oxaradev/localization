@@ -963,6 +963,42 @@ staff:
     notFound: कोई मेल खाती ब्लैकलिस्ट प्रविष्टि नहीं मिली।
     removed: ब्लैकलिस्ट प्रविष्टि हटा दी गई।
 hub:
+  directory:
+    title: "## {globe} Discover Hubs — {sortEmoji} {sort}"
+    page: "Page {current} of {total} • {count} public hubs"
+    searching: 'Searching: "{query}"'
+    connectHint: "Choose Connect, or use `/hub connect hub:<name>`."
+    connect: Connect
+    details: Details
+    serverOnly: Open this directory inside a server to connect a channel.
+    sortPlaceholder: Sort public hubs
+    empty: No public hubs are available yet. Create the first one with `/hub create`.
+    emptySearch: 'No public hubs match "{query}". Try a broader search.'
+    search:
+      title: Search public Hubs
+      label: खोजें
+      placeholder: Search names and descriptions
+    sorts:
+      alive:
+        label: Recommended
+        description: Healthy conversation, people, and recent growth
+      active:
+        label: Active now
+        description: Most conversation and people in the last 24 hours
+      growing:
+        label: Growing
+        description: Most new server connections this week
+      big:
+        label: Biggest
+        description: Most currently connected servers
+      new:
+        label: New
+        description: Recently created public communities
+    metrics:
+      servers: "{activity} {count} servers"
+      messages: "💬 {count}/week"
+      people: "👥 {count}/day"
+      growth: "+{count} this week"
   rules:
     manage:
       description: Manage your hub's community rules and guidelines below.
