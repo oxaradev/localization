@@ -1561,32 +1561,32 @@ invite:
   description: Thanks for choosing InterChat. Need help? Join our support server.
 rules:
   select:
-  placeholder: Choose a section
+    placeholder: Choose a section
   sections:
     overview:
-    label: Overview
-    title: InterChat Rules
-    body: |
-      Keep things respectful, safe, and appropriate. These rules apply anywhere you're using InterChat.
+      label: Overview
+      title: InterChat Rules
+      body: |
+        Keep things respectful, safe, and appropriate. These rules apply anywhere you're using InterChat.
 
-      Use the menu below to read the **Conduct**, **Safety**, and **Content** rules.
+        Use the menu below to read the **Conduct**, **Safety**, and **Content** rules.
     conduct:
-        label: Conduct
-        title: Community Conduct
-        body: |
-          - 🚫 **Don't spam.** Avoid message flooding, huge walls of text, excessive emoji spam, or anything else meant to disrupt the chat.
-          - 🤝 **Keep arguments civil.** Disagreeing, debating, and joking around are fine. Repeated insults, personal attacks, humiliation, or harassment are not.
-          - 🎯 **Don't target people.** Following someone around to provoke, mock, or repeatedly attack them crosses the line.
-          - 🚨 **Don't abuse reports.** Reports should be made in good faith. Knowingly false or malicious reports may be moderated.
-          - 🔁 **Don't evade moderation.** Using alternate accounts or other methods to get around an active restriction is not allowed.
+      label: Conduct
+      title: Community Conduct
+      body: |
+        - 🚫 **Don't spam.** Avoid message flooding, huge walls of text, excessive emoji spam, or anything else meant to disrupt the chat.
+        - 🤝 **Keep arguments civil.** Disagreeing, debating, and joking around are fine. Repeated insults, personal attacks, humiliation, or harassment are not.
+        - 🎯 **Don't target people.** Following someone around to provoke, mock, or repeatedly attack them crosses the line.
+        - 🚨 **Don't abuse reports.** Reports should be made in good faith. Knowingly false or malicious reports may be moderated.
+        - 🔁 **Don't evade moderation.** Using alternate accounts or other methods to get around an active restriction is not allowed.
     safety:
-        label: Safety
-        title: Safety
-        body: |
-          - ⚔️ **Don't threaten people.** Threats of violence, serious harm, or sexual violence are not allowed.
-          - 💔 **Don't encourage self-harm.** Telling or encouraging someone to hurt or kill themselves is taken seriously.
-          - 🕵️ **Don't dox people.** Never share or threaten to share someone's private or identifying information without permission.
-          - 🔞 **No child sexualization or CSAM.** This is strictly prohibited and may result in immediate removal from InterChat.
+      label: Safety
+      title: Safety
+      body: |
+        - ⚔️ **Don't threaten people.** Threats of violence, serious harm, or sexual violence are not allowed.
+        - 💔 **Don't encourage self-harm.** Telling or encouraging someone to hurt or kill themselves is taken seriously.
+        - 🕵️ **Don't dox people.** Never share or threaten to share someone's private or identifying information without permission.
+        - 🔞 **No child sexualization or CSAM.** This is strictly prohibited and may result in immediate removal from InterChat.
     content:
       label: Konten
       title: Content Rules
@@ -1595,14 +1595,14 @@ rules:
         - 😏 **Keep sexual behavior appropriate.** Suggestive comments, sexual flirting, or similar behavior should not be brought into public InterChat conversations.
         - 🗯️ **No hate speech or discriminatory abuse.** Don't attack people based on race, ethnicity, religion, nationality, gender, sexuality, disability, or similar traits.
         - 🪪 **Keep names appropriate.** Usernames, nicknames, and server names shown through InterChat must also follow these rules.
-    enforcement:
-      title: Enforcement
-      body: |
-        Moderation depends on the situation. Staff may consider context, severity, repeated behavior, and previous violations when taking action.
+  enforcement:
+    title: Enforcement
+    body: |
+      Moderation depends on the situation. Staff may consider context, severity, repeated behavior, and previous violations when taking action.
 
-        ```
-        Serious safety violations may result in immediate restrictions or removal from InterChat.
-        ```
+      ```
+      Serious safety violations may result in immediate restrictions or removal from InterChat.
+      ```
 services:
   hub:
     validation:
