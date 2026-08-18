@@ -1586,9 +1586,7 @@ invite:
 
 rules:
   title: InterChat Rules
-  body: |
-    # InterChat Rules
-    Keep things respectful, safe, and appropriate. These rules apply anywhere you're using InterChat.
+  body: Keep things respectful, safe, and appropriate. These rules apply anywhere you're using InterChat.
   rules:
     title: The Rules
     commonSense: |
@@ -1648,7 +1646,7 @@ rules:
     Moderators look at **what happened, how serious it was, whether it was intentional, who it was directed at, whether the person stopped when asked, and their recent history.**
     ### The punishment ladder is:
     ```Warn → 6h → 24h → 7d → 14d → 30d → Permanent```
-    *Normal infractions older than 90 days should generally automatically expire and not increase a punishment.*
+    *Punishments may not always be linear, and often depend on the severity and context of the violation. Normal infractions older than 90 days should generally automatically expire and not increase a punishment.*
 
 services:
   hub:
