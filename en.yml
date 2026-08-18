@@ -1585,51 +1585,70 @@ invite:
   description: Thanks for choosing InterChat. Need help? Join our support server.
 
 rules:
-  select:
-    placeholder: Choose a section
-  sections:
-    overview:
-      label: Overview
-      title: InterChat Rules
-      body: |
-        Keep things respectful, safe, and appropriate. These rules apply anywhere you're using InterChat.
+  title: InterChat Rules
+  body: |
+    # InterChat Rules
+    Keep things respectful, safe, and appropriate. These rules apply anywhere you're using InterChat.
+  rules:
+    title: The Rules
+    commonSense: |
+      ## Use common sense
 
-        Use the menu below to read the **Conduct**, **Safety**, and **Content** rules.
-    conduct:
-      label: Conduct
-      title: Community Conduct
-      body: |
-        - 🚫 **Don't spam.** Avoid message flooding, huge walls of text, excessive emoji spam, or anything else meant to disrupt the chat.
-        - 🤝 **Keep arguments civil.** Disagreeing, debating, and joking around are fine. Repeated insults, personal attacks, humiliation, or harassment are not.
-        - 🎯 **Don't target people.** Following someone around to provoke, mock, or repeatedly attack them crosses the line.
-        - 🚨 **Don't abuse reports.** Reports should be made in good faith. Knowingly false or malicious reports may be moderated.
-        - 🔁 **Don't evade moderation.** Using alternate accounts or other methods to get around an active restriction is not allowed.
+      These rules can't cover every possible situation.
 
-    safety:
-      label: Safety
-      title: Safety
-      body: |
-        - ⚔️ **Don't threaten people.** Threats of violence, serious harm, or sexual violence are not allowed.
-        - 💔 **Don't encourage self-harm.** Telling or encouraging someone to hurt or kill themselves is taken seriously.
-        - 🕵️ **Don't dox people.** Never share or threaten to share someone's private or identifying information without permission.
-        - 🔞 **No child sexualization or CSAM.** This is strictly prohibited and may result in immediate removal from InterChat.
-
-    content:
-      label: Content
-      title: Content Rules
-      body: |
-        - 🔞 **Keep NSFW content out of InterChat.** Explicit sexual messages, images, and other sexual content are not allowed.
-        - 😏 **Keep sexual behavior appropriate.** Suggestive comments, sexual flirting, or similar behavior should not be brought into public InterChat conversations.
-        - 🗯️ **No hate speech or discriminatory abuse.** Don't attack people based on race, ethnicity, religion, nationality, gender, sexuality, disability, or similar traits.
-        - 🪪 **Keep names appropriate.** Usernames, nicknames, and server names shown through InterChat must also follow these rules.
-  enforcement:
-    title: Enforcement
+      If something is obviously being done to hurt, threaten, harass, sexualize, or seriously disrupt another person, don't assume it's allowed just because you can't find the exact wording in these rules.
     body: |
-      Moderation depends on the situation. Staff may consider context, severity, repeated behavior, and previous violations when taking action.
+      ### 1. Treat people with respect
+      **Banter is allowed. Harassment isn't.**
+      - Joking and banter are fine, but don't turn them into repeated insults, harassment, or deliberate attempts to upset someone.
+      - If someone asks you to stop, **stop**.
+      - Don't repeatedly provoke, mock, or attack someone, especially after they've asked you to stop.
 
-      ```
-      Serious safety violations may result in immediate restrictions or removal from InterChat.
-      ```
+      ### 2. Don't attack people for who they are
+      **Bigotry is not allowed.**
+      - Don't attack, insult, or degrade someone because of their race, ethnicity, nationality, religion, gender, sexuality, disability, or similar traits.
+      - Slurs aren't allowed, even if you claim you can use them because they apply to you.
+
+      ### 3. Keep people safe
+      **No threats or dangerous behavior.**
+      - Don't threaten to hurt, kill, or sexually assault someone.
+      - Don't encourage someone to hurt themselves.
+      - Don't encourage or help someone dox, swat, attack, or otherwise harm another person.
+
+      **Don't share private information.**
+      - Don't post or threaten to post someone's address, phone number, real name, location, IP address, or other private information.
+
+      ### 4. Keep sexual content appropriate
+      **Don't sexualize minors.**
+      - Sexual jokes, stories, comments, or conversations involving minors aren't allowed.
+      - Grooming, attempting to obtain sexual content from a minor, or other sexual behavior directed at minors is treated especially seriously.
+
+      **Keep explicit sexual content out of InterChat.**
+      - No sexting, sexual roleplay, graphic sexual messages, or similar content.
+      - Flirting is fine when it's welcome. If someone isn't interested, **stop**.
+
+      ### 5. Don't ruin the conversation
+      **No spam or deliberate disruption.**
+      - Don't flood chats, send huge walls of text, spam messages or emojis, or intentionally make a conversation unusable.
+
+      ### 6. Don't interfere with moderation
+      **Don't evade moderation.**
+      - Don't use another account or another method to get around an active ban or restriction.
+
+      **Don't abuse the report system.**
+      - Reports should be honest and made in good faith.
+      - Don't make fake reports to get someone punished.
+
+      ### 7. Keep your identity appropriate
+      **Names must follow the rules too.**
+      - Usernames, nicknames, server names, and other names shown through InterChat must follow these rules.
+
+  enforcement: |
+    ## How moderation works
+    Moderators look at **what happened, how serious it was, whether it was intentional, who it was directed at, whether the person stopped when asked, and their recent history.**
+    ### The punishment ladder is:
+    ```Warn → 6h → 24h → 7d → 14d → 30d → Permanent```
+    *Normal infractions older than 90 days should generally automatically expire and not increase a punishment.*
 
 services:
   hub:
