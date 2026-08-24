@@ -361,8 +361,8 @@ preferences:
     category: Selecciona una categoría
   badges:
     title: "Preferencias: Insignias"
-    description: Ahora tus insignias son **{status}** en tus mensajes.
-    currentDescription: Ahora tus insignias son **{status}** en tus mensajes.
+    description: Your badges are now **{status}** on messages, leaderboards, and your profile.
+    currentDescription: Currently your badges are **{status}** on messages, leaderboards, and your profile.
     visible: visibles
     hidden: ocultas
   voteReminders:
