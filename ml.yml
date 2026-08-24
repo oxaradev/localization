@@ -361,8 +361,8 @@ preferences:
     category: ഒരു വിഭാഗം തിരഞ്ഞെടുക്കുക
   badges:
     title: "മുൻഗണനകൾ: ബാഡ്ജുകൾ"
-    description: Your badges are now **{status}** within your messages.
-    currentDescription: Currently your badges are **{status}** within your messages.
+    description: Your badges are now **{status}** on messages, leaderboards, and your profile.
+    currentDescription: Currently your badges are **{status}** on messages, leaderboards, and your profile.
     visible: ദൃശ്യമാണ്
     hidden: മറച്ചിരിക്കുന്നു
   voteReminders:
