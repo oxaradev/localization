@@ -361,8 +361,8 @@ preferences:
     category: Pilih kategori
   badges:
     title: "Preferensi: Lencana"
-    description: Your badges are now **{status}** within your messages.
-    currentDescription: Currently your badges are **{status}** within your messages.
+    description: Your badges are now **{status}** on messages, leaderboards, and your profile.
+    currentDescription: Currently your badges are **{status}** on messages, leaderboards, and your profile.
     visible: terlihat
     hidden: tersembunyi
   voteReminders:
