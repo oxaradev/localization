@@ -361,8 +361,8 @@ preferences:
     category: एक श्रेणी चुनें
   badges:
     title: "प्राथमिकताएं: बैज (Badges)"
-    description: Your badges are now **{status}** within your messages.
-    currentDescription: Currently your badges are **{status}** within your messages.
+    description: Your badges are now **{status}** on messages, leaderboards, and your profile.
+    currentDescription: Currently your badges are **{status}** on messages, leaderboards, and your profile.
     visible: दिखाई दे रहे (visible)
     hidden: छिपे हुए (hidden)
   voteReminders:
